@@ -1,0 +1,115 @@
+{
+  "comparison_timestamp": "2025-10-05 01:38:04",
+  "old_dataset": {
+    "timestamp": "20251001_145721",
+    "source": "CoinDesk API",
+    "total_articles": 500,
+    "unique_sources": 1,
+    "avg_body_length": 3111.54
+  },
+  "new_dataset": {
+    "timestamp": "20251005_013651",
+    "source": "CryptoCompare API",
+    "total_articles": 500,
+    "unique_sources": 33,
+    "avg_body_length": 3208.44
+  },
+  "changes": {
+    "article_count_change": 0,
+    "source_diversity_change": 32,
+    "avg_length_change": 96.9,
+    "avg_length_change_pct": 3.11
+  },
+  "category_comparison": {
+    "old_unique_categories": 72,
+    "new_unique_categories": 66,
+    "common_categories": [
+      "FIAT",
+      "SOL",
+      "BTC",
+      "CRYPTOCURRENCY",
+      "EXCHANGE",
+      "MACROECONOMICS",
+      "REGULATION",
+      "TRADING",
+      "MARKET",
+      "BUSINESS",
+      "BLOCKCHAIN",
+      "ETH"
+    ],
+    "new_trending_categories": [
+      "XRP",
+      "DOGE",
+      "ALTCOIN"
+    ],
+    "disappeared_categories": [
+      "ASIA",
+      "SPONSORED",
+      "TECHNOLOGY"
+    ],
+    "old_top_5": {
+      "MARKET": 364,
+      "BTC": 245,
+      "TRADING": 222,
+      "CRYPTOCURRENCY": 210,
+      "BLOCKCHAIN": 167
+    },
+    "new_top_5": {
+      "CRYPTOCURRENCY": 476,
+      "TRADING": 290,
+      "MARKET": 261,
+      "BUSINESS": 149,
+      "BTC": 143
+    }
+  },
+  "source_comparison": {
+    "common_sources": [],
+    "new_sources": [
+      "Cryptopolitan",
+      "U.Today",
+      "cryptonews",
+      "BitcoinSistemi",
+      "CoinTelegraph",
+      "Bitcoinist",
+      "TimesTabloid",
+      "NewsBTC",
+      "CoinTurk News",
+      "CoinOtag"
+    ],
+    "disappeared_sources": [
+      "CoinDesk"
+    ],
+    "old_top_5": {
+      "CoinDesk": 500
+    },
+    "new_top_5": {
+      "Cryptopolitan": 92,
+      "CoinOtag": 54,
+      "TimesTabloid": 30,
+      "BitcoinSistemi": 26,
+      "U.Today": 26
+    }
+  },
+  "insights": [
+    {
+      "type": "API_CHANGE",
+      "title": "Data Source Migration",
+      "description": "Switched from CoinDesk API to CryptoCompare API",
+      "impact": "HIGH",
+      "details": "This represents a fundamental change in data sources and may affect content coverage and categorization"
+    },
+    {
+      "type": "DIVERSITY_INCREASE",
+      "title": "More Diverse Sources",
+      "description": "New dataset includes 32 more unique sources",
+      "impact": "HIGH",
+      "details": "New sources include: Cryptopolitan, U.Today, cryptonews, BitcoinSistemi, CoinTelegraph"
+    },
+    {
+      "type": "NEW_TOPICS",
+      "title": "Emerging Topics Detected",
+      "description": "New categories appearing in latest data: XRP, DOGE, ALTCOIN",
+      "impact": "MEDIUM"
+    }
+  ]
+}

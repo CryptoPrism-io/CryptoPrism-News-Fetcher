@@ -1,0 +1,59 @@
+{
+  "timestamp": "20251021_193447",
+  "total_articles": 50,
+  "unique_sources": 18,
+  "unique_categories": 34,
+  "unique_tags": 84,
+  "avg_body_length": 1194.92,
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2025-10-21 18:41:29",
+    "newest": "2025-10-21 19:31:10"
+  },
+  "top_sources": {
+    "CoinOtag": 11,
+    "Investing.com Crypto News": 9,
+    "Cryptopolitan": 4,
+    "AMB Crypto": 3,
+    "Cointelegraph": 3,
+    "Seeking Alpha": 2,
+    "U.Today": 2,
+    "BitcoinSistemi": 2,
+    "CoinTurk News": 2,
+    "Decrypt": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 36,
+    "MARKET": 15,
+    "EXCHANGE": 13,
+    "TRADING": 12,
+    "BTC": 9,
+    "BUSINESS": 9,
+    "ETH": 9,
+    "BLOCKCHAIN": 7,
+    "XRP": 6,
+    "FIAT": 5,
+    "ALTCOIN": 4,
+    "OTHER": 4,
+    "DOT": 3,
+    "REGULATION": 3,
+    "BNB": 2
+  },
+  "top_tags": {
+    "News": 19,
+    "Analysis": 6,
+    "XRP": 5,
+    "BTC": 4,
+    "ETH": 4,
+    "Ethereum": 4,
+    "Bitcoin": 3,
+    "Ripple": 3,
+    "Altcoin": 3,
+    "USDC": 3,
+    "Coinbase": 3,
+    "News 1": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "DOT": 2
+  }
+}

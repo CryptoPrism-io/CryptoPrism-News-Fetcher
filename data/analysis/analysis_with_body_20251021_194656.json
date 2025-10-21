@@ -1,0 +1,63 @@
+{
+  "timestamp": "20251021_194656",
+  "total_articles": 50,
+  "unique_sources": 17,
+  "unique_categories": 28,
+  "unique_tags": 81,
+  "body_stats": {
+    "avg_length": 875.86,
+    "min_length": 0,
+    "max_length": 7954
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2025-10-21 19:03:49",
+    "newest": "2025-10-21 19:45:57"
+  },
+  "top_sources": {
+    "Investing.com Crypto News": 11,
+    "Investing.Com Crypto Opinion and Analysis": 8,
+    "CoinOtag": 7,
+    "TimesTabloid": 3,
+    "Crypto Potato": 3,
+    "U.Today": 3,
+    "Cointelegraph": 3,
+    "Seeking Alpha": 2,
+    "Cryptopolitan": 2,
+    "The Crypto Basic": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 38,
+    "TRADING": 16,
+    "BTC": 16,
+    "MARKET": 15,
+    "EXCHANGE": 12,
+    "ETH": 9,
+    "BUSINESS": 5,
+    "BLOCKCHAIN": 5,
+    "OTHER": 5,
+    "FIAT": 5,
+    "XRP": 4,
+    "MACROECONOMICS": 3,
+    "USDC": 3,
+    "REGULATION": 2,
+    "SOL": 2
+  },
+  "top_tags": {
+    "News": 13,
+    "Crypto News": 4,
+    "Bitcoin": 4,
+    "ETH": 4,
+    "USDC": 3,
+    "BTC": 3,
+    "Analysis": 3,
+    "XRP": 3,
+    "AA News": 2,
+    "SOL": 2,
+    "Cryptocurrency": 2,
+    "USDT": 2,
+    "Ripple": 2,
+    "Ethereum": 2,
+    "DOT": 2
+  }
+}

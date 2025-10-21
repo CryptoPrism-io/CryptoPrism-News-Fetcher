@@ -1,0 +1,1049 @@
+{
+  "Data": [
+    {
+      "TYPE": "121",
+      "ID": 52473886,
+      "GUID": "29acef38-4fe1-4e4a-ae76-102e8b5236c1",
+      "PUBLISHED_ON": 1759233600,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52473886.jpeg",
+      "TITLE": "Crypto Markets Today: BTC, ETH Hold Gains as Aster’s Leverage-Fueled Volume Hits $64B",
+      "SUBTITLE": "BTC and ETH edge higher as derivatives metrics flash a tentative bullish tilt, while new DEX Aster grabs $64B in daily volume with extreme leverage despite weak token performance.",
+      "AUTHORS": "Oliver Knight,Jacob Joseph",
+      "URL": "https://www.coindesk.com/markets/2025/09/30/crypto-markets-today-btc-eth-hold-gains-as-aster-s-leverage-fueled-volume-hits-usd64b",
+      "SOURCE_ID": 5,
+      "BODY": "Crypto majors bitcoin (BTC) and ether (ETH) rose on Tuesday as the market begins to consolidate following Monday's recovery. Bitcoin is trading at $112,900 while ether is at $4,150, adding 0.78% and 1.1%, respectively, in the past 24 hours as futures open interest jumped from $29 billion to $31 billion in a sign of bullish bias. Much of Tuesday's activity is occurring in the altcoin sphere, with newly-touted decentralized exchange Aster racking up $64 billion in daily trading volume as traders rush to use the platform that offers up to 300x leverage. Derivatives Positioning by Jacob Joseph The market is showing signs of a potential shift back to a bullish bias as derivatives metrics, including open interest and basis, show a pickup. Overall BTC futures open interest rose to roughly $31 billion from a recent monthly low of $29 billion. This increase indicates a renewed interest from traders, with Binance still leading at $12.7 billion. The three-month annualized basis is also recovering, climbing to 7% from around 6%, which makes the basis trade more profitable. The BTC options market is still presenting a complex and somewhat contradictory picture. While the 25 delta skew for short-term options continues to drop, suggesting traders are paying a premium for puts and signaling a desire for downside protection, the 24-hour put-call volume is telling a different story. In a clear reversal from recent trends, calls now dominate the volume, making up 65% of the contracts traded. This sharp increase indicates that despite the cautious sentiment reflected in the skew, a significant number of traders are actively positioning for a short-term rally. This divergence highlights a highly polarized market, where a mix of hedging strategies and speculative bets creates a state of mixed sentiment. Funding rates on major venues like Binance and OKX have turned positive, rising to around 7% and 10% respectively. This indicates a growing appetite for leveraged long positions, where long traders are now paying shorts, a classic sign of positive market sentiment. While the funding rate on Hyperliquid remains volatile, the trend on key exchanges suggests that traders are once again becoming confident and willing to take on bullish exposure Coinglass data shows $316 million in 24 hour liquidations, with a 44-56 split between longs and shorts. ETH ($73 million), BTC ($70 million) and others ($29 million) were the leaders in terms of notional liquidations. The Binance liquidation heatmap indicates $115,000 as a core liquidation level to monitor, in case of a price rise. Token Talk By Oliver Knight The derivatives exchange battle between Aster and HyperLiquid is heating up. Daily trading volume on BNB Chain-based Aster has rocketed to $64 billion, dwarfing HyperLiquid's $7.6 billion, DefiLlama data shows. According to BoltLiquidity core contributor Max Arch, the shift is due to Aster's offering of between 100x and 300x leverage. HyperLiquid's markets are mainly capped at 40x. \"Traders are following the leverage, regardless of underlying platform quality, but we’ll see how the increased risk that comes with higher leverage caps impacts platforms like Aster long-term,\" Arch wrote on X . Arch notes that around 6% of Aster's trading volume can be attributed to wash trading , far less than some skeptics had estimated. The exchanges' native tokens, ASTER and HYPE, have performed poorly over the past week; with the former sliding from $2.39 on Sep. 25 to $1.80, while HYPE is down from Sep. 18's high of $58.92 to $44.32. The bearish token performance relative to trading activity can be attributed to a wider altcoin sell-off that led to the removal of $200 billion from the sector's total market cap last week, according to CoinMarketCap data.",
+      "KEYWORDS": "Markets|Markets|market analysis|Derivatives|Crypto Markets Today|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "POSITIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1759236822,
+      "UPDATED_ON": 1759236822,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        },
+        {
+          "TYPE": "122",
+          "ID": 62,
+          "NAME": "ZRX",
+          "CATEGORY": "ZRX"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52431424,
+      "GUID": "f5f8d03f-01f9-4493-8a91-1c9f36ea296f",
+      "PUBLISHED_ON": 1759147200,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52431424.jpeg",
+      "TITLE": "Crypto Markets Today: Warning Signals as Bitcoin's Strongest Month of the Year Approaches",
+      "SUBTITLE": "October is the month in which bitcoin, on average, posts its best returns.",
+      "AUTHORS": "Oliver Knight,Jacob Joseph",
+      "URL": "https://www.coindesk.com/markets/2025/09/29/crypto-markets-today-warning-signals-as-bitcoin-s-strongest-month-of-the-year-approaches",
+      "SOURCE_ID": 5,
+      "BODY": "October is the month in which bitcoin, on average, posts its best returns.",
+      "KEYWORDS": "Markets|Markets|market analysis|Crypto Markets Today|Derivatives|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEUTRAL",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1759150899,
+      "UPDATED_ON": 1759150899,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        },
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52291323,
+      "GUID": "5efc36af-54b3-49e4-aa8c-7744520c50d9",
+      "PUBLISHED_ON": 1758885300,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52291323.jpeg",
+      "TITLE": "Trump Tariffs, GDP Rattle Markets, ETFs Bleed: Crypto Daybook Americas",
+      "SUBTITLE": "Your day-ahead look for Sept. 26, 2025",
+      "AUTHORS": "Omkar Godbole,Francisco Rodrigues",
+      "URL": "https://www.coindesk.com/daybook-us/2025/09/26/trump-tariffs-gdp-rattle-markets-etfs-bleed-crypto-daybook-americas",
+      "SOURCE_ID": 5,
+      "BODY": "By Omkar Godbole (All times ET unless indicated otherwise) It's not been a happy 24 hours for crypto bulls, with the CoinDesk 20 Index dropping 5% and market leaders bitcoin (BTC) and ether (ETH) falling nearly 2%. Major altcoins such as XRP, BNB and SOL lost even more, and ASTR, the native token of Aster DEX, which recently flipped Hyperliquid in 24-hour volume, fell 4% as the decentralized exchange saw abnormal price movements in the XPL-USDT perpetual trading pair. Still, a few coins, including MNT, CRO, KAS, OKB and XMR, managed gains of around 1%. The downturn coincides with a stronger dollar, pushed higher by Thursday’s U.S. GDP and jobless claims data. Meanwhile, market flow dynamics turned bearish. “ETF behavior changed from a primary absorber of supply to a net seller this week,\" analysts at BRN told CoinDesk. \"Yesterday, Bitcoin ETFs posted $258 million of outflows while Ethereum ETFs recorded $251 million of outflows, marking four straight days of red for ETH funds.” Whales have also become net sellers, offloading 147,000 BTC since Aug. 21, the most since the bull cycle began in early 2023, according to CryptoQuant. Analysts at Bitunix exchange warned that President Donald Trump's tariff announcements on Thursday have increased market uncertainty, with sentiment oscillating between “rising inflation” and “slowing growth.” Trump announced tariffs of as much as 100% on trucks, furniture and pharmaceuticals, effective Oct. 1. The Fed’s preferred inflation gauge, the core personal consumption expenditure, is due later today. The report is projected to show a 2.9% year-over-year rise in August, matching July. Month-on-month, it’s forecast to have increased 0.2%, slightly below July’s 0.3%, according to FactSet. A softer-than-expected print could temper the dollar’s rally, putting a floor under bitcoin and the wider crypto market. Traders should remain vigilant about regulatory developments related to digital asset treasuries. A WSJ report on Thursday cited U.S. regulators' concerns about unusual trading volumes and stock price volatility in over 200 companies linked to crypto treasury strategies. Regulatory pressure on these treasuries, or DATs, could accelerate market sell-offs. Additionally, geopolitical developments warrant attention, as reports are circulating about Russia's aerial incursions in Europe . WTI crude oil is already up 4% for the week, the most since June. Stay alert! What to Watch Crypto Nothing scheduled. Macro Sept. 26, 8:30 a.m.: Canada July GDP MoM Est. 0.1%. Sept. 26, 8:30 a.m.: U.S. August headline PCE Price Index YoY Est. 2.7%, MoM Est. 0.3%; core YoY Est. 2.9%, core MoM Est. 0.2%. Sept. 26, 10 a.m.: (Final) September Michigan Consumer Sentiment Est. 55.4. Sept. 26, 1 p.m.: Fed Vice Chair for Supervision Michelle Bowman speech on \"Approach to Monetary Policy Decision-Making.\" Earnings (Estimates based on FactSet data) Nothing scheduled. Token Events Governance votes & calls DYdX (DYDX) is voting on whether to approve the setting of Rewards C Constant to 0 . Voting closes Sept. 26. Decentraland DAO is voting on a new veto p rocedure that lets the council approve major decisions internally, while giving the community 14 days to challenge them through a Veto Proposal. Voting ends Sept. 29. Unlocks Sept, 28: Jupiter (JUP) to unlock 1.75% of its circulating supply worth $28.89 million. Token Launches Sept. 26: Hana Network (HANA) to be listed on Binance Alpha, KuCoin, MEXC, BingX, and others. Sept. 26: Mira (MIRA) to be listed on Binance Alpha, KuCoin, and others. Conferences Day 2 of 2: Asset Based Finance 2025 (New York) Sept. 26: 8th Annual Black Blockchain Summit (Washington) Token Talk By Francisco Rodrigues Plasma, a new blockchain purpose-built for stablecoins , launched its mainnet beta and native token XPL on Thursday, debuting with a fully diluted valuation that’s now above $12 billion. The layer-1 network, backed by Bitfinex, Bybit, Tether CEO Paolo Ardoino and tech billionaire Peter Thiel, entered the market with over $2 billion worth of XPL tokens in circulation. Built for high-speed, low-fee stablecoin operations, Plasma aims to serve as the back end for a new class of DeFi applications. At launch, liquidity was already deployed across major platforms including Aave, Ethereum, Euler and Fluid. These include Plasma One , which is billed as a “stablecoin-native neobank.” Some tokens sold to U.S. investors are locked until mid-2026 due to regulatory restrictions, which may lower the effective float in early trading. Derivatives Positioning Most major tokens, including BTC and ETH continued to experience capital outflows from futures market, leading to a decline in the notional open interest (OI). That's only to be expected as the market soon shakes out overleveraged bets. Notably, the BTC and ETH OI have continued to decline in the past couple of hours, raising questions about the sustainability of the minor price recovery. Smaller coins like KAS and KCS have seen a moderate increase in OI in the past 24 hours. Volume in crypto perpetuals listed on Aster DEX has surged to over $46 billion in the past 24 hours, significantly higher than Hyperliquid's $17 billion. On the CME, BTC futures OI has almost reversed the early September spike from 134K BTC to 149K BTC, representing renewed capital outflows. On the other hand, OI in options continues to rise, approaching the November 2024 high of 56.19K BTC. Positioning in ETH futures and options remains elevated on Deribit, with an annualized three-month basis at 7%, a significantly lower yield than SOL's 15%. BTC, ETH options risk reversals continue to lean bearish out to the December expiry, data from Deribit show. In SOL and XRP's case, pricing is biased bullish for the year-end expiry. Market Movements BTC is up 0.4% from 4 p.m. ET Thursday at $109,669.81 (24hrs: -2.17%) ETH is up 0.74% at $3,916.83 (24hrs: -3.12%) CoinDesk 20 is up 0.18% at 3,820.89 (24hrs: -3.25%) Ether CESR Composite Staking Rate is unchanged at 2.9% BTC funding rate is at 0.0049% (5.4082% annualized) on Binance DXY is down 0.19% at 98.37 Gold futures are up 0.21% at $3,778.90 Silver futures are up 0.56% at $45.37 Nikkei 225 closed down 0.87% at 45,354.99 Hang Seng closed down 1.35% at 26,128.20 FTSE is up 0.37% at 9,247.82 Euro Stoxx 50 is up 0.38% at 5,465.79 DJIA closed on Thursday down 0.38% at 45,947.32 S&P 500 closed down 0.5% at 6,604.72 Nasdaq Composite closed down 0.50% at 22,384.70 S&P/TSX Composite closed unchanged at 29,731.98 S&P 40 Latin America closed down 1.12% at 2,908.21 U.S. 10-Year Treasury rate is up 0.3 bps at 4.177% E-mini S&P 500 futures are unchanged at 6,664.75 E-mini Nasdaq-100 futures are unchanged at 24,614.25 E-mini Dow Jones Industrial Average Index are up 0.19% at 46,355.00 Bitcoin Stats BTC Dominance: 59.06% (-0.03%) Ether-bitcoin ratio: 0.03573 (0.52%) Hashrate (seven-day moving average): 1,083 EH/s Hashprice (spot): $48.79 Total Fees: 3.27 BTC / $364,469 CME Futures Open Interest: 134,940 BTC BTC priced in gold: 29.2 oz BTC vs gold market cap: 8.24% Technical Analysis XRP is dropping fast toward the key $2.65-$2.70 price level identified by the swing high from May and intraday lows in August and earlier this month. A break below would mark a significant weakening of buying demand, potentially yielding a slide toward $2.00. Crypto Equities Coinbase Global (COIN): closed on Thursday at $306.69 (-4.69%), -0.1% at $306.39 in pre-market Circle Internet (CRCL): closed at $124.66 (-5.26%), +0.28% at $125.01 Galaxy Digital (GLXY): closed at $32.12 (-6.34%), -1.26% at $31.71 Bullish (BLSH): closed at $61.83 (-8.52%), +0.36% at $62.05 MARA Holdings (MARA): closed at $16.07 (-8.9%), +0.62% at $16.17 Riot Platforms (RIOT): closed at $16.74 (-6.95%), +2.69% at $17.19 Core Scientific (CORZ): closed at $16.84 (-1%), -0.77% at $16.71 CleanSpark (CLSK): closed at $13.68 (-5.33%), -4.02% at $13.13 CoinShares Valkyrie Bitcoin Miners ETF (WGMI): closed at $42.16 (-6.31%), -1.4% at $41.57 Exodus Movement (EXOD): closed at $28.9 (-9.69%) Crypto Treasury Companies Strategy (MSTR): closed at $300.7 (-6.99%), +0.31% at $301.62 Semler Scientific (SMLR): closed at $30.21 (-4.46%), +1.66% at $30.71 SharpLink Gaming (SBET): closed at $16.31 (-7.22%), -0.98% at $16.15 Upexi (UPXI): closed at $5.28 (-14.29%), -0.38% at $5.26 Lite Strategy (LITS): closed at $2.54 (-5.93%), +1.97% at $2.59 ETF Flows Spot BTC ETFs Daily net flows: -$253.4 million Cumulative net flows: $57.2 billion Total BTC holdings ~1.32 million Spot ETH ETFs Daily net flows: -$251.2 million Cumulative net flows: $13.39 billion Total ETH holdings ~6.57 million Source: Farside Investors While You Were Sleeping Near $30M Ether Wipeout on Hyperliquid Stands Out as Crypto Market Sees $1B in Liquidation (CoinDesk): Nearly $1.2 billion in leveraged bets vanished as over-leveraged longs dominated losses, exposing overcrowded bullish positioning and rising risks on decentralized perpetual exchanges. Key Indicators to Watch in Q4: Bitcoin Seasonal Trends, XRP/BTC, Dollar Index, Nvidia, and More (CoinDesk): Seasonal data show strong fourth-quarter tailwinds for BTC and ETH, while signals from XRP, the dollar index and Nvidia highlight technical and macro risks for traders. Trump to Slap New Tariffs on Pharma, Big Trucks (The Wall Street Journal): The president announced Oct. 1 tariffs on imported branded drugs, heavy trucks and home goods, drawing warnings from U.S. pharmaceutical companies that higher costs could undermine domestic manufacturing and research. Will China’s Digital Yuan Centre Be a Step Forward for Internationalisation? (South China Morning Post): On Thursday, the People's Bank of China opened a Shanghai operations center and unveiled three platforms to expand e-CNY’s cross-border role, underlining Beijing’s bid to reduce China’s reliance on the U.S. dollar. Curve Finance Founder Michael Egorov Launches Bitcoin Yield Protocol (CoinDesk): Yield Basis, a decentralized automated market maker (AMM) protocol backed by $5 million, debuts with capped pools and veTokenomics to remove impermanent loss and open sustainable bitcoin yield.",
+      "KEYWORDS": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEGATIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758888003,
+      "UPDATED_ON": 1758888003,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        },
+        {
+          "TYPE": "122",
+          "ID": 210,
+          "NAME": "MACROECONOMICS",
+          "CATEGORY": "MACROECONOMICS"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52289354,
+      "GUID": "cc644e35-d574-4920-8e06-ea00017ab4c7",
+      "PUBLISHED_ON": 1758881301,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52289354.jpeg",
+      "TITLE": "Crypto Adoption in Emerging Markets Poses Risks to Financial Resilience: Moody's",
+      "SUBTITLE": "The risks are most acute in areas where crypto's use extends beyond investment into savings and remittances, according to the report.",
+      "AUTHORS": "Jamie Crawley",
+      "URL": "https://www.coindesk.com/policy/2025/09/26/crypto-adoption-in-emerging-markets-poses-risks-to-financial-resilience-moody-s",
+      "SOURCE_ID": 5,
+      "BODY": "Cryptocurrency adoption in emerging markets poses risks to monetary sovereignty and financial resilience, credit ratings giant Moody's Ratings said in a report on Thursday. The risks are most acute in areas where crypto's use extends beyond investment into savings and remittances, according to the report. Moody's suggests that higher penetration of stablecoins pegged to the U.S. dollar weaken monetary transmission when it leads to pricing and settlement increasingly occurring outside a market's domestic currency. Stablecoins are crypto tokens pegged to the value of a traditional financial asset, such as a fiat currency, with the U.S. dollar comfortably the most prevalent . \"This creates 'cryptoization' pressures analogous to unofficial dollarization, but withgreater opacity and less regulatory visibility,\" Moody's said. Cryptocurrency can also provide new ways of for capital flight, through pseudonymous wallets and offshore exchange, allowing individuals to move wealth abroad discreetly, undermining exchange rate stability, according to the report. Moody's also highlighted how increased ownership of cryptocurrency has been concentrated in emerging markets, particularly in Southeast Asia, Africa and parts of Latin America. Here, adoption is often driven by inflationary pressure, currency pressured and limited access to banking services. In contrast, adoption in more advanced economies, adoption is driven by institutional integration and regulatory clarity. Crypto ownership expanded to an estimated 562 million people by 2024, an increase of 33% from 2023, the report said. Read More: Stablecoin Adoption Set to Surge After GENIUS Act, Hit $4T in Cross-Border Volume: EY Survey",
+      "KEYWORDS": "Policy|Stablecoins|emerging markets|Moody's|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEGATIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758884427,
+      "UPDATED_ON": 1758884428,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 25,
+          "NAME": "EXCHANGE",
+          "CATEGORY": "EXCHANGE"
+        },
+        {
+          "TYPE": "122",
+          "ID": 6,
+          "NAME": "ASIA",
+          "CATEGORY": "ASIA"
+        },
+        {
+          "TYPE": "122",
+          "ID": 26,
+          "NAME": "FIAT",
+          "CATEGORY": "FIAT"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52244287,
+      "GUID": "7dcdd593-82a6-4b33-81fc-8c7f592db107",
+      "PUBLISHED_ON": 1758801600,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52244287.jpeg",
+      "TITLE": "Crypto Markets Today: AVAX Open Interest and Price Tanks, HYPE Underperforms",
+      "SUBTITLE": "Bitcoin fell, nearly erasing gains from Wednesday’s rebound, while ether slid more than 3% to trigger large liquidations.",
+      "AUTHORS": "Omkar Godbole,Francisco Rodrigues",
+      "URL": "https://www.coindesk.com/markets/2025/09/25/crypto-markets-today-avax-open-interest-and-price-tanks-hype-underperforms",
+      "SOURCE_ID": 5,
+      "BODY": "The crypto market slid early Thursday as ether, the second-largest token, dropped more than 3% to below $4,000. The decline triggered large liquidations, including a multimillion dollar loss for one whale. Bitcoin (BTC) also fell 1.5% to $115,600, nearly erasing gains from Wednesday’s rebound. Other major cryptocurrencies followed suit amid declines in Nasdaq and S&P 500 futures, likely caused by rising odds of a U.S. government shutdown. Coins like recent outperformers ASTR, AVAX and PUMP suffered double digit losses over 24 hours. One analyst pointed to cryptocurrencies as an early warning indicator for broader financial markets. \"Crypto is once again signaling shifts in risk appetite,\" said Alex Kuptsikevich, chief market analyst at FXPro. \"Altcoins and smaller developed market currencies have been weakening since the Federal Reserve’s rate cut last week, and major U.S. indices began following this trend from Tuesday onward.\" Token Talk by Francisco Rodrigues The price of Hyperliquid’s HYPE token is significantly underperforming the wider crypto market, mainly due to growing competition from BNB Chain-based derivatives exchange Aster and forthcoming token unlocks. Aster, which is backed by YZi Labs, overtook Hyperliquid in daily perpetual trading volume this week in an upset that sent shockwaves through crypto’s on-chain trading ecosystem. In just one week, Aster’s open interest ballooned 33,500%, leaping from $3.7 million to $1.25 billion. Its 24-hour trading volume hit $35.8 billion, more than double that of Hyperliquid, which logged $10 billion according to DeFiLlama data . Total value locked (TVL) on Aster also jumped, almost tripling to $1.85 billion. The platform’s token, ASTER, has added more than 344% in the past week to $2, giving it a fully diluted valuation of $15.9 billion. HYPE slid to $43 from $58.4. HYPE's drop coincides investor anxiety over upcoming token unlocks. In late November, 237 million HYPE, worth more than $10 billion at current prices, will gradually become liquid over a two-year period. Derivatives Positioning Open interest (OI) in futures tied to many major tokens has declined in the past 24 hours, with AVAX witnessing the sharpest drop, nearly 12%. Still, overall positioning in BTC futures remains elevated, with OI hovering close to record highs. ETH's futures OI has increased to 14.45 million ETH, despite large liquidations on the decentralized exchange Hyperliquid. OI in USDT- and dollar-denominated SOL perpetuals on major exchanges has increased slightly from 29 million SOL to 30.28 million SOL since Asian hours, as the spot price drops toward $200. Some traders seem to be shorting the decline. XRP, SOL, HBAR, TRX, SUI and XLM stand out as coins with negative funding rates, pointing to a bias for bearish short positions. On the CME, the downtrend in BTC futures OI has resumed while OI in ether futures has risen back to record highs above 2.2 million ETH. The annualized three-month basis in ETH has dropped to 7% from 9.8% in a sign of weakening of bullish pressures. On Deribit, BTC and ETH put options continue to draw premium relative to calls, painting a bearish picture. Some traders picked up out-of-the-money lower strike ether puts via OTC desk Paradigm.",
+      "KEYWORDS": "Markets|Markets|Crypto Markets Today|Derivatives|market analysis|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEGATIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758805040,
+      "UPDATED_ON": 1758805040,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        },
+        {
+          "TYPE": "122",
+          "ID": 210,
+          "NAME": "MACROECONOMICS",
+          "CATEGORY": "MACROECONOMICS"
+        },
+        {
+          "TYPE": "122",
+          "ID": 8,
+          "NAME": "AVAX",
+          "CATEGORY": "AVAX"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52201881,
+      "GUID": "be0131ec-251c-49a8-9428-9b48d61c3ea5",
+      "PUBLISHED_ON": 1758729600,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52201881.jpeg",
+      "TITLE": "Melee Raises $3.5M to Launch ‘Viral Prediction Markets’ Without Gatekeepers",
+      "SUBTITLE": "The platform lets creators and traders build markets on anything from politics to pop culture.",
+      "AUTHORS": "Ian Allison,AI Boost",
+      "URL": "https://www.coindesk.com/business/2025/09/24/melee-raises-usd3-5m-to-launch-viral-prediction-markets-without-gatekeepers",
+      "SOURCE_ID": 5,
+      "BODY": "Melee, a new prediction market startup that says speculation and betting should be as open as online discussion, has raised $3.5 million from Variant, DBA and a group of angel investors to roll out what it calls “Viral Markets.” Crypto native companies have witnessed the runaway success of Polymarket, the digital asset betting platform that grew to prominence during the U.S. election campaigns. Other novel projects to emerge include ‘Forecast Markets,’ a type of dated futures contracts launched on Clearmatics’ Autonity blockchain . Melee, which allows anyone to easily create a market on anything, sees prediction markets evolving alongside the internet like other types of social networks, following dimensions like media type, social graphs, interest graphs, and more, VC firm Variant said in an email. “We see prediction markets not as a winner-take-all market but as a burgeoning category, much like social networks, where there can be many winners. Social networks reshaped the way we create and consume information and media,” Variant said. “Unlike existing platforms that rely on centralized teams or professional market makers, Melee uses a pricing mechanism that rewards traders for being early and correct,” Variant added. The design also aims to attract creators. Influencers, podcasters or streamers can open markets tied to their audience’s interests and earn revenue from trading activity without taking on reputational risk. A fictional example might be a streamer launching a market on whether a blockbuster video game release will hit its target date, allowing fans to speculate directly alongside the conversation. For traders, the appeal lies in asymmetric upside. Entering a market early means lower costs of exposure, and payouts rise as more participants join and the outcome becomes clearer. The project’s team includes veterans of Solana, Avalanche, Monad, SIG, Microsoft and Amazon. The long-term vision, according to the announcement, is to create “humanity’s platform for valuing beliefs,” where millions of markets continuously reflect shifting cultural sentiment in real time.",
+      "KEYWORDS": "Finance|Prediction Markets|Venture Capital|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "POSITIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758730912,
+      "UPDATED_ON": 1758730912,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 15,
+          "NAME": "BUSINESS",
+          "CATEGORY": "BUSINESS"
+        },
+        {
+          "TYPE": "122",
+          "ID": 13,
+          "NAME": "BLOCKCHAIN",
+          "CATEGORY": "BLOCKCHAIN"
+        },
+        {
+          "TYPE": "122",
+          "ID": 46,
+          "NAME": "SOL",
+          "CATEGORY": "SOL"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52195839,
+      "GUID": "99343cff-1ac5-44f5-be03-5f5a239867f0",
+      "PUBLISHED_ON": 1758718800,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52195839.jpeg",
+      "TITLE": "Crypto Doesn’t Need Safe Havens, It Needs Safe Markets",
+      "SUBTITLE": "",
+      "AUTHORS": "Basil Al Askari",
+      "URL": "https://www.coindesk.com/opinion/2025/09/23/crypto-doesn-t-need-safe-havens-it-needs-safe-markets",
+      "SOURCE_ID": 5,
+      "BODY": "Crypto has never needed “safe havens.” It needs safe markets. The difference is more than semantics. A safe haven is a place to hide; a safe market is a place to build. Jurisdictions that understand this distinction will be the ones that capture the next significant wave of serious capital. The crypto industry has been in a regulatory tug-of-war for over a decade. On one side, innovators argued that too much oversight would suffocate the technology, while skeptics warned that too little would expose investors to catastrophic risk. The collapse of crypto exchange FTX in November 2022 only widened this divide even more. Caught in the middle, many crypto businesses took on a simple playbook: they found the jurisdiction with the lightest touch, grabbed a license and called it a win. This “safe haven” strategy created short-term advantages for many of those companies. It allowed exchanges and token issuers to scale quickly, avoid tough questions and brand themselves as pioneers. Outside of the U.S. — and therefore, outside the reach of Gary Gensler, former chair of the U.S. Securities and Exchange Commission (SEC) and industry boogeyman known for his regulation-by-enforcement approach to crypto — many of those companies likely felt relief. But it also produced exactly what critics feared: markets where investor protection was an afterthought, enforcement was inconsistent and credibility was fragile. The result is a trust deficit that still weighs heavily on the industry today. The UAE’s Regulatory Flip The United Arab Emirates (UAE) has nailed the delicate balance in regulating crypto, carefully walking the line between innovation and safety. Instead of rushing to become a permissive playground, the country took a slower, more considered approach. It invested in a comprehensive regulatory framework, launching entities like the Virtual Assets Regulatory Authority (VARA) in Dubai and the Abu Dhabi Global Market (ADGM). The UAE’s goal was never to attract companies looking for shortcuts, but to build an ecosystem where safety and supervision are the primary focus. This matters because capital behaves differently today than it did in crypto’s early years. Retail traders may have chased offshore exchanges and high-risk offerings, but institutional investors are motivated by an entirely different calculus. Big Money Is Chasing What Is Proven Pension funds, sovereign wealth funds and family offices are gravitating more and more toward markets where strategies have been tried and tested. They allocate capital in jurisdictions where they can trust the rules of the game, where custodians meet international standards and where enforcement is legitimate, that is, where laws and regulations are applied consistently, fairly, and transparently. By positioning itself as a safe market rather than a safe haven, the UAE is sending exactly the right signal: innovation is welcome, but accountability is non-negotiable. The UAE’s multi-layered regulatory environment gives crypto businesses the choice of which regulatory framework suits their operational needs. This is a reflection of the UAE’s ability to support genuine innovation and healthy competition through transparent frameworks and world-class regulatory standards. It’s further evidence that the UAE is evolving beyond minimum compliance, creating an ecosystem where capital, talent and fresh ideas not only converge, but thrive. Why “Loophole Jurisdictions” Are Fading The idea that a weak regulatory framework could be an asset for the crypto industry is losing traction fast. In fact, the opposite is now true. Loophole jurisdictions are becoming liabilities. Global regulators are closing ranks, sharing intelligence, and applying pressure on markets that undercut standards. The International Organization of Securities Commissions (IOSCO) which sets the global standard for financial markets regulation has increasingly focused on crypto markets in recent years. At the same time, retail investors are more cautious — the high-profile collapses of exchanges and lenders in recent years have reminded everyone that when the rules are unclear or unenforced, it is the investor who pays the price. Markets that rely on being “easier” are already getting called out publicly. Malta was recently criticized by the European Securities and Markets Authority (ESMA) for not conducting enough due diligence before granting a license to a crypto firm. More recently, Malta pushed back on the push for centralized European crypto regulation, with the local securities regulator saying it doesn’t support regulatory centralization. Being known as a regulatory arbitrage hub may have worked in 2017, but in 2025, it is a massive red flag. The Coming Capital Movement The next phase of crypto adoption will be defined less by speculative trading and more by integration into mainstream finance. That means stablecoins backed by real reserves, tokenized assets with clear legal protections and exchanges that can withstand the scrutiny of institutional due diligence. This is why the safe market model is more powerful than the safe haven model. It aligns with the interests of long-term investors, creates durable trust and ultimately raises the bar for the entire industry. Building for the Future Crypto is often described as borderless, but capital is not. Money flows along channels of credibility and regulation. The jurisdictions that recognize this will become the winners. They will not be the places where oversight is weakest —they will be the places where oversight is most effective. Safety is not a barrier to innovation. It is the foundation of growth. The UAE’s example should challenge other markets to rethink their approach, not to chase companies with lax rules, but to attract them with robust frameworks. Crypto doesn’t need more havens to hide in. It needs markets strong enough to support its ambitions, transparent enough to earn trust and safe enough to scale. That is where the next wave of capital will go.",
+      "KEYWORDS": "Opinion|Vara|UAE|MidChains|Opinion",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEUTRAL",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758720185,
+      "UPDATED_ON": 1758720186,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 15,
+          "NAME": "BUSINESS",
+          "CATEGORY": "BUSINESS"
+        },
+        {
+          "TYPE": "122",
+          "ID": 41,
+          "NAME": "REGULATION",
+          "CATEGORY": "REGULATION"
+        },
+        {
+          "TYPE": "122",
+          "ID": 25,
+          "NAME": "EXCHANGE",
+          "CATEGORY": "EXCHANGE"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52193731,
+      "GUID": "61b3cb97-db29-480d-80b0-e5d2ab66e6fc",
+      "PUBLISHED_ON": 1758713196,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52193731.jpeg",
+      "TITLE": "Metamask Token Hype Builds, While Aster Open Positions Surge 46%: Crypto Markets Today",
+      "SUBTITLE": "Much will depend on the ability of bitcoin bulls to overcome important resistance levels at $113,500 and $115,000, one analyst said. ",
+      "AUTHORS": "Omkar Godbole,Oliver Knight",
+      "URL": "https://www.coindesk.com/markets/2025/09/24/metamask-token-anticipation-builds-while-aster-becomes-new-favorite-crypto-markets-today",
+      "SOURCE_ID": 5,
+      "BODY": "Bitcoin (BTC), the crypto market leader, has bounced to nearly $113,000, hinting at an end to the three-day losing streak. Other major coins are following BTC's lead, with further gains contingent on bitcoin moving past key levels. \"Much will depend on the ability of bitcoin bulls to overcome important resistance levels at 113,500 and 115,000. If they succeed, there will be a chance to restore the uptrend. Failure will increase the risks of a Bitcoin correction,\" Alex Kuptsikevich, senior analyst at FxPro, said in an email. Token Talk By Oliver Knight MetaMask’s parent company ConsenSys, and Ethereum co-founder Joe Lubin, recently confirmed that the long-rumored MASK token is indeed coming, and possibly “sooner than you would expect.” Lubin emphasized that MASK would be tied to the decentralization of certain parts of the MetaMask platform, moving control from a purely centralized model toward community governance. While no official tokenomics have yet been published, MetaMask seems likely to follow a model similar to that used by ConsenSys’s Layer-2 project Linea: retaining a modest share for the company while allocating much of the supply toward ecosystem incentives, developer funding, and user rewards. In previous token launches, eligible users, particularly active ones, have been prioritized in the distributions, which has fueled speculation that the airdrop will focus heavily on users with meaningful activity in MetaMask, like swaps or interactions with dApps. However, some X users have warned Metamask wallet owners to taper their expectations; with Wale Moca saying users could receive just $8.5 each if the token debuts at a $3 billion fully diluted value (FDV). That is based on 70 million users each owning an average of five wallets. MASK is now being anticipated alongside a series of major airdrops, including Base, OpenSea and a second HyperLiquid drop. Derivatives Positioning by Omkar Godbole Aster token's futures open interest (OI) has increased by 46%, a stark contrast to muted OI activity in futures tied to the top 20 tokens. Open interest in Bitcoin's Tether- and USD-denominated perpetual futures listed on major exchanges has remained steady around 274,000 BTC since the Asian session, indicating the futures market has yet to participate in the overnight price recovery. Perhaps traders are worried that gains will be erased during U.S. hours, just as they were on Tuesday. XRP and ETH markets showed similar dynamics, while OI has increased in SOL since Asian hours. HYPE and XMR stood out at press time, with funding rates in excess of an annualized 25%. On the CME, OI in ether futures is closing on record highs above 2.2 million ETH, while activity in BTC futures remains subdued. On Deribit, BTC risk reversals show a bias for protective puts out to the June 2026 expiry. In ETH's case, options out to December expiry show a put bias.",
+      "KEYWORDS": "Markets|MetaMask|Hyperliquid|market analysis|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "POSITIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758716524,
+      "UPDATED_ON": 1758716524,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 55,
+          "NAME": "WALLET",
+          "CATEGORY": "WALLET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 24,
+          "NAME": "ETH",
+          "CATEGORY": "ETH"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52109660,
+      "GUID": "7d65ec1b-0abe-40e9-b94f-182746feb31c",
+      "PUBLISHED_ON": 1758564629,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52109660.jpeg",
+      "TITLE": "U.S., U.K. Form Task Force to Align on Crypto and Capital Markets",
+      "SUBTITLE": "The new Transatlantic Taskforce, announced by Treasury chiefs Rachel Reeves and Scott Bessent, aims to deepen cooperation on digital assets and cross-border capital raising.",
+      "AUTHORS": "Oliver Knight",
+      "URL": "https://www.coindesk.com/business/2025/09/22/u-s-u-k-form-task-force-to-align-on-crypto-and-capital-markets",
+      "SOURCE_ID": 5,
+      "BODY": "The U.S. and U.K. have established a joint Transatlantic Taskforce aimed at strengthening cooperation on capital markets and digital assets. The task force, announced on Sep. 22 by U.K. Chancellor of the Exchequer Rachel Reeves and U.S. Treasury Secretary Scott Bessent, will bring together officials from HM Treasury, the U.S. Treasury and market regulators across both jurisdictions. Two of the goals of the task force is to develop approaches to digital asset oversight and explore new opportunities in wholesale digital markets. The group will report within 180 days through the existing U.K.–U.S. Financial Regulatory Working Group, delivering recommendations shaped in close consultation with private industry, the release said. “London and New York remain the twin pillars of global finance,” Reeves said, adding that closer alignment is essential as technology reshapes markets. Bessent echoed that sentiment during a Downing Street roundtable, calling the initiative a commitment to ensuring innovation in financial markets “does not stop at borders.” Crypto at the forefront While the task force’s remit spans traditional capital markets, digital assets are expected to take center stage. Officials will look at both short-term measures, such as facilitating cross-border use cases while legislation remains in flux, and long-term strategies for advancing wholesale digital market infrastructure. “With the creation of a joint U.K.-U.S. task force on capital markets and digital assets, we can expect meaningful developments on both sides of the Atlantic,” Mark Aruliah, head of EMEA policy and regulatory affairs at Elliptic, said in an email. While noting that the U.S. has “set the pace with a pro-innovation agenda,” Aruliah suggested the task force “signals a strong intent to close that gap and position the U.K. more competitively.” More broadly, the firm described the collaboration as a validation of the digital assets industry itself: “Structured collaboration of this kind will strengthen a shared commitment to higher standards of transparency and accountability, and may establish a global benchmark if other jurisdictions follow suit.”",
+      "KEYWORDS": "Finance|HM Treasury|U.S. Treasury Department|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "POSITIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758564988,
+      "UPDATED_ON": 1758564989,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 41,
+          "NAME": "REGULATION",
+          "CATEGORY": "REGULATION"
+        },
+        {
+          "TYPE": "122",
+          "ID": 210,
+          "NAME": "MACROECONOMICS",
+          "CATEGORY": "MACROECONOMICS"
+        },
+        {
+          "TYPE": "122",
+          "ID": 49,
+          "NAME": "TECHNOLOGY",
+          "CATEGORY": "TECHNOLOGY"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52101595,
+      "GUID": "060cef87-84e3-4ad1-b6bc-b1cb5f37e08f",
+      "PUBLISHED_ON": 1758549232,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52101595.jpeg",
+      "TITLE": "Plasma Unveils First Stablecoin-Native Neobank, Targeting Emerging Markets",
+      "SUBTITLE": "The rollout comes ahead of Plasma’s mainnet beta launch on September 25.",
+      "AUTHORS": "Will Canny,AI Boost",
+      "URL": "https://www.coindesk.com/business/2025/09/22/plasma-unveils-first-stablecoin-native-neobank-targeting-emerging-markets",
+      "SOURCE_ID": 5,
+      "BODY": "Plasma has launched Plasma One, the first neobank built entirely around stablecoins, aiming to make saving, spending, and earning in digital dollars seamless, the company said in a press release Monday. The platform is designed to fix what the company calls a broken user experience for stablecoin holders, who often face clunky interfaces, limited local options, and friction when converting to cash. Stablecoins are cryptocurrencies whose value is tied to another asset, such as the U.S. dollar or gold. They play a major role in cryptocurrency markets, providing a payment infrastructure, and are also used to transfer money internationally. “The dollar is the product, and most of the world is desperate to access it,” said Plasma CEO Paul Faecks. \"Plasma One is our answer to the distribution problem as it puts us directly in the hands of people who face financial exclusion, delivering permissionless access to saving, spending, earning, and sending digital dollars,\" Faecks added. Plasma One offers card payments with rewards, zero-fee USDT transfers, and fast onboarding, all built on Plasma’s own blockchain and payments stack. The company is focusing on emerging markets where dollar access is most critical, using local teams and peer-to-peer cash networks to drive adoption. The rollout comes ahead of Plasma’s mainnet beta launch on Sept. 25, with access set to expand in stages. Read more: Plasma to Launch Mainnet Beta Blockchain for Stablecoins Next Week",
+      "KEYWORDS": "Finance|Plasma|USDT|Stablecoins|emerging markets|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "POSITIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758550477,
+      "UPDATED_ON": 1758550477,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 47,
+          "NAME": "SPONSORED",
+          "CATEGORY": "SPONSORED"
+        },
+        {
+          "TYPE": "122",
+          "ID": 54,
+          "NAME": "USDT",
+          "CATEGORY": "USDT"
+        },
+        {
+          "TYPE": "122",
+          "ID": 13,
+          "NAME": "BLOCKCHAIN",
+          "CATEGORY": "BLOCKCHAIN"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52097313,
+      "GUID": "d3cc9694-08bc-4e8a-8c70-4d3ad6fe75bd",
+      "PUBLISHED_ON": 1758542400,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52097313.jpeg",
+      "TITLE": "Crypto Markets Today: Major Tokens Slide, Altcoins Tumble More Than 10%",
+      "SUBTITLE": "The decline followed a supposedly dovish Fed interest-rate cut, which was expected to weaken the dollar and encourage more risk-taking in crypto markets.",
+      "AUTHORS": "Omkar Godbole,Oliver Knight",
+      "URL": "https://www.coindesk.com/markets/2025/09/22/crypto-markets-today-major-tokens-slide-altcoins-tumble-more-than-10",
+      "SOURCE_ID": 5,
+      "BODY": "The cryptocurrency market wilted early Monday, with losses in bitcoin (BTC), ether (ETH) and other major cryptocurrencies triggering the liquidation of leveraged bets worth $1.5 billion. The decline followed a supposedly dovish Fed interest-rate cut, which was expected to send the dollar index lower and encourage more risk-taking in crypto markets. \"In recent days, there have been several signals of a shift to a downward trend in the first cryptocurrency,\" Alex Kuptsikevich, chief market analyst at the FxPro, said in an email. \"BTCUSD fell out of the upward channel that had been in place since early September, dropped below horizontal support and fell sharply below the 50-day moving average. \"This combination of negative signals suggests a further decline is likely unless there is a fundamental change in financial market sentiment.\" Derivatives Positioning By Omkar Godbole The top 20 tokens, except for BTC and HYPE, have seen double-digit declines in futures open interest as the price drops shake out overleveraged bets. Shorts seem to be stepping in via Binance-listed USDT futures, as OI has increased to 276K BTC from 270K alongside near-zero funding rates in the past couple of hours. Funding rates in TRX, ADA, LINK, TON, UNI and Binance-listed 1000SHIB futures are notably negative, indicating a bias for bearish, short positions. Funding rates for other majors, including BTC, are flat to slightly positive. BTC front-month futures on the CME still trade at a roughly $100 premium to the spot price. Traders need to watch out for a potential shift into discount for signs of strengthening of selling pressure. On Deribit, put premiums relative to calls have spiked, as the price drops bolster demand for downside protection. Sentiment in the XRP and SOL options has flipped bearish too, aligning with BTC and ETH markets. Token Talk By Oliver Knight A number of altcoins were dealt double-digit moves to the downside on Monday, with the likes of PUMP, RAY, CRV and TIA all sliding to their lowest in over a month. The sell-off was made worse by a $1.6 billion liquidation cascade, with $500 million occurring on ether (ETH) trading pairs, according to CoinGlass . Funding rates for ether flipped negative, which means short traders are paying to hold their position, demonstrating a shift in sentiment following ETH's rally from $2,400 at the start of July to $4,831 in late August. It's worth noting that crypto majors like BTC, ETH and SOL are now at respective levels of support and as sentiment has flipped bearish, a recovery could be staged to target traders being overly aggressive in short positions. The average crypto token relative strength index (RSI) is also at 28.4 out of 100 , indicating heavily oversold conditions that will likely lead to a relief rally, unless ETH and BTC break their levels of support.",
+      "KEYWORDS": "Markets|Markets|Crypto Markets Today|market analysis|Derivatives|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEGATIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758542827,
+      "UPDATED_ON": 1758542827,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        },
+        {
+          "TYPE": "122",
+          "ID": 24,
+          "NAME": "ETH",
+          "CATEGORY": "ETH"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 52029226,
+      "GUID": "252fc13d-7e33-4313-93a7-88e8f2ba6350",
+      "PUBLISHED_ON": 1758402000,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/52029226.jpeg",
+      "TITLE": "Internet Computer Bets Big on AI as Crypto Markets Play Catch-Up",
+      "SUBTITLE": "This could be the beginning of a new tech stack — one in which AI, not humans, becomes the primary developer of applications, says Dfinity founder Dominic Williams.",
+      "AUTHORS": "Jamie Crawley,AI Boost",
+      "URL": "https://www.coindesk.com/tech/2025/09/20/internet-computer-bets-big-on-ai-as-crypto-markets-play-catch-up",
+      "SOURCE_ID": 5,
+      "BODY": "The Internet Computer (ICP), a blockchain project that has sought to differentiate itself from rivals, is doubling down on its pitch as the go-to network for on-chain artificial intelligence (AI). This could be the beginning of a new tech stack - one in which AI, not humans, becomes the primary developer of applications, according to Dominic Williams, founder of Internet Computer developer Dfinity. Williams argued that while crypto prices remain driven largely by market mechanics - treasury operations, liquidity games and speculation - the underlying technology will eventually force a reckoning in an interview with CoinDesk. “In the long run, markets begin to reflect realities on the ground,” he said. “But as yet you’re not seeing what’s happening with Internet Computer reflected in ICP’s price.” Running AI on-Chain The Internet Computer first demonstrated neural networks running as smart contracts in April last year, starting with image classification and later facial recognition, Williams said. While those were relatively simple models compared to large language models - the kind that power AI tools like ChatGPT and Gemini - they were proof of concept: that AI can run natively on a blockchain. No other network has achieved this, Williams pointed out, despite the chatter about “decentralized AI.” Where others rely on off-chain infrastructure like Amazon Web Services, ICP seeks to integrate the full AI development and execution stack on-chain. Williams describes this as “a self-writing internet” - a system where users describe what they want, and an AI delivers it as a working application, hosted directly on Internet Computer. The bigger idea, Williams said, is that AI itself will replace much of today’s developer workflow. Instead of humans writing code, configuring databases and maintaining servers, an AI could spin up applications instantly, update them continuously and ensure resilience through blockchain-based guarantees. This reframes the blockchain not just as a settlement layer for tokens, but as the optimal environment for AI-generated applications. ICP’s design, with features like “reverse gas” - the model where developers pay for the computational costs of their applications, rather than requiring end users to pay a transaction fee - removes the need for firewalls or database migrations that plague traditional infrastructure. “AI is developing these apps hundreds of times faster than humans could,” Williams said. “And because there are no system admins standing by, you need the guardrails only blockchain can provide.” Williams pointed to early hackathons where ordinary people used AI on ICP to build apps: from a crowdsourced pothole-mapping platform, to a tool for generating wills and health directives. The vision is that such tools could proliferate in the millions. Entrepreneurs, small businesses and even NGOs could create customized apps without technical expertise, paying for usage with fiat while crypto tokens underpin the system behind the scenes. Price Action Still Lagging Despite these developments, the ICP token has yet to see sustained momentum. It briefly rallied when AI integrations were announced last year, but has since traded more in line with broader market sentiment than with user adoption. Williams accepts this disconnect but predicts that markets may catch up very soon. “This could be the first time Web3 actually outcompetes Web2 technologically, without a token incentive in sight,” Williams said. “The shock will be when people realize they can just talk to an AI, and a blockchain app appears at a URL.”",
+      "KEYWORDS": "Tech|Internet Computer|AI|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "POSITIVE",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758405044,
+      "UPDATED_ON": 1758546805,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 82,
+          "NAME": "ICP",
+          "CATEGORY": "ICP"
+        },
+        {
+          "TYPE": "122",
+          "ID": 13,
+          "NAME": "BLOCKCHAIN",
+          "CATEGORY": "BLOCKCHAIN"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 51972516,
+      "GUID": "bf4a94f0-17b1-4de1-82d5-feacd0f7a2d7",
+      "PUBLISHED_ON": 1758283200,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/51972516.jpeg",
+      "TITLE": "Crypto Markets Today: Treading Cautiously, With Smaller Tokens Showing Froth",
+      "SUBTITLE": "",
+      "AUTHORS": "Omkar Godbole,Oliver Knight",
+      "URL": "https://www.coindesk.com/markets/2025/09/19/crypto-markets-today-treading-cautiously-with-smaller-tokens-showing-froth",
+      "SOURCE_ID": 5,
+      "BODY": "",
+      "KEYWORDS": "Markets|Markets|Crypto Markets Today|market analysis|Derivatives|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEUTRAL",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758283321,
+      "UPDATED_ON": 1758283322,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 51924256,
+      "GUID": "0d5f4a71-65c8-4636-846f-5809b3316eea",
+      "PUBLISHED_ON": 1758196800,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/51924256.jpeg",
+      "TITLE": "Crypto Markets Today: BNB, AVAX and DOT Lead Futures Trends",
+      "SUBTITLE": "Major cryptocurrencies rallied following the Federal Reserve's interest-rate cut, though some analysts remain cautious.",
+      "AUTHORS": "Omkar Godbole,Oliver Knight",
+      "URL": "https://www.coindesk.com/markets/2025/09/18/crypto-markets-today-bnb-avax-and-dot-lead-futures-trends",
+      "SOURCE_ID": 5,
+      "BODY": "Major cryptocurrencies, including bitcoin (BTC), ether (ETH), XRP (XRP), solana (SOL) and others, are trading on the front foot following Wednesday's interest-rate cut by the Federal Reserve. Still, some analysts are maintaining a cautious bias. \"The Fed rate cut gave crypto a near-term lift, but the rally is not yet clean,\" Timothy Misir, head of research, BRN, said in an email. \"Institutional flows are supportive overall, yet exchange inflows and a single-day ETF outflow signal distribution into strength.\" Misir suggested traders use a bitcoin price band of $115,000–$115,500 as the guardrail for tactical risk management. Derivatives Positioning by Omkar Godbole BNB, AVAX, and DOT have all seen double-digit increases in futures open interest (OI) in the past 24 hours, reinforcing their price gains of 5% to 9%. BTC's cumulative OI in USD and USDT-denominated perpetual futures continues to drop, diverging from the ascending price. Perhaps derivative traders are not participating in the rally. (Check out the Technical Analysis section.) BCH, TRX, BNB, BTC, XMR, AVAX, and SUI stand out with a positive open interest-adjusted cumulative volume delta, indicating strong buying pressure. There are no signs of overheating even in the further corners of the crypto market, as annualized funding rates for smaller speculative tokens remain at around 10%. On the CME, OI in ether futures is again closing on the 2 million ETH mark, while positioning in BTC futures remains considerably light. The annualized three-month basis for both tokens remains below 10%, offering significantly lower yield to carry traders than SOL's 17% return. On Deribit, 25-delta risk reversals reveal a neutral to bearish (put) bias in options out to March expiry. In contrast, ether options are bullish across all tenors. Block flows on OTC network Paradigm featured demand for the $116K call expiring on Sept. 19 and the $100K put expiring on Oct. 31. Token Talk By Oliver Knight The altcoin market staged a strong rebound following Wednesday's oversold RSI readings, with several tokens posting gains in excess of 10%. Leading the rally is ether.fi (ETHFI), up 12% in the past 24 hours to $1.64, the highest since January. BNB also notched a milestone, breaking through $1,000 for the first time as momentum accelerates toward fresh record highs. The bullish backdrop comes as bitcoin creeps up toward $117,300, consolidating above critical support at $110,000. Meanwhile, bitcoin dominance slipped to 56% at CoinMarketCap, its lowest since early January, highlighting investors’ growing appetite for more speculative investments. The decentralized finance (DeFi) sector has been one of the largest beneficiaries of Thursday's move higher, with total value locked (TVL) across all protocols hitting $170 billion , the highest point since April, 2022. Hyperliquid's layer-1 blockchain notched a record high of $2.77 billion having risen by 3.88% in 24 hours, while Sui's TVL is up by 3% to $2.1 billion.",
+      "KEYWORDS": "Markets|Markets|market analysis|Crypto Markets Today|Derivatives|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEUTRAL",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758197269,
+      "UPDATED_ON": 1758197269,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        },
+        {
+          "TYPE": "122",
+          "ID": 210,
+          "NAME": "MACROECONOMICS",
+          "CATEGORY": "MACROECONOMICS"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        }
+      ]
+    },
+    {
+      "TYPE": "121",
+      "ID": 51874326,
+      "GUID": "d5a29b93-e7f7-4fb7-a043-3e11404a7a15",
+      "PUBLISHED_ON": 1758110400,
+      "PUBLISHED_ON_NS": null,
+      "IMAGE_URL": "https://resources.cryptocompare.com/news/5/51874326.jpeg",
+      "TITLE": "Crypto Markets Today: Altcoins Make Their Mark Before Fed Rate Decision",
+      "SUBTITLE": "Bitcoin hit its highest point since Aug. 22 before retreating, while altcoins posted stronger gains.",
+      "AUTHORS": "Oliver Knight,Jacob Joseph",
+      "URL": "https://www.coindesk.com/markets/2025/09/17/crypto-markets-today-altcoins-make-their-mark-before-fed-rate-decision",
+      "SOURCE_ID": 5,
+      "BODY": "Bitcoin (BTC) rose to its highest point since Aug. 22 on Wednesday, reaching $117,300 before receding to $116,400. Much of Wednesday's excitement is yet to come, hinging on the Federal Reserve's interest-rate decision at 18:00 UTC and subsequent press conference. The Fed is expected to cut rates by 25 basis points, The early move was intriguing because it stopped at the same point as a notable \"CME gap,\" the disparity between where bitcoin futures close on a Friday and open on a Sunday. With that gap now filled, bitcoin could begin to consolidate in a range away from critical levels of support at $110,000, this will likely lead to more capital rotating into altcoins. According to CoinMarketCap data, bitcoin dominance has ticked down to 57%, the lowest point since January, suggesting the market is leaning toward speculative altcoin plays as opposed to BTC in a period of low volatility. Derivatives Positioning BTC futures open interest across major venues has crept up to $32 billion over the past week. At the same time, the three-month annualized basis has started compressing again to roughly 6-7% across Binance, OKX and Deribit, leaving the carry trade only marginally profitable. While the OI growth suggests increasing activity and engagement in the market, the narrowing basis indicates that directional conviction, particularly on the bullish side, is weakening, with traders less willing to pay a high premium for future exposure. The options data also presents a complex picture of market sentiment. While the BTC Implied Volatility Term Structure chart shows an upward-sloping curve, suggesting the market expects long-term volatility to be higher than short-term, other metrics point to a more immediate bearish outlook. Specifically, the 25 delta skew chart indicates that the skew is either flat or slightly negative for shorter-term options (1-week, 1-month), which means traders are paying a premium for puts over calls to gain protection against declines. This short-term bearish sentiment is directly contradicted by the 24-hour put-call volume chart, which shows a higher volume of calls than puts, indicating that over the past 24 hours most options traders were positioning for a price increase. Funding rate APRs across major perpetual swap venues have recently started to show some pickup with BTC annualized funding currently at 17%. If the uptrend is maintained and followed by other venues, funding rates would suggest growing conviction in a directional, more bullish bet on prices. Token Talk By Oliver Knight Bitcoin (BTC) continues to stubbornly trade in a tight range, rising slightly to $116,000 in the past 24 hours, but failing to build momentum for a break out. Altcoins are capitalizing on the lack of volatility with several spikes leading to bitcoin dominance sliding to an eight-month low of 57%, according to CoinMarketCap data. Dominance is a metric commonly used to assess whether capital is flowing into bitcoin or more speculative altcoins, as seems to be the case. Another bullish factor for altcoins is that the average crypto token RSI , an abbreviation for relative strength index, is at 45.47. This means that altcoins are edging into \"oversold\" territory as opposed to \"overbought,\" suggesting that several tokens are primed for an extension to the upside. It's worth noting that bitcoin dominance fell all the way to 33% in 2017 and 40% in 2021, meaning that altcoins still have more room to run. Much will depend on how bitcoin acts if it begins to test record highs at $124,000. A breakout on significant volume will likely lead to a capital rotation back to the largest cryptocurrency as investors attempt to capitalize on a potential cycle high, with the personalities such as Eric Trump calling for $175,000 before year-end.",
+      "KEYWORDS": "Markets|Markets|market analysis|Crypto Markets Today|Derivatives|News",
+      "LANG": "EN",
+      "UPVOTES": 0,
+      "DOWNVOTES": 0,
+      "SCORE": 0,
+      "SENTIMENT": "NEUTRAL",
+      "STATUS": "ACTIVE",
+      "CREATED_ON": 1758112733,
+      "UPDATED_ON": 1758178967,
+      "SOURCE_DATA": {
+        "TYPE": "120",
+        "ID": 5,
+        "SOURCE_KEY": "coindesk",
+        "NAME": "CoinDesk",
+        "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+        "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+        "LANG": "EN",
+        "SOURCE_TYPE": "RSS",
+        "LAUNCH_DATE": 1367884800,
+        "SORT_ORDER": 0,
+        "BENCHMARK_SCORE": 71,
+        "STATUS": "ACTIVE",
+        "LAST_UPDATED_TS": 1759236221,
+        "CREATED_ON": 1657730129,
+        "UPDATED_ON": 1744296800
+      },
+      "CATEGORY_DATA": [
+        {
+          "TYPE": "122",
+          "ID": 211,
+          "NAME": "CRYPTOCURRENCY",
+          "CATEGORY": "CRYPTOCURRENCY"
+        },
+        {
+          "TYPE": "122",
+          "ID": 14,
+          "NAME": "BTC",
+          "CATEGORY": "BTC"
+        },
+        {
+          "TYPE": "122",
+          "ID": 37,
+          "NAME": "MARKET",
+          "CATEGORY": "MARKET"
+        },
+        {
+          "TYPE": "122",
+          "ID": 5,
+          "NAME": "ALTCOIN",
+          "CATEGORY": "ALTCOIN"
+        },
+        {
+          "TYPE": "122",
+          "ID": 50,
+          "NAME": "TRADING",
+          "CATEGORY": "TRADING"
+        }
+      ]
+    }
+  ],
+  "Err": {}
+}
