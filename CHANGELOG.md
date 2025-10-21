@@ -4,6 +4,104 @@ All notable changes to the CryptoPrism News Fetcher project will be documented i
 
 ## [Unreleased]
 
+## [1.4.0] - 2025-10-21 - Production Deployment & GitHub Actions
+
+### Added
+- 🤖 **GitHub Actions Workflow**: Automated hourly news fetching with full CI/CD pipeline
+- 🗄️ **PostgreSQL Database Integration**: Complete `cc_news` table with optimized indexes
+- ⏰ **Timestamp-Based Fetching**: Smart hourly fetcher that pulls articles from last 60 minutes
+- 🚫 **Source Filtering**: Automatic exclusion of sources with empty body text (Investing.com)
+- 🧹 **File Cleanup System**: Maintains only latest CSV/JSON exports, prevents disk bloat
+- 📊 **Comprehensive Documentation**: Quick start guide, setup docs, and SQL query examples
+
+### Core Features
+- **Hourly Automation**: GitHub Actions runs every hour at :00 UTC
+- **Database Schema**: 17-column table with full body text storage
+- **Smart Deduplication**: Unique URL constraint prevents duplicate articles
+- **Append-Only Mode**: New articles added without overwriting historical data
+- **Full Body Text**: All articles stored with complete content (avg 1,700+ chars)
+- **Multi-Format Export**: CSV, JSON, and analysis files generated per run
+
+### Technical Implementation
+- **GitHub Actions Workflow** (`hourly-news-fetch.yml`):
+  - Python 3.11 setup
+  - Automated dependency installation
+  - Secret management via GitHub Secrets
+  - Artifact retention (7 days)
+  - Optional git commits of exports
+
+- **Database Module** (`db_cc_news.py`):
+  - Connection pooling and error handling
+  - Batch insertion with conflict resolution
+  - Statistics and monitoring functions
+  - Table creation with comprehensive indexes
+
+- **Hourly Fetcher** (`fetch_hourly.py`):
+  - Timestamp-based time window (now - 1h)
+  - Multi-page pagination support
+  - Source filtering (excludes empty body sources)
+  - File cleanup (keeps only latest)
+  - Database push with duplicate handling
+
+### Database Schema (cc_news)
+- **17 Columns**: id, title, published_on, source, source_name, url, categories, tags, lang, body, body_length, has_image, imageurl, upvotes, downvotes, fetched_at, created_at
+- **4 Indexes**: published_on (DESC), source, categories (GIN), fetched_at (DESC)
+- **Unique Constraint**: URL (prevents duplicates)
+- **Data Types**: BIGINT, TEXT, TIMESTAMP, VARCHAR, INTEGER, BOOLEAN
+
+### Files Added
+- `.github/workflows/hourly-news-fetch.yml` - GitHub Actions workflow
+- `src/news_fetcher/db_cc_news.py` - Database connector
+- `src/news_fetcher/fetch_hourly.py` - Hourly timestamp fetcher
+- `src/news_fetcher/fetch_with_body.py` - Manual fetcher with body
+- `sql/create_cc_news_table.sql` - Table creation script
+- `sql/query_examples.sql` - 50+ useful SQL queries
+- `HOURLY_FETCH_SETUP.md` - Complete setup documentation
+- `IMPLEMENTATION_SUMMARY.md` - Implementation details
+- `QUICK_START.md` - 5-minute setup guide
+
+### Production Deployment
+- **Repository**: https://github.com/CryptoPrism-io/CryptoPrism-NewsFetcher
+- **Default Branch**: main
+- **GitHub Secrets**: 6 secrets configured (API key + DB credentials)
+- **First Test Run**: ✅ Success (34 articles, 20 seconds)
+- **Database**: PostgreSQL at 34.55.195.199:5432/dbcp
+- **Current Data**: 150 articles from 26+ sources
+
+### Performance Metrics
+- **Articles/Hour**: 30-60 typical
+- **Execution Time**: 15-30 seconds per run
+- **Database Growth**: ~40-60 rows/hour
+- **Expected Daily**: ~1,200-1,680 articles
+- **Storage Efficiency**: Only latest exports retained
+
+### Source Filtering
+Excluded sources (empty body text):
+- `investing_comcryptonews` (Investing.com Crypto News)
+- `investing_comcryptoopinionandanalysis` (Investing.Com Opinion/Analysis)
+
+### Data Quality Improvements
+- ✅ All articles have non-empty body text
+- ✅ Body length: 94 - 11,886 characters (avg: 1,741)
+- ✅ 100% image coverage maintained
+- ✅ Duplicate prevention working (0 duplicates in tests)
+- ✅ Append-only database mode confirmed
+
+### Documentation
+- **QUICK_START.md**: Immediate setup steps
+- **HOURLY_FETCH_SETUP.md**: Technical details, troubleshooting, maintenance
+- **IMPLEMENTATION_SUMMARY.md**: Test results, architecture, current status
+- **SQL Query Examples**: 50+ queries for analysis, monitoring, trending
+
+### What's Next (v1.5.0)
+- Real-time alerting on workflow failures
+- Data quality dashboard
+- Sentiment analysis integration
+- Multi-API orchestration
+- Advanced analytics and visualizations
+
+---
+
 ## [1.3.0] - 2025-10-05 - CryptoCompare API Integration
 
 ### Added
