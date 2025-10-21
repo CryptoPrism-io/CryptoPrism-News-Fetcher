@@ -1,0 +1,113 @@
+{
+  "session_info": {
+    "session_id": "20250930_182558",
+    "completed_at": "2025-09-30T18:26:04.772520",
+    "endpoints_tested": [
+      "sources",
+      "categories",
+      "feed_categories",
+      "articles"
+    ]
+  },
+  "raw_data_results": {
+    "sources": {
+      "error": "HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/source/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000025835161940>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "categories": {
+      "error": "HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/category/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517DBD0>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "feed_categories": {
+      "error": "HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/feed_category/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517E5D0>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "articles": {
+      "latest_20": {
+        "error": "HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/article/list?limit=20&offset=0 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517E990>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      "markets_category": {
+        "error": "HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/article/list?limit=15&offset=0&category=markets (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517ED50>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      "coindesk_source": {
+        "error": "HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/article/list?limit=15&offset=0&source=coindesk (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517F250>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    }
+  },
+  "comprehensive_analysis": {
+    "session_id": "20250930_182558",
+    "analyzed_at": "2025-09-30T18:26:04.772429",
+    "data_quality": {
+      "endpoints_status": {
+        "sources": "FAILED",
+        "categories": "FAILED",
+        "feed_categories": "FAILED",
+        "articles": "SUCCESS"
+      },
+      "data_completeness": {
+        "articles": 0
+      },
+      "consistency_checks": {},
+      "potential_issues": [
+        "sources endpoint failed: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/source/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000025835161940>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "categories endpoint failed: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/category/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517DBD0>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "feed_categories endpoint failed: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/feed_category/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517E5D0>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "No articles returned from any query"
+      ]
+    },
+    "content_insights": {
+      "article_patterns": {},
+      "category_distribution": {},
+      "source_distribution": {},
+      "temporal_patterns": {},
+      "content_characteristics": {}
+    },
+    "operational_insights": {
+      "api_response_efficiency": {
+        "total_requests": 4,
+        "successful_requests": 1,
+        "success_rate": 25.0
+      },
+      "data_freshness": {},
+      "coverage_metrics": {},
+      "scalability_indicators": {}
+    },
+    "recommendations": {
+      "immediate_actions": [
+        "Address: sources endpoint failed: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/source/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000025835161940>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "Address: categories endpoint failed: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/category/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517DBD0>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "Address: feed_categories endpoint failed: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /data/news/v1/feed_category/list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002583517E5D0>: Failed to resolve 'api.coindesk.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "Fix failed endpoints: sources, categories, feed_categories"
+      ],
+      "data_strategy": [],
+      "monitoring_setup": [
+        "Implement API health monitoring and alerting",
+        "Set up automated data freshness checks",
+        "Monitor article volume trends by category",
+        "Track source availability and performance"
+      ],
+      "integration_priorities": [
+        "Improve source-category mapping coverage",
+        "Implement cross-source content validation",
+        "Create unified article deduplication system",
+        "Build category-based content recommendation engine"
+      ],
+      "risk_mitigation": [
+        "Implement fallback mechanisms for failed API calls",
+        "Set up data backup and recovery procedures",
+        "Create rate limiting and quota management",
+        "Establish data quality validation pipelines"
+      ]
+    },
+    "data_relationships": {
+      "source_category_mapping": {},
+      "content_source_alignment": {},
+      "category_coverage_gaps": {},
+      "cross_validation_opportunities": {}
+    },
+    "coverage_analysis": {
+      "temporal_coverage": {},
+      "thematic_coverage": {},
+      "source_coverage": {},
+      "geographic_coverage": {},
+      "coverage_recommendations": []
+    }
+  }
+}

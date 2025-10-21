@@ -1,0 +1,59 @@
+{
+  "timestamp": "20251005_012743",
+  "total_articles": 50,
+  "unique_sources": 17,
+  "unique_categories": 35,
+  "unique_tags": 102,
+  "avg_body_length": 3369.16,
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2025-10-04 21:59:04",
+    "newest": "2025-10-05 01:19:54"
+  },
+  "top_sources": {
+    "Cryptopolitan": 12,
+    "TimesTabloid": 6,
+    "CoinOtag": 5,
+    "CoinTurk News": 4,
+    "BitcoinSistemi": 3,
+    "Bitcoinist": 3,
+    "Bitcoin.com": 3,
+    "NewsBTC": 2,
+    "CoinDesk": 2,
+    "Invezz": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 50,
+    "TRADING": 32,
+    "BUSINESS": 21,
+    "MARKET": 21,
+    "BTC": 19,
+    "BLOCKCHAIN": 10,
+    "MACROECONOMICS": 9,
+    "ETH": 8,
+    "REGULATION": 8,
+    "ALTCOIN": 7,
+    "SOL": 7,
+    "XRP": 7,
+    "EXCHANGE": 7,
+    "BNB": 4,
+    "DIGITAL ASSET TREASURY": 3
+  },
+  "top_tags": {
+    "News": 18,
+    "BTC": 6,
+    "Press Release": 5,
+    "Crypto News": 5,
+    "XRP": 5,
+    "crypto": 4,
+    "Bitcoin": 4,
+    "Cryptocurrency": 4,
+    "XRP Price": 4,
+    "Altcoin": 3,
+    "ETH": 2,
+    "Crypto Price Predictions": 2,
+    "Business": 2,
+    "Apple": 2,
+    "USD": 2
+  }
+}

@@ -1,0 +1,4222 @@
+{
+  "session_info": {
+    "session_id": "20250930_183723",
+    "completed_at": "2025-09-30T18:37:39.398435",
+    "endpoints_tested": [
+      "sources",
+      "categories",
+      "feed_categories",
+      "articles"
+    ]
+  },
+  "raw_data_results": {
+    "sources": {
+      "raw_data": {
+        "Data": [
+          {
+            "TYPE": "120",
+            "ID": 5,
+            "SOURCE_KEY": "coindesk",
+            "NAME": "CoinDesk",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/5/default.png",
+            "URL": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1367884800,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 71,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237534,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1744296800
+          },
+          {
+            "TYPE": "120",
+            "ID": 16,
+            "SOURCE_KEY": "cointelegraph",
+            "NAME": "CoinTelegraph",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+            "URL": "https://cointelegraph.com/rss",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1382227200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 66,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237537,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1711620813
+          },
+          {
+            "TYPE": "120",
+            "ID": 55,
+            "SOURCE_KEY": "blockworks",
+            "NAME": "Blockworks",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/blockworks.png",
+            "URL": "https://blockworks.co/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1610236800,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 59,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237534,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1737815987
+          },
+          {
+            "TYPE": "120",
+            "ID": 27,
+            "SOURCE_KEY": "cryptopotato",
+            "NAME": "Crypto Potato",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+            "URL": "https://cryptopotato.com/category/crypto-news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1458086400,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 57,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237537,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1711621041
+          },
+          {
+            "TYPE": "120",
+            "ID": 44,
+            "SOURCE_KEY": "decrypt",
+            "NAME": "Decrypt",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/decrypt.png",
+            "URL": "https://decrypt.co/feed",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1521331200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 57,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237560,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1711620560
+          },
+          {
+            "TYPE": "120",
+            "ID": 14,
+            "SOURCE_KEY": "bitcoin.com",
+            "NAME": "Bitcoin.com",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+            "URL": "https://news.bitcoin.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1438387200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 51,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237538,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1711621233
+          },
+          {
+            "TYPE": "120",
+            "ID": 21,
+            "SOURCE_KEY": "newsbtc",
+            "NAME": "NewsBTC",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/newsbtc.png",
+            "URL": "https://www.newsbtc.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1380585600,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 50,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237538,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1711620962
+          },
+          {
+            "TYPE": "120",
+            "ID": 64,
+            "SOURCE_KEY": "utoday",
+            "NAME": "U.Today",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/utoday.png",
+            "URL": "https://u.today/cryptocompare.php",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1506816000,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 49,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237539,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1745920032
+          },
+          {
+            "TYPE": "120",
+            "ID": 13,
+            "SOURCE_KEY": "bitcoinist",
+            "NAME": "Bitcoinist",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/bitcoinist.png",
+            "URL": "https://bitcoinist.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1387843200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 48,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237540,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1711620995
+          },
+          {
+            "TYPE": "120",
+            "ID": 99,
+            "SOURCE_KEY": "bitfinexblog",
+            "NAME": "Bitfinex blog",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/99/default.png",
+            "URL": "https://blog.bitfinex.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1445817600,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237614,
+            "CREATED_ON": 1718289520,
+            "UPDATED_ON": 1718289531
+          },
+          {
+            "TYPE": "120",
+            "ID": 65,
+            "SOURCE_KEY": "thecryptobasic",
+            "NAME": "The Crypto Basic",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+            "URL": "https://thecryptobasic.com/category/latest-crypto-news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237590,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673258252
+          },
+          {
+            "TYPE": "120",
+            "ID": 43,
+            "SOURCE_KEY": "cryptopolitan",
+            "NAME": "Cryptopolitan",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+            "URL": "https://www.cryptopolitan.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237596,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1681205909
+          },
+          {
+            "TYPE": "120",
+            "ID": 69,
+            "SOURCE_KEY": "invezz",
+            "NAME": "Invezz",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/69/default.png",
+            "URL": "https://invezz.com/news/cryptocurrency/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237581,
+            "CREATED_ON": 1679069939,
+            "UPDATED_ON": 1679076581
+          },
+          {
+            "TYPE": "120",
+            "ID": 106,
+            "SOURCE_KEY": "investing_comcryptonews",
+            "NAME": "Investing.com Crypto News",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/106/default.png",
+            "URL": "https://www.investing.com/rss/news_301.rss",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1505088000,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237570,
+            "CREATED_ON": 1754907212,
+            "UPDATED_ON": 1754907484
+          },
+          {
+            "TYPE": "120",
+            "ID": 67,
+            "SOURCE_KEY": "timestabloid",
+            "NAME": "TimesTabloid",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/67/default.png",
+            "URL": "https://timestabloid.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237586,
+            "CREATED_ON": 1664381507,
+            "UPDATED_ON": 1673235440
+          },
+          {
+            "TYPE": "120",
+            "ID": 103,
+            "SOURCE_KEY": "bloomberg_crypto_",
+            "NAME": "Bloomberg (Crypto)",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/103/default.png",
+            "URL": "https://feeds.bloomberg.com/crypto/news.rss?ageHours=10000000",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1365724800,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237593,
+            "CREATED_ON": 1721308309,
+            "UPDATED_ON": 1721308597
+          },
+          {
+            "TYPE": "120",
+            "ID": 49,
+            "SOURCE_KEY": "cryptocoinnews",
+            "NAME": "CryptoCoin.News",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cryptocoinnews.png",
+            "URL": "https://cryptocoin.news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237573,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1672769245
+          },
+          {
+            "TYPE": "120",
+            "ID": 7,
+            "SOURCE_KEY": "coinquora",
+            "NAME": "Coin Edition",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/7/default.png",
+            "URL": "https://coinedition.com/news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237564,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673259737
+          },
+          {
+            "TYPE": "120",
+            "ID": 100,
+            "SOURCE_KEY": "huobi",
+            "NAME": "Huobi blog",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/100/default.png",
+            "URL": "https://blog.huobi.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1390435200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237570,
+            "CREATED_ON": 1718289700,
+            "UPDATED_ON": 1718290133
+          },
+          {
+            "TYPE": "120",
+            "ID": 79,
+            "SOURCE_KEY": "cointurken",
+            "NAME": "CoinTurk News",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/79/default.png",
+            "URL": "https://en.coin-turk.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1758018282,
+            "CREATED_ON": 1689939795,
+            "UPDATED_ON": 1690273097
+          },
+          {
+            "TYPE": "120",
+            "ID": 94,
+            "SOURCE_KEY": "forbes",
+            "NAME": "Forbes Digital Assets",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/94/default.png",
+            "URL": "https://feeds.forbes.com/?feedId=65e751905f3da70f9b117908",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": -1650326400,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237567,
+            "CREATED_ON": 1709735346,
+            "UPDATED_ON": 1709735471
+          },
+          {
+            "TYPE": "120",
+            "ID": 66,
+            "SOURCE_KEY": "bitdegree",
+            "NAME": "BitDegree",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/bitdegree.png",
+            "URL": "https://www.bitdegree.org/crypto/news/rss",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237566,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1705342087
+          },
+          {
+            "TYPE": "120",
+            "ID": 32,
+            "SOURCE_KEY": "ambcrypto",
+            "NAME": "AMB Crypto",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+            "URL": "https://ambcrypto.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237580,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1674467937
+          },
+          {
+            "TYPE": "120",
+            "ID": 98,
+            "SOURCE_KEY": "krakenblog",
+            "NAME": "Kraken Blog",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/98/default.png",
+            "URL": "https://blog.kraken.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1311811200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237585,
+            "CREATED_ON": 1718278266,
+            "UPDATED_ON": 1718289260
+          },
+          {
+            "TYPE": "120",
+            "ID": 24,
+            "SOURCE_KEY": "trustnodes",
+            "NAME": "TrustNodes",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/trustnodes.png",
+            "URL": "https://www.trustnodes.com/feed",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237586,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1680683435
+          },
+          {
+            "TYPE": "120",
+            "ID": 75,
+            "SOURCE_KEY": "cryptodaily",
+            "NAME": "Crypto Daily",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/75/default.png",
+            "URL": "https://cryptodaily.co.uk/feed",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237580,
+            "CREATED_ON": 1685543991,
+            "UPDATED_ON": 1685544026
+          },
+          {
+            "TYPE": "120",
+            "ID": 82,
+            "SOURCE_KEY": "bitcoinworld",
+            "NAME": "Bitcoin World",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/82/default.png",
+            "URL": "https://bitcoinworld.co.in/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237586,
+            "CREATED_ON": 1698066984,
+            "UPDATED_ON": 1747932437
+          },
+          {
+            "TYPE": "120",
+            "ID": 107,
+            "SOURCE_KEY": "investing_comcryptoopinionandanalysis",
+            "NAME": "Investing.Com Crypto Opinion and Analysis",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/107/default.png",
+            "URL": "https://www.investing.com/rss/302.rss",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1508284800,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237587,
+            "CREATED_ON": 1754908251,
+            "UPDATED_ON": 1754908290
+          },
+          {
+            "TYPE": "120",
+            "ID": 95,
+            "SOURCE_KEY": "cryptointelligence",
+            "NAME": "CryptoIntelligence",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/95/default.png",
+            "URL": "https://www.cryptointelligence.co.uk/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1554076800,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237571,
+            "CREATED_ON": 1710179061,
+            "UPDATED_ON": 1710179075
+          },
+          {
+            "TYPE": "120",
+            "ID": 51,
+            "SOURCE_KEY": "zycrypto",
+            "NAME": "ZyCrypto",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/zycrypto.png",
+            "URL": "https://zycrypto.com/category/news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237579,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673216359
+          },
+          {
+            "TYPE": "120",
+            "ID": 40,
+            "SOURCE_KEY": "cryptonewsz",
+            "NAME": "CryptoNewsZ",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cryptonewsz.png",
+            "URL": "https://www.cryptonewsz.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237585,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1680683988
+          },
+          {
+            "TYPE": "120",
+            "ID": 80,
+            "SOURCE_KEY": "coinpaprika",
+            "NAME": "Coinpaprika",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/80/default.png",
+            "URL": "https://coinpaprika.com/news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237590,
+            "CREATED_ON": 1690478386,
+            "UPDATED_ON": 1695628845
+          },
+          {
+            "TYPE": "120",
+            "ID": 81,
+            "SOURCE_KEY": "bitcoinsistemi",
+            "NAME": "BitcoinSistemi",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/81/default.png",
+            "URL": "https://en.bitcoinsistemi.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237571,
+            "CREATED_ON": 1692873798,
+            "UPDATED_ON": 1692873836
+          },
+          {
+            "TYPE": "120",
+            "ID": 25,
+            "SOURCE_KEY": "themerkle",
+            "NAME": "NullTx",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/nulltx.png",
+            "URL": "https://nulltx.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237587,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673068655
+          },
+          {
+            "TYPE": "120",
+            "ID": 93,
+            "SOURCE_KEY": "coinpaper",
+            "NAME": "Coinpaper",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/93/default.png",
+            "URL": "https://coinpaper.com/newsfeed",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1646092800,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237561,
+            "CREATED_ON": 1709283963,
+            "UPDATED_ON": 1709284009
+          },
+          {
+            "TYPE": "120",
+            "ID": 102,
+            "SOURCE_KEY": "financialtimes_crypto_",
+            "NAME": "Financial Times (Crypto)",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/102/default.png",
+            "URL": "https://www.ft.com/cryptofinance?format=rss",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1307318400,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237587,
+            "CREATED_ON": 1719248005,
+            "UPDATED_ON": 1719248073
+          },
+          {
+            "TYPE": "120",
+            "ID": 62,
+            "SOURCE_KEY": "finbold",
+            "NAME": "Finbold",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/finbold.png",
+            "URL": "https://finbold.com/category/cryptocurrency-news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237591,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673260010
+          },
+          {
+            "TYPE": "120",
+            "ID": 50,
+            "SOURCE_KEY": "seekingalpha",
+            "NAME": "Seeking Alpha",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+            "URL": "https://seekingalpha.com/feeds/cryptocompare/cryptos",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237585,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673257636
+          },
+          {
+            "TYPE": "120",
+            "ID": 77,
+            "SOURCE_KEY": "coinotag",
+            "NAME": "CoinOtag",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/77/default.png",
+            "URL": "https://en.coinotag.com/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759233525,
+            "CREATED_ON": 1686819961,
+            "UPDATED_ON": 1717748924
+          },
+          {
+            "TYPE": "120",
+            "ID": 29,
+            "SOURCE_KEY": "blokt",
+            "NAME": "Blokt",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/blokt.png",
+            "URL": "https://blokt.com/feed",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237558,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673011530
+          },
+          {
+            "TYPE": "120",
+            "ID": 52,
+            "SOURCE_KEY": "cryptonews",
+            "NAME": "cryptonews",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cryptonews.png",
+            "URL": "https://cryptonews.com/news/feed/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237588,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1680604053
+          },
+          {
+            "TYPE": "120",
+            "ID": 104,
+            "SOURCE_KEY": "bitzo",
+            "NAME": "Bitzo",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/104/default.png",
+            "URL": "https://bitzo.com/feed",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": 1520899200,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237568,
+            "CREATED_ON": 1736502919,
+            "UPDATED_ON": 1736502976
+          },
+          {
+            "TYPE": "120",
+            "ID": 68,
+            "SOURCE_KEY": "chainwire",
+            "NAME": "Chainwire",
+            "IMAGE_URL": "https://resources.cryptocompare.com/news/68/default.png",
+            "URL": "https://app.chainwire.org/rss/website/Oif0bAWbBAgFRL39I0bICogg9ck3LMWYRw3iieNW",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237572,
+            "CREATED_ON": 1673520685,
+            "UPDATED_ON": 1673520719
+          },
+          {
+            "TYPE": "120",
+            "ID": 1,
+            "SOURCE_KEY": "cryptocompare",
+            "NAME": "CryptoCompare",
+            "IMAGE_URL": "https://images.cryptocompare.com/news/default/cryptocompare.png",
+            "URL": "https://www.cryptocompare.com/api/external/newsletter/",
+            "LANG": "EN",
+            "SOURCE_TYPE": "RSS",
+            "LAUNCH_DATE": null,
+            "SORT_ORDER": 0,
+            "BENCHMARK_SCORE": 0,
+            "STATUS": "ACTIVE",
+            "LAST_UPDATED_TS": 1759237593,
+            "CREATED_ON": 1657730129,
+            "UPDATED_ON": 1673259116
+          }
+        ],
+        "Err": {}
+      },
+      "analysis": {
+        "total_sources": 0,
+        "source_list": [],
+        "source_ids": [],
+        "fetched_at": "2025-09-30T18:37:25.266238",
+        "analysis": {
+          "has_coindesk": false,
+          "has_reuters": false,
+          "has_bloomberg": false,
+          "crypto_specific_sources": [],
+          "mainstream_sources": []
+        }
+      },
+      "filepath": "data\\raw\\coindesk_sources_20250930_183725.json"
+    },
+    "categories": {
+      "raw_data": {
+        "Data": [
+          {
+            "TYPE": "122",
+            "ID": 1,
+            "NAME": "1INCH",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "1INCH"
+              ],
+              "INCLUDED_PHRASES": [
+                "1INCH NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719237340
+          },
+          {
+            "TYPE": "122",
+            "ID": 2,
+            "NAME": "AAVE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AAVE"
+              ],
+              "INCLUDED_PHRASES": [
+                "AAVE PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1718886992
+          },
+          {
+            "TYPE": "122",
+            "ID": 3,
+            "NAME": "ADA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ADA",
+                "Cardano",
+                "cardano"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412063
+          },
+          {
+            "TYPE": "122",
+            "ID": 208,
+            "NAME": "ADMINISTRATIVE EVENTS",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "contract-migration",
+                "REBRAND",
+                "REBASE",
+                "RENAME",
+                "Rebrand",
+                "rebrand",
+                "Rename",
+                "rename"
+              ],
+              "INCLUDED_PHRASES": [
+                "CHAIN MIGRATION",
+                "CHAIN MIGRATED",
+                "CONTRACT ADDRESS UPDATE",
+                "CONTRACT MIGRATION",
+                "CONTRACT MIGRATED",
+                "DESTINATION CHAIN",
+                "NEW CONTRACT ADDRESS",
+                "NETWORK CONTROL CHANGE",
+                "GOVERNANCE CHANGE",
+                "REVERSE TOKEN SPLIT",
+                "TOKEN CONSOLIDATION",
+                "TOKEN REVERSE SPLIT",
+                "TICKER CHANGE",
+                "TICKER CHANGED",
+                "SYMBOL CHANGE",
+                "SYMBOL CHANGED",
+                "TICKER UPDATE",
+                "SYMBOL UPDATE",
+                "TOKEN MERGE",
+                "TOKEN MERGED",
+                "TOKEN SPLIT",
+                "TOKEN SPLITTED",
+                "TOKEN DIVIDED",
+                "TOKEN SPLIT-UP",
+                "TOKEN SPLIT UP"
+              ],
+              "EXCLUDED_PHRASES": [
+                "STOCK TICKER"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1720704050,
+            "UPDATED_ON": 1754333785
+          },
+          {
+            "TYPE": "122",
+            "ID": 188,
+            "NAME": "AEVO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AEVO"
+              ],
+              "INCLUDED_PHRASES": [
+                "AEVO TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719238086,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 135,
+            "NAME": "AGX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AGX",
+                "SingularityNET",
+                "singularityNET"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887478,
+            "UPDATED_ON": 1719412073
+          },
+          {
+            "TYPE": "122",
+            "ID": 177,
+            "NAME": "AIOZ",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AIOZ"
+              ],
+              "INCLUDED_PHRASES": [
+                "AIOZ NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237426,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 204,
+            "NAME": "AIRDROP",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "airdrop",
+                "Airdrop"
+              ],
+              "INCLUDED_PHRASES": [
+                "TOKEN AIRDROP",
+                "COIN AIRDROP",
+                "FREE TOKEN DISTRIBUTION",
+                "TOKEN GIVEAWAY",
+                "COIN GIVEAWAY"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1720703025,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 146,
+            "NAME": "AKT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AKT"
+              ],
+              "INCLUDED_PHRASES": [
+                "AKASH NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887767,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 4,
+            "NAME": "ALGO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ALGO",
+                "Algorand"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719411577
+          },
+          {
+            "TYPE": "122",
+            "ID": 5,
+            "NAME": "ALTCOIN",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Altcoin",
+                "Altcoins",
+                "altcoin",
+                "altcoins"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719411583
+          },
+          {
+            "TYPE": "122",
+            "ID": 170,
+            "NAME": "APE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "APE",
+                "Apecoin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237182,
+            "UPDATED_ON": 1719411644
+          },
+          {
+            "TYPE": "122",
+            "ID": 70,
+            "NAME": "APT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "APT",
+                "Aptos",
+                "aptos"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718720772,
+            "UPDATED_ON": 1719412139
+          },
+          {
+            "TYPE": "122",
+            "ID": 106,
+            "NAME": "AR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AR",
+                "Arweave",
+                "arweave"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886573,
+            "UPDATED_ON": 1719412154
+          },
+          {
+            "TYPE": "122",
+            "ID": 71,
+            "NAME": "ARB",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ARB",
+                "Arbitrum",
+                "arbitrum"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718720849,
+            "UPDATED_ON": 1719411890
+          },
+          {
+            "TYPE": "122",
+            "ID": 199,
+            "NAME": "ARKM",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ARKM",
+                "Arkham",
+                "arkham"
+              ],
+              "INCLUDED_PHRASES": [
+                "ARKHAM NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240120,
+            "UPDATED_ON": 1719411870
+          },
+          {
+            "TYPE": "122",
+            "ID": 6,
+            "NAME": "ASIA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Asia",
+                "China",
+                "Korea",
+                "Japan",
+                "Hong",
+                "Singapore",
+                "Taiwan"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719411701
+          },
+          {
+            "TYPE": "122",
+            "ID": 196,
+            "NAME": "ASTR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ASTR"
+              ],
+              "INCLUDED_PHRASES": [
+                "ASTAR NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240072,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 7,
+            "NAME": "ATOM",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ATOM"
+              ],
+              "INCLUDED_PHRASES": [
+                "COSMOS SDK"
+              ],
+              "EXCLUDED_PHRASES": [
+                "ATOMIC COIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719312342
+          },
+          {
+            "TYPE": "122",
+            "ID": 8,
+            "NAME": "AVAX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AVAX"
+              ],
+              "INCLUDED_PHRASES": [
+                "AVALANCHE FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1718804693
+          },
+          {
+            "TYPE": "122",
+            "ID": 193,
+            "NAME": "AXL",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AXL"
+              ],
+              "INCLUDED_PHRASES": [
+                "AXELAR NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719239995,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 9,
+            "NAME": "AXS",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "AXS"
+              ],
+              "INCLUDED_PHRASES": [
+                "AXIE INFINITY"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1718887421
+          },
+          {
+            "TYPE": "122",
+            "ID": 10,
+            "NAME": "BAL",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BAL",
+                "Balancer"
+              ],
+              "INCLUDED_PHRASES": [
+                "BALANCER PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409182
+          },
+          {
+            "TYPE": "122",
+            "ID": 11,
+            "NAME": "BAT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BAT"
+              ],
+              "INCLUDED_PHRASES": [
+                "BASIC ATTENTION TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409227
+          },
+          {
+            "TYPE": "122",
+            "ID": 12,
+            "NAME": "BCH",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BCH",
+                "Bitcoincash",
+                "bitcoincash"
+              ],
+              "INCLUDED_PHRASES": [
+                "BITCOIN CASH"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412198
+          },
+          {
+            "TYPE": "122",
+            "ID": 129,
+            "NAME": "BEAM",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BEAM"
+              ],
+              "INCLUDED_PHRASES": [
+                "BEAM NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887319,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 109,
+            "NAME": "BGB",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BGB"
+              ],
+              "INCLUDED_PHRASES": [
+                "BITGET TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886693,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 73,
+            "NAME": "BITTENSOR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TAO",
+                "Bittensor",
+                "bittensor"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718720934,
+            "UPDATED_ON": 1719412177
+          },
+          {
+            "TYPE": "122",
+            "ID": 13,
+            "NAME": "BLOCKCHAIN",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Blockchain",
+                "blockchain",
+                "Protocol",
+                "protocol",
+                "Scaling",
+                "scaling"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719411746
+          },
+          {
+            "TYPE": "122",
+            "ID": 189,
+            "NAME": "BLUR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BLUR"
+              ],
+              "INCLUDED_PHRASES": [
+                "BLUR TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719238103,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 74,
+            "NAME": "BNB",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BNB",
+                "Binance",
+                "binance"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718720978,
+            "UPDATED_ON": 1719411826
+          },
+          {
+            "TYPE": "122",
+            "ID": 201,
+            "NAME": "BNX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BNX",
+                "Binaryx",
+                "bynarix"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240218,
+            "UPDATED_ON": 1719411837
+          },
+          {
+            "TYPE": "122",
+            "ID": 165,
+            "NAME": "BOME",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BOME"
+              ],
+              "INCLUDED_PHRASES": [
+                "BOME TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237083,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 113,
+            "NAME": "BONK",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BONK"
+              ],
+              "INCLUDED_PHRASES": [
+                "BONK TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886809,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 114,
+            "NAME": "BRETT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BRETT"
+              ],
+              "INCLUDED_PHRASES": [
+                "BRETT COIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886852,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 134,
+            "NAME": "BSV",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BSV"
+              ],
+              "INCLUDED_PHRASES": [
+                "BITCON SV"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887456,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 14,
+            "NAME": "BTC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BTC",
+                "Bitcoin",
+                "bitcoin"
+              ],
+              "INCLUDED_PHRASES": [
+                "SATOSHI NAKAMOTO"
+              ],
+              "EXCLUDED_PHRASES": [
+                "BITCOIN CASH"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409457
+          },
+          {
+            "TYPE": "122",
+            "ID": 182,
+            "NAME": "BTG",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BTG"
+              ],
+              "INCLUDED_PHRASES": [
+                "BITCOIN GOLD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237536,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 137,
+            "NAME": "BTT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "BTT"
+              ],
+              "INCLUDED_PHRASES": [
+                "BITTORRENT TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887527,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 15,
+            "NAME": "BUSINESS",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Business",
+                "business",
+                "Investor",
+                "investor",
+                "investors",
+                "Investors",
+                "revenue",
+                "Revenue",
+                "Profit",
+                "profit",
+                "enterprise",
+                "Enterprise",
+                "Commerce",
+                "commerce",
+                "stock",
+                "Stock"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409549
+          },
+          {
+            "TYPE": "122",
+            "ID": 167,
+            "NAME": "CAKE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CAKE",
+                "Pancakeswap",
+                "pancakeswap"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237123,
+            "UPDATED_ON": 1719409592
+          },
+          {
+            "TYPE": "122",
+            "ID": 158,
+            "NAME": "CFX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CFX",
+                "Conflux",
+                "conflux"
+              ],
+              "INCLUDED_PHRASES": [
+                "CONFLUX FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719236778,
+            "UPDATED_ON": 1719409618
+          },
+          {
+            "TYPE": "122",
+            "ID": 154,
+            "NAME": "CHZ",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CHZ"
+              ],
+              "INCLUDED_PHRASES": [
+                "CHILIZ CHAIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718888362,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 180,
+            "NAME": "CKB",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CKB"
+              ],
+              "INCLUDED_PHRASES": [
+                "NERVOS NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237483,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 16,
+            "NAME": "COMMODITY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Oil",
+                "oil",
+                "oil-backed",
+                "Oil-backed",
+                "Commodity",
+                "Commodities"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409669
+          },
+          {
+            "TYPE": "122",
+            "ID": 17,
+            "NAME": "COMP",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "COMP",
+                "cETH",
+                "cTokens"
+              ],
+              "INCLUDED_PHRASES": [
+                "COMPOUND PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409681
+          },
+          {
+            "TYPE": "122",
+            "ID": 119,
+            "NAME": "CORE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CORE"
+              ],
+              "INCLUDED_PHRASES": [
+                "CORE DAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887066,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 75,
+            "NAME": "CRO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CRO",
+                "Cronos",
+                "cronos"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718720997,
+            "UPDATED_ON": 1719409697
+          },
+          {
+            "TYPE": "122",
+            "ID": 18,
+            "NAME": "CRV",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "CRV"
+              ],
+              "INCLUDED_PHRASES": [
+                "CURVE DAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409724
+          },
+          {
+            "TYPE": "122",
+            "ID": 211,
+            "NAME": "CRYPTOCURRENCY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "crypto",
+                "cryptocurrency",
+                "cryptocurrencies",
+                "Aave",
+                "AAVE",
+                "ADA",
+                "ALGO",
+                "Algorand",
+                "APT",
+                "Aptos",
+                "ARB",
+                "Arbitrum",
+                "Avalanche",
+                "AVAX",
+                "BCH",
+                "BGB",
+                "Binance",
+                "BingX",
+                "Bitcoin",
+                "bitcoin",
+                "Bitfinex",
+                "Bitget",
+                "Bithumb",
+                "BitMart",
+                "Bitstamp",
+                "Bittensor",
+                "BNB",
+                "BONK",
+                "BTC",
+                "Bybit",
+                "Cardano",
+                "Chainlink",
+                "Coinbase",
+                "CRO",
+                "Cronos",
+                "Curve",
+                "Dai",
+                "DAI",
+                "DOGE",
+                "Dogecoin",
+                "DOT",
+                "ENA",
+                "ETC",
+                "ETH",
+                "Ethena",
+                "Ethereum",
+                "ethereum",
+                "Gate",
+                "HBAR",
+                "Hedera",
+                "HTX",
+                "HYPE",
+                "Hyperliquid",
+                "ICP",
+                "KAS",
+                "Kaspa",
+                "Kraken",
+                "KuCoin",
+                "LBank",
+                "LEO",
+                "LINK",
+                "Litecoin",
+                "LTC",
+                "Mantle",
+                "MEXC",
+                "Monero",
+                "NEAR",
+                "OKB",
+                "OKX",
+                "Ondo",
+                "ONDO",
+                "PancakeSwap",
+                "PENGU",
+                "PEPE",
+                "Pepe",
+                "PI",
+                "POL",
+                "Polkadot",
+                "Polygon",
+                "Raydium",
+                "SHIB",
+                "SOL",
+                "Solana",
+                "Stellar",
+                "Sui",
+                "SUI",
+                "TAO",
+                "Tether",
+                "TON",
+                "Toncoin",
+                "TRON",
+                "TRX",
+                "UNI",
+                "Uniswap",
+                "Upbit",
+                "USD1",
+                "USDC",
+                "USDE",
+                "USDS",
+                "USDT",
+                "VeChain",
+                "WBT",
+                "XLM",
+                "XMR",
+                "XRP",
+                "Ripple",
+                "Crypto.com",
+                "WhiteBIT",
+                "cryptocompare.com",
+                "coindesk.com",
+                "coinedition.com",
+                "bitcoinist.com",
+                "bitcoin.com",
+                "cointelegraph.com",
+                "newsbtc.com",
+                "trustnodes.com",
+                "nulltx.com",
+                "cryptopotato.com",
+                "blokt.com",
+                "ambcrypto.com",
+                "cryptonewsz.com",
+                "diariobitcoin.com",
+                "cryptopolitan.com",
+                "decrypt.co",
+                "cryptocoin.news",
+                "zycrypto.com",
+                "cryptonews.com",
+                "blockworks.co",
+                "thecoinrise.com",
+                "finbold.com",
+                "u.today",
+                "thecryptobasic.com",
+                "bitdegree.org",
+                "timestabloid.com",
+                "chainwire.org",
+                "invezz.com/cryptocurrency/",
+                "cryptodaily.co.uk",
+                "coinotag.com",
+                "cointurk.com",
+                "cointurk.news",
+                "coinpaprika.com",
+                "bitcoinsistemi.com",
+                "btcpulse.com",
+                "coinpaper.com",
+                "cryptointelligence.co.uk",
+                "blog.kraken.com",
+                "blog.bitfinex.com",
+                "blog.huobi.com",
+                "bloomberg.com/crypto",
+                "bitzo.com"
+              ],
+              "INCLUDED_PHRASES": [
+                "DIGITAL ASSET",
+                "DIGITAL ASSETS",
+                "TOKEN SALE",
+                "TOKEN LAUNCH",
+                "TOKEN LISTING",
+                "INITIAL COIN OFFERING",
+                "INITIAL DEX OFFERING",
+                "SECURITY TOKEN OFFERING",
+                "DECENTRALIZED EXCHANGE",
+                "DECENTRALIZED FINANCE",
+                "NON-FUNGIBLE TOKEN",
+                "METAVERSE PLATFORM",
+                "METAVERSE PROJECT",
+                "NEAR PROTOCOL",
+                "CONVEX FINANCE",
+                "YEARN FINANCE",
+                "KYBER NETWORK",
+                "PUDGY PENGUINS",
+                "WORLD LIBERTY FINANCIAL",
+                "SHIBA INU",
+                "PI TOKEN",
+                "ETHENA USDE"
+              ],
+              "EXCLUDED_PHRASES": [
+                "CRYPTO QUOTE PUZZLE",
+                "CRYPTOGRAM PUZZLE",
+                "CRYPTOGRAPHY COMPETITION",
+                "ENCRYPTION TECHNOLOGY",
+                "CRYPTOGRAPHY CONFERENCE",
+                "CRYPTOGRAPHY METHOD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1754928359,
+            "UPDATED_ON": 1754928692
+          },
+          {
+            "TYPE": "122",
+            "ID": 76,
+            "NAME": "DAI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "DAI"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721015,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 19,
+            "NAME": "DASH",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "DASH",
+                "Digitalcash",
+                "digitalcash"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409749
+          },
+          {
+            "TYPE": "122",
+            "ID": 209,
+            "NAME": "DIGITAL ASSET TREASURY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "treasury",
+                "Treasury",
+                "treasuries",
+                "Treasuries"
+              ],
+              "EXCLUDED_PHRASES": [
+                "US TREASURY",
+                "TREASURY YIELDS",
+                "TREASURY CURVE",
+                "TREASURY FUTURES"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1752491142,
+            "UPDATED_ON": 1754667162
+          },
+          {
+            "TYPE": "122",
+            "ID": 20,
+            "NAME": "DOGE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "DOGE",
+                "Dogecoin",
+                "dogecoin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409771
+          },
+          {
+            "TYPE": "122",
+            "ID": 21,
+            "NAME": "DOT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "DOT",
+                "Polkadot",
+                "polkadot"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409784
+          },
+          {
+            "TYPE": "122",
+            "ID": 133,
+            "NAME": "DYDX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "DYDX"
+              ],
+              "INCLUDED_PHRASES": [
+                "DYDX EXCHANGE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887440,
+            "UPDATED_ON": 1719409792
+          },
+          {
+            "TYPE": "122",
+            "ID": 140,
+            "NAME": "EGLD",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "EGLD",
+                "MultiversX",
+                "multiversX"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887610,
+            "UPDATED_ON": 1719409850
+          },
+          {
+            "TYPE": "122",
+            "ID": 124,
+            "NAME": "ENA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ENA"
+              ],
+              "INCLUDED_PHRASES": [
+                "ETHENA LABS"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887198,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 22,
+            "NAME": "ENJ",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ENJ",
+                "Enjin",
+                "enjin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409914
+          },
+          {
+            "TYPE": "122",
+            "ID": 139,
+            "NAME": "ENS",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ENS"
+              ],
+              "INCLUDED_PHRASES": [
+                "ETHEREUM NAME SERVICE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887583,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 23,
+            "NAME": "ETC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ETC"
+              ],
+              "INCLUDED_PHRASES": [
+                "ETHEREUM CLASSIC"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409956
+          },
+          {
+            "TYPE": "122",
+            "ID": 24,
+            "NAME": "ETH",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ETH",
+                "Ethereum",
+                "ethereum",
+                "Vitalik",
+                "vitalik"
+              ],
+              "EXCLUDED_PHRASES": [
+                "ETHEREUM CLASSIC"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719409984
+          },
+          {
+            "TYPE": "122",
+            "ID": 202,
+            "NAME": "ETHFI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ETHFI"
+              ],
+              "INCLUDED_PHRASES": [
+                "ETHERFI PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240248,
+            "UPDATED_ON": 1719240290
+          },
+          {
+            "TYPE": "122",
+            "ID": 25,
+            "NAME": "EXCHANGE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Exchange",
+                "exchange",
+                "bitfinex",
+                "poloniex",
+                "binance",
+                "kraken",
+                "coinbase",
+                "bybit",
+                "upbit",
+                "gate.io",
+                "huobi",
+                "kucoin",
+                "bitget",
+                "crypto.com",
+                "Bitfinex",
+                "Poloniex",
+                "Binance",
+                "Kraken",
+                "Coinbase",
+                "Bybit",
+                "Upbit",
+                "Gate.io",
+                "Huobi",
+                "Kucoin",
+                "Bitget",
+                "Crypto.com"
+              ],
+              "INCLUDED_PHRASES": [
+                "GEMINI EXCHANGE",
+                "GEMINI.COM"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719410235
+          },
+          {
+            "TYPE": "122",
+            "ID": 80,
+            "NAME": "FDUSD",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FDUSD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721171,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 116,
+            "NAME": "FET",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FET"
+              ],
+              "INCLUDED_PHRASES": [
+                "FETCH.AI"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886961,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 26,
+            "NAME": "FIAT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Fiat",
+                "fiat",
+                "Reserve",
+                "reserve",
+                "Gold",
+                "gold",
+                "Gold-backed",
+                "gold-backed",
+                "bank",
+                "Bank",
+                "Dollar",
+                "Euro",
+                "Yen",
+                "Pound"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719410378
+          },
+          {
+            "TYPE": "122",
+            "ID": 27,
+            "NAME": "FIL",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FIL",
+                "Filecoin",
+                "filecoin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719410423
+          },
+          {
+            "TYPE": "122",
+            "ID": 107,
+            "NAME": "FLOKI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FLOKI"
+              ],
+              "INCLUDED_PHRASES": [
+                "FLOKI COIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886625,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 125,
+            "NAME": "FLOW",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FLOW"
+              ],
+              "INCLUDED_PHRASES": [
+                "FLOW BLOCKCHAIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887219,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 122,
+            "NAME": "FLR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FLR"
+              ],
+              "INCLUDED_PHRASES": [
+                "FLARE NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887148,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 206,
+            "NAME": "FORKS",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "softfork",
+                "Softfork",
+                "hardfork",
+                "Hardfork"
+              ],
+              "INCLUDED_PHRASES": [
+                "SOFT FORK",
+                "PROTOCOL UPGRADE",
+                "BACKWARD-COMPATIBLE UPGRADE",
+                "HARD FORK",
+                "CHAIN SPLIT"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1720703359,
+            "UPDATED_ON": 1720703371
+          },
+          {
+            "TYPE": "122",
+            "ID": 28,
+            "NAME": "FTM",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FTM"
+              ],
+              "INCLUDED_PHRASES": [
+                "FANTOM FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719313358
+          },
+          {
+            "TYPE": "122",
+            "ID": 179,
+            "NAME": "FTT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "FTT"
+              ],
+              "INCLUDED_PHRASES": [
+                "FTX TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237466,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 131,
+            "NAME": "GALA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "GALA"
+              ],
+              "INCLUDED_PHRASES": [
+                "GALA GAMES"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887358,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 136,
+            "NAME": "GMO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "GMO",
+                "Gnosisdao",
+                "gnosisdao",
+                "gnosisDAO",
+                "GnosisDAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887500,
+            "UPDATED_ON": 1719410477
+          },
+          {
+            "TYPE": "122",
+            "ID": 97,
+            "NAME": "GRT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "GRT"
+              ],
+              "INCLUDED_PHRASES": [
+                "GRAPH FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721605,
+            "UPDATED_ON": 1719313379
+          },
+          {
+            "TYPE": "122",
+            "ID": 149,
+            "NAME": "GT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "GT"
+              ],
+              "INCLUDED_PHRASES": [
+                "GATE TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718888043,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 81,
+            "NAME": "HBAR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "HBAR"
+              ],
+              "INCLUDED_PHRASES": [
+                "HEDERA COUNCIL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721205,
+            "UPDATED_ON": 1719313416
+          },
+          {
+            "TYPE": "122",
+            "ID": 172,
+            "NAME": "HNT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "HNT"
+              ],
+              "INCLUDED_PHRASES": [
+                "HELIUM FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237236,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 82,
+            "NAME": "ICP",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ICP"
+              ],
+              "INCLUDED_PHRASES": [
+                "INTERNET COMPUTER PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721220,
+            "UPDATED_ON": 1719313510
+          },
+          {
+            "TYPE": "122",
+            "ID": 83,
+            "NAME": "IMX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "IMX",
+                "ImmutableX",
+                "immutableX"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721252,
+            "UPDATED_ON": 1719410614
+          },
+          {
+            "TYPE": "122",
+            "ID": 84,
+            "NAME": "INJ",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "INJ"
+              ],
+              "INCLUDED_PHRASES": [
+                "INJECTIVE PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721282,
+            "UPDATED_ON": 1719313605
+          },
+          {
+            "TYPE": "122",
+            "ID": 166,
+            "NAME": "IOTA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "IOTA"
+              ],
+              "INCLUDED_PHRASES": [
+                "IOTA FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237100,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 200,
+            "NAME": "IOTX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "IOTX"
+              ],
+              "INCLUDED_PHRASES": [
+                "IOTEX PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240141,
+            "UPDATED_ON": 1719240203
+          },
+          {
+            "TYPE": "122",
+            "ID": 112,
+            "NAME": "JASMY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "JASMY"
+              ],
+              "INCLUDED_PHRASES": [
+                "JASMY COIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886791,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 123,
+            "NAME": "JUP",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "JUP"
+              ],
+              "INCLUDED_PHRASES": [
+                "JUPITER AGGREGATOR"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887179,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 85,
+            "NAME": "KASPA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "KASPA"
+              ],
+              "INCLUDED_PHRASES": [
+                "KASPA PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721309,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 175,
+            "NAME": "KAVA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "KAVA"
+              ],
+              "INCLUDED_PHRASES": [
+                "KAVA LEND"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237357,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 168,
+            "NAME": "KLAY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "KLAY"
+              ],
+              "INCLUDED_PHRASES": [
+                "KLAYTN FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237145,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 30,
+            "NAME": "KNC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "KNC"
+              ],
+              "INCLUDED_PHRASES": [
+                "KYBER NETWORK",
+                "KYBERNETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719313634
+          },
+          {
+            "TYPE": "122",
+            "ID": 127,
+            "NAME": "KSC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "KSC"
+              ],
+              "INCLUDED_PHRASES": [
+                "KUCOIN EXCHANGE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887275,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 86,
+            "NAME": "LDO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LDO"
+              ],
+              "INCLUDED_PHRASES": [
+                "LIDO DAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721354,
+            "UPDATED_ON": 1719313691
+          },
+          {
+            "TYPE": "122",
+            "ID": 99,
+            "NAME": "LEO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LEO"
+              ],
+              "INCLUDED_PHRASES": [
+                "UNUS SED LEO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721638,
+            "UPDATED_ON": 1719313700
+          },
+          {
+            "TYPE": "122",
+            "ID": 31,
+            "NAME": "LINK",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LINK",
+                "Chainlink",
+                "chainlink"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719411115
+          },
+          {
+            "TYPE": "122",
+            "ID": 171,
+            "NAME": "LPT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LPT"
+              ],
+              "INCLUDED_PHRASES": [
+                "LIVEPEER NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237222,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 32,
+            "NAME": "LRC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LRC",
+                "Loopring",
+                "loopring"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412252
+          },
+          {
+            "TYPE": "122",
+            "ID": 33,
+            "NAME": "LTC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LTC",
+                "Litecoin",
+                "litecoin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412410
+          },
+          {
+            "TYPE": "122",
+            "ID": 34,
+            "NAME": "LUNA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LUNA",
+                "TERRA",
+                "UST"
+              ],
+              "INCLUDED_PHRASES": [
+                "TERRAFORM LABS"
+              ],
+              "EXCLUDED_PHRASES": [
+                "LUNC",
+                "LUNA CLASSIC"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719248546
+          },
+          {
+            "TYPE": "122",
+            "ID": 35,
+            "NAME": "LUNC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "LUNC"
+              ],
+              "INCLUDED_PHRASES": [
+                "TERRA CLASSIC",
+                "LUNA CLASSIC"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719238061
+          },
+          {
+            "TYPE": "122",
+            "ID": 210,
+            "NAME": "MACROECONOMICS",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "inflation",
+                "Inflation",
+                "deflation",
+                "Deflation",
+                "stagflation",
+                "Stagflation",
+                "recession",
+                "Recession",
+                "slowdown",
+                "CPI",
+                "PPI",
+                "PCE",
+                "GDP",
+                "PMI",
+                "jobless",
+                "Jobless",
+                "unemployment",
+                "Unemployment",
+                "treasury",
+                "Treasury",
+                "DXY",
+                "QE",
+                "QT",
+                "taper",
+                "stimulus",
+                "Stimulus",
+                "deficit",
+                "Deficit",
+                "downgrade",
+                "tariff",
+                "Tariff",
+                "tariffs",
+                "Tariffs",
+                "sanction",
+                "sanctions",
+                "WTI",
+                "FED",
+                "FOMC",
+                "ECB",
+                "BOE",
+                "BOJ",
+                "PBOC"
+              ],
+              "INCLUDED_PHRASES": [
+                "CONSUMER PRICE INDEX",
+                "PRODUCER PRICE INDEX",
+                "CORE PCE",
+                "NON-FARM PAYROLLS",
+                "JOBS REPORT",
+                "INITIAL JOBLESS CLAIMS",
+                "INTEREST-RATE HIKE",
+                "RATE CUT",
+                "YIELD-CURVE INVERSION",
+                "QUANTITATIVE EASING",
+                "QUANTITATIVE TIGHTENING",
+                "FISCAL STIMULUS",
+                "GOVERNMENT SHUTDOWN",
+                "DEBT-CEILING STANDOFF",
+                "CREDIT-RATING DOWNGRADE",
+                "TRADE TARIFFS",
+                "TRADE SANCTIONS",
+                "GLOBAL SUPPLY-CHAIN",
+                "MIDDLE EAST CONFLICT",
+                "UKRAINE WAR",
+                "OIL PRODUCTION CUT",
+                "OPEC+ MEETING",
+                "DOLLAR INDEX STRENGTH",
+                "FX INTERVENTION",
+                "MONETARY POLICY MEETING",
+                "CENTRAL-BANK DECISION",
+                "INFLATION EXPECTATIONS",
+                "CORE INFLATION",
+                "HEADLINE INFLATION",
+                "IMPORT/EXPORT DATA",
+                "BALANCE OF TRADE",
+                "MANUFACTURING PMI",
+                "SERVICES PMI",
+                "FEDERAL RESERVE",
+                "CENTRAL BANK",
+                "TRADE WAR"
+              ],
+              "EXCLUDED_PHRASES": [
+                "DOLLAR TREE",
+                "DOLLAR GENERAL",
+                "DOLLAR STORE",
+                "FEDERAL EXPRESS",
+                "PIXELS PER INCH",
+                "PPI DISPLAY",
+                "PPI RESOLUTION",
+                "CPU CPI",
+                "QT FRAMEWORK",
+                "QT CREATOR",
+                "QT GUI"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1754332899,
+            "UPDATED_ON": 1754333724
+          },
+          {
+            "TYPE": "122",
+            "ID": 36,
+            "NAME": "MANA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MANA",
+                "Decentraland",
+                "decentraland"
+              ],
+              "EXCLUDED_PHRASES": [
+                "GENESIS MANA"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412283
+          },
+          {
+            "TYPE": "122",
+            "ID": 37,
+            "NAME": "MARKET",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "index",
+                "Index",
+                "Prices",
+                "prices",
+                "market",
+                "Market",
+                "markets",
+                "Markets",
+                "analysis",
+                "Analysis"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412386
+          },
+          {
+            "TYPE": "122",
+            "ID": 38,
+            "NAME": "MATIC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MATIC",
+                "Polygon"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412427
+          },
+          {
+            "TYPE": "122",
+            "ID": 195,
+            "NAME": "MEME",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MEME",
+                "Memeland"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240044,
+            "UPDATED_ON": 1719412441
+          },
+          {
+            "TYPE": "122",
+            "ID": 157,
+            "NAME": "MINA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MINA"
+              ],
+              "INCLUDED_PHRASES": [
+                "MINA PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718888465,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 39,
+            "NAME": "MINING",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Mining",
+                "mining",
+                "Hashrate",
+                "hashrate",
+                "Hashing",
+                "hashing",
+                "Pools",
+                "pools",
+                "Reward",
+                "reward"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412488
+          },
+          {
+            "TYPE": "122",
+            "ID": 40,
+            "NAME": "MKR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MKR",
+                "MakerDAO",
+                "makerDAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412521
+          },
+          {
+            "TYPE": "122",
+            "ID": 88,
+            "NAME": "MNT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MNT"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721416,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 185,
+            "NAME": "MOG",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MOG"
+              ],
+              "INCLUDED_PHRASES": [
+                "MOG COIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237633,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 203,
+            "NAME": "MX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "MX"
+              ],
+              "INCLUDED_PHRASES": [
+                "MX TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240313,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 89,
+            "NAME": "NEAR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "NEAR"
+              ],
+              "INCLUDED_PHRASES": [
+                "NEAR PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721445,
+            "UPDATED_ON": 1719314028
+          },
+          {
+            "TYPE": "122",
+            "ID": 141,
+            "NAME": "NEO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "NEO"
+              ],
+              "INCLUDED_PHRASES": [
+                "NEO BLOCKCHAIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887631,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 153,
+            "NAME": "NEXO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "NEXO"
+              ],
+              "INCLUDED_PHRASES": [
+                "NEXO EXCHANGE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718888338,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 90,
+            "NAME": "NOT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "NOTCOIN",
+                "Notcoin",
+                "notcoin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721462,
+            "UPDATED_ON": 1719412546
+          },
+          {
+            "TYPE": "122",
+            "ID": 91,
+            "NAME": "OKB",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "OKB"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721480,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 169,
+            "NAME": "OM",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "OM"
+              ],
+              "INCLUDED_PHRASES": [
+                "MANTRA FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237167,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 108,
+            "NAME": "ONDO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ONDO"
+              ],
+              "INCLUDED_PHRASES": [
+                "ONDO FINANCE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886670,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 92,
+            "NAME": "OP",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "OP"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721503,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 138,
+            "NAME": "ORDI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ORDI"
+              ],
+              "INCLUDED_PHRASES": [
+                "ORDINALS PLATFORM"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887560,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 63,
+            "NAME": "OTHER",
+            "FILTER": {},
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 183,
+            "NAME": "PAXG",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "PAXG"
+              ],
+              "INCLUDED_PHRASES": [
+                "PAXOS GOLD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237594,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 130,
+            "NAME": "PENDLE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "PENDLE"
+              ],
+              "INCLUDED_PHRASES": [
+                "PENDLE FINANCE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887337,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 184,
+            "NAME": "PEOPLE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "PEOPLE",
+                "ConstitutionalDAO",
+                "constitutionalDAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237616,
+            "UPDATED_ON": 1719412571
+          },
+          {
+            "TYPE": "122",
+            "ID": 93,
+            "NAME": "PEPE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "PEPE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721520,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 120,
+            "NAME": "PYTH",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "PYTH"
+              ],
+              "INCLUDED_PHRASES": [
+                "PYTH NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887107,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 191,
+            "NAME": "PYUSD",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "PYUSD"
+              ],
+              "INCLUDED_PHRASES": [
+                "PAYPAL USD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719238263,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 128,
+            "NAME": "QNT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "QNT"
+              ],
+              "INCLUDED_PHRASES": [
+                "QUANT NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887298,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 65,
+            "NAME": "RAI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "RAI"
+              ],
+              "INCLUDED_PHRASES": [
+                "REFLEXER LABS"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718210261,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 197,
+            "NAME": "RAY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "RAY",
+                "Raydium",
+                "raydium"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240089,
+            "UPDATED_ON": 1719412594
+          },
+          {
+            "TYPE": "122",
+            "ID": 41,
+            "NAME": "REGULATION",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Regulation",
+                "regulation",
+                "Legal",
+                "legal",
+                "Law",
+                "law",
+                "tax",
+                "Tax",
+                "Taxes",
+                "taxes",
+                "senate",
+                "Senate",
+                "Legislation",
+                "legislation",
+                "President",
+                "president",
+                "treasury",
+                "Treasury",
+                "SEC",
+                "BOE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412681
+          },
+          {
+            "TYPE": "122",
+            "ID": 42,
+            "NAME": "REN",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "REN",
+                "RenVM",
+                "renVM",
+                "Renbridge",
+                "renbridge"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412707
+          },
+          {
+            "TYPE": "122",
+            "ID": 64,
+            "NAME": "RESEARCH",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "research",
+                "Research"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1685975407,
+            "UPDATED_ON": 1719412724
+          },
+          {
+            "TYPE": "122",
+            "ID": 94,
+            "NAME": "RNDR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "RNDR"
+              ],
+              "INCLUDED_PHRASES": [
+                "RENDER FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721536,
+            "UPDATED_ON": 1719314250
+          },
+          {
+            "TYPE": "122",
+            "ID": 142,
+            "NAME": "RON",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "RON"
+              ],
+              "INCLUDED_PHRASES": [
+                "RONIN BLOCKCHAIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887647,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 155,
+            "NAME": "ROSE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ROSE"
+              ],
+              "INCLUDED_PHRASES": [
+                "OASIS PROTOCOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718888389,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 181,
+            "NAME": "RPL",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "RPL"
+              ],
+              "INCLUDED_PHRASES": [
+                "ROCKET POOL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237521,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 115,
+            "NAME": "RUNE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "RUNE",
+                "Thorchain",
+                "thorchain"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886874,
+            "UPDATED_ON": 1719412743
+          },
+          {
+            "TYPE": "122",
+            "ID": 162,
+            "NAME": "SAFE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SAFE"
+              ],
+              "INCLUDED_PHRASES": [
+                "SAFE SMART ACCOUNTS"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237008,
+            "UPDATED_ON": 1719237024
+          },
+          {
+            "TYPE": "122",
+            "ID": 43,
+            "NAME": "SAND",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SAND"
+              ],
+              "INCLUDED_PHRASES": [
+                "SANDBOX FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719314281
+          },
+          {
+            "TYPE": "122",
+            "ID": 121,
+            "NAME": "SEI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SEI"
+              ],
+              "INCLUDED_PHRASES": [
+                "SEI NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887123,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 44,
+            "NAME": "SHIB",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SHIB"
+              ],
+              "INCLUDED_PHRASES": [
+                "SHIBA INU"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 45,
+            "NAME": "SNX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SNX"
+              ],
+              "INCLUDED_PHRASES": [
+                "SYNTHETIX ECOSYSTEM"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1718888444
+          },
+          {
+            "TYPE": "122",
+            "ID": 46,
+            "NAME": "SOL",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SOL",
+                "Solana",
+                "solana"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412768
+          },
+          {
+            "TYPE": "122",
+            "ID": 47,
+            "NAME": "SPONSORED",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Sponsored",
+                "sponsored",
+                "featured",
+                "Featured"
+              ],
+              "INCLUDED_PHRASES": [
+                "PRESS RELEASE",
+                "PRESS RELEASES"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412908
+          },
+          {
+            "TYPE": "122",
+            "ID": 198,
+            "NAME": "SSV",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SSV"
+              ],
+              "INCLUDED_PHRASES": [
+                "SSV NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240105,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 126,
+            "NAME": "STRK",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "STRK"
+              ],
+              "INCLUDED_PHRASES": [
+                "STARKNET FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887248,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 95,
+            "NAME": "STX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "STX"
+              ],
+              "INCLUDED_PHRASES": [
+                "STACKS FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721558,
+            "UPDATED_ON": 1719314410
+          },
+          {
+            "TYPE": "122",
+            "ID": 96,
+            "NAME": "SUI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SUI"
+              ],
+              "INCLUDED_PHRASES": [
+                "SUI BLOCKCHAIN",
+                "SUI FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721573,
+            "UPDATED_ON": 1719314461
+          },
+          {
+            "TYPE": "122",
+            "ID": 48,
+            "NAME": "SUSHI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "SUSHI",
+                "Sushiswap",
+                "sushiswap"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412934
+          },
+          {
+            "TYPE": "122",
+            "ID": 49,
+            "NAME": "TECHNOLOGY",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Software",
+                "software",
+                "technology",
+                "Technology",
+                "TECH"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719412967
+          },
+          {
+            "TYPE": "122",
+            "ID": 176,
+            "NAME": "TFUEL",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TFUEL"
+              ],
+              "INCLUDED_PHRASES": [
+                "THETA FUEL"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237401,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 111,
+            "NAME": "THETA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "THETA"
+              ],
+              "INCLUDED_PHRASES": [
+                "THETA NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718886770,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 118,
+            "NAME": "TIA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TIA",
+                "Celestia",
+                "celestia"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887025,
+            "UPDATED_ON": 1719412982
+          },
+          {
+            "TYPE": "122",
+            "ID": 207,
+            "NAME": "TOKEN LISTING AND DELISTING",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "tokenlisting"
+              ],
+              "INCLUDED_PHRASES": [
+                "TOKEN LISTING",
+                "COIN LISTING",
+                "NEW TOKEN LISTED",
+                "NEW COIN LISTED",
+                "TOKEN ADDED",
+                "COIN ADDED",
+                "TOKEN DELISTING",
+                "TOKEN REMOVED",
+                "TOKEN DELISTED"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1720703558,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 205,
+            "NAME": "TOKEN SALE",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ICO"
+              ],
+              "INCLUDED_PHRASES": [
+                "INITIAL COIN OFFERING",
+                "TOKEN SALE",
+                "TOKEN OFFERING",
+                "COIN OFFERING",
+                "INITIAL TOKEN SALE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1720703185,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 98,
+            "NAME": "TON",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TON"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721618,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 50,
+            "NAME": "TRADING",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Technical",
+                "technical",
+                "trading",
+                "Trading",
+                "Fundamentals",
+                "fundamentals",
+                "Price",
+                "price",
+                "Bull",
+                "bull",
+                "bear",
+                "Bear",
+                "Bullish",
+                "bullish",
+                "Bearish",
+                "bearish",
+                "Rally",
+                "rally"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413048
+          },
+          {
+            "TYPE": "122",
+            "ID": 51,
+            "NAME": "TRX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TRX",
+                "TronDAO",
+                "tronDAO"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413080
+          },
+          {
+            "TYPE": "122",
+            "ID": 173,
+            "NAME": "TUSD",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TUSD",
+                "TrueUSD",
+                "trueUSD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237303,
+            "UPDATED_ON": 1719413096
+          },
+          {
+            "TYPE": "122",
+            "ID": 190,
+            "NAME": "TWT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "TWT"
+              ],
+              "INCLUDED_PHRASES": [
+                "TRUST WALLET TOKEN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719238132,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 52,
+            "NAME": "UMA",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "UMA"
+              ],
+              "INCLUDED_PHRASES": [
+                "Universal Market Access"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 53,
+            "NAME": "UNI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "UNI",
+                "Uniswap",
+                "uniswap"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413114
+          },
+          {
+            "TYPE": "122",
+            "ID": 100,
+            "NAME": "USDC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "USDC"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721680,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 152,
+            "NAME": "USDD",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "USDD"
+              ],
+              "INCLUDED_PHRASES": [
+                "USDD STABLECOIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718888320,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 54,
+            "NAME": "USDT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "USDT",
+                "Tether",
+                "tether"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413127
+          },
+          {
+            "TYPE": "122",
+            "ID": 101,
+            "NAME": "VET",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "VET",
+                "Vechain",
+                "vechain"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721693,
+            "UPDATED_ON": 1719413142
+          },
+          {
+            "TYPE": "122",
+            "ID": 55,
+            "NAME": "WALLET",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "Ledger",
+                "ledger",
+                "Trezor",
+                "trezor",
+                "Keepkey",
+                "keepkey",
+                "Coinomi",
+                "coinomi",
+                "Jaxx",
+                "Myetherwallet",
+                "myeterhwallet",
+                "metamask",
+                "Metamask"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413211
+          },
+          {
+            "TYPE": "122",
+            "ID": 77,
+            "NAME": "WIF",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "WIF"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718721047,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 145,
+            "NAME": "WLD",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "WLD",
+                "Worldcoin",
+                "worldcoin"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887740,
+            "UPDATED_ON": 1719413225
+          },
+          {
+            "TYPE": "122",
+            "ID": 194,
+            "NAME": "WOO",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "WOO"
+              ],
+              "INCLUDED_PHRASES": [
+                "WOO NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719240020,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 164,
+            "NAME": "XAUT",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XAUt"
+              ],
+              "INCLUDED_PHRASES": [
+                "TETHER GOLD"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237064,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 178,
+            "NAME": "XDC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XDC"
+              ],
+              "INCLUDED_PHRASES": [
+                "XDC NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719237445,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 159,
+            "NAME": "XEC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XEC"
+              ],
+              "INCLUDED_PHRASES": [
+                "ECASH FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1719236883,
+            "UPDATED_ON": null
+          },
+          {
+            "TYPE": "122",
+            "ID": 56,
+            "NAME": "XLM",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XLM"
+              ],
+              "INCLUDED_PHRASES": [
+                "STELLAR NETWORK"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719314739
+          },
+          {
+            "TYPE": "122",
+            "ID": 57,
+            "NAME": "XMR",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XMR",
+                "Monero",
+                "monero"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413238
+          },
+          {
+            "TYPE": "122",
+            "ID": 58,
+            "NAME": "XRP",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XRP"
+              ],
+              "INCLUDED_PHRASES": [
+                "RIPPLE FOUNDATION"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719314772
+          },
+          {
+            "TYPE": "122",
+            "ID": 59,
+            "NAME": "XTZ",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "XTZ"
+              ],
+              "INCLUDED_PHRASES": [
+                "TEZOS BLOCKCHAIN"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1718887719
+          },
+          {
+            "TYPE": "122",
+            "ID": 60,
+            "NAME": "YFI",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "YFI"
+              ],
+              "INCLUDED_PHRASES": [
+                "YEARN FINANCE",
+                "YEARN.FINANCE"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719314782
+          },
+          {
+            "TYPE": "122",
+            "ID": 61,
+            "NAME": "ZEC",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ZEC",
+                "Zcash",
+                "zcash"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719413252
+          },
+          {
+            "TYPE": "122",
+            "ID": 143,
+            "NAME": "ZK",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ZK",
+                "Zksync",
+                "zksync",
+                "ZKsync"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1718887662,
+            "UPDATED_ON": 1719413277
+          },
+          {
+            "TYPE": "122",
+            "ID": 62,
+            "NAME": "ZRX",
+            "FILTER": {
+              "INCLUDED_WORDS": [
+                "ZRX"
+              ],
+              "INCLUDED_PHRASES": [
+                "0X"
+              ]
+            },
+            "STATUS": "ACTIVE",
+            "CREATED_ON": 1657730110,
+            "UPDATED_ON": 1719314846
+          }
+        ],
+        "Err": {}
+      },
+      "analysis": {
+        "total_categories": 0,
+        "category_list": [],
+        "category_ids": [],
+        "fetched_at": "2025-09-30T18:37:27.406469",
+        "classification": {
+          "trading_related": [],
+          "tech_related": [],
+          "policy_related": [],
+          "business_related": [],
+          "other": []
+        },
+        "insights": {
+          "has_markets_category": false,
+          "has_defi_category": false,
+          "has_policy_category": false,
+          "has_nft_category": false,
+          "most_common_terms": []
+        }
+      },
+      "filepath": "data\\raw\\coindesk_categories_20250930_183727.json"
+    },
+    "feed_categories": {
+      "error": "404 Client Error: Not Found for url: https://data-api.coindesk.com/news/v1/feed_category/list"
+    },
+    "articles": {
+      "latest_20": {
+        "error": "400 Client Error: Bad Request for url: https://data-api.coindesk.com/news/v1/search?limit=20&offset=0"
+      },
+      "markets_category": {
+        "error": "400 Client Error: Bad Request for url: https://data-api.coindesk.com/news/v1/search?limit=15&offset=0&category=markets"
+      },
+      "coindesk_source": {
+        "error": "400 Client Error: Bad Request for url: https://data-api.coindesk.com/news/v1/search?limit=15&offset=0&source=coindesk"
+      }
+    }
+  },
+  "comprehensive_analysis": {
+    "session_id": "20250930_183723",
+    "analyzed_at": "2025-09-30T18:37:39.398377",
+    "data_quality": {
+      "endpoints_status": {
+        "sources": "SUCCESS",
+        "categories": "SUCCESS",
+        "feed_categories": "FAILED",
+        "articles": "SUCCESS"
+      },
+      "data_completeness": {
+        "sources": 0,
+        "categories": 0,
+        "articles": 0
+      },
+      "consistency_checks": {},
+      "potential_issues": [
+        "feed_categories endpoint failed: 404 Client Error: Not Found for url: https://data-api.coindesk.com/news/v1/feed_category/list",
+        "No sources returned from API",
+        "No categories returned from API",
+        "No articles returned from any query"
+      ]
+    },
+    "content_insights": {
+      "article_patterns": {},
+      "category_distribution": {},
+      "source_distribution": {},
+      "temporal_patterns": {},
+      "content_characteristics": {}
+    },
+    "operational_insights": {
+      "api_response_efficiency": {
+        "total_requests": 4,
+        "successful_requests": 3,
+        "success_rate": 75.0
+      },
+      "data_freshness": {},
+      "coverage_metrics": {},
+      "scalability_indicators": {}
+    },
+    "recommendations": {
+      "immediate_actions": [
+        "Address: feed_categories endpoint failed: 404 Client Error: Not Found for url: https://data-api.coindesk.com/news/v1/feed_category/list",
+        "Address: No sources returned from API",
+        "Address: No categories returned from API",
+        "Fix failed endpoints: feed_categories"
+      ],
+      "data_strategy": [],
+      "monitoring_setup": [
+        "Implement API health monitoring and alerting",
+        "Set up automated data freshness checks",
+        "Monitor article volume trends by category",
+        "Track source availability and performance"
+      ],
+      "integration_priorities": [
+        "Improve source-category mapping coverage",
+        "Implement cross-source content validation",
+        "Create unified article deduplication system",
+        "Build category-based content recommendation engine"
+      ],
+      "risk_mitigation": [
+        "Implement fallback mechanisms for failed API calls",
+        "Set up data backup and recovery procedures",
+        "Create rate limiting and quota management",
+        "Establish data quality validation pipelines"
+      ]
+    },
+    "data_relationships": {
+      "source_category_mapping": {},
+      "content_source_alignment": {},
+      "category_coverage_gaps": {},
+      "cross_validation_opportunities": {}
+    },
+    "coverage_analysis": {
+      "temporal_coverage": {},
+      "thematic_coverage": {
+        "total_categories": 0,
+        "trading_categories": 0,
+        "tech_categories": 0,
+        "policy_categories": 0,
+        "business_categories": 0,
+        "other_categories": 0
+      },
+      "source_coverage": {},
+      "geographic_coverage": {},
+      "coverage_recommendations": []
+    }
+  }
+}

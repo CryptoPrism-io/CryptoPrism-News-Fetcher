@@ -1,0 +1,45 @@
+ID,SOURCE_KEY,NAME,IMAGE_URL,URL,LANG,SOURCE_TYPE,LAUNCH_DATE,SORT_ORDER,BENCHMARK_SCORE,STATUS,LAST_UPDATED_TS,CREATED_ON,UPDATED_ON
+5,coindesk,CoinDesk,https://resources.cryptocompare.com/news/5/default.png,https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml,EN,RSS,1367884800,0,71,ACTIVE,1759310764,1657730129,1744296800
+16,cointelegraph,CoinTelegraph,https://images.cryptocompare.com/news/default/cointelegraph.png,https://cointelegraph.com/rss,EN,RSS,1382227200,0,66,ACTIVE,1759310765,1657730129,1711620813
+55,blockworks,Blockworks,https://images.cryptocompare.com/news/default/blockworks.png,https://blockworks.co/feed/,EN,RSS,1610236800,0,59,ACTIVE,1759310765,1657730129,1737815987
+27,cryptopotato,Crypto Potato,https://images.cryptocompare.com/news/default/cryptopotato.png,https://cryptopotato.com/category/crypto-news/feed/,EN,RSS,1458086400,0,57,ACTIVE,1759310765,1657730129,1711621041
+44,decrypt,Decrypt,https://images.cryptocompare.com/news/default/decrypt.png,https://decrypt.co/feed,EN,RSS,1521331200,0,57,ACTIVE,1759310778,1657730129,1711620560
+14,bitcoin.com,Bitcoin.com,https://images.cryptocompare.com/news/default/bitcoincom.png,https://news.bitcoin.com/feed/,EN,RSS,1438387200,0,51,ACTIVE,1759310766,1657730129,1711621233
+21,newsbtc,NewsBTC,https://images.cryptocompare.com/news/default/newsbtc.png,https://www.newsbtc.com/feed/,EN,RSS,1380585600,0,50,ACTIVE,1759310766,1657730129,1711620962
+64,utoday,U.Today,https://images.cryptocompare.com/news/default/utoday.png,https://u.today/cryptocompare.php,EN,RSS,1506816000,0,49,ACTIVE,1759310768,1657730129,1745920032
+13,bitcoinist,Bitcoinist,https://images.cryptocompare.com/news/default/bitcoinist.png,https://bitcoinist.com/feed/,EN,RSS,1387843200,0,48,ACTIVE,1759310768,1657730129,1711620995
+99,bitfinexblog,Bitfinex blog,https://resources.cryptocompare.com/news/99/default.png,https://blog.bitfinex.com/feed/,EN,RSS,1445817600,0,0,ACTIVE,1759310820,1718289520,1718289531
+43,cryptopolitan,Cryptopolitan,https://images.cryptocompare.com/news/default/cryptopolitan.png,https://www.cryptopolitan.com/feed/,EN,RSS,,0,0,ACTIVE,1759310801,1657730129,1681205909
+65,thecryptobasic,The Crypto Basic,https://images.cryptocompare.com/news/default/thecryptobasic.png,https://thecryptobasic.com/category/latest-crypto-news/feed/,EN,RSS,,0,0,ACTIVE,1759310802,1657730129,1673258252
+69,invezz,Invezz,https://resources.cryptocompare.com/news/69/default.png,https://invezz.com/news/cryptocurrency/feed/,EN,RSS,,0,0,ACTIVE,1759310797,1679069939,1679076581
+106,investing_comcryptonews,Investing.com Crypto News,https://resources.cryptocompare.com/news/106/default.png,https://www.investing.com/rss/news_301.rss,EN,RSS,1505088000,0,0,ACTIVE,1759310792,1754907212,1754907484
+67,timestabloid,TimesTabloid,https://resources.cryptocompare.com/news/67/default.png,https://timestabloid.com/feed/,EN,RSS,,0,0,ACTIVE,1759310796,1664381507,1673235440
+103,bloomberg_crypto_,Bloomberg (Crypto),https://resources.cryptocompare.com/news/103/default.png,https://feeds.bloomberg.com/crypto/news.rss?ageHours=10000000,EN,RSS,1365724800,0,0,ACTIVE,1759310811,1721308309,1721308597
+7,coinquora,Coin Edition,https://resources.cryptocompare.com/news/7/default.png,https://coinedition.com/news/feed/,EN,RSS,,0,0,ACTIVE,1759310792,1657730129,1673259737
+100,huobi,Huobi blog,https://resources.cryptocompare.com/news/100/default.png,https://blog.huobi.com/feed/,EN,RSS,1390435200,0,0,ACTIVE,1759310796,1718289700,1718290133
+49,cryptocoinnews,CryptoCoin.News,https://images.cryptocompare.com/news/default/cryptocoinnews.png,https://cryptocoin.news/feed/,EN,RSS,,0,0,ACTIVE,1759310805,1657730129,1672769245
+94,forbes,Forbes Digital Assets,https://resources.cryptocompare.com/news/94/default.png,https://feeds.forbes.com/?feedId=65e751905f3da70f9b117908,EN,RSS,-1650326400,0,0,ACTIVE,1759310788,1709735346,1709735471
+79,cointurken,CoinTurk News,https://resources.cryptocompare.com/news/79/default.png,https://en.coin-turk.com/feed/,EN,RSS,,0,0,ACTIVE,1759310804,1689939795,1690273097
+32,ambcrypto,AMB Crypto,https://images.cryptocompare.com/news/default/ambcrypto.png,https://ambcrypto.com/feed/,EN,RSS,,0,0,ACTIVE,1759310792,1657730129,1674467937
+24,trustnodes,TrustNodes,https://images.cryptocompare.com/news/default/trustnodes.png,https://www.trustnodes.com/feed,EN,RSS,,0,0,ACTIVE,1759310802,1657730129,1680683435
+66,bitdegree,BitDegree,https://images.cryptocompare.com/news/default/bitdegree.png,https://www.bitdegree.org/crypto/news/rss,EN,RSS,,0,0,ACTIVE,1759310805,1657730129,1705342087
+98,krakenblog,Kraken Blog,https://resources.cryptocompare.com/news/98/default.png,https://blog.kraken.com/feed/,EN,RSS,1311811200,0,0,ACTIVE,1759310807,1718278266,1718289260
+107,investing_comcryptoopinionandanalysis,Investing.Com Crypto Opinion and Analysis,https://resources.cryptocompare.com/news/107/default.png,https://www.investing.com/rss/302.rss,EN,RSS,1508284800,0,0,ACTIVE,1759310800,1754908251,1754908290
+82,bitcoinworld,Bitcoin World,https://resources.cryptocompare.com/news/82/default.png,https://bitcoinworld.co.in/feed/,EN,RSS,,0,0,ACTIVE,1759310802,1698066984,1747932437
+75,cryptodaily,Crypto Daily,https://resources.cryptocompare.com/news/75/default.png,https://cryptodaily.co.uk/feed,EN,RSS,,0,0,ACTIVE,1759310810,1685543991,1685544026
+40,cryptonewsz,CryptoNewsZ,https://images.cryptocompare.com/news/default/cryptonewsz.png,https://www.cryptonewsz.com/feed/,EN,RSS,,0,0,ACTIVE,1759310783,1657730129,1680683988
+51,zycrypto,ZyCrypto,https://images.cryptocompare.com/news/default/zycrypto.png,https://zycrypto.com/category/news/feed/,EN,RSS,,0,0,ACTIVE,1759310795,1657730129,1673216359
+80,coinpaprika,Coinpaprika,https://resources.cryptocompare.com/news/80/default.png,https://coinpaprika.com/news/feed/,EN,RSS,,0,0,ACTIVE,1759310798,1690478386,1695628845
+95,cryptointelligence,CryptoIntelligence,https://resources.cryptocompare.com/news/95/default.png,https://www.cryptointelligence.co.uk/feed/,EN,RSS,1554076800,0,0,ACTIVE,1759310803,1710179061,1710179075
+25,themerkle,NullTx,https://images.cryptocompare.com/news/default/nulltx.png,https://nulltx.com/feed/,EN,RSS,,0,0,ACTIVE,1759310792,1657730129,1673068655
+81,bitcoinsistemi,BitcoinSistemi,https://resources.cryptocompare.com/news/81/default.png,https://en.bitcoinsistemi.com/feed/,EN,RSS,,0,0,ACTIVE,1759310801,1692873798,1692873836
+93,coinpaper,Coinpaper,https://resources.cryptocompare.com/news/93/default.png,https://coinpaper.com/newsfeed,EN,RSS,1646092800,0,0,ACTIVE,1759310810,1709283963,1709284009
+62,finbold,Finbold,https://images.cryptocompare.com/news/default/finbold.png,https://finbold.com/category/cryptocurrency-news/feed/,EN,RSS,,0,0,ACTIVE,1759310805,1657730129,1673260010
+102,financialtimes_crypto_,Financial Times (Crypto),https://resources.cryptocompare.com/news/102/default.png,https://www.ft.com/cryptofinance?format=rss,EN,RSS,1307318400,0,0,ACTIVE,1759310806,1719248005,1719248073
+50,seekingalpha,Seeking Alpha,https://images.cryptocompare.com/news/default/seekingalpha.png,https://seekingalpha.com/feeds/cryptocompare/cryptos,EN,RSS,,0,0,ACTIVE,1759310794,1657730129,1673257636
+77,coinotag,CoinOtag,https://resources.cryptocompare.com/news/77/default.png,https://en.coinotag.com/feed/,EN,RSS,,0,0,ACTIVE,1759306893,1686819961,1717748924
+29,blokt,Blokt,https://images.cryptocompare.com/news/default/blokt.png,https://blokt.com/feed,EN,RSS,,0,0,ACTIVE,1759310801,1657730129,1673011530
+52,cryptonews,cryptonews,https://images.cryptocompare.com/news/default/cryptonews.png,https://cryptonews.com/news/feed/,EN,RSS,,0,0,ACTIVE,1759310789,1657730129,1680604053
+104,bitzo,Bitzo,https://resources.cryptocompare.com/news/104/default.png,https://bitzo.com/feed,EN,RSS,1520899200,0,0,ACTIVE,1759310796,1736502919,1736502976
+68,chainwire,Chainwire,https://resources.cryptocompare.com/news/68/default.png,https://app.chainwire.org/rss/website/Oif0bAWbBAgFRL39I0bICogg9ck3LMWYRw3iieNW,EN,RSS,,0,0,ACTIVE,1759310795,1673520685,1673520719
+1,cryptocompare,CryptoCompare,https://images.cryptocompare.com/news/default/cryptocompare.png,https://www.cryptocompare.com/api/external/newsletter/,EN,RSS,,0,0,ACTIVE,1759310785,1657730129,1673259116

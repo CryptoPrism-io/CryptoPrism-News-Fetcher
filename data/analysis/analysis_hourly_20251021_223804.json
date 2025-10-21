@@ -1,0 +1,70 @@
+{
+  "timestamp": "20251021_223804",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1761062884,
+    "time_range_start": "2025-10-21 21:38:04",
+    "time_range_end": "2025-10-21 22:38:04"
+  },
+  "total_articles": 51,
+  "unique_sources": 19,
+  "unique_categories": 26,
+  "unique_tags": 92,
+  "body_stats": {
+    "avg_length": 1711.1,
+    "min_length": 65,
+    "max_length": 12244
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2025-10-21 21:38:09",
+    "newest": "2025-10-21 22:35:20",
+    "time_span_minutes": 57.18
+  },
+  "top_sources": {
+    "CoinOtag": 16,
+    "Cryptopolitan": 6,
+    "BitcoinSistemi": 5,
+    "Bitcoin.com": 3,
+    "TimesTabloid": 2,
+    "AMB Crypto": 2,
+    "CoinDesk": 2,
+    "Decrypt": 2,
+    "Cointelegraph": 2,
+    "Kraken Blog": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 43,
+    "MARKET": 26,
+    "BTC": 17,
+    "TRADING": 17,
+    "MACROECONOMICS": 13,
+    "ETH": 9,
+    "BLOCKCHAIN": 9,
+    "BUSINESS": 7,
+    "FIAT": 7,
+    "EXCHANGE": 7,
+    "REGULATION": 7,
+    "ALTCOIN": 6,
+    "DIGITAL ASSET TREASURY": 6,
+    "BNB": 5,
+    "XRP": 4
+  },
+  "top_tags": {
+    "News": 28,
+    "Analysis": 7,
+    "Bitcoin": 6,
+    "BTC": 6,
+    "XRP": 5,
+    "ETH": 5,
+    "Core": 4,
+    "Ethereum": 3,
+    "Ripple": 3,
+    "Markets": 3,
+    "XRP Price": 2,
+    "Altcoin": 2,
+    "More News": 2,
+    "News 1": 2,
+    "Social": 2
+  }
+}

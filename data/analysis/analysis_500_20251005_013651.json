@@ -1,0 +1,59 @@
+{
+  "timestamp": "20251005_013651",
+  "total_articles": 500,
+  "unique_sources": 33,
+  "unique_categories": 66,
+  "unique_tags": 597,
+  "avg_body_length": 3208.44,
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2025-10-03 22:54:41",
+    "newest": "2025-10-05 01:35:36"
+  },
+  "top_sources": {
+    "Cryptopolitan": 92,
+    "CoinOtag": 54,
+    "TimesTabloid": 30,
+    "BitcoinSistemi": 26,
+    "U.Today": 26,
+    "cryptonews": 23,
+    "Bitcoinist": 22,
+    "CoinTurk News": 21,
+    "NewsBTC": 21,
+    "CoinTelegraph": 21
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 476,
+    "TRADING": 290,
+    "MARKET": 261,
+    "BUSINESS": 149,
+    "BTC": 143,
+    "MACROECONOMICS": 90,
+    "EXCHANGE": 86,
+    "XRP": 84,
+    "REGULATION": 81,
+    "ALTCOIN": 68,
+    "ETH": 65,
+    "BLOCKCHAIN": 64,
+    "FIAT": 48,
+    "SOL": 41,
+    "DOGE": 34
+  },
+  "top_tags": {
+    "News": 175,
+    "Bitcoin": 48,
+    "XRP": 47,
+    "Cryptocurrency": 41,
+    "Press Release": 41,
+    "BTC": 39,
+    "Analysis": 24,
+    "Market": 24,
+    "Crypto News": 23,
+    "Sponsored": 23,
+    "Altcoin": 22,
+    "bitcoin": 21,
+    "Crypto": 20,
+    "More News": 20,
+    "BTCUSDT": 17
+  }
+}

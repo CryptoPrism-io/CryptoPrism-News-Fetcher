@@ -1,0 +1,1306 @@
+{
+  "session_info": {
+    "session_id": "demo_20250930_182715",
+    "completed_at": "2025-09-30T18:27:15.721038",
+    "endpoints_tested": [
+      "sources",
+      "categories",
+      "feed_categories",
+      "articles"
+    ],
+    "note": "This is a demonstration with mock data"
+  },
+  "raw_data_results": {
+    "sources": {
+      "raw_data": {
+        "sources": [
+          {
+            "id": "coindesk",
+            "name": "CoinDesk"
+          },
+          {
+            "id": "reuters",
+            "name": "Reuters"
+          },
+          {
+            "id": "bloomberg",
+            "name": "Bloomberg"
+          },
+          {
+            "id": "cointelegraph",
+            "name": "Cointelegraph"
+          },
+          {
+            "id": "decrypt",
+            "name": "Decrypt"
+          },
+          {
+            "id": "theblock",
+            "name": "The Block"
+          }
+        ]
+      },
+      "analysis": {
+        "total_sources": 6,
+        "source_list": [
+          "CoinDesk",
+          "Reuters",
+          "Bloomberg",
+          "Cointelegraph",
+          "Decrypt",
+          "The Block"
+        ],
+        "source_ids": [
+          "coindesk",
+          "reuters",
+          "bloomberg",
+          "cointelegraph",
+          "decrypt",
+          "theblock"
+        ],
+        "fetched_at": "2025-09-30T18:27:15.720544",
+        "analysis": {
+          "has_coindesk": true,
+          "has_reuters": true,
+          "has_bloomberg": true,
+          "crypto_specific_sources": [
+            {
+              "id": "coindesk",
+              "name": "CoinDesk"
+            },
+            {
+              "id": "cointelegraph",
+              "name": "Cointelegraph"
+            }
+          ],
+          "mainstream_sources": [
+            {
+              "id": "reuters",
+              "name": "Reuters"
+            },
+            {
+              "id": "bloomberg",
+              "name": "Bloomberg"
+            }
+          ]
+        }
+      }
+    },
+    "categories": {
+      "raw_data": {
+        "categories": [
+          {
+            "id": "markets",
+            "name": "Markets"
+          },
+          {
+            "id": "policy",
+            "name": "Policy"
+          },
+          {
+            "id": "defi",
+            "name": "DeFi"
+          },
+          {
+            "id": "nft",
+            "name": "NFT"
+          },
+          {
+            "id": "tech",
+            "name": "Technology"
+          },
+          {
+            "id": "bitcoin",
+            "name": "Bitcoin"
+          },
+          {
+            "id": "ethereum",
+            "name": "Ethereum"
+          },
+          {
+            "id": "business",
+            "name": "Business"
+          }
+        ]
+      },
+      "analysis": {
+        "total_categories": 8,
+        "category_list": [
+          "Markets",
+          "Policy",
+          "DeFi",
+          "NFT",
+          "Technology",
+          "Bitcoin",
+          "Ethereum",
+          "Business"
+        ],
+        "category_ids": [
+          "markets",
+          "policy",
+          "defi",
+          "nft",
+          "tech",
+          "bitcoin",
+          "ethereum",
+          "business"
+        ],
+        "fetched_at": "2025-09-30T18:27:15.720590",
+        "classification": {
+          "trading_related": [
+            {
+              "id": "markets",
+              "name": "Markets"
+            }
+          ],
+          "tech_related": [
+            {
+              "id": "defi",
+              "name": "DeFi"
+            },
+            {
+              "id": "nft",
+              "name": "NFT"
+            },
+            {
+              "id": "tech",
+              "name": "Technology"
+            }
+          ],
+          "policy_related": [
+            {
+              "id": "policy",
+              "name": "Policy"
+            }
+          ],
+          "business_related": [
+            {
+              "id": "business",
+              "name": "Business"
+            }
+          ],
+          "other": [
+            {
+              "id": "bitcoin",
+              "name": "Bitcoin"
+            },
+            {
+              "id": "ethereum",
+              "name": "Ethereum"
+            }
+          ]
+        },
+        "insights": {
+          "has_markets_category": true,
+          "has_defi_category": true,
+          "has_policy_category": true,
+          "has_nft_category": true,
+          "most_common_terms": [
+            [
+              "markets",
+              1
+            ],
+            [
+              "policy",
+              1
+            ],
+            [
+              "defi",
+              1
+            ],
+            [
+              "nft",
+              1
+            ],
+            [
+              "technology",
+              1
+            ]
+          ]
+        }
+      }
+    },
+    "feed_categories": {
+      "raw_data": {
+        "feeds": [
+          {
+            "source": "coindesk",
+            "categories": [
+              "markets",
+              "policy",
+              "bitcoin",
+              "ethereum",
+              "tech"
+            ]
+          },
+          {
+            "source": "reuters",
+            "categories": [
+              "markets",
+              "policy",
+              "business"
+            ]
+          },
+          {
+            "source": "bloomberg",
+            "categories": [
+              "markets",
+              "business",
+              "policy"
+            ]
+          },
+          {
+            "source": "cointelegraph",
+            "categories": [
+              "markets",
+              "defi",
+              "nft",
+              "bitcoin",
+              "ethereum"
+            ]
+          },
+          {
+            "source": "decrypt",
+            "categories": [
+              "defi",
+              "nft",
+              "tech",
+              "ethereum"
+            ]
+          },
+          {
+            "source": "theblock",
+            "categories": [
+              "markets",
+              "defi",
+              "policy",
+              "tech"
+            ]
+          }
+        ]
+      },
+      "analysis": {
+        "total_feeds": 6,
+        "fetched_at": "2025-09-30T18:27:15.720656",
+        "source_to_categories": {
+          "coindesk": [
+            "markets",
+            "policy",
+            "bitcoin",
+            "ethereum",
+            "tech"
+          ],
+          "reuters": [
+            "markets",
+            "policy",
+            "business"
+          ],
+          "bloomberg": [
+            "markets",
+            "business",
+            "policy"
+          ],
+          "cointelegraph": [
+            "markets",
+            "defi",
+            "nft",
+            "bitcoin",
+            "ethereum"
+          ],
+          "decrypt": [
+            "defi",
+            "nft",
+            "tech",
+            "ethereum"
+          ],
+          "theblock": [
+            "markets",
+            "defi",
+            "policy",
+            "tech"
+          ]
+        },
+        "category_to_sources": {
+          "markets": [
+            "coindesk",
+            "reuters",
+            "bloomberg",
+            "cointelegraph",
+            "theblock"
+          ],
+          "policy": [
+            "coindesk",
+            "reuters",
+            "bloomberg",
+            "theblock"
+          ],
+          "bitcoin": [
+            "coindesk",
+            "cointelegraph"
+          ],
+          "ethereum": [
+            "coindesk",
+            "cointelegraph",
+            "decrypt"
+          ],
+          "tech": [
+            "coindesk",
+            "decrypt",
+            "theblock"
+          ],
+          "business": [
+            "reuters",
+            "bloomberg"
+          ],
+          "defi": [
+            "cointelegraph",
+            "decrypt",
+            "theblock"
+          ],
+          "nft": [
+            "cointelegraph",
+            "decrypt"
+          ]
+        },
+        "statistics": {
+          "avg_categories_per_source": 4.0,
+          "max_categories_per_source": 5,
+          "min_categories_per_source": 3,
+          "most_versatile_source": "coindesk",
+          "most_popular_category": "markets",
+          "unique_categories": [
+            "policy",
+            "defi",
+            "nft",
+            "ethereum",
+            "tech",
+            "bitcoin",
+            "business",
+            "markets"
+          ],
+          "unique_sources": [
+            "reuters",
+            "bloomberg",
+            "coindesk",
+            "theblock",
+            "decrypt",
+            "cointelegraph"
+          ]
+        },
+        "relationships": {
+          "sources_covering_markets": [
+            "reuters",
+            "bloomberg",
+            "coindesk",
+            "theblock",
+            "cointelegraph"
+          ],
+          "sources_covering_policy": [
+            "coindesk",
+            "theblock",
+            "bloomberg",
+            "reuters"
+          ],
+          "sources_covering_tech": [
+            "cointelegraph",
+            "coindesk",
+            "theblock",
+            "decrypt"
+          ],
+          "multi_category_sources": [
+            "reuters",
+            "bloomberg",
+            "coindesk",
+            "theblock",
+            "decrypt",
+            "cointelegraph"
+          ],
+          "single_category_sources": []
+        },
+        "coverage_matrix": {
+          "reuters": {
+            "policy": true,
+            "defi": false,
+            "nft": false,
+            "ethereum": false,
+            "tech": false,
+            "bitcoin": false,
+            "business": true,
+            "markets": true
+          },
+          "bloomberg": {
+            "policy": true,
+            "defi": false,
+            "nft": false,
+            "ethereum": false,
+            "tech": false,
+            "bitcoin": false,
+            "business": true,
+            "markets": true
+          },
+          "coindesk": {
+            "policy": true,
+            "defi": false,
+            "nft": false,
+            "ethereum": true,
+            "tech": true,
+            "bitcoin": true,
+            "business": false,
+            "markets": true
+          },
+          "theblock": {
+            "policy": true,
+            "defi": true,
+            "nft": false,
+            "ethereum": false,
+            "tech": true,
+            "bitcoin": false,
+            "business": false,
+            "markets": true
+          },
+          "decrypt": {
+            "policy": false,
+            "defi": true,
+            "nft": true,
+            "ethereum": true,
+            "tech": true,
+            "bitcoin": false,
+            "business": false,
+            "markets": false
+          },
+          "cointelegraph": {
+            "policy": false,
+            "defi": true,
+            "nft": true,
+            "ethereum": true,
+            "tech": false,
+            "bitcoin": true,
+            "business": false,
+            "markets": true
+          }
+        },
+        "recommendations": {
+          "content_strategy": [
+            "Prioritize coindesk as it covers the most categories (5 categories)",
+            "Focus on 'markets' category as it has the most source coverage (5 sources)"
+          ],
+          "filtering_strategy": [
+            "Use sources like reuters, bloomberg, coindesk for broad coverage filtering"
+          ],
+          "monitoring_priorities": [
+            "Monitor reuters, bloomberg, coindesk for market-related news",
+            "Track coindesk, theblock, bloomberg for regulatory updates",
+            "Follow cointelegraph, coindesk, theblock for technology developments"
+          ],
+          "integration_opportunities": [
+            "Create category-specific dashboards based on source-category relationships",
+            "Implement hierarchical filtering UI with primary and secondary categories",
+            "Set up cross-source validation for important news categories"
+          ]
+        }
+      }
+    },
+    "articles": {
+      "latest_20": {
+        "count": 20,
+        "total_available": 1500,
+        "processed_articles": [
+          {
+            "id": "article_0",
+            "title": "Sample Crypto News Article 0",
+            "summary": "This is a sample summary for article 0 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-0",
+            "image_url": "https://cdn.coindesk.com/image-0.jpg",
+            "published_at": "2025-09-30T18:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720763",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_1",
+            "title": "Sample Crypto News Article 1",
+            "summary": "This is a sample summary for article 1 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-1",
+            "image_url": null,
+            "published_at": "2025-09-30T17:27:15.720221",
+            "source": "reuters",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720771",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_2",
+            "title": "Sample Crypto News Article 2",
+            "summary": "This is a sample summary for article 2 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-2",
+            "image_url": "https://cdn.coindesk.com/image-2.jpg",
+            "published_at": "2025-09-30T16:27:15.720221",
+            "source": "bloomberg",
+            "category": "defi",
+            "fetched_at": "2025-09-30T18:27:15.720777",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_3",
+            "title": "Sample Crypto News Article 3",
+            "summary": "This is a sample summary for article 3 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-3",
+            "image_url": null,
+            "published_at": "2025-09-30T15:27:15.720221",
+            "source": "cointelegraph",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720780",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_4",
+            "title": "Sample Crypto News Article 4",
+            "summary": "This is a sample summary for article 4 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-4",
+            "image_url": "https://cdn.coindesk.com/image-4.jpg",
+            "published_at": "2025-09-30T14:27:15.720221",
+            "source": "coindesk",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720783",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_5",
+            "title": "Sample Crypto News Article 5",
+            "summary": "This is a sample summary for article 5 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-5",
+            "image_url": null,
+            "published_at": "2025-09-30T13:27:15.720221",
+            "source": "reuters",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720786",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_6",
+            "title": "Sample Crypto News Article 6",
+            "summary": "This is a sample summary for article 6 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-6",
+            "image_url": "https://cdn.coindesk.com/image-6.jpg",
+            "published_at": "2025-09-30T12:27:15.720221",
+            "source": "bloomberg",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720789",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_7",
+            "title": "Sample Crypto News Article 7",
+            "summary": "This is a sample summary for article 7 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-7",
+            "image_url": null,
+            "published_at": "2025-09-30T11:27:15.720221",
+            "source": "cointelegraph",
+            "category": "defi",
+            "fetched_at": "2025-09-30T18:27:15.720791",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_8",
+            "title": "Sample Crypto News Article 8",
+            "summary": "This is a sample summary for article 8 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-8",
+            "image_url": "https://cdn.coindesk.com/image-8.jpg",
+            "published_at": "2025-09-30T10:27:15.720221",
+            "source": "coindesk",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720794",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_9",
+            "title": "Sample Crypto News Article 9",
+            "summary": "This is a sample summary for article 9 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-9",
+            "image_url": null,
+            "published_at": "2025-09-30T09:27:15.720221",
+            "source": "reuters",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720796",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_10",
+            "title": "Sample Crypto News Article 10",
+            "summary": "This is a sample summary for article 10 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-10",
+            "image_url": "https://cdn.coindesk.com/image-10.jpg",
+            "published_at": "2025-09-30T08:27:15.720221",
+            "source": "bloomberg",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720799",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_11",
+            "title": "Sample Crypto News Article 11",
+            "summary": "This is a sample summary for article 11 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-11",
+            "image_url": null,
+            "published_at": "2025-09-30T07:27:15.720221",
+            "source": "cointelegraph",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720802",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_12",
+            "title": "Sample Crypto News Article 12",
+            "summary": "This is a sample summary for article 12 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-12",
+            "image_url": "https://cdn.coindesk.com/image-12.jpg",
+            "published_at": "2025-09-30T06:27:15.720221",
+            "source": "coindesk",
+            "category": "defi",
+            "fetched_at": "2025-09-30T18:27:15.720806",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_13",
+            "title": "Sample Crypto News Article 13",
+            "summary": "This is a sample summary for article 13 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-13",
+            "image_url": null,
+            "published_at": "2025-09-30T05:27:15.720221",
+            "source": "reuters",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720809",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_14",
+            "title": "Sample Crypto News Article 14",
+            "summary": "This is a sample summary for article 14 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-14",
+            "image_url": "https://cdn.coindesk.com/image-14.jpg",
+            "published_at": "2025-09-30T04:27:15.720221",
+            "source": "bloomberg",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720811",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_15",
+            "title": "Sample Crypto News Article 15",
+            "summary": "This is a sample summary for article 15 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-15",
+            "image_url": null,
+            "published_at": "2025-09-30T03:27:15.720221",
+            "source": "cointelegraph",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720814",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_16",
+            "title": "Sample Crypto News Article 16",
+            "summary": "This is a sample summary for article 16 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-16",
+            "image_url": "https://cdn.coindesk.com/image-16.jpg",
+            "published_at": "2025-09-30T02:27:15.720221",
+            "source": "coindesk",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720816",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_17",
+            "title": "Sample Crypto News Article 17",
+            "summary": "This is a sample summary for article 17 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-17",
+            "image_url": null,
+            "published_at": "2025-09-30T01:27:15.720221",
+            "source": "reuters",
+            "category": "defi",
+            "fetched_at": "2025-09-30T18:27:15.720819",
+            "word_count": 18,
+            "has_image": false
+          },
+          {
+            "id": "article_18",
+            "title": "Sample Crypto News Article 18",
+            "summary": "This is a sample summary for article 18 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-18",
+            "image_url": "https://cdn.coindesk.com/image-18.jpg",
+            "published_at": "2025-09-30T00:27:15.720221",
+            "source": "bloomberg",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720821",
+            "word_count": 18,
+            "has_image": true
+          },
+          {
+            "id": "article_19",
+            "title": "Sample Crypto News Article 19",
+            "summary": "This is a sample summary for article 19 about cryptocurrency markets and trends.",
+            "url": "https://coindesk.com/article-19",
+            "image_url": null,
+            "published_at": "2025-09-29T23:27:15.720221",
+            "source": "cointelegraph",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720824",
+            "word_count": 18,
+            "has_image": false
+          }
+        ]
+      },
+      "markets_category": {
+        "count": 15,
+        "total_available": 450,
+        "processed_articles": [
+          {
+            "id": "market_article_0",
+            "title": "Market Analysis Article 0",
+            "summary": "Market analysis summary 0 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-0",
+            "image_url": "https://cdn.coindesk.com/market-0.jpg",
+            "published_at": "2025-09-30T18:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720829",
+            "word_count": 14,
+            "has_image": true
+          },
+          {
+            "id": "market_article_1",
+            "title": "Market Analysis Article 1",
+            "summary": "Market analysis summary 1 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-1",
+            "image_url": null,
+            "published_at": "2025-09-30T16:27:15.720221",
+            "source": "bloomberg",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720832",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_2",
+            "title": "Market Analysis Article 2",
+            "summary": "Market analysis summary 2 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-2",
+            "image_url": null,
+            "published_at": "2025-09-30T14:27:15.720221",
+            "source": "reuters",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720836",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_3",
+            "title": "Market Analysis Article 3",
+            "summary": "Market analysis summary 3 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-3",
+            "image_url": "https://cdn.coindesk.com/market-3.jpg",
+            "published_at": "2025-09-30T12:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720839",
+            "word_count": 14,
+            "has_image": true
+          },
+          {
+            "id": "market_article_4",
+            "title": "Market Analysis Article 4",
+            "summary": "Market analysis summary 4 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-4",
+            "image_url": null,
+            "published_at": "2025-09-30T10:27:15.720221",
+            "source": "bloomberg",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720841",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_5",
+            "title": "Market Analysis Article 5",
+            "summary": "Market analysis summary 5 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-5",
+            "image_url": null,
+            "published_at": "2025-09-30T08:27:15.720221",
+            "source": "reuters",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720844",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_6",
+            "title": "Market Analysis Article 6",
+            "summary": "Market analysis summary 6 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-6",
+            "image_url": "https://cdn.coindesk.com/market-6.jpg",
+            "published_at": "2025-09-30T06:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720846",
+            "word_count": 14,
+            "has_image": true
+          },
+          {
+            "id": "market_article_7",
+            "title": "Market Analysis Article 7",
+            "summary": "Market analysis summary 7 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-7",
+            "image_url": null,
+            "published_at": "2025-09-30T04:27:15.720221",
+            "source": "bloomberg",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720848",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_8",
+            "title": "Market Analysis Article 8",
+            "summary": "Market analysis summary 8 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-8",
+            "image_url": null,
+            "published_at": "2025-09-30T02:27:15.720221",
+            "source": "reuters",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720851",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_9",
+            "title": "Market Analysis Article 9",
+            "summary": "Market analysis summary 9 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-9",
+            "image_url": "https://cdn.coindesk.com/market-9.jpg",
+            "published_at": "2025-09-30T00:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720853",
+            "word_count": 14,
+            "has_image": true
+          },
+          {
+            "id": "market_article_10",
+            "title": "Market Analysis Article 10",
+            "summary": "Market analysis summary 10 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-10",
+            "image_url": null,
+            "published_at": "2025-09-29T22:27:15.720221",
+            "source": "bloomberg",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720855",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_11",
+            "title": "Market Analysis Article 11",
+            "summary": "Market analysis summary 11 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-11",
+            "image_url": null,
+            "published_at": "2025-09-29T20:27:15.720221",
+            "source": "reuters",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720858",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_12",
+            "title": "Market Analysis Article 12",
+            "summary": "Market analysis summary 12 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-12",
+            "image_url": "https://cdn.coindesk.com/market-12.jpg",
+            "published_at": "2025-09-29T18:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720862",
+            "word_count": 14,
+            "has_image": true
+          },
+          {
+            "id": "market_article_13",
+            "title": "Market Analysis Article 13",
+            "summary": "Market analysis summary 13 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-13",
+            "image_url": null,
+            "published_at": "2025-09-29T16:27:15.720221",
+            "source": "bloomberg",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720864",
+            "word_count": 14,
+            "has_image": false
+          },
+          {
+            "id": "market_article_14",
+            "title": "Market Analysis Article 14",
+            "summary": "Market analysis summary 14 discussing price movements and trading volumes.",
+            "url": "https://coindesk.com/markets/article-14",
+            "image_url": null,
+            "published_at": "2025-09-29T14:27:15.720221",
+            "source": "reuters",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720867",
+            "word_count": 14,
+            "has_image": false
+          }
+        ]
+      },
+      "coindesk_source": {
+        "count": 15,
+        "total_available": 300,
+        "processed_articles": [
+          {
+            "id": "coindesk_article_0",
+            "title": "CoinDesk Exclusive Article 0",
+            "summary": "Exclusive analysis from CoinDesk covering topic 0 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-0",
+            "image_url": "https://cdn.coindesk.com/exclusive-0.jpg",
+            "published_at": "2025-09-30T18:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720871",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_1",
+            "title": "CoinDesk Exclusive Article 1",
+            "summary": "Exclusive analysis from CoinDesk covering topic 1 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-1",
+            "image_url": "https://cdn.coindesk.com/exclusive-1.jpg",
+            "published_at": "2025-09-30T15:27:15.720221",
+            "source": "coindesk",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720876",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_2",
+            "title": "CoinDesk Exclusive Article 2",
+            "summary": "Exclusive analysis from CoinDesk covering topic 2 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-2",
+            "image_url": "https://cdn.coindesk.com/exclusive-2.jpg",
+            "published_at": "2025-09-30T12:27:15.720221",
+            "source": "coindesk",
+            "category": "tech",
+            "fetched_at": "2025-09-30T18:27:15.720878",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_3",
+            "title": "CoinDesk Exclusive Article 3",
+            "summary": "Exclusive analysis from CoinDesk covering topic 3 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-3",
+            "image_url": "https://cdn.coindesk.com/exclusive-3.jpg",
+            "published_at": "2025-09-30T09:27:15.720221",
+            "source": "coindesk",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720881",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_4",
+            "title": "CoinDesk Exclusive Article 4",
+            "summary": "Exclusive analysis from CoinDesk covering topic 4 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-4",
+            "image_url": "https://cdn.coindesk.com/exclusive-4.jpg",
+            "published_at": "2025-09-30T06:27:15.720221",
+            "source": "coindesk",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720883",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_5",
+            "title": "CoinDesk Exclusive Article 5",
+            "summary": "Exclusive analysis from CoinDesk covering topic 5 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-5",
+            "image_url": "https://cdn.coindesk.com/exclusive-5.jpg",
+            "published_at": "2025-09-30T03:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720885",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_6",
+            "title": "CoinDesk Exclusive Article 6",
+            "summary": "Exclusive analysis from CoinDesk covering topic 6 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-6",
+            "image_url": "https://cdn.coindesk.com/exclusive-6.jpg",
+            "published_at": "2025-09-30T00:27:15.720221",
+            "source": "coindesk",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720888",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_7",
+            "title": "CoinDesk Exclusive Article 7",
+            "summary": "Exclusive analysis from CoinDesk covering topic 7 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-7",
+            "image_url": "https://cdn.coindesk.com/exclusive-7.jpg",
+            "published_at": "2025-09-29T21:27:15.720221",
+            "source": "coindesk",
+            "category": "tech",
+            "fetched_at": "2025-09-30T18:27:15.720893",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_8",
+            "title": "CoinDesk Exclusive Article 8",
+            "summary": "Exclusive analysis from CoinDesk covering topic 8 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-8",
+            "image_url": "https://cdn.coindesk.com/exclusive-8.jpg",
+            "published_at": "2025-09-29T18:27:15.720221",
+            "source": "coindesk",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720896",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_9",
+            "title": "CoinDesk Exclusive Article 9",
+            "summary": "Exclusive analysis from CoinDesk covering topic 9 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-9",
+            "image_url": "https://cdn.coindesk.com/exclusive-9.jpg",
+            "published_at": "2025-09-29T15:27:15.720221",
+            "source": "coindesk",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720898",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_10",
+            "title": "CoinDesk Exclusive Article 10",
+            "summary": "Exclusive analysis from CoinDesk covering topic 10 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-10",
+            "image_url": "https://cdn.coindesk.com/exclusive-10.jpg",
+            "published_at": "2025-09-29T12:27:15.720221",
+            "source": "coindesk",
+            "category": "markets",
+            "fetched_at": "2025-09-30T18:27:15.720901",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_11",
+            "title": "CoinDesk Exclusive Article 11",
+            "summary": "Exclusive analysis from CoinDesk covering topic 11 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-11",
+            "image_url": "https://cdn.coindesk.com/exclusive-11.jpg",
+            "published_at": "2025-09-29T09:27:15.720221",
+            "source": "coindesk",
+            "category": "policy",
+            "fetched_at": "2025-09-30T18:27:15.720903",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_12",
+            "title": "CoinDesk Exclusive Article 12",
+            "summary": "Exclusive analysis from CoinDesk covering topic 12 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-12",
+            "image_url": "https://cdn.coindesk.com/exclusive-12.jpg",
+            "published_at": "2025-09-29T06:27:15.720221",
+            "source": "coindesk",
+            "category": "tech",
+            "fetched_at": "2025-09-30T18:27:15.720906",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_13",
+            "title": "CoinDesk Exclusive Article 13",
+            "summary": "Exclusive analysis from CoinDesk covering topic 13 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-13",
+            "image_url": "https://cdn.coindesk.com/exclusive-13.jpg",
+            "published_at": "2025-09-29T03:27:15.720221",
+            "source": "coindesk",
+            "category": "bitcoin",
+            "fetched_at": "2025-09-30T18:27:15.720908",
+            "word_count": 15,
+            "has_image": true
+          },
+          {
+            "id": "coindesk_article_14",
+            "title": "CoinDesk Exclusive Article 14",
+            "summary": "Exclusive analysis from CoinDesk covering topic 14 in the cryptocurrency space.",
+            "url": "https://coindesk.com/exclusive-14",
+            "image_url": "https://cdn.coindesk.com/exclusive-14.jpg",
+            "published_at": "2025-09-29T00:27:15.720221",
+            "source": "coindesk",
+            "category": "ethereum",
+            "fetched_at": "2025-09-30T18:27:15.720911",
+            "word_count": 15,
+            "has_image": true
+          }
+        ]
+      }
+    }
+  },
+  "comprehensive_analysis": {
+    "session_id": "20250930_182715",
+    "analyzed_at": "2025-09-30T18:27:15.720921",
+    "data_quality": {
+      "endpoints_status": {
+        "sources": "SUCCESS",
+        "categories": "SUCCESS",
+        "feed_categories": "SUCCESS",
+        "articles": "SUCCESS"
+      },
+      "data_completeness": {
+        "sources": 6,
+        "categories": 8,
+        "articles": 50
+      },
+      "consistency_checks": {},
+      "potential_issues": []
+    },
+    "content_insights": {
+      "article_patterns": {},
+      "category_distribution": {
+        "markets": 22,
+        "policy": 7,
+        "defi": 4,
+        "bitcoin": 7,
+        "ethereum": 7,
+        "tech": 3
+      },
+      "source_distribution": {
+        "coindesk": 25,
+        "reuters": 10,
+        "bloomberg": 10,
+        "cointelegraph": 5
+      },
+      "temporal_patterns": {},
+      "content_characteristics": {
+        "total_articles_analyzed": 50,
+        "avg_word_count": 15.9,
+        "max_word_count": 18,
+        "min_word_count": 14,
+        "articles_with_images": 30,
+        "image_percentage": 60.0
+      }
+    },
+    "operational_insights": {
+      "api_response_efficiency": {
+        "total_requests": 4,
+        "successful_requests": 4,
+        "success_rate": 100.0
+      },
+      "data_freshness": {
+        "latest_article_timestamp": "2025-09-30T18:27:15.720221",
+        "oldest_article_timestamp": "2025-09-29T00:27:15.720221",
+        "timestamp_range_hours": "calculated_from_timestamps"
+      },
+      "coverage_metrics": {},
+      "scalability_indicators": {}
+    },
+    "recommendations": {
+      "immediate_actions": [],
+      "data_strategy": [
+        "Focus on top categories: markets, policy, bitcoin",
+        "Prioritize top sources: coindesk, reuters, bloomberg"
+      ],
+      "monitoring_setup": [
+        "Set up automated data freshness checks",
+        "Monitor article volume trends by category",
+        "Track source availability and performance"
+      ],
+      "integration_priorities": [
+        "Implement cross-source content validation",
+        "Create unified article deduplication system",
+        "Build category-based content recommendation engine"
+      ],
+      "risk_mitigation": [
+        "Implement fallback mechanisms for failed API calls",
+        "Set up data backup and recovery procedures",
+        "Create rate limiting and quota management",
+        "Establish data quality validation pipelines"
+      ]
+    },
+    "data_relationships": {
+      "source_category_mapping": {
+        "sources_in_both": [
+          "reuters",
+          "bloomberg",
+          "coindesk",
+          "theblock",
+          "decrypt",
+          "cointelegraph"
+        ],
+        "sources_only_in_list": [],
+        "sources_only_in_feeds": [],
+        "coverage_percentage": 100.0
+      },
+      "content_source_alignment": {},
+      "category_coverage_gaps": {
+        "categories_in_both": [
+          "policy",
+          "defi",
+          "nft",
+          "ethereum",
+          "tech",
+          "bitcoin",
+          "business",
+          "markets"
+        ],
+        "categories_only_in_list": [],
+        "categories_only_in_feeds": [],
+        "coverage_percentage": 100.0
+      },
+      "cross_validation_opportunities": {}
+    },
+    "coverage_analysis": {
+      "temporal_coverage": {},
+      "thematic_coverage": {
+        "total_categories": 8,
+        "trading_categories": 1,
+        "tech_categories": 3,
+        "policy_categories": 1,
+        "business_categories": 1,
+        "other_categories": 2
+      },
+      "source_coverage": {},
+      "geographic_coverage": {},
+      "coverage_recommendations": [
+        "Strong policy coverage available",
+        "Good technology coverage for DeFi/NFT trends",
+        "Comprehensive trading/markets coverage"
+      ]
+    }
+  }
+}
