@@ -2,6 +2,7 @@
 
 All notable changes to the CryptoPrism News Fetcher project will be documented in this file.
 
+
 ## [Unreleased]
 
 ## [1.4.0] - 2025-10-21 - Production Deployment & GitHub Actions
