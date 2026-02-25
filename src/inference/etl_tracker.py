@@ -37,7 +37,7 @@ def _start_run(conn, job_name: str) -> int:
     return run_id
 
 
-def _end_run(conn, run_id: int, status: str, rows: int, error: str | None, start_time: float):
+def _end_run(conn, run_id: int, status: str, rows: int, error: str | None, start_time: float, job_name: str = "unknown"):
     end_time = datetime.now(timezone.utc)
     duration_minutes = int((time.time() - start_time) / 60)
     sql = """
@@ -95,11 +95,11 @@ def track(job_name: str):
     tracker = type("Tracker", (), {"rows": 0})()
     try:
         yield tracker
-        _end_run(conn, run_id, "success", tracker.rows, None, start_time)
+        _end_run(conn, run_id, "success", tracker.rows, None, start_time, job_name)
         log.info(f"[etl_tracker] Job '{job_name}' completed. rows={tracker.rows}")
     except Exception as e:
         err = traceback.format_exc()
-        _end_run(conn, run_id, "failed", tracker.rows, err[:2000], start_time)
+        _end_run(conn, run_id, "failed", tracker.rows, err[:2000], start_time, job_name)
         log.error(f"[etl_tracker] Job '{job_name}' FAILED: {e}")
         raise
     finally:

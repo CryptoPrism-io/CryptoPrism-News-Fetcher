@@ -47,15 +47,15 @@ def fetch_today_features(conn, features: list[str], target_date: str) -> list[di
     Pull today's feature row per coin from mv_ml_feature_matrix.
     READ-ONLY materialized view.
     """
-    col_sql = ", ".join(f'"{c}"' for c in ["slug", "timestamp"] + features)
+    col_sql = ", ".join(f'"{c}"' for c in ["slug", "timestamp"] + features).replace("%", "%%")
     query = f"""
         SELECT {col_sql}
         FROM "mv_ml_feature_matrix"
-        WHERE DATE(timestamp) = %(target_date)s
+        WHERE DATE(timestamp) = %s
         ORDER BY slug
     """
     with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute(query, {"target_date": target_date})
+        cur.execute(query, (target_date,))
         return cur.fetchall()
 
 
