@@ -75,8 +75,9 @@ def classification_metrics(y_true: np.ndarray, y_pred: np.ndarray) -> dict:
 
     acc = accuracy_score(yt, yp)
     prec, rec, f1, _ = precision_recall_fscore_support(
-        yt, yp, labels=[1], average="binary", zero_division=0
+        yt, yp, labels=[1], average=None, zero_division=0
     )
+    prec, rec, f1 = float(prec[0]), float(rec[0]), float(f1[0])
 
     return {
         "accuracy":      round(float(acc), 4),

@@ -48,7 +48,7 @@ def load_model():
         "text-classification",
         model="ProsusAI/finbert",
         tokenizer="ProsusAI/finbert",
-        device=-1,          # CPU; set to 0 for GPU
+        device=0,           # GPU (RTX 3070); set to -1 for CPU
         top_k=None,         # return all 3 class scores
         truncation=True,
         max_length=512,
