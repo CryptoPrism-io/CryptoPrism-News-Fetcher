@@ -11,20 +11,12 @@ from datetime import datetime, timezone
 import psycopg2
 import psycopg2.extras
 from dotenv import load_dotenv
+from src.db import get_db_conn
+
 
 load_dotenv()
 log = logging.getLogger(__name__)
 
-
-def get_db_conn():
-    return psycopg2.connect(
-        host=os.environ["DB_HOST"],
-        port=os.environ.get("DB_PORT", 5432),
-        dbname=os.environ["DB_NAME"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        sslmode=os.environ.get("DB_SSLMODE", "require"),
-    )
 
 
 def register_model(

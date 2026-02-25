@@ -17,6 +17,8 @@ from datetime import datetime, timezone
 import psycopg2
 import psycopg2.extras
 from dotenv import load_dotenv
+from src.db import get_db_conn
+
 
 load_dotenv()
 
@@ -31,16 +33,6 @@ MODEL_VERSION = "finbert-v1"
 # Body quality threshold — skip stub articles (confirmed from DB: some are 156 chars)
 MIN_BODY_LENGTH = 300
 
-
-def get_db_conn():
-    return psycopg2.connect(
-        host=os.environ["DB_HOST"],
-        port=os.environ.get("DB_PORT", 5432),
-        dbname=os.environ["DB_NAME"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        sslmode=os.environ.get("DB_SSLMODE", "require"),
-    )
 
 
 def load_model():
