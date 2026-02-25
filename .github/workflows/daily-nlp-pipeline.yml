@@ -33,25 +33,28 @@ jobs:
 
       - name: Create .env file
         run: |
-          cat > .env << EOF
-          DB_HOST=${{ secrets.DB_HOST }}
-          DB_PORT=${{ secrets.DB_PORT }}
-          DB_NAME=${{ secrets.DB_NAME }}
-          DB_USER=${{ secrets.DB_USER }}
-          DB_PASSWORD=${{ secrets.DB_PASSWORD }}
-          DB_SSLMODE=${{ secrets.DB_SSLMODE }}
-          EOF
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
       - name: Test DB connection
         run: |
           python -c "
           from dotenv import load_dotenv; load_dotenv()
           import os, psycopg2
-          conn = psycopg2.connect(
-              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+          kwargs = dict(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT', 5432),
               dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
-              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+              password=os.environ['DB_PASSWORD'],
           )
+          sslmode = os.environ.get('DB_SSLMODE', '').strip()
+          if sslmode:
+              kwargs['sslmode'] = sslmode
+          conn = psycopg2.connect(**kwargs)
           print('DB connection OK')
           conn.close()
           "
@@ -80,11 +83,11 @@ jobs:
           python -c "
           from dotenv import load_dotenv; load_dotenv()
           import os, psycopg2
-          conn = psycopg2.connect(
-              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
-              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
-              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
-          )
+          kwargs = dict(host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'], password=os.environ['DB_PASSWORD'])
+          sslmode = os.environ.get('DB_SSLMODE','').strip()
+          if sslmode: kwargs['sslmode'] = sslmode
+          conn = psycopg2.connect(**kwargs)
           cur = conn.cursor()
           cur.execute('SELECT COUNT(*) FROM \"FE_NEWS_SENTIMENT\"')
           print(f'FE_NEWS_SENTIMENT rows: {cur.fetchone()[0]}')
