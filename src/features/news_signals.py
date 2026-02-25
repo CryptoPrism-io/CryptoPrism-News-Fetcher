@@ -41,20 +41,25 @@ ZSCORE_WINDOW_DAYS = 30
 
 
 
-def fetch_days_to_process(conn, from_date: str | None) -> list[date]:
+def fetch_days_to_process(conn, from_date: str | None, to_date: str | None = None) -> list[date]:
     """
     Return list of dates that have scored articles in FE_NEWS_SENTIMENT
     but are not yet in FE_NEWS_SIGNALS (or are newer than from_date).
     """
-    query = """
+    filters = []
+    if from_date:
+        filters.append(f"published_on >= '{from_date}'")
+    if to_date:
+        filters.append(f"published_on <= '{to_date}'")
+    where = ("WHERE " + " AND ".join(filters)) if filters else ""
+    query = f"""
         SELECT DISTINCT DATE(published_on) AS day
         FROM "FE_NEWS_SENTIMENT"
-        {date_filter}
+        {where}
         ORDER BY day ASC
     """
-    date_filter = f"WHERE published_on >= '{from_date}'" if from_date else ""
     with conn.cursor() as cur:
-        cur.execute(query.format(date_filter=date_filter))
+        cur.execute(query)
         return [row[0] for row in cur.fetchall()]
 
 
@@ -292,10 +297,10 @@ def upsert_signals(conn, rows: list[dict]):
     conn.commit()
 
 
-def run(from_date: str | None = None):
+def run(from_date: str | None = None, to_date: str | None = None):
     conn = get_db_conn()
 
-    days = fetch_days_to_process(conn, from_date)
+    days = fetch_days_to_process(conn, from_date, to_date)
     log.info(f"Days to process: {len(days)} (from {days[0] if days else 'none'} to {days[-1] if days else 'none'})")
 
     total_rows = 0
@@ -316,5 +321,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Aggregate sentiment → FE_NEWS_SIGNALS")
     parser.add_argument("--from-date", type=str, default=None,
                         help="Start date YYYY-MM-DD (default: all available)")
+    parser.add_argument("--to-date", type=str, default=None,
+                        help="End date YYYY-MM-DD inclusive (default: today)")
     args = parser.parse_args()
-    run(from_date=args.from_date)
+    run(from_date=args.from_date, to_date=args.to_date)

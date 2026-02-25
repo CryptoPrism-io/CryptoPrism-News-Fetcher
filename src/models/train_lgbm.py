@@ -123,22 +123,19 @@ def load_feature_matrix(conn, features: list[str], from_date: str, to_date: str)
     READ-ONLY materialized view.
     """
     all_cols = ["slug", "timestamp"] + features + LABEL_COLS + RETURN_COLS
-    # Quote columns with special chars
-    col_sql = ", ".join(f'"{c}"' for c in all_cols)
+    # Quote columns with special chars; escape % so psycopg2 doesn't treat as placeholder
+    col_sql = ", ".join(f'"{c}"' for c in all_cols).replace("%", "%%")
 
     query = f"""
         SELECT {col_sql}
         FROM "mv_ml_feature_matrix"
-        WHERE timestamp >= %(from_ts)s
-          AND timestamp <= %(to_ts)s
+        WHERE timestamp >= %s
+          AND timestamp <= %s
           AND label_3d IS NOT NULL
         ORDER BY timestamp ASC
     """
     with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute(query, {
-            "from_ts": f"{from_date} 00:00:00+00",
-            "to_ts":   f"{to_date} 23:59:59+00",
-        })
+        cur.execute(query, (f"{from_date} 00:00:00+00", f"{to_date} 23:59:59+00"))
         rows = cur.fetchall()
 
     df = pd.DataFrame(rows)
