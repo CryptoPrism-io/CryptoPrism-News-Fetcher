@@ -1,0 +1,96 @@
+name: Daily NLP Pipeline
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 00:30 UTC daily — after FE_* tables update at 00:00
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: 'Reprocess from date (YYYY-MM-DD). Leave empty for incremental.'
+        required: false
+        default: ''
+
+jobs:
+  nlp-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120    # FinBERT on 1000 articles takes ~10min on CPU
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install base dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install ML dependencies
+        run: pip install transformers torch sentencepiece tqdm
+
+      - name: Create .env file
+        run: |
+          cat > .env << EOF
+          DB_HOST=${{ secrets.DB_HOST }}
+          DB_PORT=${{ secrets.DB_PORT }}
+          DB_NAME=${{ secrets.DB_NAME }}
+          DB_USER=${{ secrets.DB_USER }}
+          DB_PASSWORD=${{ secrets.DB_PASSWORD }}
+          DB_SSLMODE=${{ secrets.DB_SSLMODE }}
+          EOF
+
+      - name: Test DB connection
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          print('DB connection OK')
+          conn.close()
+          "
+
+      - name: Step 1 — Score articles with FinBERT → FE_NEWS_SENTIMENT
+        run: |
+          FROM_DATE="${{ github.event.inputs.from_date }}"
+          if [ -n "$FROM_DATE" ]; then
+            python -m src.nlp.sentiment --batch-size 64 --from-date "$FROM_DATE"
+          else
+            python -m src.nlp.sentiment --batch-size 64
+          fi
+
+      - name: Step 2 — Aggregate signals → FE_NEWS_SIGNALS
+        run: |
+          FROM_DATE="${{ github.event.inputs.from_date }}"
+          if [ -n "$FROM_DATE" ]; then
+            python -m src.features.news_signals --from-date "$FROM_DATE"
+          else
+            python -m src.features.news_signals
+          fi
+
+      - name: Report row counts
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*) FROM \"FE_NEWS_SENTIMENT\"')
+          print(f'FE_NEWS_SENTIMENT rows: {cur.fetchone()[0]}')
+          cur.execute('SELECT COUNT(*) FROM \"FE_NEWS_SIGNALS\"')
+          print(f'FE_NEWS_SIGNALS rows: {cur.fetchone()[0]}')
+          cur.execute('SELECT MAX(timestamp) FROM \"FE_NEWS_SIGNALS\"')
+          print(f'FE_NEWS_SIGNALS latest: {cur.fetchone()[0]}')
+          conn.close()
+          "
