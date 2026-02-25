@@ -1,3 +1,4 @@
-python-dotenv
-requests
-psycopg2-binary
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+pandas>=2.2.0
+numpy>=1.26.0
