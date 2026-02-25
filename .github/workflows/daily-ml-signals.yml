@@ -1,0 +1,125 @@
+name: Daily ML Signals
+
+on:
+  schedule:
+    - cron: '0 1 * * *'    # 01:00 UTC — after NLP pipeline at 00:30
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Signal date (YYYY-MM-DD). Leave empty for yesterday.'
+        required: false
+        default: ''
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'signals_only'
+        type: choice
+        options:
+          - signals_only      # just run inference with active model
+          - retrain_price     # retrain price-only LightGBM then signal
+          - retrain_news      # retrain news-augmented LightGBM then signal
+          - full_pipeline     # labels → mv refresh → retrain news → signal
+
+jobs:
+  ml-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install lightgbm scikit-learn shap scipy pandas numpy
+
+      - name: Create .env file
+        run: |
+          cat > .env << EOF
+          DB_HOST=${{ secrets.DB_HOST }}
+          DB_PORT=${{ secrets.DB_PORT }}
+          DB_NAME=${{ secrets.DB_NAME }}
+          DB_USER=${{ secrets.DB_USER }}
+          DB_PASSWORD=${{ secrets.DB_PASSWORD }}
+          DB_SSLMODE=${{ secrets.DB_SSLMODE }}
+          EOF
+
+      - name: Test DB connection
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          print('DB OK')
+          conn.close()
+          "
+
+      - name: Step 1 — Generate ML_LABELS (if full pipeline)
+        if: github.event.inputs.mode == 'full_pipeline'
+        run: python -m src.features.labels
+
+      - name: Step 2 — Refresh materialized view (if full pipeline or retrain)
+        if: |
+          github.event.inputs.mode == 'full_pipeline' ||
+          github.event.inputs.mode == 'retrain_price' ||
+          github.event.inputs.mode == 'retrain_news'
+        run: python -m src.features.refresh_mv
+
+      - name: Step 3a — Retrain price-only model
+        if: |
+          github.event.inputs.mode == 'retrain_price' ||
+          github.event.inputs.mode == 'full_pipeline'
+        run: python -m src.models.train_lgbm --mode price_only
+
+      - name: Step 3b — Retrain news-augmented model
+        if: |
+          github.event.inputs.mode == 'retrain_news' ||
+          github.event.inputs.mode == 'full_pipeline'
+        run: python -m src.models.train_lgbm --mode news_augmented
+
+      - name: Step 4 — Run daily inference → ML_SIGNALS
+        run: |
+          DATE_ARG="${{ github.event.inputs.date }}"
+          if [ -n "$DATE_ARG" ]; then
+            python -m src.inference.daily_signals --date "$DATE_ARG"
+          else
+            python -m src.inference.daily_signals
+          fi
+
+      - name: Report ML_SIGNALS status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*) FROM \"ML_SIGNALS\"')
+          print(f'ML_SIGNALS total rows: {cur.fetchone()[0]}')
+          cur.execute('SELECT MAX(timestamp) FROM \"ML_SIGNALS\"')
+          print(f'ML_SIGNALS latest:     {cur.fetchone()[0]}')
+          cur.execute('''
+              SELECT direction, COUNT(*) FROM \"ML_SIGNALS\"
+              WHERE DATE(timestamp) = CURRENT_DATE - 1
+              GROUP BY direction ORDER BY direction
+          ''')
+          for row in cur.fetchall():
+              label = {1: \"BUY\", 0: \"HOLD\", -1: \"SELL\"}.get(row[0], str(row[0]))
+              print(f\"  {label}: {row[1]}\")
+          conn.close()
+          "
