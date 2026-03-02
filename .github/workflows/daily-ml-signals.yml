@@ -2,7 +2,8 @@ name: Daily ML Signals
 
 on:
   schedule:
-    - cron: '0 1 * * *'    # 01:00 UTC — after NLP pipeline at 00:30
+    - cron: '0 1 * * *'    # 01:00 UTC daily  — signals_only (inference only)
+    - cron: '0 2 * * 0'    # 02:00 UTC Sunday — weekly retrain (labels → refresh → retrain → signal)
   workflow_dispatch:
     inputs:
       date:
@@ -64,15 +65,18 @@ jobs:
           conn.close()
           "
 
-      - name: Step 1 — Generate ML_LABELS (if full pipeline)
-        if: github.event.inputs.mode == 'full_pipeline'
+      - name: Step 1 — Generate ML_LABELS (if full pipeline or weekly retrain)
+        if: |
+          github.event.inputs.mode == 'full_pipeline' ||
+          github.event.schedule == '0 2 * * 0'
         run: python -m src.features.labels
 
-      - name: Step 2 — Refresh training MV (if full pipeline or retrain)
+      - name: Step 2 — Refresh training MV (if full pipeline, retrain, or weekly)
         if: |
           github.event.inputs.mode == 'full_pipeline' ||
           github.event.inputs.mode == 'retrain_price' ||
-          github.event.inputs.mode == 'retrain_news'
+          github.event.inputs.mode == 'retrain_news'  ||
+          github.event.schedule == '0 2 * * 0'
         run: python -m src.features.refresh_mv
 
       - name: Step 3a — Retrain price-only model
@@ -81,17 +85,19 @@ jobs:
           github.event.inputs.mode == 'full_pipeline'
         run: python -m src.models.train_lgbm --mode price_only
 
-      - name: Step 3b — Retrain news-augmented model
+      - name: Step 3b — Retrain news-augmented model (manual or weekly Sunday)
         if: |
-          github.event.inputs.mode == 'retrain_news' ||
-          github.event.inputs.mode == 'full_pipeline'
+          github.event.inputs.mode == 'retrain_news'  ||
+          github.event.inputs.mode == 'full_pipeline' ||
+          github.event.schedule == '0 2 * * 0'
         run: python -m src.models.train_lgbm --mode news_augmented
 
       - name: Save model artifact to cache
         if: |
           github.event.inputs.mode == 'retrain_price' ||
-          github.event.inputs.mode == 'retrain_news' ||
-          github.event.inputs.mode == 'full_pipeline'
+          github.event.inputs.mode == 'retrain_news'  ||
+          github.event.inputs.mode == 'full_pipeline' ||
+          github.event.schedule == '0 2 * * 0'
         uses: actions/cache/save@v4
         with:
           path: artifacts/
