@@ -110,11 +110,13 @@ jobs:
           python -c "
           from dotenv import load_dotenv; load_dotenv()
           import os, psycopg2
+          # Use autocommit=True from the start — CREATE MATERIALIZED VIEW cannot run in a transaction
           conn = psycopg2.connect(
               host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
               dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
               password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
           )
+          conn.autocommit = True
           cur = conn.cursor()
           cur.execute(\"SELECT COUNT(*) FROM pg_matviews WHERE matviewname = 'mv_ml_inference_matrix'\")
           exists = cur.fetchone()[0] > 0
@@ -122,7 +124,6 @@ jobs:
               print('Creating mv_ml_inference_matrix...')
               with open('migrations/008_mv_ml_inference_matrix.sql') as f:
                   sql = f.read()
-              conn.autocommit = True
               cur.execute(sql)
               print('Created.')
           else:
