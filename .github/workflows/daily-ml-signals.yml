@@ -87,6 +87,24 @@ jobs:
           github.event.inputs.mode == 'full_pipeline'
         run: python -m src.models.train_lgbm --mode news_augmented
 
+      - name: Save model artifact to cache
+        if: |
+          github.event.inputs.mode == 'retrain_price' ||
+          github.event.inputs.mode == 'retrain_news' ||
+          github.event.inputs.mode == 'full_pipeline'
+        uses: actions/cache/save@v4
+        with:
+          path: artifacts/
+          key: lgbm-model-artifacts-${{ github.run_id }}
+
+      - name: Restore model artifact from cache
+        uses: actions/cache/restore@v4
+        with:
+          path: artifacts/
+          key: lgbm-model-artifacts-${{ github.run_id }}
+          restore-keys: |
+            lgbm-model-artifacts-
+
       - name: Step 4 — Run daily inference → ML_SIGNALS
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
