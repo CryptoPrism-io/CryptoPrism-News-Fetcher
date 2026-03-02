@@ -68,7 +68,7 @@ jobs:
         if: github.event.inputs.mode == 'full_pipeline'
         run: python -m src.features.labels
 
-      - name: Step 2 — Refresh materialized view (if full pipeline or retrain)
+      - name: Step 2 — Refresh training MV (if full pipeline or retrain)
         if: |
           github.event.inputs.mode == 'full_pipeline' ||
           github.event.inputs.mode == 'retrain_price' ||
@@ -105,6 +105,34 @@ jobs:
           restore-keys: |
             lgbm-model-artifacts-
 
+      - name: Step 3c — Ensure mv_ml_inference_matrix exists (one-time migration)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          cur = conn.cursor()
+          cur.execute(\"SELECT COUNT(*) FROM pg_matviews WHERE matviewname = 'mv_ml_inference_matrix'\")
+          exists = cur.fetchone()[0] > 0
+          if not exists:
+              print('Creating mv_ml_inference_matrix...')
+              with open('migrations/008_mv_ml_inference_matrix.sql') as f:
+                  sql = f.read()
+              conn.autocommit = True
+              cur.execute(sql)
+              print('Created.')
+          else:
+              print('mv_ml_inference_matrix already exists.')
+          conn.close()
+          "
+
+      - name: Step 3d — Refresh inference MV (always — needed for signals_only too)
+        run: python -m src.features.refresh_mv --inference
+
       - name: Step 4 — Run daily inference → ML_SIGNALS
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
@@ -130,6 +158,10 @@ jobs:
           print(f'ML_SIGNALS total rows: {cur.fetchone()[0]}')
           cur.execute('SELECT MAX(timestamp) FROM \"ML_SIGNALS\"')
           print(f'ML_SIGNALS latest:     {cur.fetchone()[0]}')
+          cur.execute('SELECT MAX(timestamp) FROM \"mv_ml_inference_matrix\"')
+          print(f'Inference MV latest:   {cur.fetchone()[0]}')
+          cur.execute('SELECT MAX(timestamp) FROM \"FE_PCT_CHANGE\"')
+          print(f'FE_PCT_CHANGE latest:  {cur.fetchone()[0]}')
           cur.execute('''
               SELECT direction, COUNT(*) FROM \"ML_SIGNALS\"
               WHERE DATE(timestamp) = CURRENT_DATE - 1
