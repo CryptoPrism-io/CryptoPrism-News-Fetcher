@@ -35,7 +35,7 @@ log = logging.getLogger(__name__)
 
 
 def load_model_artifact(artifact_path: str) -> dict:
-    path = Path(artifact_path)
+    path = Path(artifact_path.replace("\\", "/"))
     if not path.exists():
         raise FileNotFoundError(f"Model artifact not found: {artifact_path}")
     with open(path, "rb") as f:
