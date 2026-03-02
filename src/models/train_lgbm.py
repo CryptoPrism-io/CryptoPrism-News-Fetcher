@@ -18,7 +18,7 @@ import json
 import logging
 import os
 import pickle
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import numpy as np
@@ -76,27 +76,51 @@ TARGET_COL   = "label_3d"
 LABEL_COLS   = ["label_1d", "label_3d", "label_7d", "label_14d"]
 RETURN_COLS  = ["forward_ret_1d", "forward_ret_3d", "forward_ret_7d", "forward_ret_14d"]
 
-# Walk-forward split dates
-# News window: Oct 2025 – Feb 2026 (128 days)
-# Price-only: use last 2 years for recency
-SPLITS = {
-    "price_only": {
-        "train_from": "2024-01-01",
-        "train_to":   "2025-12-31",
-        "val_from":   "2026-01-20",
-        "val_to":     "2026-02-09",
-        "test_from":  "2026-02-10",
-        "test_to":    "2026-02-24",
-    },
-    "news_augmented": {
-        "train_from": "2025-10-21",
-        "train_to":   "2026-01-19",
-        "val_from":   "2026-01-20",
-        "val_to":     "2026-02-09",
-        "test_from":  "2026-02-10",
-        "test_to":    "2026-02-24",
-    },
-}
+# Earliest date with news sentiment data (fixed — start of news pipeline)
+NEWS_DATA_START = "2025-10-21"
+
+
+def compute_splits(mode: str) -> dict:
+    """
+    Rolling walk-forward splits anchored to today.
+
+    Labels require future price data:
+      label_3d  → 3 days forward  (our training target)
+      label_14d → 14 days forward (used in full_eval metrics)
+
+    We use a 14-day lag for test_to so all label columns are clean.
+    Window sizes:
+      test  : 14 days
+      val   : 21 days
+      train : from data-start to val_from - 1 day
+    """
+    today = date.today()
+    test_to   = today - timedelta(days=14)          # latest date with all labels clean
+    test_from = test_to - timedelta(days=13)        # 14-day test window
+    val_to    = test_from - timedelta(days=1)
+    val_from  = val_to - timedelta(days=20)         # 21-day val window
+    train_to  = val_from - timedelta(days=1)
+    train_from = (
+        NEWS_DATA_START if mode == "news_augmented"
+        else str(today - timedelta(days=730))       # price_only: rolling 2-year window
+    )
+
+    fmt = lambda d: d.strftime("%Y-%m-%d")          # noqa: E731
+    splits = {
+        "train_from": train_from,
+        "train_to":   fmt(train_to),
+        "val_from":   fmt(val_from),
+        "val_to":     fmt(val_to),
+        "test_from":  fmt(test_from),
+        "test_to":    fmt(test_to),
+    }
+    log.info(
+        f"Rolling splits ({mode}): "
+        f"train={splits['train_from']}→{splits['train_to']}  "
+        f"val={splits['val_from']}→{splits['val_to']}  "
+        f"test={splits['test_from']}→{splits['test_to']}"
+    )
+    return splits
 
 LGBM_PARAMS = {
     "objective":        "multiclass",
@@ -166,7 +190,7 @@ def train(mode: str = "price_only"):
     from src.models.evaluate import full_eval
     from src.models.registry import register_model, save_backtest, set_active_model
 
-    split    = SPLITS[mode]
+    split    = compute_splits(mode)
     features = FEATURES_NEWS_AUGMENTED if mode == "news_augmented" else FEATURES_PRICE_ONLY
     model_name = f"lgbm_{mode}_v1"
 
