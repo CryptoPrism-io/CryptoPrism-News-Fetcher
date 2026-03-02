@@ -44,13 +44,15 @@ def load_model_artifact(artifact_path: str) -> dict:
 
 def fetch_today_features(conn, features: list[str], target_date: str) -> list[dict]:
     """
-    Pull today's feature row per coin from mv_ml_feature_matrix.
+    Pull today's feature row per coin from mv_ml_inference_matrix.
+    This view is anchored on FE_PCT_CHANGE (not ML_LABELS), so it always
+    has rows for recent dates even before forward-return labels can be computed.
     READ-ONLY materialized view.
     """
     col_sql = ", ".join(f'"{c}"' for c in ["slug", "timestamp"] + features).replace("%", "%%")
     query = f"""
         SELECT {col_sql}
-        FROM "mv_ml_feature_matrix"
+        FROM "mv_ml_inference_matrix"
         WHERE DATE(timestamp) = %s
         ORDER BY slug
     """
