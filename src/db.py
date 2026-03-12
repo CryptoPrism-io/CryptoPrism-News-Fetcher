@@ -23,3 +23,21 @@ def get_db_conn():
     if sslmode:
         kwargs["sslmode"] = sslmode
     return psycopg2.connect(**kwargs)
+
+
+def get_backtest_conn():
+    """Connect to the backtest DB (cp_backtest) for full historical feature data."""
+    backtest_db = os.environ.get("DB_BACKTEST_NAME", "").strip()
+    if not backtest_db:
+        backtest_db = os.environ["DB_NAME"]
+    kwargs = dict(
+        host=os.environ["DB_HOST"],
+        port=os.environ.get("DB_PORT", 5432),
+        dbname=backtest_db,
+        user=os.environ["DB_USER"],
+        password=os.environ["DB_PASSWORD"],
+    )
+    sslmode = os.environ.get("DB_SSLMODE", "").strip()
+    if sslmode:
+        kwargs["sslmode"] = sslmode
+    return psycopg2.connect(**kwargs)

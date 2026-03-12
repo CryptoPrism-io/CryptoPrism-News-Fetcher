@@ -44,21 +44,133 @@ def load_model_artifact(artifact_path: str) -> dict:
 
 def fetch_today_features(conn, features: list[str], target_date: str) -> list[dict]:
     """
-    Pull today's feature row per coin from mv_ml_inference_matrix.
-    This view is anchored on FE_PCT_CHANGE (not ML_LABELS), so it always
-    has rows for recent dates even before forward-return labels can be computed.
-    READ-ONLY materialized view.
+    Build feature matrix by querying cp_backtest for price features
+    (full history) and dbcp for supplementary features (DMV, fear-greed, news).
+    Falls back to the inference MV on dbcp if DB_BACKTEST_NAME is not set.
     """
-    col_sql = ", ".join(f'"{c}"' for c in ["slug", "timestamp"] + features).replace("%", "%%")
-    query = f"""
-        SELECT {col_sql}
-        FROM "mv_ml_inference_matrix"
-        WHERE DATE(timestamp) = %s
-        ORDER BY slug
+    import pandas as pd
+    from src.db import get_backtest_conn
+
+    backtest_name = os.environ.get("DB_BACKTEST_NAME", "").strip()
+    if not backtest_name:
+        # Fallback: original MV-based approach
+        col_sql = ", ".join(f'"{c}"' for c in ["slug", "timestamp"] + features).replace("%", "%%")
+        query = f"""
+            SELECT {col_sql}
+            FROM "mv_ml_inference_matrix"
+            WHERE DATE(timestamp) = %s
+            ORDER BY slug
+        """
+        with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+            cur.execute(query, (target_date,))
+            return cur.fetchall()
+
+    # --- Dual-DB approach: price features from cp_backtest ---
+    bt_conn = get_backtest_conn()
+    price_sql = """
+        SELECT pct.slug, pct."timestamp",
+               pct.m_pct_1d, pct.d_pct_cum_ret, pct.d_pct_var,
+               pct.d_pct_cvar, pct.d_pct_vol_1d,
+               mom.m_mom_roc_bin, mom."m_mom_williams_%%_bin",
+               mom.m_mom_smi_bin, mom.m_mom_cmo_bin, mom.m_mom_mom_bin,
+               osc.m_osc_macd_crossover_bin, osc.m_osc_cci_bin,
+               osc.m_osc_adx_bin, osc.m_osc_uo_bin, osc.m_osc_ao_bin,
+               osc.m_osc_trix_bin,
+               tvv.m_tvv_obv_1d_binary, tvv.d_tvv_sma9_18,
+               tvv.d_tvv_ema9_18, tvv.d_tvv_sma21_108,
+               tvv.d_tvv_ema21_108, tvv.m_tvv_cmf,
+               met.m_pct_1d_signal, met.d_pct_cum_ret_signal,
+               met.d_met_ath_month_signal, met.d_market_cap_signal,
+               met.d_met_coin_age_y_signal,
+               rat.m_rat_alpha_bin, rat.d_rat_beta_bin,
+               rat.v_rat_sharpe_bin, rat.v_rat_sortino_bin,
+               rat.v_rat_teynor_bin, rat.v_rat_common_sense_bin,
+               rat.v_rat_information_bin, rat.v_rat_win_loss_bin,
+               rat.m_rat_win_rate_bin, rat.m_rat_ror_bin, rat.d_rat_pain_bin
+        FROM "FE_PCT_CHANGE" pct
+        LEFT JOIN "FE_MOMENTUM_SIGNALS" mom
+            ON mom.slug = pct.slug AND DATE(mom."timestamp") = DATE(pct."timestamp")
+        LEFT JOIN "FE_OSCILLATORS_SIGNALS" osc
+            ON osc.slug = pct.slug AND DATE(osc."timestamp") = DATE(pct."timestamp")
+        LEFT JOIN "FE_TVV_SIGNALS" tvv
+            ON tvv.slug = pct.slug AND DATE(tvv."timestamp") = DATE(pct."timestamp")
+        LEFT JOIN "FE_METRICS_SIGNAL" met
+            ON met.slug = pct.slug AND DATE(met."timestamp") = DATE(pct."timestamp")
+        LEFT JOIN "FE_RATIOS_SIGNALS" rat
+            ON rat.slug = pct.slug AND DATE(rat."timestamp") = DATE(pct."timestamp")
+        WHERE DATE(pct."timestamp") = %s
+        ORDER BY pct.slug
     """
-    with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute(query, (target_date,))
-        return cur.fetchall()
+    df = pd.read_sql(price_sql, bt_conn, params=(target_date,))
+    bt_conn.close()
+
+    if df.empty:
+        return []
+
+    log.info(f"Fetched {len(df)} price-feature rows from cp_backtest")
+
+    # --- Supplementary features from dbcp ---
+
+    # DMV scores
+    try:
+        df_dmv = pd.read_sql(
+            'SELECT slug, "Durability_Score", "Momentum_Score", "Valuation_Score" '
+            'FROM "FE_DMV_SCORES" WHERE DATE("timestamp") = %s',
+            conn, params=(target_date,),
+        )
+        if not df_dmv.empty:
+            df = df.merge(df_dmv, on="slug", how="left")
+        else:
+            for c in ("Durability_Score", "Momentum_Score", "Valuation_Score"):
+                df[c] = np.nan
+    except Exception:
+        for c in ("Durability_Score", "Momentum_Score", "Valuation_Score"):
+            df[c] = np.nan
+
+    # Fear & Greed index (one value per date, no slug)
+    try:
+        df_fg = pd.read_sql(
+            'SELECT fear_greed_index FROM "FE_FEAR_GREED_CMC" '
+            'WHERE DATE("timestamp") = %s LIMIT 1',
+            conn, params=(target_date,),
+        )
+        df["fear_greed_index"] = (
+            float(df_fg["fear_greed_index"].iloc[0]) if not df_fg.empty else np.nan
+        )
+    except Exception:
+        df["fear_greed_index"] = np.nan
+
+    # News signals
+    news_cols = [
+        "news_sentiment_1d", "news_sentiment_3d", "news_sentiment_7d",
+        "news_sentiment_momentum", "news_volume_1d", "news_volume_zscore_1d",
+        "news_breaking_flag", "news_regulation_flag", "news_security_flag",
+        "news_adoption_flag", "news_source_quality", "news_tier1_count_1d",
+    ]
+    try:
+        cols_sql = ", ".join(news_cols)
+        df_news = pd.read_sql(
+            f'SELECT slug, {cols_sql} FROM "FE_NEWS_SIGNALS" '
+            f'WHERE DATE("timestamp") = %s',
+            conn, params=(target_date,),
+        )
+        if not df_news.empty:
+            df = df.merge(df_news, on="slug", how="left")
+        else:
+            for c in news_cols:
+                df[c] = np.nan
+    except Exception:
+        for c in news_cols:
+            df[c] = np.nan
+
+    # Ensure all requested features exist (fill missing with NaN)
+    missing = [f for f in features if f not in df.columns]
+    if missing:
+        log.warning(f"Missing features (will be NaN): {missing}")
+        for f in missing:
+            df[f] = np.nan
+
+    return df[["slug", "timestamp"] + features].to_dict("records")
 
 
 def get_shap_top5(model, X: np.ndarray, features: list[str]) -> list[dict]:
