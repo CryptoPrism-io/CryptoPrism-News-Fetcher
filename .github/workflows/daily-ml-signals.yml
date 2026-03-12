@@ -112,6 +112,29 @@ jobs:
           restore-keys: |
             lgbm-model-artifacts-
 
+      - name: Step 3c-0 — Apply z-score migration (009, idempotent)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          conn.autocommit = True
+          cur = conn.cursor()
+          cur.execute(\"SELECT column_name FROM information_schema.columns WHERE table_name = 'ML_SIGNALS' AND column_name = 'zscore_30d'\")
+          if cur.fetchone():
+              print('zscore columns already exist.')
+          else:
+              print('Applying migration 009...')
+              with open('migrations/009_ml_signals_zscore.sql') as f:
+                  cur.execute(f.read())
+              print('Applied.')
+          conn.close()
+          "
+
       - name: Step 3c — Ensure mv_ml_inference_matrix exists (one-time migration)
         run: |
           python -c "
