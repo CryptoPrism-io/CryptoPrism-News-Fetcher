@@ -32,6 +32,11 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
+ZSCORE_WINDOW = 30   # rolling lookback in days
+ZSCORE_BUY    = 1.5  # z > this → BUY
+ZSCORE_SELL   = -1.5 # z < this → SELL
+ZSCORE_MIN_OBS = 10  # minimum history to compute z-score
+
 
 
 def load_model_artifact(artifact_path: str) -> dict:
@@ -191,26 +196,79 @@ def get_shap_top5(model, X: np.ndarray, features: list[str]) -> list[dict]:
         return []
 
 
+def fetch_historical_scores(conn, slugs: list[str], before_date: str, model_id: int) -> dict:
+    """Fetch last ZSCORE_WINDOW days of signal_score per coin for z-score computation."""
+    query = """
+        SELECT slug, signal_score
+        FROM "ML_SIGNALS"
+        WHERE slug = ANY(%s)
+          AND feature_date < %s
+          AND model_id = %s
+        ORDER BY slug, feature_date DESC
+    """
+    with conn.cursor() as cur:
+        cur.execute(query, (slugs, before_date, model_id))
+        rows = cur.fetchall()
+
+    # Group by slug, keep only last ZSCORE_WINDOW scores
+    from collections import defaultdict
+    history = defaultdict(list)
+    for slug, score in rows:
+        if len(history[slug]) < ZSCORE_WINDOW:
+            history[slug].append(score)
+    return dict(history)
+
+
+def compute_zscores(signal_rows: list[dict], history: dict) -> list[dict]:
+    """Add zscore_30d and direction_zscore to each signal row."""
+    for row in signal_rows:
+        slug = row["slug"]
+        hist = history.get(slug, [])
+        if len(hist) >= ZSCORE_MIN_OBS:
+            mean = np.mean(hist)
+            std = np.std(hist, ddof=1)
+            if std > 0:
+                z = (row["signal_score"] - mean) / std
+                row["zscore_30d"] = round(float(z), 6)
+                if z > ZSCORE_BUY:
+                    row["direction_zscore"] = 1
+                elif z < ZSCORE_SELL:
+                    row["direction_zscore"] = -1
+                else:
+                    row["direction_zscore"] = 0
+            else:
+                row["zscore_30d"] = None
+                row["direction_zscore"] = None
+        else:
+            row["zscore_30d"] = None
+            row["direction_zscore"] = None
+    return signal_rows
+
+
 def write_signals(conn, rows: list[dict]):
     sql = """
         INSERT INTO "ML_SIGNALS" (
             slug, timestamp, signal_score, direction,
             prob_buy, prob_hold, prob_sell, confidence,
-            top_features, model_id, feature_date, created_at
+            top_features, model_id, feature_date, created_at,
+            zscore_30d, direction_zscore
         ) VALUES (
             %(slug)s, %(timestamp)s, %(signal_score)s, %(direction)s,
             %(prob_buy)s, %(prob_hold)s, %(prob_sell)s, %(confidence)s,
-            %(top_features)s, %(model_id)s, %(feature_date)s, %(created_at)s
+            %(top_features)s, %(model_id)s, %(feature_date)s, %(created_at)s,
+            %(zscore_30d)s, %(direction_zscore)s
         )
         ON CONFLICT (slug, timestamp, model_id) DO UPDATE SET
-            signal_score = EXCLUDED.signal_score,
-            direction    = EXCLUDED.direction,
-            prob_buy     = EXCLUDED.prob_buy,
-            prob_hold    = EXCLUDED.prob_hold,
-            prob_sell    = EXCLUDED.prob_sell,
-            confidence   = EXCLUDED.confidence,
-            top_features = EXCLUDED.top_features,
-            created_at   = EXCLUDED.created_at
+            signal_score     = EXCLUDED.signal_score,
+            direction        = EXCLUDED.direction,
+            prob_buy         = EXCLUDED.prob_buy,
+            prob_hold        = EXCLUDED.prob_hold,
+            prob_sell         = EXCLUDED.prob_sell,
+            confidence       = EXCLUDED.confidence,
+            top_features     = EXCLUDED.top_features,
+            created_at       = EXCLUDED.created_at,
+            zscore_30d       = EXCLUDED.zscore_30d,
+            direction_zscore = EXCLUDED.direction_zscore
     """
     with conn.cursor() as cur:
         psycopg2.extras.execute_batch(cur, sql, rows, page_size=500)
@@ -296,21 +354,41 @@ def run(target_date: str | None = None):
                 "created_at":   now,
             })
 
+        # Compute rolling z-scores
+        slugs = [r["slug"] for r in signal_rows]
+        history = fetch_historical_scores(conn, slugs, target_date, model_id)
+        signal_rows = compute_zscores(signal_rows, history)
+
+        n_with_z = sum(1 for r in signal_rows if r["zscore_30d"] is not None)
+        log.info(f"Z-scores computed for {n_with_z}/{len(signal_rows)} coins (need {ZSCORE_MIN_OBS}+ days history)")
+
         write_signals(conn, signal_rows)
         conn.close()
 
         t.rows = len(signal_rows)
         log.info(f"Written {len(signal_rows)} signals to ML_SIGNALS for {target_date}")
 
-        # Log top-10 BUY signals
-        buys = sorted(
-            [r for r in signal_rows if r["direction"] == 1],
-            key=lambda x: -x["signal_score"]
-        )[:10]
-        if buys:
-            log.info("Top-10 BUY signals:")
-            for b in buys:
-                log.info(f"  {b['slug']:20s}  score={b['signal_score']:+.4f}  conf={b['confidence']:.3f}")
+        # Log z-score BUY/SELL signals
+        z_buys = sorted(
+            [r for r in signal_rows if r.get("direction_zscore") == 1],
+            key=lambda x: -(x["zscore_30d"] or 0)
+        )
+        z_sells = sorted(
+            [r for r in signal_rows if r.get("direction_zscore") == -1],
+            key=lambda x: (x["zscore_30d"] or 0)
+        )
+        log.info(f"Z-score signals: {len(z_buys)} BUY, {len(z_sells)} SELL, "
+                 f"{len(signal_rows) - len(z_buys) - len(z_sells)} HOLD")
+
+        if z_buys:
+            log.info(f"Top-10 BUY (z > {ZSCORE_BUY}):")
+            for b in z_buys[:10]:
+                log.info(f"  {b['slug']:20s}  z={b['zscore_30d']:+.3f}  score={b['signal_score']:+.4f}")
+
+        if z_sells:
+            log.info(f"Top-10 SELL (z < {ZSCORE_SELL}):")
+            for s in z_sells[:10]:
+                log.info(f"  {s['slug']:20s}  z={s['zscore_30d']:+.3f}  score={s['signal_score']:+.4f}")
 
         return len(signal_rows)
 
