@@ -372,8 +372,8 @@ if __name__ == "__main__":
     data = fetch_crypto_news_hourly(hours_back=1)
 
     if not data.get("Data"):
-        print("❌ No articles found in the specified time range")
-        exit(1)
+        print("No articles found in the specified time range — this is normal during low-activity hours.")
+        exit(0)
 
     # Save to CSV with body text
     csv_file = save_to_csv_with_body(data, timestamp)

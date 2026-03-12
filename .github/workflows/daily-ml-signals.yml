@@ -48,6 +48,7 @@ jobs:
           echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
           echo "DB_USER=${{ secrets.DB_USER }}" >> .env
           echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
           SSLMODE="${{ secrets.DB_SSLMODE }}"
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
