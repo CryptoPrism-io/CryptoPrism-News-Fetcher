@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# Environment variables (contains secrets)
+.env
+.env.*
+!.env.example
