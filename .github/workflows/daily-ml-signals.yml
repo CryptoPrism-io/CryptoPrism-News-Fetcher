@@ -70,7 +70,12 @@ jobs:
         if: |
           github.event.inputs.mode == 'full_pipeline' ||
           github.event.schedule == '0 2 * * 0'
-        run: python -m src.features.labels
+        run: |
+          # Backfill labels for the past 60 days so val/test splits have data.
+          # labels.py without --from-date only computes yesterday, which leaves
+          # the val/test windows empty and crashes train_lgbm.py.
+          FROM_DATE=$(date -d "60 days ago" +%Y-%m-%d)
+          python -m src.features.labels --from-date "$FROM_DATE"
 
       - name: Step 2 — Refresh training MV (if full pipeline, retrain, or weekly)
         if: |

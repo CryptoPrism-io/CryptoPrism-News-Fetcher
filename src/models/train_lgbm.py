@@ -206,6 +206,15 @@ def train(mode: str = "price_only"):
         log.error("Training set is empty — run labels.py and refresh_mv.py first.")
         return
 
+    if df_val.empty or df_test.empty:
+        log.error(
+            f"Val ({len(df_val)} rows) or test ({len(df_test)} rows) set is empty. "
+            f"ML_LABELS likely missing for val={split['val_from']}→{split['val_to']} "
+            f"or test={split['test_from']}→{split['test_to']}. "
+            f"Run: python -m src.features.labels --from-date {split['val_from']}"
+        )
+        raise SystemExit(1)
+
     X_train, y_train, used_features = prepare_xy(df_train, features)
     X_val,   y_val,   _             = prepare_xy(df_val,   features)
     X_test,  y_test,  _             = prepare_xy(df_test,  features)
