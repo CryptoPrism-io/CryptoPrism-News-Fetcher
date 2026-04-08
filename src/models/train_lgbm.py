@@ -1,6 +1,6 @@
 """
 train_lgbm.py
-LightGBM baseline trainer — reads from mv_ml_feature_matrix, writes to ML_MODEL_REGISTRY.
+LightGBM baseline trainer — reads features from cp_backtest + labels from dbcp, writes to ML_MODEL_REGISTRY.
 
 Two modes:
   --mode price_only    : Block A features only (full 13yr OHLCV history)
@@ -26,7 +26,7 @@ import pandas as pd
 import psycopg2
 import psycopg2.extras
 from dotenv import load_dotenv
-from src.db import get_db_conn
+from src.db import get_db_conn, get_backtest_conn
 
 
 load_dotenv()
@@ -141,29 +141,159 @@ LGBM_PARAMS = {
 
 
 
-def load_feature_matrix(conn, features: list[str], from_date: str, to_date: str) -> pd.DataFrame:
+def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date: str,
+                        bt_conn=None) -> pd.DataFrame:
     """
-    Query mv_ml_feature_matrix for specified feature columns + targets.
-    READ-ONLY materialized view.
-    """
-    all_cols = ["slug", "timestamp"] + features + LABEL_COLS + RETURN_COLS
-    # Quote columns with special chars; escape % so psycopg2 doesn't treat as placeholder
-    col_sql = ", ".join(f'"{c}"' for c in all_cols).replace("%", "%%")
+    Load training feature matrix.
 
-    query = f"""
-        SELECT {col_sql}
-        FROM "mv_ml_feature_matrix"
-        WHERE timestamp >= %s
-          AND timestamp <= %s
-          AND label_3d IS NOT NULL
-        ORDER BY timestamp ASC
-    """
-    with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute(query, (f"{from_date} 00:00:00+00", f"{to_date} 23:59:59+00"))
-        rows = cur.fetchall()
+    When bt_conn (cp_backtest) is provided, uses dual-DB approach:
+      - Labels from dbcp (ML_LABELS)
+      - Price features from cp_backtest (full history, deduped)
+      - Supplementary features from dbcp (fear-greed, news, DMV)
 
-    df = pd.DataFrame(rows)
-    log.info(f"Loaded {len(df):,} rows from mv_ml_feature_matrix ({from_date} → {to_date})")
+    When bt_conn is None, falls back to mv_ml_feature_matrix on dbcp.
+    """
+    ts_from = f"{from_date} 00:00:00+00"
+    ts_to   = f"{to_date} 23:59:59+00"
+
+    if bt_conn is None:
+        # Fallback: MV on dbcp (features may be sparse if FE tables are 1-date)
+        all_cols = ["slug", "timestamp"] + features + LABEL_COLS + RETURN_COLS
+        col_sql = ", ".join(f'"{c}"' for c in all_cols).replace("%", "%%")
+        query = f"""
+            SELECT {col_sql}
+            FROM "mv_ml_feature_matrix"
+            WHERE timestamp >= %s AND timestamp <= %s AND label_3d IS NOT NULL
+            ORDER BY timestamp ASC
+        """
+        with dbcp_conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+            cur.execute(query, (ts_from, ts_to))
+            rows = cur.fetchall()
+        df = pd.DataFrame(rows)
+        log.info(f"Loaded {len(df):,} rows from mv_ml_feature_matrix ({from_date} → {to_date})")
+        return df
+
+    # ── Dual-DB approach ─────────────────────────────────────────────────
+
+    # 1. Labels from dbcp
+    label_cols_sql = ", ".join(
+        f'"{c}"' for c in ["slug", "timestamp"] + LABEL_COLS + RETURN_COLS
+    )
+    df = pd.read_sql(
+        f'SELECT {label_cols_sql} FROM "ML_LABELS"'
+        f' WHERE timestamp >= %s AND timestamp <= %s AND label_3d IS NOT NULL'
+        f' ORDER BY timestamp',
+        dbcp_conn, params=(ts_from, ts_to),
+    )
+    if df.empty:
+        log.info(f"Loaded 0 rows from ML_LABELS ({from_date} → {to_date})")
+        return df
+
+    df["_date"] = pd.to_datetime(df["timestamp"]).dt.date
+
+    # 2. Price features from cp_backtest (deduped per slug+date)
+    fe_tables = {
+        "FE_PCT_CHANGE": [
+            "m_pct_1d", "d_pct_cum_ret", "d_pct_var", "d_pct_cvar", "d_pct_vol_1d",
+        ],
+        "FE_MOMENTUM_SIGNALS": [
+            "m_mom_roc_bin", "m_mom_williams_%_bin", "m_mom_smi_bin",
+            "m_mom_cmo_bin", "m_mom_mom_bin",
+        ],
+        "FE_OSCILLATORS_SIGNALS": [
+            "m_osc_macd_crossover_bin", "m_osc_cci_bin", "m_osc_adx_bin",
+            "m_osc_uo_bin", "m_osc_ao_bin", "m_osc_trix_bin",
+        ],
+        "FE_TVV_SIGNALS": [
+            "m_tvv_obv_1d_binary", "d_tvv_sma9_18", "d_tvv_ema9_18",
+            "d_tvv_sma21_108", "d_tvv_ema21_108", "m_tvv_cmf",
+        ],
+        "FE_METRICS_SIGNAL": [
+            "m_pct_1d_signal", "d_pct_cum_ret_signal", "d_met_ath_month_signal",
+            "d_market_cap_signal", "d_met_coin_age_y_signal",
+        ],
+        "FE_RATIOS_SIGNALS": [
+            "m_rat_alpha_bin", "d_rat_beta_bin", "v_rat_sharpe_bin",
+            "v_rat_sortino_bin", "v_rat_teynor_bin", "v_rat_common_sense_bin",
+            "v_rat_information_bin", "v_rat_win_loss_bin", "m_rat_win_rate_bin",
+            "m_rat_ror_bin", "d_rat_pain_bin",
+        ],
+    }
+
+    for table, cols in fe_tables.items():
+        col_sql = ", ".join(f'"{c}"' for c in cols).replace("%", "%%")
+        try:
+            df_fe = pd.read_sql(
+                f'SELECT DISTINCT ON (slug, DATE(timestamp))'
+                f'  slug, DATE(timestamp) AS _date, {col_sql}'
+                f' FROM "{table}"'
+                f' WHERE timestamp >= %s AND timestamp <= %s'
+                f' ORDER BY slug, DATE(timestamp), timestamp DESC',
+                bt_conn, params=(ts_from, ts_to),
+            )
+            df = df.merge(df_fe, on=["slug", "_date"], how="left")
+            log.info(f"  {table}: {len(df_fe):,} feature rows merged")
+        except Exception as e:
+            log.warning(f"  {table}: unavailable ({e}), filling NaN")
+            for c in cols:
+                df[c] = np.nan
+
+    # DMV scores from cp_backtest
+    try:
+        df_dmv = pd.read_sql(
+            'SELECT DISTINCT ON (slug, DATE(timestamp))'
+            '  slug, DATE(timestamp) AS _date,'
+            '  "Durability_Score", "Momentum_Score", "Valuation_Score"'
+            ' FROM "FE_DMV_SCORES"'
+            ' WHERE timestamp >= %s AND timestamp <= %s'
+            ' ORDER BY slug, DATE(timestamp), timestamp DESC',
+            bt_conn, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_dmv, on=["slug", "_date"], how="left")
+        log.info(f"  FE_DMV_SCORES: {len(df_dmv):,} feature rows merged")
+    except Exception:
+        log.warning("  FE_DMV_SCORES: unavailable, filling NaN")
+        for c in ("Durability_Score", "Momentum_Score", "Valuation_Score"):
+            df[c] = np.nan
+
+    # 3. Supplementary from dbcp
+    # Fear & Greed (market-wide, no slug)
+    try:
+        df_fg = pd.read_sql(
+            'SELECT DATE(timestamp) AS _date, fear_greed_index'
+            ' FROM "FE_FEAR_GREED_CMC"'
+            ' WHERE timestamp >= %s AND timestamp <= %s',
+            dbcp_conn, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_fg, on="_date", how="left")
+    except Exception:
+        df["fear_greed_index"] = np.nan
+
+    # News signals from dbcp
+    news_cols = [
+        "news_sentiment_1d", "news_sentiment_3d", "news_sentiment_7d",
+        "news_sentiment_momentum", "news_volume_1d", "news_volume_zscore_1d",
+        "news_breaking_flag", "news_regulation_flag", "news_security_flag",
+        "news_adoption_flag", "news_source_quality", "news_tier1_count_1d",
+    ]
+    try:
+        ncol_sql = ", ".join(news_cols)
+        df_news = pd.read_sql(
+            f'SELECT slug, DATE(timestamp) AS _date, {ncol_sql}'
+            f' FROM "FE_NEWS_SIGNALS"'
+            f' WHERE timestamp >= %s AND timestamp <= %s',
+            dbcp_conn, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_news, on=["slug", "_date"], how="left")
+    except Exception:
+        for c in news_cols:
+            df[c] = np.nan
+
+    df.drop(columns=["_date"], inplace=True)
+
+    n_feats = sum(1 for f in features if f in df.columns and df[f].notna().any())
+    log.info(f"Loaded {len(df):,} rows via dual-DB ({from_date} → {to_date}), "
+             f"{n_feats}/{len(features)} features with data")
     return df
 
 
@@ -196,10 +326,19 @@ def train(mode: str = "price_only"):
 
     conn = get_db_conn()
 
-    # Load train + val sets
-    df_train = load_feature_matrix(conn, features, split["train_from"], split["train_to"])
-    df_val   = load_feature_matrix(conn, features, split["val_from"],   split["val_to"])
-    df_test  = load_feature_matrix(conn, features, split["test_from"],  split["test_to"])
+    # Use cp_backtest for features if DB_BACKTEST_NAME is set (full historical FE data)
+    bt_conn = None
+    backtest_name = os.environ.get("DB_BACKTEST_NAME", "").strip()
+    if backtest_name:
+        bt_conn = get_backtest_conn()
+        log.info(f"Using dual-DB: features from {backtest_name}, labels from dbcp")
+
+    # Load train + val + test sets
+    df_train = load_feature_matrix(conn, features, split["train_from"], split["train_to"], bt_conn)
+    df_val   = load_feature_matrix(conn, features, split["val_from"],   split["val_to"],   bt_conn)
+    df_test  = load_feature_matrix(conn, features, split["test_from"],  split["test_to"],  bt_conn)
+    if bt_conn:
+        bt_conn.close()
     conn.close()
 
     if df_train.empty:
