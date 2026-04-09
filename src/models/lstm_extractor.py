@@ -94,10 +94,15 @@ def build_sequences(df: pd.DataFrame, seq_len: int = SEQ_LEN,
 def _build_coin_features(coin_ohlcv: pd.DataFrame, coin_res: pd.DataFrame,
                          fg_map: dict, label_map: dict) -> tuple[np.ndarray, np.ndarray, list]:
     """Build sequences + labels for one coin. Returns (X, y, timestamps)."""
-    coin = coin_res.merge(
-        coin_ohlcv[["slug", "timestamp", "close", "volume", "high", "low"]],
-        on=["slug", "timestamp"], how="left",
-    ).sort_values("timestamp")
+    ohlcv_sub = coin_ohlcv[["slug", "timestamp", "close", "volume", "high", "low"]].copy()
+    ohlcv_sub["_date"] = pd.to_datetime(ohlcv_sub["timestamp"]).dt.date
+    ohlcv_sub = ohlcv_sub.drop_duplicates(subset=["slug", "_date"], keep="last")
+    res_sub = coin_res.copy()
+    res_sub["_date"] = pd.to_datetime(res_sub["timestamp"]).dt.date
+    coin = res_sub.merge(
+        ohlcv_sub[["slug", "_date", "close", "volume", "high", "low"]],
+        on=["slug", "_date"], how="left",
+    ).sort_values("_date").drop_duplicates(subset=["slug", "_date"], keep="last")
 
     if len(coin) < SEQ_LEN + 5:
         return np.empty((0,)), np.empty((0,)), []
@@ -110,14 +115,11 @@ def _build_coin_features(coin_ohlcv: pd.DataFrame, coin_res: pd.DataFrame,
     coin["residual_vol_7d"] = coin["residual_1d"].rolling(7).std()
     coin["residual_vol_14d"] = coin["residual_1d"].rolling(14).std()
     coin["residual_volume_1d"] = coin["volume"].pct_change().fillna(0)
-    coin["momentum_rank"] = 0.5  # cross-sectional — simplified for now
+    coin["momentum_rank"] = 0.5
     coin["news_sentiment_1d"] = 0.0
     coin["news_volume_1d"] = 0.0
-
-    # Fear & greed
-    coin["_date"] = pd.to_datetime(coin["timestamp"]).dt.date
     coin["fear_greed_index"] = coin["_date"].map(fg_map).fillna(50)
-    coin["market_breadth"] = 0.5  # simplified
+    coin["market_breadth"] = 0.5
 
     sequences, ts = build_sequences(coin, SEQ_LEN, FEATURE_COLS)
     if len(sequences) == 0:
@@ -147,13 +149,22 @@ def train_model(epochs: int = 30, lr: float = 1e-3, batch_size: int = 256):
     bt_conn = get_backtest_conn()
     dbcp_conn = get_db_conn()
 
-    log.info("Loading daily residuals from FE_BTC_RESIDUALS...")
-    res_df = pd.read_sql(
-        'SELECT slug, timestamp, residual_1d, residual_vol_ratio '
-        'FROM "FE_BTC_RESIDUALS" WHERE residual_1d IS NOT NULL ORDER BY slug, timestamp',
+    log.info("Loading hourly residuals and aggregating to daily...")
+    res_hourly = pd.read_sql(
+        'SELECT slug, DATE(timestamp) as date, '
+        '  SUM(residual_1h) as residual_1d, '
+        '  AVG(residual_vol_ratio) as residual_vol_ratio, '
+        '  AVG(beta_30d) as beta_30d '
+        'FROM "FE_BTC_RESIDUALS" '
+        'WHERE residual_1h IS NOT NULL '
+        'GROUP BY slug, DATE(timestamp) '
+        'ORDER BY slug, date',
         bt_conn,
     )
-    log.info(f"Loaded {len(res_df):,} residual rows, {res_df['slug'].nunique()} coins")
+    res_hourly = res_hourly.rename(columns={"date": "timestamp"})
+    res_hourly["timestamp"] = pd.to_datetime(res_hourly["timestamp"], utc=True)
+    res_df = res_hourly
+    log.info(f"Loaded {len(res_df):,} daily residual rows, {res_df['slug'].nunique()} coins")
 
     log.info("Loading daily OHLCV...")
     ohlcv_df = pd.read_sql(
@@ -242,16 +253,19 @@ def train_model(epochs: int = 30, lr: float = 1e-3, batch_size: int = 256):
     torch.save(model.state_dict(), ARTIFACT_PATH)
     log.info(f"Model saved to {ARTIFACT_PATH}")
 
-    # Export ONNX
-    model.eval()
-    model.cpu()
-    dummy = torch.randn(1, SEQ_LEN, INPUT_DIM)
-    torch.onnx.export(
-        model, dummy, ONNX_PATH,
-        input_names=["input"], output_names=["embedding", "logits"],
-        dynamic_axes={"input": {0: "batch"}, "embedding": {0: "batch"}, "logits": {0: "batch"}},
-    )
-    log.info(f"ONNX exported to {ONNX_PATH}")
+    # Export ONNX (optional — requires onnxscript)
+    try:
+        model.eval()
+        model.cpu()
+        dummy = torch.randn(1, SEQ_LEN, INPUT_DIM)
+        torch.onnx.export(
+            model, dummy, ONNX_PATH,
+            input_names=["input"], output_names=["embedding", "logits"],
+            dynamic_axes={"input": {0: "batch"}, "embedding": {0: "batch"}, "logits": {0: "batch"}},
+        )
+        log.info(f"ONNX exported to {ONNX_PATH}")
+    except Exception as e:
+        log.warning(f"ONNX export skipped: {e}")
 
 
 if __name__ == "__main__":

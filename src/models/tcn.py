@@ -240,16 +240,19 @@ def train_model(epochs: int = 30, lr: float = 1e-3, batch_size: int = 128):
     torch.save(model.state_dict(), ARTIFACT_PATH)
     log.info(f"Saved to {ARTIFACT_PATH}")
 
-    # Export ONNX
-    model.eval()
-    model.cpu()
-    dummy = torch.randn(1, INPUT_CHANNELS, SEQ_LEN)
-    torch.onnx.export(
-        model, dummy, ONNX_PATH,
-        input_names=["input"], output_names=["embedding", "logits"],
-        dynamic_axes={"input": {0: "batch"}, "embedding": {0: "batch"}, "logits": {0: "batch"}},
-    )
-    log.info(f"ONNX exported to {ONNX_PATH}")
+    # Export ONNX (optional — requires onnxscript)
+    try:
+        model.eval()
+        model.cpu()
+        dummy = torch.randn(1, INPUT_CHANNELS, SEQ_LEN)
+        torch.onnx.export(
+            model, dummy, ONNX_PATH,
+            input_names=["input"], output_names=["embedding", "logits"],
+            dynamic_axes={"input": {0: "batch"}, "embedding": {0: "batch"}, "logits": {0: "batch"}},
+        )
+        log.info(f"ONNX exported to {ONNX_PATH}")
+    except Exception as e:
+        log.warning(f"ONNX export skipped: {e}")
 
 
 if __name__ == "__main__":
