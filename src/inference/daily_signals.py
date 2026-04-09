@@ -84,9 +84,6 @@ def fetch_today_features(conn, features: list[str], target_date: str) -> list[di
                tvv.m_tvv_obv_1d_binary, tvv.d_tvv_sma9_18,
                tvv.d_tvv_ema9_18, tvv.d_tvv_sma21_108,
                tvv.d_tvv_ema21_108, tvv.m_tvv_cmf,
-               met.m_pct_1d_signal, met.d_pct_cum_ret_signal,
-               met.d_met_ath_month_signal, met.d_market_cap_signal,
-               met.d_met_coin_age_y_signal,
                rat.m_rat_alpha_bin, rat.d_rat_beta_bin,
                rat.v_rat_sharpe_bin, rat.v_rat_sortino_bin,
                rat.v_rat_teynor_bin, rat.v_rat_common_sense_bin,
@@ -99,8 +96,6 @@ def fetch_today_features(conn, features: list[str], target_date: str) -> list[di
             ON osc.slug = pct.slug AND DATE(osc."timestamp") = DATE(pct."timestamp")
         LEFT JOIN "FE_TVV_SIGNALS" tvv
             ON tvv.slug = pct.slug AND DATE(tvv."timestamp") = DATE(pct."timestamp")
-        LEFT JOIN "FE_METRICS_SIGNAL" met
-            ON met.slug = pct.slug AND DATE(met."timestamp") = DATE(pct."timestamp")
         LEFT JOIN "FE_RATIOS_SIGNALS" rat
             ON rat.slug = pct.slug AND DATE(rat."timestamp") = DATE(pct."timestamp")
         WHERE DATE(pct."timestamp") = %s
@@ -115,22 +110,6 @@ def fetch_today_features(conn, features: list[str], target_date: str) -> list[di
     log.info(f"Fetched {len(df)} price-feature rows from cp_backtest")
 
     # --- Supplementary features from dbcp ---
-
-    # DMV scores
-    try:
-        df_dmv = pd.read_sql(
-            'SELECT slug, "Durability_Score", "Momentum_Score", "Valuation_Score" '
-            'FROM "FE_DMV_SCORES" WHERE DATE("timestamp") = %s',
-            conn, params=(target_date,),
-        )
-        if not df_dmv.empty:
-            df = df.merge(df_dmv, on="slug", how="left")
-        else:
-            for c in ("Durability_Score", "Momentum_Score", "Valuation_Score"):
-                df[c] = np.nan
-    except Exception:
-        for c in ("Durability_Score", "Momentum_Score", "Valuation_Score"):
-            df[c] = np.nan
 
     # Fear & Greed index (one value per date, no slug)
     try:

@@ -51,11 +51,6 @@ FEATURES_PRICE_ONLY = [
     # FE_TVV_SIGNALS
     "m_tvv_obv_1d_binary", "d_tvv_sma9_18", "d_tvv_ema9_18",
     "d_tvv_sma21_108", "d_tvv_ema21_108", "m_tvv_cmf",
-    # FE_METRICS_SIGNAL
-    "m_pct_1d_signal", "d_pct_cum_ret_signal", "d_met_ath_month_signal",
-    "d_market_cap_signal", "d_met_coin_age_y_signal",
-    # FE_DMV_SCORES
-    "Durability_Score", "Momentum_Score", "Valuation_Score",
     # FE_RATIOS_SIGNALS
     "m_rat_alpha_bin", "d_rat_beta_bin", "v_rat_sharpe_bin", "v_rat_sortino_bin",
     "v_rat_teynor_bin", "v_rat_common_sense_bin", "v_rat_information_bin",
@@ -208,10 +203,6 @@ def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date:
             "m_tvv_obv_1d_binary", "d_tvv_sma9_18", "d_tvv_ema9_18",
             "d_tvv_sma21_108", "d_tvv_ema21_108", "m_tvv_cmf",
         ],
-        "FE_METRICS_SIGNAL": [
-            "m_pct_1d_signal", "d_pct_cum_ret_signal", "d_met_ath_month_signal",
-            "d_market_cap_signal", "d_met_coin_age_y_signal",
-        ],
         "FE_RATIOS_SIGNALS": [
             "m_rat_alpha_bin", "d_rat_beta_bin", "v_rat_sharpe_bin",
             "v_rat_sortino_bin", "v_rat_teynor_bin", "v_rat_common_sense_bin",
@@ -237,24 +228,6 @@ def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date:
             log.warning(f"  {table}: unavailable ({e}), filling NaN")
             for c in cols:
                 df[c] = np.nan
-
-    # DMV scores from cp_backtest
-    try:
-        df_dmv = pd.read_sql(
-            'SELECT DISTINCT ON (slug, DATE(timestamp))'
-            '  slug, DATE(timestamp) AS _date,'
-            '  "Durability_Score", "Momentum_Score", "Valuation_Score"'
-            ' FROM "FE_DMV_SCORES"'
-            ' WHERE timestamp >= %s AND timestamp <= %s'
-            ' ORDER BY slug, DATE(timestamp), timestamp DESC',
-            bt_conn, params=(ts_from, ts_to),
-        )
-        df = df.merge(df_dmv, on=["slug", "_date"], how="left")
-        log.info(f"  FE_DMV_SCORES: {len(df_dmv):,} feature rows merged")
-    except Exception:
-        log.warning("  FE_DMV_SCORES: unavailable, filling NaN")
-        for c in ("Durability_Score", "Momentum_Score", "Valuation_Score"):
-            df[c] = np.nan
 
     # 3. Supplementary from dbcp
     # Fear & Greed (market-wide, no slug)
