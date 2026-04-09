@@ -1,0 +1,142 @@
+name: Backfill Neural Embeddings
+
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: 'Which embeddings to backfill'
+        required: true
+        type: choice
+        options:
+          - tcn
+          - lstm
+          - both
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install hmmlearn
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: artifacts/
+          key: ensemble-artifacts-
+          restore-keys: ensemble-artifacts-
+
+      - name: Backfill LSTM embeddings
+        if: github.event.inputs.model == 'lstm' || github.event.inputs.model == 'both'
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, sys, io, numpy as np, pandas as pd, torch, psycopg2, logging
+          logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S', stream=sys.stdout)
+          log = logging.getLogger()
+          from src.models.lstm_extractor import LSTMExtractor, FEATURE_COLS, SEQ_LEN, INPUT_DIM, HIDDEN_DIM, EMBED_DIM, N_CLASSES
+          from src.db import get_backtest_conn, get_db_conn
+          model = LSTMExtractor(INPUT_DIM, HIDDEN_DIM, EMBED_DIM, N_CLASSES)
+          model.load_state_dict(torch.load('artifacts/lstm_extractor.pt', map_location='cpu', weights_only=True))
+          model.eval()
+          bt = get_backtest_conn()
+          dbcp = get_db_conn()
+          slugs = pd.read_sql('SELECT DISTINCT slug FROM \"FE_BTC_RESIDUALS\"', bt)['slug'].tolist()
+          log.info(f'{len(slugs)} coins')
+          fg_df = pd.read_sql('SELECT timestamp, fear_greed_index FROM \"FE_FEAR_GREED_CMC\"', dbcp)
+          fg_map = dict(zip(pd.to_datetime(fg_df['timestamp']).dt.date, fg_df['fear_greed_index']))
+          dbcp.close()
+          all_rows = []
+          for i, slug in enumerate(slugs):
+              res = pd.read_sql(f\"SELECT DATE(timestamp) as d, SUM(residual_1h) as residual_1d, AVG(residual_vol_ratio) as residual_vol_ratio FROM \\\"FE_BTC_RESIDUALS\\\" WHERE slug='{slug}' AND residual_1h IS NOT NULL GROUP BY DATE(timestamp) ORDER BY d\", bt)
+              ohlcv = pd.read_sql(f\"SELECT DATE(timestamp) as d, close, volume, high, low FROM \\\"1K_coins_ohlcv\\\" WHERE slug='{slug}' ORDER BY timestamp\", bt)
+              ohlcv = ohlcv.drop_duplicates(subset=['d'], keep='last')
+              coin = res.merge(ohlcv, on='d', how='left').sort_values('d')
+              if len(coin) < SEQ_LEN + 5: continue
+              coin['close_ret'] = coin['close'].pct_change().fillna(0)
+              coin['daily_range'] = (coin['high'] - coin['low']) / coin['close'].replace(0, np.nan)
+              coin['volume_zscore'] = (coin['volume'] - coin['volume'].rolling(30).mean()) / coin['volume'].rolling(30).std().replace(0, np.nan)
+              coin['residual_vol_7d'] = coin['residual_1d'].rolling(7).std()
+              coin['residual_vol_14d'] = coin['residual_1d'].rolling(14).std()
+              coin['residual_volume_1d'] = coin['volume'].pct_change().fillna(0)
+              coin['momentum_rank'] = 0.5
+              coin['news_sentiment_1d'] = 0.0
+              coin['news_volume_1d'] = 0.0
+              coin['fear_greed_index'] = coin['d'].map(fg_map).fillna(50)
+              coin['market_breadth'] = 0.5
+              values = coin[FEATURE_COLS].values.astype(np.float32)
+              values = np.nan_to_num(values, nan=0.0)
+              seqs = [values[j-SEQ_LEN:j] for j in range(SEQ_LEN, len(values))]
+              ts_list = [coin.iloc[j]['d'] for j in range(SEQ_LEN, len(values))]
+              if not seqs: continue
+              X = torch.from_numpy(np.array(seqs, dtype=np.float32))
+              with torch.no_grad():
+                  embs, logits = model(X)
+              embs = embs.numpy()
+              probs = torch.softmax(logits, dim=1).numpy()
+              for j in range(len(seqs)):
+                  row = {'slug': slug, 'timestamp': str(ts_list[j])}
+                  for k in range(12): row[f'lemb_{k}'] = round(float(embs[j,k]), 6)
+                  row['lstm_prob_buy'] = round(float(probs[j,2]), 6)
+                  row['lstm_prob_sell'] = round(float(probs[j,0]), 6)
+                  all_rows.append(row)
+              if (i+1) % 50 == 0: log.info(f'  {i+1}/{len(slugs)} coins, {len(all_rows):,} embeddings')
+          log.info(f'Total: {len(all_rows):,}. Writing...')
+          cols = ['slug','timestamp'] + [f'lemb_{k}' for k in range(12)] + ['lstm_prob_buy','lstm_prob_sell']
+          for start in range(0, len(all_rows), 50000):
+              chunk = all_rows[start:start+50000]
+              df_out = pd.DataFrame(chunk)
+              cur = bt.cursor()
+              cur.execute('CREATE TEMP TABLE _ls (slug TEXT, timestamp TIMESTAMPTZ, ' + ', '.join([f'lemb_{k} DOUBLE PRECISION' for k in range(12)]) + ', lstm_prob_buy DOUBLE PRECISION, lstm_prob_sell DOUBLE PRECISION) ON COMMIT DROP')
+              buf = io.StringIO()
+              for _, r in df_out[cols].iterrows():
+                  buf.write('\t'.join([str(r[c]) for c in cols]) + '\n')
+              buf.seek(0)
+              cur.copy_from(buf, '_ls', columns=cols)
+              cur.execute('INSERT INTO \"ML_LSTM_EMBEDDINGS\" (' + ','.join(cols) + ') SELECT ' + ','.join(cols) + ' FROM _ls ON CONFLICT (slug,timestamp) DO UPDATE SET ' + ','.join([f'{c}=EXCLUDED.{c}' for c in cols if c not in ('slug','timestamp')]))
+              bt.commit()
+              log.info(f'  Written {min(start+50000, len(all_rows)):,}/{len(all_rows):,}')
+          bt.close()
+          log.info('LSTM embeddings done!')
+          "
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          for tbl in ['ML_LSTM_EMBEDDINGS', 'ML_TCN_EMBEDDINGS']:
+              try:
+                  cur.execute(f'SELECT COUNT(*), COUNT(DISTINCT slug) FROM \"{tbl}\"')
+                  r = cur.fetchone()
+                  print(f'{tbl}: {r[0]:,} rows, {r[1]} coins')
+              except: print(f'{tbl}: not found'); conn.rollback()
+          conn.close()
+          "
