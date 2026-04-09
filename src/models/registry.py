@@ -57,6 +57,12 @@ def register_model(
             %(artifact_path)s, %(notes)s, %(created_at)s
         )
         ON CONFLICT (model_name) DO UPDATE SET
+            features_used  = EXCLUDED.features_used,
+            hyperparameters = EXCLUDED.hyperparameters,
+            train_from     = EXCLUDED.train_from,
+            train_to       = EXCLUDED.train_to,
+            val_from       = EXCLUDED.val_from,
+            val_to         = EXCLUDED.val_to,
             val_ic_1d      = EXCLUDED.val_ic_1d,
             val_ic_3d      = EXCLUDED.val_ic_3d,
             val_ic_7d      = EXCLUDED.val_ic_7d,
