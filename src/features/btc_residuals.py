@@ -129,24 +129,50 @@ def compute_for_slug(coin_df: pd.DataFrame, btc_df: pd.DataFrame,
 
 
 def upsert_residuals(conn, rows: list[dict]):
-    """Upsert residual rows into FE_BTC_RESIDUALS."""
-    sql = """
-        INSERT INTO "FE_BTC_RESIDUALS" (
-            slug, timestamp, beta_30d, alpha_30d,
-            residual_1h, residual_1d, residual_vol_ratio
-        ) VALUES (
-            %(slug)s, %(timestamp)s, %(beta_30d)s, %(alpha_30d)s,
-            %(residual_1h)s, %(residual_1d)s, %(residual_vol_ratio)s
-        )
-        ON CONFLICT (slug, timestamp) DO UPDATE SET
-            beta_30d           = EXCLUDED.beta_30d,
-            alpha_30d          = EXCLUDED.alpha_30d,
-            residual_1h        = EXCLUDED.residual_1h,
-            residual_1d        = EXCLUDED.residual_1d,
-            residual_vol_ratio = EXCLUDED.residual_vol_ratio
-    """
+    """Upsert residual rows into FE_BTC_RESIDUALS using COPY + temp table for speed."""
+    import io
+
+    df = pd.DataFrame(rows)
+    cols = ["slug", "timestamp", "beta_30d", "alpha_30d",
+            "residual_1h", "residual_1d", "residual_vol_ratio"]
+
     with conn.cursor() as cur:
-        psycopg2.extras.execute_batch(cur, sql, rows, page_size=1000)
+        # Create temp table
+        cur.execute("""
+            CREATE TEMP TABLE _btc_res_staging (
+                slug TEXT, timestamp TIMESTAMPTZ,
+                beta_30d DOUBLE PRECISION, alpha_30d DOUBLE PRECISION,
+                residual_1h DOUBLE PRECISION, residual_1d DOUBLE PRECISION,
+                residual_vol_ratio DOUBLE PRECISION
+            ) ON COMMIT DROP
+        """)
+
+        # COPY data into temp table via StringIO
+        buf = io.StringIO()
+        for _, r in df[cols].iterrows():
+            vals = []
+            for c in cols:
+                v = r[c]
+                vals.append("\\N" if v is None or (isinstance(v, float) and np.isnan(v)) else str(v))
+            buf.write("\t".join(vals) + "\n")
+        buf.seek(0)
+        cur.copy_from(buf, "_btc_res_staging", columns=cols, null="\\N")
+
+        # Merge into main table
+        cur.execute("""
+            INSERT INTO "FE_BTC_RESIDUALS" (slug, timestamp, beta_30d, alpha_30d,
+                                            residual_1h, residual_1d, residual_vol_ratio)
+            SELECT slug, timestamp, beta_30d, alpha_30d,
+                   residual_1h, residual_1d, residual_vol_ratio
+            FROM _btc_res_staging
+            ON CONFLICT (slug, timestamp) DO UPDATE SET
+                beta_30d           = EXCLUDED.beta_30d,
+                alpha_30d          = EXCLUDED.alpha_30d,
+                residual_1h        = EXCLUDED.residual_1h,
+                residual_1d        = EXCLUDED.residual_1d,
+                residual_vol_ratio = EXCLUDED.residual_vol_ratio
+        """)
+
     conn.commit()
 
 
