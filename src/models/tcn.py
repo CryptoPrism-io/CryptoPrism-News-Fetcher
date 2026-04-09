@@ -123,7 +123,7 @@ def build_hourly_features(coin_df: pd.DataFrame, residuals_df: pd.DataFrame) -> 
     return df[["timestamp"] + FEATURE_COLS]
 
 
-def train_model(epochs: int = 30, lr: float = 1e-3, batch_size: int = 128):
+def train_model(epochs: int = 30, lr: float = 1e-4, batch_size: int = 256):
     """Train TCN on hourly residual sequences."""
     log.info("TCN training — loading data...")
 
@@ -187,6 +187,15 @@ def train_model(epochs: int = 30, lr: float = 1e-3, batch_size: int = 128):
     X = np.array(all_X, dtype=np.float32)
     y = np.array(all_y, dtype=np.int64)
     log.info(f"Training data: {X.shape[0]:,} sequences")
+
+    # Normalize: clip outliers, then standardize per channel
+    X = np.clip(X, -10, 10)
+    for ch in range(X.shape[1]):
+        ch_mean = np.nanmean(X[:, ch, :])
+        ch_std = np.nanstd(X[:, ch, :])
+        if ch_std > 0:
+            X[:, ch, :] = (X[:, ch, :] - ch_mean) / ch_std
+    X = np.nan_to_num(X, nan=0.0, posinf=0.0, neginf=0.0)
 
     # Walk-forward split
     split = int(len(X) * 0.8)
