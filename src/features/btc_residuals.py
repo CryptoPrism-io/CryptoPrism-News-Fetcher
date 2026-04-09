@@ -176,7 +176,7 @@ def backfill_hourly():
         result = compute_for_slug(coin, btc, WINDOW_HOURS)
 
         for _, r in result.iterrows():
-            if r["beta_30d"] is None or np.isnan(r["beta_30d"]):
+            if pd.isna(r["beta_30d"]):
                 continue
             all_rows.append({
                 "slug": slug,
@@ -186,7 +186,7 @@ def backfill_hourly():
                 "residual_1h": round(float(r["residual_1h"]), 8),
                 "residual_1d": None,
                 "residual_vol_ratio": round(float(r["residual_vol_ratio"]), 6)
-                    if r["residual_vol_ratio"] is not None and not np.isnan(r["residual_vol_ratio"]) else None,
+                    if not pd.isna(r["residual_vol_ratio"]) else None,
             })
 
         if (i + 1) % 50 == 0:
@@ -227,7 +227,7 @@ def run_incremental():
         if latest:
             result = result[result["timestamp"] > latest]
         for _, r in result.iterrows():
-            if r["beta_30d"] is None or np.isnan(r["beta_30d"]):
+            if pd.isna(r["beta_30d"]):
                 continue
             all_rows.append({
                 "slug": slug,
@@ -237,7 +237,7 @@ def run_incremental():
                 "residual_1h": round(float(r["residual_1h"]), 8),
                 "residual_1d": None,
                 "residual_vol_ratio": round(float(r["residual_vol_ratio"]), 6)
-                    if r["residual_vol_ratio"] is not None and not np.isnan(r["residual_vol_ratio"]) else None,
+                    if not pd.isna(r["residual_vol_ratio"]) else None,
             })
 
     if all_rows:
