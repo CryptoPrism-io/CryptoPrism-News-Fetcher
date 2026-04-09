@@ -1,0 +1,71 @@
+name: Hourly Ensemble Signals
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Every 4 hours
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Signal date (YYYY-MM-DD). Leave empty for yesterday.'
+        required: false
+        default: ''
+
+jobs:
+  ensemble-inference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install lightgbm scikit-learn hmmlearn torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: artifacts/
+          key: ensemble-artifacts-
+          restore-keys: ensemble-artifacts-
+
+      - name: Run ensemble inference
+        run: |
+          DATE_ARG="${{ github.event.inputs.date }}"
+          if [ -n "$DATE_ARG" ]; then
+            python -m src.inference.hourly_signals --date "$DATE_ARG"
+          else
+            python -m src.inference.hourly_signals
+          fi
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), MAX(timestamp) FROM \"ML_SIGNALS_V2\"')
+          r = cur.fetchone()
+          print(f'ML_SIGNALS_V2: {r[0]} rows, latest: {r[1]}')
+          conn.close()
+          "
