@@ -41,3 +41,18 @@ def get_backtest_conn():
     if sslmode:
         kwargs["sslmode"] = sslmode
     return psycopg2.connect(**kwargs)
+
+
+def get_backtest_h_conn():
+    """Connect to the hourly backtest DB (cp_backtest_h)."""
+    kwargs = dict(
+        host=os.environ["DB_HOST"],
+        port=os.environ.get("DB_PORT", 5432),
+        dbname="cp_backtest_h",
+        user=os.environ["DB_USER"],
+        password=os.environ["DB_PASSWORD"],
+    )
+    sslmode = os.environ.get("DB_SSLMODE", "").strip()
+    if sslmode:
+        kwargs["sslmode"] = sslmode
+    return psycopg2.connect(**kwargs)
