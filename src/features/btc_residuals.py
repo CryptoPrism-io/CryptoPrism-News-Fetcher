@@ -192,8 +192,18 @@ def backfill_hourly():
         if (i + 1) % 50 == 0:
             log.info(f"  Processed {i + 1}/{len(slugs)} coins, {len(all_rows):,} rows")
 
-    log.info(f"Upserting {len(all_rows):,} residual rows...")
-    upsert_residuals(bt_conn, all_rows)
+    log.info(f"Upserting {len(all_rows):,} residual rows in chunks...")
+    chunk_size = 50000
+    for start in range(0, len(all_rows), chunk_size):
+        chunk = all_rows[start:start + chunk_size]
+        try:
+            upsert_residuals(bt_conn, chunk)
+        except Exception:
+            # Reconnect on failure
+            bt_conn.close()
+            bt_conn = get_backtest_conn()
+            upsert_residuals(bt_conn, chunk)
+        log.info(f"  Upserted {min(start + chunk_size, len(all_rows)):,}/{len(all_rows):,}")
     bt_conn.close()
     log.info("Hourly backfill complete.")
 
