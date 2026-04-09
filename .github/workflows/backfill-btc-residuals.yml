@@ -1,0 +1,67 @@
+name: Backfill BTC Residuals
+
+on:
+  workflow_dispatch:
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Apply migration 010 (idempotent)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          conn.autocommit = True
+          with open('migrations/010_fe_btc_residuals.sql') as f:
+              conn.cursor().execute(f.read())
+          print('Migration 010 applied.')
+          conn.close()
+          "
+
+      - name: Run backfill
+        run: python -m src.features.btc_residuals --backfill
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), MIN(timestamp), MAX(timestamp) FROM \"FE_BTC_RESIDUALS\"')
+          r = cur.fetchone()
+          print(f'FE_BTC_RESIDUALS: {r[0]:,} rows, {r[1]} to {r[2]}')
+          cur.execute('SELECT COUNT(DISTINCT slug) FROM \"FE_BTC_RESIDUALS\"')
+          print(f'Unique coins: {cur.fetchone()[0]}')
+          conn.close()
+          "
