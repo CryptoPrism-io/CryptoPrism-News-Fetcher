@@ -105,12 +105,38 @@ def run(target_date: str | None = None):
         regime = fetch_regime(dbcp, target_date)
         log.info(f"Regime: {regime['state']} (confidence={regime['confidence']:.2f})")
 
-        # Load features for target date
-        df = load_ensemble_features(target_date, target_date)
-        if df.empty:
+        # Load features — use daily_signals' fetch_today_features (works without labels)
+        # then enrich with BTC residuals + regime
+        from src.inference.daily_signals import fetch_today_features
+        rows = fetch_today_features(dbcp, features, target_date)
+        if not rows:
             log.warning(f"No features for {target_date}. Skipping.")
             dbcp.close()
             return 0
+
+        df = pd.DataFrame(rows)
+
+        # Enrich with BTC residuals from cp_backtest
+        try:
+            bt = get_backtest_conn()
+            df_res = pd.read_sql(
+                'SELECT slug, AVG(beta_30d) as beta_30d, AVG(alpha_30d) as alpha_30d,'
+                '  SUM(residual_1h) as residual_1d, AVG(residual_vol_ratio) as residual_vol_ratio'
+                ' FROM "FE_BTC_RESIDUALS" WHERE DATE(timestamp) = %s'
+                ' GROUP BY slug',
+                bt, params=(target_date,),
+            )
+            df = df.merge(df_res, on="slug", how="left")
+            bt.close()
+        except Exception as e:
+            log.warning(f"BTC residuals: {e}")
+            for c in ["beta_30d", "alpha_30d", "residual_1d", "residual_vol_ratio"]:
+                df[c] = np.nan
+
+        # Fill missing features
+        for f in features:
+            if f not in df.columns:
+                df[f] = np.nan
 
         log.info(f"Inference on {len(df)} coins")
 
