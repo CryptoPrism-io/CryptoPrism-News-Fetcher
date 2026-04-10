@@ -1,0 +1,43 @@
+name: Spot Trading Bot
+
+on:
+  schedule:
+    - cron: '30 */4 * * *'  # Every 4 hours at HH:30
+  workflow_dispatch:
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          echo "BINANCE_API_KEY=${{ secrets.BINANCE_API_KEY }}" >> .env
+          echo "BINANCE_SECRET=${{ secrets.BINANCE_SECRET }}" >> .env
+          echo "BINANCE_TESTNET=true" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Run trading cycle
+        run: python -m src.trading.spot_bot --run
+
+      - name: Show status
+        if: always()
+        run: python -m src.trading.spot_bot --status
