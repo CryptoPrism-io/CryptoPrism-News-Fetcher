@@ -39,7 +39,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install lightgbm scikit-learn shap scipy pandas numpy
+          pip install lightgbm scikit-learn shap scipy pandas numpy hmmlearn
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
 
       - name: Create .env file
         run: |
@@ -97,6 +98,12 @@ jobs:
           github.event.inputs.mode == 'full_pipeline' ||
           github.event.schedule == '0 2 * * 0'
         run: python -m src.models.train_lgbm --mode news_augmented
+
+      - name: Step 3c-ensemble — Retrain ensemble model (weekly Sunday)
+        if: |
+          github.event.inputs.mode == 'full_pipeline' ||
+          github.event.schedule == '0 2 * * 0'
+        run: python -m src.models.train_ensemble
 
       - name: Save model artifact to cache
         if: |
