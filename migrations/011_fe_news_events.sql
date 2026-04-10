@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS "FE_NEWS_EVENTS" (
     event_type                  TEXT,
     magnitude_est               DOUBLE PRECISION,
     hours_since_listing         DOUBLE PRECISION,
-    hours_since_hack            DOUBLE PRECISION,
+    hours_since_hack_exploit    DOUBLE PRECISION,
     hours_since_regulatory      DOUBLE PRECISION,
     hours_since_partnership     DOUBLE PRECISION,
     hours_since_tokenomics      DOUBLE PRECISION,
