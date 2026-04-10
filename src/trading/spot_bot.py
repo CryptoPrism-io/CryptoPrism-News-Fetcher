@@ -40,7 +40,7 @@ log = logging.getLogger(__name__)
 TOP_N = 5                    # Buy top N coins by signal score
 USDT_PER_TRADE = 20.0        # USDT per position (small for testnet)
 HOLD_DAYS = 3                 # Hold period matching label_3d
-MIN_SIGNAL_SCORE = 0.0        # Minimum score to consider (0 = any positive)
+MIN_SIGNAL_SCORE = -0.10      # Minimum score (-0.10 = buy relative outperformers)
 MAX_OPEN_POSITIONS = 10       # Max concurrent positions
 STOP_LOSS_PCT = -0.08         # -8% hard stop
 
@@ -61,8 +61,8 @@ def get_latest_signals(conn, n: int = TOP_N) -> list[dict]:
         WHERE DATE(timestamp) = (SELECT MAX(DATE(timestamp)) FROM "ML_SIGNALS_V2")
           AND signal_score > %s
         ORDER BY signal_score DESC
-        LIMIT %s
-    ''', (MIN_SIGNAL_SCORE, n * 2))  # fetch extra, filter tradeable
+        LIMIT 200
+    ''', (MIN_SIGNAL_SCORE,))  # fetch plenty, filter tradeable in code
     return cur.fetchall()
 
 

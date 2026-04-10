@@ -60,16 +60,32 @@ SLUG_TO_SYMBOL = {
 
 
 def build_exchange() -> ccxt.binance:
-    """Build Binance spot exchange client."""
+    """Build Binance spot exchange client. Supports testnet (demo) and live."""
     testnet = os.getenv("BINANCE_TESTNET", "true").lower() == "true"
 
-    exchange = ccxt.binance({
+    config = {
         "apiKey": os.getenv("BINANCE_API_KEY", ""),
         "secret": os.getenv("BINANCE_SECRET", ""),
-        "sandbox": testnet,
-        "options": {"defaultType": "spot"},
+        "options": {
+            "defaultType": "spot",
+            "fetchCurrencies": False,  # testnet doesn't support /sapi
+        },
         "enableRateLimit": True,
-    })
+    }
+
+    if testnet:
+        # New Binance demo trading endpoint (replaces testnet.binance.vision)
+        config["urls"] = {
+            "api": {
+                "public": "https://testnet.binance.vision/api",
+                "private": "https://testnet.binance.vision/api",
+            },
+        }
+
+    exchange = ccxt.binance(config)
+
+    if testnet:
+        exchange.set_sandbox_mode(True)
 
     mode = "TESTNET" if testnet else "LIVE"
     log.info(f"Binance Spot {mode} connected")
