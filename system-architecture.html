@@ -333,6 +333,39 @@
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
   .two-col-wide { display: grid; grid-template-columns: 2fr 1fr; gap: 32px; }
 </style>
+  pre.mermaid {
+    background: transparent;
+    color: var(--gray-800);
+    padding: 0;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+</style>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      primaryColor: '#ecfdf5',
+      primaryTextColor: '#292524',
+      primaryBorderColor: '#86efac',
+      lineColor: '#a8a29e',
+      secondaryColor: '#eff6ff',
+      tertiaryColor: '#f5f5f4',
+      fontFamily: 'Inter, sans-serif',
+      fontSize: '13px',
+    },
+    flowchart: {
+      htmlLabels: true,
+      curve: 'basis',
+      nodeSpacing: 30,
+      rankSpacing: 50,
+    },
+  });
+</script>
 </head>
 <body>
 
@@ -412,86 +445,66 @@
 
     <div class="flow">
       <div class="flow-title">Data Flow</div>
-      <svg width="820" height="380" viewBox="0 0 820 380">
-        <defs>
-          <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#a8a29e"/></marker>
-          <marker id="arrowhead-bold" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#051c2c"/></marker>
-        </defs>
+      <pre class="mermaid">
+graph LR
+    subgraph inputs["DATA SOURCES"]
+        A["Hourly OHLCV\n2.5M rows"]
+        B["84K News\nArticles"]
+        C["BTC Vol\nFear & Greed"]
+    end
 
-        <!-- Data sources -->
-        <rect x="10" y="30" width="140" height="36" class="node-rect" fill="#f5f5f4" stroke="#d6d3d1"/>
-        <text x="80" y="53" text-anchor="middle" font-size="12" fill="#57534e">Hourly OHLCV</text>
+    subgraph foundation["01 FOUNDATION"]
+        D["BTC Residual\nDecomposition\n993K rows"]
+    end
 
-        <rect x="10" y="160" width="140" height="36" class="node-rect" fill="#f5f5f4" stroke="#d6d3d1"/>
-        <text x="80" y="183" text-anchor="middle" font-size="12" fill="#57534e">84K News Articles</text>
+    subgraph temporal["TEMPORAL MODELS"]
+        E["03 LSTM\n30-day daily\n73.2% acc"]
+        F["04 TCN\n168h hourly\n70.0% acc"]
+    end
 
-        <rect x="10" y="260" width="140" height="36" class="node-rect" fill="#f5f5f4" stroke="#d6d3d1"/>
-        <text x="80" y="283" text-anchor="middle" font-size="12" fill="#57534e">BTC Vol + Fear/Greed</text>
+    subgraph nlp["05 NLP"]
+        G["News Event\nDetector\n7 event types"]
+    end
 
-        <!-- Step 1: Residual Decomposition -->
-        <rect x="220" y="20" width="180" height="56" class="node-rect" fill="#ecfdf5" stroke="#86efac"/>
-        <text x="310" y="42" text-anchor="middle" font-size="11" font-weight="600" fill="#00a86b">01 FOUNDATION</text>
-        <text x="310" y="60" text-anchor="middle" font-size="12" fill="#292524">BTC Residual OLS</text>
+    subgraph gate["02 GATE"]
+        H["Macro Regime\nHMM\n4 states"]
+    end
 
-        <!-- Arrow from OHLCV to Residual -->
-        <path d="M 150 48 L 218 48" class="arrow"/>
+    subgraph ensemble["06 ENSEMBLE"]
+        I["LightGBM\n95 features\nSharpe 7.72"]
+    end
 
-        <!-- Residual outputs -->
-        <rect x="220" y="110" width="120" height="40" class="node-rect" fill="#eff6ff" stroke="#93c5fd"/>
-        <text x="280" y="125" text-anchor="middle" font-size="10" font-weight="600" fill="#0070f3">03 TEMPORAL</text>
-        <text x="280" y="140" text-anchor="middle" font-size="11" fill="#292524">LSTM 30d</text>
+    J["ML_SIGNALS_V2"]
 
-        <rect x="360" y="110" width="120" height="40" class="node-rect" fill="#eff6ff" stroke="#93c5fd"/>
-        <text x="420" y="125" text-anchor="middle" font-size="10" font-weight="600" fill="#0070f3">04 TEMPORAL</text>
-        <text x="420" y="140" text-anchor="middle" font-size="11" fill="#292524">TCN 168h</text>
+    subgraph trading["EXECUTION"]
+        K["LONG top 10\nSpot 1x"]
+        L["SHORT bot 10\nFutures 2x"]
+    end
 
-        <!-- Arrows from Residual to LSTM/TCN -->
-        <path d="M 310 76 L 280 108" class="arrow"/>
-        <path d="M 310 76 L 420 108" class="arrow"/>
+    A --> D
+    D --> E
+    D --> F
+    B --> G
+    C --> H
+    E --> I
+    F --> I
+    G --> I
+    H --> I
+    I --> J
+    J --> K
+    J --> L
 
-        <!-- News Event Detector -->
-        <rect x="220" y="200" width="180" height="40" class="node-rect" fill="#f5f3ff" stroke="#c4b5fd"/>
-        <text x="310" y="215" text-anchor="middle" font-size="10" font-weight="600" fill="#7c3aed">05 NLP</text>
-        <text x="310" y="230" text-anchor="middle" font-size="11" fill="#292524">News Event Detector</text>
-
-        <!-- Arrow from News to Detector -->
-        <path d="M 150 178 L 218 212" class="arrow"/>
-
-        <!-- Regime HMM -->
-        <rect x="220" y="270" width="180" height="40" class="node-rect" fill="#fffbeb" stroke="#fde68a"/>
-        <text x="310" y="285" text-anchor="middle" font-size="10" font-weight="600" fill="#b45309">02 GATE</text>
-        <text x="310" y="300" text-anchor="middle" font-size="11" fill="#292524">Macro Regime HMM</text>
-
-        <!-- Arrow from BTC Vol to Regime -->
-        <path d="M 150 278 L 218 285" class="arrow"/>
-
-        <!-- LightGBM Ensemble -->
-        <rect x="540" y="140" width="160" height="56" class="node-rect" fill="var(--navy)" stroke="var(--navy)"/>
-        <text x="620" y="162" text-anchor="middle" font-size="10" font-weight="600" fill="var(--gold)">06 ENSEMBLE</text>
-        <text x="620" y="180" text-anchor="middle" font-size="12" fill="#fff">LightGBM 95 feat</text>
-
-        <!-- Arrows into ensemble -->
-        <path d="M 340 130 L 538 160" class="arrow-bold"/>
-        <path d="M 480 130 L 538 160" class="arrow-bold"/>
-        <path d="M 400 220 L 538 172" class="arrow-bold"/>
-        <path d="M 400 290 L 538 180" class="arrow-bold"/>
-
-        <!-- Output -->
-        <rect x="540" y="240" width="160" height="40" class="node-rect" fill="#ecfdf5" stroke="#86efac" stroke-width="2"/>
-        <text x="620" y="265" text-anchor="middle" font-size="13" font-weight="600" fill="var(--green)">ML_SIGNALS_V2</text>
-
-        <path d="M 620 196 L 620 238" class="arrow-bold"/>
-
-        <!-- Trading Bot -->
-        <rect x="540" y="320" width="160" height="40" class="node-rect" fill="var(--navy)" stroke="var(--gold)" stroke-width="1.5"/>
-        <text x="620" y="345" text-anchor="middle" font-size="12" font-weight="600" fill="var(--gold)">Trading Bot</text>
-
-        <path d="M 620 280 L 620 318" class="arrow-bold"/>
-
-        <!-- Long/Short labels -->
-        <text x="730" y="330" font-size="11" fill="var(--green)" font-weight="600">LONG top 10</text>
-        <text x="730" y="350" font-size="11" fill="var(--red)" font-weight="600">SHORT bot 10</text>
-      </svg>
+    style inputs fill:#f5f5f4,stroke:#d6d3d1,color:#57534e
+    style foundation fill:#ecfdf5,stroke:#86efac,color:#292524
+    style temporal fill:#eff6ff,stroke:#93c5fd,color:#292524
+    style nlp fill:#f5f3ff,stroke:#c4b5fd,color:#292524
+    style gate fill:#fffbeb,stroke:#fde68a,color:#292524
+    style ensemble fill:#051c2c,stroke:#051c2c,color:#fff
+    style J fill:#ecfdf5,stroke:#00a86b,color:#00a86b,font-weight:bold
+    style K fill:#ecfdf5,stroke:#00a86b,color:#00a86b
+    style L fill:#fef2f2,stroke:#c0392b,color:#c0392b
+    style trading fill:#f5f5f4,stroke:#d6d3d1
+      </pre>
     </div>
 
     <div class="cards">
