@@ -1,0 +1,84 @@
+name: Backfill Cross-Coin Features (WS3)
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: 'Start date (YYYY-MM-DD). Leave empty for 2024-01-01.'
+        required: false
+        default: ''
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Apply migration 018 on cp_backtest (idempotent)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          conn.autocommit = True
+          with open('migrations/018_fe_cross_coin.sql') as f:
+              conn.cursor().execute(f.read())
+          print('Migration 018 applied.')
+          conn.close()
+          "
+
+      - name: Run cross-coin backfill
+        run: |
+          FROM_DATE="${{ github.event.inputs.from_date }}"
+          if [ -n "$FROM_DATE" ]; then
+            python -m src.features.cross_coin --from-date "$FROM_DATE"
+          else
+            python -m src.features.cross_coin --backfill
+          fi
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), COUNT(DISTINCT slug), MIN(timestamp), MAX(timestamp) FROM \"FE_CROSS_COIN\"')
+          r = cur.fetchone()
+          print(f'FE_CROSS_COIN: {r[0]:,} rows, {r[1]} coins, {r[2]} to {r[3]}')
+          cur.execute('''
+              SELECT slug, timestamp, cc_ret_rank_1d, cc_ret_rank_7d, cc_breadth_20d, cc_dispersion
+              FROM \"FE_CROSS_COIN\"
+              ORDER BY timestamp DESC LIMIT 5
+          ''')
+          print('Latest rows:')
+          for row in cur.fetchall():
+              print(f'  {row[0]} {row[1]}: rank1d={row[2]} rank7d={row[3]} breadth={row[4]} disp={row[5]}')
+          conn.close()
+          "

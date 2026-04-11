@@ -98,6 +98,16 @@ SELECT
     rf.res_autocorr_14d,
     rf.res_volume_interaction,
 
+    -- ── CROSS-COIN FEATURES (FE_CROSS_COIN) — WS3 cross-sectional ──────
+    xc.cc_ret_rank_1d,
+    xc.cc_ret_rank_7d,
+    xc.cc_vol_rank_1d,
+    xc.cc_mktcap_momentum,
+    xc.cc_breadth_20d,
+    xc.cc_advance_decline,
+    xc.cc_dispersion,
+    xc.cc_hhi_volume,
+
     -- ── LABELS (ML_LABELS) — training targets ────────────────────────────
     lbl.forward_ret_1d,
     lbl.forward_ret_3d,
@@ -150,6 +160,10 @@ LEFT JOIN "FE_NEWS_SIGNALS" ns
 LEFT JOIN "FE_RESIDUAL_FEATURES" rf
     ON  rf.slug = lbl.slug
     AND DATE(rf.timestamp) = DATE(lbl.timestamp)
+
+LEFT JOIN "FE_CROSS_COIN" xc
+    ON  xc.slug = lbl.slug
+    AND DATE(xc.timestamp) = DATE(lbl.timestamp)
 WITH DATA;
 
 -- Index the materialized view for fast training queries

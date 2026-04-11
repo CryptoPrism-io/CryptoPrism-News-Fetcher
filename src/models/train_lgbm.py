@@ -60,6 +60,9 @@ FEATURES_PRICE_ONLY = [
     "res_zscore_30d", "res_vol_regime",
     "res_autocorr_7d", "res_autocorr_14d",
     "res_volume_interaction",
+    # FE_CROSS_COIN (WS3 — cross-sectional features)
+    "cc_ret_rank_1d", "cc_ret_rank_7d", "cc_vol_rank_1d", "cc_mktcap_momentum",
+    "cc_breadth_20d", "cc_advance_decline", "cc_dispersion", "cc_hhi_volume",
     # Market context
     "fear_greed_index",
 ]
@@ -219,6 +222,10 @@ def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date:
             "res_zscore_30d", "res_vol_regime",
             "res_autocorr_7d", "res_autocorr_14d",
             "res_volume_interaction",
+        ],
+        "FE_CROSS_COIN": [
+            "cc_ret_rank_1d", "cc_ret_rank_7d", "cc_vol_rank_1d", "cc_mktcap_momentum",
+            "cc_breadth_20d", "cc_advance_decline", "cc_dispersion", "cc_hhi_volume",
         ],
     }
 
