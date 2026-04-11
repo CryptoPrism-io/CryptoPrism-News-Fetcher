@@ -704,49 +704,52 @@ graph LR
     <h2>Quantitative Evidence</h2>
     <p>All charts generated from live production data. No simulated or hypothetical results.</p>
 
-    <!-- Chart row 1: Residual Decomposition + ROC -->
-    <div class="two-col" style="margin-top:24px;">
+    <!-- Exhibit A: Residual Decomposition (full width, hero chart) -->
+    <div style="margin-top:24px;">
+      <h3>Exhibit A &mdash; BTC Residual Decomposition (ETH, 60 days)</h3>
+      <p style="font-size:12px;margin-bottom:12px;">Raw ETH return closely tracks BTC. The residual (green filled) is the idiosyncratic alpha after stripping &beta; &times; BTC.</p>
+      <div style="position:relative;height:320px;"><canvas id="chartResidual"></canvas></div>
+    </div>
+
+    <!-- Exhibit B+C: ROC + Daily IC -->
+    <div class="two-col" style="margin-top:40px;">
       <div>
-        <h3>BTC Residual Decomposition (ETH, 60 days)</h3>
-        <p style="font-size:11px;margin-bottom:8px;">Raw ETH return closely tracks BTC. The residual (green) is the idiosyncratic alpha signal after stripping &beta; &times; BTC.</p>
-        <div class="chart-wrap"><div class="chart-wrap"><canvas id="chartResidual" height="220"></canvas></div></div>
+        <h3>Exhibit B &mdash; ROC Curve (BUY Class)</h3>
+        <p style="font-size:12px;margin-bottom:12px;">AUC = 0.625. Model discriminates above random baseline.</p>
+        <div style="position:relative;height:320px;"><canvas id="chartROC"></canvas></div>
       </div>
       <div>
-        <h3>ROC Curve &mdash; BUY Class</h3>
-        <p style="font-size:11px;margin-bottom:8px;">AUC = 0.625. Model discriminates BUY-class outcomes above random baseline (diagonal).</p>
-        <div class="chart-wrap"><canvas id="chartROC" height="220"></canvas></div>
+        <h3>Exhibit C &mdash; Daily Information Coefficient</h3>
+        <p style="font-size:12px;margin-bottom:12px;">IC-3d positive on 12 of 14 days (86%). Mean = +0.045.</p>
+        <div style="position:relative;height:320px;"><canvas id="chartDailyIC"></canvas></div>
       </div>
     </div>
 
-    <!-- Chart row 2: Daily IC + Cumulative PnL -->
-    <div class="two-col" style="margin-top:32px;">
-      <div>
-        <h3>Daily Information Coefficient (IC-3d)</h3>
-        <p style="font-size:11px;margin-bottom:8px;">Rank correlation between signal score and 3-day forward return. Positive on 12 of 14 days (86%).</p>
-        <div class="chart-wrap"><canvas id="chartDailyIC" height="200"></canvas></div>
-      </div>
-      <div>
-        <h3>Cumulative Long-Short PnL (%)</h3>
-        <p style="font-size:11px;margin-bottom:8px;">Top-quartile long + bottom-quartile short. Net PnL is the market-neutral spread.</p>
-        <div class="chart-wrap"><canvas id="chartCumPnL" height="200"></canvas></div>
-      </div>
+    <!-- Exhibit D: Cumulative PnL (full width, key chart) -->
+    <div style="margin-top:40px;" class="page-break">
+      <h3>Exhibit D &mdash; Cumulative Long-Short PnL</h3>
+      <p style="font-size:12px;margin-bottom:12px;">Top-quartile long (green) + bottom-quartile short (red). Navy filled = net market-neutral spread.</p>
+      <div style="position:relative;height:340px;"><canvas id="chartCumPnL"></canvas></div>
     </div>
 
-    <!-- Chart row 3: Feature Importance + IC by Horizon -->
-    <div class="two-col" style="margin-top:32px;">
+    <!-- Exhibit E: Feature Importance (full width) -->
+    <div style="margin-top:40px;">
+      <h3>Exhibit E &mdash; Feature Importance (LightGBM Splits)</h3>
+      <p style="font-size:12px;margin-bottom:12px;">Top 15 features by split count. BTC volatility and momentum dominate. TCN/LSTM neural embeddings contribute.</p>
+      <div style="position:relative;height:400px;"><canvas id="chartFeatureImp"></canvas></div>
+    </div>
+
+    <!-- Exhibit F+G: IC Horizon + Beta -->
+    <div class="two-col" style="margin-top:40px;">
       <div>
-        <h3>Feature Importance (LightGBM Splits)</h3>
-        <p style="font-size:11px;margin-bottom:8px;">Top 15 features by split count. BTC volatility, momentum, and fear &amp; greed dominate.</p>
-        <div class="chart-wrap"><canvas id="chartFeatureImp" height="280"></canvas></div>
+        <h3>Exhibit F &mdash; IC by Horizon</h3>
+        <p style="font-size:12px;margin-bottom:12px;">Signal positive across all horizons. No overfitting to a single timeframe.</p>
+        <div style="position:relative;height:280px;"><canvas id="chartICHorizon"></canvas></div>
       </div>
       <div>
-        <h3>IC Decay by Horizon</h3>
-        <p style="font-size:11px;margin-bottom:8px;">Signal strength across 1-day, 3-day, and 7-day forward returns. Positive across all horizons.</p>
-        <div class="chart-wrap"><canvas id="chartICHorizon" height="140"></canvas></div>
-
-        <h3 style="margin-top:24px;">Rolling &beta; (ETH vs BTC, 30d)</h3>
-        <p style="font-size:11px;margin-bottom:8px;">ETH&rsquo;s BTC beta ranged from 1.13 to 1.35 over the period &mdash; not constant, validating the rolling OLS approach.</p>
-        <div class="chart-wrap"><canvas id="chartBeta" height="120"></canvas></div>
+        <h3>Exhibit G &mdash; Rolling &beta; (ETH/BTC, 30d)</h3>
+        <p style="font-size:12px;margin-bottom:12px;">Beta ranges 1.13&ndash;1.35 &mdash; validates rolling OLS over fixed assumption.</p>
+        <div style="position:relative;height:280px;"><canvas id="chartBeta"></canvas></div>
       </div>
     </div>
 
