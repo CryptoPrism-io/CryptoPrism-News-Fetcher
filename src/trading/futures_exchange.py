@@ -91,8 +91,8 @@ def build_futures_exchange() -> ccxt.binanceusdm:
     return exchange
 
 
-def set_leverage(exchange: ccxt.binanceusdm, symbol: str, leverage: int = 1):
-    """Set leverage to 1x (no actual leverage) and isolated margin."""
+def set_leverage(exchange: ccxt.binanceusdm, symbol: str, leverage: int = 2):
+    """Set leverage and isolated margin. Default 2x to match spot long notional."""
     try:
         exchange.set_margin_mode("isolated", symbol)
     except Exception:
