@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 from src.db import get_db_conn
 from src.trading.spot_exchange import (
     build_exchange, buy_market, sell_market, get_price,
-    get_balance, slug_to_symbol,
+    get_balance, slug_to_symbol, SLUG_TO_SYMBOL,
 )
 
 load_dotenv()
@@ -37,11 +37,11 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ── Config ──
-TOP_N = 5                    # Buy top N coins by signal score
-USDT_PER_TRADE = 20.0        # USDT per position (small for testnet)
+TOP_N = 20                    # Buy top N coins by signal score
+TARGET_DEPLOY_PCT = 0.80      # Deploy 80% of total equity
 HOLD_DAYS = 3                 # Hold period matching label_3d
 MIN_SIGNAL_SCORE = -0.10      # Minimum score (-0.10 = buy relative outperformers)
-MAX_OPEN_POSITIONS = 10       # Max concurrent positions
+MAX_OPEN_POSITIONS = 20       # Max concurrent positions
 STOP_LOSS_PCT = -0.08         # -8% hard stop
 
 
@@ -53,16 +53,18 @@ def get_open_positions(conn) -> list[dict]:
 
 
 def get_latest_signals(conn, n: int = TOP_N) -> list[dict]:
-    """Get top-N BUY signals from ML_SIGNALS_V2."""
+    """Get top-N BUY signals from ML_SIGNALS_V2, filtered to tradeable coins only."""
+    tradeable_slugs = list(SLUG_TO_SYMBOL.keys())
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     cur.execute('''
         SELECT slug, signal_score, direction, regime_state, ensemble_confidence
         FROM "ML_SIGNALS_V2"
         WHERE DATE(timestamp) = (SELECT MAX(DATE(timestamp)) FROM "ML_SIGNALS_V2")
           AND signal_score > %s
+          AND slug = ANY(%s)
         ORDER BY signal_score DESC
-        LIMIT 200
-    ''', (MIN_SIGNAL_SCORE,))  # fetch plenty, filter tradeable in code
+        LIMIT %s
+    ''', (MIN_SIGNAL_SCORE, tradeable_slugs, n))
     return cur.fetchall()
 
 
@@ -190,16 +192,28 @@ def run_signal_cycle():
         conn.close()
         return
 
-    # Check balance
+    # Check balance and compute per-trade size
     balance = get_balance(exchange)
     usdt_free = balance["usdt_free"]
-    log.info(f"Available USDT: {usdt_free:.2f}")
+
+    # Calculate how much to deploy: target 80% of total equity
+    # Total equity = free USDT + value of open positions
+    total_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions)
+    total_equity = usdt_free + total_deployed
+    target_deploy = total_equity * TARGET_DEPLOY_PCT
+    to_deploy = max(0, target_deploy - total_deployed)
+    usdt_per_trade = to_deploy / max(slots_available, 1)
+    usdt_per_trade = max(usdt_per_trade, 12)  # minimum $12 per trade (Binance min)
+
+    log.info(f"Equity: ${total_equity:.2f} | Deployed: ${total_deployed:.2f} | "
+             f"Target: ${target_deploy:.2f} | Per trade: ${usdt_per_trade:.2f} | "
+             f"Slots: {slots_available}")
 
     bought = 0
     for sig in signals:
         if bought >= slots_available:
             break
-        if usdt_free < USDT_PER_TRADE:
+        if usdt_free < usdt_per_trade:
             log.info("Insufficient USDT balance")
             break
 
@@ -211,15 +225,24 @@ def run_signal_cycle():
         if not symbol:
             continue
 
-        # Verify symbol exists on exchange
+        # Verify symbol exists and has reasonable price
         if symbol not in exchange.markets:
+            log.info(f"  SKIP {slug}: {symbol} not on exchange")
+            continue
+        try:
+            price = get_price(exchange, symbol)
+            if price < 0.01:
+                log.info(f"  SKIP {slug}: price {price} too low")
+                continue
+        except Exception as e:
+            log.info(f"  SKIP {slug}: price error {e}")
             continue
 
         score = float(sig["signal_score"])
-        log.info(f"  SIGNAL: {slug} score={score:+.4f} regime={sig.get('regime_state', 'N/A')}")
+        log.info(f"  SIGNAL: {slug} ({symbol}) score={score:+.4f} @ ${price:.4f}")
 
         try:
-            result = buy_market(exchange, symbol, USDT_PER_TRADE)
+            result = buy_market(exchange, symbol, usdt_per_trade)
             insert_trade(conn, {
                 "slug": slug,
                 "symbol": symbol,
