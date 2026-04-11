@@ -1,0 +1,91 @@
+name: Backfill Residual Features (WS6)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Apply migration 017 on cp_backtest (idempotent)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          conn.autocommit = True
+          with open('migrations/017_fe_residual_features.sql') as f:
+              conn.cursor().execute(f.read())
+          print('Migration 017 applied.')
+          conn.close()
+          "
+
+      - name: Verify FE_BTC_RESIDUALS has data
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), COUNT(DISTINCT slug), MIN(timestamp), MAX(timestamp) FROM \"FE_BTC_RESIDUALS\"')
+          r = cur.fetchone()
+          print(f'FE_BTC_RESIDUALS: {r[0]:,} rows, {r[1]} coins, {r[2]} to {r[3]}')
+          if r[0] == 0:
+              raise SystemExit('ERROR: FE_BTC_RESIDUALS is empty — run backfill-btc-residuals first')
+          conn.close()
+          "
+
+      - name: Run residual features backfill
+        run: python -m src.features.residual_features --backfill
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname='cp_backtest', user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), COUNT(DISTINCT slug), MIN(timestamp), MAX(timestamp) FROM \"FE_RESIDUAL_FEATURES\"')
+          r = cur.fetchone()
+          print(f'FE_RESIDUAL_FEATURES: {r[0]:,} rows, {r[1]} coins, {r[2]} to {r[3]}')
+          # Sample one coin to show feature values
+          cur.execute('''
+              SELECT slug, timestamp, res_momentum_7d, res_zscore_30d, res_vol_regime, res_autocorr_7d
+              FROM \"FE_RESIDUAL_FEATURES\"
+              ORDER BY timestamp DESC LIMIT 5
+          ''')
+          print('Latest rows:')
+          for row in cur.fetchall():
+              print(f'  {row[0]} {row[1]}: mom7d={row[2]} zscore={row[3]} vol_reg={row[4]} ac7d={row[5]}')
+          conn.close()
+          "

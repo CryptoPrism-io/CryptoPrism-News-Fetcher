@@ -55,6 +55,11 @@ FEATURES_PRICE_ONLY = [
     "m_rat_alpha_bin", "d_rat_beta_bin", "v_rat_sharpe_bin", "v_rat_sortino_bin",
     "v_rat_teynor_bin", "v_rat_common_sense_bin", "v_rat_information_bin",
     "v_rat_win_loss_bin", "m_rat_win_rate_bin", "m_rat_ror_bin", "d_rat_pain_bin",
+    # FE_RESIDUAL_FEATURES (WS6 — second-order BTC residual features)
+    "res_momentum_3d", "res_momentum_7d", "res_momentum_14d",
+    "res_zscore_30d", "res_vol_regime",
+    "res_autocorr_7d", "res_autocorr_14d",
+    "res_volume_interaction",
     # Market context
     "fear_greed_index",
 ]
@@ -208,6 +213,12 @@ def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date:
             "v_rat_sortino_bin", "v_rat_teynor_bin", "v_rat_common_sense_bin",
             "v_rat_information_bin", "v_rat_win_loss_bin", "m_rat_win_rate_bin",
             "m_rat_ror_bin", "d_rat_pain_bin",
+        ],
+        "FE_RESIDUAL_FEATURES": [
+            "res_momentum_3d", "res_momentum_7d", "res_momentum_14d",
+            "res_zscore_30d", "res_vol_regime",
+            "res_autocorr_7d", "res_autocorr_14d",
+            "res_volume_interaction",
         ],
     }
 

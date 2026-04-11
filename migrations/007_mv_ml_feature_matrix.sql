@@ -88,6 +88,16 @@ SELECT
     ns.news_source_quality,
     ns.news_tier1_count_1d,
 
+    -- ── RESIDUAL FEATURES (FE_RESIDUAL_FEATURES) — WS6 second-order ────
+    rf.res_momentum_3d,
+    rf.res_momentum_7d,
+    rf.res_momentum_14d,
+    rf.res_zscore_30d,
+    rf.res_vol_regime,
+    rf.res_autocorr_7d,
+    rf.res_autocorr_14d,
+    rf.res_volume_interaction,
+
     -- ── LABELS (ML_LABELS) — training targets ────────────────────────────
     lbl.forward_ret_1d,
     lbl.forward_ret_3d,
@@ -136,6 +146,10 @@ LEFT JOIN "FE_FEAR_GREED_CMC" fg
 LEFT JOIN "FE_NEWS_SIGNALS" ns
     ON  ns.slug = lbl.slug
     AND DATE(ns.timestamp) = DATE(lbl.timestamp)
+
+LEFT JOIN "FE_RESIDUAL_FEATURES" rf
+    ON  rf.slug = lbl.slug
+    AND DATE(rf.timestamp) = DATE(lbl.timestamp)
 WITH DATA;
 
 -- Index the materialized view for fast training queries

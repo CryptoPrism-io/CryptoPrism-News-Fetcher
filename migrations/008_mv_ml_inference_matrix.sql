@@ -84,7 +84,17 @@ SELECT
     ns.news_security_flag,
     ns.news_adoption_flag,
     ns.news_source_quality,
-    ns.news_tier1_count_1d
+    ns.news_tier1_count_1d,
+
+    -- ── RESIDUAL FEATURES (FE_RESIDUAL_FEATURES) — WS6 second-order ────
+    rf.res_momentum_3d,
+    rf.res_momentum_7d,
+    rf.res_momentum_14d,
+    rf.res_zscore_30d,
+    rf.res_vol_regime,
+    rf.res_autocorr_7d,
+    rf.res_autocorr_14d,
+    rf.res_volume_interaction
 
 FROM "FE_PCT_CHANGE" pct
 
@@ -118,6 +128,10 @@ LEFT JOIN "FE_FEAR_GREED_CMC" fg
 LEFT JOIN "FE_NEWS_SIGNALS" ns
     ON  ns.slug = pct.slug
     AND DATE(ns.timestamp) = DATE(pct.timestamp)
+
+LEFT JOIN "FE_RESIDUAL_FEATURES" rf
+    ON  rf.slug = pct.slug
+    AND DATE(rf.timestamp) = DATE(pct.timestamp)
 
 WITH DATA;
 
