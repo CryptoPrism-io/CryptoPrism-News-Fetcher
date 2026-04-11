@@ -26,7 +26,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install lightgbm scikit-learn hmmlearn torch --index-url https://download.pytorch.org/whl/cpu
+          pip install lightgbm scikit-learn hmmlearn
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
 
       - name: Create .env file
         run: |

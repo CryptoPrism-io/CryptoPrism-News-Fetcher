@@ -1,8 +1,9 @@
 name: Spot Trading Bot
 
 on:
-  schedule:
-    - cron: '30 */4 * * *'  # Every 4 hours at HH:30
+  # DISABLED: Binance blocks GitHub Actions US IPs. Run locally via Windows Task Scheduler.
+  # schedule:
+  #   - cron: '30 */4 * * *'
   workflow_dispatch:
 
 jobs:
