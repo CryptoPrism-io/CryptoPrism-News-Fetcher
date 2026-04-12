@@ -1,0 +1,61 @@
+name: Backfill News Events
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Backfill mode'
+        required: false
+        default: 'backfill'
+        type: choice
+        options:
+          - backfill       # full backfill from all FE_NEWS_SENTIMENT articles
+          - incremental    # last 7 days only
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Run news events backfill
+        run: python -m src.features.news_events --${{ github.event.inputs.mode }}
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), COUNT(DISTINCT slug), MIN(timestamp), MAX(timestamp) FROM \"FE_NEWS_EVENTS\"')
+          r = cur.fetchone()
+          print(f'FE_NEWS_EVENTS: {r[0]:,} rows, {r[1]} coins, {r[2]} to {r[3]}')
+          cur.execute('SELECT event_type, COUNT(*) FROM \"FE_NEWS_EVENTS\" WHERE event_type IS NOT NULL GROUP BY event_type ORDER BY COUNT(*) DESC')
+          for row in cur.fetchall():
+              print(f'  {row[0]}: {row[1]:,}')
+          conn.close()
+          "
