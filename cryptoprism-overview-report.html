@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoPrism — The Complete Story</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --navy: #051c2c;
+    --dark: #0a2540;
+    --gold: #c49a6c;
+    --gold-light: #d4b896;
+    --blue: #0070f3;
+    --green: #00a86b;
+    --red: #c0392b;
+    --purple: #7c3aed;
+    --cyan: #0891b2;
+    --gray-50: #fafafa;
+    --gray-100: #f5f5f4;
+    --gray-200: #e7e5e4;
+    --gray-300: #d6d3d1;
+    --gray-400: #a8a29e;
+    --gray-500: #78716c;
+    --gray-600: #57534e;
+    --gray-700: #44403c;
+    --gray-800: #292524;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @media print {
+    body { font-size: 10pt; }
+    .page-break { page-break-before: always; }
+    .no-print { display: none; }
+    section { page-break-inside: avoid; }
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--gray-800);
+    background: #fff;
+    line-height: 1.7;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .container { max-width: 900px; margin: 0 auto; padding: 0 40px; }
+
+  /* Cover */
+  .cover {
+    background: var(--navy);
+    color: #fff;
+    padding: 80px 0 60px;
+    margin-bottom: 48px;
+  }
+  .cover .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .cover h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .cover .subtitle {
+    font-size: 16px;
+    color: var(--gray-400);
+    max-width: 640px;
+    line-height: 1.7;
+  }
+  .cover .meta {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    font-size: 12px;
+    color: var(--gray-400);
+  }
+  .cover .meta strong { color: var(--gold-light); }
+
+  /* Section headers */
+  .section-num {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--navy);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 28px 0 10px;
+  }
+
+  section { margin-bottom: 56px; }
+
+  p { font-size: 14.5px; color: var(--gray-600); margin-bottom: 14px; max-width: 740px; }
+  p strong { color: var(--gray-800); }
+
+  /* Stats */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .stats.cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .stats.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .stat {
+    border-left: 2px solid var(--navy);
+    padding: 8px 0 8px 14px;
+  }
+  .stat.green { border-color: var(--green); }
+  .stat.blue { border-color: var(--blue); }
+  .stat.gold { border-color: var(--gold); }
+  .stat.purple { border-color: var(--purple); }
+  .stat.cyan { border-color: var(--cyan); }
+  .stat-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--gray-500);
+    font-weight: 500;
+  }
+  .stat-value {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: var(--navy);
+    margin-top: 2px;
+  }
+  .stat-sub { font-size: 11px; color: var(--gray-400); margin-top: 2px; }
+
+  /* Callout */
+  .callout {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-left: 3px solid var(--gold);
+    border-radius: 4px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .callout.green { border-left-color: var(--green); }
+  .callout.blue { border-left-color: var(--blue); }
+  .callout .callout-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .callout .callout-title { color: var(--gold); }
+  .callout.green .callout-title { color: var(--green); }
+  .callout.blue .callout-title { color: var(--blue); }
+  .callout p { font-size: 13.5px; color: var(--navy); margin-bottom: 0; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 16px 0; }
+  th {
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray-400);
+    font-weight: 500;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  th.right, td.right { text-align: right; }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--gray-100); color: var(--gray-700); }
+  td.mono { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+  td.green { color: var(--green); font-weight: 600; }
+  td.red { color: var(--red); font-weight: 600; }
+  td.bold { font-weight: 600; color: var(--navy); }
+
+  /* Timeline */
+  .timeline { margin: 24px 0; }
+  .timeline-item { display: flex; gap: 16px; margin-bottom: 0; }
+  .timeline-left { width: 80px; text-align: right; padding-top: 14px; }
+  .timeline-left span { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--gray-400); }
+  .timeline-dot-col { display: flex; flex-direction: column; align-items: center; }
+  .timeline-dot { width: 12px; height: 12px; border-radius: 50%; margin-top: 16px; flex-shrink: 0; }
+  .timeline-line { width: 1px; flex: 1; background: var(--gray-200); }
+  .timeline-content { flex: 1; padding: 10px 0 24px; }
+  .timeline-content h4 { font-size: 15px; font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+  .timeline-content p { font-size: 13px; color: var(--gray-500); margin-bottom: 0; }
+
+  /* Cards */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 20px 0; }
+  .cards.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .card {
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    padding: 20px;
+    background: #fff;
+  }
+  .card-num { font-size: 11px; font-weight: 600; margin-bottom: 6px; }
+  .card-num.green { color: var(--green); }
+  .card-num.blue { color: var(--blue); }
+  .card-num.gold { color: var(--gold); }
+  .card-num.purple { color: var(--purple); }
+  .card-num.cyan { color: var(--cyan); }
+  .card-num.navy { color: var(--navy); }
+  .card h4 { font-size: 14px; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
+  .card p { font-size: 12.5px; color: var(--gray-500); margin-bottom: 0; line-height: 1.5; }
+
+  /* Flow diagram */
+  .flow {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    padding: 32px;
+    margin: 24px 0;
+  }
+  .flow-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .flow-row {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 12px;
+  }
+  .flow-box {
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .flow-box.navy { background: var(--navy); color: #fff; }
+  .flow-box.blue { background: var(--blue); color: #fff; }
+  .flow-box.green { background: var(--green); color: #fff; }
+  .flow-box.gold { background: var(--gold); color: #fff; }
+  .flow-box.purple { background: var(--purple); color: #fff; }
+  .flow-box.light { background: var(--gray-100); color: var(--gray-700); border: 1px solid var(--gray-200); }
+  .flow-arrow {
+    width: 32px;
+    text-align: center;
+    color: var(--gray-400);
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+
+  /* Progress tracker */
+  .progress-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin: 20px 0; }
+  .progress-item {
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid var(--gray-200);
+  }
+  .progress-item.done { background: #ecfdf5; border-color: #bbf7d0; }
+  .progress-item.pending { background: var(--gray-50); border-color: var(--gray-200); }
+  .progress-item .ws-label { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 4px; }
+  .progress-item.done .ws-label { color: var(--green); }
+  .progress-item.pending .ws-label { color: var(--gray-400); }
+  .progress-item h4 { font-size: 12px; font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+  .progress-item p { font-size: 11px; color: var(--gray-500); margin-bottom: 0; }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--gray-200);
+    padding: 24px 0 48px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--gray-400);
+  }
+  footer strong { color: var(--navy); }
+
+  .print-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--navy);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 100;
+  }
+  .print-btn:hover { background: var(--dark); }
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="container">
+    <div class="eyebrow">Project Overview</div>
+    <h1>CryptoPrism:<br>From News to Trading Signals</h1>
+    <div class="subtitle">
+      How we built a system that reads crypto news every hour, learns from years of price history
+      across three databases, and produces daily predictions for 1,000 coins &mdash; explained in plain English.
+    </div>
+    <div class="meta">
+      <span><strong>Built</strong> Sept 2025 &mdash; April 2026</span>
+      <span><strong>Status</strong> Live &amp; producing signals</span>
+      <span><strong>Team</strong> CryptoPrism-io</span>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 1. THE BIG PICTURE                                            -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-num">Chapter 1</div>
+  <h2>The Big Picture</h2>
+
+  <p>
+    <strong>CryptoPrism is a machine that reads crypto news, crunches price data, and tells you
+    which coins are likely to go up or down over the next few days.</strong>
+  </p>
+
+  <p>
+    Every hour, it fetches fresh articles from 33 news sources. Every day, it looks at price
+    movements, trading volume, market sentiment, and dozens of technical indicators for 1,000
+    cryptocurrencies. A machine learning model digests all of this and ranks every coin from
+    "most likely to rise" to "most likely to fall."
+  </p>
+
+  <p>
+    The system runs automatically on GitHub's cloud servers. No human intervention needed. The
+    predictions land in a database that trading bots can read from directly.
+  </p>
+
+  <div class="flow">
+    <div class="flow-title">How it works (simplified)</div>
+    <div class="flow-row">
+      <div class="flow-box navy">News Articles</div>
+      <div class="flow-arrow">&rarr;</div>
+      <div class="flow-box blue">Sentiment AI</div>
+      <div class="flow-arrow">&rarr;</div>
+      <div class="flow-box light">News Signals</div>
+      <div class="flow-arrow">&searr;</div>
+      <div class="flow-box" style="visibility:hidden">x</div>
+      <div class="flow-box" style="visibility:hidden">x</div>
+    </div>
+    <div class="flow-row">
+      <div class="flow-box" style="visibility:hidden">x</div>
+      <div class="flow-box" style="visibility:hidden">x</div>
+      <div class="flow-box" style="visibility:hidden">x</div>
+      <div class="flow-arrow"></div>
+      <div class="flow-box purple">ML Model</div>
+      <div class="flow-arrow">&rarr;</div>
+      <div class="flow-box green">Buy / Hold / Sell</div>
+    </div>
+    <div class="flow-row">
+      <div class="flow-box navy">Price History</div>
+      <div class="flow-arrow">&rarr;</div>
+      <div class="flow-box gold">50 Features</div>
+      <div class="flow-arrow">&nearr;</div>
+      <div class="flow-box" style="visibility:hidden">x</div>
+      <div class="flow-box" style="visibility:hidden">x</div>
+    </div>
+  </div>
+
+  <div class="stats cols-4">
+    <div class="stat gold">
+      <div class="stat-label">Articles collected</div>
+      <div class="stat-value">66K+</div>
+      <div class="stat-sub">since Oct 2025</div>
+    </div>
+    <div class="stat blue">
+      <div class="stat-label">Coins tracked</div>
+      <div class="stat-value">1,000</div>
+      <div class="stat-sub">ranked daily</div>
+    </div>
+    <div class="stat green">
+      <div class="stat-label">Features</div>
+      <div class="stat-value">50</div>
+      <div class="stat-sub">signals per coin per day</div>
+    </div>
+    <div class="stat purple">
+      <div class="stat-label">Prediction accuracy</div>
+      <div class="stat-value">60.7%</div>
+      <div class="stat-sub">on unseen data</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 2. THE JOURNEY                                                -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section class="page-break">
+  <div class="section-num">Chapter 2</div>
+  <h2>The Journey: How We Got Here</h2>
+
+  <p>
+    The project started as a simple news collector and evolved into a full prediction engine over
+    six months. Here is the story, told in four phases.
+  </p>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-left"><span>Sep 2025</span></div>
+      <div class="timeline-dot-col">
+        <div class="timeline-dot" style="background: var(--gold);"></div>
+        <div class="timeline-line"></div>
+      </div>
+      <div class="timeline-content">
+        <h4>Phase 1 &mdash; Collecting the news</h4>
+        <p>
+          We built a program that connects to crypto news websites (CoinDesk, then CryptoCompare)
+          and downloads every article they publish. It runs every hour on GitHub Actions, storing
+          each article's title, body, source, and category in a database. By February 2026 we had
+          accumulated 66,000+ articles from 33 sources. Think of this as building a newspaper
+          archive that updates itself every 60 minutes.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-left"><span>Feb 2026</span></div>
+      <div class="timeline-dot-col">
+        <div class="timeline-dot" style="background: var(--blue);"></div>
+        <div class="timeline-line"></div>
+      </div>
+      <div class="timeline-content">
+        <h4>Phase 2 &mdash; Teaching it to read</h4>
+        <p>
+          Raw articles are just text. To make them useful, we added a sentiment AI called FinBERT
+          &mdash; a language model trained specifically on financial text. It reads each article and
+          scores it as positive, negative, or neutral. These scores are then grouped by coin and
+          averaged into daily "news signals": <em>Is the news about Bitcoin bullish or bearish today?
+          Is article volume spiking for Ethereum? Are there regulatory stories about Solana?</em>
+          These signals become ingredients the prediction model can learn from.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-left"><span>Apr 8</span></div>
+      <div class="timeline-dot-col">
+        <div class="timeline-dot" style="background: var(--red);"></div>
+        <div class="timeline-line"></div>
+      </div>
+      <div class="timeline-content">
+        <h4>Phase 3 &mdash; The big fix</h4>
+        <p>
+          We discovered the model had been "blind" &mdash; a database wiring bug meant it could
+          only see 1 out of 54 available signals during training. It was essentially guessing.
+          The fix was architectural: we connected the training pipeline to a separate historical
+          database (cp_backtest) that holds years of price data, while keeping real-time news on
+          the production database (dbcp). This "dual-database" approach unlocked all 46 price
+          features overnight. Prediction quality jumped from random to genuinely useful.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-left"><span>Apr 9&ndash;11</span></div>
+      <div class="timeline-dot-col">
+        <div class="timeline-dot" style="background: var(--green);"></div>
+        <div class="timeline-line"></div>
+      </div>
+      <div class="timeline-content">
+        <h4>Phase 4 &mdash; Making it smarter</h4>
+        <p>
+          With the plumbing fixed, we focused on giving the model better information. We added a
+          BTC decomposition (stripping out Bitcoin's influence to see each coin's own movement),
+          a market regime detector (is the market in "risk on" or "risk off" mode?), neural
+          networks for pattern recognition, and 16 new engineered features measuring momentum
+          ranks and market health. The model went from 34 features to 50 and hit our accuracy
+          target.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 3. THREE DATABASES                                            -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-num">Chapter 3</div>
+  <h2>The Three Databases</h2>
+
+  <p>
+    CryptoPrism uses three separate databases on the same server, each with a different job.
+    Think of them as three filing cabinets, each holding a different type of information.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <div class="card-num gold">DATABASE 1</div>
+      <h4>dbcp &mdash; The Live Dashboard</h4>
+      <p>
+        The "production" database. Updated every day with fresh news sentiment, fear &amp; greed
+        scores, and the model's latest predictions. This is what the trading bots read from.
+        It only holds recent data &mdash; think of it as today's newspaper, not the archive.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-num blue">DATABASE 2</div>
+      <h4>cp_backtest &mdash; The History Book</h4>
+      <p>
+        The "training" database. Contains years of daily price data, technical indicators,
+        and all the engineered features (residuals, cross-coin ranks, etc.) for hundreds of coins.
+        Millions of rows. This is where the model learns patterns from the past.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-num purple">DATABASE 3</div>
+      <h4>cp_backtest_h &mdash; The Microscope</h4>
+      <p>
+        Hourly price data for 250 coins. Used when we need fine-grained detail &mdash; like
+        computing the BTC residual decomposition (which needs 30 days of hourly data to work)
+        or training the hourly neural network models.
+      </p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <div class="callout-title">Why three databases?</div>
+    <p>
+      The live database (dbcp) only has snapshots &mdash; it knows what happened today, not what happened
+      two years ago. The model needs history to learn, so it reads from cp_backtest during training.
+      When we discovered the model was only reading from dbcp (the "blind training" bug), all the
+      historical features were empty. Connecting it to cp_backtest was the single biggest improvement
+      in the entire project.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 4. FE TABLES                                                  -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section class="page-break">
+  <div class="section-num">Chapter 4</div>
+  <h2>Feature Engineering: The FE Tables</h2>
+
+  <p>
+    "Feature Engineering" (FE) is the process of turning raw data into useful signals the model
+    can learn from. Each "FE table" in the database holds a different family of signals. Here
+    is what each one measures, in plain terms.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Table</th>
+        <th>What it measures</th>
+        <th>Plain English</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bold">FE_PCT_CHANGE</td>
+        <td>Daily returns, cumulative return, volatility, risk</td>
+        <td>How much did this coin move today? How risky is it?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_MOMENTUM_SIGNALS</td>
+        <td>Rate of change, Williams %R, CMO, SMI</td>
+        <td>Is this coin on a hot streak, or losing steam?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_OSCILLATORS_SIGNALS</td>
+        <td>MACD, CCI, ADX, Ultimate Oscillator, Trix</td>
+        <td>Is the coin overbought or oversold? Is a reversal coming?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_TVV_SIGNALS</td>
+        <td>On-Balance Volume, SMA/EMA crossovers, CMF</td>
+        <td>Is money flowing into or out of this coin?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_RATIOS_SIGNALS</td>
+        <td>Alpha, Beta, Sharpe, Sortino, Win Rate</td>
+        <td>Is this coin giving good returns for the risk you take?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_FEAR_GREED_CMC</td>
+        <td>CoinMarketCap Fear &amp; Greed Index</td>
+        <td>Is the overall market feeling greedy or scared today?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_NEWS_SIGNALS</td>
+        <td>Sentiment scores, article volume, event flags</td>
+        <td>What is the news saying about this coin? Is coverage spiking?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_BTC_RESIDUALS</td>
+        <td>Beta, alpha, residual after stripping BTC movement</td>
+        <td>If Bitcoin moved 5%, how much of this coin's move was just following Bitcoin?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_RESIDUAL_FEATURES</td>
+        <td>Momentum, z-score, vol regime, autocorrelation of residuals</td>
+        <td>After removing Bitcoin's influence, is this coin's own movement trending or reversing?</td>
+      </tr>
+      <tr>
+        <td class="bold">FE_CROSS_COIN</td>
+        <td>Percentile ranks, market breadth, dispersion, HHI</td>
+        <td>How is this coin doing compared to every other coin today?</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout blue">
+    <div class="callout-title">The key insight</div>
+    <p>
+      No single table is very predictive on its own. The model's power comes from combining
+      all of them &mdash; 50 signals per coin per day. A coin might look great on momentum but
+      terrible on risk-adjusted ratios. Or the news might be bullish but the market breadth
+      says the rally is narrow and fragile. The model weighs all of these trade-offs
+      simultaneously, which is something no human could do across 1,000 coins every day.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 5. THE HOURLY PIPELINE                                        -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-num">Chapter 5</div>
+  <h2>The Hourly Pipeline: How Data Flows</h2>
+
+  <p>
+    The system runs on autopilot via GitHub Actions &mdash; cloud servers that execute code on a
+    schedule, like a reliable employee who never sleeps. Here is what happens every day.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time (UTC)</th>
+        <th>What runs</th>
+        <th>What it does</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="mono bold">Every hour</td>
+        <td>News Fetch</td>
+        <td>Downloads 30&ndash;60 new articles from CryptoCompare, stores in database</td>
+      </tr>
+      <tr>
+        <td class="mono bold">00:00</td>
+        <td>CryptoPrism-DB</td>
+        <td>External system updates all FE_* tables with today's prices and indicators</td>
+      </tr>
+      <tr>
+        <td class="mono bold">00:30</td>
+        <td>NLP Pipeline</td>
+        <td>FinBERT reads today's articles, scores sentiment, creates news signals</td>
+      </tr>
+      <tr>
+        <td class="mono bold">01:00</td>
+        <td>ML Signals (daily)</td>
+        <td>Refreshes features, runs model, ranks all 1,000 coins &rarr; ML_SIGNALS</td>
+      </tr>
+      <tr>
+        <td class="mono bold">Every 4 hours</td>
+        <td>Ensemble (hourly)</td>
+        <td>6-component model generates more granular signals &rarr; ML_SIGNALS_V2</td>
+      </tr>
+      <tr>
+        <td class="mono bold">Sundays 02:00</td>
+        <td>Weekly Retrain</td>
+        <td>Regenerates labels, refreshes views, retrains the model with latest data</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    All of this runs automatically. The only manual steps are one-time backfill jobs (like
+    populating a new feature table with historical data) and occasional bug fixes.
+  </p>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 6. THE BTC RESIDUAL TRICK                                     -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section class="page-break">
+  <div class="section-num">Chapter 6</div>
+  <h2>The BTC Residual Trick</h2>
+
+  <p>
+    One of the most important ideas in this system is <strong>BTC residual decomposition</strong>.
+    Here is the intuition.
+  </p>
+
+  <p>
+    In crypto, when Bitcoin goes up 5%, most altcoins go up too &mdash; some more, some less. If
+    you are trying to predict which coins will outperform, you first need to strip out this
+    "following Bitcoin" effect. Otherwise your model just learns "buy everything when BTC is up,"
+    which is not useful.
+  </p>
+
+  <p>
+    The decomposition works like this: for each coin, we run a 30-day rolling regression against
+    Bitcoin. This gives us a <strong>beta</strong> (how much the coin follows BTC) and a
+    <strong>residual</strong> (whatever is left over &mdash; the coin's own, independent movement).
+  </p>
+
+  <div class="callout">
+    <div class="callout-title">Example</div>
+    <p>
+      Say Ethereum went up 8% today and Bitcoin went up 5%. If Ethereum's beta to Bitcoin is 1.2,
+      we'd expect it to go up 6% (1.2 &times; 5%) just from following BTC. The residual is the
+      extra 2% &mdash; that's Ethereum's own alpha. Our model focuses on predicting these residuals,
+      not the raw price moves.
+    </p>
+  </div>
+
+  <p>
+    WS6 then takes these hourly residuals and extracts second-order patterns: Is the residual
+    trending? Is it stretched far from its average (likely to snap back)? Is the volatility of
+    residuals expanding (possible breakout)? These become 8 additional features.
+  </p>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 7. CROSS-COIN FEATURES                                        -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-num">Chapter 7</div>
+  <h2>Cross-Coin Features: Comparing Everyone</h2>
+
+  <p>
+    Most financial features look at a coin in isolation: "Solana went up 5% today." But that
+    number means very different things depending on what the rest of the market did.
+  </p>
+
+  <p>
+    <strong>Cross-coin features answer: "How is this coin doing compared to every other coin
+    right now?"</strong> Instead of raw values, we compute percentile ranks. A coin at the 90th
+    percentile for daily return means it outperformed 90% of all other coins that day.
+  </p>
+
+  <p>
+    We also compute market-wide health metrics that are the same for every coin on a given day:
+  </p>
+
+  <div class="cards cols-2">
+    <div class="card">
+      <div class="card-num green">MARKET HEALTH</div>
+      <h4>Breadth</h4>
+      <p>
+        What percentage of coins are above their 20-day moving average? If 80% are above,
+        the rally is broad and healthy. If only 30% are above while the index is rising,
+        it's a narrow rally driven by a few big names &mdash; more fragile.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-num blue">MARKET STRUCTURE</div>
+      <h4>Dispersion</h4>
+      <p>
+        How spread out are the returns? High dispersion means some coins are up big while
+        others are down big. This is actually good for stock-picking models &mdash; there is
+        more alpha to capture when coins are moving differently from each other.
+      </p>
+    </div>
+  </div>
+
+  <p>
+    Adding these 8 cross-coin features was the single biggest improvement to model stability.
+    It collapsed the gap between validation and test performance, meaning the model generalizes
+    to unseen data rather than memorizing past patterns.
+  </p>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 8. RESULTS                                                    -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section class="page-break">
+  <div class="section-num">Chapter 8</div>
+  <h2>Results: How Good Are the Predictions?</h2>
+
+  <p>
+    We measure prediction quality with two main metrics:
+  </p>
+
+  <p>
+    <strong>IC (Information Coefficient)</strong> &mdash; how well the model's rankings correlate
+    with what actually happened. An IC of 0 means random guessing. An IC of 0.05 is useful
+    in traditional finance. An IC of 0.10+ is considered strong for daily crypto signals.
+  </p>
+
+  <p>
+    <strong>Sharpe Ratio</strong> &mdash; risk-adjusted return. A Sharpe above 2 is very good.
+    Above 5 is exceptional (though may not persist).
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Model version</th>
+        <th>When</th>
+        <th class="right">Features</th>
+        <th class="right">IC-3d</th>
+        <th class="right">Sharpe</th>
+        <th>Assessment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Original (broken)</td>
+        <td class="mono">pre-Apr 8</td>
+        <td class="mono right">1</td>
+        <td class="mono right red">-0.007</td>
+        <td class="mono right red">-2.16</td>
+        <td>Worse than random &mdash; the "blind" bug</td>
+      </tr>
+      <tr>
+        <td>After dual-DB fix</td>
+        <td class="mono">Apr 8</td>
+        <td class="mono right">34</td>
+        <td class="mono right green">+0.081</td>
+        <td class="mono right green">+6.18</td>
+        <td>Working! First real signal</td>
+      </tr>
+      <tr>
+        <td>+ Ensemble (6 models)</td>
+        <td class="mono">Apr 9</td>
+        <td class="mono right">53</td>
+        <td class="mono right green">+0.086</td>
+        <td class="mono right">--</td>
+        <td>Slight gain, many features cold-starting</td>
+      </tr>
+      <tr style="background: #f0fdf4;">
+        <td class="bold">+ Residual + Cross-coin</td>
+        <td class="mono">Apr 11</td>
+        <td class="mono right bold">50</td>
+        <td class="mono right green">+0.129</td>
+        <td class="mono right green">+7.69</td>
+        <td class="bold">Target hit. Stable generalization.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="stats cols-3">
+    <div class="stat green">
+      <div class="stat-label">Prediction IC</div>
+      <div class="stat-value">0.129</div>
+      <div class="stat-sub">Target was 0.10</div>
+    </div>
+    <div class="stat blue">
+      <div class="stat-label">Risk-adjusted return</div>
+      <div class="stat-value">7.69</div>
+      <div class="stat-sub">Sharpe ratio on test data</div>
+    </div>
+    <div class="stat gold">
+      <div class="stat-label">Worst drawdown</div>
+      <div class="stat-value">-3.0%</div>
+      <div class="stat-sub">Maximum loss in test period</div>
+    </div>
+  </div>
+
+  <div class="callout green">
+    <div class="callout-title">What this means</div>
+    <p>
+      If you ranked 1,000 coins every day using this model and bought the top-ranked ones while
+      shorting the bottom-ranked ones, you would have earned positive risk-adjusted returns on
+      unseen data with a maximum dip of only 3%. The signal is real, stable across different
+      time windows, and above the target we set for ourselves.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 9. WHAT'S NEXT                                                -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-num">Chapter 9</div>
+  <h2>What's Next</h2>
+
+  <p>
+    We defined six workstreams to improve prediction quality. Two are complete. The remaining
+    four each tackle a different weakness.
+  </p>
+
+  <div class="progress-grid">
+    <div class="progress-item done">
+      <div class="ws-label">WS6 &check;</div>
+      <h4>Residual Features</h4>
+      <p>Extract patterns from BTC-stripped returns</p>
+    </div>
+    <div class="progress-item done">
+      <div class="ws-label">WS3 &check;</div>
+      <h4>Cross-Coin</h4>
+      <p>Rank coins against each other</p>
+    </div>
+    <div class="progress-item pending">
+      <div class="ws-label">WS4</div>
+      <h4>Regime Fix</h4>
+      <p>Improve market state detector (currently 92% says "risk on")</p>
+    </div>
+    <div class="progress-item pending">
+      <div class="ws-label">WS2</div>
+      <h4>News Expansion</h4>
+      <p>Cover 150+ coins with news signals (currently 63)</p>
+    </div>
+    <div class="progress-item pending">
+      <div class="ws-label">WS1</div>
+      <h4>Universe Filter</h4>
+      <p>Focus on top 250 coins, drop noisy micro-caps</p>
+    </div>
+    <div class="progress-item pending">
+      <div class="ws-label">WS5</div>
+      <h4>Order Book</h4>
+      <p>Add funding rate and institutional positioning data</p>
+    </div>
+  </div>
+
+  <p>
+    The final goal is to connect the signal pipeline to two live trading bots (S4 and LIVE)
+    that execute trades automatically on Binance. The integration plan has five phases, from
+    simple "block bad trades" rules to full signal fusion between the price model and the
+    news model.
+  </p>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!-- 10. KEY LESSONS                                               -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="section-num">Chapter 10</div>
+  <h2>Key Lessons</h2>
+
+  <div class="cards cols-2">
+    <div class="card">
+      <div class="card-num gold">LESSON 1</div>
+      <h4>Data plumbing matters more than model complexity</h4>
+      <p>
+        The single biggest improvement came from fixing a database routing bug &mdash; not from
+        using fancier AI. A simple model with good data beats a complex model with broken data
+        every time.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-num blue">LESSON 2</div>
+      <h4>Context is everything</h4>
+      <p>
+        A coin going up 5% tells you nothing until you know what the rest of the market did.
+        Cross-coin features (ranks, breadth, dispersion) turned an unstable model into a
+        generalizing one.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-num green">LESSON 3</div>
+      <h4>Strip the market, find the alpha</h4>
+      <p>
+        Most crypto movement is just "following Bitcoin." By removing that with BTC residual
+        decomposition, we let the model focus on each coin's unique story &mdash; which is
+        where the actual prediction signal lives.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-num purple">LESSON 4</div>
+      <h4>Automate everything</h4>
+      <p>
+        Ten GitHub Actions workflows run the entire pipeline without human intervention.
+        News fetching, sentiment scoring, feature generation, model retraining, and daily
+        predictions all happen automatically, every day, on schedule.
+      </p>
+    </div>
+  </div>
+</section>
+
+</div><!-- /container -->
+
+<div class="container">
+  <footer>
+    <span><strong>CryptoPrism</strong> &middot; Project Overview Report</span>
+    <span>April 2026 &middot; From news to trading signals</span>
+  </footer>
+</div>
+
+<button class="print-btn no-print" onclick="window.print()">Export PDF</button>
+
+</body>
+</html>
