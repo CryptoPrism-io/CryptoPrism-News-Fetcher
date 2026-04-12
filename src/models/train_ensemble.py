@@ -72,8 +72,8 @@ FEATURES_BTC_CONTEXT = [
     "fear_greed_index", "btc_vol_7d", "btc_momentum_24h",
 ]
 
-# Lunar cycle features (synodic month ≈ 29.53 days)
-FEATURES_LUNAR = ["lunar_sin", "lunar_cos"]
+# Lunar cycle features (full 29.53d cycle + 14.77d half-cycle + waxing flag)
+FEATURES_LUNAR = ["lunar_sin", "lunar_cos", "lunar_half_sin", "lunar_half_cos", "lunar_waxing"]
 
 FEATURES_ENSEMBLE = (
     FEATURES_ORIGINAL + FEATURES_BTC_RESIDUAL + FEATURES_LSTM +
@@ -277,10 +277,10 @@ def load_ensemble_features(from_date: str, to_date: str) -> pd.DataFrame:
 
     # Lunar cycle features (computed from timestamps, no DB needed)
     from src.features.lunar import compute_lunar_features
-    lunar_sin, lunar_cos = compute_lunar_features(df["timestamp"])
-    df["lunar_sin"] = lunar_sin
-    df["lunar_cos"] = lunar_cos
-    log.info(f"  Lunar features: computed for {len(df):,} rows")
+    lunar_feats = compute_lunar_features(df["timestamp"])
+    for col, vals in lunar_feats.items():
+        df[col] = vals
+    log.info(f"  Lunar features: {len(lunar_feats)} cols computed for {len(df):,} rows")
 
     # Fill missing feature columns
     for f in FEATURES_ENSEMBLE:
