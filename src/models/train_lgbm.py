@@ -82,6 +82,23 @@ RETURN_COLS  = ["forward_ret_1d", "forward_ret_3d", "forward_ret_7d", "forward_r
 # Earliest date with news sentiment data (fixed — start of news pipeline)
 NEWS_DATA_START = "2025-10-21"
 
+# Universe filter: minimum avg market cap over 30 days
+UNIVERSE_MIN_MCAP = 50_000_000  # $50M
+
+
+def get_top_universe_slugs(conn, min_mcap: float = UNIVERSE_MIN_MCAP) -> list[str]:
+    """Get slugs with avg market_cap > min_mcap over last 30 days."""
+    df = pd.read_sql(
+        'SELECT slug, AVG(market_cap) as avg_mcap FROM "1K_coins_ohlcv"'
+        ' WHERE timestamp >= CURRENT_DATE - 30 AND market_cap IS NOT NULL'
+        ' GROUP BY slug HAVING AVG(market_cap) > %s'
+        ' ORDER BY avg_mcap DESC',
+        conn, params=(min_mcap,),
+    )
+    slugs = df["slug"].tolist()
+    log.info(f"Universe filter: {len(slugs)} coins with avg mcap > ${min_mcap/1e6:.0f}M")
+    return slugs
+
 
 def compute_splits(mode: str) -> dict:
     """
@@ -190,6 +207,15 @@ def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date:
     )
     if df.empty:
         log.info(f"Loaded 0 rows from ML_LABELS ({from_date} → {to_date})")
+        return df
+
+    # Universe filter: keep only top coins by market cap
+    top_slugs = get_top_universe_slugs(bt_conn)
+    before_n = len(df)
+    df = df[df["slug"].isin(top_slugs)]
+    log.info(f"  Universe filter: {before_n:,} → {len(df):,} rows ({len(df['slug'].unique())} coins)")
+
+    if df.empty:
         return df
 
     df["_date"] = pd.to_datetime(df["timestamp"]).dt.date

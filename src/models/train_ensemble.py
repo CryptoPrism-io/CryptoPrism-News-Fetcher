@@ -26,7 +26,7 @@ from src.db import get_db_conn, get_backtest_conn, get_backtest_h_conn
 from src.models.train_lgbm import (
     compute_splits, FEATURES_PRICE_ONLY, LGBM_PARAMS,
     TARGET_COL, LABEL_COLS, RETURN_COLS, NEWS_DATA_START,
-    prepare_xy,
+    prepare_xy, get_top_universe_slugs,
 )
 
 load_dotenv()
@@ -118,6 +118,16 @@ def load_ensemble_features(from_date: str, to_date: str) -> pd.DataFrame:
     )
     if df.empty:
         log.info(f"No labels for {from_date} to {to_date}")
+        bt.close(); dbcp.close()
+        return df
+
+    # Universe filter: keep only top coins by market cap
+    top_slugs = get_top_universe_slugs(bt)
+    before_n = len(df)
+    df = df[df["slug"].isin(top_slugs)]
+    log.info(f"  Universe filter: {before_n:,} → {len(df):,} rows ({len(df['slug'].unique())} coins)")
+
+    if df.empty:
         bt.close(); dbcp.close()
         return df
 
