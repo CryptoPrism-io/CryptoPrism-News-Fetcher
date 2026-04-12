@@ -140,8 +140,15 @@ def close_trade(conn, trade_id: int, exit_price: float, notes: str = ""):
 
 def run_signal_cycle():
     """Main trading cycle: close expired, open longs (spot) + shorts (futures)."""
+    from src.models.registry import get_active_model
+
     spot_exchange = build_exchange()
     conn = get_db_conn()
+
+    # Get active model dynamically
+    active = get_active_model(conn)
+    model_id = active["model_id"] if active else 17
+    log.info(f"Active model: id={model_id}")
 
     # Try to connect futures — graceful fallback if keys not set
     futures_exchange = None
@@ -272,7 +279,7 @@ def run_signal_cycle():
                     "entry_price": result["price"], "quantity": result["qty"],
                     "usdt_size": result["cost"], "signal_score": score,
                     "regime_state": regime, "entry_time": datetime.now(timezone.utc),
-                    "hold_days": HOLD_DAYS, "model_id": 17,
+                    "hold_days": HOLD_DAYS, "model_id": model_id,
                 })
                 bought += 1
                 usdt_free -= result["cost"]
@@ -324,7 +331,7 @@ def run_signal_cycle():
                         "entry_price": result["price"], "quantity": result["qty"],
                         "usdt_size": result["cost"], "signal_score": score,
                         "regime_state": regime, "entry_time": datetime.now(timezone.utc),
-                        "hold_days": HOLD_DAYS, "model_id": 17,
+                        "hold_days": HOLD_DAYS, "model_id": model_id,
                     })
                     shorted += 1
                     fut_free -= per_trade

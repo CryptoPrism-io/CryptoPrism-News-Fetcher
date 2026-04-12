@@ -20,41 +20,41 @@ load_dotenv()
 
 log = logging.getLogger(__name__)
 
-# Same slug mapping as spot — futures uses same symbols with :USDT suffix
+# Same slug mapping as spot — futures uses same symbols with :USDC suffix
 SLUG_TO_FUTURES_SYMBOL = {
-    "bitcoin": "BTC/USDT:USDT",
-    "ethereum": "ETH/USDT:USDT",
-    "solana": "SOL/USDT:USDT",
-    "xrp": "XRP/USDT:USDT",
-    "bnb": "BNB/USDT:USDT",
-    "dogecoin": "DOGE/USDT:USDT",
-    "cardano": "ADA/USDT:USDT",
-    "chainlink": "LINK/USDT:USDT",
-    "avalanche": "AVAX/USDT:USDT",
-    "litecoin": "LTC/USDT:USDT",
-    "stellar": "XLM/USDT:USDT",
-    "bitcoin-cash": "BCH/USDT:USDT",
-    "uniswap": "UNI/USDT:USDT",
-    "cosmos": "ATOM/USDT:USDT",
-    "hedera": "HBAR/USDT:USDT",
-    "sui": "SUI/USDT:USDT",
-    "tron": "TRX/USDT:USDT",
-    "zcash": "ZEC/USDT:USDT",
-    "aave": "AAVE/USDT:USDT",
-    "algorand": "ALGO/USDT:USDT",
-    "arbitrum": "ARB/USDT:USDT",
-    "aptos": "APT/USDT:USDT",
-    "near": "NEAR/USDT:USDT",
-    "filecoin": "FIL/USDT:USDT",
-    "internet-computer": "ICP/USDT:USDT",
-    "polkadot": "DOT/USDT:USDT",
-    "optimism": "OP/USDT:USDT",
-    "pepe": "PEPE/USDT:USDT",
-    "ethereum-classic": "ETC/USDT:USDT",
-    "the-sandbox": "SAND/USDT:USDT",
-    "decentraland": "MANA/USDT:USDT",
-    "axie-infinity": "AXS/USDT:USDT",
-    "chiliz": "CHZ/USDT:USDT",
+    "bitcoin": "BTC/USDC:USDC",
+    "ethereum": "ETH/USDC:USDC",
+    "solana": "SOL/USDC:USDC",
+    "xrp": "XRP/USDC:USDC",
+    "bnb": "BNB/USDC:USDC",
+    "dogecoin": "DOGE/USDC:USDC",
+    "cardano": "ADA/USDC:USDC",
+    "chainlink": "LINK/USDC:USDC",
+    "avalanche": "AVAX/USDC:USDC",
+    "litecoin": "LTC/USDC:USDC",
+    "stellar": "XLM/USDC:USDC",
+    "bitcoin-cash": "BCH/USDC:USDC",
+    "uniswap": "UNI/USDC:USDC",
+    "cosmos": "ATOM/USDC:USDC",
+    "hedera": "HBAR/USDC:USDC",
+    "sui": "SUI/USDC:USDC",
+    "tron": "TRX/USDC:USDC",
+    "zcash": "ZEC/USDC:USDC",
+    "aave": "AAVE/USDC:USDC",
+    "algorand": "ALGO/USDC:USDC",
+    "arbitrum": "ARB/USDC:USDC",
+    "aptos": "APT/USDC:USDC",
+    "near": "NEAR/USDC:USDC",
+    "filecoin": "FIL/USDC:USDC",
+    "internet-computer": "ICP/USDC:USDC",
+    "polkadot": "DOT/USDC:USDC",
+    "optimism": "OP/USDC:USDC",
+    "pepe": "PEPE/USDC:USDC",
+    "ethereum-classic": "ETC/USDC:USDC",
+    "the-sandbox": "SAND/USDC:USDC",
+    "decentraland": "MANA/USDC:USDC",
+    "axie-infinity": "AXS/USDC:USDC",
+    "chiliz": "CHZ/USDC:USDC",
 }
 
 
@@ -83,7 +83,7 @@ def build_futures_exchange() -> ccxt.binanceusdm:
     try:
         exchange.load_markets()
         balance = exchange.fetch_balance()
-        usdt = float(balance.get("USDT", {}).get("free", 0))
+        usdt = float(balance.get("USDC", {}).get("free", 0))
         log.info(f"Futures USDT balance: {usdt:.2f}")
     except Exception as e:
         log.warning(f"Could not fetch futures balance: {e}")
@@ -173,8 +173,8 @@ def get_futures_balance(exchange: ccxt.binanceusdm) -> dict:
     """Get futures USDT balance."""
     balance = exchange.fetch_balance()
     return {
-        "usdt_free": float(balance.get("USDT", {}).get("free", 0)),
-        "usdt_total": float(balance.get("USDT", {}).get("total", 0)),
+        "usdt_free": float(balance.get("USDC", {}).get("free", 0)),
+        "usdt_total": float(balance.get("USDC", {}).get("total", 0)),
     }
 
 
