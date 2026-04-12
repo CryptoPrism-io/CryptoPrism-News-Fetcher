@@ -48,7 +48,7 @@ jobs:
               dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
               password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
           cur = conn.cursor()
-          cur.execute('SELECT COUNT(DISTINCT UNNEST(coins_mentioned)) FROM \"FE_NEWS_SENTIMENT\"')
+          cur.execute('SELECT COUNT(DISTINCT u) FROM \"FE_NEWS_SENTIMENT\", UNNEST(coins_mentioned) AS u')
           print(f'Unique coins in FE_NEWS_SENTIMENT: {cur.fetchone()[0]}')
           cur.execute('SELECT COUNT(*), COUNT(DISTINCT slug) FROM \"FE_NEWS_SIGNALS\"')
           r = cur.fetchone()

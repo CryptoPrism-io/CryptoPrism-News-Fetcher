@@ -33,7 +33,7 @@ def remap():
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
     # Count current state
-    cur.execute('SELECT COUNT(DISTINCT UNNEST(coins_mentioned)) FROM "FE_NEWS_SENTIMENT"')
+    cur.execute('SELECT COUNT(DISTINCT u) FROM "FE_NEWS_SENTIMENT", UNNEST(coins_mentioned) AS u')
     before_coins = cur.fetchone()["count"]
     log.info(f"Before: {before_coins} unique coins in FE_NEWS_SENTIMENT")
 
@@ -78,7 +78,7 @@ def remap():
             log.info(f"  Updated {min(batch_start + 1000, len(updates)):,}/{len(updates):,}")
 
     # Count after
-    cur.execute('SELECT COUNT(DISTINCT UNNEST(coins_mentioned)) FROM "FE_NEWS_SENTIMENT"')
+    cur.execute('SELECT COUNT(DISTINCT u) FROM "FE_NEWS_SENTIMENT", UNNEST(coins_mentioned) AS u')
     after_coins = cur.fetchone()["count"]
     log.info(f"After: {after_coins} unique coins in FE_NEWS_SENTIMENT (+{after_coins - before_coins})")
 
