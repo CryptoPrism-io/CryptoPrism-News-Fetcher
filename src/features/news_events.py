@@ -160,8 +160,8 @@ def compute_temporal_features(coin_events, all_dates):
                     latest = typed_events["timestamp"].max()
                     if latest.tzinfo is None:
                         latest = latest.tz_localize("UTC")
-                    delta_h = (d_ts - latest).total_seconds() / 3600
-                    row[col] = max(0, round(delta_h, 2))
+                    delta_h = float((d_ts - latest).total_seconds() / 3600)
+                    row[col] = max(0.0, round(delta_h, 2))
 
             # magnitude_est: average of today's event magnitudes
             if today_count > 0 and event_type:
@@ -170,18 +170,18 @@ def compute_temporal_features(coin_events, all_dates):
                 row["magnitude_est"] = 0.0
 
             # event_count_24h
-            row["event_count_24h"] = today_count
+            row["event_count_24h"] = int(today_count)
 
             # news_surprise: z-score of today's count vs 30d rolling mean
             lookback = [ce[ce["date"] == (d - timedelta(days=j))].shape[0]
                         for j in range(1, 31)]
-            mean_30 = np.mean(lookback) if lookback else 0
-            std_30 = np.std(lookback) if lookback else 1
-            row["news_surprise"] = round((today_count - mean_30) / max(std_30, 0.1), 4)
+            mean_30 = float(np.mean(lookback)) if lookback else 0.0
+            std_30 = float(np.std(lookback)) if lookback else 1.0
+            row["news_surprise"] = round(float((today_count - mean_30) / max(std_30, 0.1)), 4)
 
             # cross_coin_news_ratio
-            total_today = daily_total.get(d, 0)
-            row["cross_coin_news_ratio"] = round(today_count / max(total_today, 1), 4)
+            total_today = int(daily_total.get(d, 0))
+            row["cross_coin_news_ratio"] = round(float(today_count / max(total_today, 1)), 4)
 
             results.append(row)
 
