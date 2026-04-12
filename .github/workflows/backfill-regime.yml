@@ -1,0 +1,69 @@
+name: Backfill Regime Classifications
+
+on:
+  workflow_dispatch:
+    inputs:
+      method:
+        description: 'Classification method'
+        required: false
+        default: 'rules'
+        type: choice
+        options:
+          - rules    # rule-based (recommended)
+          - hmm      # legacy HMM
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install hmmlearn
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Run regime backfill
+        run: |
+          if [ "${{ github.event.inputs.method }}" = "hmm" ]; then
+            python -m src.models.regime --train
+          else
+            python -m src.models.regime --backfill-rules
+          fi
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(host=os.environ['DB_HOST'], port='5432',
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), MIN(timestamp), MAX(timestamp) FROM \"ML_REGIME\"')
+          r = cur.fetchone()
+          print(f'ML_REGIME: {r[0]:,} rows, {r[1]} to {r[2]}')
+          cur.execute('SELECT regime_state, COUNT(*), ROUND(COUNT(*)::numeric / SUM(COUNT(*)) OVER () * 100, 1) as pct FROM \"ML_REGIME\" GROUP BY regime_state ORDER BY COUNT(*) DESC')
+          for row in cur.fetchall():
+              print(f'  {row[0]}: {row[1]:,} ({row[2]}%)')
+          conn.close()
+          "

@@ -280,10 +280,116 @@ def upsert_regime(conn, rows: list[dict]):
     conn.commit()
 
 
+def rule_based_regime(breadth: float, btc_mom_72h: float,
+                      btc_vol_ratio: float, btc_mom_24h: float,
+                      fear_greed: float) -> tuple[str, float]:
+    """
+    Transparent rule-based regime classifier.
+    Returns (regime_state, confidence) where confidence is 0-1.
+
+    Rules:
+      breakout:  btc_vol_ratio > 2.0 AND abs(btc_mom_24h) > 0.03
+      risk_off:  breadth < 0.35 OR (btc_mom_72h < -0.05 AND fear_greed < 30)
+      risk_on:   breadth > 0.55 AND btc_mom_72h > 0 AND btc_vol_ratio < 1.5
+      choppy:    everything else
+    """
+    # Breakout: extreme volatility spike with directional move
+    if btc_vol_ratio > 2.0 and abs(btc_mom_24h) > 0.03:
+        strength = min(btc_vol_ratio / 3.0, 1.0)
+        return "breakout", round(strength, 3)
+
+    # Risk-off: weak breadth OR strong bearish momentum + fear
+    if breadth < 0.35:
+        strength = max(0.5, 1.0 - breadth / 0.35)
+        return "risk_off", round(strength, 3)
+    if btc_mom_72h < -0.05 and fear_greed < 30:
+        strength = min(abs(btc_mom_72h) / 0.10, 1.0)
+        return "risk_off", round(strength, 3)
+
+    # Risk-on: broad strength, positive momentum, moderate vol
+    if breadth > 0.55 and btc_mom_72h > 0 and btc_vol_ratio < 1.5:
+        strength = min(breadth, 1.0)
+        return "risk_on", round(strength, 3)
+
+    # Choppy: none of the above
+    return "choppy", 0.5
+
+
+def backfill_rule_based():
+    """Backfill ML_REGIME using rule-based classifier."""
+    bt_conn = get_backtest_conn()
+    dbcp_conn = get_db_conn()
+
+    btc_df = pd.read_sql(
+        'SELECT timestamp, close, volume FROM "1K_coins_ohlcv" '
+        "WHERE slug = 'bitcoin' ORDER BY timestamp",
+        bt_conn,
+    )
+    log.info(f"Loaded {len(btc_df)} BTC daily rows")
+
+    fg_df = pd.read_sql(
+        'SELECT timestamp, fear_greed_index FROM "FE_FEAR_GREED_CMC" ORDER BY timestamp',
+        dbcp_conn,
+    )
+
+    log.info("Computing market breadth...")
+    dates, breadth = compute_market_breadth_simple(bt_conn, n_days=730)
+    bt_conn.close()
+
+    # Build features
+    breadth_map = dict(zip(dates, breadth))
+    btc_dates = btc_df["timestamp"].dt.date.tolist()
+    full_breadth = np.array([breadth_map.get(d, 0.5) for d in btc_dates])
+
+    features = build_regime_features(btc_df, fg_df, full_breadth)
+
+    # Classify each row
+    rows = []
+    for _, r in features.iterrows():
+        b = float(r.get("breadth", 0.5))
+        mom72 = float(r.get("btc_mom_72h", 0))
+        vol_r = float(r.get("btc_vol_ratio", 1.0))
+        mom24 = float(r.get("btc_mom_24h", 0))
+        fg = float(r.get("fear_greed", 50))
+
+        if np.isnan(b): b = 0.5
+        if np.isnan(mom72): mom72 = 0.0
+        if np.isnan(vol_r): vol_r = 1.0
+        if np.isnan(mom24): mom24 = 0.0
+        if np.isnan(fg): fg = 50.0
+
+        regime, confidence = rule_based_regime(b, mom72, vol_r, mom24, fg)
+        rows.append({
+            "timestamp": r["timestamp"],
+            "regime_state": regime,
+            "confidence": confidence,
+            "trans_prob_risk_on": 1.0 if regime == "risk_on" else 0.0,
+            "trans_prob_risk_off": 1.0 if regime == "risk_off" else 0.0,
+            "trans_prob_choppy": 1.0 if regime == "choppy" else 0.0,
+            "trans_prob_breakout": 1.0 if regime == "breakout" else 0.0,
+        })
+
+    from collections import Counter
+    dist = Counter(r["regime_state"] for r in rows)
+    total = len(rows)
+    log.info("Rule-based regime distribution:")
+    for state in REGIME_NAMES:
+        count = dist.get(state, 0)
+        pct = count / total * 100 if total > 0 else 0
+        log.info(f"  {state}: {count:,} ({pct:.1f}%)")
+
+    upsert_regime(dbcp_conn, rows)
+    dbcp_conn.close()
+    log.info(f"Backfilled {len(rows)} rule-based regime rows to ML_REGIME")
+
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Macro Regime HMM")
-    parser.add_argument("--train", action="store_true")
+    parser = argparse.ArgumentParser(description="Macro Regime Detector")
+    parser.add_argument("--train", action="store_true", help="Train HMM (legacy)")
+    parser.add_argument("--backfill-rules", action="store_true", help="Backfill with rule-based regime")
     args = parser.parse_args()
 
     if args.train:
         train_and_save()
+    elif args.backfill_rules:
+        backfill_rule_based()
