@@ -31,14 +31,98 @@
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
+  /* ── Print / PDF layout ─────────────────────────────────────────── */
+  @page {
+    size: A4;
+    margin: 20mm 15mm 25mm 15mm;
+
+    @bottom-left {
+      content: "CryptoPrism-io  |  Yogesh Sahu";
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      color: #a8a29e;
+    }
+    @bottom-center {
+      content: "Confidential";
+      font-family: 'Inter', sans-serif;
+      font-size: 7pt;
+      color: #d6d3d1;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    @bottom-right {
+      content: "Page " counter(page) " of " counter(pages);
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      color: #a8a29e;
+    }
+    @top-right {
+      content: "CryptoPrism: Complete Technical & Strategic Report";
+      font-family: 'Inter', sans-serif;
+      font-size: 7pt;
+      color: #d6d3d1;
+    }
+  }
+
+  /* First page (cover) — no header, no page number */
+  @page :first {
+    margin-top: 0;
+    @top-right { content: none; }
+    @bottom-left { content: none; }
+    @bottom-center { content: none; }
+    @bottom-right { content: none; }
+  }
+
   @media print {
     body { font-size: 10pt; }
     .page-break { page-break-before: always; }
     .no-print { display: none !important; }
     section { page-break-inside: avoid; }
-    .cover { padding: 60px 0 40px; }
-    .container { padding: 0 20px; }
+    .cover { padding: 60px 0 40px; margin-bottom: 0; }
+    .container { padding: 0; max-width: 100%; }
     svg { max-width: 100% !important; }
+
+    /* Running footer visible in print (fallback for renderers that ignore @page) */
+    .print-footer {
+      display: flex !important;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 8px 15mm;
+      font-size: 8pt;
+      color: #a8a29e;
+      font-family: 'Inter', sans-serif;
+      justify-content: space-between;
+      border-top: 0.5px solid #e7e5e4;
+      background: #fff;
+    }
+
+    /* Running header visible in print */
+    .print-header {
+      display: block !important;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 8px 15mm;
+      font-size: 7pt;
+      color: #d6d3d1;
+      font-family: 'Inter', sans-serif;
+      text-align: right;
+      letter-spacing: 0.05em;
+    }
+
+    /* Ensure charts don't break across pages */
+    .chart-container, .diagram-container, .flow {
+      page-break-inside: avoid;
+    }
+
+    /* Tables don't break mid-row */
+    tr { page-break-inside: avoid; }
+
+    /* Force page breaks before each chapter */
+    .chapter-start { page-break-before: always; }
   }
 
   body {
@@ -421,6 +505,9 @@
     color: var(--gray-400);
   }
 
+  /* Print header/footer — hidden on screen, shown in print */
+  .print-footer, .print-header { display: none; }
+
   /* Footer */
   footer {
     border-top: 1px solid var(--gray-200);
@@ -478,6 +565,16 @@
 </head>
 <body>
 
+<!-- Running header (print only) -->
+<div class="print-header">CryptoPrism: Complete Technical &amp; Strategic Report</div>
+
+<!-- Running footer (print only) -->
+<div class="print-footer">
+  <span>CryptoPrism-io &nbsp;|&nbsp; Yogesh Sahu</span>
+  <span style="letter-spacing:0.1em;text-transform:uppercase;font-size:7pt;color:#d6d3d1;">Confidential</span>
+  <span>April 2026</span>
+</div>
+
 <button class="print-btn no-print" onclick="window.print()">Print / Save PDF</button>
 
 <!-- ================================================================ -->
@@ -494,11 +591,11 @@
       Coefficient of 0.129 and a Sharpe Ratio of 7.69.
     </div>
     <div class="meta">
+      <span><strong>Author</strong> Yogesh Sahu</span>
+      <span><strong>Company</strong> CryptoPrism-io</span>
       <span><strong>Date</strong> April 2026</span>
-      <span><strong>Team</strong> CryptoPrism-io</span>
       <span><strong>Features</strong> 50 active</span>
       <span><strong>Universe</strong> 1,000 coins</span>
-      <span><strong>Status</strong> Live &amp; producing signals</span>
     </div>
   </div>
 </header>
@@ -2852,8 +2949,8 @@
 <!-- FOOTER                                                           -->
 <!-- ================================================================ -->
 <footer>
-  <span><strong>CryptoPrism</strong> &mdash; Complete Technical &amp; Strategic Report</span>
-  <span>Generated April 2026 &mdash; CryptoPrism-io</span>
+  <span><strong>CryptoPrism-io</strong> &middot; Yogesh Sahu</span>
+  <span>Complete Technical &amp; Strategic Report &mdash; April 2026</span>
   <span>18 chapters &middot; 50 features &middot; 1,000 coins &middot; IC 0.129</span>
 </footer>
 
