@@ -291,6 +291,24 @@ def run(target_date: str | None = None):
             conn.close()
             return 0
 
+        # Universe filter: only predict for coins the model was trained on
+        from src.models.train_lgbm import get_top_universe_slugs
+        from src.db import get_backtest_conn
+        try:
+            bt = get_backtest_conn()
+            top_slugs = set(get_top_universe_slugs(bt))
+            bt.close()
+            before_n = len(rows)
+            rows = [r for r in rows if r["slug"] in top_slugs]
+            log.info(f"Universe filter: {before_n} → {len(rows)} coins")
+        except Exception as e:
+            log.warning(f"Universe filter skipped: {e}")
+
+        if not rows:
+            log.warning("No coins after universe filter. Skipping.")
+            conn.close()
+            return 0
+
         log.info(f"Running inference on {len(rows)} coins")
 
         # Build X matrix
@@ -303,6 +321,21 @@ def run(target_date: str | None = None):
         pred_class = np.argmax(probs, axis=1)
         directions = np.array([label_remap[c] for c in pred_class])
         signal_scores = probs[:, 2] - probs[:, 0]  # P(buy) - P(sell)
+
+        # Regime gating: adjust signal scores based on current market regime
+        try:
+            with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+                cur.execute('SELECT regime_state, confidence FROM "ML_REGIME" ORDER BY timestamp DESC LIMIT 1')
+                regime_row = cur.fetchone()
+            if regime_row:
+                from src.models.train_ensemble import apply_regime_gating
+                regime = regime_row["regime_state"]
+                regime_conf = float(regime_row["confidence"] or 0.5)
+                for i in range(len(signal_scores)):
+                    signal_scores[i] = apply_regime_gating(float(signal_scores[i]), regime, regime_conf)
+                log.info(f"Regime gating applied: {regime} (confidence={regime_conf:.2f})")
+        except Exception as e:
+            log.warning(f"Regime gating skipped: {e}")
 
         # SHAP for a sample (top-20 by signal score)
         top20_idx = np.argsort(signal_scores)[-20:]
