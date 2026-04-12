@@ -366,6 +366,7 @@ def train():
     save_backtest(
         model_id=model_id,
         backtest_from=split["test_from"], backtest_to=split["test_to"],
+        universe="all_available",
         metrics=test_metrics,
     )
 
