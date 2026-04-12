@@ -20,13 +20,10 @@ import psycopg2.extras
 from dotenv import load_dotenv
 
 from src.db import get_db_conn
-from src.trading.spot_exchange import (
-    build_exchange, buy_market, sell_market, get_price,
-    get_balance, slug_to_symbol, SLUG_TO_SYMBOL,
-)
 from src.trading.futures_exchange import (
-    build_futures_exchange, open_short, close_short, get_futures_price,
-    get_futures_balance, slug_to_futures_symbol, SLUG_TO_FUTURES_SYMBOL,
+    build_futures_exchange, open_long, close_long, open_short, close_short,
+    get_futures_price, get_futures_balance, slug_to_futures_symbol,
+    SLUG_TO_FUTURES_SYMBOL,
 )
 
 load_dotenv()
@@ -58,8 +55,8 @@ def get_open_positions(conn) -> list[dict]:
 
 
 def get_long_signals(conn, n: int = LONG_N) -> list[dict]:
-    """Get top-N coins by signal score for LONG (spot). Relative outperformers."""
-    tradeable_slugs = list(SLUG_TO_SYMBOL.keys())
+    """Get top-N coins by signal score for LONG (futures). Relative outperformers."""
+    tradeable_slugs = list(SLUG_TO_FUTURES_SYMBOL.keys())
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     cur.execute('''
         SELECT slug, signal_score, direction, regime_state, ensemble_confidence
@@ -139,10 +136,10 @@ def close_trade(conn, trade_id: int, exit_price: float, notes: str = ""):
 
 
 def run_signal_cycle():
-    """Main trading cycle: close expired, open longs (spot) + shorts (futures)."""
+    """Main trading cycle: close expired, open longs + shorts (both on futures USDC)."""
     from src.models.registry import get_active_model
 
-    spot_exchange = build_exchange()
+    exchange = build_futures_exchange()
     conn = get_db_conn()
 
     # Get active model dynamically
@@ -150,14 +147,8 @@ def run_signal_cycle():
     model_id = active["model_id"] if active else 17
     log.info(f"Active model: id={model_id}")
 
-    # Try to connect futures — graceful fallback if keys not set
-    futures_exchange = None
-    futures_key = os.getenv("BINANCE_FUTURES_API_KEY", "").strip()
-    if futures_key:
-        try:
-            futures_exchange = build_futures_exchange()
-        except Exception as e:
-            log.warning(f"Futures exchange not available: {e}")
+    bal = get_futures_balance(exchange)
+    log.info(f"USDC balance: ${bal['usdt_free']:.2f} free, ${bal['usdt_total']:.2f} total")
 
     # 1. Check regime
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
@@ -184,12 +175,9 @@ def run_signal_cycle():
         direction = pos.get("direction", "BUY")
         is_short = direction == "SHORT"
 
-        # Get price from correct exchange
+        # Get price from futures exchange
         try:
-            if is_short and futures_exchange:
-                current_price = get_futures_price(futures_exchange, symbol)
-            else:
-                current_price = get_price(spot_exchange, symbol)
+            current_price = get_futures_price(exchange, symbol)
         except Exception as e:
             log.warning(f"  Cannot get price for {symbol}: {e}")
             continue
@@ -204,10 +192,10 @@ def run_signal_cycle():
         if pnl_pct <= STOP_LOSS_PCT:
             log.info(f"  STOP LOSS {pos['slug']} ({direction}): {pnl_pct*100:.2f}%")
             try:
-                if is_short and futures_exchange:
-                    result = close_short(futures_exchange, symbol, float(pos["quantity"]))
+                if is_short:
+                    result = close_short(exchange, symbol, float(pos["quantity"]))
                 else:
-                    result = sell_market(spot_exchange, symbol, float(pos["quantity"]))
+                    result = close_long(exchange, symbol, float(pos["quantity"]))
                 close_trade(conn, pos["id"], result["price"], "stop_loss")
             except Exception as e:
                 log.error(f"  Failed to close {symbol}: {e}")
@@ -217,10 +205,10 @@ def run_signal_cycle():
         if days_held >= pos["hold_days"]:
             log.info(f"  EXPIRY {pos['slug']} ({direction}): held {days_held}d ({pnl_pct*100:+.2f}%)")
             try:
-                if is_short and futures_exchange:
-                    result = close_short(futures_exchange, symbol, float(pos["quantity"]))
+                if is_short:
+                    result = close_short(exchange, symbol, float(pos["quantity"]))
                 else:
-                    result = sell_market(spot_exchange, symbol, float(pos["quantity"]))
+                    result = close_long(exchange, symbol, float(pos["quantity"]))
                 close_trade(conn, pos["id"], result["price"], f"expiry_{days_held}d")
             except Exception as e:
                 log.error(f"  Failed to close {symbol}: {e}")
@@ -239,32 +227,34 @@ def run_signal_cycle():
     long_count = sum(1 for d in open_slugs.values() if d == "BUY")
     short_count = sum(1 for d in open_slugs.values() if d == "SHORT")
 
-    # ── LONG LEG (spot) ──
+    # ── LONG LEG (futures) ──
     long_slots = MAX_OPEN_POSITIONS - long_count
     if long_slots > 0:
         long_signals = get_long_signals(conn, LONG_N)
-        balance = get_balance(spot_exchange)
-        usdt_free = balance["usdt_free"]
+        usdc_bal = get_futures_balance(exchange)
+        usdc_free = usdc_bal["usdt_free"]
+        total_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions)
+        total_equity = usdc_free + total_deployed
         long_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions if p.get("direction") == "BUY")
-        long_equity = usdt_free + long_deployed
-        target = long_equity * TARGET_DEPLOY_PCT
-        to_deploy = max(0, target - long_deployed)
+        # Each side gets half the equity
+        long_target = (total_equity / 2) * TARGET_DEPLOY_PCT
+        to_deploy = max(0, long_target - long_deployed)
         per_trade = max(to_deploy / max(long_slots, 1), 12)
 
-        log.info(f"LONGS: equity=${long_equity:.0f} deployed=${long_deployed:.0f} per_trade=${per_trade:.0f} slots={long_slots}")
+        log.info(f"LONGS: equity=${total_equity/2:.0f} deployed=${long_deployed:.0f} per_trade=${per_trade:.0f} slots={long_slots}")
 
         bought = 0
         for sig in long_signals:
-            if bought >= long_slots or usdt_free < per_trade:
+            if bought >= long_slots or usdc_free < per_trade:
                 break
             slug = sig["slug"]
             if slug in open_slugs:
                 continue
-            symbol = slug_to_symbol(slug)
-            if not symbol or symbol not in spot_exchange.markets:
+            symbol = slug_to_futures_symbol(slug)
+            if not symbol or symbol not in exchange.markets:
                 continue
             try:
-                price = get_price(spot_exchange, symbol)
+                price = get_futures_price(exchange, symbol)
                 if price < 0.01:
                     continue
             except:
@@ -273,7 +263,7 @@ def run_signal_cycle():
             score = float(sig["signal_score"])
             log.info(f"  LONG: {slug} ({symbol}) score={score:+.4f} @ ${price:.4f}")
             try:
-                result = buy_market(spot_exchange, symbol, per_trade)
+                result = open_long(exchange, symbol, per_trade)
                 insert_trade(conn, {
                     "slug": slug, "symbol": symbol, "direction": "BUY",
                     "entry_price": result["price"], "quantity": result["qty"],
@@ -282,7 +272,7 @@ def run_signal_cycle():
                     "hold_days": HOLD_DAYS, "model_id": model_id,
                 })
                 bought += 1
-                usdt_free -= result["cost"]
+                usdc_free -= result["cost"]
                 open_slugs[slug] = "BUY"
             except Exception as e:
                 log.error(f"  Failed to buy {slug}: {e}")
@@ -291,58 +281,54 @@ def run_signal_cycle():
         log.info(f"LONGS: max positions ({MAX_OPEN_POSITIONS}) reached")
 
     # ── SHORT LEG (futures) ──
-    if futures_exchange:
-        short_slots = MAX_OPEN_POSITIONS - short_count
-        if short_slots > 0:
-            short_signals = get_short_signals(conn, SHORT_N)
-            fut_balance = get_futures_balance(futures_exchange)
-            fut_free = fut_balance["usdt_free"]
-            short_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions if p.get("direction") == "SHORT")
-            fut_equity = fut_free + short_deployed
-            target = fut_equity * TARGET_DEPLOY_PCT
-            to_deploy = max(0, target - short_deployed)
-            per_trade = max(to_deploy / max(short_slots, 1), 12)
+    short_slots = MAX_OPEN_POSITIONS - short_count
+    if short_slots > 0:
+        short_signals = get_short_signals(conn, SHORT_N)
+        usdc_bal = get_futures_balance(exchange)
+        usdc_free = usdc_bal["usdt_free"]
+        short_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions if p.get("direction") == "SHORT")
+        short_target = (total_equity / 2) * TARGET_DEPLOY_PCT
+        to_deploy = max(0, short_target - short_deployed)
+        per_trade = max(to_deploy / max(short_slots, 1), 12)
 
-            log.info(f"SHORTS: equity=${fut_equity:.0f} deployed=${short_deployed:.0f} per_trade=${per_trade:.0f} slots={short_slots}")
+        log.info(f"SHORTS: equity=${total_equity/2:.0f} deployed=${short_deployed:.0f} per_trade=${per_trade:.0f} slots={short_slots}")
 
-            shorted = 0
-            for sig in short_signals:
-                if shorted >= short_slots or fut_free < per_trade:
-                    break
-                slug = sig["slug"]
-                if slug in open_slugs:
+        shorted = 0
+        for sig in short_signals:
+            if shorted >= short_slots or usdc_free < per_trade:
+                break
+            slug = sig["slug"]
+            if slug in open_slugs:
+                continue
+            fut_symbol = slug_to_futures_symbol(slug)
+            if not fut_symbol or fut_symbol not in exchange.markets:
+                continue
+            try:
+                price = get_futures_price(exchange, fut_symbol)
+                if price < 0.01:
                     continue
-                fut_symbol = slug_to_futures_symbol(slug)
-                if not fut_symbol or fut_symbol not in futures_exchange.markets:
-                    continue
-                try:
-                    price = get_futures_price(futures_exchange, fut_symbol)
-                    if price < 0.01:
-                        continue
-                except:
-                    continue
+            except:
+                continue
 
-                score = float(sig["signal_score"])
-                log.info(f"  SHORT: {slug} ({fut_symbol}) score={score:+.4f} @ ${price:.4f}")
-                try:
-                    result = open_short(futures_exchange, fut_symbol, per_trade)
-                    insert_trade(conn, {
-                        "slug": slug, "symbol": fut_symbol, "direction": "SHORT",
-                        "entry_price": result["price"], "quantity": result["qty"],
-                        "usdt_size": result["cost"], "signal_score": score,
-                        "regime_state": regime, "entry_time": datetime.now(timezone.utc),
-                        "hold_days": HOLD_DAYS, "model_id": model_id,
-                    })
-                    shorted += 1
-                    fut_free -= per_trade
-                    open_slugs[slug] = "SHORT"
-                except Exception as e:
-                    log.error(f"  Failed to short {slug}: {e}")
-            log.info(f"  Opened {shorted} shorts")
-        else:
-            log.info(f"SHORTS: max positions ({MAX_OPEN_POSITIONS}) reached")
+            score = float(sig["signal_score"])
+            log.info(f"  SHORT: {slug} ({fut_symbol}) score={score:+.4f} @ ${price:.4f}")
+            try:
+                result = open_short(exchange, fut_symbol, per_trade)
+                insert_trade(conn, {
+                    "slug": slug, "symbol": fut_symbol, "direction": "SHORT",
+                    "entry_price": result["price"], "quantity": result["qty"],
+                    "usdt_size": result["cost"], "signal_score": score,
+                    "regime_state": regime, "entry_time": datetime.now(timezone.utc),
+                    "hold_days": HOLD_DAYS, "model_id": model_id,
+                })
+                shorted += 1
+                usdc_free -= per_trade
+                open_slugs[slug] = "SHORT"
+            except Exception as e:
+                log.error(f"  Failed to short {slug}: {e}")
+        log.info(f"  Opened {shorted} shorts")
     else:
-        log.info("SHORTS: futures exchange not configured (set BINANCE_FUTURES_API_KEY)")
+        log.info(f"SHORTS: max positions ({MAX_OPEN_POSITIONS}) reached")
 
     open_positions = get_open_positions(conn)
     longs = sum(1 for p in open_positions if p.get("direction") == "BUY")
@@ -352,15 +338,8 @@ def run_signal_cycle():
 
 
 def close_all():
-    """Emergency: close all positions (longs + shorts)."""
-    spot_exchange = build_exchange()
-    futures_exchange = None
-    if os.getenv("BINANCE_FUTURES_API_KEY", "").strip():
-        try:
-            futures_exchange = build_futures_exchange()
-        except:
-            pass
-
+    """Emergency: close all positions (longs + shorts on futures)."""
+    exchange = build_futures_exchange()
     conn = get_db_conn()
     positions = get_open_positions(conn)
 
@@ -369,10 +348,10 @@ def close_all():
         symbol = pos["symbol"]
         direction = pos.get("direction", "BUY")
         try:
-            if direction == "SHORT" and futures_exchange:
-                result = close_short(futures_exchange, symbol, float(pos["quantity"]))
+            if direction == "SHORT":
+                result = close_short(exchange, symbol, float(pos["quantity"]))
             else:
-                result = sell_market(spot_exchange, symbol, float(pos["quantity"]))
+                result = close_long(exchange, symbol, float(pos["quantity"]))
             close_trade(conn, pos["id"], result["price"], "emergency_close")
         except Exception as e:
             log.error(f"  Failed to close {symbol} ({direction}): {e}")

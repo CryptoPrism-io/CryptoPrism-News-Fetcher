@@ -109,6 +109,66 @@ def get_futures_price(exchange: ccxt.binanceusdm, symbol: str) -> float:
     return float(ticker["last"])
 
 
+def open_long(exchange: ccxt.binanceusdm, symbol: str, usdc_amount: float) -> dict:
+    """
+    Open a long position using market order.
+    1x leverage, isolated margin.
+    Returns: {symbol, side, qty, price, cost}
+    """
+    set_leverage(exchange, symbol, 1)
+
+    price = get_futures_price(exchange, symbol)
+    qty = usdc_amount / price
+    qty = exchange.amount_to_precision(symbol, qty)
+
+    log.info(f"LONG {symbol}: {qty} @ ~{price:.4f} (${usdc_amount:.2f})")
+
+    order = exchange.create_market_buy_order(symbol, float(qty))
+
+    filled_qty = float(order.get("filled", qty))
+    avg_price = float(order.get("average", price))
+    cost = filled_qty * avg_price
+
+    log.info(f"  Filled: {filled_qty} @ {avg_price:.4f} = ${cost:.2f}")
+
+    return {
+        "symbol": symbol,
+        "side": "LONG",
+        "qty": filled_qty,
+        "price": avg_price,
+        "cost": cost,
+        "order_id": order.get("id"),
+    }
+
+
+def close_long(exchange: ccxt.binanceusdm, symbol: str, qty: float) -> dict:
+    """
+    Close a long position by selling.
+    Returns: {symbol, side, qty, price, cost}
+    """
+    qty = exchange.amount_to_precision(symbol, qty)
+    price = get_futures_price(exchange, symbol)
+
+    log.info(f"CLOSE LONG {symbol}: {qty} @ ~{price:.4f}")
+
+    order = exchange.create_market_sell_order(symbol, float(qty), {"reduceOnly": True})
+
+    filled_qty = float(order.get("filled", qty))
+    avg_price = float(order.get("average", price))
+    cost = filled_qty * avg_price
+
+    log.info(f"  Filled: {filled_qty} @ {avg_price:.4f} = ${cost:.2f}")
+
+    return {
+        "symbol": symbol,
+        "side": "SELL",
+        "qty": filled_qty,
+        "price": avg_price,
+        "cost": cost,
+        "order_id": order.get("id"),
+    }
+
+
 def open_short(exchange: ccxt.binanceusdm, symbol: str, usdt_amount: float) -> dict:
     """
     Open a short position using market order.
