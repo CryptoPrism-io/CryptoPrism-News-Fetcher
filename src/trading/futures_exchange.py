@@ -75,7 +75,22 @@ def build_futures_exchange() -> ccxt.binanceusdm:
     exchange = ccxt.binanceusdm(config)
 
     if testnet:
-        exchange.set_sandbox_mode(True)
+        # ccxt 4.5+ deprecated set_sandbox_mode for futures — use demo trading URLs
+        try:
+            exchange.set_sandbox_mode(True)
+        except Exception:
+            pass
+        # Override URLs to futures testnet directly
+        exchange.urls["api"] = {
+            "fapiPublic": "https://testnet.binancefuture.com/fapi/v1",
+            "fapiPublicV2": "https://testnet.binancefuture.com/fapi/v2",
+            "fapiPublicV3": "https://testnet.binancefuture.com/fapi/v3",
+            "fapiPrivate": "https://testnet.binancefuture.com/fapi/v1",
+            "fapiPrivateV2": "https://testnet.binancefuture.com/fapi/v2",
+            "fapiPrivateV3": "https://testnet.binancefuture.com/fapi/v3",
+            "public": "https://testnet.binancefuture.com/fapi/v1",
+            "private": "https://testnet.binancefuture.com/fapi/v1",
+        }
 
     mode = "TESTNET" if testnet else "LIVE"
     log.info(f"Binance Futures {mode} connected")
