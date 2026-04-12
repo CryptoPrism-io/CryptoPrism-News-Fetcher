@@ -172,7 +172,10 @@ def run(batch_size: int = 64, from_date: str | None = None):
         rows = []
         for article, (t_score, _), (b_score, b_conf) in zip(articles, title_scores, body_scores):
             composite = round(0.4 * t_score + 0.6 * b_score, 6)
-            slugs = map_categories_to_slugs(article["categories"], include_market_proxy=True)
+            slugs = map_categories_to_slugs(
+                article["categories"], include_market_proxy=True,
+                title=article.get("title", ""), body=article.get("body", ""),
+            )
             tier = get_source_tier(article["source_name"] or "")
             event = classify_event(article["categories"] or "", article["title"] or "")
 
