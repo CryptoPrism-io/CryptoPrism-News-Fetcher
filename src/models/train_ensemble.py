@@ -72,8 +72,8 @@ FEATURES_BTC_CONTEXT = [
     "fear_greed_index", "btc_vol_7d", "btc_momentum_24h",
 ]
 
-# Lunar cycle features (full 29.53d cycle + 14.77d half-cycle + waxing flag)
-FEATURES_LUNAR = ["lunar_sin", "lunar_cos", "lunar_half_sin", "lunar_half_cos", "lunar_waxing"]
+# Lunar cycle features (full 29.53d synodic month, sin/cos encoding)
+FEATURES_LUNAR = ["lunar_sin", "lunar_cos"]
 
 FEATURES_ENSEMBLE = (
     FEATURES_ORIGINAL + FEATURES_BTC_RESIDUAL + FEATURES_LSTM +
