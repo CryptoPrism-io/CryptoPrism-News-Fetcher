@@ -25,8 +25,9 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", stream=sys.stdout)
 log = logging.getLogger(__name__)
 
-BOT_TOKEN = "8731565244:AAHIoSYtij2YdW4Xp2fC8CYUrEAQ6NrITH8"
-CHAT_ID = "7265602912"
+BOT_TOKEN = "7769310222:AAH8NOhvuo1SR1oRMu9MXjVlYmzHayFWrX8"
+CHAT_ID = "-1003788584901"
+TOPIC_ID = 1758  # TRISHULA topic in CryptoPrism.io supergroup
 
 
 def generate_report():
@@ -161,7 +162,11 @@ def generate_report():
 
     # Send to Telegram
     url = "https://api.telegram.org/bot%s/sendMessage" % BOT_TOKEN
-    resp = requests.post(url, json={"chat_id": CHAT_ID, "text": msg})
+    resp = requests.post(url, json={
+        "chat_id": CHAT_ID,
+        "text": msg,
+        "message_thread_id": TOPIC_ID,
+    })
     if resp.json().get("ok"):
         log.info("Report sent to Telegram")
     else:
