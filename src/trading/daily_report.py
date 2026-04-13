@@ -30,16 +30,18 @@ log = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
-TOPIC_ID = int(os.getenv("TELEGRAM_TOPIC_ID", "0"))
+TOPIC_TRISHULA = int(os.getenv("TELEGRAM_TOPIC_ID", "0"))       # trade updates, cycle reports
+TOPIC_ARTHASHASTRI = int(os.getenv("TELEGRAM_PNL_TOPIC_ID", "0"))  # P&L ledger
 
 
-def send_telegram(text: str):
-    """Send a message to the TRISHULA topic."""
+def send_telegram(text: str, topic_id: int = None):
+    """Send a message to a topic in CryptoPrism.io group."""
+    tid = topic_id or TOPIC_TRISHULA
     url = "https://api.telegram.org/bot%s/sendMessage" % BOT_TOKEN
     resp = requests.post(url, json={
         "chat_id": CHAT_ID,
         "text": text,
-        "message_thread_id": TOPIC_ID,
+        "message_thread_id": tid,
     })
     if resp.json().get("ok"):
         log.info("Sent to Telegram")
@@ -110,9 +112,19 @@ def hourly_pnl():
     net = total_long_pnl + total_short_pnl
     sn = "+" if net >= 0 else ""
 
+    sl = "+" if total_long_pnl >= 0 else ""
+    ss = "+" if total_short_pnl >= 0 else ""
+
     lines = []
-    lines.append("TRISHULA %s" % time_str)
-    lines.append("Bal: $%.0f | Net P&L: %s$%.2f" % (bal["usdt_total"], sn, net))
+    lines.append("ARTHASHASTRI %s" % time_str)
+    lines.append("Bal: $%.0f" % bal["usdt_total"])
+    lines.append("")
+
+    # Strategy-wise P&L
+    lines.append("STRATEGY P&L:")
+    lines.append("  LONG:  %s$%.2f (%d pos)" % (sl, total_long_pnl, len(longs)))
+    lines.append("  SHORT: %s$%.2f (%d pos)" % (ss, total_short_pnl, len(shorts)))
+    lines.append("  NET:   %s$%.2f" % (sn, net))
     lines.append("")
 
     # Positions table
@@ -131,7 +143,7 @@ def hourly_pnl():
 
     msg = "\n".join(lines)
     log.info(msg)
-    send_telegram(msg)
+    send_telegram(msg, topic_id=TOPIC_ARTHASHASTRI)
 
 
 # ── CYCLE: post-trade 4-hourly report with what/why/how ──
