@@ -113,7 +113,7 @@ def generate_report():
     sn = "+" if net >= 0 else ""
 
     lines = []
-    lines.append("DAILY BOT REPORT %s" % date_str)
+    lines.append("TRISHULA DAILY REPORT %s" % date_str)
     lines.append("")
     lines.append("BALANCE: $%.2f free / $%.2f total" % (bal["usdt_free"], bal["usdt_total"]))
     lines.append("REGIME: %s (%.0f%%)" % (regime, regime_conf * 100))

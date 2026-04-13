@@ -81,7 +81,7 @@ FEATURES_ENSEMBLE = (
     FEATURES_BTC_CONTEXT + FEATURES_LUNAR
 )
 
-ENSEMBLE_MODEL_NAME = "lgbm_ensemble_v1"
+ENSEMBLE_MODEL_NAME = "trishula_v1"
 ARTIFACT_PATH = "artifacts/lgbm_ensemble_v1.pkl"
 META_ARTIFACT_PATH = "artifacts/ensemble_meta_learner.pkl"
 

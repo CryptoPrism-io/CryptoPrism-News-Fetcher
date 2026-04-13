@@ -1,10 +1,12 @@
 """
-spot_bot.py
-Market-neutral trading bot: spot longs + futures shorts.
-Reads ML_SIGNALS_V2, buys top-quartile (spot), shorts bottom-quartile (futures).
+spot_bot.py — TRISHULA
+Market-neutral trading algorithm: 3-pronged signal (LSTM + TCN + LightGBM).
+Longs top-quartile, shorts bottom-quartile on Binance Futures USDC.
+
+    त्रिशूल — Shiva's trident: three views, one strike.
 
 Usage:
-    python -m src.trading.spot_bot --run          # single run: longs + shorts + close expired
+    python -m src.trading.spot_bot --run          # single cycle: longs + shorts + close expired
     python -m src.trading.spot_bot --close-all    # emergency: close everything
     python -m src.trading.spot_bot --status        # show portfolio + P&L
 """
@@ -376,7 +378,7 @@ def show_status():
     shorts = [p for p in positions if p.get("direction") == "SHORT"]
 
     print(f"\n{'='*75}")
-    print(f"MARKET-NEUTRAL PORTFOLIO — {len(longs)} longs + {len(shorts)} shorts")
+    print(f"TRISHULA PORTFOLIO — {len(longs)} longs + {len(shorts)} shorts")
     print(f"{'='*75}")
 
     total_long_pnl = 0
@@ -454,7 +456,7 @@ def show_status():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="ML Spot Trading Bot")
+    parser = argparse.ArgumentParser(description="Trishula — Market-Neutral Trading Algorithm")
     parser.add_argument("--run", action="store_true", help="Run signal cycle")
     parser.add_argument("--close-all", action="store_true", help="Emergency close all")
     parser.add_argument("--status", action="store_true", help="Show portfolio status")
