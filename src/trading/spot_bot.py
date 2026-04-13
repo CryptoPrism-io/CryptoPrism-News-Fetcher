@@ -37,13 +37,13 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ── Config ──
-LONG_N = 10                   # Top N coins to go long (spot)
-SHORT_N = 10                  # Bottom N coins to short (futures)
-TARGET_DEPLOY_PCT = 0.80      # Deploy 80% of account equity per side
+LONG_N = 15                   # Top N coins to go long
+SHORT_N = 15                  # Bottom N coins to short
+TARGET_DEPLOY_PCT = 0.90      # Deploy 90% of account equity per side
 HOLD_DAYS = 3                 # Hold period matching label_3d
-MIN_SIGNAL_SCORE = -0.10      # Min score for longs (top quartile relative)
-MAX_SIGNAL_SCORE = -0.03      # Max score for shorts (bottom quartile)
-MAX_OPEN_POSITIONS = 10       # Max per side (10 long + 10 short = 20 total)
+MIN_SIGNAL_SCORE = -0.15      # Min score for longs (wider net)
+MAX_SIGNAL_SCORE = 0.00       # Max score for shorts (anything negative)
+MAX_OPEN_POSITIONS = 15       # Max per side (15 long + 15 short = 30 total)
 STOP_LOSS_PCT = -0.08         # -8% hard stop per position
 
 
