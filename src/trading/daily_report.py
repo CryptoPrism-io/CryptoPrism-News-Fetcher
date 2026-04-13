@@ -161,7 +161,7 @@ def generate_report():
 
     # Send to Telegram
     url = "https://api.telegram.org/bot%s/sendMessage" % BOT_TOKEN
-    resp = requests.post(url, json={"chat_id": CHAT_ID, "text": msg, "parse_mode": None})
+    resp = requests.post(url, json={"chat_id": CHAT_ID, "text": msg})
     if resp.json().get("ok"):
         log.info("Report sent to Telegram")
     else:
