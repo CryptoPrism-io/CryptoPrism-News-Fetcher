@@ -10,6 +10,7 @@ Usage:
 
 import argparse
 import logging
+import os
 import sys
 from datetime import datetime, timezone
 
@@ -27,9 +28,9 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", stream=sys.stdout)
 log = logging.getLogger(__name__)
 
-BOT_TOKEN = "7769310222:AAH8NOhvuo1SR1oRMu9MXjVlYmzHayFWrX8"
-CHAT_ID = "-1003788584901"
-TOPIC_ID = 1758  # TRISHULA topic in CryptoPrism.io supergroup
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+TOPIC_ID = int(os.getenv("TELEGRAM_TOPIC_ID", "0"))
 
 
 def send_telegram(text: str):
