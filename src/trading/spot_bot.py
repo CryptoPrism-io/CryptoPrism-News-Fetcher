@@ -41,12 +41,13 @@ log = logging.getLogger(__name__)
 # ── Config ──
 LONG_N = 15                   # Top N coins to go long
 SHORT_N = 15                  # Bottom N coins to short
-TARGET_DEPLOY_PCT = 0.90      # Deploy 90% of account equity per side
+TARGET_DEPLOY_PCT = 0.95      # Deploy 95% of account equity per side
 HOLD_DAYS = 3                 # Hold period matching label_3d
 MIN_SIGNAL_SCORE = -0.15      # Min score for longs (wider net)
 MAX_SIGNAL_SCORE = 0.00       # Max score for shorts (anything negative)
 MAX_OPEN_POSITIONS = 15       # Max per side (15 long + 15 short = 30 total)
 STOP_LOSS_PCT = -0.08         # -8% hard stop per position
+TAKE_PROFIT_PCT = 0.045       # +4.5% take-profit per position
 
 
 def get_open_positions(conn) -> list[dict]:
@@ -199,6 +200,19 @@ def run_signal_cycle():
                 else:
                     result = close_long(exchange, symbol, float(pos["quantity"]))
                 close_trade(conn, pos["id"], result["price"], "stop_loss")
+            except Exception as e:
+                log.error(f"  Failed to close {symbol}: {e}")
+            continue
+
+        # Check take-profit
+        if pnl_pct >= TAKE_PROFIT_PCT:
+            log.info(f"  TAKE PROFIT {pos['slug']} ({direction}): +{pnl_pct*100:.2f}%")
+            try:
+                if is_short:
+                    result = close_short(exchange, symbol, float(pos["quantity"]))
+                else:
+                    result = close_long(exchange, symbol, float(pos["quantity"]))
+                close_trade(conn, pos["id"], result["price"], "take_profit")
             except Exception as e:
                 log.error(f"  Failed to close {symbol}: {e}")
             continue
