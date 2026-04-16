@@ -284,6 +284,68 @@ def cycle_report():
     send_telegram(msg)
 
 
+# ── MONITORING: Phase 1+2 health checks (through May 7, 2026) ──
+
+def _check_monitoring_alerts(conn):
+    """Check TP deployment health, short-side P&L, and regime shifts."""
+    alerts = []
+    try:
+        cur = conn.cursor()
+
+        # 1. TP not firing? Count take_profit exits in last 48h
+        cur.execute("""
+            SELECT COUNT(*) FROM "ML_TRADES"
+            WHERE status = 'CLOSED' AND notes = 'take_profit'
+              AND exit_time >= NOW() - INTERVAL '48 hours'
+        """)
+        tp_48h = cur.fetchone()[0]
+        if tp_48h == 0:
+            alerts.append("!! NO take_profit exits in 48h — TP may not be firing")
+
+        # 2. Short-side weekly realized P&L
+        cur.execute("""
+            SELECT COALESCE(SUM(pnl_usdt), 0) FROM "ML_TRADES"
+            WHERE status = 'CLOSED' AND direction = 'SHORT'
+              AND exit_time >= NOW() - INTERVAL '7 days'
+              AND notes NOT IN ('account_reset', 'force_closed_migration_to_usdc_futures')
+        """)
+        short_week_pnl = float(cur.fetchone()[0])
+        if short_week_pnl < -50:
+            alerts.append("!! Short-side 7d P&L: $%.2f (threshold: -$50)" % short_week_pnl)
+
+        # 3. Regime shift detection
+        cur.execute("""
+            SELECT regime_state, timestamp FROM "ML_REGIME"
+            ORDER BY timestamp DESC LIMIT 2
+        """)
+        rows = cur.fetchall()
+        if len(rows) == 2:
+            current, prev = rows[0], rows[1]
+            if prev[0] == 'risk_on' and current[0] != 'risk_on':
+                alerts.append("!! REGIME SHIFT: %s -> %s — watch short performance" % (prev[0], current[0]))
+
+        # 4. Daily scorecard line (always show)
+        cur.execute("""
+            SELECT
+                COUNT(*) FILTER (WHERE notes = 'take_profit') as tp,
+                COUNT(*) FILTER (WHERE notes = 'stop_loss') as sl,
+                COUNT(*) FILTER (WHERE notes LIKE 'expiry%%') as exp,
+                COALESCE(SUM(pnl_usdt) FILTER (WHERE direction = 'BUY'), 0) as long_pnl,
+                COALESCE(SUM(pnl_usdt) FILTER (WHERE direction = 'SHORT'), 0) as short_pnl
+            FROM "ML_TRADES"
+            WHERE status = 'CLOSED' AND DATE(exit_time) = CURRENT_DATE
+              AND notes NOT IN ('account_reset', 'force_closed_migration_to_usdc_futures')
+        """)
+        r = cur.fetchone()
+        alerts.insert(0, "TODAY: TP=%d SL=%d EXP=%d | L=$%.1f S=$%.1f | S_7d=$%.1f" % (
+            r[0], r[1], r[2], float(r[3]), float(r[4]), short_week_pnl))
+
+    except Exception as e:
+        log.warning("Monitoring alerts failed: %s" % e)
+
+    return alerts
+
+
 # ── DAILY: full end-of-day report ──
 
 def generate_report():
@@ -390,6 +452,16 @@ def generate_report():
     sp = "+" if total_pnl >= 0 else ""
     lines.append("ALL TIME: %d trades, %.0f%% win rate, %s$%.2f P&L" % (total_trades, win_rate, sp, total_pnl))
     lines.append("LAST SIGNAL: %s" % (str(last_signal)[:19] if last_signal else "none"))
+
+    # ── MONITORING ALERTS (Phase 1+2: through May 7) ──
+    conn2 = get_db_conn()
+    alerts = _check_monitoring_alerts(conn2)
+    conn2.close()
+    if alerts:
+        lines.append("")
+        lines.append("ALERTS:")
+        for a in alerts:
+            lines.append("  %s" % a)
 
     msg = "\n".join(lines)
     log.info(msg)
