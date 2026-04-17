@@ -35,6 +35,10 @@ jobs:
           echo "BINANCE_API_KEY=${{ secrets.BINANCE_API_KEY }}" >> .env
           echo "BINANCE_SECRET=${{ secrets.BINANCE_SECRET }}" >> .env
           echo "BINANCE_TESTNET=true" >> .env
+          echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
+          echo "TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}" >> .env
+          echo "TELEGRAM_TOPIC_ID=${{ secrets.TELEGRAM_TOPIC_ID }}" >> .env
+          echo "TELEGRAM_PNL_TOPIC_ID=${{ secrets.TELEGRAM_PNL_TOPIC_ID }}" >> .env
           SSLMODE="${{ secrets.DB_SSLMODE }}"
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 

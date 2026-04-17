@@ -350,6 +350,27 @@ def run_signal_cycle():
     longs = sum(1 for p in open_positions if p.get("direction") == "BUY")
     shorts = sum(1 for p in open_positions if p.get("direction") == "SHORT")
     log.info(f"Portfolio: {longs} longs + {shorts} shorts = {longs + shorts} total")
+
+    # Post cycle summary to Telegram (TRISHULA topic)
+    try:
+        from src.trading.daily_report import send_telegram
+        from datetime import datetime, timezone
+        now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        bal = get_futures_balance(exchange)
+        lines = [
+            f"*TRISHULA Cycle — {now_str}*",
+            f"Regime: {regime} ({regime_conf:.2f})",
+            f"Portfolio: {longs}L + {shorts}S open",
+            f"Balance: ${bal['usdt_free']:.2f} free / ${bal['usdt_total']:.2f} total",
+        ]
+        if long_slots > 0:
+            lines.append(f"Longs opened this cycle: {bought}")
+        if short_slots > 0:
+            lines.append(f"Shorts opened this cycle: {shorted}")
+        send_telegram("\n".join(lines))
+    except Exception as _e:
+        log.warning(f"Telegram notify failed: {_e}")
+
     conn.close()
 
 

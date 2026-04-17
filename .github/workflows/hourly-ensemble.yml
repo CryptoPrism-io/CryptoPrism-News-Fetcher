@@ -2,7 +2,7 @@ name: Hourly Ensemble Signals
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours
+    - cron: '0 * * * *'  # Every hour at :00
   workflow_dispatch:
     inputs:
       date:
@@ -37,16 +37,23 @@ jobs:
           echo "DB_USER=${{ secrets.DB_USER }}" >> .env
           echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
           echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
+          echo "TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}" >> .env
+          echo "TELEGRAM_TOPIC_ID=${{ secrets.TELEGRAM_TOPIC_ID }}" >> .env
           SSLMODE="${{ secrets.DB_SSLMODE }}"
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
+      # Restore model artifact — key matches what daily-ml-signals.yml saves
       - uses: actions/cache/restore@v4
         with:
           path: artifacts/
-          key: ensemble-artifacts-
-          restore-keys: ensemble-artifacts-
+          key: lgbm-model-artifacts-${{ github.run_id }}
+          restore-keys: |
+            lgbm-model-artifacts-
+            ensemble-artifacts-
 
       - name: Run ensemble inference
+        id: inference
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
           if [ -n "$DATE_ARG" ]; then
@@ -55,18 +62,118 @@ jobs:
             python -m src.inference.hourly_signals
           fi
 
-      - name: Report status
+      - name: Monitor — signals + what bot will trade
         if: always()
         run: |
           python -c "
           from dotenv import load_dotenv; load_dotenv()
-          import os, psycopg2
-          conn = psycopg2.connect(host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+          import os, psycopg2, requests
+
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT', 5432),
               dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
-              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require'))
+              password=os.environ['DB_PASSWORD'],
+              sslmode=os.environ.get('DB_SSLMODE', 'require')
+          )
           cur = conn.cursor()
+
+          # Signal freshness
           cur.execute('SELECT COUNT(*), MAX(timestamp) FROM \"ML_SIGNALS_V2\"')
-          r = cur.fetchone()
-          print(f'ML_SIGNALS_V2: {r[0]} rows, latest: {r[1]}')
+          total_rows, latest_ts = cur.fetchone()
+
+          cur.execute('''
+              SELECT DATE(timestamp) as sig_date,
+                     COUNT(*) as n,
+                     SUM(CASE WHEN direction=1 THEN 1 ELSE 0 END) as buys,
+                     SUM(CASE WHEN direction=-1 THEN 1 ELSE 0 END) as sells,
+                     SUM(CASE WHEN direction=0 THEN 1 ELSE 0 END) as holds,
+                     MAX(regime_state) as regime
+              FROM \"ML_SIGNALS_V2\"
+              WHERE timestamp >= NOW() - INTERVAL '2 days'
+              GROUP BY DATE(timestamp)
+              ORDER BY sig_date DESC
+              LIMIT 3
+          ''')
+          recent = cur.fetchall()
+
+          # What bot would long (top 15 by score)
+          TRADEABLE = [
+              'bitcoin','ethereum','solana','xrp','bnb','dogecoin','cardano',
+              'chainlink','avalanche-2','litecoin','bitcoin-cash','uniswap',
+              'hedera-hashgraph','sui','zcash','aave','arbitrum','near',
+              'filecoin','neo','curve-dao-token','ethena','celestia',
+              'worldcoin-wld','dogwifcoin','bonk','pepe','shiba-inu','ordinals'
+          ]
+          cur.execute('''
+              SELECT slug, signal_score, direction, regime_state
+              FROM \"ML_SIGNALS_V2\"
+              WHERE DATE(timestamp) = (SELECT MAX(DATE(timestamp)) FROM \"ML_SIGNALS_V2\")
+                AND signal_score > -0.15
+                AND slug = ANY(%s)
+              ORDER BY signal_score DESC LIMIT 15
+          ''', (TRADEABLE,))
+          top_longs = cur.fetchall()
+
+          cur.execute('''
+              SELECT slug, signal_score, direction, regime_state
+              FROM \"ML_SIGNALS_V2\"
+              WHERE DATE(timestamp) = (SELECT MAX(DATE(timestamp)) FROM \"ML_SIGNALS_V2\")
+                AND signal_score < 0.0
+                AND slug = ANY(%s)
+              ORDER BY signal_score ASC LIMIT 15
+          ''', (TRADEABLE,))
+          top_shorts = cur.fetchall()
+
+          # Open positions
+          cur.execute('SELECT COUNT(*), direction FROM \"ML_TRADES\" WHERE status=\\'OPEN\\' GROUP BY direction')
+          positions = {row[1]: row[0] for row in cur.fetchall()}
+          longs_open = positions.get('BUY', 0)
+          shorts_open = positions.get('SHORT', 0)
+
+          # Compose message
+          lines = ['*TRISHULA — Signal Pulse*', f'Latest: {latest_ts} | Total rows: {total_rows}', '']
+          lines.append('*Recent Signal Days:*')
+          for r in recent:
+              lines.append(f'  {r[0]}: {r[1]} coins | B={r[2]} S={r[3]} H={r[4]} | regime={r[5]}')
+          lines.append('')
+          lines.append(f'*Portfolio:* {longs_open}L + {shorts_open}S open')
+          lines.append('')
+          lines.append(f'*Next Longs ({len(top_longs)}):* ' + ', '.join(f'{r[0]}({r[1]:+.3f})' for r in top_longs[:5]))
+          lines.append(f'*Next Shorts ({len(top_shorts)}):* ' + ', '.join(f'{r[0]}({r[1]:+.3f})' for r in top_shorts[:5]))
+
+          msg = '\n'.join(lines)
+          print(msg)
           conn.close()
+
+          # Send to Telegram
+          token = os.environ.get('TELEGRAM_BOT_TOKEN', '')
+          chat_id = os.environ.get('TELEGRAM_CHAT_ID', '')
+          topic_id = os.environ.get('TELEGRAM_TOPIC_ID', '0')
+          if token and chat_id:
+              resp = requests.post(
+                  f'https://api.telegram.org/bot{token}/sendMessage',
+                  json={'chat_id': chat_id, 'text': msg, 'message_thread_id': int(topic_id),
+                        'parse_mode': 'Markdown'}
+              )
+              print('Telegram:', resp.json().get('ok'))
           "
+
+      - name: Alert on failure
+        if: failure()
+        run: |
+          python -c "
+          import os, requests
+          token = os.environ.get('TELEGRAM_BOT_TOKEN', '')
+          chat_id = os.environ.get('TELEGRAM_CHAT_ID', '')
+          topic_id = os.environ.get('TELEGRAM_TOPIC_ID', '0')
+          if token and chat_id:
+              msg = 'TRISHULA ALERT: hourly-ensemble FAILED. Check GH Actions. No new signals written.'
+              requests.post(
+                  f'https://api.telegram.org/bot{token}/sendMessage',
+                  json={'chat_id': chat_id, 'text': msg, 'message_thread_id': int(topic_id)}
+              )
+          " || true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOPIC_ID: ${{ secrets.TELEGRAM_TOPIC_ID }}
