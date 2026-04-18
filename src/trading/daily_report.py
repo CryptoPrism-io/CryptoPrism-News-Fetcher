@@ -116,8 +116,10 @@ def hourly_pnl():
     ss = "+" if total_short_pnl >= 0 else ""
 
     lines = []
+    in_margin = bal["usdt_total"] - bal["usdt_free"]
     lines.append("ARTHASHASTRI %s" % time_str)
-    lines.append("Bal: $%.0f" % bal["usdt_total"])
+    lines.append("Bal: $%.0f free | $%.0f total | $%.0f deployed" % (
+        bal["usdt_free"], bal["usdt_total"], in_margin))
     lines.append("")
 
     # Strategy-wise P&L
@@ -207,7 +209,9 @@ def cycle_report():
     lines.append("")
 
     # Status bar
-    lines.append("BAL: $%.0f | REGIME: %s (%.0f%%)" % (bal["usdt_total"], regime.upper(), regime_conf * 100))
+    in_margin = bal["usdt_total"] - bal["usdt_free"]
+    lines.append("BAL: $%.0f free | $%.0f total | $%.0f deployed | REGIME: %s (%.0f%%)" % (
+        bal["usdt_free"], bal["usdt_total"], in_margin, regime.upper(), regime_conf * 100))
     lines.append("POSITIONS: %d L + %d S | NET: %s$%.2f" % (len(longs), len(shorts), sn, net))
     lines.append("")
 
@@ -401,7 +405,9 @@ def generate_report():
     lines = []
     lines.append("TRISHULA DAILY REPORT %s" % date_str)
     lines.append("")
-    lines.append("BALANCE: $%.2f free / $%.2f total" % (bal["usdt_free"], bal["usdt_total"]))
+    in_margin = bal["usdt_total"] - bal["usdt_free"]
+    lines.append("BALANCE: $%.2f free | $%.2f total | $%.2f deployed" % (
+        bal["usdt_free"], bal["usdt_total"], in_margin))
     lines.append("REGIME: %s (%.0f%%)" % (regime, regime_conf * 100))
     lines.append("POSITIONS: %d long + %d short = %d" % (len(longs), len(shorts), len(longs) + len(shorts)))
     lines.append("")
