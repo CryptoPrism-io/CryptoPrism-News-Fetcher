@@ -57,6 +57,57 @@ def get_open_positions(conn) -> list[dict]:
     return cur.fetchall()
 
 
+def sync_db_with_exchange(conn, exchange) -> int:
+    """
+    Close any DB positions that no longer exist on the exchange.
+    Handles testnet resets, manual closes, liquidations.
+    Returns number of positions ghost-closed.
+    """
+    from src.trading.futures_exchange import get_open_futures_positions
+    db_positions = get_open_positions(conn)
+    if not db_positions:
+        return 0
+
+    # Build set of (symbol, side) actually open on exchange
+    exchange_positions = get_open_futures_positions(exchange)
+    live = {(p["symbol"], p["side"]) for p in exchange_positions}
+
+    ghost_closed = 0
+    now = datetime.now(timezone.utc)
+    for pos in db_positions:
+        symbol = pos["symbol"]
+        direction = pos.get("direction", "BUY")
+        exchange_side = "SHORT" if direction == "SHORT" else "LONG"
+        if (symbol, exchange_side) not in live:
+            # Position no longer on exchange — close it in DB at current price
+            try:
+                exit_price = get_futures_price(exchange, symbol)
+            except Exception:
+                exit_price = float(pos["entry_price"])
+            entry = float(pos["entry_price"])
+            qty = float(pos["quantity"])
+            if direction == "SHORT":
+                pnl_pct = (entry - exit_price) / entry
+                pnl_usdt = (entry - exit_price) * qty
+            else:
+                pnl_pct = (exit_price - entry) / entry
+                pnl_usdt = (exit_price - entry) * qty
+            with conn.cursor() as cur:
+                cur.execute('''
+                    UPDATE "ML_TRADES" SET
+                        status = 'CLOSED', exit_price = %s, exit_time = %s,
+                        pnl_usdt = %s, pnl_pct = %s, notes = 'exchange_reset'
+                    WHERE id = %s
+                ''', (exit_price, now, round(pnl_usdt, 4), round(pnl_pct, 6), pos["id"]))
+            conn.commit()
+            log.warning(f"  GHOST-CLOSED {pos['slug']} ({direction}): not on exchange, pnl={pnl_pct*100:+.2f}%")
+            ghost_closed += 1
+
+    if ghost_closed:
+        log.warning(f"Synced {ghost_closed} ghost position(s) from DB (exchange reset or external close)")
+    return ghost_closed
+
+
 def get_long_signals(conn, n: int = LONG_N) -> list[dict]:
     """Get top-N coins by signal score for LONG (futures). Relative outperformers."""
     tradeable_slugs = list(SLUG_TO_FUTURES_SYMBOL.keys())
@@ -144,6 +195,9 @@ def run_signal_cycle():
 
     exchange = build_futures_exchange()
     conn = get_db_conn()
+
+    # Step 0: Sync DB with exchange (handles resets, external closes, liquidations)
+    sync_db_with_exchange(conn, exchange)
 
     # Get active model dynamically
     active = get_active_model(conn)
