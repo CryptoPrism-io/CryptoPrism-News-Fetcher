@@ -408,7 +408,6 @@ def run_signal_cycle():
     # Post cycle summary to Telegram (TRISHULA topic)
     try:
         from src.trading.daily_report import send_telegram
-        from datetime import datetime, timezone
         now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         bal = get_futures_balance(exchange)
         lines = [
