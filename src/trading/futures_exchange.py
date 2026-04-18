@@ -95,7 +95,7 @@ def build_futures_exchange() -> ccxt.binanceusdm:
         exchange.load_markets()
         balance = exchange.fetch_balance()
         usdt = float(balance.get("USDC", {}).get("free", 0))
-        log.info(f"Futures USDT balance: {usdt:.2f}")
+        log.info(f"Futures USDC balance: {usdt:.2f}")
     except Exception as e:
         log.warning(f"Could not fetch futures balance: {e}")
 
@@ -241,7 +241,7 @@ def close_short(exchange: ccxt.binanceusdm, symbol: str, qty: float) -> dict:
 
 
 def get_futures_balance(exchange: ccxt.binanceusdm) -> dict:
-    """Get futures USDT balance."""
+    """Get futures USDC balance."""
     balance = exchange.fetch_balance()
     return {
         "usdt_free": float(balance.get("USDC", {}).get("free", 0)),

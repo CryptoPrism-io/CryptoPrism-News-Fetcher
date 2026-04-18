@@ -414,7 +414,7 @@ def run_signal_cycle():
             f"*TRISHULA Cycle — {now_str}*",
             f"Regime: {regime} ({regime_conf:.2f})",
             f"Portfolio: {longs}L + {shorts}S open",
-            f"Balance: ${bal['usdt_free']:.2f} free / ${bal['usdt_total']:.2f} total",
+            f"Balance: {bal['usdt_free']:.2f} USDC free | {bal['usdt_total']:.2f} USDC total | {bal['usdt_total']-bal['usdt_free']:.2f} deployed",
         ]
         if long_slots > 0:
             lines.append(f"Longs opened this cycle: {bought}")
@@ -517,10 +517,10 @@ def show_status():
 
     # Balances
     spot_bal = get_balance(spot_exchange)
-    print(f"\n  Spot USDT:    ${spot_bal['usdt_free']:.2f}")
+    print(f"\n  Spot USDC:    ${spot_bal['usdt_free']:.2f}")
     if futures_exchange:
         fut_bal = get_futures_balance(futures_exchange)
-        print(f"  Futures USDT: ${fut_bal['usdt_free']:.2f}")
+        print(f"  Futures USDC: ${fut_bal['usdt_free']:.2f}")
 
     # Recent closed trades
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
