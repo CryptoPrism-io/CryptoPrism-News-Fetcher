@@ -34,6 +34,8 @@ jobs:
           echo "DB_BACKTEST_NAME=cp_backtest" >> .env
           echo "BINANCE_API_KEY=${{ secrets.BINANCE_API_KEY }}" >> .env
           echo "BINANCE_SECRET=${{ secrets.BINANCE_SECRET }}" >> .env
+          echo "BINANCE_FUTURES_API_KEY=${{ secrets.BINANCE_FUTURES_API_KEY }}" >> .env
+          echo "BINANCE_FUTURES_SECRET=${{ secrets.BINANCE_FUTURES_SECRET }}" >> .env
           echo "BINANCE_TESTNET=true" >> .env
           echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
           echo "TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}" >> .env
