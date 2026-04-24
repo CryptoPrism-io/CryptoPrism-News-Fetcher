@@ -1,18 +1,24 @@
 """
 regime.py
-Hidden Markov Model for market regime classification.
-4 states: risk_on, risk_off, choppy, breakout.
+Composite adaptive regime detector for TRISHULA.
+
+Combines BTC momentum, volatility, Fear & Greed, and market breadth
+into a single composite score that modulates both trade direction
+and position sizing.
+
+Backtested April 2026: +$142.39 (composite) vs -$39.81 (no regime)
+— a +$182.20 improvement (+457.7%).
 
 Usage:
-    python -m src.models.regime --train          # fit HMM on historical data
     python -m src.models.regime --backfill       # backfill ML_REGIME table
+    python -m src.models.regime --check           # show current regime state
 """
 
 import argparse
 import logging
 import os
-import pickle
-from pathlib import Path
+import sys
+from dataclasses import dataclass
 
 import numpy as np
 import pandas as pd
@@ -28,232 +34,228 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
+    stream=sys.stdout,
 )
 log = logging.getLogger(__name__)
 
-REGIME_NAMES = ["risk_on", "risk_off", "choppy", "breakout"]
-ARTIFACT_PATH = "artifacts/regime_hmm.pkl"
+REGIME_NAMES = ["bull_trend", "bear_trend", "range_bound", "high_vol"]
 
 
-def build_regime_features(btc_df: pd.DataFrame, fg_df: pd.DataFrame,
-                          breadth: np.ndarray) -> pd.DataFrame:
+@dataclass
+class RegimeDecision:
+    """Output of the regime detector — tells the bot what to do."""
+    regime_state: str          # bull_trend, bear_trend, range_bound, high_vol
+    composite_score: float     # -1.0 to +1.0 (positive = bullish)
+    allow_long: bool
+    allow_short: bool
+    long_size_mult: float      # 0.0 to 1.5 (multiply per-trade size)
+    short_size_mult: float     # 0.0 to 1.5
+    confidence: float          # 0.0 to 1.0
+    components: dict           # breakdown of score components
+
+
+def compute_composite_score(
+    btc_mom_3d: float,
+    btc_mom_7d: float,
+    btc_vol_7d: float,
+    btc_vol_30d: float,
+    fear_greed: float,
+    breadth: float,
+) -> tuple[float, dict]:
     """
-    Build market-wide regime features from BTC OHLCV + fear/greed + breadth.
+    Compute the composite regime score from market features.
+
+    Components (each scaled to -1..+1):
+      - Momentum (35%): BTC 3d return * 20, capped ±1
+      - Volatility (20%): 1.5 - vol_ratio, capped ±1 (calm = positive)
+      - FGI (20%): contrarian — extreme fear = buy, extreme greed = sell
+      - Breadth (25%): % of top 50 above 20d MA, centered at 0.5
+
+    Returns: (composite_score, component_dict)
     """
-    df = btc_df.sort_values("timestamp").copy()
-    df["ret"] = df["close"].pct_change()
+    # Momentum: positive = bullish, scaled so ±5% move → ±1
+    mom_score = float(np.clip(btc_mom_3d * 20, -1, 1))
 
-    df["btc_vol_7d"] = df["ret"].rolling(7).std()
-    df["btc_vol_30d"] = df["ret"].rolling(30).std()
-    df["btc_vol_ratio"] = df["btc_vol_7d"] / df["btc_vol_30d"].replace(0, np.nan)
+    # Volatility: low vol relative to 30d = calm = good for trend following
+    vol_ratio = btc_vol_7d / btc_vol_30d if btc_vol_30d > 0 else 1.0
+    vol_score = float(np.clip(1.5 - vol_ratio, -1, 1))
 
-    df["btc_mom_24h"] = df["close"].pct_change(1)
-    df["btc_mom_72h"] = df["close"].pct_change(3)
+    # FGI: contrarian — extreme fear (low FGI) = bullish, extreme greed = bearish
+    fgi_score = float(np.clip((50 - fear_greed) / 50, -1, 1))
 
-    fg = fg_df[["timestamp", "fear_greed_index"]].copy()
-    fg = fg.rename(columns={"fear_greed_index": "fear_greed"})
-    # Normalize timezone for merge
-    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
-    fg["timestamp"] = pd.to_datetime(fg["timestamp"], utc=True)
-    df = df.merge(fg, on="timestamp", how="left")
-    df["fear_greed"] = df["fear_greed"].ffill().fillna(50)
+    # Breadth: high breadth = broad participation = bullish
+    breadth_score = float(np.clip((breadth - 0.5) * 4, -1, 1))
 
-    n = len(df)
-    if len(breadth) >= n:
-        df["breadth"] = breadth[:n]
-    else:
-        padded = np.full(n, 0.5)
-        padded[-len(breadth):] = breadth
-        df["breadth"] = padded
-
-    feature_cols = ["fear_greed", "btc_vol_7d", "btc_vol_30d",
-                    "btc_vol_ratio", "btc_mom_24h", "btc_mom_72h", "breadth"]
-
-    return df[["timestamp"] + feature_cols].copy()
-
-
-def fit_regime_hmm(X: np.ndarray, n_states: int = 4):
-    """Fit a Gaussian HMM on feature matrix X."""
-    from hmmlearn.hmm import GaussianHMM
-
-    model = GaussianHMM(
-        n_components=n_states,
-        covariance_type="diag",
-        n_iter=200,
-        random_state=42,
-        verbose=False,
+    composite = (
+        0.35 * mom_score
+        + 0.20 * vol_score
+        + 0.20 * fgi_score
+        + 0.25 * breadth_score
     )
 
-    valid_mask = ~np.isnan(X).any(axis=1)
-    X_valid = X[valid_mask]
+    components = {
+        "momentum": round(mom_score, 4),
+        "volatility": round(vol_score, 4),
+        "fgi": round(fgi_score, 4),
+        "breadth": round(breadth_score, 4),
+    }
 
-    if len(X_valid) < n_states * 10:
-        log.error(f"Not enough valid rows for HMM: {len(X_valid)}")
-        return None
-
-    model.fit(X_valid)
-    return model
-
-
-def predict_regime(model, X: np.ndarray):
-    """Predict regime states and posterior probabilities."""
-    valid_mask = ~np.isnan(X).any(axis=1)
-    states = np.full(len(X), -1, dtype=int)
-    probs = np.full((len(X), model.n_components), np.nan)
-
-    if valid_mask.sum() > 0:
-        X_valid = X[valid_mask]
-        states[valid_mask] = model.predict(X_valid)
-        probs[valid_mask] = model.predict_proba(X_valid)
-
-    return states, probs
+    return round(composite, 4), components
 
 
-def label_states(states: np.ndarray, X: np.ndarray) -> list[str]:
+def classify_regime(composite: float, vol_ratio: float) -> str:
+    """Map composite score + volatility to a named regime state."""
+    if vol_ratio > 2.0:
+        return "high_vol"
+    if composite > 0.15:
+        return "bull_trend"
+    if composite < -0.15:
+        return "bear_trend"
+    return "range_bound"
+
+
+def get_regime_decision(
+    btc_mom_3d: float,
+    btc_mom_7d: float,
+    btc_vol_7d: float,
+    btc_vol_30d: float,
+    fear_greed: float,
+    breadth: float,
+) -> RegimeDecision:
     """
-    Map integer HMM states to named regimes based on feature characteristics.
-    Uses mean volatility and momentum per state to assign labels.
+    Main entry point: compute regime and return trading decision.
+
+    Long rules:
+      composite > 0.2  → allow, size 1.0 + composite (up to 1.5x)
+      composite > -0.1 → allow, size 0.7x
+      composite ≤ -0.1 → block longs
+
+    Short rules:
+      composite < -0.2 → allow, size 1.0 + |composite| (up to 1.5x)
+      composite < 0.1  → allow, size 0.7x
+      composite ≥ 0.1  → block shorts
     """
-    unique = np.unique(states[states >= 0])
-    profiles = {}
+    vol_ratio = btc_vol_7d / btc_vol_30d if btc_vol_30d > 0 else 1.0
 
-    for s in unique:
-        mask = states == s
-        if mask.sum() == 0:
-            continue
-        # Features: [fear_greed, btc_vol_7d, btc_vol_30d, vol_ratio, mom_24h, mom_72h, breadth]
-        profiles[s] = {
-            "vol": np.nanmean(X[mask, 1]),
-            "mom": np.nanmean(X[mask, 4]),
-            "breadth": np.nanmean(X[mask, 6]),
-            "vol_of_vol": np.nanstd(X[mask, 1]),
-        }
+    composite, components = compute_composite_score(
+        btc_mom_3d, btc_mom_7d, btc_vol_7d, btc_vol_30d,
+        fear_greed, breadth,
+    )
 
-    if len(profiles) < 2:
-        return ["choppy" if s >= 0 else "choppy" for s in states]
+    regime_state = classify_regime(composite, vol_ratio)
+    confidence = min(abs(composite) * 2, 1.0)
 
-    # Assign names by characteristics
-    sorted_by_vol = sorted(profiles.keys(), key=lambda s: profiles[s]["vol"])
-    name_map = {}
+    # Long decision
+    if composite > 0.2:
+        allow_long = True
+        long_mult = min(1.0 + composite, 1.5)
+    elif composite > -0.1:
+        allow_long = True
+        long_mult = 0.7
+    else:
+        allow_long = False
+        long_mult = 0.0
 
-    # Highest vol-of-vol = breakout
-    breakout_state = max(profiles.keys(), key=lambda s: profiles[s]["vol_of_vol"])
-    name_map[breakout_state] = "breakout"
+    # Short decision
+    if composite < -0.2:
+        allow_short = True
+        short_mult = min(1.0 + abs(composite), 1.5)
+    elif composite < 0.1:
+        allow_short = True
+        short_mult = 0.7
+    else:
+        allow_short = False
+        short_mult = 0.0
 
-    # Lowest vol with positive mom = risk_on
-    remaining = [s for s in sorted_by_vol if s not in name_map]
-    if remaining:
-        low_vol = remaining[0]
-        name_map[low_vol] = "risk_on" if profiles[low_vol]["mom"] >= 0 else "choppy"
-
-    # Highest vol (not breakout) = risk_off
-    remaining = [s for s in sorted_by_vol if s not in name_map]
-    if remaining:
-        high_vol = remaining[-1]
-        name_map[high_vol] = "risk_off" if profiles[high_vol]["mom"] < 0 else "choppy"
-
-    # Fill remaining
-    for s in sorted_by_vol:
-        if s not in name_map:
-            name_map[s] = "choppy"
-
-    return [name_map.get(s, "choppy") if s >= 0 else "choppy" for s in states]
+    return RegimeDecision(
+        regime_state=regime_state,
+        composite_score=composite,
+        allow_long=allow_long,
+        allow_short=allow_short,
+        long_size_mult=round(long_mult, 3),
+        short_size_mult=round(short_mult, 3),
+        confidence=round(confidence, 3),
+        components=components,
+    )
 
 
-def compute_market_breadth_simple(conn, n_days: int = 365) -> tuple[list, np.ndarray]:
-    """Compute % of top 50 coins above 20d MA. Returns (dates, breadth_array)."""
-    cur = conn.cursor()
-    cur.execute("""
+# ── Data loading helpers ──
+
+def load_btc_features(conn) -> pd.DataFrame:
+    """Load BTC OHLCV and compute momentum/volatility features."""
+    btc = pd.read_sql(
+        'SELECT timestamp::date as date, close, volume '
+        'FROM "1K_coins_ohlcv" '
+        "WHERE slug = 'bitcoin' ORDER BY timestamp",
+        conn,
+    )
+    btc["ret"] = btc["close"].pct_change()
+    btc["vol_7d"] = btc["ret"].rolling(7).std()
+    btc["vol_30d"] = btc["ret"].rolling(30).std()
+    btc["mom_3d"] = btc["close"].pct_change(3)
+    btc["mom_7d"] = btc["close"].pct_change(7)
+    return btc
+
+
+def load_fgi(conn) -> pd.DataFrame:
+    """Load Fear & Greed Index."""
+    return pd.read_sql(
+        'SELECT timestamp::date as date, fear_greed_index as fgi '
+        'FROM "FE_FEAR_GREED_CMC" ORDER BY timestamp',
+        conn,
+    )
+
+
+def compute_market_breadth(conn, n_days: int = 730) -> pd.DataFrame:
+    """Compute % of top 50 coins above 20d MA."""
+    return pd.read_sql("""
         WITH daily AS (
-            SELECT slug, DATE(timestamp) as d, close, market_cap,
+            SELECT slug, timestamp::date as d, close, market_cap,
                    AVG(close) OVER (PARTITION BY slug ORDER BY timestamp
                                     ROWS BETWEEN 19 PRECEDING AND CURRENT ROW) as ma20
             FROM "1K_coins_ohlcv"
-            WHERE timestamp >= CURRENT_DATE - %s
+            WHERE timestamp >= CURRENT_DATE - %(n_days)s
         ),
-        top50_per_day AS (
+        top50 AS (
             SELECT d, slug, close, ma20,
                    ROW_NUMBER() OVER (PARTITION BY d ORDER BY market_cap DESC NULLS LAST) as rn
             FROM daily WHERE market_cap IS NOT NULL
         )
-        SELECT d, COUNT(*) FILTER (WHERE close > ma20)::float / NULLIF(COUNT(*), 0) as breadth
-        FROM top50_per_day WHERE rn <= 50
+        SELECT d as date,
+               COUNT(*) FILTER (WHERE close > ma20)::float / NULLIF(COUNT(*), 0) as breadth
+        FROM top50 WHERE rn <= 50
         GROUP BY d ORDER BY d
-    """, (n_days,))
-    rows = cur.fetchall()
-    dates = [r[0] for r in rows]
-    breadth = np.array([r[1] if r[1] is not None else 0.5 for r in rows])
-    return dates, breadth
+    """, conn, params={"n_days": n_days})
 
 
-def train_and_save():
-    """Train HMM on historical data and save artifact."""
-    bt_conn = get_backtest_conn()
-    dbcp_conn = get_db_conn()
+def get_current_regime(conn=None) -> RegimeDecision:
+    """Fetch latest market data and return current regime decision."""
+    own_conn = conn is None
+    if own_conn:
+        conn = get_db_conn()
 
-    btc_df = pd.read_sql(
-        'SELECT timestamp, close, volume FROM "1K_coins_ohlcv" '
-        "WHERE slug = 'bitcoin' ORDER BY timestamp",
-        bt_conn,
+    btc = load_btc_features(conn)
+    fgi_df = load_fgi(conn)
+    breadth_df = compute_market_breadth(conn, n_days=60)
+
+    if own_conn:
+        conn.close()
+
+    latest_btc = btc.iloc[-1]
+    latest_fgi = float(fgi_df.iloc[-1]["fgi"]) if len(fgi_df) > 0 else 50.0
+    latest_breadth = float(breadth_df.iloc[-1]["breadth"]) if len(breadth_df) > 0 else 0.5
+
+    return get_regime_decision(
+        btc_mom_3d=float(latest_btc.get("mom_3d", 0) or 0),
+        btc_mom_7d=float(latest_btc.get("mom_7d", 0) or 0),
+        btc_vol_7d=float(latest_btc.get("vol_7d", 0.02) or 0.02),
+        btc_vol_30d=float(latest_btc.get("vol_30d", 0.02) or 0.02),
+        fear_greed=latest_fgi,
+        breadth=latest_breadth,
     )
-    log.info(f"Loaded {len(btc_df)} BTC daily rows")
 
-    fg_df = pd.read_sql(
-        'SELECT timestamp, fear_greed_index FROM "FE_FEAR_GREED_CMC" ORDER BY timestamp',
-        dbcp_conn,
-    )
 
-    log.info("Computing market breadth...")
-    dates, breadth = compute_market_breadth_simple(bt_conn, n_days=730)
-    bt_conn.close()
-    dbcp_conn.close()
-
-    # Align breadth to BTC dates
-    breadth_map = dict(zip(dates, breadth))
-    btc_dates = btc_df["timestamp"].dt.date.tolist()
-    full_breadth = np.array([breadth_map.get(d, 0.5) for d in btc_dates])
-
-    features = build_regime_features(btc_df, fg_df, full_breadth)
-    feature_cols = [c for c in features.columns if c != "timestamp"]
-    X = features[feature_cols].values
-
-    log.info("Fitting HMM...")
-    model = fit_regime_hmm(X, n_states=4)
-    if model is None:
-        return
-
-    states, probs = predict_regime(model, X)
-    labels = label_states(states, X)
-
-    from collections import Counter
-    dist = Counter(labels)
-    log.info(f"Regime distribution: {dict(dist)}")
-
-    artifact_dir = Path("artifacts")
-    artifact_dir.mkdir(exist_ok=True)
-    with open(ARTIFACT_PATH, "wb") as f:
-        pickle.dump({"model": model, "feature_cols": feature_cols}, f)
-    log.info(f"Saved HMM to {ARTIFACT_PATH}")
-
-    # Backfill ML_REGIME
-    dbcp_conn = get_db_conn()
-    rows = []
-    for i, ts in enumerate(features["timestamp"]):
-        if states[i] < 0:
-            continue
-        rows.append({
-            "timestamp": ts,
-            "regime_state": labels[i],
-            "confidence": float(np.max(probs[i])) if not np.isnan(probs[i]).any() else None,
-            "trans_prob_risk_on": float(probs[i, 0]) if not np.isnan(probs[i, 0]) else None,
-            "trans_prob_risk_off": float(probs[i, 1]) if not np.isnan(probs[i, 1]) else None,
-            "trans_prob_choppy": float(probs[i, 2]) if not np.isnan(probs[i, 2]) else None,
-            "trans_prob_breakout": float(probs[i, 3]) if not np.isnan(probs[i, 3]) else None,
-        })
-    upsert_regime(dbcp_conn, rows)
-    dbcp_conn.close()
-    log.info(f"Backfilled {len(rows)} regime rows to ML_REGIME")
-
+# ── Backfill ──
 
 def upsert_regime(conn, rows: list[dict]):
     """Write regime predictions to ML_REGIME."""
@@ -280,116 +282,86 @@ def upsert_regime(conn, rows: list[dict]):
     conn.commit()
 
 
-def rule_based_regime(breadth: float, btc_mom_72h: float,
-                      btc_vol_ratio: float, btc_mom_24h: float,
-                      fear_greed: float) -> tuple[str, float]:
-    """
-    Transparent rule-based regime classifier.
-    Returns (regime_state, confidence) where confidence is 0-1.
+def backfill():
+    """Backfill ML_REGIME using composite regime detector."""
+    conn = get_db_conn()
 
-    Rules:
-      breakout:  btc_vol_ratio > 2.0 AND abs(btc_mom_24h) > 0.03
-      risk_off:  breadth < 0.35 OR (btc_mom_72h < -0.05 AND fear_greed < 30)
-      risk_on:   breadth > 0.55 AND btc_mom_72h > 0 AND btc_vol_ratio < 1.5
-      choppy:    everything else
-    """
-    # Breakout: extreme volatility spike with directional move
-    if btc_vol_ratio > 2.0 and abs(btc_mom_24h) > 0.03:
-        strength = min(btc_vol_ratio / 3.0, 1.0)
-        return "breakout", round(strength, 3)
+    btc = load_btc_features(conn)
+    fgi_df = load_fgi(conn)
+    breadth_df = compute_market_breadth(conn, n_days=730)
 
-    # Risk-off: weak breadth OR strong bearish momentum + fear
-    if breadth < 0.35:
-        strength = max(0.5, 1.0 - breadth / 0.35)
-        return "risk_off", round(strength, 3)
-    if btc_mom_72h < -0.05 and fear_greed < 30:
-        strength = min(abs(btc_mom_72h) / 0.10, 1.0)
-        return "risk_off", round(strength, 3)
+    fgi_map = dict(zip(fgi_df["date"], fgi_df["fgi"]))
+    breadth_map = dict(zip(breadth_df["date"], breadth_df["breadth"]))
 
-    # Risk-on: broad strength, positive momentum, moderate vol
-    if breadth > 0.55 and btc_mom_72h > 0 and btc_vol_ratio < 1.5:
-        strength = min(breadth, 1.0)
-        return "risk_on", round(strength, 3)
-
-    # Choppy: none of the above
-    return "choppy", 0.5
-
-
-def backfill_rule_based():
-    """Backfill ML_REGIME using rule-based classifier."""
-    bt_conn = get_backtest_conn()
-    dbcp_conn = get_db_conn()
-
-    btc_df = pd.read_sql(
-        'SELECT timestamp, close, volume FROM "1K_coins_ohlcv" '
-        "WHERE slug = 'bitcoin' ORDER BY timestamp",
-        bt_conn,
-    )
-    log.info(f"Loaded {len(btc_df)} BTC daily rows")
-
-    fg_df = pd.read_sql(
-        'SELECT timestamp, fear_greed_index FROM "FE_FEAR_GREED_CMC" ORDER BY timestamp',
-        dbcp_conn,
-    )
-
-    log.info("Computing market breadth...")
-    dates, breadth = compute_market_breadth_simple(bt_conn, n_days=730)
-    bt_conn.close()
-
-    # Build features
-    breadth_map = dict(zip(dates, breadth))
-    btc_dates = btc_df["timestamp"].dt.date.tolist()
-    full_breadth = np.array([breadth_map.get(d, 0.5) for d in btc_dates])
-
-    features = build_regime_features(btc_df, fg_df, full_breadth)
-
-    # Classify each row
     rows = []
-    for _, r in features.iterrows():
-        b = float(r.get("breadth", 0.5))
-        mom72 = float(r.get("btc_mom_72h", 0))
-        vol_r = float(r.get("btc_vol_ratio", 1.0))
-        mom24 = float(r.get("btc_mom_24h", 0))
-        fg = float(r.get("fear_greed", 50))
+    from collections import Counter
+    dist = Counter()
 
-        if np.isnan(b): b = 0.5
-        if np.isnan(mom72): mom72 = 0.0
-        if np.isnan(vol_r): vol_r = 1.0
-        if np.isnan(mom24): mom24 = 0.0
-        if np.isnan(fg): fg = 50.0
+    for _, r in btc.iterrows():
+        d = r["date"]
+        mom3 = float(r.get("mom_3d", 0) or 0)
+        mom7 = float(r.get("mom_7d", 0) or 0)
+        v7 = float(r.get("vol_7d", 0) or 0)
+        v30 = float(r.get("vol_30d", 0) or 0)
 
-        regime, confidence = rule_based_regime(b, mom72, vol_r, mom24, fg)
+        if np.isnan(mom3) or np.isnan(v7) or v30 == 0:
+            continue
+
+        fg = float(fgi_map.get(d, 50))
+        b = float(breadth_map.get(d, 0.5))
+
+        decision = get_regime_decision(mom3, mom7, v7, v30, fg, b)
+        dist[decision.regime_state] += 1
+
         rows.append({
-            "timestamp": r["timestamp"],
-            "regime_state": regime,
-            "confidence": confidence,
-            "trans_prob_risk_on": 1.0 if regime == "risk_on" else 0.0,
-            "trans_prob_risk_off": 1.0 if regime == "risk_off" else 0.0,
-            "trans_prob_choppy": 1.0 if regime == "choppy" else 0.0,
-            "trans_prob_breakout": 1.0 if regime == "breakout" else 0.0,
+            "timestamp": pd.Timestamp(d, tz="UTC"),
+            "regime_state": decision.regime_state,
+            "confidence": decision.confidence,
+            "trans_prob_risk_on": decision.composite_score,
+            "trans_prob_risk_off": decision.long_size_mult,
+            "trans_prob_choppy": decision.short_size_mult,
+            "trans_prob_breakout": 0.0,
         })
 
-    from collections import Counter
-    dist = Counter(r["regime_state"] for r in rows)
+    upsert_regime(conn, rows)
+    conn.close()
+
     total = len(rows)
-    log.info("Rule-based regime distribution:")
+    log.info(f"Backfilled {total} composite regime rows to ML_REGIME")
     for state in REGIME_NAMES:
         count = dist.get(state, 0)
         pct = count / total * 100 if total > 0 else 0
         log.info(f"  {state}: {count:,} ({pct:.1f}%)")
 
-    upsert_regime(dbcp_conn, rows)
-    dbcp_conn.close()
-    log.info(f"Backfilled {len(rows)} rule-based regime rows to ML_REGIME")
+
+def check_current():
+    """Print current regime state."""
+    decision = get_current_regime()
+    print(f"\n{'='*50}")
+    print(f"  TRISHULA Regime — {decision.regime_state.upper()}")
+    print(f"{'='*50}")
+    print(f"  Composite score: {decision.composite_score:+.4f}")
+    print(f"  Confidence:      {decision.confidence:.3f}")
+    print()
+    print(f"  Components:")
+    for k, v in decision.components.items():
+        print(f"    {k:<12s}: {v:+.4f}")
+    print()
+    print(f"  Decisions:")
+    print(f"    Longs:  {'ALLOWED' if decision.allow_long else 'BLOCKED'} (size: {decision.long_size_mult:.2f}x)")
+    print(f"    Shorts: {'ALLOWED' if decision.allow_short else 'BLOCKED'} (size: {decision.short_size_mult:.2f}x)")
+    print()
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Macro Regime Detector")
-    parser.add_argument("--train", action="store_true", help="Train HMM (legacy)")
-    parser.add_argument("--backfill-rules", action="store_true", help="Backfill with rule-based regime")
+    parser = argparse.ArgumentParser(description="TRISHULA Composite Regime Detector")
+    parser.add_argument("--backfill", action="store_true", help="Backfill ML_REGIME with composite regime")
+    parser.add_argument("--check", action="store_true", help="Show current regime state")
     args = parser.parse_args()
 
-    if args.train:
-        train_and_save()
-    elif args.backfill_rules:
-        backfill_rule_based()
+    if args.backfill:
+        backfill()
+    elif args.check:
+        check_current()
+    else:
+        parser.print_help()

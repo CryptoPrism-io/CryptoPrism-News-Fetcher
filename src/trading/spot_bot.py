@@ -207,16 +207,21 @@ def run_signal_cycle():
     bal = get_futures_balance(exchange)
     log.info(f"USDC balance: ${bal['usdt_free']:.2f} free, ${bal['usdt_total']:.2f} total")
 
-    # 1. Check regime
-    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-    cur.execute('SELECT regime_state, confidence FROM "ML_REGIME" ORDER BY timestamp DESC LIMIT 1')
-    regime_row = cur.fetchone()
-    regime = regime_row["regime_state"] if regime_row else "choppy"
-    regime_conf = float(regime_row["confidence"]) if regime_row else 0.5
-    log.info(f"Regime: {regime} (confidence={regime_conf:.2f})")
+    # 1. Compute composite regime
+    from src.models.regime import get_current_regime
+    regime_decision = get_current_regime(conn)
+    regime = regime_decision.regime_state
+    regime_conf = regime_decision.confidence
+    log.info(
+        f"Regime: {regime} (score={regime_decision.composite_score:+.4f}, conf={regime_conf:.2f}) "
+        f"| L={'OK' if regime_decision.allow_long else 'BLOCK'}({regime_decision.long_size_mult:.2f}x) "
+        f"S={'OK' if regime_decision.allow_short else 'BLOCK'}({regime_decision.short_size_mult:.2f}x)"
+    )
+    for comp, val in regime_decision.components.items():
+        log.info(f"  {comp}: {val:+.4f}")
 
-    if regime == "risk_off":
-        log.info("RISK-OFF regime — skipping new entries, checking exits only")
+    if not regime_decision.allow_long and not regime_decision.allow_short:
+        log.info("Regime blocks all entries — checking exits only")
 
     # 2. Close expired positions
     open_positions = get_open_positions(conn)
@@ -287,8 +292,8 @@ def run_signal_cycle():
         tag = "SHORT" if is_short else "LONG"
         log.info(f"  HOLD {pos['slug']} ({tag}): day {days_held}/{pos['hold_days']}, P&L={pnl_pct*100:+.2f}%")
 
-    # 3. Open new positions (skip if risk-off)
-    if regime == "risk_off":
+    # 3. Open new positions (skip if regime blocks all)
+    if not regime_decision.allow_long and not regime_decision.allow_short:
         conn.close()
         return
 
@@ -299,19 +304,19 @@ def run_signal_cycle():
 
     # ── LONG LEG (futures) ──
     long_slots = MAX_OPEN_POSITIONS - long_count
-    if long_slots > 0:
+    if long_slots > 0 and regime_decision.allow_long:
         long_signals = get_long_signals(conn, LONG_N)
         usdc_bal = get_futures_balance(exchange)
         usdc_free = usdc_bal["usdt_free"]
         total_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions)
         total_equity = usdc_free + total_deployed
         long_deployed = sum(float(p.get("usdt_size", 0) or 0) for p in open_positions if p.get("direction") == "BUY")
-        # Each side gets half the equity
         long_target = (total_equity / 2) * TARGET_DEPLOY_PCT
         to_deploy = max(0, long_target - long_deployed)
         per_trade = max(to_deploy / max(long_slots, 1), 12)
+        per_trade *= regime_decision.long_size_mult
 
-        log.info(f"LONGS: equity=${total_equity/2:.0f} deployed=${long_deployed:.0f} per_trade=${per_trade:.0f} slots={long_slots}")
+        log.info(f"LONGS: equity=${total_equity/2:.0f} deployed=${long_deployed:.0f} per_trade=${per_trade:.0f} slots={long_slots} (regime {regime_decision.long_size_mult:.2f}x)")
 
         bought = 0
         for sig in long_signals:
@@ -347,12 +352,16 @@ def run_signal_cycle():
             except Exception as e:
                 log.error(f"  Failed to buy {slug}: {e}")
         log.info(f"  Opened {bought} longs")
+    elif not regime_decision.allow_long:
+        log.info(f"LONGS: blocked by regime (score={regime_decision.composite_score:+.4f})")
+        bought = 0
     else:
         log.info(f"LONGS: max positions ({MAX_OPEN_POSITIONS}) reached")
+        bought = 0
 
     # ── SHORT LEG (futures) ──
     short_slots = MAX_OPEN_POSITIONS - short_count
-    if short_slots > 0:
+    if short_slots > 0 and regime_decision.allow_short:
         short_signals = get_short_signals(conn, SHORT_N)
         usdc_bal = get_futures_balance(exchange)
         usdc_free = usdc_bal["usdt_free"]
@@ -360,8 +369,9 @@ def run_signal_cycle():
         short_target = (total_equity / 2) * TARGET_DEPLOY_PCT
         to_deploy = max(0, short_target - short_deployed)
         per_trade = max(to_deploy / max(short_slots, 1), 12)
+        per_trade *= regime_decision.short_size_mult
 
-        log.info(f"SHORTS: equity=${total_equity/2:.0f} deployed=${short_deployed:.0f} per_trade=${per_trade:.0f} slots={short_slots}")
+        log.info(f"SHORTS: equity=${total_equity/2:.0f} deployed=${short_deployed:.0f} per_trade=${per_trade:.0f} slots={short_slots} (regime {regime_decision.short_size_mult:.2f}x)")
 
         shorted = 0
         for sig in short_signals:
@@ -397,8 +407,12 @@ def run_signal_cycle():
             except Exception as e:
                 log.error(f"  Failed to short {slug}: {e}")
         log.info(f"  Opened {shorted} shorts")
+    elif not regime_decision.allow_short:
+        log.info(f"SHORTS: blocked by regime (score={regime_decision.composite_score:+.4f})")
+        shorted = 0
     else:
         log.info(f"SHORTS: max positions ({MAX_OPEN_POSITIONS}) reached")
+        shorted = 0
 
     open_positions = get_open_positions(conn)
     longs = sum(1 for p in open_positions if p.get("direction") == "BUY")
@@ -412,7 +426,9 @@ def run_signal_cycle():
         bal = get_futures_balance(exchange)
         lines = [
             f"*TRISHULA Cycle — {now_str}*",
-            f"Regime: {regime} ({regime_conf:.2f})",
+            f"Regime: {regime} (score={regime_decision.composite_score:+.4f})",
+            f"  L={'OK' if regime_decision.allow_long else 'BLOCK'}({regime_decision.long_size_mult:.1f}x) "
+            f"S={'OK' if regime_decision.allow_short else 'BLOCK'}({regime_decision.short_size_mult:.1f}x)",
             f"Portfolio: {longs}L + {shorts}S open",
             f"Balance: {bal['usdt_free']:.2f} USDC free | {bal['usdt_total']:.2f} USDC total | {bal['usdt_total']-bal['usdt_free']:.2f} deployed",
         ]
