@@ -12,6 +12,11 @@ Before writing ANY SQL query, `pd.read_sql`, `psycopg2` query, DB migration, or 
 
 **Schema JSON:** `src/trading/db_schema_full.json` (regenerate via `scripts/db_schema_export.py` on GitHub Actions)
 
+**Postgres MCP servers** (live queries — use to verify schema or run exploratory queries):
+- `mcp__postgres__query` → **dbcp** (production)
+- `mcp__postgres-backtest__query` → **cp_backtest** (full history)
+- `mcp__postgres-hourly__query` → **cp_backtest_h** (hourly)
+
 **Quick reference — which DB for what:**
 - Historical FE features (backtesting) → **cp_backtest**
 - Today's FE snapshot (inference) → **dbcp**
