@@ -75,14 +75,18 @@ def generate_signals():
         user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
     )
 
-    col_sql = ", ".join(f'"{c}"' for c in (["slug", "timestamp"] + features)).replace("%", "%%")
+    all_cols = ["slug", "timestamp"] + features
+    col_sql = ", ".join(f'"{c}"' for c in all_cols)
     query = f"""
         SELECT {col_sql}
         FROM mv_ml_feature_matrix
         WHERE timestamp >= '2025-10-01' AND timestamp < '2026-01-01'
         ORDER BY timestamp, slug
     """
-    df = pd.read_sql(query, conn)
+    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+    cur.execute(query)
+    rows = cur.fetchall()
+    df = pd.DataFrame([dict(r) for r in rows])
     conn.close()
     print(f"  Loaded {len(df):,} rows, {df['slug'].nunique()} coins")
 
