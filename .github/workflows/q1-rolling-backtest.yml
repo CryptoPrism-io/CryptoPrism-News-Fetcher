@@ -1,0 +1,42 @@
+name: Q1 2026 Rolling Walk-Forward Backtest
+
+on:
+  workflow_dispatch:
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install psycopg2-binary numpy pandas python-dotenv lightgbm scikit-learn
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "DB_BACKTEST_NAME=cp_backtest" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Run Q1 2026 rolling walk-forward backtest
+        run: python scripts/q1_rolling_backtest.py
+
+      - name: Upload results JSON
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: q1-backtest-results
+          path: q1-backtest-results.json
+          retention-days: 90
