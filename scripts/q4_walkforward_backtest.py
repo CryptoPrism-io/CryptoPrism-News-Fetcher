@@ -69,26 +69,113 @@ def generate_signals():
     print(f"  Model: lgbm_news_augmented_v1, {len(features)} features")
     print(f"  Classes: {model.classes_}, remap: {label_remap}")
 
-    print("Loading Q4 2025 features from mv_ml_feature_matrix...")
+    print("Loading Q4 2025 features (dual-DB: labels from dbcp, features from cp_backtest)...")
+    ts_from = "2025-10-01 00:00:00+00"
+    ts_to = "2025-12-31 23:59:59+00"
+
     conn = psycopg2.connect(
         host=os.environ["DB_HOST"], dbname="dbcp",
         user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
     )
+    conn_bt = psycopg2.connect(
+        host=os.environ["DB_HOST"], dbname="cp_backtest",
+        user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
+    )
 
-    all_cols = ["slug", "timestamp"] + features
-    col_sql = ", ".join(f'"{c}"' for c in all_cols)
-    query = f"""
-        SELECT {col_sql}
-        FROM mv_ml_feature_matrix
-        WHERE timestamp >= '2025-10-01' AND timestamp < '2026-01-01'
-        ORDER BY timestamp, slug
-    """
-    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-    cur.execute(query)
-    rows = cur.fetchall()
-    df = pd.DataFrame([dict(r) for r in rows])
+    # 1. Base: slugs + timestamps from ML_LABELS on dbcp
+    print("  Loading ML_LABELS base...")
+    df = pd.read_sql(
+        'SELECT slug, timestamp FROM "ML_LABELS"'
+        ' WHERE timestamp >= %s AND timestamp <= %s AND label_3d IS NOT NULL'
+        ' ORDER BY timestamp',
+        conn, params=(ts_from, ts_to),
+    )
+    df["_date"] = pd.to_datetime(df["timestamp"]).dt.date
+    print(f"  Base: {len(df):,} rows, {df['slug'].nunique()} coins")
+
+    # 2. Price features from cp_backtest FE tables
+    fe_tables = {
+        "FE_PCT_CHANGE": [
+            "m_pct_1d", "d_pct_cum_ret", "d_pct_var", "d_pct_cvar", "d_pct_vol_1d",
+        ],
+        "FE_MOMENTUM_SIGNALS": [
+            "m_mom_roc_bin", 'm_mom_williams_%_bin', "m_mom_smi_bin",
+            "m_mom_cmo_bin", "m_mom_mom_bin",
+        ],
+        "FE_OSCILLATORS_SIGNALS": [
+            "m_osc_macd_crossover_bin", "m_osc_cci_bin", "m_osc_adx_bin",
+            "m_osc_uo_bin", "m_osc_ao_bin", "m_osc_trix_bin",
+        ],
+        "FE_TVV_SIGNALS": [
+            "m_tvv_obv_1d_binary", "d_tvv_sma9_18", "d_tvv_ema9_18",
+            "d_tvv_sma21_108", "d_tvv_ema21_108", "m_tvv_cmf",
+        ],
+        "FE_RATIOS_SIGNALS": [
+            "m_rat_alpha_bin", "d_rat_beta_bin", "v_rat_sharpe_bin",
+            "v_rat_sortino_bin", "v_rat_teynor_bin", "v_rat_common_sense_bin",
+            "v_rat_information_bin", "v_rat_win_loss_bin", "m_rat_win_rate_bin",
+            "m_rat_ror_bin", "d_rat_pain_bin",
+        ],
+    }
+
+    for table, cols in fe_tables.items():
+        col_sql = ", ".join(f'"{c}"' for c in cols)
+        try:
+            df_fe = pd.read_sql(
+                f'SELECT DISTINCT ON (slug, DATE(timestamp))'
+                f'  slug, DATE(timestamp) AS _date, {col_sql}'
+                f' FROM "{table}"'
+                f' WHERE timestamp >= %s AND timestamp <= %s'
+                f' ORDER BY slug, DATE(timestamp), timestamp DESC',
+                conn_bt, params=(ts_from, ts_to),
+            )
+            df = df.merge(df_fe, on=["slug", "_date"], how="left")
+            non_null = df_fe.shape[0]
+            print(f"  {table}: {non_null:,} rows merged")
+        except Exception as e:
+            print(f"  {table}: FAILED ({e})")
+            for c in cols:
+                df[c] = np.nan
+
+    # 3. Fear & Greed from dbcp
+    try:
+        df_fg = pd.read_sql(
+            'SELECT DATE(timestamp) AS _date, fear_greed_index'
+            ' FROM "FE_FEAR_GREED_CMC"'
+            ' WHERE timestamp >= %s AND timestamp <= %s',
+            conn, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_fg, on="_date", how="left")
+        print(f"  FE_FEAR_GREED_CMC: {len(df_fg):,} rows merged")
+    except Exception:
+        df["fear_greed_index"] = np.nan
+
+    # 4. News signals from dbcp
+    news_cols = [
+        "news_sentiment_1d", "news_sentiment_3d", "news_sentiment_7d",
+        "news_sentiment_momentum", "news_volume_1d", "news_volume_zscore_1d",
+        "news_breaking_flag", "news_regulation_flag", "news_security_flag",
+        "news_adoption_flag", "news_source_quality", "news_tier1_count_1d",
+    ]
+    try:
+        ncol_sql = ", ".join(f'"{c}"' for c in news_cols)
+        df_news = pd.read_sql(
+            f'SELECT DISTINCT ON (slug, DATE(timestamp))'
+            f'  slug, DATE(timestamp) AS _date, {ncol_sql}'
+            f' FROM "FE_NEWS_SIGNALS"'
+            f' WHERE timestamp >= %s AND timestamp <= %s'
+            f' ORDER BY slug, DATE(timestamp), timestamp DESC',
+            conn, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_news, on=["slug", "_date"], how="left")
+        print(f"  FE_NEWS_SIGNALS: {len(df_news):,} rows merged")
+    except Exception as e:
+        print(f"  FE_NEWS_SIGNALS: FAILED ({e})")
+        for c in news_cols:
+            df[c] = np.nan
+
     conn.close()
-    print(f"  Loaded {len(df):,} rows, {df['slug'].nunique()} coins")
+    conn_bt.close()
 
     for f in features:
         if f not in df.columns:
@@ -97,7 +184,9 @@ def generate_signals():
     null_pcts = df[features].isnull().mean() * 100
     sparse = null_pcts[null_pcts > 50]
     if len(sparse) > 0:
-        print(f"  Sparse features (>50% null): {dict(sparse.round(0))}")
+        print(f"  Sparse features (>50% null): {list(sparse.index)}")
+    filled = null_pcts[null_pcts < 50]
+    print(f"  Well-populated features: {len(filled)}/{len(features)}")
 
     print("Running inference...")
     X = df[features].values.astype(np.float32)
