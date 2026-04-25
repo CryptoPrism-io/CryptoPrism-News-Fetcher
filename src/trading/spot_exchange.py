@@ -22,10 +22,8 @@ log = logging.getLogger(__name__)
 # Slug → Binance symbol mapping (top coins)
 SLUG_TO_SYMBOL = {
     "bitcoin": "BTC/USDT",
-    "ethereum": "ETH/USDT",
     "solana": "SOL/USDT",
     "xrp": "XRP/USDT",
-    "bnb": "BNB/USDT",
     "dogecoin": "DOGE/USDT",
     "cardano": "ADA/USDT",
     "chainlink": "LINK/USDT",
@@ -45,7 +43,6 @@ SLUG_TO_SYMBOL = {
     "arbitrum": "ARB/USDT",
     "aptos": "APT/USDT",
     "near": "NEAR/USDT",
-    "filecoin": "FIL/USDT",
     "internet-computer": "ICP/USDT",
     "polkadot": "DOT/USDT",
     "optimism": "OP/USDT",

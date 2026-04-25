@@ -23,10 +23,8 @@ log = logging.getLogger(__name__)
 # Slug → Binance Futures USDC testnet symbol (verified available April 2026)
 SLUG_TO_FUTURES_SYMBOL = {
     "bitcoin":       "BTC/USDC:USDC",
-    "ethereum":      "ETH/USDC:USDC",
     "solana":        "SOL/USDC:USDC",
     "xrp":           "XRP/USDC:USDC",
-    "bnb":           "BNB/USDC:USDC",
     "dogecoin":      "DOGE/USDC:USDC",
     "cardano":       "ADA/USDC:USDC",
     "chainlink":     "LINK/USDC:USDC",
@@ -40,11 +38,9 @@ SLUG_TO_FUTURES_SYMBOL = {
     "aave":          "AAVE/USDC:USDC",
     "arbitrum":      "ARB/USDC:USDC",
     "near":          "NEAR/USDC:USDC",
-    "filecoin":      "FIL/USDC:USDC",
     "neo":           "NEO/USDC:USDC",
     "curve-dao-token": "CRV/USDC:USDC",
     "ethena":        "ENA/USDC:USDC",
-    "celestia":      "TIA/USDC:USDC",
     "worldcoin-wld": "WLD/USDC:USDC",
     "dogwifcoin":    "WIF/USDC:USDC",
     "bonk":          "1000BONK/USDC:USDC",
