@@ -191,9 +191,22 @@ def generate_signals():
     null_pcts = df[features].isnull().mean() * 100
     sparse = null_pcts[null_pcts > 50]
     if len(sparse) > 0:
-        print(f"  Sparse features (>50% null): {list(sparse.index)}")
+        print(f"  Sparse features (>50% null, all {df['slug'].nunique()} coins): {list(sparse.index)}")
     filled = null_pcts[null_pcts < 50]
-    print(f"  Well-populated features: {len(filled)}/{len(features)}")
+    print(f"  Well-populated features (all coins): {len(filled)}/{len(features)}")
+
+    df_uni = df[df["slug"].isin(USDC_COINS)]
+    if not df_uni.empty:
+        uni_null = df_uni[features].isnull().mean() * 100
+        uni_sparse = uni_null[uni_null > 50]
+        uni_filled = uni_null[uni_null < 50]
+        print(f"  Well-populated features (25-coin universe): {len(uni_filled)}/{len(features)}")
+        if len(uni_sparse) > 0:
+            print(f"    Still sparse in universe: {list(uni_sparse.index)}")
+        partially = uni_null[(uni_null > 5) & (uni_null <= 50)]
+        if len(partially) > 0:
+            for feat in partially.index:
+                print(f"    {feat}: {uni_null[feat]:.0f}% null in universe")
 
     print("Running inference...")
     X = df[features].values.astype(np.float32)
