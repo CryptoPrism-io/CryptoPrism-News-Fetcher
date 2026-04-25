@@ -118,21 +118,28 @@ def generate_signals():
         ],
     }
 
+    cur_bt = conn_bt.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     for table, cols in fe_tables.items():
         col_sql = ", ".join(f'"{c}"' for c in cols)
         try:
-            df_fe = pd.read_sql(
+            cur_bt.execute(
                 f'SELECT DISTINCT ON (slug, DATE(timestamp))'
                 f'  slug, DATE(timestamp) AS _date, {col_sql}'
                 f' FROM "{table}"'
                 f' WHERE timestamp >= %s AND timestamp <= %s'
                 f' ORDER BY slug, DATE(timestamp), timestamp DESC',
-                conn_bt, params=(ts_from, ts_to),
+                (ts_from, ts_to),
             )
-            df = df.merge(df_fe, on=["slug", "_date"], how="left")
-            non_null = df_fe.shape[0]
-            print(f"  {table}: {non_null:,} rows merged")
+            rows = cur_bt.fetchall()
+            df_fe = pd.DataFrame(rows)
+            if not df_fe.empty:
+                df = df.merge(df_fe, on=["slug", "_date"], how="left")
+            else:
+                for c in cols:
+                    df[c] = np.nan
+            print(f"  {table}: {len(df_fe):,} rows merged")
         except Exception as e:
+            conn_bt.rollback()
             print(f"  {table}: FAILED ({e})")
             for c in cols:
                 df[c] = np.nan
