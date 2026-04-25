@@ -324,16 +324,14 @@ def run(target_date: str | None = None):
 
         # Regime gating: adjust signal scores based on current market regime
         try:
-            with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-                cur.execute('SELECT regime_state, confidence FROM "ML_REGIME" ORDER BY timestamp DESC LIMIT 1')
-                regime_row = cur.fetchone()
-            if regime_row:
-                from src.models.train_ensemble import apply_regime_gating
-                regime = regime_row["regime_state"]
-                regime_conf = float(regime_row["confidence"] or 0.5)
-                for i in range(len(signal_scores)):
-                    signal_scores[i] = apply_regime_gating(float(signal_scores[i]), regime, regime_conf)
-                log.info(f"Regime gating applied: {regime} (confidence={regime_conf:.2f})")
+            from src.models.regime import get_current_regime
+            from src.models.train_ensemble import apply_regime_gating
+            regime_decision = get_current_regime(conn)
+            regime = regime_decision.regime_state
+            regime_conf = regime_decision.confidence
+            for i in range(len(signal_scores)):
+                signal_scores[i] = apply_regime_gating(float(signal_scores[i]), regime, regime_conf)
+            log.info(f"Regime gating applied: {regime} (confidence={regime_conf:.2f})")
         except Exception as e:
             log.warning(f"Regime gating skipped: {e}")
 

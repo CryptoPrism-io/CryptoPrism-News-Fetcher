@@ -165,10 +165,10 @@ def cycle_report():
     sn = "+" if net >= 0 else ""
 
     # Regime context
-    cur.execute('SELECT regime_state, confidence FROM "ML_REGIME" ORDER BY timestamp DESC LIMIT 1')
-    regime_row = cur.fetchone()
-    regime = regime_row[0] if regime_row else "unknown"
-    regime_conf = float(regime_row[1] or 0) if regime_row else 0
+    from src.models.regime import get_current_regime
+    regime_decision = get_current_regime(conn)
+    regime = regime_decision.regime_state
+    regime_conf = regime_decision.confidence
 
     # Trades opened in last 4 hours
     cur.execute("""
@@ -241,8 +241,8 @@ def cycle_report():
 
     # WHY: signal rationale
     lines.append("WHY:")
-    if regime == "risk_off":
-        lines.append("  Regime is RISK-OFF — no new entries, exits only")
+    if regime == "bear_trend":
+        lines.append("  Regime is BEAR-TREND — longs blocked, shorts only")
     else:
         lines.append("  Regime: %s — normal operations" % regime)
         if new_trades:
@@ -325,8 +325,8 @@ def _check_monitoring_alerts(conn):
         rows = cur.fetchall()
         if len(rows) == 2:
             current, prev = rows[0], rows[1]
-            if prev[0] == 'risk_on' and current[0] != 'risk_on':
-                alerts.append("!! REGIME SHIFT: %s -> %s — watch short performance" % (prev[0], current[0]))
+            if prev[0] != current[0]:
+                alerts.append("!! REGIME SHIFT: %s -> %s — review position sizing" % (prev[0], current[0]))
 
         # 4. Daily scorecard line (always show)
         cur.execute("""
@@ -387,10 +387,10 @@ def generate_report():
     total_pnl = float(stats[2] or 0)
 
     # Regime
-    cur.execute('SELECT regime_state, confidence FROM "ML_REGIME" ORDER BY timestamp DESC LIMIT 1')
-    regime_row = cur.fetchone()
-    regime = regime_row[0] if regime_row else "unknown"
-    regime_conf = float(regime_row[1] or 0) if regime_row else 0
+    from src.models.regime import get_current_regime
+    regime_decision = get_current_regime(conn)
+    regime = regime_decision.regime_state
+    regime_conf = regime_decision.confidence
 
     # Last signal run
     cur.execute('SELECT MAX(timestamp) FROM "ML_SIGNALS"')

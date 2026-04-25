@@ -88,13 +88,13 @@ META_ARTIFACT_PATH = "artifacts/ensemble_meta_learner.pkl"
 
 def apply_regime_gating(score: float, regime: str, confidence: float) -> float:
     """Adjust signal score based on market regime."""
-    if regime == "risk_on":
+    if regime == "bull_trend":
         return score if score > 0 else score * (1 - confidence * 0.5)
-    elif regime == "risk_off":
+    elif regime == "bear_trend":
         return score if score < 0 else score * (1 - confidence * 0.5)
-    elif regime == "choppy":
+    elif regime == "range_bound":
         return score * (1 - confidence * 0.3)
-    elif regime == "breakout":
+    elif regime == "high_vol":
         return score * (1 + confidence * 0.2)
     return score
 

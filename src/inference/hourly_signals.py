@@ -49,16 +49,13 @@ def load_ensemble_model():
 
 
 def fetch_regime(conn, target_date: str) -> dict:
-    """Get latest regime state."""
-    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-    cur.execute('''
-        SELECT regime_state, confidence FROM "ML_REGIME"
-        WHERE DATE(timestamp) <= %s ORDER BY timestamp DESC LIMIT 1
-    ''', (target_date,))
-    row = cur.fetchone()
-    if row:
-        return {"state": row["regime_state"], "confidence": float(row["confidence"] or 0.5)}
-    return {"state": "choppy", "confidence": 0.5}
+    """Get current regime state from composite detector."""
+    try:
+        from src.models.regime import get_current_regime
+        decision = get_current_regime(conn)
+        return {"state": decision.regime_state, "confidence": decision.confidence}
+    except Exception:
+        return {"state": "range_bound", "confidence": 0.5}
 
 
 def run(target_date: str | None = None):

@@ -1,0 +1,125 @@
+{
+  "_description": "Canonical DB enum values and schema for ML tables. All code must use these exact strings.",
+  "_updated": "2026-04-25",
+
+  "ML_TRADES": {
+    "status": {
+      "values": ["OPEN", "CLOSED"],
+      "default": "OPEN",
+      "notes": "UPPERCASE. DB column default is 'OPEN'::text"
+    },
+    "direction": {
+      "values": ["BUY", "SHORT"],
+      "notes": "UPPERCASE. BUY=long, SHORT=short. Never use 'LONG' or 'SELL'."
+    },
+    "regime_state": {
+      "values": ["bull_trend", "bear_trend", "range_bound", "high_vol"],
+      "notes": "lowercase_snake. Written by get_current_regime(). Legacy values in DB: risk_on, risk_off, choppy, breakout.",
+      "legacy_values": ["risk_on", "risk_off", "choppy", "breakout"]
+    },
+    "columns": {
+      "id": "bigint PK",
+      "slug": "text NOT NULL",
+      "symbol": "text NOT NULL",
+      "direction": "text NOT NULL",
+      "entry_price": "double precision",
+      "exit_price": "double precision",
+      "quantity": "double precision",
+      "usdt_size": "double precision",
+      "signal_score": "double precision",
+      "regime_state": "text",
+      "status": "text DEFAULT 'OPEN'",
+      "entry_time": "timestamptz",
+      "exit_time": "timestamptz",
+      "hold_days": "integer DEFAULT 3",
+      "pnl_usdt": "double precision",
+      "pnl_pct": "double precision",
+      "model_id": "integer",
+      "notes": "text",
+      "created_at": "timestamptz DEFAULT now()"
+    }
+  },
+
+  "ML_SIGNALS_V2": {
+    "direction": {
+      "values": [-1, 0, 1],
+      "type": "smallint",
+      "notes": "Numeric: -1=sell, 0=hold, 1=buy"
+    },
+    "regime_state": {
+      "values": ["bull_trend", "bear_trend", "range_bound", "high_vol"],
+      "notes": "lowercase_snake. Same as ML_TRADES."
+    },
+    "columns": {
+      "id": "bigint PK",
+      "slug": "text",
+      "timestamp": "timestamptz",
+      "signal_score": "double precision",
+      "residual_score": "double precision",
+      "direction": "smallint",
+      "prob_buy": "double precision",
+      "prob_hold": "double precision",
+      "prob_sell": "double precision",
+      "confidence": "double precision",
+      "ensemble_confidence": "double precision",
+      "regime_state": "text",
+      "tcn_direction": "smallint",
+      "lstm_direction": "smallint",
+      "top_features": "jsonb",
+      "model_id": "integer",
+      "feature_date": "date",
+      "zscore_30d": "double precision",
+      "direction_zscore": "smallint",
+      "created_at": "timestamptz"
+    }
+  },
+
+  "ML_REGIME": {
+    "regime_state": {
+      "values": ["bull_trend", "bear_trend", "range_bound", "high_vol"],
+      "notes": "lowercase_snake. Composite detector output.",
+      "legacy_values": ["risk_on", "risk_off", "choppy", "breakout"]
+    },
+    "columns": {
+      "id": "bigint PK",
+      "timestamp": "timestamptz UNIQUE",
+      "regime_state": "text",
+      "confidence": "double precision",
+      "trans_prob_risk_on": "double precision (repurposed: stores composite_score)",
+      "trans_prob_risk_off": "double precision (repurposed: stores long_size_mult)",
+      "trans_prob_choppy": "double precision (repurposed: stores short_size_mult)",
+      "trans_prob_breakout": "double precision (unused, always 0.0)",
+      "created_at": "timestamptz"
+    }
+  },
+
+  "ML_MODEL_REGISTRY": {
+    "is_active": {
+      "values": [true, false],
+      "type": "boolean"
+    },
+    "columns": {
+      "model_id": "integer PK",
+      "model_name": "text",
+      "model_type": "text",
+      "target": "text",
+      "features_used": "jsonb",
+      "hyperparameters": "jsonb",
+      "train_from": "date",
+      "train_to": "date",
+      "val_from": "date",
+      "val_to": "date",
+      "universe": "text",
+      "val_ic_1d": "double precision",
+      "val_ic_3d": "double precision",
+      "val_ic_7d": "double precision",
+      "val_accuracy": "double precision",
+      "val_sharpe": "double precision",
+      "val_win_rate": "double precision",
+      "artifact_path": "text",
+      "is_active": "boolean",
+      "notes": "text",
+      "created_at": "timestamptz"
+    }
+  }
+}
