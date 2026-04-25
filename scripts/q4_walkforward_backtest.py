@@ -120,7 +120,7 @@ def generate_signals():
 
     cur_bt = conn_bt.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     for table, cols in fe_tables.items():
-        col_sql = ", ".join(f'"{c}"' for c in cols)
+        col_sql = ", ".join(f'"{c.replace("%", "%%")}"' for c in cols)
         try:
             cur_bt.execute(
                 f'SELECT DISTINCT ON (slug, DATE(timestamp))'
