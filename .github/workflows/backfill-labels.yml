@@ -1,0 +1,62 @@
+name: Backfill ML Labels
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: 'Start date (YYYY-MM-DD)'
+        required: true
+        default: '2024-04-01'
+      to_date:
+        description: 'End date (YYYY-MM-DD)'
+        required: true
+        default: '2025-10-20'
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" > .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          SSLMODE="${{ secrets.DB_SSLMODE }}"
+          [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
+
+      - name: Backfill ML_LABELS from 1K_coins_ohlcv
+        run: |
+          python -m src.features.labels \
+            --from-date "${{ inputs.from_date }}" \
+            --to-date "${{ inputs.to_date }}"
+
+      - name: Report status
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'])
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*), COUNT(DISTINCT slug), MIN(timestamp), MAX(timestamp) FROM \"ML_LABELS\"')
+          r = cur.fetchone()
+          print(f'ML_LABELS: {r[0]:,} rows, {r[1]} coins, {r[2]} to {r[3]}')
+          conn.close()
+          "
