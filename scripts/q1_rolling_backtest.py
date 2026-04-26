@@ -224,6 +224,88 @@ def load_full_features(conn_dbcp, conn_bt, from_date, to_date):
     return df
 
 
+def load_inference_features(conn_dbcp, conn_bt, from_date, to_date):
+    """Load feature matrix for inference — anchored on 1K_coins_ohlcv dates, no labels needed."""
+    ts_from = f"{from_date} 00:00:00+00"
+    ts_to = f"{to_date} 23:59:59+00"
+
+    print("  Loading OHLCV date scaffold from dbcp (no labels needed)...")
+    df = pd.read_sql(
+        'SELECT DISTINCT slug, DATE(timestamp) AS _date '
+        'FROM "1K_coins_ohlcv" '
+        'WHERE timestamp >= %s AND timestamp <= %s '
+        'ORDER BY _date',
+        conn_dbcp, params=(ts_from, ts_to),
+    )
+    print(f"  Scaffold: {len(df):,} rows, {df['slug'].nunique()} coins, "
+          f"{df['_date'].min()} → {df['_date'].max()}")
+
+    cur_bt = conn_bt.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+    for table, cols in FE_TABLES_BT.items():
+        escaped = [c.replace("%", "%%") for c in cols]
+        col_sql = ", ".join(f'"{c}"' for c in escaped)
+        try:
+            cur_bt.execute(
+                f'SELECT DISTINCT ON (slug, DATE(timestamp))'
+                f'  slug, DATE(timestamp) AS _date, {col_sql}'
+                f' FROM "{table}"'
+                f' WHERE timestamp >= %s AND timestamp <= %s'
+                f' ORDER BY slug, DATE(timestamp), timestamp DESC',
+                (ts_from, ts_to),
+            )
+            rows = cur_bt.fetchall()
+            df_fe = pd.DataFrame(rows)
+            if not df_fe.empty:
+                df = df.merge(df_fe, on=["slug", "_date"], how="left")
+            else:
+                for c in cols:
+                    df[c] = np.nan
+            print(f"  {table}: {len(df_fe):,} rows merged")
+        except Exception as e:
+            conn_bt.rollback()
+            print(f"  {table}: FAILED ({e})")
+            for c in cols:
+                df[c] = np.nan
+    cur_bt.close()
+
+    try:
+        df_fg = pd.read_sql(
+            'SELECT DATE(timestamp) AS _date, fear_greed_index '
+            'FROM "FE_FEAR_GREED_CMC" '
+            'WHERE timestamp >= %s AND timestamp <= %s',
+            conn_dbcp, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_fg, on="_date", how="left")
+        print(f"  FE_FEAR_GREED_CMC: {len(df_fg):,} rows merged")
+    except Exception:
+        df["fear_greed_index"] = np.nan
+
+    try:
+        ncol_sql = ", ".join(f'"{c}"' for c in NEWS_COLS)
+        df_news = pd.read_sql(
+            f'SELECT DISTINCT ON (slug, DATE(timestamp))'
+            f'  slug, DATE(timestamp) AS _date, {ncol_sql}'
+            f' FROM "FE_NEWS_SIGNALS"'
+            f' WHERE timestamp >= %s AND timestamp <= %s'
+            f' ORDER BY slug, DATE(timestamp), timestamp DESC',
+            conn_dbcp, params=(ts_from, ts_to),
+        )
+        df = df.merge(df_news, on=["slug", "_date"], how="left")
+        print(f"  FE_NEWS_SIGNALS: {len(df_news):,} rows merged")
+    except Exception as e:
+        print(f"  FE_NEWS_SIGNALS: FAILED ({e})")
+        for c in NEWS_COLS:
+            df[c] = np.nan
+
+    for f in ALL_FEATURES:
+        if f not in df.columns:
+            df[f] = np.nan
+
+    filled = sum(1 for f in ALL_FEATURES if f in df.columns and df[f].notna().any())
+    print(f"  Inference features with data: {filled}/{len(ALL_FEATURES)}")
+    return df
+
+
 def load_ohlcv(conn_h, coins, trade_start, trade_end):
     """Load hourly OHLCV for trade period + hold-period buffer."""
     ohlcv_from = (trade_start - timedelta(days=2)).isoformat()
@@ -354,9 +436,12 @@ def train_model(df_all, split):
 #  INFERENCE
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def generate_signals(model, features, df_all, trade_from, trade_to):
-    """Run model inference on trade-week features. Returns {date: [signal_dicts]}."""
-    df_week = df_all[(df_all["_date"] >= trade_from) & (df_all["_date"] <= trade_to)].copy()
+def generate_signals(model, features, df_train, df_infer, trade_from, trade_to):
+    """Run model inference on trade-week features. Returns {date: [signal_dicts]}.
+    Uses df_infer (OHLCV-anchored) for dates beyond ML_LABELS, falls back to df_train."""
+    df_week = df_infer[(df_infer["_date"] >= trade_from) & (df_infer["_date"] <= trade_to)].copy()
+    if df_week.empty:
+        df_week = df_train[(df_train["_date"] >= trade_from) & (df_train["_date"] <= trade_to)].copy()
     if df_week.empty:
         return {}
 
@@ -768,14 +853,23 @@ def main():
     print(f"  PHASE 1: DATA LOADING (single pass — {NEWS_DATA_START} → {feat_end})")
     print(f"{'─' * 90}")
 
-    print(f"\n[1/3] Full feature matrix ({NEWS_DATA_START} → {feat_end})...")
+    print(f"\n[1/4] Training feature matrix ({NEWS_DATA_START} → {feat_end})...")
     df_all = load_full_features(conn_dbcp, conn_bt, NEWS_DATA_START, feat_end)
     print(f"  Total: {len(df_all):,} rows, {df_all['slug'].nunique()} coins")
 
-    print(f"\n[2/3] Hourly OHLCV ({trade_start} → {trade_end} + buffer)...")
+    labels_max = df_all["_date"].max()
+    print(f"\n[2/4] Inference features for trade period ({trade_start} → {trade_end})...")
+    if labels_max < trade_end:
+        print(f"  ML_LABELS ends at {labels_max} — loading OHLCV-anchored features for gap")
+        df_infer = load_inference_features(conn_dbcp, conn_bt, str(trade_start), feat_end)
+    else:
+        print(f"  ML_LABELS covers full trade period — reusing training features")
+        df_infer = df_all
+
+    print(f"\n[3/4] Hourly OHLCV ({trade_start} → {trade_end} + buffer)...")
     ohlcv = load_ohlcv(conn_h, USDC_COINS, trade_start, trade_end)
 
-    print("\n[3/3] BTC benchmark...")
+    print("\n[4/4] BTC benchmark...")
     btc = load_btc_benchmark(conn_dbcp, trade_start, trade_end)
     btc_start_price = float(btc[0]["close"]) if btc else 0
     btc_end_price = float(btc[-1]["close"]) if btc else 0
@@ -810,7 +904,7 @@ def main():
               f"IC-3d: {diag['val_ic_3d']:.4f} | Acc: {diag['val_accuracy']:.1%} | "
               f"Iter: {diag['best_iteration']}")
 
-        week_signals = generate_signals(model, used_features, df_all, trade_from, trade_to)
+        week_signals = generate_signals(model, used_features, df_all, df_infer, trade_from, trade_to)
         n_sigs = sum(len(v) for v in week_signals.values())
         n_usdc = len([s for v in week_signals.values() for s in v if s["slug"] in USDC_COINS])
         print(f"    Signals: {n_sigs:,} total ({len(week_signals)} days), {n_usdc} USDC-universe")
