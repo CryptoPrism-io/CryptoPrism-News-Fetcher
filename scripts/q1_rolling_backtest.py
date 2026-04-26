@@ -1,14 +1,19 @@
 """
-Q1 2026 Rolling Walk-Forward Backtest (Clean Out-of-Sample).
+Rolling Walk-Forward Backtest (Clean Out-of-Sample).
 
-For each of 13 weeks in Q1 2026 (Jan 5 → Mar 29), trains a FRESH
-LightGBM model using only data strictly before the trade week,
-generates signals on unseen features, and simulates the 25-coin
-USDC portfolio with Trailing-J exits.
+For each week in the trade period, trains a FRESH LightGBM model
+using only data strictly before the trade week, generates signals
+on unseen features, and simulates the 25-coin USDC portfolio with
+Trailing-J exits.
 
 This exactly mirrors the live Sunday retrain cycle — no look-ahead bias.
 Run on GitHub Actions (DB-heavy, GCP-to-GCP).
+
+Usage:
+  python scripts/q1_rolling_backtest.py                       # default: Q1 2026
+  python scripts/q1_rolling_backtest.py --start 2026-04-06 --end 2026-04-25 --label "April 2026"
 """
+import argparse
 import json
 import os
 import sys
@@ -44,8 +49,6 @@ J_SHORT_ACT = 0.015
 J_SHORT_TRAIL = -0.003
 
 NEWS_DATA_START = "2025-10-21"
-Q1_START = date(2026, 1, 5)
-Q1_END = date(2026, 3, 31)
 
 USDC_COINS = {
     "bitcoin", "solana", "xrp", "dogecoin", "cardano",
@@ -221,16 +224,18 @@ def load_full_features(conn_dbcp, conn_bt, from_date, to_date):
     return df
 
 
-def load_ohlcv(conn_h, coins):
-    """Load hourly OHLCV for Q1 2026 + hold-period buffer."""
+def load_ohlcv(conn_h, coins, trade_start, trade_end):
+    """Load hourly OHLCV for trade period + hold-period buffer."""
+    ohlcv_from = (trade_start - timedelta(days=2)).isoformat()
+    ohlcv_to = (trade_end + timedelta(days=7)).isoformat()
     cur = conn_h.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     cur.execute("""
         SELECT slug, timestamp, open, high, low, close
         FROM ohlcv_1h_250_coins
-        WHERE timestamp >= '2026-01-01' AND timestamp < '2026-04-07'
+        WHERE timestamp >= %s AND timestamp < %s
           AND slug = ANY(%s)
         ORDER BY slug, timestamp
-    """, (list(coins),))
+    """, (ohlcv_from, ohlcv_to, list(coins)))
     rows = cur.fetchall()
     cur.close()
     ohlcv = defaultdict(list)
@@ -240,14 +245,16 @@ def load_ohlcv(conn_h, coins):
     return ohlcv
 
 
-def load_btc_benchmark(conn_dbcp):
-    """Load BTC daily close for Q1 2026."""
+def load_btc_benchmark(conn_dbcp, trade_start, trade_end):
+    """Load BTC daily close for trade period."""
+    btc_from = (trade_start - timedelta(days=2)).isoformat()
+    btc_to = (trade_end + timedelta(days=2)).isoformat()
     cur = conn_dbcp.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     cur.execute("""
         SELECT timestamp::date as d, close FROM "1K_coins_ohlcv"
-        WHERE slug='bitcoin' AND timestamp >= '2026-01-01' AND timestamp < '2026-04-01'
+        WHERE slug='bitcoin' AND timestamp >= %s AND timestamp < %s
         ORDER BY timestamp
-    """)
+    """, (btc_from, btc_to))
     rows = cur.fetchall()
     cur.close()
     return rows
@@ -273,11 +280,11 @@ def compute_splits(anchor_date):
     }
 
 
-def get_retrain_sundays():
-    """13 Sundays covering Q1 2026 trade windows."""
+def get_retrain_sundays(trade_start, trade_end):
+    """Sundays covering the trade period. First Sunday is on or before trade_start."""
+    d = trade_start - timedelta(days=(trade_start.weekday() + 1) % 7)
     sundays = []
-    d = date(2026, 1, 4)
-    while d <= date(2026, 3, 29):
+    while d <= trade_end:
         sundays.append(d)
         d += timedelta(days=7)
     return sundays
@@ -520,7 +527,7 @@ def run_sim(signals, ohlcv, coin_filter):
 #  METRICS & REPORTING
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def compute_metrics(results, equity):
+def compute_metrics(results, equity, trade_start, trade_end):
     n = len(results)
     if n == 0:
         return {}
@@ -535,7 +542,7 @@ def compute_metrics(results, equity):
 
     rets = [r["pnl_pct"] for r in results]
     std = np.std(rets, ddof=1) if len(rets) > 1 else 1
-    days = 86
+    days = max((trade_end - trade_start).days, 1)
     tpy = n / (days / 252)
     sharpe = (np.mean(rets) / std) * np.sqrt(tpy) if std > 0 else 0
     down = [r for r in rets if r < 0]
@@ -685,21 +692,21 @@ def coin_breakdown(results):
 
 
 def monthly_breakdown(results):
-    months = {"Jan": [], "Feb": [], "Mar": []}
+    MONTH_NAMES = {1: "Jan", 2: "Feb", 3: "Mar", 4: "Apr", 5: "May", 6: "Jun",
+                   7: "Jul", 8: "Aug", 9: "Sep", 10: "Oct", 11: "Nov", 12: "Dec"}
+    months = defaultdict(list)
     for r in results:
         ed = r["entry_date"]
         if isinstance(ed, str):
             ed = date.fromisoformat(ed)
-        m = {1: "Jan", 2: "Feb", 3: "Mar"}.get(ed.month)
-        if m:
-            months[m].append(r)
+        months[MONTH_NAMES.get(ed.month, str(ed.month))].append(r)
 
     print(f"\n{'=' * 90}")
     print(f"  MONTHLY BREAKDOWN")
     print(f"{'=' * 90}")
 
     monthly_data = {}
-    for month, trades in months.items():
+    for month, trades in sorted(months.items(), key=lambda x: x[1][0]["entry_date"] if x[1] else ""):
         if not trades:
             print(f"  {month}: NO TRADES")
             monthly_data[month] = {"pnl_usd": 0, "trades": 0, "win_rate": 0}
@@ -726,9 +733,22 @@ def monthly_breakdown(results):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def main():
+    parser = argparse.ArgumentParser(description="Rolling walk-forward backtest")
+    parser.add_argument("--start", default="2026-01-05", help="Trade period start (YYYY-MM-DD)")
+    parser.add_argument("--end", default="2026-03-31", help="Trade period end (YYYY-MM-DD)")
+    parser.add_argument("--label", default="Q1 2026", help="Label for output files and prints")
+    args = parser.parse_args()
+
+    trade_start = date.fromisoformat(args.start)
+    trade_end = date.fromisoformat(args.end)
+    label = args.label
+    slug_label = label.lower().replace(" ", "-")
+
+    sundays = get_retrain_sundays(trade_start, trade_end)
+
     print(f"{'#' * 90}")
-    print(f"  Q1 2026 ROLLING WALK-FORWARD BACKTEST (CLEAN OUT-OF-SAMPLE)")
-    print(f"  13 weekly retrains · Jan 5 → Mar 31, 2026")
+    print(f"  {label.upper()} ROLLING WALK-FORWARD BACKTEST (CLEAN OUT-OF-SAMPLE)")
+    print(f"  {len(sundays)} weekly retrains · {trade_start} → {trade_end}")
     print(f"  25-coin USDC · Trailing-J · $5,000 @ 85% deploy · 15L/15S · 3-day hold")
     print(f"  Model retrained each Sunday — NO look-ahead bias")
     print(f"{'#' * 90}")
@@ -743,36 +763,36 @@ def main():
     conn_h = psycopg2.connect(dbname="cp_backtest_h", **params)
 
     # ── Phase 1: Pre-load all data ──────────────────────────────────────────
+    feat_end = trade_end.isoformat()
     print(f"\n{'─' * 90}")
-    print(f"  PHASE 1: DATA LOADING (single pass — Oct 2025 → Mar 2026)")
+    print(f"  PHASE 1: DATA LOADING (single pass — {NEWS_DATA_START} → {feat_end})")
     print(f"{'─' * 90}")
 
-    print("\n[1/3] Full feature matrix (Oct 21, 2025 → Mar 31, 2026)...")
-    df_all = load_full_features(conn_dbcp, conn_bt, "2025-10-21", "2026-03-31")
+    print(f"\n[1/3] Full feature matrix ({NEWS_DATA_START} → {feat_end})...")
+    df_all = load_full_features(conn_dbcp, conn_bt, NEWS_DATA_START, feat_end)
     print(f"  Total: {len(df_all):,} rows, {df_all['slug'].nunique()} coins")
 
-    print("\n[2/3] Hourly OHLCV (Jan 1 → Apr 7, 2026)...")
-    ohlcv = load_ohlcv(conn_h, USDC_COINS)
+    print(f"\n[2/3] Hourly OHLCV ({trade_start} → {trade_end} + buffer)...")
+    ohlcv = load_ohlcv(conn_h, USDC_COINS, trade_start, trade_end)
 
     print("\n[3/3] BTC benchmark...")
-    btc = load_btc_benchmark(conn_dbcp)
-    btc_start = float(btc[0]["close"]) if btc else 0
-    btc_end = float(btc[-1]["close"]) if btc else 0
-    btc_ret = (btc_end - btc_start) / btc_start * 100 if btc_start > 0 else 0
-    print(f"  BTC Q1 2026: ${btc_start:,.0f} → ${btc_end:,.0f} ({btc_ret:+.2f}%)")
+    btc = load_btc_benchmark(conn_dbcp, trade_start, trade_end)
+    btc_start_price = float(btc[0]["close"]) if btc else 0
+    btc_end_price = float(btc[-1]["close"]) if btc else 0
+    btc_ret = (btc_end_price - btc_start_price) / btc_start_price * 100 if btc_start_price > 0 else 0
+    print(f"  BTC {label}: ${btc_start_price:,.0f} → ${btc_end_price:,.0f} ({btc_ret:+.2f}%)")
 
     # ── Phase 2: Rolling retrains ───────────────────────────────────────────
     print(f"\n{'─' * 90}")
-    print(f"  PHASE 2: ROLLING WALK-FORWARD (13 WEEKLY RETRAINS)")
+    print(f"  PHASE 2: ROLLING WALK-FORWARD ({len(sundays)} WEEKLY RETRAINS)")
     print(f"{'─' * 90}")
 
-    sundays = get_retrain_sundays()
     all_signals = {}
     week_diagnostics = []
 
     for i, sunday in enumerate(sundays):
         trade_from = sunday + timedelta(days=1)
-        trade_to = min(sunday + timedelta(days=7), Q1_END)
+        trade_to = min(sunday + timedelta(days=7), trade_end)
         split = compute_splits(sunday)
 
         print(f"\n  Week {i+1:>2}/{len(sundays)}: retrain={sunday}  "
@@ -811,8 +831,8 @@ def main():
     eq, results, daily_equity = run_sim(all_signals, ohlcv, USDC_COINS)
     print(f"\n  Signal days: {len(all_signals)} | Total trades: {len(results)}")
 
-    metrics = compute_metrics(results, eq)
-    print_metrics(metrics, "25-coin USDC - Trailing J - Q1 2026 (OUT-OF-SAMPLE)")
+    metrics = compute_metrics(results, eq, trade_start, trade_end)
+    print_metrics(metrics, f"25-coin USDC - Trailing J - {label} (OUT-OF-SAMPLE)")
     coin_data, cat_data = coin_breakdown(results)
     monthly_data = monthly_breakdown(results)
 
@@ -849,8 +869,8 @@ def main():
     output = {
         "metadata": {
             "type": "rolling_walk_forward",
-            "period": "Q1 2026",
-            "trade_dates": f"{Q1_START} → {Q1_END}",
+            "period": label,
+            "trade_dates": f"{trade_start} → {trade_end}",
             "retrains": len(sundays),
             "capital": CAPITAL,
             "deploy_pct": DEPLOY_PCT,
@@ -865,8 +885,8 @@ def main():
         },
         "overall": metrics,
         "btc_benchmark": {
-            "start_price": round(btc_start, 2),
-            "end_price": round(btc_end, 2),
+            "start_price": round(btc_start_price, 2),
+            "end_price": round(btc_end_price, 2),
             "return_pct": round(btc_ret, 2),
         },
         "weekly": weekly_data,
@@ -877,7 +897,7 @@ def main():
         "training_diagnostics": week_diagnostics,
     }
 
-    json_path = os.path.join(ROOT, "q1-backtest-results.json")
+    json_path = os.path.join(ROOT, f"{slug_label}-backtest-results.json")
     with open(json_path, "w") as f:
         json.dump(output, f, indent=2, default=str)
     print(f"\n  JSON results → {json_path}")
@@ -887,7 +907,7 @@ def main():
     conn_h.close()
 
     print(f"\n{'#' * 90}")
-    print(f"  BACKTEST COMPLETE — Q1 2026 OUT-OF-SAMPLE")
+    print(f"  BACKTEST COMPLETE — {label.upper()} OUT-OF-SAMPLE")
     print(f"{'#' * 90}")
 
 

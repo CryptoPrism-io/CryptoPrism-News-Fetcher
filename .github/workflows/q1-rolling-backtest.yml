@@ -1,7 +1,20 @@
-name: Q1 2026 Rolling Walk-Forward Backtest
+name: Rolling Walk-Forward Backtest
 
 on:
   workflow_dispatch:
+    inputs:
+      start:
+        description: 'Trade period start (YYYY-MM-DD)'
+        required: false
+        default: '2026-01-05'
+      end:
+        description: 'Trade period end (YYYY-MM-DD)'
+        required: false
+        default: '2026-03-31'
+      label:
+        description: 'Period label (e.g. "Q1 2026", "April 2026")'
+        required: false
+        default: 'Q1 2026'
 
 jobs:
   backtest:
@@ -30,13 +43,17 @@ jobs:
           SSLMODE="${{ secrets.DB_SSLMODE }}"
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
-      - name: Run Q1 2026 rolling walk-forward backtest
-        run: python scripts/q1_rolling_backtest.py
+      - name: Run rolling walk-forward backtest
+        run: |
+          python scripts/q1_rolling_backtest.py \
+            --start "${{ inputs.start }}" \
+            --end "${{ inputs.end }}" \
+            --label "${{ inputs.label }}"
 
       - name: Upload results JSON
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: q1-backtest-results
-          path: q1-backtest-results.json
+          name: backtest-results-${{ inputs.start }}-to-${{ inputs.end }}
+          path: '*-backtest-results.json'
           retention-days: 90
