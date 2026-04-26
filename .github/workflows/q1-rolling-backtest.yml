@@ -15,6 +15,10 @@ on:
         description: 'Period label (e.g. "Q1 2026", "April 2026")'
         required: false
         default: 'Q1 2026'
+      train_start:
+        description: 'Training window floor (YYYY-MM-DD). Empty = earliest ML_LABELS.'
+        required: false
+        default: ''
 
 jobs:
   backtest:
@@ -45,10 +49,12 @@ jobs:
 
       - name: Run rolling walk-forward backtest
         run: |
+          TRAIN_START="${{ inputs.train_start }}"
           python scripts/q1_rolling_backtest.py \
             --start "${{ inputs.start }}" \
             --end "${{ inputs.end }}" \
-            --label "${{ inputs.label }}"
+            --label "${{ inputs.label }}" \
+            ${TRAIN_START:+--train-start "$TRAIN_START"}
 
       - name: Upload results JSON
         uses: actions/upload-artifact@v4

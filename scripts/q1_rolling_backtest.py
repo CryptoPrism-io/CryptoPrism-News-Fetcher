@@ -48,7 +48,7 @@ J_LONG_TRAIL = -0.015
 J_SHORT_ACT = 0.015
 J_SHORT_TRAIL = -0.003
 
-NEWS_DATA_START = "2025-10-21"
+NEWS_DATA_START = "2025-10-21"  # legacy fallback — overridden by --train-start or DB query
 
 USDC_COINS = {
     "bitcoin", "solana", "xrp", "dogecoin", "cardano",
@@ -346,7 +346,7 @@ def load_btc_benchmark(conn_dbcp, trade_start, trade_end):
 #  WALK-FORWARD SPLITS & TRAINING
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def compute_splits(anchor_date):
+def compute_splits(anchor_date, train_floor="2024-04-01"):
     """Compute walk-forward splits as if today = anchor_date (mirrors live compute_splits)."""
     test_to = anchor_date - timedelta(days=14)
     test_from = test_to - timedelta(days=13)
@@ -355,7 +355,7 @@ def compute_splits(anchor_date):
     train_to = val_from - timedelta(days=1)
     fmt = lambda d: d.strftime("%Y-%m-%d")
     return {
-        "train_from": NEWS_DATA_START,
+        "train_from": train_floor,
         "train_to": fmt(train_to),
         "val_from": fmt(val_from),
         "val_to": fmt(val_to),
@@ -822,6 +822,8 @@ def main():
     parser.add_argument("--start", default="2026-01-05", help="Trade period start (YYYY-MM-DD)")
     parser.add_argument("--end", default="2026-03-31", help="Trade period end (YYYY-MM-DD)")
     parser.add_argument("--label", default="Q1 2026", help="Label for output files and prints")
+    parser.add_argument("--train-start", default=None,
+                        help="Training window floor (YYYY-MM-DD). Default: earliest ML_LABELS date.")
     args = parser.parse_args()
 
     trade_start = date.fromisoformat(args.start)
@@ -847,14 +849,24 @@ def main():
     conn_bt = psycopg2.connect(dbname="cp_backtest", **params)
     conn_h = psycopg2.connect(dbname="cp_backtest_h", **params)
 
+    # ── Resolve training floor ────────────────────────────────────────────
+    if args.train_start:
+        train_floor = args.train_start
+    else:
+        cur = conn_dbcp.cursor()
+        cur.execute('SELECT MIN(timestamp)::date FROM "ML_LABELS"')
+        train_floor = cur.fetchone()[0].isoformat()
+        cur.close()
+    print(f"  Training floor: {train_floor}")
+
     # ── Phase 1: Pre-load all data ──────────────────────────────────────────
     feat_end = trade_end.isoformat()
     print(f"\n{'─' * 90}")
-    print(f"  PHASE 1: DATA LOADING (single pass — {NEWS_DATA_START} → {feat_end})")
+    print(f"  PHASE 1: DATA LOADING (single pass — {train_floor} → {feat_end})")
     print(f"{'─' * 90}")
 
-    print(f"\n[1/4] Training feature matrix ({NEWS_DATA_START} → {feat_end})...")
-    df_all = load_full_features(conn_dbcp, conn_bt, NEWS_DATA_START, feat_end)
+    print(f"\n[1/4] Training feature matrix ({train_floor} → {feat_end})...")
+    df_all = load_full_features(conn_dbcp, conn_bt, train_floor, feat_end)
     print(f"  Total: {len(df_all):,} rows, {df_all['slug'].nunique()} coins")
 
     labels_max = df_all["_date"].max()
@@ -887,7 +899,7 @@ def main():
     for i, sunday in enumerate(sundays):
         trade_from = sunday + timedelta(days=1)
         trade_to = min(sunday + timedelta(days=7), trade_end)
-        split = compute_splits(sunday)
+        split = compute_splits(sunday, train_floor)
 
         print(f"\n  Week {i+1:>2}/{len(sundays)}: retrain={sunday}  "
               f"trade={trade_from}→{trade_to}")
