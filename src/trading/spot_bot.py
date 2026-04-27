@@ -27,6 +27,7 @@ from src.trading.futures_exchange import (
     get_futures_price, get_futures_balance, slug_to_futures_symbol,
     SLUG_TO_FUTURES_SYMBOL,
 )
+from src.trading.spot_exchange import build_exchange, get_price
 
 load_dotenv()
 
