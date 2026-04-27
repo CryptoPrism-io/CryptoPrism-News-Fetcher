@@ -346,7 +346,7 @@ def load_btc_benchmark(conn_dbcp, trade_start, trade_end):
 #  WALK-FORWARD SPLITS & TRAINING
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def compute_splits(anchor_date, train_floor="2024-04-01"):
+def compute_splits(anchor_date, train_floor="2024-04-01", train_months=None):
     """Compute walk-forward splits as if today = anchor_date (mirrors live compute_splits)."""
     test_to = anchor_date - timedelta(days=14)
     test_from = test_to - timedelta(days=13)
@@ -354,8 +354,13 @@ def compute_splits(anchor_date, train_floor="2024-04-01"):
     val_from = val_to - timedelta(days=20)
     train_to = val_from - timedelta(days=1)
     fmt = lambda d: d.strftime("%Y-%m-%d")
+    if train_months:
+        rolling_start = train_to - timedelta(days=train_months * 30)
+        effective_floor = max(rolling_start.isoformat(), train_floor)
+    else:
+        effective_floor = train_floor
     return {
-        "train_from": train_floor,
+        "train_from": effective_floor,
         "train_to": fmt(train_to),
         "val_from": fmt(val_from),
         "val_to": fmt(val_to),
@@ -824,6 +829,8 @@ def main():
     parser.add_argument("--label", default="Q1 2026", help="Label for output files and prints")
     parser.add_argument("--train-start", default=None,
                         help="Training window floor (YYYY-MM-DD). Default: earliest ML_LABELS date.")
+    parser.add_argument("--train-months", type=int, default=None,
+                        help="Rolling window size in months. If set, train_from = train_to - N months (clamped to floor).")
     args = parser.parse_args()
 
     trade_start = date.fromisoformat(args.start)
@@ -857,7 +864,8 @@ def main():
         cur.execute('SELECT MIN(timestamp)::date FROM "ML_LABELS"')
         train_floor = cur.fetchone()[0].isoformat()
         cur.close()
-    print(f"  Training floor: {train_floor}")
+    train_mode = f"rolling {args.train_months}mo" if args.train_months else "expanding"
+    print(f"  Training floor: {train_floor} ({train_mode})")
 
     # ── Phase 1: Pre-load all data ──────────────────────────────────────────
     feat_end = trade_end.isoformat()
@@ -899,7 +907,7 @@ def main():
     for i, sunday in enumerate(sundays):
         trade_from = sunday + timedelta(days=1)
         trade_to = min(sunday + timedelta(days=7), trade_end)
-        split = compute_splits(sunday, train_floor)
+        split = compute_splits(sunday, train_floor, args.train_months)
 
         print(f"\n  Week {i+1:>2}/{len(sundays)}: retrain={sunday}  "
               f"trade={trade_from}→{trade_to}")

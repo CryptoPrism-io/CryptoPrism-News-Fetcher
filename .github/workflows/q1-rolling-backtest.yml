@@ -19,6 +19,10 @@ on:
         description: 'Training window floor (YYYY-MM-DD). Empty = earliest ML_LABELS.'
         required: false
         default: ''
+      train_months:
+        description: 'Rolling window size in months (3, 6, 9). Empty = expanding window.'
+        required: false
+        default: ''
 
 jobs:
   backtest:
@@ -50,11 +54,13 @@ jobs:
       - name: Run rolling walk-forward backtest
         run: |
           TRAIN_START="${{ inputs.train_start }}"
+          TRAIN_MONTHS="${{ inputs.train_months }}"
           python scripts/q1_rolling_backtest.py \
             --start "${{ inputs.start }}" \
             --end "${{ inputs.end }}" \
             --label "${{ inputs.label }}" \
-            ${TRAIN_START:+--train-start "$TRAIN_START"}
+            ${TRAIN_START:+--train-start "$TRAIN_START"} \
+            ${TRAIN_MONTHS:+--train-months "$TRAIN_MONTHS"}
 
       - name: Upload results JSON
         uses: actions/upload-artifact@v4
