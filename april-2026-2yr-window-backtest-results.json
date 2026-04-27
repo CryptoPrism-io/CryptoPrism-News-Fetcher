@@ -1,0 +1,624 @@
+{
+  "metadata": {
+    "type": "rolling_walk_forward",
+    "period": "April 2026 (2yr window)",
+    "trade_dates": "2026-04-06 \u2192 2026-04-25",
+    "retrains": 3,
+    "capital": 5000.0,
+    "deploy_pct": 0.85,
+    "universe": "25 USDC coins",
+    "exit_strategy": "Trailing-J",
+    "hold_days": 3,
+    "long_n": 15,
+    "short_n": 15,
+    "model": "LightGBM (news_augmented)",
+    "features": 62,
+    "methodology": "Weekly retrain on expanding window, inference on unseen trade week. No look-ahead bias. Mirrors live Sunday retrain cycle."
+  },
+  "overall": {
+    "pnl_usd": -13.5,
+    "return_pct": -0.27,
+    "trades": 105,
+    "unique_coins": 17,
+    "win_rate": 50.5,
+    "long_trades": 90,
+    "short_trades": 15,
+    "long_pnl": 123.14,
+    "short_pnl": -136.64,
+    "long_wr": 55.6,
+    "short_wr": 20.0,
+    "profit_factor": 0.97,
+    "payoff_ratio": 0.95,
+    "sharpe": -0.15,
+    "sortino": -0.23,
+    "max_drawdown_pct": 3.88,
+    "calmar": -0.92,
+    "avg_win_usd": 8.98,
+    "avg_loss_usd": -9.41,
+    "drawdown_series": [
+      0.45,
+      0.55,
+      0.29,
+      0.61,
+      0.74,
+      1.2,
+      1.46,
+      1.91,
+      2.08,
+      2.54,
+      2.28,
+      2.58,
+      2.72,
+      2.99,
+      2.73,
+      2.48,
+      2.24,
+      1.99,
+      1.74,
+      1.88,
+      1.63,
+      1.66,
+      1.78,
+      1.83,
+      1.9,
+      2.02,
+      1.77,
+      2.02,
+      2.11,
+      2.27,
+      2.14,
+      2.14,
+      2.1,
+      2.02,
+      1.77,
+      1.86,
+      1.75,
+      1.64,
+      1.64,
+      1.39,
+      1.48,
+      1.56,
+      1.76,
+      1.65,
+      1.69,
+      1.44,
+      1.19,
+      0.94,
+      1.07,
+      0.82,
+      0.57,
+      0.32,
+      0.4,
+      0.15,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.21,
+      0.41,
+      0.52,
+      0.65,
+      0.96,
+      1.14,
+      1.59,
+      1.84,
+      2.3,
+      2.75,
+      2.88,
+      3.33,
+      3.53,
+      3.6,
+      3.88,
+      3.64,
+      3.58,
+      3.34,
+      3.09,
+      3.04,
+      2.8,
+      2.75,
+      2.5,
+      2.59,
+      2.41,
+      2.51,
+      2.63,
+      2.38,
+      2.37,
+      2.5,
+      2.41,
+      2.45,
+      2.42,
+      2.18,
+      2.1,
+      2.13,
+      2.01,
+      1.9,
+      1.84,
+      1.84,
+      1.8,
+      1.9,
+      1.78,
+      1.68,
+      1.6
+    ],
+    "exit_reasons": {
+      "stop_loss": {
+        "count": 8,
+        "pnl": -182.56
+      },
+      "trailing_stop": {
+        "count": 23,
+        "pnl": -170.66
+      },
+      "take_profit": {
+        "count": 31,
+        "pnl": 387.65
+      },
+      "expiry": {
+        "count": 43,
+        "pnl": -47.93
+      }
+    }
+  },
+  "btc_benchmark": {
+    "start_price": 67290.52,
+    "end_price": 77612.02,
+    "return_pct": 15.34
+  },
+  "weekly": [
+    {
+      "week": 1,
+      "trade_from": "2026-04-06",
+      "trade_to": "2026-04-12",
+      "trades": 45,
+      "pnl_usd": -84.58,
+      "win_rate": 40.0,
+      "val_ic_3d": 0.008,
+      "val_accuracy": 0.636,
+      "train_rows": 841241
+    },
+    {
+      "week": 2,
+      "trade_from": "2026-04-13",
+      "trade_to": "2026-04-19",
+      "trades": 30,
+      "pnl_usd": -44.62,
+      "win_rate": 43.3,
+      "val_ic_3d": 0.0033,
+      "val_accuracy": 0.6644,
+      "train_rows": 847175
+    },
+    {
+      "week": 3,
+      "trade_from": "2026-04-20",
+      "trade_to": "2026-04-25",
+      "trades": 30,
+      "pnl_usd": 115.7,
+      "win_rate": 73.3,
+      "val_ic_3d": 0.0109,
+      "val_accuracy": 0.6462,
+      "train_rows": 854109
+    }
+  ],
+  "monthly": {
+    "Apr": {
+      "pnl_usd": -13.5,
+      "trades": 105,
+      "win_rate": 50.5,
+      "long_trades": 90,
+      "long_pnl": 123.14,
+      "short_trades": 15,
+      "short_pnl": -136.64
+    }
+  },
+  "daily_equity": [
+    {
+      "date": "2026-04-06",
+      "equity": 5000.0
+    },
+    {
+      "date": "2026-04-07",
+      "equity": 5000.0
+    },
+    {
+      "date": "2026-04-08",
+      "equity": 5000.0
+    },
+    {
+      "date": "2026-04-09",
+      "equity": 4863.36
+    },
+    {
+      "date": "2026-04-10",
+      "equity": 4863.36
+    },
+    {
+      "date": "2026-04-11",
+      "equity": 4863.36
+    },
+    {
+      "date": "2026-04-12",
+      "equity": 4886.43
+    },
+    {
+      "date": "2026-04-13",
+      "equity": 4886.43
+    },
+    {
+      "date": "2026-04-14",
+      "equity": 4886.43
+    },
+    {
+      "date": "2026-04-15",
+      "equity": 4915.42
+    },
+    {
+      "date": "2026-04-16",
+      "equity": 4915.42
+    },
+    {
+      "date": "2026-04-17",
+      "equity": 4915.42
+    },
+    {
+      "date": "2026-04-18",
+      "equity": 5067.63
+    },
+    {
+      "date": "2026-04-19",
+      "equity": 5067.63
+    },
+    {
+      "date": "2026-04-20",
+      "equity": 5067.63
+    },
+    {
+      "date": "2026-04-21",
+      "equity": 4870.8
+    },
+    {
+      "date": "2026-04-22",
+      "equity": 4870.8
+    },
+    {
+      "date": "2026-04-23",
+      "equity": 4870.8
+    },
+    {
+      "date": "2026-04-24",
+      "equity": 4940.98
+    },
+    {
+      "date": "2026-04-25",
+      "equity": 4986.5
+    }
+  ],
+  "per_coin": [
+    {
+      "slug": "aave",
+      "category": "DeFi/Infra",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 31.22,
+      "long_wr": 83.3,
+      "short_trades": 1,
+      "short_pnl": 12.75,
+      "short_wr": 100.0,
+      "net_pnl": 43.97
+    },
+    {
+      "slug": "chainlink",
+      "category": "DeFi/Infra",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 30.49,
+      "long_wr": 83.3,
+      "short_trades": 1,
+      "short_pnl": -15.56,
+      "short_wr": 0.0,
+      "net_pnl": 14.93
+    },
+    {
+      "slug": "curve-dao-token",
+      "category": "DeFi/Infra",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 1.23,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": 12.75,
+      "short_wr": 100.0,
+      "net_pnl": 13.98
+    },
+    {
+      "slug": "pepe",
+      "category": "Meme",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": -0.54,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": 12.75,
+      "short_wr": 100.0,
+      "net_pnl": 12.21
+    },
+    {
+      "slug": "dogecoin",
+      "category": "Meme",
+      "total_trades": 6,
+      "long_trades": 5,
+      "long_pnl": 19.68,
+      "long_wr": 80.0,
+      "short_trades": 1,
+      "short_pnl": -8.5,
+      "short_wr": 0.0,
+      "net_pnl": 11.18
+    },
+    {
+      "slug": "bitcoin-cash",
+      "category": "L1-Fork",
+      "total_trades": 6,
+      "long_trades": 6,
+      "long_pnl": 5.71,
+      "long_wr": 50.0,
+      "short_trades": 0,
+      "short_pnl": 0.0,
+      "short_wr": 0,
+      "net_pnl": 5.71
+    },
+    {
+      "slug": "shiba-inu",
+      "category": "Meme",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 8.86,
+      "long_wr": 66.7,
+      "short_trades": 1,
+      "short_pnl": -6.88,
+      "short_wr": 0.0,
+      "net_pnl": 1.98
+    },
+    {
+      "slug": "bitcoin",
+      "category": "L1-Major",
+      "total_trades": 1,
+      "long_trades": 1,
+      "long_pnl": -1.42,
+      "long_wr": 0.0,
+      "short_trades": 0,
+      "short_pnl": 0.0,
+      "short_wr": 0,
+      "net_pnl": -1.42
+    },
+    {
+      "slug": "neo",
+      "category": "L1-Alt",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 3.0,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": -4.79,
+      "short_wr": 0.0,
+      "net_pnl": -1.79
+    },
+    {
+      "slug": "uniswap",
+      "category": "DeFi/Infra",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 7.7,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": -13.47,
+      "short_wr": 0.0,
+      "net_pnl": -5.77
+    },
+    {
+      "slug": "sui",
+      "category": "L1-Alt",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 15.97,
+      "long_wr": 66.7,
+      "short_trades": 1,
+      "short_pnl": -22.67,
+      "short_wr": 0.0,
+      "net_pnl": -6.7
+    },
+    {
+      "slug": "arbitrum",
+      "category": "L2",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": 14.24,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": -22.67,
+      "short_wr": 0.0,
+      "net_pnl": -8.43
+    },
+    {
+      "slug": "litecoin",
+      "category": "L1-Major",
+      "total_trades": 2,
+      "long_trades": 1,
+      "long_pnl": -2.44,
+      "long_wr": 0.0,
+      "short_trades": 1,
+      "short_pnl": -6.77,
+      "short_wr": 0.0,
+      "net_pnl": -9.21
+    },
+    {
+      "slug": "solana",
+      "category": "L1-Major",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": -0.72,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": -13.13,
+      "short_wr": 0.0,
+      "net_pnl": -13.85
+    },
+    {
+      "slug": "cardano",
+      "category": "L1-Major",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": -3.64,
+      "long_wr": 50.0,
+      "short_trades": 1,
+      "short_pnl": -15.12,
+      "short_wr": 0.0,
+      "net_pnl": -18.75
+    },
+    {
+      "slug": "zcash",
+      "category": "Privacy",
+      "total_trades": 6,
+      "long_trades": 5,
+      "long_pnl": 3.6,
+      "long_wr": 40.0,
+      "short_trades": 1,
+      "short_pnl": -22.67,
+      "short_wr": 0.0,
+      "net_pnl": -19.07
+    },
+    {
+      "slug": "ethena",
+      "category": "DeFi/Infra",
+      "total_trades": 7,
+      "long_trades": 6,
+      "long_pnl": -9.8,
+      "long_wr": 33.3,
+      "short_trades": 1,
+      "short_pnl": -22.67,
+      "short_wr": 0.0,
+      "net_pnl": -32.46
+    }
+  ],
+  "per_category": [
+    {
+      "category": "DeFi/Infra",
+      "coins": 5,
+      "long_trades": 30,
+      "long_pnl": 60.85,
+      "short_trades": 5,
+      "short_pnl": -26.2,
+      "net_pnl": 34.65
+    },
+    {
+      "category": "Meme",
+      "coins": 3,
+      "long_trades": 17,
+      "long_pnl": 28.0,
+      "short_trades": 3,
+      "short_pnl": -2.63,
+      "net_pnl": 25.37
+    },
+    {
+      "category": "L1-Fork",
+      "coins": 1,
+      "long_trades": 6,
+      "long_pnl": 5.71,
+      "short_trades": 0,
+      "short_pnl": 0.0,
+      "net_pnl": 5.71
+    },
+    {
+      "category": "L2",
+      "coins": 1,
+      "long_trades": 6,
+      "long_pnl": 14.24,
+      "short_trades": 1,
+      "short_pnl": -22.67,
+      "net_pnl": -8.43
+    },
+    {
+      "category": "L1-Alt",
+      "coins": 2,
+      "long_trades": 12,
+      "long_pnl": 18.96,
+      "short_trades": 2,
+      "short_pnl": -27.46,
+      "net_pnl": -8.5
+    },
+    {
+      "category": "Privacy",
+      "coins": 1,
+      "long_trades": 5,
+      "long_pnl": 3.6,
+      "short_trades": 1,
+      "short_pnl": -22.67,
+      "net_pnl": -19.07
+    },
+    {
+      "category": "L1-Major",
+      "coins": 4,
+      "long_trades": 14,
+      "long_pnl": -8.22,
+      "short_trades": 3,
+      "short_pnl": -35.02,
+      "net_pnl": -43.24
+    }
+  ],
+  "training_diagnostics": [
+    {
+      "train_rows": 841241,
+      "val_rows": 19799,
+      "train_coins": 3236,
+      "val_coins": 1046,
+      "val_ic_3d": 0.008,
+      "val_accuracy": 0.636,
+      "best_iteration": 45,
+      "train_from": "2024-04-01",
+      "train_to": "2026-02-15",
+      "val_from": "2026-02-16",
+      "val_to": "2026-03-08",
+      "week": 1,
+      "retrain_date": "2026-04-05",
+      "trade_from": "2026-04-06",
+      "trade_to": "2026-04-12",
+      "n_signals": 7000
+    },
+    {
+      "train_rows": 847175,
+      "val_rows": 20783,
+      "train_coins": 3240,
+      "val_coins": 1047,
+      "val_ic_3d": 0.0033,
+      "val_accuracy": 0.6644,
+      "best_iteration": 65,
+      "train_from": "2024-04-01",
+      "train_to": "2026-02-22",
+      "val_from": "2026-02-23",
+      "val_to": "2026-03-15",
+      "week": 2,
+      "retrain_date": "2026-04-12",
+      "trade_from": "2026-04-13",
+      "trade_to": "2026-04-19",
+      "n_signals": 7000
+    },
+    {
+      "train_rows": 854109,
+      "val_rows": 20734,
+      "train_coins": 3244,
+      "val_coins": 1062,
+      "val_ic_3d": 0.0109,
+      "val_accuracy": 0.6462,
+      "best_iteration": 69,
+      "train_from": "2024-04-01",
+      "train_to": "2026-03-01",
+      "val_from": "2026-03-02",
+      "val_to": "2026-03-22",
+      "week": 3,
+      "retrain_date": "2026-04-19",
+      "trade_from": "2026-04-20",
+      "trade_to": "2026-04-25",
+      "n_signals": 6000
+    }
+  ]
+}
