@@ -5,3 +5,12 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Secrets — added by env-leak cleanup
+.env
+.env.*
+*.env
+*.env.backup
+*.env.production
+*.env.local
+
