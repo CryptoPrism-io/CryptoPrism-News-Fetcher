@@ -1,0 +1,49 @@
+name: "RDS DB inventory (read-only)"
+
+# One-off READ-ONLY check: what databases exist on the RDS instance, and for
+# dbcp / cp_backtest / cp_backtest_h, do they exist and how fresh are they.
+# No writes. Manual dispatch only. Remove after use.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Install psql 16
+        run: |
+          set -euo pipefail
+          sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+          curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgdg.gpg
+          sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client-16
+
+      - name: Inventory RDS (read-only)
+        env:
+          H: ${{ secrets.DB_HOST }}
+          U: ${{ secrets.DB_USER }}
+          P: ${{ secrets.DB_PASSWORD }}
+          PORT: ${{ secrets.DB_PORT }}
+        run: |
+          set -uo pipefail
+          export PGSSLMODE=require PGCONNECT_TIMEOUT=30
+          q(){ PGPASSWORD="$P" psql -h "$H" -p "${PORT:-5432}" -U "$U" -d "$1" -tAq -c "$2" 2>&1; }
+          echo "RDS host: $H"
+          echo "=== databases on the instance ==="
+          q postgres "SELECT datname FROM pg_database WHERE datistemplate=false ORDER BY 1;"
+          for db in dbcp cp_backtest cp_backtest_h; do
+            echo "=================== $db ==================="
+            exists=$(q postgres "SELECT 1 FROM pg_database WHERE datname='$db';")
+            if [ "$exists" != "1" ]; then echo "  ABSENT on RDS"; continue; fi
+            echo "  present. tables: $(q "$db" "SELECT count(*) FROM information_schema.tables WHERE table_schema='public';")"
+            # representative freshness probes (ignore errors if a table is absent)
+            echo "  1K_coins_ohlcv rows: $(q "$db" "SELECT count(*) FROM \"1K_coins_ohlcv\";")"
+            echo "  1K_coins_ohlcv max date: $(q "$db" "SELECT max(timestamp) FROM \"1K_coins_ohlcv\";")"
+            echo "  FE_MOMENTUM rows: $(q "$db" "SELECT count(*) FROM \"FE_MOMENTUM\";")"
+            echo "  FE_MOMENTUM max date: $(q "$db" "SELECT max(timestamp) FROM \"FE_MOMENTUM\";")"
+          done
+          echo "=== cp_backtest_h-specific probes (if present) ==="
+          echo "  ohlcv_1h_250_coins rows: $(q cp_backtest_h "SELECT count(*) FROM ohlcv_1h_250_coins;")"
+          echo "  ohlcv_1h_250_coins max ts: $(q cp_backtest_h "SELECT max(timestamp) FROM ohlcv_1h_250_coins;")"
+          echo "DONE"
