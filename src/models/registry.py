@@ -6,7 +6,9 @@ Read/write interface for ML_MODEL_REGISTRY and ML_BACKTEST_RESULTS.
 import json
 import logging
 import os
+import pickle
 from datetime import datetime, timezone
+from pathlib import Path
 
 import psycopg2
 import psycopg2.extras
@@ -103,9 +105,64 @@ def register_model(
     return model_id
 
 
+def assert_registry_artifact_consistent(model_id: int, features_used, artifact_path: str | None) -> None:
+    """Refuse to mark active a row whose pickled model width != features_used.
+
+    This is the guard against the '113 vs 95 features' production crash: a row
+    must never be activated if its on-disk artifact was fit on a different
+    number of features than the row declares.
+
+    Best-effort: if the artifact is missing or unreadable we warn and proceed
+    (so activation is never bricked by a transient/cached file), but a
+    *confirmed* width mismatch raises.
+    """
+    declared = json.loads(features_used) if isinstance(features_used, str) else features_used
+    norm_path = (artifact_path or "").replace("\\", "/")
+    if not declared or not norm_path:
+        return
+    p = Path(norm_path)
+    if not p.exists():
+        log.warning(
+            "Cannot verify model_id=%s before activation: artifact %s not "
+            "present on disk. Proceeding.", model_id, norm_path,
+        )
+        return
+    try:
+        with open(p, "rb") as f:
+            art = pickle.load(f)
+        n_in = getattr(art.get("model"), "n_features_in_", None)
+    except Exception as e:  # noqa: BLE001
+        log.warning(
+            "Could not read artifact %s for model_id=%s (%s). Proceeding.",
+            norm_path, model_id, e,
+        )
+        return
+    if n_in is not None and n_in != len(declared):
+        raise ValueError(
+            f"Refusing to activate model_id={model_id}: registry features_used "
+            f"({len(declared)}) != artifact model.n_features_in_ ({n_in}) at "
+            f"{norm_path}. The row and its pickle are inconsistent."
+        )
+
+
 def set_active_model(model_id: int):
-    """Deactivate all models, activate the specified one."""
+    """Deactivate all models, activate the specified one.
+
+    Verifies the target row's artifact is consistent with its features_used
+    before flipping is_active (see assert_registry_artifact_consistent)."""
     conn = get_db_conn()
+    with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+        cur.execute(
+            'SELECT features_used, artifact_path FROM "ML_MODEL_REGISTRY" WHERE model_id = %s',
+            (model_id,),
+        )
+        row = cur.fetchone()
+    if row is None:
+        conn.close()
+        raise ValueError(f"Cannot activate unknown model_id={model_id}")
+
+    assert_registry_artifact_consistent(model_id, row["features_used"], row["artifact_path"])
+
     with conn.cursor() as cur:
         cur.execute('UPDATE "ML_MODEL_REGISTRY" SET is_active = FALSE')
         cur.execute('UPDATE "ML_MODEL_REGISTRY" SET is_active = TRUE WHERE model_id = %s', (model_id,))

@@ -27,6 +27,7 @@ from src.models.train_lgbm import (
     compute_splits, FEATURES_PRICE_ONLY, LGBM_PARAMS,
     TARGET_COL, LABEL_COLS, RETURN_COLS, NEWS_DATA_START,
     prepare_xy, get_top_universe_slugs,
+    build_artifact_path, assert_feature_consistency,
 )
 
 load_dotenv()
@@ -364,12 +365,14 @@ def train():
         df_test["forward_ret_7d"].values, dates_test,
     )
 
-    # Save
+    # Save (unique, immutable path — see build_artifact_path)
+    assert_feature_consistency(model, used_features)
     artifact_dir = Path("artifacts")
     artifact_dir.mkdir(exist_ok=True)
-    with open(ARTIFACT_PATH, "wb") as f:
+    artifact_path = build_artifact_path(model_name)
+    with open(artifact_path, "wb") as f:
         pickle.dump({"model": model, "features": used_features, "label_remap": label_remap}, f)
-    log.info(f"Model saved to {ARTIFACT_PATH}")
+    log.info(f"Model saved to {artifact_path}")
 
     # Register
     model_id = register_model(
@@ -379,7 +382,7 @@ def train():
         features_used=used_features,
         train_from=split["train_from"], train_to=split["train_to"],
         val_from=split["val_from"], val_to=split["val_to"],
-        artifact_path=ARTIFACT_PATH,
+        artifact_path=artifact_path,
         notes="ensemble: original + residuals + LSTM + TCN + news_events + regime",
     )
 
