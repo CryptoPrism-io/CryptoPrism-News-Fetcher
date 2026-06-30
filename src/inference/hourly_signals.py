@@ -38,16 +38,6 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
-def load_ensemble_model():
-    """Load the ensemble LightGBM model artifact."""
-    path = Path("artifacts/lgbm_ensemble_v1.pkl")
-    if not path.exists():
-        log.error(f"Ensemble model not found at {path}")
-        return None
-    with open(path, "rb") as f:
-        return pickle.load(f)
-
-
 def fetch_regime(conn, target_date: str) -> dict:
     """Get current regime state from composite detector."""
     try:
@@ -82,17 +72,18 @@ def run(target_date: str | None = None):
         model_id = active["model_id"]
         log.info(f"Active model: {active['model_name']} (id={model_id})")
 
-        # Load model artifact
-        artifact = load_ensemble_model()
-        if artifact is None:
-            # Fall back to active model artifact
-            artifact_path = active.get("artifact_path", "")
-            if not Path(artifact_path).exists():
-                log.error(f"Model artifact not found: {artifact_path}")
-                dbcp.close()
-                return 0
-            with open(artifact_path, "rb") as f:
-                artifact = pickle.load(f)
+        # Load the ACTIVE model's own artifact. Provenance-safe: the registry
+        # row and its .pkl are bound by a unique artifact_path (see
+        # train_lgbm.build_artifact_path). Do NOT load a fixed/hardcoded
+        # filename — that can drift from the active row and silently serve a
+        # different model than the one registered.
+        artifact_path = active.get("artifact_path", "")
+        if not artifact_path or not Path(artifact_path).exists():
+            log.error(f"Active model artifact not found: {artifact_path!r}")
+            dbcp.close()
+            return 0
+        with open(artifact_path, "rb") as f:
+            artifact = pickle.load(f)
 
         model = artifact["model"]
         features = artifact["features"]

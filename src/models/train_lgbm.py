@@ -160,6 +160,35 @@ LGBM_PARAMS = {
 }
 
 
+def build_artifact_path(model_name: str, now: datetime | None = None) -> str:
+    """Unique, immutable artifact filename per training run.
+
+    A *fixed* filename (e.g. ``artifacts/lgbm_ensemble_v1.pkl``) shared across
+    model ids and shuttled through run-scoped GitHub caches let the registry
+    row drift from the .pkl actually present at inference, producing the
+    "X has 113 features, but LGBMClassifier is expecting 95" crash. A
+    timestamped name makes each registered ``model_id`` ↔ artifact binding
+    immutable: a later retrain writes a new file and registers the new path,
+    instead of silently overwriting the file an existing active row points at.
+    """
+    now = now or datetime.now(timezone.utc)
+    ts = now.strftime("%Y%m%d_%H%M%S")
+    return f"artifacts/{model_name}_{ts}.pkl"
+
+
+def assert_feature_consistency(model, used_features: list[str]) -> None:
+    """Tripwire: a fitted model and the feature list pickled/registered with it
+    MUST agree on width, or inference later raises an opaque feature-count
+    error. Fail at train time (loud, local) rather than in production."""
+    n_in = getattr(model, "n_features_in_", None)
+    if n_in is not None and n_in != len(used_features):
+        raise ValueError(
+            f"Refusing to save/register an inconsistent artifact: "
+            f"model.n_features_in_={n_in} but len(used_features)="
+            f"{len(used_features)}. The model and its feature contract disagree."
+        )
+
+
 
 def load_feature_matrix(dbcp_conn, features: list[str], from_date: str, to_date: str,
                         bt_conn=None) -> pd.DataFrame:
@@ -429,10 +458,11 @@ def train(mode: str = "price_only"):
     except Exception as e:
         log.warning(f"SHAP failed: {e}")
 
-    # Save model artifact
+    # Save model artifact (unique, immutable path — see build_artifact_path)
+    assert_feature_consistency(model, used_features)
     artifact_dir = Path("artifacts")
     artifact_dir.mkdir(exist_ok=True)
-    artifact_path = str(artifact_dir / f"{model_name}.pkl")
+    artifact_path = build_artifact_path(model_name)
     with open(artifact_path, "wb") as f:
         pickle.dump({"model": model, "features": used_features, "label_remap": label_remap}, f)
     log.info(f"Model saved to {artifact_path}")
