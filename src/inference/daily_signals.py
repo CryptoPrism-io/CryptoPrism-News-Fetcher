@@ -47,6 +47,55 @@ def load_model_artifact(artifact_path: str) -> dict:
         return pickle.load(f)
 
 
+def resolve_inference_features(active: dict, artifact: dict) -> list[str]:
+    """Decide which feature columns to build the inference matrix X from.
+
+    Source of truth is the *loaded model artifact's own feature list*
+    (``artifact["features"]``), NOT the registry's ``features_used``. The
+    pickled ``{model, features}`` pair is internally consistent — the model was
+    fit on exactly those columns — whereas ``ML_MODEL_REGISTRY.features_used``
+    can drift from the .pkl actually present at ``artifact_path`` (the artifact
+    filename is shared across model ids and shuttled through run-scoped GitHub
+    caches). Trusting the registry is what produced the production crash
+    "X has 113 features, but LGBMClassifier is expecting 95 features as input".
+
+    Aligning to the artifact makes inference robust to that drift and matches
+    the behaviour already used by ``hourly_signals.py``. Registry/artifact
+    disagreement is logged loudly so ops can spot a stale active artifact.
+    """
+    features = artifact.get("features")
+    if not features:
+        # Older artifacts may not embed a feature list — fall back to the
+        # model's own recorded feature names.
+        model = artifact.get("model")
+        features = list(getattr(model, "feature_name_", []) or [])
+
+    registry_raw = active.get("features_used")
+    registry_features = (
+        json.loads(registry_raw) if isinstance(registry_raw, str) else registry_raw
+    )
+
+    if not features:
+        # Nothing usable on the artifact — last resort is the registry list.
+        log.warning(
+            "Model artifact has no feature list; falling back to registry "
+            "features_used for model_id=%s.", active.get("model_id"),
+        )
+        return list(registry_features or [])
+
+    if registry_features is not None and len(registry_features) != len(features):
+        log.warning(
+            "Registry features_used (%d) != model artifact features (%d) for "
+            "model_id=%s. Using the artifact's feature contract. The active "
+            "registry row may reference a stale/mismatched pickle at %s — "
+            "verify/retrain the active model artifact.",
+            len(registry_features), len(features), active.get("model_id"),
+            active.get("artifact_path"),
+        )
+
+    return list(features)
+
+
 def fetch_today_features(conn, features: list[str], target_date: str) -> list[dict]:
     """
     Build feature matrix by querying cp_backtest for price features
@@ -274,7 +323,6 @@ def run(target_date: str | None = None):
             return 0
 
         model_id = active["model_id"]
-        features = json.loads(active["features_used"]) if isinstance(active["features_used"], str) else active["features_used"]
         artifact_path = active["artifact_path"]
 
         log.info(f"Active model: {active['model_name']} (id={model_id})")
@@ -283,6 +331,12 @@ def run(target_date: str | None = None):
         artifact = load_model_artifact(artifact_path)
         model       = artifact["model"]
         label_remap = artifact["label_remap"]   # {0: -1, 1: 0, 2: 1}
+
+        # Build X from the model's OWN feature contract (the artifact), not the
+        # registry's features_used — the two can drift (see
+        # resolve_inference_features) and trusting the registry crashes
+        # predict_proba. Matches hourly_signals.py.
+        features = resolve_inference_features(active, artifact)
 
         # Fetch features
         rows = fetch_today_features(conn, features, target_date)
