@@ -1,0 +1,38 @@
+name: News Source Compare (cv vs CoinDesk)
+
+# Inserts the cryptocurrency.cv sample into an isolated eval table and compares
+# it against real cc_news CoinDesk data for a target day. Runs on Actions where
+# the DB is reachable. Triggers on push to the eval branch + manual dispatch.
+on:
+  push:
+    branches:
+      - 'eval/ccv-source'
+  workflow_dispatch:
+    inputs:
+      day:
+        description: 'cc_news comparison day (YYYY-MM-DD)'
+        default: '2026-07-10'
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install psycopg2
+        run: pip install "psycopg2-binary>=2.9"
+
+      - name: Run comparison
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+        run: python scripts/compare_news_sources.py --day "${{ github.event.inputs.day || '2026-07-10' }}"
