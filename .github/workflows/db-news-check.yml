@@ -1,0 +1,99 @@
+name: DB News Integrity Check (read-only)
+
+# Read-only diagnostic: reports cc_news freshness + monthly coverage gaps.
+# Triggers on push to the diag branch so it runs once, and via manual dispatch.
+on:
+  push:
+    branches:
+      - 'diag/cc-news-integrity'
+  workflow_dispatch:
+
+jobs:
+  news-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install psycopg2
+        run: pip install "psycopg2-binary>=2.9"
+
+      - name: Run cc_news integrity query
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+        run: |
+          python - <<'PY'
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ["DB_HOST"], port=os.environ.get("DB_PORT", "5432"),
+              user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
+              dbname=os.environ["DB_NAME"],
+          )
+          cur = conn.cursor()
+
+          cur.execute("SELECT current_database();")
+          print("Database:", cur.fetchone()[0])
+
+          cur.execute("""
+              SELECT COUNT(*), MIN(published_on), MAX(published_on),
+                     MAX(fetched_at), COUNT(DISTINCT source)
+              FROM cc_news;
+          """)
+          total, oldest, newest, last_fetch, sources = cur.fetchone()
+          print(f"\n=== cc_news OVERVIEW ===")
+          print(f"Total articles      : {total}")
+          print(f"Oldest published_on : {oldest}")
+          print(f"Newest published_on : {newest}")
+          print(f"Latest fetched_at   : {last_fetch}")
+          print(f"Distinct sources    : {sources}")
+
+          cur.execute("""
+              SELECT COUNT(*) FILTER (WHERE published_on >= NOW() - INTERVAL '10 days'),
+                     COUNT(*) FILTER (WHERE published_on >= NOW() - INTERVAL '30 days'),
+                     COUNT(*) FILTER (WHERE fetched_at   >= NOW() - INTERVAL '10 days')
+              FROM cc_news;
+          """)
+          p10, p30, f10 = cur.fetchone()
+          print(f"\nPublished last 10d  : {p10}")
+          print(f"Published last 30d  : {p30}")
+          print(f"Fetched   last 10d  : {f10}")
+
+          print(f"\n=== MONTHLY COVERAGE (published_on, last 8 months) ===")
+          cur.execute("""
+              SELECT to_char(date_trunc('month', published_on), 'YYYY-MM') AS mon,
+                     COUNT(*) AS articles,
+                     COUNT(DISTINCT date_trunc('day', published_on)) AS days_covered
+              FROM cc_news
+              WHERE published_on >= NOW() - INTERVAL '8 months'
+              GROUP BY 1 ORDER BY 1;
+          """)
+          print(f"{'month':<9}{'articles':>10}{'days_with_news':>16}")
+          for mon, arts, days in cur.fetchall():
+              print(f"{mon:<9}{arts:>10}{days:>16}")
+
+          print(f"\n=== DAILY COVERAGE (last 21 days) ===")
+          cur.execute("""
+              SELECT to_char(date_trunc('day', published_on), 'YYYY-MM-DD') AS d, COUNT(*)
+              FROM cc_news
+              WHERE published_on >= NOW() - INTERVAL '21 days'
+              GROUP BY 1 ORDER BY 1;
+          """)
+          rows = cur.fetchall()
+          if rows:
+              for d, c in rows:
+                  print(f"  {d}: {c}")
+          else:
+              print("  (no articles in the last 21 days)")
+
+          cur.close(); conn.close()
+          print("\nDone.")
+          PY
