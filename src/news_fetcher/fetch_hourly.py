@@ -79,6 +79,14 @@ def fetch_crypto_news_hourly(hours_back=1):
         resp.raise_for_status()
         data = resp.json()
 
+        # The API returns HTTP 200 with an empty "Data" even on auth/quota
+        # failures — it reports the real problem in "Err" instead. Without
+        # this check a bad/expired key looks identical to "no news this
+        # hour" and the job silently reports 0 articles as normal forever.
+        err = data.get("Err")
+        if err:
+            raise RuntimeError(f"CryptoCompare/CoinDesk news API error: {err}")
+
         articles = data.get("Data", [])
 
         if not articles:
