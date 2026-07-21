@@ -79,7 +79,21 @@ def fetch_crypto_news_hourly(hours_back=1):
         resp.raise_for_status()
         data = resp.json()
 
+        # CryptoCompare/CoinDesk returns HTTP 200 even on errors (rate limit
+        # exceeded, invalid/expired key, deprecated endpoint). Detect these and
+        # fail LOUDLY — do not let an error response masquerade as "no news".
+        if data.get("Response") == "Error" or data.get("Err"):
+            msg = data.get("Message") or data.get("Err", {}).get("message", "Unknown API error")
+            rate = data.get("RateLimit", {})
+            raise RuntimeError(
+                f"CryptoCompare/CoinDesk API error: {msg}"
+                + (f" | RateLimit={rate}" if rate else "")
+            )
+
         articles = data.get("Data", [])
+        # On some error responses Data is an empty dict {} rather than a list.
+        if isinstance(articles, dict):
+            articles = []
 
         if not articles:
             print(f"   No more articles found (page {page + 1})")

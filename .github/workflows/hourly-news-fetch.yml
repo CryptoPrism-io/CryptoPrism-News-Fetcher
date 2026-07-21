@@ -8,6 +8,11 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+# Required so the "commit and push latest exports" step can push
+# (default GITHUB_TOKEN is contents: read, which caused silent 403s on push).
+permissions:
+  contents: write
+
 jobs:
   fetch-and-store:
     runs-on: ubuntu-latest

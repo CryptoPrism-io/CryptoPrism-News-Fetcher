@@ -1,11 +1,8 @@
 name: DB News Integrity Check (read-only)
 
 # Read-only diagnostic: reports cc_news freshness + monthly coverage gaps.
-# Triggers on push to the diag branch so it runs once, and via manual dispatch.
+# Manual tool — run from the Actions tab whenever you need to check the news feed.
 on:
-  push:
-    branches:
-      - 'diag/cc-news-integrity'
   workflow_dispatch:
 
 jobs:
