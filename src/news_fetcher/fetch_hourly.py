@@ -79,15 +79,25 @@ def fetch_crypto_news_hourly(hours_back=1):
         resp.raise_for_status()
         data = resp.json()
 
-        # The API returns HTTP 200 with an empty "Data" even on auth/quota
-        # failures — it reports the real problem in "Err" instead. Without
-        # this check a bad/expired key looks identical to "no news this
-        # hour" and the job silently reports 0 articles as normal forever.
-        err = data.get("Err")
-        if err:
-            raise RuntimeError(f"CryptoCompare/CoinDesk news API error: {err}")
+        # CryptoCompare/CoinDesk returns HTTP 200 even on errors. Two distinct
+        # shapes: rate-limit / deprecated endpoint -> {"Response":"Error",
+        # "Message":...}; invalid/expired key -> {"Err":...}. Detect BOTH and
+        # fail LOUDLY — otherwise an error response looks identical to "no news
+        # this hour" and the job silently reports 0 articles as normal forever.
+        # (The over-quota case, the actual production failure, only sets
+        # "Response"/"Message" — an Err-only check would miss it.)
+        if data.get("Response") == "Error" or data.get("Err"):
+            msg = data.get("Message") or data.get("Err", {}).get("message", "Unknown API error")
+            rate = data.get("RateLimit", {})
+            raise RuntimeError(
+                f"CryptoCompare/CoinDesk API error: {msg}"
+                + (f" | RateLimit={rate}" if rate else "")
+            )
 
         articles = data.get("Data", [])
+        # On some error responses Data is an empty dict {} rather than a list.
+        if isinstance(articles, dict):
+            articles = []
 
         if not articles:
             print(f"   No more articles found (page {page + 1})")
