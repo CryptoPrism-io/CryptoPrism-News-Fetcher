@@ -1,0 +1,35 @@
+name: Deploy cv news source (AWS VM)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'deploy/**'
+      - 'src/news_fetcher/**'
+      - '.github/workflows/deploy-cv-vm.yml'
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VM_SSH_HOST }}
+          username: ${{ secrets.VM_SSH_USER }}
+          key: ${{ secrets.VM_SSH_KEY }}
+          script: |
+            set -euo pipefail
+            cd /opt/cpio-news-fetcher
+            git fetch --all
+            git reset --hard origin/main
+            cd deploy/cv
+            docker compose up -d --build
+            # health gate — do not restart the timer if cv is not serving
+            sleep 8
+            curl -fsS -H "Sec-Fetch-Site: same-origin" \
+              "http://127.0.0.1:3000/api/health" > /dev/null
+            sudo cp /opt/cpio-news-fetcher/deploy/systemd/cv-ingester.service /etc/systemd/system/
+            sudo cp /opt/cpio-news-fetcher/deploy/systemd/cv-ingester.timer /etc/systemd/system/
+            sudo systemctl daemon-reload
+            sudo systemctl enable --now cv-ingester.timer
+            echo "deploy ok"
