@@ -79,9 +79,13 @@ def fetch_crypto_news_hourly(hours_back=1):
         resp.raise_for_status()
         data = resp.json()
 
-        # CryptoCompare/CoinDesk returns HTTP 200 even on errors (rate limit
-        # exceeded, invalid/expired key, deprecated endpoint). Detect these and
-        # fail LOUDLY — do not let an error response masquerade as "no news".
+        # CryptoCompare/CoinDesk returns HTTP 200 even on errors. Two distinct
+        # shapes: rate-limit / deprecated endpoint -> {"Response":"Error",
+        # "Message":...}; invalid/expired key -> {"Err":...}. Detect BOTH and
+        # fail LOUDLY — otherwise an error response looks identical to "no news
+        # this hour" and the job silently reports 0 articles as normal forever.
+        # (The over-quota case, the actual production failure, only sets
+        # "Response"/"Message" — an Err-only check would miss it.)
         if data.get("Response") == "Error" or data.get("Err"):
             msg = data.get("Message") or data.get("Err", {}).get("message", "Unknown API error")
             rate = data.get("RateLimit", {})
