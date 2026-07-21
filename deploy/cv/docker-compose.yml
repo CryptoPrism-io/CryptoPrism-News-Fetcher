@@ -1,0 +1,22 @@
+services:
+  cv:
+    build:
+      context: https://github.com/nirholas/cryptocurrency.cv.git#main
+    image: cryptocurrency-cv:local
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"   # localhost only — never public
+    environment:
+      REDIS_URL: "redis://redis:6379"
+      NODE_ENV: "production"
+      # GROQ_API_KEY intentionally empty — we do not use cv AI features
+    depends_on:
+      - redis
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--save", "60", "1", "--appendonly", "no"]
+    volumes:
+      - cv_redis:/data
+volumes:
+  cv_redis:
