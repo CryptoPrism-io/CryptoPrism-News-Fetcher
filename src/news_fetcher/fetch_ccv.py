@@ -21,6 +21,7 @@ Run modes:
   python -m src.news_fetcher.fetch_ccv --db --table cc_news_cv_eval  # insert to DB
 """
 import os
+import sys
 import json
 import time
 import hashlib
@@ -181,19 +182,37 @@ CREATE TABLE IF NOT EXISTS {table} (
 """
 
 
-def insert_db(rows, table):
-    """Insert into an isolated eval table (NOT prod cc_news). Zero-touch safe."""
+def get_existing_urls(conn, urls):
+    """Return the subset of `urls` already present in cc_news (dedup pre-check)."""
+    if not urls:
+        return set()
+    cur = conn.cursor()
+    cur.execute("SELECT url FROM cc_news WHERE url = ANY(%s)", (list(urls),))
+    seen = {r[0] for r in cur.fetchall()}
+    cur.close()
+    return seen
+
+
+def insert_db(rows, table, create_table=True, conn=None):
+    """Insert rows into `table` (dedup ON CONFLICT url).
+
+    For prod cc_news pass create_table=False — NEVER run DDL against prod
+    (zero-touch). Pass an existing `conn` to reuse a connection.
+    """
     import psycopg2
     from psycopg2.extras import execute_values
 
-    conn = psycopg2.connect(
-        host=os.environ["DB_HOST"], port=os.environ.get("DB_PORT", "5432"),
-        user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
-        dbname=os.environ["DB_NAME"],
-    )
+    own = conn is None
+    if own:
+        conn = psycopg2.connect(
+            host=os.environ["DB_HOST"], port=os.environ.get("DB_PORT", "5432"),
+            user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
+            dbname=os.environ["DB_NAME"],
+        )
     cur = conn.cursor()
-    cur.execute(TABLE_DDL.format(table=table))
-    conn.commit()
+    if create_table:
+        cur.execute(TABLE_DDL.format(table=table))
+        conn.commit()
     vals = [(
         r["id"], r["title"], r["published_on"], r["source"], r["source_name"],
         r["url"], r["categories"], r["tags"], r["lang"], r["body"],
@@ -210,8 +229,79 @@ def insert_db(rows, table):
     conn.commit()
     cur.execute(f"SELECT COUNT(*) FROM {table}")
     after = cur.fetchone()[0]
-    cur.close(); conn.close()
-    print(f"   DB: inserted {after-before} new rows into {table} (total {after})")
+    cur.close()
+    if own:
+        conn.close()
+    inserted = after - before
+    print(f"   DB: inserted {inserted} new rows into {table} (total {after})")
+    return inserted
+
+
+def _notify_failure(msg):
+    """Best-effort Telegram ping on hard failure; never raises."""
+    tok = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat = os.getenv("TELEGRAM_CHAT_ID")
+    if not (tok and chat):
+        return
+    try:
+        payload = json.dumps({"chat_id": chat, "text": f"⚠️ cv-ingester: {msg}"}).encode()
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{tok}/sendMessage", data=payload,
+            headers={"Content-Type": "application/json"},
+        )
+        urllib.request.urlopen(req, timeout=10)
+    except Exception:
+        pass
+
+
+def run_production(limit=200, table="cc_news"):
+    """Fetch -> dedup vs `table` -> extract new -> upsert. Exit non-zero on hard failure.
+
+    Exit codes: 1 = DB unreachable, 2 = cv returned 0 articles from a warm cache.
+    """
+    import psycopg2
+
+    # 1. DB reachable?
+    try:
+        conn = psycopg2.connect(
+            host=os.environ["DB_HOST"], port=os.environ.get("DB_PORT", "5432"),
+            user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
+            dbname=os.environ["DB_NAME"],
+        )
+    except Exception as e:
+        _notify_failure(f"DB unreachable: {e}")
+        print(f"FATAL DB: {e}")
+        sys.exit(1)
+
+    # 2. cv feed (warm cache expected in prod via Redis)
+    arts = fetch_articles(limit)
+    if not arts:
+        _notify_failure("cv returned 0 articles (warm cache) — feed broken?")
+        print("FATAL: 0 articles from cv")
+        conn.close()
+        sys.exit(2)
+
+    # 3. dedup vs existing rows in the target table
+    by_url = {a["link"]: a for a in arts if a.get("link")}
+    existing = get_existing_urls(conn, list(by_url))
+    new_arts = [a for u, a in by_url.items() if u not in existing]
+    print(f"   feed={len(arts)} new={len(new_arts)} (skipped {len(existing)} known)")
+
+    # 4. extract bodies for new articles only
+    rows, ok = [], 0
+    for a in new_arts:
+        body = extract_body(a["link"])
+        if body:
+            ok += 1
+        rows.append(normalize(a, body))
+
+    # 5. upsert (never DDL prod cc_news)
+    inserted = insert_db(rows, table, create_table=False, conn=conn) if rows else 0
+    over = sum(1 for r in rows if r["body_length"] >= 300)
+    print(f"   inserted={inserted} bodies_ok={ok}/{len(rows)} body>=300={over}")
+    conn.close()
+    return {"feed": len(arts), "new": len(new_arts), "inserted": inserted,
+            "bodies_ok": ok, "body_over_300": over}
 
 
 if __name__ == "__main__":
@@ -220,8 +310,14 @@ if __name__ == "__main__":
     ap.add_argument("--no-body", action="store_true")
     ap.add_argument("--json", metavar="PATH", help="dump normalized rows to JSON")
     ap.add_argument("--db", action="store_true", help="insert into --table")
+    ap.add_argument("--prod", action="store_true",
+                    help="production run: dedup vs cc_news + loud failure")
     ap.add_argument("--table", default="cc_news_cv_eval")
     args = ap.parse_args()
+
+    if args.prod:
+        run_production(limit=args.limit, table=args.table)
+        raise SystemExit(0)
 
     print(f"Ingesting from {CCV_BASE} (limit={args.limit}, body={not args.no_body})...")
     rows = ingest(limit=args.limit, with_body=not args.no_body)
