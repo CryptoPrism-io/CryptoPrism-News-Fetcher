@@ -1,0 +1,11 @@
+[Unit]
+Description=cryptocurrency.cv -> cc_news ingester
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/cpio-news-fetcher
+EnvironmentFile=/etc/cv-ingester.env
+ExecStart=/usr/bin/python3 -m src.news_fetcher.fetch_ccv --prod --limit 200 --table cc_news
+# Loud failure surfaces in `systemctl status` / journald and (via the script) Telegram.
