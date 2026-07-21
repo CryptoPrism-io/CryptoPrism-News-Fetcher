@@ -1,30 +1,34 @@
 # cv news source — AWS bring-up runbook
 
-## 0. DB facts (verified 2026-07-21 via db-identity-check workflow)
-- **Server (private VPC IP): `172.31.82.167`** — default AWS VPC range `172.31.0.0/16`.
-- **PostgreSQL 16.13, self-managed on EC2 (NOT RDS)** (`looks_like_rds: False`).
-- Publicly reachable via the `DB_HOST` GitHub secret endpoint (that's how Actions connects);
-  from inside the VPC use the **private IP `172.31.82.167`**.
+## 0. DB facts (corrected 2026-07-22)
+- **Amazon RDS `dbcp-aws`** — PostgreSQL 16.13. Endpoint
+  `dbcp-aws.ci348o64i4ep.us-east-1.rds.amazonaws.com`, SG `sg-0ea3ffe343953e7f3`,
+  VPC `vpc-037b71e236c21355a`, us-east-1b, private ENI `172.31.82.167`. Publicly
+  accessible (how Actions connects). (An earlier `looks_like_rds: False` was a
+  false negative — RDS PG16 reports a generic build string. It IS RDS.)
+- Credentials live in Secrets Manager `/dbcp-aws/postgres` (`dbcp_admin` / db `dbcp`).
 - `cc_news`: 383,706 rows.
 
-## 1. Launch EC2 (cv host)
-- **t3.small, Ubuntu 24.04, 20 GB gp3.**
-- **Launch it in the SAME VPC as the DB (`172.31.0.0/16`)** so it reaches Postgres
-  privately at `172.31.82.167:5432` — no public DB exposure needed.
-- Attach an **Elastic IP** (stable identity for SSH).
-- Security group inbound: **SSH (22) from your IP only**. Outbound: 443 + 5432.
+## AS-DEPLOYED (provisioned via AWS CLI 2026-07-22)
+This runbook was executed via CLI, not by hand. Resources created:
+- EC2 **`i-02b1b632026b06d9b`** — t3.small, Ubuntu 24.04, 30 GB, IMDSv2, public
+  `13.218.44.198` / private `172.31.91.167`, subnet `subnet-0f7e2e3254ca1191b` (us-east-1b).
+- SG **`sg-067bc66da8e718509`** (`cv-ingester-sg`) — no inbound; egress all.
+- IAM **`cv-ingester-role`** / profile **`cv-ingester-profile`** — SSM core +
+  read-only on the `/dbcp-aws/postgres` secret. **Keyless (SSM), no SSH.**
+- RDS ingress rule **`sgr-0ca444e6640209445`** — `cv-ingester-sg` → RDS 5432.
+- 8 GB swap on the VM so the cv Next.js build (wants ~8 GB) survives on 2 GB RAM.
 
-## 2. Allowlist the VM on Postgres  ← migration-risk step (self-managed, same-VPC)
-Because the DB is self-managed Postgres on EC2 (not RDS), do BOTH:
-- **Security group:** on the DB instance's security group, allow inbound **5432 from
-  the cv VM's security group** (or the cv VM's private IP `172.31.x.x`).
-- **pg_hba.conf / listen:** ensure the DB accepts connections from the VM's subnet
-  (it already accepts external Actions connections, so likely fine — confirm the
-  VM's VPC CIDR is covered).
-- **Verify from the VM BEFORE proceeding:**
-      psql "host=172.31.82.167 port=5432 user=<DB_USER> dbname=dbcp" -c "select 1"
-  (Do not trust "app boots" — the deploy skill flags a past migration outage from
-  exactly a missed firewall rule.)
+## Operate via SSM (no SSH)
+    aws ssm start-session --target i-02b1b632026b06d9b        # interactive shell
+    # or one-off:
+    aws ssm send-command --instance-ids i-02b1b632026b06d9b \
+      --document-name AWS-RunShellScript \
+      --parameters commands='journalctl -u cv-ingester.service --no-pager | tail -30'
+
+## Redeploy after a code change
+    # SSM the VM: pull latest + re-run bring-up
+    cd /opt/cpio-news-fetcher && git pull && bash deploy/vm-bringup.sh
 
 ## 3. Install Docker + clone
     curl -fsSL https://get.docker.com | sh
