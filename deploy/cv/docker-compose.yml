@@ -10,6 +10,23 @@ services:
       REDIS_URL: "redis://redis:6379"
       NODE_ENV: "production"
       # GROQ_API_KEY intentionally empty — we do not use cv AI features
+    # Override the image's HEALTHCHECK: cv bot-blocks by User-Agent, so the
+    # built-in bare `wget --spider /api/health` self-BOT_BLOCKs and the
+    # container reports (unhealthy) even though it is serving fine.
+    healthcheck:
+      test:
+        - CMD
+        - wget
+        - --no-verbose
+        - --tries=1
+        - --spider
+        - "--header=User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
+        - "--header=Sec-Fetch-Site: same-origin"
+        - "http://localhost:3000/api/health"
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
     depends_on:
       - redis
   redis:
