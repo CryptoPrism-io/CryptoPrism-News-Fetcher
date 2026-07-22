@@ -16,13 +16,15 @@ cp "$REPO/deploy/systemd/cv-ingester.timer" /etc/systemd/system/
 systemctl daemon-reload
 systemctl enable --now cv-ingester.timer
 
-# wait for cv to serve, warm the Redis-backed feed cache, then one ingest
+# wait for cv to serve, warm the Redis-backed feed cache, then one ingest.
+# cv bot-blocks by User-Agent, so send a browser UA (+ Sec-Fetch-Site for full access).
+UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
 for i in $(seq 1 40); do
-  curl -fsS -H "Sec-Fetch-Site: same-origin" http://127.0.0.1:3000/api/health >/dev/null 2>&1 && break
+  curl -fsS -A "$UA" -H "Sec-Fetch-Site: same-origin" http://127.0.0.1:3000/api/news?limit=1 >/dev/null 2>&1 && break
   sleep 15
 done
 for i in 1 2 3 4; do
-  curl -s -H "Sec-Fetch-Site: same-origin" "http://127.0.0.1:3000/api/news?limit=50" >/dev/null 2>&1
+  curl -s -A "$UA" -H "Sec-Fetch-Site: same-origin" "http://127.0.0.1:3000/api/news?limit=50" >/dev/null 2>&1
   sleep 3
 done
 systemctl start cv-ingester.service
