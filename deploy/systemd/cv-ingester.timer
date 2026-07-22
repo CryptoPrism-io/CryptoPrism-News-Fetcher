@@ -1,10 +1,12 @@
 [Unit]
-Description=Run cv-ingester hourly
+Description=Run cv-ingester every 30 minutes
 
 [Timer]
-OnCalendar=hourly
+# cv's feed is a rolling window of recent articles; polling twice an hour
+# catches more of them before they roll off. Self-hosted, so no API quota cost.
+OnCalendar=*:00/30
 Persistent=true
-RandomizedDelaySec=120
+RandomizedDelaySec=60
 
 [Install]
 WantedBy=timers.target
