@@ -34,7 +34,11 @@ CCV_BASE = os.getenv("CCV_BASE_URL", "http://localhost:3000")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
 HEADERS = {"User-Agent": UA, "Sec-Fetch-Site": "same-origin"}
 
-# Aggregated when the unfiltered feed returns empty (cold-cache resilience).
+# cv's newsQuerySchema is `limit: z.coerce.number().int().min(1).max(100)`.
+# Any request above this returns HTTP 400 Bad Request.
+CV_MAX_LIMIT = 100
+
+# Aggregated to top up the unfiltered feed (and as cold-cache resilience).
 FALLBACK_QUERIES = [
     "category=bitcoin", "category=ethereum", "category=defi",
     "category=altcoin", "category=regulation", "category=markets",
@@ -60,7 +64,11 @@ def _post(path, payload, timeout=45):
 
 
 def fetch_articles(limit=100):
-    """Return a de-duplicated list of feed articles (metadata only, no body)."""
+    """Return a de-duplicated list of feed articles (metadata only, no body).
+
+    The broad unfiltered feed is the primary source (spans cv's 200+ sources);
+    the category/source queries only top up the remainder.
+    """
     seen, out = set(), []
 
     def take(d):
@@ -70,11 +78,14 @@ def fetch_articles(limit=100):
                 seen.add(link)
                 out.append(a)
 
-    # 1) try the unfiltered feed
+    # 1) primary: the broad unfiltered feed. cv's newsQuerySchema caps limit at
+    #    CV_MAX_LIMIT — asking for more is an HTTP 400, which used to silently
+    #    demote us to the narrow fallback set.
     try:
-        take(_get(f"/api/news?limit={limit}"))
+        take(_get(f"/api/news?limit={min(limit, CV_MAX_LIMIT)}"))
     except Exception as e:
-        print(f"   unfiltered feed error: {e}")
+        print(f"   WARNING unfiltered feed failed ({e}) — falling back to "
+              f"category/source queries (narrower coverage)")
 
     # 2) if thin, aggregate across filtered queries
     if len(out) < limit:

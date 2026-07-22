@@ -24,6 +24,28 @@ def test_normalize_maps_cv_to_ccnews_shape():
     assert row["id"] == mod.link_to_id("https://x.com/a")
 
 
+def test_unfiltered_feed_respects_cv_max_limit(monkeypatch):
+    """cv's newsQuerySchema caps limit at 100; asking for more returns HTTP 400."""
+    calls = []
+
+    def fake_get(path):
+        calls.append(path)
+        return {"articles": []}
+
+    monkeypatch.setattr(mod, "_get", fake_get)
+    monkeypatch.setattr(mod.time, "sleep", lambda *_: None)
+    mod.fetch_articles(limit=200)
+
+    assert calls, "no requests were made"
+    unfiltered = calls[0]
+    assert "limit=200" not in unfiltered, f"exceeds cv max (would 400): {unfiltered}"
+    assert "limit=100" in unfiltered, f"expected clamp to 100, got: {unfiltered}"
+    # every request must stay within cv's cap
+    for c in calls:
+        n = int(c.split("limit=")[1].split("&")[0])
+        assert n <= 100, f"request exceeds cv max limit: {c}"
+
+
 def test_get_existing_urls_filters(monkeypatch):
     class FakeCur:
         def execute(self, sql, params=None):
