@@ -78,14 +78,25 @@ def fetch_articles(limit=100):
                 seen.add(link)
                 out.append(a)
 
-    # 1) primary: the broad unfiltered feed. cv's newsQuerySchema caps limit at
-    #    CV_MAX_LIMIT — asking for more is an HTTP 400, which used to silently
-    #    demote us to the narrow fallback set.
-    try:
-        take(_get(f"/api/news?limit={min(limit, CV_MAX_LIMIT)}"))
-    except Exception as e:
-        print(f"   WARNING unfiltered feed failed ({e}) — falling back to "
-              f"category/source queries (narrower coverage)")
+    # 1) primary: walk the broad unfiltered feed. cv caps page size at
+    #    CV_MAX_LIMIT (more -> HTTP 400). The feed is recency-sorted and page 1
+    #    is typically dominated by a few high-frequency feeds (Fed/FCA), so we
+    #    page deeper to reach a wider spread of sources.
+    per_page = min(limit, CV_MAX_LIMIT)
+    max_pages = -(-limit // per_page) + 2  # ceil + slack for dedup losses
+    for p in range(1, max_pages + 1):
+        if len(out) >= limit:
+            break
+        before = len(out)
+        try:
+            take(_get(f"/api/news?page={p}&per_page={per_page}"))
+        except Exception as e:
+            print(f"   WARNING unfiltered feed page {p} failed ({e}) — "
+                  f"falling back to category/source queries (narrower coverage)")
+            break
+        if len(out) == before:
+            break  # page yielded nothing new; stop paging
+        time.sleep(0.1)
 
     # 2) if thin, aggregate across filtered queries
     if len(out) < limit:
