@@ -5,7 +5,11 @@ set -x
 REPO=/opt/cpio-news-fetcher
 
 cd "$REPO/deploy/cv" || { echo "FATAL: deploy/cv missing (wrong branch?)"; exit 1; }
-docker compose up -d --build || { echo "FATAL: compose build/up failed"; exit 1; }
+# Pull the prebuilt cv image from ECR (no build on the runtime box).
+aws ecr get-login-password --region us-east-1 \
+  | docker login --username AWS --password-stdin 405633560616.dkr.ecr.us-east-1.amazonaws.com
+docker compose pull || { echo "FATAL: ecr pull failed"; exit 1; }
+docker compose up -d || { echo "FATAL: compose up failed"; exit 1; }
 
 cp "$REPO/deploy/systemd/cv-ingester.service" /etc/systemd/system/
 cp "$REPO/deploy/systemd/cv-ingester.timer" /etc/systemd/system/

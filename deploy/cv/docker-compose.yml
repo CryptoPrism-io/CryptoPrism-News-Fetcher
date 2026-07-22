@@ -1,8 +1,8 @@
 services:
   cv:
-    build:
-      context: https://github.com/nirholas/cryptocurrency.cv.git#main
-    image: cryptocurrency-cv:local
+    # Prebuilt image in ECR (build once on a big box via deploy/build-push.sh,
+    # then t3.small just pulls — the Next.js build needs ~8GB and OOMs on 2GB).
+    image: 405633560616.dkr.ecr.us-east-1.amazonaws.com/cryptocurrency-cv:latest
     restart: unless-stopped
     ports:
       - "127.0.0.1:3000:3000"   # localhost only — never public
