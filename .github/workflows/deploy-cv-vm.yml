@@ -8,8 +8,6 @@ on:
   push:
     branches:
       - main
-      # TEMP: validates the deploy path before PR #10 merges. Remove after merge.
-      - 'feat/cv-production-source'
     paths:
       - 'deploy/**'
       - 'src/news_fetcher/**'
