@@ -1,35 +1,75 @@
 name: Deploy cv news source (AWS VM)
+
+# Keyless deploy: GitHub OIDC -> IAM role cv-deploy-github-role -> SSM
+# RunShellScript on the VM. The VM has NO SSH key (fleet standard is SSM),
+# so this replaces the old appleboy/ssh-action approach.
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
+      # TEMP: validates the deploy path before PR #10 merges. Remove after merge.
+      - 'feat/cv-production-source'
     paths:
       - 'deploy/**'
       - 'src/news_fetcher/**'
       - '.github/workflows/deploy-cv-vm.yml'
+
+permissions:
+  id-token: write # required to request the OIDC token
+  contents: read
+
+env:
+  AWS_REGION: us-east-1
+  INSTANCE_ID: i-02b1b632026b06d9b
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy over SSH
-        uses: appleboy/ssh-action@v1.0.3
+      - name: Configure AWS credentials (OIDC, keyless)
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          host: ${{ secrets.VM_SSH_HOST }}
-          username: ${{ secrets.VM_SSH_USER }}
-          key: ${{ secrets.VM_SSH_KEY }}
-          script: |
-            set -euo pipefail
-            cd /opt/cpio-news-fetcher
-            git fetch --all
-            git reset --hard origin/main
-            cd deploy/cv
-            docker compose up -d --build
-            # health gate — do not restart the timer if cv is not serving
-            sleep 8
-            curl -fsS -H "Sec-Fetch-Site: same-origin" \
-              "http://127.0.0.1:3000/api/health" > /dev/null
-            sudo cp /opt/cpio-news-fetcher/deploy/systemd/cv-ingester.service /etc/systemd/system/
-            sudo cp /opt/cpio-news-fetcher/deploy/systemd/cv-ingester.timer /etc/systemd/system/
-            sudo systemctl daemon-reload
-            sudo systemctl enable --now cv-ingester.timer
-            echo "deploy ok"
+          role-to-assume: arn:aws:iam::405633560616:role/cv-deploy-github-role
+          aws-region: us-east-1
+
+      - name: Deploy over SSM
+        run: |
+          set -euo pipefail
+          BRANCH="${GITHUB_REF_NAME}"
+          echo "Deploying branch: $BRANCH to $INSTANCE_ID"
+
+          cat > /tmp/params.json <<EOF
+          {
+            "InstanceIds": ["$INSTANCE_ID"],
+            "DocumentName": "AWS-RunShellScript",
+            "Comment": "deploy $BRANCH",
+            "Parameters": {"commands": [
+              "set -e",
+              "cd /opt/cpio-news-fetcher",
+              "git fetch origin",
+              "git checkout $BRANCH",
+              "git pull --ff-only origin $BRANCH",
+              "bash deploy/vm-bringup.sh"
+            ]}
+          }
+          EOF
+
+          CID=$(aws ssm send-command --cli-input-json file:///tmp/params.json \
+                  --query Command.CommandId --output text)
+          echo "SSM command: $CID"
+
+          # waiter can time out on a long bring-up; check status explicitly after
+          aws ssm wait command-executed --command-id "$CID" --instance-id "$INSTANCE_ID" || true
+          STATUS=$(aws ssm get-command-invocation --command-id "$CID" \
+                     --instance-id "$INSTANCE_ID" --query Status --output text)
+
+          echo "--- stdout (tail) ---"
+          aws ssm get-command-invocation --command-id "$CID" --instance-id "$INSTANCE_ID" \
+            --query StandardOutputContent --output text | tail -40 || true
+          echo "--- stderr (tail) ---"
+          aws ssm get-command-invocation --command-id "$CID" --instance-id "$INSTANCE_ID" \
+            --query StandardErrorContent --output text | tail -20 || true
+
+          echo "SSM status: $STATUS"
+          test "$STATUS" = "Success"
