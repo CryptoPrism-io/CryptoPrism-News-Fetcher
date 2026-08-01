@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260801_072318",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785565398,
+    "time_range_start": "2026-08-01 06:23:18",
+    "time_range_end": "2026-08-01 07:23:18"
+  },
+  "total_articles": 11,
+  "unique_sources": 7,
+  "unique_categories": 18,
+  "unique_tags": 15,
+  "body_stats": {
+    "avg_length": 986.0,
+    "min_length": 200,
+    "max_length": 3846
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 06:23:47",
+    "newest": "2026-08-01 07:11:08",
+    "time_span_minutes": 47.35
+  },
+  "top_sources": {
+    "CoinOtag": 4,
+    "coinpedia": 2,
+    "TimesTabloid": 1,
+    "Coinpaprika": 1,
+    "BitcoinSistemi": 1,
+    "Bitcoin.com": 1,
+    "Crypto Potato": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 11,
+    "MARKET": 5,
+    "XRP": 4,
+    "BTC": 3,
+    "REGULATION": 3,
+    "TRADING": 3,
+    "USDT": 2,
+    "EXCHANGE": 2,
+    "SHIB": 2,
+    "ALTCOIN": 2,
+    "BLOCKCHAIN": 1,
+    "WALLET": 1,
+    "FIAT": 1,
+    "BUSINESS": 1,
+    "MINING": 1
+  },
+  "top_tags": {
+    "Crypto News": 5,
+    "News": 3,
+    "XRP": 2,
+    "Altcoins": 2,
+    "Price Analysis": 2,
+    "Cryptocurrency": 1,
+    "CLARITY Act": 1,
+    "Ripple (XRP)": 1,
+    "Mining": 1,
+    "Artificial intelligence (AI)": 1,
+    "Bitcoin Miners": 1,
+    "mining": 1,
+    "Crypto Bits": 1,
+    "Arthur Hayes": 1,
+    "Ethereum (ETH) Price": 1
+  }
+}
