@@ -1,0 +1,172 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67630463",
+      "guid": "https://cryptodaily.co.uk/2026/08/irs-fake-crypto-tax-letters-scam",
+      "published_on": 1785582114,
+      "imageurl": "https://resources.cryptocompare.com/news/75/67630463.jpeg",
+      "title": "IRS Fake Crypto Tax Letters: How to Spot the Scam",
+      "url": "https://cryptodaily.co.uk/2026/08/irs-fake-crypto-tax-letters-scam",
+      "body": "Scammers are leaning hard on crypto right now, and tax season nerves make it easy for them to slip in. If you’ve got a letter claiming the IRS wants crypto-related back taxes, take a breath. In a few minutes, you can separate a real notice from a fake and avoid sending money to the wrong hands. This guide shows you how to spot red flags, verify an IRS notice the right way, and what to do if it’s real, fake, or somewhere in the gray. We’ll also cover the latest scam tactics targeting crypto users in 2026 and where to report them. If a message about crypto tax debt arrives by text, email, social DMs, or asks you to pay by cryptocurrency, gift cards, wires, or a QR code, it’s not the IRS. The IRS generally contacts by physical mail first, lists a specific notice number you can look up on IRS.gov, and never demands payment in crypto. Verify any letter by using official IRS channels, not the links or numbers in the message. Mail-first rule: initial IRS contact is usually a paper letter, not a text or call. Legit notices include a notice or letter number you can confirm on IRS.gov. Approved payments go to the U.S. Treasury via IRS.gov/payments — never to a wallet. Search the notice number on IRS.gov or call the number from IRS.gov, not the letter. Report fakes to phishing@irs.gov and IC3.gov, then freeze credit if identity data was shared. How do real IRS letters about crypto actually look? The IRS mostly starts with a letter in the mail. Real notices have a specific title and a notice or letter number in the top right — things like CP2000 (underreported income) or Letter 525 (examination). There’s a clear explanation of why you’re being contacted, which tax year is in question, how to respond by mail or phone, and a deadline. You’ll usually see official payment instructions that reference the U.S. Treasury, not third-party wallets or QR codes. Real letters point you back to IRS.gov resources and use addresses and phone numbers you can match on the official site. If there’s a balance due, they’ll spell out options like Direct Pay, EFTPS, or card payments through approved processors. No crypto. No gift cards. No apps that aren’t listed on IRS.gov. Use this quick comparison the moment you open a letter: FeatureReal IRS LetterFake “IRS” Crypto LetterHow it arrivesPhysical mail firstText, email, social DM, or random phone callNotice identifierSpecific CP/Letter number you can look up on IRS.govGeneric “Case ID” or none at allPayment methodsU.S. Treasury via IRS.gov/payments, checks payable to “U.S. Treasury”Crypto wallet, wire to a foreign account, gift cards, QR code linksLinks and URLsIRS.gov only; no URL shortenersSpoofed domains, short links, or third-party sitesToneFormal, with options to respond or appealThreats of arrest, license suspension, or asset seizure “today” What new scam tactics are hitting crypto taxpayers in 2026? Scammers are getting flashier and more convincing. In July 2026, the FBI’s Internet Crime Complaint Center warned that criminals are impersonating IC3 itself, using AI-generated videos and spoofed websites to “re-victimize” people — often by asking for new payments, including crypto, to supposedly recover earlier losses. That’s a double con. If anyone claims you need to pay a “recovery fee” in crypto to fix an IRS or law enforcement issue, walk away and report it ( IC3 / FBI Public Service Announcement ). The IRS also kicked off a summer Security Summit series in July 2026 to brief tax pros on evolving scams. They specifically flagged impersonation, phishing, QR-code, and payment scams, and reminded everyone: the IRS generally makes first contact by mail. That single fact knocks out a lot of fraud attempts ( Internal Revenue Service (IR-2026-81) ). Enforcement headlines are also being repurposed by scammers to lend “credibility.” In late July, U.S. prosecutors moved to seize more than $25 million in crypto tied to romance and investment scams — which is good news for victims, but also a fresh hook for impostors who claim you must pay a tax or verification fee to release supposedly recovered funds. Don’t bite ( CoinDesk ). Separately, IRS Criminal Investigation announced a July indictment of a South Dakota crypto investor on fraud and identity theft counts, alleging roughly $20 million in losses. Scammers love to wave around real case names to scare people into paying instantly. Real cases don’t require you to settle taxes via a QR code or a “temporary wallet” ( IRS Criminal Investigation ). How can I verify an IRS letter in under 10 minutes? Don’t call the number in the letter or click its links. Start with your own browser window, and type IRS.gov yourself. Then: Look up the notice number on IRS.gov — for example, search “CP2000 IRS” or “Letter 525 IRS.” If your number doesn’t exist on IRS.gov, that’s a red flag. Sign in to your IRS Online Account to check balances, notices, and transcripts. If there’s no balance or record, proceed with caution. Cross-check the mailing address and phone number on the letter with the ones listed on IRS.gov for that notice type. Check the tax year. If you didn’t trade that year, or the dates don’t line up, be skeptical. Confirm payment instructions match IRS.gov/payments. No crypto wallets, no third-party apps outside IRS-approved processors. Scan for typos, inconsistent fonts, and weird spacing. Fakes often look a bit “off.” If you must call, use the phone number listed on IRS.gov for that notice type — not the letter. Still unsure? Ask a CPA, EA, or tax attorney to review the document before you respond. Pro tip: When you look up an IRS notice, open a fresh browser and type “IRS.gov” directly. Don’t rely on search ads or links inside an email — spoofed sites are rampant. What should I do if it turns out to be a real IRS notice about crypto? Stay calm and read the notice twice. It usually gives you 30 days or more to respond. Gather your records: exchange statements, wallet logs, cost basis reports, and any 1099 forms you received. If your crypto tax software produced a Form 8949 and Schedule D, have those ready too. Decide if you agree with the IRS’s numbers. If you do, follow the payment or response instructions, and consider an installment agreement if you can’t pay at once. If you disagree, write a clear explanation, attach documentation, and meet the deadline. You might need to file an amended return (Form 1040-X) if your prior filing needs correction. If the issue involves missing basis or reconciling transfer histories, give the IRS a paper trail that shows how you got to your totals. Keep copies of everything you send. If you’re unsure about the tax treatment, it’s worth getting a tax professional involved, especially for complex DeFi or cross-chain histories. Should I ever pay the IRS in crypto, gift cards, or via QR codes? No. The IRS does not accept cryptocurrency payments and won’t push you to scan QR codes, buy gift cards, or send wires to random accounts. Approved methods include Direct Pay from a bank account, EFTPS, debit or credit card through IRS-approved processors, and checks or money orders payable to “U.S. Treasury.” You can see all options by starting at IRS.gov/payments. If a letter or caller demands a crypto transfer, that’s a scam. If a site says it’s “temporarily authorized” to collect on behalf of IRS via a QR code, that’s also a scam. There are no special side channels for urgent crypto tax cases. Warning: Don’t let anyone watch you screen-share while making a payment. Scammers use that to redirect funds or lift your credentials. How do I report a fake IRS crypto letter and protect my identity? If you’ve got a fake, help shut it down and clean up your exposure. Here’s a practical path: Forward phishing emails to phishing@irs.gov. For texts, copy the message into an email to the same address. Include the sender info. Report the incident to the Treasury Inspector General for Tax Administration (TIGTA). File online from the official TIGTA site you can reach via IRS.gov. Submit a complaint to the FBI’s IC3 at IC3.gov, especially if there’s a wallet address, domain, or phone number to share. The Bureau recently warned about AI-powered impersonation and spoofed recovery scams, so detail matters ( IC3 / FBI Public Service Announcement ). If you sent money, immediately contact your bank, card issuer, exchange, or wallet provider to flag the transaction. Ask about holds or recalls. Act fast. Place a credit freeze or fraud alert with all three bureaus. If any SSN or ID data was exposed, file IRS Form 14039 (Identity Theft Affidavit) and watch your IRS Online Account for changes. Keep the envelope and letter for law enforcement — postmarks and barcodes can help. Given recent forfeiture actions tied to crypto scams, timely reporting can make a difference, even if recoveries are never guaranteed ( CoinDesk ). Common Mistakes Calling the number on the letter. Use the number listed on IRS.gov for that notice type instead. Spoofed call centers are common. Clicking shortened or odd links. Type IRS.gov yourself. If a link isn’t clearly IRS.gov, ignore it. Paying via QR code or crypto. The IRS doesn’t accept it. Stick to options that start at IRS.gov/payments. Ignoring a real notice because scams exist. If it’s real, deadlines matter. Respond or get help before the date. Sending originals. Never mail original IDs or sole copies of records. Send copies and keep everything you submit. Sharing screens with “support.” Screen-shares expose payment and account details. Decline and hang up. If you want more level-headed coverage of scam patterns and security basics in digital assets, we track it closely at Crypto Daily . Frequently Asked Questions Can the IRS start contact about my crypto taxes by email or text if I opted into e-communications? For initial contact on a tax issue, the IRS generally uses physical mail. Follow-up emails can occur in specific contexts you initiated, but that’s not how surprise balance-due notices show up. If you get a text or email claiming you owe crypto-related taxes, verify by logging in to your IRS Online Account or calling a number you looked up on IRS.gov. What if the letter references a tax year when I didn’t trade crypto at all? That’s a signal to slow down and verify. Sometimes data mismatches trigger real notices when, say, a 1099 shows proceeds but your return lacks matching entries. Other times it’s a scam hoping you’ll panic. Cross-check the notice number on IRS.gov, sign in to your IRS account to view transcripts, and confirm the details before responding. Does the IRS use DocuSign or video calls to collect payments? No. The IRS doesn’t use DocuSign to take payments and won’t ask you to pay during a video call. If someone is screen-sharing an “IRS portal” that asks for a wallet transfer, it’s a scam. Pay only through the options you reach by starting at IRS.gov/payments. Could a state tax agency contact me about crypto and look different from the IRS? Yes. State revenue departments have their own formats and systems, and they may email in some cases. Verify the notice type and contact details on the state’s official website, not from the letter. The same rules apply: be cautious of QR codes, third-party payment sites, and pressure to act immediately. What if a caller knows my Social Security number and past trades — is that enough to trust them? No. Data breaches mean criminals can recite personal details. Trust the process, not the caller. Hang up, look up the correct phone number on IRS.gov, and call back. Or verify via your IRS Online Account. Never pay while you’re on a surprise call. How long do I have to respond to a real IRS notice? Many notices give around 30 days, but read the letter carefully because the timeline varies. Even if you need more time, contact the IRS before the deadline to keep options open. Penalties and interest can add up rapidly if you ignore it. Can a recovery company legitimately charge me a fee to get seized crypto released from “IRS holds”? Be extremely skeptical. Fraudsters often promise to unlock funds for a fee, then disappear. Law enforcement, including the FBI’s IC3, has warned about impersonation and “recovery” scams that demand new payments, sometimes in crypto. Use official channels and verify with the agency directly before paying anyone. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|REGULATION|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "67630166",
+      "guid": "https://timestabloid.com/?p=108415",
+      "published_on": 1785582018,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Dark Defender Says the Chart Speaks. XRP Is Inevitable. Here’s why",
+      "url": "https://timestabloid.com/dark-defender-says-the-chart-speaks-xrp-is-inevitable-heres-why/",
+      "body": "Crypto analyst Dark Defender recently posted a new long-term XRP chart on X, expressing strong confidence in the asset’s future direction. Accompanying the technical chart with a brief message, the analyst stated, “The Chart Speaks. XRP is Inevitable,” suggesting that XRP’s price structure continues to support a bullish outlook despite recent market weakness. The monthly chart shows a multi-year technical formation from XRP’s previous market cycles through its latest price action. Dark Defender highlighted what appears to be a completed corrective phase before projecting a new impulsive move that could unfold over the coming years. The Chart Speaks. #XRP is Inevitable. ⁽ⁿᵒᵗ ᶠⁱⁿᵃⁿᶜⁱᵃˡ ᵃᵈᵛⁱᶜᵉ ᵇᵘᵗ ʲᵘˢᵗ ᵐʸ ᵗʰᵒᵘᵍʰᵗˢ ᵒⁿˡʸ⁾ pic.twitter.com/5HdM1GplRt — Dark Defender (@DefendDark) July 30, 2026 Elliott Wave Structure and Key Price Levels The chart presents an Elliott Wave interpretation to identify a completed ABC correction before a larger five-wave advance. According to the analysis, XRP has already formed waves one and two of the larger cycle and is currently positioned near an important support region that could serve as the foundation for the next upward move. Dark Defender marked the area around $1 as a critical support zone and also identified Fibonacci extension levels that could act as future price objectives. The chart highlights the 161.8% Fibonacci extension near $1.88 as an important milestone before higher extension targets come into focus. Beyond that level, the projection extends toward the 200% Fibonacci extension around $2.90, followed by the 261.8% extension near $5.86. The chart also identifies a 300% Fibonacci extension around $9.03 and a 361.8% extension around $18.23 as longer-term objectives if the projected wave structure develops as anticipated. The analysis also includes a rounded base spanning several years, suggesting that XRP has built a lengthy accumulation pattern before attempting another sustained advance. The projected path shows short-term volatility but ultimately anticipates the broader upward trend to continue through the later stages of the Elliott Wave count. Community Responds to the Forecast Dark Defender’s post generated reactions from members of the XRP community, with several users expressing optimism while acknowledging the patience required for long-term investing. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 One commenter, SKIXSKIS, remarked that they had been trading XRP since 2016 and joked that if the move is inevitable, they hope it arrives sooner rather than later. The comment reflected the sentiment of many long-term holders who have waited through multiple market cycles for XRP to reach significantly higher valuations. Another community member, Jack J, shared a more optimistic view, saying they fully believe the projected path will materialize over time. His response echoed the confidence shown in Dark Defender’s analysis and the expectation that XRP’s long-term technical structure remains intact. While the chart presents an optimistic outlook for XRP, the projections remain based on technical analysis and Elliott Wave interpretation. As with all market forecasts, future price movements will ultimately depend on market conditions, investor sentiment, and broader developments across the cryptocurrency industry. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Dark Defender Says the Chart Speaks. XRP Is Inevitable. Here’s why appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67630371",
+      "guid": "https://coinpaprika.com/news/tethers-treasury-bet-delivers-15-billion-q2",
+      "published_on": 1785582000,
+      "imageurl": "https://resources.cryptocompare.com/news/80/67630371.jpeg",
+      "title": "Tether's Treasury Bet Delivers $1.5 Billion Q2 Profit as USDT Supply Climbs",
+      "url": "https://coinpaprika.com/news/tethers-treasury-bet-delivers-15-billion-q2",
+      "body": "Tether reported a net operating profit of about $1.5 billion for the second quarter of 2026, driven by interest on its US Treasury holdings and repurchase agreements. USDT circulation rose by $446 million to $184.6 billion, keeping a $4.11 billion reserve buffer.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|REGULATION|USDT|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "67629095",
+      "guid": "https://cryptonews.com/news/bitcoin-price-prediction-strategy-q2-loss/",
+      "published_on": 1785580950,
+      "imageurl": "https://resources.cryptocompare.com/news/52/67629095.jpeg",
+      "title": "Bitcoin Price Prediction: Michael Saylor’s Strategy Posts Massive Q2 Loss Despite Bigger Bitcoin Stack",
+      "url": "https://cryptonews.com/news/bitcoin-price-prediction-strategy-q2-loss/",
+      "body": "Bitcoin is trading around $63,000 to $65,000 price range, as Strategy’s weak Q2 earnings add pressure to an already cautious market and prediction. The headline loss grabbed attention, but the filing revealed even deeper concerns. Now, traders are watching whether this sparks another wave of selling or marks a local bottom for institutional buyers. Strategy reported a Q2 net loss of $8.22 billion, or $24.45 per share, swinging sharply from a $10.02 billion profit a year earlier. The result missed analyst estimates by a wide margin. Management blamed weaker Bitcoin prices and fading market sentiment. Between late June and early July, the company sold about 3,600 BTC for roughly $216 million, realizing an estimated $55 million loss. STRATEGY’S Q2 EARNINGS REPORT SHOWS AN $8.3B UNREALIZED bitcoin:native LOSS Q2 highlights: BTC holdings increased 11% Convertible debt reduced 18% USD reserve increased 12% Bitcoin per share increased 5% The Bitcoin drawdown hit earnings hard, but Strategy continued… https://t.co/A700cxVsGc pic.twitter.com/rlTmYayxC9 — CryptosRus (@CryptosR_Us) July 30, 2026 The filing also showed Strategy’s average Bitcoin cost basis remains above current market value across its 843,775 BTC holdings. As a result, the company recorded a full valuation allowance against its deferred tax assets. Preferred stock dividends, effectively funded by the treasury, have also attracted criticism from blockchain analysts and market observers. That means the focus has shifted beyond another mark-to-market loss. Investors are now assessing what sustained pressure on the market’s largest corporate Bitcoin holder could mean for supply, sentiment, and institutional positioning during the third quarter. While long-term conviction remains intact for many, near-term volatility may keep traders on edge. Discover: The Best Token Presales Bitcoin Price Prediction: Reclaim $75,000 or Is the Strategy Overhang a Structural Ceiling? Bitcoin is trading around $63,000 to $65,000, leaving it 15% to 17% below Strategy’s average purchase price of about $75,500 per BTC. That level has become more than an accounting figure. It is now a psychological hurdle for any sustained recovery. Recent trading between $63,000 and $65,500 suggests consolidation rather than a decisive trend. Meanwhile, the high $50,000 to low $60,000 area, where Strategy sold part of its holdings, has emerged as an important support zone. A sustained move below $60,000 could encourage additional selling from leveraged holders and weaken institutional sentiment, especially if risk appetite deteriorates further. Bitcoin (BTC) 24h 7d 30d 1y All time The near-term outlook still revolves around three likely paths. In the bullish scenario, Bitcoin holds above $63,000 and gradually climbs toward $69,000 to $71,000 as market sentiment improves. The base case keeps Bitcoin trading between $60,000 and $67,000, while Strategy’s average cost remains a psychological ceiling. The bearish case begins if Bitcoin loses $60,000 on strong selling pressure. That could expose a move toward the $55,000 to $58,000 region and renew concerns over Strategy’s 843,775 BTC position. Even so, long-term accumulation remains part of the investment thesis. The key question is whether the market can absorb the near-term supply without derailing the larger bull cycle. Trade Bitcoin on Bybit and Get a Chance to Win Our $1,000 USDT Airdrop Bitcoin Hyper Targets Early Mover Upside as Bitcoin Tests Key Levels Bitcoin consolidating below its prior highs, with corporate holders under stress and large-cap upside constrained by the $75,000 overhead resistance, is precisely the environment where early-stage infrastructure plays historically attract rotation capital. The upside math at $63,000 Bitcoin is structurally different from the upside math on a presale priced at fractions of a cent. Bitcoin Hyper ($HYPER) is positioning itself as the infrastructure layer that addresses Bitcoin’s three core limitations: slow transactions, high fees, and a near-complete lack of programmability. Hyper is the first Bitcoin Layer 2 with Solana Virtual Machine (SVM) integration, delivering smart contract execution speeds that exceed Solana’s own throughput, while preserving Bitcoin’s underlying security model. The presale has raised close to $33 million at a current price of $0.0136839 , with high-APY staking available to early participants. The decentralized canonical bridge for BTC transfers and low-latency transaction execution are the standout technical differentiators. For traders looking at Bitcoin’s constrained near-term upside, research Bitcoin Hyper as a higher-asymmetry positioning option within the broader Bitcoin ecosystem. Discover: The Best Crypto to Diversify Your Portfolio The post Bitcoin Price Prediction: Michael Saylor’s Strategy Posts Massive Q2 Loss Despite Bigger Bitcoin Stack appeared first on Cryptonews .",
+      "tags": "Industry Talk|Bitcoin (BTC)|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "67629241",
+      "guid": "https://cryptopotato.com/?p=1444517",
+      "published_on": 1785580534,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67629241.jpeg",
+      "title": "PI Surges 5% Despite Market Slump After Important Pi Network Reminder",
+      "url": "https://cryptopotato.com/pi-surges-5-despite-market-slump-after-important-pi-network-reminder/",
+      "body": "The cryptocurrency market is back in the red after bitcoin’s rejection on Friday and a subsequent drop to a multi-week low, but, as usual, there are some exceptions. Pi Network’s native token is among those, which might sound surprising given its recent calamity. Nevertheless, PI is up by 5% daily after an important reminder was issued by the team. The Reminder The Core Team announced on X that the blockchain has already begun the process of migrating to the next major protocol version, 26. As with previous similar statements, the post highlighted the importance of Pi Validators having to complete the upgrade by the deadline of August 11 to remain connected to the network. Protocol version 26 will be among the biggest updates implemented by the team, and perhaps the most significant one since v20.2, which laid out the fundamentals for smart contract building. It’s designed to improve contract safety, state management, interoperability, and cryptographic capabilities. Moreover, it comes before the final planned upgrade, protocol version 27, which is likely to be introduced in late August or September. Reminder: the Pi Mainnet is upgrading to Protocol v26. All Mainnet node operators must complete the upgrade by August 11 to remain connected to the network. Protocol v26 is a major milestone that improves contract safety, state management, interoperability, and cryptographic… pic.twitter.com/FXM5A8Tzo9 — Pi Network (@PiCoreTeam) July 31, 2026 The Core Team set the August 11 deadline earlier this week, which essentially meant that protocol version 25 was successfully deployed, even though there was no official confirmation at the time. PI Rockets A very small percentage of all the Pi Network updates, product features, redesigned apps, or new developments announced by the team in the past month or so have had a positive impact on the native token. However, the version 26 deadline set from a few days ago and last night’s reminder might be the exception. PI jumped after the team first announced the upcoming protocol version 26 and has done the same over the past 24 hours. It’s up by 5% daily and now sits at $0.086 after it challenged $0.088 hours ago. This comes despite the broader market’s weakness, led by BTC’s dip to $62,400. Nevertheless, the broader picture around PI is still very painful. The asset remains down by over 97% since its all-time high from February last year. Its market cap is well below $1 billion, making it the 68th-largest asset by that metric. Pi Network (PI) Price on CoinGecko The post PI Surges 5% Despite Market Slump After Important Pi Network Reminder appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Pi Network (PI)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67628348",
+      "guid": "https://news.bitcoin.com/?p=835782",
+      "published_on": 1785580208,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67628348.jpeg",
+      "title": "DOJ Files to Recover $47K in Crypto From ATM Fraud Scheme",
+      "url": "https://news.bitcoin.com/regulation-and-legal/doj-files-to-recover-47k-in-crypto-from-atm-fraud-scheme/",
+      "body": "Federal prosecutors are seeking approximately $47,000 in cryptocurrency allegedly taken from five victims through a technology-support and government-impersonation fraud scheme. The case reflects expanding efforts to recover digital assets after scammers convert victims’ cash through cryptocurrency ATMs. Computer Warning Led Victim to a Crypto ATM The U.S. Attorney’s Office civil forfeiture action seeking 47,461.73111 USDT",
+      "tags": "Regulation & Legal|ATM|DOJ|Fraud",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "USDT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67628201",
+      "guid": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032",
+      "published_on": 1785579821,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67628201.jpeg",
+      "title": "Russia expands crypto mining ban to Moscow through 2032",
+      "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Russia has added Moscow, the Moscow Region and parts of Kursk Region to its cryptocurrency mining ban list, citing power supply concerns behind the restrictions.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MINING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67627476",
+      "guid": "https://zycrypto.com/?p=118540",
+      "published_on": 1785579327,
+      "imageurl": "https://images.cryptocompare.com/news/default/zycrypto.png",
+      "title": "Chainlink’s Strategic Reserves Now Worth $5.7 Million Following 706,809 LINK Addition in July",
+      "url": "https://zycrypto.com/chainlinks-strategic-reserves-now-worth-5-7-million-following-706809-link-addition-in-july/",
+      "body": "Chainlink continues to expand its strategic reserves, with data showing the protocol added 706,809 LINK tokens to the portfolio in July. According to the data shared today by market analyst CryptoJack, Chainlink now holds over $5.7 million worth of LINK in its strategic reserves, following the addition of 706,809 LINK tokens into the investment portfolio",
+      "tags": "Cryptocurrency|News|ChainLink|Cryptocurrency News|LINKUSD",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|LINK|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "ZyCrypto",
+        "img": "https://images.cryptocompare.com/news/default/zycrypto.png",
+        "lang": "EN"
+      },
+      "source": "zycrypto"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785579056,
+    "time_range_start": "2026-08-01 10:10:56",
+    "time_range_end": "2026-08-01 11:10:56"
+  }
+}
