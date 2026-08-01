@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260801_125840",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785585520,
+    "time_range_start": "2026-08-01 11:58:40",
+    "time_range_end": "2026-08-01 12:58:40"
+  },
+  "total_articles": 19,
+  "unique_sources": 12,
+  "unique_categories": 22,
+  "unique_tags": 33,
+  "body_stats": {
+    "avg_length": 2865.16,
+    "min_length": 72,
+    "max_length": 13056
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 11:59:13",
+    "newest": "2026-08-01 12:57:18",
+    "time_span_minutes": 58.08
+  },
+  "top_sources": {
+    "Coinpaper": 4,
+    "CoinTurk News": 2,
+    "U.Today": 2,
+    "CoinOtag": 2,
+    "Cryptopolitan": 2,
+    "cryptonews": 1,
+    "Crypto Daily": 1,
+    "Bitcoin.com": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 16,
+    "TRADING": 9,
+    "BTC": 7,
+    "MARKET": 6,
+    "XRP": 4,
+    "BUSINESS": 4,
+    "FIAT": 3,
+    "ETH": 3,
+    "SOL": 2,
+    "TECHNOLOGY": 2,
+    "EXCHANGE": 2,
+    "WALLET": 1,
+    "BLOCKCHAIN": 1,
+    "SECURITY INCIDENTS": 1,
+    "RESEARCH": 1
+  },
+  "top_tags": {
+    "News": 8,
+    "Crypto News": 3,
+    "Crypto": 3,
+    "Business": 2,
+    "Cryptocurrency": 2,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "Solana (SOL)": 1,
+    "XRP Ledger": 1,
+    "Deep Dive - Crypto, Web3 & Market Insights": 1,
+    "Cloudbet": 1,
+    "Coincasino": 1,
+    "CyptoGames": 1,
+    "Reels.io": 1,
+    "Stake": 1
+  }
+}
