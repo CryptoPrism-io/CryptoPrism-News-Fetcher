@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260801_175425",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785603265,
+    "time_range_start": "2026-08-01 16:54:25",
+    "time_range_end": "2026-08-01 17:54:25"
+  },
+  "total_articles": 9,
+  "unique_sources": 7,
+  "unique_categories": 16,
+  "unique_tags": 17,
+  "body_stats": {
+    "avg_length": 2469.22,
+    "min_length": 200,
+    "max_length": 14710
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 16:54:54",
+    "newest": "2026-08-01 17:44:55",
+    "time_span_minutes": 50.02
+  },
+  "top_sources": {
+    "CoinOtag": 2,
+    "CoinTurk News": 2,
+    "Bitcoin.com": 1,
+    "Cryptopolitan": 1,
+    "BitcoinSistemi": 1,
+    "TimesTabloid": 1,
+    "Coinpaprika": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 8,
+    "EXCHANGE": 4,
+    "MARKET": 3,
+    "TRADING": 3,
+    "MACROECONOMICS": 3,
+    "BNB": 2,
+    "BTC": 2,
+    "XRP": 2,
+    "ALTCOIN": 2,
+    "ETH": 2,
+    "REGULATION": 1,
+    "DIGITAL ASSET TREASURY": 1,
+    "BUSINESS": 1,
+    "BLOCKCHAIN": 1,
+    "XLM": 1
+  },
+  "top_tags": {
+    "Crypto News": 3,
+    "News": 2,
+    "Brian Armstrong": 1,
+    "CLARITY Act": 1,
+    "Coinbase": 1,
+    "GENIUS Act": 1,
+    "jpmorgan": 1,
+    "Crypto Price Predictions": 1,
+    "Binance": 1,
+    "BNB": 1,
+    "Ripple (XRP)": 1,
+    "Altcoin": 1,
+    "Cryptocurrency": 1,
+    "XRP": 1,
+    "XRP Price": 1
+  }
+}
