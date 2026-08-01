@@ -1,0 +1,61 @@
+{
+  "timestamp": "20260801_214459",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785617099,
+    "time_range_start": "2026-08-01 20:44:59",
+    "time_range_end": "2026-08-01 21:44:59"
+  },
+  "total_articles": 6,
+  "unique_sources": 5,
+  "unique_categories": 11,
+  "unique_tags": 22,
+  "body_stats": {
+    "avg_length": 255.17,
+    "min_length": 111,
+    "max_length": 353
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 20:49:23",
+    "newest": "2026-08-01 21:36:14",
+    "time_span_minutes": 46.85
+  },
+  "top_sources": {
+    "Bitcoin.com": 2,
+    "Cointelegraph": 1,
+    "CoinOtag": 1,
+    "ZyCrypto": 1,
+    "AMB Crypto": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 5,
+    "TRADING": 4,
+    "BTC": 3,
+    "EXCHANGE": 2,
+    "RESEARCH": 1,
+    "REGULATION": 1,
+    "ALTCOIN": 1,
+    "SPONSORED": 1,
+    "XRP": 1,
+    "MARKET": 1,
+    "BUSINESS": 1
+  },
+  "top_tags": {
+    "Crypto News": 3,
+    "News": 2,
+    "Bitcoin Price": 1,
+    "Coinkite": 1,
+    "Coldcard": 1,
+    "dormant bitcoin": 1,
+    "Exchange": 1,
+    "Latest News": 1,
+    "Cryptocurrency": 1,
+    "Featured": 1,
+    "Cryptocurrency News": 1,
+    "Ripple": 1,
+    "XRP News": 1,
+    "XRPUSD": 1,
+    "XRPUSDT": 1
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67669688",
+      "guid": "https://news.bitcoin.com/?p=836030",
+      "published_on": 1785620174,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67669688.jpeg",
+      "title": "Coldcard Theft Balloons to $88M as Exchange Deposits Spike, Old BTC Moves",
+      "url": "https://news.bitcoin.com/crypto-news/coldcard-theft-balloons-to-88m-as-exchange-deposits-spike-old-btc-moves/",
+      "body": "A suspected third wave of Coldcard-related bitcoin sweeps has pushed the observed incident to an estimated 1,367 BTC, while exchange deposits and long-dormant wallet activity have added two more signals for analysts to watch. A Third Wave Expands the Damage Galaxy Research disclosed on X that the three suspected waves drained about 4,585 addresses and",
+      "tags": "Crypto News|Bitcoin Price|Coinkite|Coldcard|dormant bitcoin|Exchange",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67668601",
+      "guid": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4",
+      "published_on": 1785618879,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67668601.jpeg",
+      "title": "Onchain, in court: What happened in crypto legal news this week",
+      "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "A case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67668333",
+      "guid": "https://en.coinotag.com/bitcoin-btc-dominance-breakdown-43-target",
+      "published_on": 1785618115,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67668333.jpeg",
+      "title": "Bitcoin (BTC) Dominance Breakdown Points to 43% Target",
+      "url": "https://en.coinotag.com/bitcoin-btc-dominance-breakdown-43-target",
+      "body": "Bitcoin News Bitcoin (BTC) dominance has broken below a closely watched technical pattern, renewing debate over whether capital may begin rotating into altcoin positions. In a public assessment cir...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BTC|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67667703",
+      "guid": "https://zycrypto.com/?p=118547",
+      "published_on": 1785618059,
+      "imageurl": "https://images.cryptocompare.com/news/default/zycrypto.png",
+      "title": "Analysts Anticipate Massive XRP Rally as CLARITY Act and Institutional Adoption Build Momentum",
+      "url": "https://zycrypto.com/analysts-anticipate-massive-xrp-rally-as-clarity-act-and-institutional-adoption-build-momentum/",
+      "body": "As August begins, XRP finds itself in familiar territory — consolidating in a tight range around $1.06, trading roughly 71% below its all-time high of $3.65 set in July 2025. Yet despite sluggish price action, a growing chorus of analysts argues that XRP is coiling before a significant breakout. XRP-backed ETF inflows have exceeded $1.5",
+      "tags": "Cryptocurrency|Featured|News|Cryptocurrency News|Ripple|XRP News|XRPUSD|XRPUSDT",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SPONSORED|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "ZyCrypto",
+        "img": "https://images.cryptocompare.com/news/default/zycrypto.png",
+        "lang": "EN"
+      },
+      "source": "zycrypto"
+    },
+    {
+      "id": "67667434",
+      "guid": "https://ambcrypto.com/?p=621271",
+      "published_on": 1785618006,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Are Bitcoin’s 7% July gains masking an extremely skeptical market?",
+      "url": "https://ambcrypto.com/are-bitcoins-7-july-gains-masking-an-extremely-skeptical-market/",
+      "body": "Falling spot volume and extreme bearish online engagement highlighted the severity of Bitcoin market sentiment.",
+      "tags": "Bitcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67666698",
+      "guid": "https://news.bitcoin.com/?p=835805",
+      "published_on": 1785617363,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67666698.jpeg",
+      "title": "Strategy Holds STRC Dividend at 12% as Stock Stays Below Par",
+      "url": "https://news.bitcoin.com/crypto-news/strategy-strc-dividend-12-percent-below-par/",
+      "body": "Strategy confirmed its Stretch (STRC) preferred stock will keep paying a 12% annualized dividend in August 2026, even after the security closed July at roughly 12% below its $100 par value. A Rate That Keeps Climbing but Can’t Reverse Strategy (Nasdaq: MSTR) Executive Chairman Michael Saylor confirmed on August 1 that the Stretch Dividend Rate",
+      "tags": "Crypto News|michael saylor|Strategy|STRC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785617099,
+    "time_range_start": "2026-08-01 20:44:59",
+    "time_range_end": "2026-08-01 21:44:59"
+  }
+}
