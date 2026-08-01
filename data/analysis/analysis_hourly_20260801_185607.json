@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260801_185607",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785606967,
+    "time_range_start": "2026-08-01 17:56:07",
+    "time_range_end": "2026-08-01 18:56:07"
+  },
+  "total_articles": 7,
+  "unique_sources": 7,
+  "unique_categories": 13,
+  "unique_tags": 23,
+  "body_stats": {
+    "avg_length": 1200.57,
+    "min_length": 92,
+    "max_length": 4163
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 18:00:15",
+    "newest": "2026-08-01 18:45:55",
+    "time_span_minutes": 45.67
+  },
+  "top_sources": {
+    "CoinTurk News": 1,
+    "Crypto Potato": 1,
+    "coinpedia": 1,
+    "Bitcoin.com": 1,
+    "Cointelegraph": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 6,
+    "BTC": 3,
+    "TRADING": 3,
+    "ALTCOIN": 2,
+    "MARKET": 1,
+    "MACROECONOMICS": 1,
+    "MNT": 1,
+    "SPONSORED": 1,
+    "TECHNOLOGY": 1,
+    "ASIA": 1,
+    "BUSINESS": 1,
+    "XRP": 1,
+    "FLR": 1
+  },
+  "top_tags": {
+    "News": 2,
+    "Cryptocurrency News": 1,
+    "Crypto News": 1,
+    "social": 1,
+    "SocialFB": 1,
+    "Top News": 1,
+    "Bitcoin (BTC) Price": 1,
+    "Price Analysis": 1,
+    "Altcoins": 1,
+    "Crypto news": 1,
+    "Featured": 1,
+    "Bitcoin (BTC)": 1,
+    "Hardware wallet": 1,
+    "Wallets": 1,
+    "Latest News": 1
+  }
+}
