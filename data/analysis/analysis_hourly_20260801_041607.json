@@ -1,0 +1,66 @@
+{
+  "timestamp": "20260801_041607",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785554167,
+    "time_range_start": "2026-08-01 03:16:07",
+    "time_range_end": "2026-08-01 04:16:07"
+  },
+  "total_articles": 9,
+  "unique_sources": 8,
+  "unique_categories": 13,
+  "unique_tags": 24,
+  "body_stats": {
+    "avg_length": 1877.44,
+    "min_length": 108,
+    "max_length": 4981
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 03:16:59",
+    "newest": "2026-08-01 04:00:00",
+    "time_span_minutes": 43.02
+  },
+  "top_sources": {
+    "Bitcoin World": 2,
+    "U.Today": 1,
+    "Crypto Potato": 1,
+    "coinpedia": 1,
+    "CoinOtag": 1,
+    "AMB Crypto": 1,
+    "Cryptopolitan": 1,
+    "CoinTurk News": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 9,
+    "MARKET": 6,
+    "TRADING": 4,
+    "XRP": 3,
+    "BUSINESS": 3,
+    "ALTCOIN": 2,
+    "BLOCKCHAIN": 2,
+    "ETH": 2,
+    "BTC": 1,
+    "SECURITY INCIDENTS": 1,
+    "DOGE": 1,
+    "WALLET": 1,
+    "FORKS": 1
+  },
+  "top_tags": {
+    "Crypto News": 4,
+    "News": 3,
+    "XRP": 2,
+    "AA News": 1,
+    "social": 1,
+    "SocialFB": 1,
+    "Ripple (XRP) Price": 1,
+    "Bitcoin": 1,
+    "blockchain hacks": 1,
+    "crypto security": 1,
+    "CRYPTOCURRENCY": 1,
+    "Cybersecurity": 1,
+    "DeFi.": 1,
+    "Analysis": 1,
+    "HideCryptopanic": 1
+  }
+}
