@@ -1,0 +1,112 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67587261",
+      "guid": "699330",
+      "published_on": 1785540900,
+      "imageurl": "https://resources.cryptocompare.com/news/13/67587261.jpeg",
+      "title": "Uniswap Launches Tab Aims To Clean Up Token Discovery",
+      "url": "https://bitcoinist.com/uniswap-launches-tab-aims-to-clean-up-token-discovery/",
+      "body": "Uniswap has rolled out a “Launches” beta tab in its web app, giving users a single interface to discover new tokens launched across supported launchpads. The validated notes say the feature aggregates top token launches from platforms including Bankr, Pons, and Long. The launch also comes after heavy token creation activity on Robinhood Chain, where more than 340,000 tokens were reportedly launched in July. That context matters because token discovery has become messy. New tokens appear constantly across launchpads, chains, and apps. Some are serious. Many are not. Users often jump between social feeds, launchpad dashboards, DEX screens, and analytics tools just to understand what is happening. Uniswap’s Launches tab is an attempt to bring that activity into a more organized trading interface. For more details, visit the official Uniswap platform. TL;DR Uniswap has added a Launches beta tab to its web app. The feature aggregates token launches from supported launchpads. It is separate from Uniswap’s v4 fee-switch story and focuses on discovery UX. Why Token Discovery Needed A Better Interface Crypto token launches have always been chaotic. In earlier cycles, users chased new tokens through Telegram groups, X threads, DEX links, and contract addresses. More recently, launchpads and chain-specific apps have made token creation easier, but discovery is still fragmented. That creates problems. Users may not know which token is real, which launchpad is relevant, where liquidity sits, or whether the contract has meaningful trading activity. Scams and low-quality tokens thrive in that confusion. A cleaner discovery interface does not solve all of those issues, but it helps users see launches in one place. Uniswap already has deep liquidity and broad brand recognition, so adding discovery directly into the web app makes sense. Robinhood Chain Adds The Urgency The Robinhood Chain token-launch figure explains why this feature arrives at a useful time. If more than 340,000 tokens launched on Robinhood Chain in July, users need better filtering. A flood of tokens creates opportunity, but it also creates noise. Without good tools, traders end up relying on social hype or raw launchpad feeds. That is a dangerous way to trade. A Launches tab can help surface activity more clearly, though it still cannot replace user caution. New token launches are among the riskiest corners of crypto, where liquidity can be thin, contract risk can be high, and narratives can reverse quickly. Uniswap’s role is to make discovery more accessible, not to guarantee quality. This Is A Product Story, Not Just A UNI Price Story UNI reportedly hit a six-month high above $4.50 and rose sharply in July, but the Launches tab should not be reduced to price action. The more important story is product expansion. Uniswap is trying to remain the interface layer for on-chain trading as token creation spreads across more venues. If users discover, evaluate, and trade new assets through Uniswap, the app becomes more than a swap screen. It becomes a trading terminal. That is strategically important. DEX competition is no longer just about liquidity pools. It is about routing, discovery, execution, analytics, wallets , mobile experience, launch infrastructure, and MEV protection. The Launches tab sits in that wider battle for user attention. Discovery Also Brings Responsibility A launch-discovery feature comes with reputational risk. If users find low-quality or malicious tokens through an interface, they may blame the interface even if Uniswap did not create the asset. That means filters, warnings, labels, and transparency will matter. Token discovery is useful, but it should not feel like endorsement. The best version of this feature would help users see what is new while also making risk obvious. Liquidity, age, source launchpad, contract information, holder distribution, and warnings can all become part of better discovery. Crypto users like speed, but speed without context can be expensive. Uniswap Wants To Own More Of The Trading Journey The Launches tab shows Uniswap moving further up the user journey. Instead of waiting for users to arrive with a token in mind, the app can help them find what is launching. That makes Uniswap more competitive with launchpads, aggregators, dashboards, and social trading tools. It also gives Uniswap a better chance to capture early trading activity. If new token discovery happens elsewhere, trading may also happen elsewhere. If discovery happens inside Uniswap, the protocol and interface stay closer to the action. That is the real product logic. Uniswap’s Launches tab is not just a small UI addition. It is a sign that the DEX is trying to become a more complete front door for on-chain trading. This article is based on Uniswap product materials describing the Launches beta tab. This article was written by the News Desk and edited by Samuel Rae. This report is based on information released by Uniswap. at Uniswap",
+      "tags": "Crypto News|Launches|Robinhood|uni|Uniswap",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MINING|TRADING|UNI|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoinist",
+        "img": "https://images.cryptocompare.com/news/default/bitcoinist.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinist"
+    },
+    {
+      "id": "67587135",
+      "guid": "https://ambcrypto.com/?p=621182",
+      "published_on": 1785540659,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "XLM crypto needs to reclaim these levels to flip its short-term bias bullishly",
+      "url": "https://ambcrypto.com/xlm-crypto-needs-to-reclaim-these-levels-to-flip-its-short-term-bias-bullishly/",
+      "body": "The $0.168 support from late June has been tested. If it does not hold, a further 18% XLM price drop can be expected.",
+      "tags": "Analysis|HideCryptopanic|News|News 1|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XLM|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67587120",
+      "guid": "https://www.cryptopolitan.com/?p=299482",
+      "published_on": 1785540474,
+      "imageurl": "https://resources.cryptocompare.com/news/43/67587120.jpeg",
+      "title": "Coldcard's biggest security failure may have cost $70M",
+      "url": "https://www.cryptopolitan.com/coldcard-biggest-security-failure-cost-70m/",
+      "body": "An attacker has drained over 1,000 bitcoin (approx worth around $70 million) from nearly 1,200 wallets that used Coldcard hardware to generate a key seed, Galaxy Research revealed on Friday. The figure is substantially higher than the initial estimates made by the company 24 hours earlier. The potential losses involve all Coldcard users who created a seed between March 2021 and the present date. Galaxy Research estimates that 1,082.65 bitcoin were withdrawn from 1,196 addresses, with the majority of the funds moved between 01:10 and 01:50 UTC on July 30, in a 40-minute window. This number vastly exceeds the reported theft of 594 BTC ($38 million) from approximately 500 single-signature wallets. It happened within 40 minutes. Each of the affected addresses owned more than 0.15 BTC. Over 562 BTC were transferred to one particular address that has yet to see any transactions. The report highlighted the work of Block’s engineering and security teams, which recognized a pattern in the movement of these funds. “The trail of on-chain transactions identified by other researchers, including Clay Garrett, correctly points to the thief. However, it does not identify the vulnerability that enabled this particular theft,” the company noted, warning that “future attacks could target any Coldcard address generated using the vulnerable firmware.” How Coldcard’s RNG went wrong? Coldcard is a hardware wallet that utilizes an air-gapped computer to store the user’s bitcoin. The device employs a cryptographic signing method that should theoretically resist any third-party attempts at interception. It requires a 24-word mnemonic phrase for seed generation that is chosen from a large set of potential words. In reality, the true entropy of a Coldcard wallet was lower than expected. Block’s Bitcoin Engineering and Security teams published a report that detailed the issue. Within the Coldcard firmware, there were two instances of a function that generated random numbers with the same cryptographic signature, including the hardware implementation written by Coinkite and a software version carried over from MicroPython. A build-time check that confirmed the presence of the environment setting failed to activate, resulting in some devices utilizing the compromised software random number generator. This vulnerability was patched in the most recent 4.21 release, with the affected versions tracing back to the initial 4.0.0 release from March 2021. The compromised randomness was based on the processor’s serial number and clock, which are not considered secure. Who is affected by the vulnerability? The first notice about the security problem came from Coinkite, which published a support page for users who utilized Mk3 hardware with firmware 4.0.1 or newer. The company updated the advisory to also include certain Mk4, Mk5, and Coldcard Q devices and released emergency firmware updates for all affected hardware. According to reports, Coinkite updated its official advisory to acknowledge that all existing devices are potentially vulnerable to this attack, with firmware upgrades providing only partial security. In theory, all wallets with mnemonic phrases generated before the release of version 4.21 are at risk, according to the Coinkite advisory. The vulnerability affects more than just seed generation. Coldcard’s paper wallet encryption, key splitting tools, mask generation, and Key Teleport feature all utilize the same randomness function. Coinkite blames AI for the heist Coinkite CEO Rodolfo Novak (NVK) published an apology for the security issue, acknowledging that the company was responsible for the error in the mnemonic generation process. “We took full accountability for the firmware bug that led to this situation,” he stated, noting that the initial review of the vulnerability had failed to catch the issue. Novak speculated that the attacker could have used AI to identify the vulnerability, claiming that “this is a sobering reminder of the new paradigm we are entering with AI.” It is worth noting that Coinkite appears to be arguing against itself, since the Decrypt article notes that the company once used an AI system to scan its own code for potential security problems. That tool was reportedly utilized a few months earlier, with Coinkite claiming that “it did not find this vulnerability or anything else of significance.” Attackers and defenders all have access to the same tools, but in this case, it seems that they failed to do their job. What should I do if I am a Coldcard wallet owner? Coinkite recommends that users update the firmware on their devices and create new mnemonic phrases, advising users to make test transactions to the new wallet address before transferring any significant funds. Users should keep their old seed as a backup, as this document will be required to regain access to the funds after the transaction. The price of bitcoin (BTC) has barely changed in the wake of this revelation. BTC price is hovering near $63,000 on Friday. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|AI|BTC|Coldcard",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TECHNOLOGY|RESEARCH|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "67587118",
+      "guid": "https://www.cryptopolitan.com/?p=299479",
+      "published_on": 1785540101,
+      "imageurl": "https://resources.cryptocompare.com/news/43/67587118.jpeg",
+      "title": "Google pulls Google Earth AI image tool a day after launch",
+      "url": "https://www.cryptopolitan.com/google-earth-rolls-back-image-ai-tool-after/",
+      "body": "Google has removed a new Google Earth feature after roughly a day of operation because disinformation researchers warned that it allowed anyone to drop convincing fake scenes onto Google’s own satellite imagery. The feature was heavily criticized with several professionals calling for it to be removed. Google attempted to implement safeguards that would allow it to keep the feature operating, but ultimately conceded. Why did Google approve misinformation? Google recently launched and quickly removed a Google Earth feature called “create image,” that used Google’s Nano Banana 2 model to turn a typed prompt into an invented scene layered over real satellite, aerial and 3D map data. A product manager, Bryan Horowitz, said that users could zoom to a spot on the web version, tap the button, and type whatever they wanted to appear there. Google pitched it as a way to “visualize history, create real estate plans and more.” However, open-source investigator Henk van Ess wrote on Substack, that Google spent 20 years building a trustworthy reference only for it to add a “button that makes things up.” His main issue with the feature was that the generated images would borrow the authority of the Google Earth platform. BBC Verify used the tool to generate a collapsed Eiffel Tower, a sinkhole swallowing the Great Pyramid of Giza, and Russian tanks in Kyiv. Van Ess also created images that included refugees at the Mexican border and a bomb crater beside a hospital in Gaza, neither of which met any resistance. NPR produced images of Iran’s Kharg Island in flames and a flooded U.S. Capitol while AFP fabricated images of an explosion in Paris and a nuclear site in Iran. 404 Media staff added skyscrapers to farmland, planted a “homeless encampment” in Los Angeles, and staged a protest outside Google’s own offices. Why should satellite imagery be credible? Open-source analysts rely on images from Google Earth because a photograph taken from hundreds of miles up is costly and difficult to fake. Jake Godin, a senior researcher at the investigative group Bellingcat, revealed that forged satellite images have surfaced before, including fake damage at a U.S. base in Bahrain during the U.S.-Israel conflict with Iran, but he explained that adding a one-click generator makes the fakes too easy to mass-produce. Bill Greer, a geospatial analyst and co-founder of the nonprofit Common Space, said the erosion of trust in satellite imagery is “potentially particularly damaging.” Google explained that every image created with the tool carries a SynthID digital watermark that can be verified through the Gemini app or the Lens feature in Search. It also wrote that it doesn’t allow image creation regarding harmful topics. However, shortly after, BBC Verify found it could trick Gemini into calling a fake Google Earth image genuine. Google’s prompt filtering also failed easily. While it rejected a request to build a gallows to “hang traitors” outside the UK parliament, a vaguer version of the same prompt went through. Google has since pulled the feature, stating that while geospatial professionals found the tool useful, people were sharing screenshots of generated imagery that violated its policies. It has stated that it will work on implementing stronger guardrails, but whether the tool will return remains an open question. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "Tech|Google",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "67585946",
+      "guid": "https://www.cryptopolitan.com/?p=299476",
+      "published_on": 1785539096,
+      "imageurl": "https://resources.cryptocompare.com/news/43/67585946.jpeg",
+      "title": "Manhattan judge lets Reddit's DMCA claims against Perplexity move forward",
+      "url": "https://www.cryptopolitan.com/judge-strikes-perplexity-ai-defense-reddit/",
+      "body": "A federal judge in New York has refused to throw out the core of Reddit’s copyright case against Perplexity AI. The fight is over how AI search engines harvest user posts and the ruling will set a precedent on whether anti-circumvention law can be used against companies that scrape content to feed AI answers. What is Reddit accusing Perplexity and SerpAPI of? U.S. District Judge Paul A. Englemeyer declined to dismiss Reddit’s Digital Millennium Copyright Act claims against Perplexity and the web-scraping platform, SerpAPI. The act makes it illegal to bypass technological measures that control access to copyrighted works, which Reddit claims Perplexity and SerpAPI did using tricks like constantly changing their IP addresses to get around its and Google’s protections in order to grab user posts on a massive scale. Judge Engelmayer said Reddit’s platform is exactly the kind of “global digital online marketplace for copyrighted works” that the DMCA was designed to protect. He also agreed, for now, that Google’s SearchGuard can count as a “technological measure” that controls access to protected work. However, the judge dismissed a “trafficking” claim against SerpAPI, along with Reddit’s state-law claims for unfair competition and unjust enrichment against both defendants. The case will now move into discovery, where Reddit’s claims will be tested against the actual evidence of how Perplexity and SerpAPI collected the posts. Why are AI companies like Perplexity facing so many lawsuits? Aside from Reddit, which Cryptopolitan reported filed its lawsuit in October 2025, The New York Times, Dow Jones (which publishes the Wall Street Journal), the New York Post, the Chicago Tribune, CNN, and Encyclopedia Britannica have all filed similar lawsuits against Perplexity. They all accuse the company of using their copyrighted material without permission or payment. Reddit has said its lawsuit is about protecting its licensing model as it has already made deals to license its content to companies like Google (NASDAQ: GOOGL) and OpenAI for AI training. Reddit argues that Perplexity’s actions undermine these agreements and hurt its business. Perplexity’s current claim is that it works within the existing rules, while a lawyer for SerpAPI argued that the company “accesses public search results, not Reddit’s platform.” The lawyer added that “public information does not become protected because a platform wants to charge for it.” Perplexity has compared the lawsuits to how publishers have reacted to every new technology over the last century, from radio to TV to the internet. The company’s head of communications, Jesse Dwyer said, “Fortunately, it’s never worked, or we’d all be talking about this by telegraph.” Cryptopolitan reported earlier this month that Germany’s ZAK media regulator classified Perplexity AI and Google’s AI Overviews as content providers under German media law, removing a liability shield the companies had relied on. Perplexity, which is valued at roughly $20 billion, now faces legal pressure on multiple fronts. Publishers, including the New York Times, the Chicago Tribune, Japan’s Nikkei and Asahi Shimbun, and Encyclopedia Britannica, have all taken the startup to court over copyrighted material. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "Tech|Perplexity AI|Reddit",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|REGULATION|TECHNOLOGY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785538934,
+    "time_range_start": "2026-07-31 23:02:14",
+    "time_range_end": "2026-08-01 00:02:14"
+  }
+}
