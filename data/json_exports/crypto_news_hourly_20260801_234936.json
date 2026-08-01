@@ -1,0 +1,52 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67677487",
+      "guid": "https://en.coinotag.com/bitcoin-treasury-strategy-strc-dividend-12-percent",
+      "published_on": 1785626707,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67677487.jpeg",
+      "title": "Bitcoin Treasury Firm Strategy Keeps STRC Dividend at 12%",
+      "url": "https://en.coinotag.com/bitcoin-treasury-strategy-strc-dividend-12-percent",
+      "body": "Crypto News Strategy, the corporate Bitcoin (BTC) treasury firm behind the STRC preferred stock, left the instrument's dividend at 12% for August, according to the company's official disclosure. Th...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|REGULATION|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67675165",
+      "guid": "https://ambcrypto.com/?p=621353",
+      "published_on": 1785625252,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "All about Hyperliquid’s liquidation cascade threat below $52-zone",
+      "url": "https://ambcrypto.com/all-about-hyperliquids-liquidation-cascade-threat-below-52-zone/",
+      "body": "The liquidation heatmap and the 2-month range's breakdown underlined HYPE's precarious position.",
+      "tags": "Analysis|HideCryptopanic|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785624576,
+    "time_range_start": "2026-08-01 22:49:36",
+    "time_range_end": "2026-08-01 23:49:36"
+  }
+}

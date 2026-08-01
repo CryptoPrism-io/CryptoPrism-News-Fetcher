@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260801_234936",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785624576,
+    "time_range_start": "2026-08-01 22:49:36",
+    "time_range_end": "2026-08-01 23:49:36"
+  },
+  "total_articles": 2,
+  "unique_sources": 2,
+  "unique_categories": 6,
+  "unique_tags": 7,
+  "body_stats": {
+    "avg_length": 148.0,
+    "min_length": 96,
+    "max_length": 200
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 23:00:52",
+    "newest": "2026-08-01 23:25:07",
+    "time_span_minutes": 24.25
+  },
+  "top_sources": {
+    "CoinOtag": 1,
+    "AMB Crypto": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 2,
+    "BTC": 1,
+    "REGULATION": 1,
+    "DIGITAL ASSET TREASURY": 1,
+    "MACROECONOMICS": 1,
+    "MARKET": 1
+  },
+  "top_tags": {
+    "Crypto News": 1,
+    "Analysis": 1,
+    "HideCryptopanic": 1,
+    "News": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "ambcrypto": 1
+  }
+}
