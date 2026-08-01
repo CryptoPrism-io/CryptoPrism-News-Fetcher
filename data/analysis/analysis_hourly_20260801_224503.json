@@ -1,0 +1,62 @@
+{
+  "timestamp": "20260801_224503",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785620703,
+    "time_range_start": "2026-08-01 21:45:03",
+    "time_range_end": "2026-08-01 22:45:03"
+  },
+  "total_articles": 6,
+  "unique_sources": 5,
+  "unique_categories": 12,
+  "unique_tags": 15,
+  "body_stats": {
+    "avg_length": 715.33,
+    "min_length": 78,
+    "max_length": 3309
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 21:51:07",
+    "newest": "2026-08-01 22:42:18",
+    "time_span_minutes": 51.18
+  },
+  "top_sources": {
+    "CoinOtag": 2,
+    "Bitcoin.com": 1,
+    "CoinDesk": 1,
+    "AMB Crypto": 1,
+    "Crypto Potato": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 4,
+    "BTC": 3,
+    "MARKET": 2,
+    "SPONSORED": 1,
+    "REGULATION": 1,
+    "DIGITAL ASSET TREASURY": 1,
+    "MACROECONOMICS": 1,
+    "ALTCOIN": 1,
+    "BLOCKCHAIN": 1,
+    "ADMINISTRATIVE EVENTS": 1,
+    "MIGRATION": 1,
+    "SECURITY INCIDENTS": 1
+  },
+  "top_tags": {
+    "Crypto News": 3,
+    "News": 2,
+    "Featured": 1,
+    "bitcoin treasuries": 1,
+    "michael saylor": 1,
+    "Strategy": 1,
+    "Markets": 1,
+    "MicroStrategy": 1,
+    "Bitcoin News": 1,
+    "Altcoin": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "ambcrypto": 1,
+    "AA News": 1,
+    "Hacks": 1
+  }
+}

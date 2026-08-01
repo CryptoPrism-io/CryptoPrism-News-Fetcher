@@ -1,0 +1,132 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67673899",
+      "guid": "https://news.bitcoin.com/?p=836014",
+      "published_on": 1785624138,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67673899.jpeg",
+      "title": "Michael Saylor Rejects Report of New Strategy Bitcoin Sale Approval",
+      "url": "https://news.bitcoin.com/featured/michael-saylor-rejects-report-of-new-strategy-bitcoin-sale-approval/",
+      "body": "Michael Saylor rejected claims that Strategy had approved a new $5 billion bitcoin sale plan, identifying the authorization as an existing capital-management tool. His clarification separates potential selling capacity from an immediate decision to reduce holdings. Saylor Pushes Back on Viral Bitcoin Sale Claim Strategy Executive Chairman Michael Saylor pushed back Aug. 1 on reports",
+      "tags": "Featured|bitcoin treasuries|michael saylor|Strategy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|SPONSORED|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67672819",
+      "guid": "https://en.coinotag.com/bitcoin-strategy-q2-loss-russia-mining-ban",
+      "published_on": 1785622379,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67672819.jpeg",
+      "title": "Bitcoin Holder Strategy Posts $8.22 Billion Q2 Loss",
+      "url": "https://en.coinotag.com/bitcoin-strategy-q2-loss-russia-mining-ban",
+      "body": "Crypto News Strategy, the corporate software firm now best known as a large Bitcoin (BTC) treasury vehicle, reported a second-quarter net loss of $8.22 billion after fair-value changes on its crypt...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|REGULATION|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67671294",
+      "guid": "28ad341e-3b1f-4256-a4e3-177dbace1611",
+      "published_on": 1785621717,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67671294.jpeg",
+      "title": "Strategy holds STRC dividend at 12%",
+      "url": "https://www.coindesk.com/markets/2026/08/01/strategy-holds-strc-dividend-at-12",
+      "body": "Customarily, Michael Saylor and team have lifted the STRC dividend when it trades sizably below par, but not this month.",
+      "tags": "Markets|MicroStrategy|Bitcoin News|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67671395",
+      "guid": "https://ambcrypto.com/?p=621292",
+      "published_on": 1785621642,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Audiera jumps 17% as whales buy $25M BEAT – Next target is…",
+      "url": "https://ambcrypto.com/audiera-jumps-17-as-whales-buy-25m-beat-next-target-is/",
+      "body": "Can whale demand carry Audiera beyond $5 without broader market participation?",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67672005",
+      "guid": "https://cryptopotato.com/?p=1444275",
+      "published_on": 1785621387,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67672005.jpeg",
+      "title": "Crypto Hacks Drain $1.1B in First Half of 2026 Amid 212 Security Incidents",
+      "url": "https://cryptopotato.com/crypto-hacks-drain-1-1b-in-first-half-of-2026-amid-212-security-incidents/",
+      "body": "The first half of 2026 was the most active six months for crypto exploits on record. This is according to a new report from Blockaid, which shows hackers stole $1.1 billion across 212 incidents. Crypto Hacks Top $1.1B in H1 2026 The Blockaid report found that four major incidents involving KelpDAO, Drift, Resolv, and CoW Swap made up roughly $707 million of the total losses. KelpDAO suffered the largest loss, after hackers stole $292 million worth of crypto by faking a cross-chain message that siphoned off the protocol’s Ethereum reserves. Drift Protocol, a perpetuals exchange built on the Solana chain, also suffered a similarly huge hit, as it was exploited for $285 million within 12 minutes. Blockaid linked both cases to TraderTraitor, a state-sponsored North Korean subset of the larger Lazarus Group. Humanity Protocol’s $32 million loss was also connected to the same attacker cluster, bringing DPRK-linked losses to $609 million, which is about 55% of all funds stolen during the period. The pace of attacks also increased through the year, with monthly incidents going from 18 in January to 57 in June. April proved to be the most painful month, as the KelpDAO and Drift Protocol hacks wiped out a combined $577 million to push total losses in that month to $635 million. Privileged key misuse was the most costly attack type in the first half of 2026, with losses of approximately $790 million, or close to three-quarters of all funds stolen in the period, said Blockaid. Unbacked mint exploits came second in value, led by the $80 million Resolve breach. But the hacks at the code level caused the most casualties, accounting for nearly four out of five attacks by count. Attack Vectors Change as New Threats Emerge The report named AI agents as a new target after hackers in May used a prompt injection attack to fool Bankr’s AI agent into approving an unauthorized transaction for about $216,000. Cross-chain bridges also took a major hit, with attackers breaching the verification systems of KelpDAO and Taiko through forged proofs and attestations accepted by the destination chains. In addition, security teams faced newer attack methods in 2026, with Blockaid identifying four incidents involving EIP-7702 wallet delegation attacks, where a wallet can hand control to a smart contract. Legacy smart contracts also continue to be a common vulnerability, with data showing around five cases in May and June, including two involving Aztec Connect and one targeting Raydium’s AMM V3. Recent incidents outside the report period showed the same pressure on crypto infrastructure. For instance, on July 23, AFX Trade, BSquaredNetwork, and Verus were hit in separate attacks on the same day that collectively caused more than $35 million in losses. Recall that Verus had already suffered another exploit about two months earlier, and Blockaid linked both incidents to the same bridge contract and bug class. Recovery results varied depending on the type of attack. Per the report, code-related incidents sometimes allowed teams to freeze funds or negotiate returns, while attacks involving stolen keys usually ended with the money moving through mixers or cross-chain routes. The post Crypto Hacks Drain $1.1B in First Half of 2026 Amid 212 Security Incidents appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|Hacks",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|ADMINISTRATIVE EVENTS|CRYPTOCURRENCY|MIGRATION|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67671081",
+      "guid": "https://en.coinotag.com/bitcoin-policy-fight-draws-2m-michigan-pac-spending",
+      "published_on": 1785621067,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67671081.jpeg",
+      "title": "Bitcoin Policy Fight Draws $2M Michigan PAC Spending",
+      "url": "https://en.coinotag.com/bitcoin-policy-fight-draws-2m-michigan-pac-spending",
+      "body": "Crypto News A Bitcoin (BTC)-centered policy fight is turning Michigan’s 13th Congressional District into a test of crypto-industry political spending, after Protect Progress, a political action com...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785620703,
+    "time_range_start": "2026-08-01 21:45:03",
+    "time_range_end": "2026-08-01 22:45:03"
+  }
+}
