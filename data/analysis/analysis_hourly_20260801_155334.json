@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260801_155334",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785596014,
+    "time_range_start": "2026-08-01 14:53:34",
+    "time_range_end": "2026-08-01 15:53:34"
+  },
+  "total_articles": 17,
+  "unique_sources": 12,
+  "unique_categories": 21,
+  "unique_tags": 29,
+  "body_stats": {
+    "avg_length": 798.71,
+    "min_length": 54,
+    "max_length": 4984
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 15:00:00",
+    "newest": "2026-08-01 15:51:10",
+    "time_span_minutes": 51.17
+  },
+  "top_sources": {
+    "U.Today": 3,
+    "CoinDesk": 2,
+    "CoinTurk News": 2,
+    "CoinOtag": 2,
+    "Cointelegraph": 1,
+    "coinpedia": 1,
+    "Bitcoin.com": 1,
+    "Cryptopolitan": 1,
+    "BitcoinSistemi": 1,
+    "Decrypt": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 16,
+    "BTC": 8,
+    "EXCHANGE": 5,
+    "MARKET": 3,
+    "BNB": 3,
+    "SECURITY INCIDENTS": 3,
+    "TRADING": 3,
+    "XRP": 2,
+    "TECHNOLOGY": 2,
+    "FIAT": 2,
+    "MINING": 1,
+    "REGULATION": 1,
+    "SUI": 1,
+    "DOGE": 1,
+    "ASIA": 1
+  },
+  "top_tags": {
+    "News": 6,
+    "Crypto News": 3,
+    "Bitcoin": 2,
+    "BTC": 2,
+    "Finance": 1,
+    "Bitcoin Mining": 1,
+    "Bitcoin News": 1,
+    "Binance": 1,
+    "Policy": 1,
+    "Nasdaq": 1,
+    "SEC": 1,
+    "Latest News": 1,
+    "Clarity Act News Updates": 1,
+    "Crypto news": 1,
+    "Crypto Regulations": 1
+  }
+}
