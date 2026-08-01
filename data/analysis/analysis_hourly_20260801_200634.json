@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260801_200634",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785611194,
+    "time_range_start": "2026-08-01 19:06:34",
+    "time_range_end": "2026-08-01 20:06:34"
+  },
+  "total_articles": 12,
+  "unique_sources": 9,
+  "unique_categories": 15,
+  "unique_tags": 30,
+  "body_stats": {
+    "avg_length": 1593.25,
+    "min_length": 66,
+    "max_length": 4773
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-01 19:07:06",
+    "newest": "2026-08-01 20:00:47",
+    "time_span_minutes": 53.68
+  },
+  "top_sources": {
+    "BitcoinSistemi": 2,
+    "CoinTurk News": 2,
+    "Cryptopolitan": 2,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1,
+    "Crypto Potato": 1,
+    "CoinOtag": 1,
+    "coinpedia": 1,
+    "Bitcoin.com": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 11,
+    "BTC": 6,
+    "MARKET": 6,
+    "BUSINESS": 5,
+    "TRADING": 5,
+    "ALTCOIN": 4,
+    "BNB": 3,
+    "XRP": 2,
+    "EXCHANGE": 2,
+    "LINK": 1,
+    "TECHNOLOGY": 1,
+    "ASIA": 1,
+    "FIAT": 1,
+    "MACROECONOMICS": 1,
+    "ETH": 1
+  },
+  "top_tags": {
+    "News": 5,
+    "Bitcoin": 2,
+    "Crypto News": 2,
+    "Social": 1,
+    "Trading View": 1,
+    "ambcrypto": 1,
+    "Cryptocurrency": 1,
+    "XRP": 1,
+    "XRP Price": 1,
+    "XRP Price Prediction": 1,
+    "Analysis": 1,
+    "Chainlink (LINK)": 1,
+    "Business": 1,
+    "Berkshire Hathaway": 1,
+    "Crypto Bits": 1
+  }
+}
