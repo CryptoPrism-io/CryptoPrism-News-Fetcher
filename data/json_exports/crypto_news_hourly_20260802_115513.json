@@ -1,0 +1,412 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67724205",
+      "guid": "https://en.coin-turk.com/?p=240806",
+      "published_on": 1785671163,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67724205.jpeg",
+      "title": "Ethereum breaks key resistance as Bitcoin tests $67,200 neckline",
+      "url": "https://en.coin-turk.com/ethereum-breaks-key-resistance-as-bitcoin-tests-67200-neckline/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-breaks-key-resistance-as-bitcoin-tests-67200-neckline",
+      "body": "🚨 Ethereum breaks out above key resistance while Bitcoin retests crucial $67,200 neckline. 💡 Large capital shifts into $ETH as ETH/BTC targets 0.0312, widening the gap with BTC. 📉 Bitcoin faces lower supports at $60,000 and $58,000 if neckline fails to hold. ⚡ The crypto market braces for a decisive move as August trading kicks off. Continue Reading: Ethereum breaks key resistance as Bitcoin tests $67,200 neckline The post Ethereum breaks key resistance as Bitcoin tests $67,200 neckline appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67723984",
+      "guid": "https://coinpaper.com/33800/kospis-41-crash-explained-why-south-korean-stocks-fall-hardest",
+      "published_on": 1785670957,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "KOSPI’s 41% Crash Explained: Why South Korean Stocks Fall Hardest",
+      "url": "https://coinpaper.com/33800/kospis-41-crash-explained-why-south-korean-stocks-fall-hardest",
+      "body": "The KOSPI’s 41% plunge from its June peak marked one of the fastest collapses in South Korea’s stock market history. The sell-off reflected the index’s heavy exposure to semiconductors, exports and leveraged trading, but it was followed by a sharp rebound led by Samsung Electronics and SK Hynix . Two analysts view the move differently. Bull Theory compares it with Korea’s biggest market crashes, while Milk Road analyst Melvin argues that strong earnings and lower valuations helped trigger the recovery. KOSPI Records Its Fastest Major Crash in 30 Years According to Bull Theory , the latest decline was the fourth major KOSPI crash in three decades. During the 1997–1998 Asian financial crisis, the index lost approximately 76% over 1,276 days. In 2008, it fell around 57% as the global financial crisis damaged trade and exports. The third downturn lasted from 2018 to 2020, when the U.S.–China trade war and the COVID-19 pandemic pushed the KOSPI down around 44%. The latest crash was much faster. After reaching approximately 9,385 points in June, the index plunged 41% in only 40 days. The Korean market is particularly sensitive to global semiconductor demand because Samsung Electronics and SK Hynix represent a large share of the index. The decline accelerated as investors questioned returns from AI spending and worried about growing competition in the memory-chip industry. Leveraged positions and automated selling added further pressure after prices broke key levels. Chip Earnings Help Trigger a Sharp Rebound Milk Road analyst Melvin focuses on the recovery that followed. After losing nearly 16% in two sessions, the KOSPI rebounded as investors reassessed strong earnings from Samsung and SK Hynix. Samsung reported quarterly operating profit growth of approximately 1,810% year over year, supported by demand for AI-related memory products. SK Hynix posted operating profit growth of 557% and an operating margin near 76%. The company is also a leading supplier of high-bandwidth memory used in AI chips. These results showed that Korea’s largest technology companies remained highly profitable despite the market collapse. The sell-off also pushed valuations lower. According to Melvin, earnings expectations for Korean companies rose faster than share prices, reducing the market’s price-to-earnings multiple. Melvin argues that this is different from a typical bubble, where prices rise much faster than earnings. In Korea, improving profits have partly justified the earlier rally. Government and private investment in semiconductors, AI infrastructure and data centers could also support long-term demand. However, major risks remain. The KOSPI is heavily concentrated in chipmakers, while falling AI spending, weaker memory prices or stronger Chinese competition could quickly damage earnings expectations. For now, the rebound suggests investors viewed the 41% decline as excessive. Still, the speed of both the crash and recovery shows that the KOSPI remains highly exposed to shifts in the global AI and semiconductor cycle.",
+      "tags": "News|Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|MARKET|TRADING|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67723540",
+      "guid": "https://en.bitcoinsistemi.com/donald-trump-s-company-has-sold-another-large-amount-of-bitcoin/",
+      "published_on": 1785670567,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67723540.jpeg",
+      "title": "Donald Trump’s Company Has Sold Another Large Amount of Bitcoin",
+      "url": "https://en.bitcoinsistemi.com/donald-trump-s-company-has-sold-another-large-amount-of-bitcoin/",
+      "body": "A new Bitcoin transfer has been made from addresses reportedly linked to US President Donald Trump’s media company, Trump Media & Technology Group, to the cryptocurrency exchange CryptoCom. According to on-chain analysis data, addresses associated with Trump Media transferred approximately 2,628 BTC, worth about $165 million, to CryptoCom. The company was previously estimated to have purchased a total of 11,542 BTC at an average cost of $118,500. It is stated that approximately 7,281 BTC were withdrawn from these addresses in 2026, while approximately 4,261 BTC are still held in those addresses. Trump Media’s total realized and unrealized losses from its Bitcoin investments are estimated to be approximately $555 million. Related News: Michael Saylor: “We Never Said We'd Never Sell Bitcoin” However, sending Bitcoins to a cryptocurrency exchange doesn’t necessarily mean the assets have been sold. The transfer could also have been for custody, liquidity management, or another financial transaction. However, this is currently impossible to determine, and transfers from cold wallets to centralized exchanges are generally considered to be for sale purposes. *This is not investment advice. Continue Reading: Donald Trump’s Company Has Sold Another Large Amount of Bitcoin",
+      "tags": "Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|MARKET|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "67723522",
+      "guid": "https://u.today/xrp-ledger-swings-up-more-than-100-shattering-1-billion-xrp-threshold",
+      "published_on": 1785670500,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67723522.jpeg",
+      "title": "XRP Ledger Swings Up More Than 100%, Shattering 1 Billion XRP Threshold",
+      "url": "https://u.today/xrp-ledger-swings-up-more-than-100-shattering-1-billion-xrp-threshold",
+      "body": "The market is witnessing a substantial surge of activity, as XRP's payments volume surges above 1 billion.",
+      "tags": "XRP Ledger",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67723277",
+      "guid": "https://news.bitcoin.com/?p=835944",
+      "published_on": 1785670259,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67723277.jpeg",
+      "title": "Russia Goes After Durov, Bessent Slams CLARITY Opponents, and More – Weekly Recap",
+      "url": "https://news.bitcoin.com/featured/russia-goes-after-durov-bessent-slams-clarity-opponents-and-more-weekly-recap/",
+      "body": "This week’s stories mixed Bitcoin history, U.S. regulation, new financial markets, DeFi consolidation, and geopolitical pressure. Satoshi Nakamoto’s famous “I don’t have time to try to convince you” line turned 16, while Scott Bessent demanded an immediate Senate vote on the CLARITY Act. CME Group unveiled sports index futures, Aave moved to exit six low-use",
+      "tags": "Featured|Pavel Durov|Scott Bessent",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|REGULATION|SPONSORED|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67723413",
+      "guid": "https://en.coin-turk.com/?p=240803",
+      "published_on": 1785670256,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67723413.jpeg",
+      "title": "BNB eyes $631 target after inverse head and shoulders breakout",
+      "url": "https://en.coin-turk.com/bnb-eyes-631-target-after-inverse-head-and-shoulders-breakout/?utm_source=rss&utm_medium=rss&utm_campaign=bnb-eyes-631-target-after-inverse-head-and-shoulders-breakout",
+      "body": "🚀 BNB approaches $631 target after confirming a major inverse head and shoulders breakout. 📈 Analysts report spot gains near 2% and leveraged returns as high as 20% in $BNB. 💡 Rising adoption of tokenized equities and surging DEX volumes boost BNB Chain’s ecosystem. 🟢 BNB Chain sees $2.3 billion in tokenized equity trading in Q2, spurring investor optimism. Continue Reading: BNB eyes $631 target after inverse head and shoulders breakout The post BNB eyes $631 target after inverse head and shoulders breakout appeared first on COINTURK NEWS .",
+      "tags": "Binance Coin (BNB)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67723053",
+      "guid": "https://coinpaper.com/33798/2027-social-security-cola-estimate-holds-at-38-ahead-of-key-inflation-data",
+      "published_on": 1785670207,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "2027 Social Security COLA Estimate Holds at 3.8% Ahead of Key Inflation Data",
+      "url": "https://coinpaper.com/33798/2027-social-security-cola-estimate-holds-at-38-ahead-of-key-inflation-data",
+      "body": "Social Security recipients could receive a 3.8% cost-of-living adjustment in 2027, according to the latest estimate from The Senior Citizens League. However, the government will not set the final increase until it receives three crucial inflation reports this fall. The current projection stands one percentage point above the 2.8% adjustment that beneficiaries received in 2026. Still, it remains an estimate rather than an official benefit increase. Energy prices, housing costs and other inflation drivers could move the figure before the calculation closes in September. A 3.8% adjustment would add about $79 to the average retired worker’s monthly benefit. Social Security data show that retired workers received an average of $2,084.40 in June. Applying the projected increase would lift that amount to about $2,163.61 before Medicare premiums or other deductions. For someone receiving $1,500 a month, the same increase would add $57, raising the payment to $1,557. A $2,000 benefit would grow by $76, while a $2,500 check would rise by $95. Three Inflation Reports Will Decide the Increase The Social Security Administration calculates its annual adjustment using the Consumer Price Index for Urban Wage Earners and Clerical Workers, known as the CPI-W. It compares the average index reading from July through September with the average from the same three months a year earlier. The agency then rounds the percentage change to the nearest tenth of a point. That means none of the inflation readings that will determine the 2027 increase had been released as of Aug. 2. The Bureau of Labor Statistics will publish July data on Aug. 12, followed by the August report on Sept. 11 and the September figures on Oct. 14. The September release will provide the final piece of the calculation. Any approved adjustment would take effect with December 2026 Social Security benefits, which recipients generally receive in January 2027. Supplemental Security Income payments would also reflect the change. Meanwhile, Medicare costs will affect how much of the increase some retirees keep. The standard Medicare Part B premium stands at $202.90 a month in 2026, and the government has not finalized the 2027 amount. Because many beneficiaries pay the premium through deductions from their Social Security checks, a higher charge could absorb part of the COLA. The 3.8% forecast offers an early guide for household planning, but beneficiaries should avoid treating it as a confirmed increase. The July, August and September CPI-W readings will determine whether next year’s Social Security adjustment moves higher, falls below the current estimate or finishes close to it.",
+      "tags": "News|Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67723101",
+      "guid": "content_6a6d8746d3e289bf365bdd04",
+      "published_on": 1785670200,
+      "imageurl": "https://resources.cryptocompare.com/news/94/67723101.jpeg",
+      "title": "'A Window Open'—The Payments Fight Over Gaming's Soul",
+      "url": "https://www.forbes.com/sites/boazsobrado/2026/08/03/a-window-open-the-payments-fight-over-gamings-soul/",
+      "body": "A court decision on app store payments reopened gaming's oldest argument: whether money should buy advantage, a payout, or just a place on a leaderboard.",
+      "tags": "Forbes Digital Assets|/digital-assets|Forbes Digital Assets|/digital-assets|standard",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "Forbes Digital Assets",
+        "img": "https://resources.cryptocompare.com/news/94/default.png",
+        "lang": "EN"
+      },
+      "source": "forbes"
+    },
+    {
+      "id": "67723274",
+      "guid": "https://cryptopotato.com/?p=1444407",
+      "published_on": 1785670030,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67723274.jpeg",
+      "title": "Ethereum Just Had Its Best Month in a Year: Can ETH Keep Rallying in August?",
+      "url": "https://cryptopotato.com/ethereum-just-had-its-best-month-in-a-year-can-eth-keep-rallying-in-august/",
+      "body": "The summer is not the most exciting period in the cryptocurrency markets, and the past month or so proved it. Nevertheless, Ethereum managed to become one of the few (re)rising stars, surging by roughly 20% and reaching a local peak. History suggests that August has been quite the controversial month for the largest altcoin, and we will explore that data to try to see what could be hiding around the corner in the next 30ish days. ETH Saw Big July Gains The second-largest cryptocurrency by market cap had a violent end to 2025 and a similarly painful start to 2026. Its troubles began after the all-time high marked in August last year, when it was rejected and marked six consecutive monthly closures in the red. The most painful were November (-22.38%), January (-17.52%), and February (-19.81%). A minor relief rally followed in March and April with gains of around 7% each. However, the bears returned in May with an 11% drop, while June was extremely bearish for the entire market and ETH dumped by 21.7%. As such, the expectations for July were high for a rebound. Historically, it hasn’t been Ethereum’s best month, but all that were in the green saw double-digit gains. July 2026 didn’t disappoint. The altcoin rebounded from the early slumber when it dipped toward $1,500 and rocketed to $1,980 at one point. Although it was rejected there, it ended the month at around $1,900, which meant a solid surge of approximately 20%. This performance dwarfed BTC’s monthly gains, as the market leader jumped by a more modest 9%. What’s Next in August? Although there are some warning signs about ETH’s short-term price future, August has delivered some major gains throughout the years. Obviously, the 2017 edition stands out when the token skyrocketed by nearly 93%. 2020 brought a respectable 25.32% surge, followed by another 35.62% pump in 2021. The gains in August 2025 were also double digits, and ETH managed to break its previous ATH record during that month. The opposite side of the coin is that the other six Augusts since 2016 have been in the red. The most painful examples that stand out were during the 2018 bear market when ETH slumped by almost 35%, another 21.31% leg down a year later, and the 2024 drop of 22.21%. Ethereum Monthly Performance. Source: CoinGlass The post Ethereum Just Had Its Best Month in a Year: Can ETH Keep Rallying in August? appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|social|SocialFB|Ethereum (ETH) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|ETH|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67723758",
+      "guid": "https://en.coinotag.com/bitcoin-btc-67k-resistance-august-setup",
+      "published_on": 1785670010,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67723758.jpeg",
+      "title": "Bitcoin (BTC) Faces $67K Resistance in August Setup",
+      "url": "https://en.coinotag.com/bitcoin-btc-67k-resistance-august-setup",
+      "body": "Bitcoin News Bitcoin (BTC) entered August facing the $67,000 resistance zone, the first major technical test after July’s recovery from June lows. Historical monthly return data show that August ha...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67722928",
+      "guid": "https://coinpaper.com/33796/spacex-moon-crash-falcon-9-upper-stage-to-hit-moon-aug-5",
+      "published_on": 1785669918,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "SpaceX Moon Crash: Falcon 9 Upper Stage to Hit Moon Aug. 5",
+      "url": "https://coinpaper.com/33796/spacex-moon-crash-falcon-9-upper-stage-to-hit-moon-aug-5",
+      "body": "A discarded SpaceX Falcon 9 upper stage is expected to crash into the moon on Wednesday, Aug. 5, giving astronomers a rare chance to watch a known object strike the lunar surface. Tracking estimates place the impact at about 6:35 a.m. UTC near Einstein Crater, close to the moon’s sunlit edge as seen from Earth. Despite the popular “SpaceX moon crash” search term, the object is not an active rocket or spacecraft carrying people. It is the Falcon 9’s spent second stage, cataloged as 2025-010D, which has remained in a wide orbit around the Earth-moon system since January 2025. SpaceX used the rocket to launch Firefly Aerospace’s Blue Ghost lander and ispace’s Resilience lander on Jan. 15, 2025. Blue Ghost later completed a successful commercial moon landing, while Resilience failed during its landing attempt. What Will Happen During the SpaceX Moon Crash? The roughly 40-foot-long rocket stage will hit the moon at about 5,400 mph, or 8,700 kph. Because the moon has almost no atmosphere, nothing will slow or burn up the hardware before it reaches the ground. However, the collision poses no threat to Earth or anyone on its surface. Scientists expect the impact to release energy comparable to several tons of TNT. Current estimates suggest it could form a crater as wide as 90 feet and about 16 feet deep, although researchers will need spacecraft images to confirm the final size. Meanwhile, computer models indicate the collision could send a broad curtain of lunar material 15 to 20 kilometers above the surface. A narrower central plume may reach 75 to 100 kilometers, while dust could spread more than 180 kilometers from the impact point. Those figures remain projections, and the actual result will depend on the rocket stage’s final angle and orientation. Will the Impact Be Visible From Earth? The initial flash will last less than a second and will probably be too faint for people to see without specialized equipment. Still, the dust plume may remain visible through powerful telescopes for several minutes. Observers in eastern parts of the United States and Canada, along with much of South America, should have the most favorable viewing positions. Even there, bright sunlight on the lunar surface and weather conditions could make the event difficult to record. NASA’s Lunar Reconnaissance Orbiter and South Korea’s Danuri spacecraft are expected to collect images before and after the collision. Researchers can compare those observations to measure the crater, track displaced material and test models of how artificial objects behave when they hit the moon. More broadly, the SpaceX moon crash highlights a growing issue as governments and private companies send more hardware beyond Earth. This impact presents little immediate danger, but scientists say future rocket debris could threaten lunar spacecraft, equipment or crewed bases unless operators improve tracking and disposal plans.",
+      "tags": "News|Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67722868",
+      "guid": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin",
+      "published_on": 1785669606,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67722868.jpeg",
+      "title": "BNB Chain pursues legal action after ex-employee’s memecoin launch",
+      "url": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "BNB Chain said a former employee allegedly used a company tutorial wallet to create a memecoin that the company says it did not authorize or endorse.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67722357",
+      "guid": "https://u.today/head-shoulders-pattern-appears-on-bitcoin-price-chart-why-67200-is-key-level-to-watch-next",
+      "published_on": 1785669545,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67722357.jpeg",
+      "title": "'Head & Shoulders' Pattern Appears on Bitcoin Price Chart: Why $67,200 Is Key Level to Watch Next",
+      "url": "https://u.today/head-shoulders-pattern-appears-on-bitcoin-price-chart-why-67200-is-key-level-to-watch-next",
+      "body": "While Ethereum signals an early breakout, Bitcoin paints an inverse head-and-shoulders pattern with a make-or-break target at $67,200.",
+      "tags": "Bitcoin Price|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67722475",
+      "guid": "https://coinpaper.com/33794/solana-price-prediction-can-sol-hold-67-and-confirm-a-multi-month-bottom",
+      "published_on": 1785669423,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Solana Price Prediction: Can SOL Hold $67 and Confirm a Multi-Month Bottom?",
+      "url": "https://coinpaper.com/33794/solana-price-prediction-can-sol-hold-67-and-confirm-a-multi-month-bottom",
+      "body": "Solana is nearing a decisive technical area after extending its decline toward the $67 support zone. While the short-term trend remains bearish, weakening momentum and similarities to SOL’s 2022-23 accumulation structure suggest that a broader bottom may be forming. Solana Shows Early Signs of a Multi-Month Bottom Solana may be developing a long-term base after its sharp decline, with the chart highlighting similarities between the current structure and the accumulation phase that formed during 2022 and 2023. Solana Multi-Year Bottoming Structure and Bullish RSI Divergence. Source: Inmortal (@inmortalcrypto) on X The three-day SOL/USDT chart shows Solana consolidating near the lower end of its 2026 range after falling from the roughly $240 area. Price remains below a broad resistance zone near $95 to $100, which now represents the first major level bulls must reclaim before a stronger recovery can take shape. The analyst compares the current setup with Solana’s previous market bottom. During the 2022-23 base, SOL traded below a similar horizontal barrier for several months while price gradually stabilized. It later broke above that zone, turning former resistance into support before beginning a sustained advance. A comparable pattern may now be emerging. Solana has stopped falling vertically and entered a narrower trading range, suggesting that selling pressure is beginning to ease. However, the chart does not yet confirm that the bottom is complete because price continues to trade under the highlighted resistance band. The relative strength index adds a constructive signal. While SOL has recorded slightly lower lows, the RSI has formed a higher low. This bullish divergence indicates that downward momentum is weakening, even as price remains under pressure. The chart shows a similar divergence near the previous cycle bottom. Confirmation would require SOL to recover the $95-to-$100 region and hold above it on the three-day chart. Such a move would strengthen the bottoming argument and could open the way toward higher resistance levels. Until then, the setup remains an early accumulation scenario rather than a confirmed trend reversal. A sustained break below the recent range lows, around the $60 area, would weaken the comparison and suggest that Solana still needs more time to establish support. The practical takeaway is that momentum conditions are improving, but price must reclaim resistance before buyers gain clear control. Solana Nears $67 Support as Traders Prepare for a Possible Rebound Solana is approaching a key support area after extending its decline from late-July highs, bringing the short-term bearish trade close to its projected target. The chart presents the $67.45 region as a potential swing-long zone, but buyers still need to defend that level before a recovery scenario gains credibility. Solana Daily Chart Targets $67 Support Before Potential Rebound. Source: Atrades (@Atrades_02) The daily SOL/USDT chart shows Solana trading near $71.87 after rejecting the $78 area and continuing lower. The marked short setup begins around $78.38, places risk above $79.04 and targets approximately $67.47. Price has already completed most of that projected decline. However, the chart does not assume an immediate reversal from the current level. Instead, the analyst expects SOL to test the horizontal support near $67.45 before a more durable recovery attempt begins. That zone carries added technical importance because it previously acted as resistance and support during June. Solana also rebounded sharply after trading below the area earlier in the summer, making it a visible level where buyers may return. The drawn path outlines a conditional scenario rather than a confirmed forecast. It suggests an initial reaction from $67, a brief retest of the same support and then a recovery toward the $70-to-$71 region. A successful defense of $67.45 would support the case for closing bearish positions and considering a swing-long setup. Confirmation would come from a clear bullish reaction near support, followed by a move back above recent short-term resistance. The $78.38-to-$79.04 region would remain the main upside barrier, while $83.45 represents a higher resistance level if momentum improves further. A decisive daily close below $67.45 would invalidate the proposed rebound path and expose the lower demand area near $62 to $63. The practical takeaway is that SOL remains under short-term pressure, but the next test of $67 could determine whether the decline develops into another breakdown or creates a stronger buying opportunity.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67722815",
+      "guid": "https://u.today/self-proclaimed-satoshi-says-bitcoins-rules-should-never-change",
+      "published_on": 1785669390,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67722815.jpeg",
+      "title": "Self-Proclaimed Satoshi Says Bitcoin's Rules Should Never Change",
+      "url": "https://u.today/self-proclaimed-satoshi-says-bitcoins-rules-should-never-change",
+      "body": "Craig Wright, the Australian computer scientist who claims to be Bitcoin creator Satoshi Nakamoto, has argued that the network’s protocol should never be changed.",
+      "tags": "Bitcoin News|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67721984",
+      "guid": "https://coinpaper.com/33792/bitcoin-price-prediction-60k-test-could-lead-to-a-40k-bottom",
+      "published_on": 1785669121,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Bitcoin Price Prediction: $60K Test Could Lead to a $40K Bottom",
+      "url": "https://coinpaper.com/33792/bitcoin-price-prediction-60k-test-could-lead-to-a-40k-bottom",
+      "body": "Bitcoin faces a critical test as short-term resistance near $63,500 raises the risk of a liquidity sweep toward the $60,000 support zone. Meanwhile, a long-term cycle model projects a deeper 2026 bottom between $40,000 and $45,000 before BTC begins another potential bull run. Bitcoin Retests Short-Term Resistance as Sub-$62,000 Liquidity Comes Into Focus Bitcoin is testing a lower-time-frame resistance zone after rebounding from its recent decline. The chart outlines a bearish near-term scenario in which BTC rejects from the current area, sweeps liquidity below $62,000 and then finds demand near $60,000. Bitcoin Retests $63,500 Resistance Before Possible Sub-$62,000 Sweep. Source: Kaz (@XBTkaz) on X The Bitcoin chart shows price returning to a small resistance zone around $63,300 to $63,600. This area appears to be the planned retest mentioned by the analyst and represents the first point where sellers could regain control. Kaz expects the current rebound to lose momentum and send BTC toward downside liquidity below $62,000. In market terms, liquidity refers to areas where clusters of pending orders and stop-losses may sit. A move into that region could clear those orders before Bitcoin attempts a more sustained recovery. The main area of interest for potential long positions sits between roughly $60,000 and $61,100. The chart marks this band as a broader demand zone that previously supported price. The projected path allows for volatility inside the area, including a possible dip near $60,000, before a rebound develops. Confirmation of the bearish setup would come from a rejection near $63,500 followed by a break below the recent short-term lows. A clean move above the retest zone would weaken the immediate downside case and suggest buyers are maintaining control. On the upside, the chart identifies $65,383 as the first profit-taking level for a potential recovery trade. Above that, Bitcoin could target the $66,940-to-$67,291 region, where the analyst marks a monthly fair value gap. A fair value gap is a price area created by a rapid market move that traders often expect price to revisit. The proposed “Sunday pump, Monday dump” sequence remains the analyst’s scenario rather than a confirmed outcome. The practical takeaway is that Bitcoin faces resistance near $63,500, while the $60,000-to-$61,100 demand zone could become the more important area for determining the next larger move. Bitcoin Cycle Model Projects a $40,000-$45,000 Bottom Before the Next Bull Run A long-term Bitcoin cycle model points to another major low in 2026 before BTC begins a projected advance toward fresh highs later in the decade. The outlook assumes Bitcoin will continue following its historical boom-and-bust pattern, although each cycle may deliver smaller percentage returns. Bitcoin Cycle Model Projects 2026 Bottom. Source: Jesse Olson (@JesseOlson) on X The monthly BTC/USD chart compares Bitcoin’s previous market cycles with a forward projection extending through 2034. It places historical peaks near the upper green valuation band and major bottoms near the lower magenta band, while the white curve acts as a long-term midpoint. Under this scenario, Bitcoin could continue falling toward a 2026 cycle bottom between $40,000 and $45,000. The chart shows BTC near $63,418, meaning the projected low would require another substantial decline before the longer-term recovery begins. The model then forecasts a rally toward $215,000 to $230,000 around 2029. A correction could follow in 2030, with Bitcoin potentially establishing a higher cycle floor between $80,000 and $85,000. Two additional targets extend the pattern into the following cycle. The analyst projects a 2033 peak between $315,000 and $330,000, followed by a 2034 bottom near $125,000 to $130,000. These estimates reflect a diminishing-returns thesis. Bitcoin would continue reaching higher nominal prices, but each bull market would generate a smaller percentage gain than earlier cycles. The chart also assumes slightly shorter cycles, moving from about 48 monthly bars in an earlier period to a projected 44 bars in the final cycle shown. Confirmation of the near-term scenario would require Bitcoin to continue weakening into the lower long-term band and then form a clear monthly reversal near $40,000 to $45,000. A recovery above the chart’s central trend line would strengthen the argument that a new expansion phase has begun. The projection would lose credibility if Bitcoin breaks decisively below the lower historical band, forms its next major high or low much earlier than expected, or stops following the repeating cycle structure. Olson also acknowledges that models change and that future bull runs are not guaranteed. The post estimates that buying the projected 2026 bottom and holding through the 2034 bottom could produce an annual return of about 25%. However, the stated price ranges imply a compound annual return closer to roughly 14% to 15%, before fees and taxes. The practical takeaway is that the chart supports a long-term bullish outlook but still allows for a deeper 2026 correction. Its distant price targets remain conditional scenarios rather than confirmed Bitcoin forecasts.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67721501",
+      "guid": "https://coinpaper.com/33789/will-michael-saylors-strategy-sell-5b-in-bitcoin-as-loss-hits-82b",
+      "published_on": 1785668658,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Will Michael Saylor’s Strategy Sell $5B in Bitcoin as Loss Hits $8.2B?",
+      "url": "https://coinpaper.com/33789/will-michael-saylors-strategy-sell-5b-in-bitcoin-as-loss-hits-82b",
+      "body": "Michael Saylor’s Strategy could sell up to about $5 billion in Bitcoin under its capital management framework as the company shifts attention to reserves, dividends, and buybacks after a large quarterly loss. Strategy Weighs Bitcoin Sales After Q2 Loss Strategy reported a net loss of $8.22 billion for the second quarter. The loss was driven mainly by an $8.32 billion fair-value decline in its Bitcoin holdings. The company held 843,775 BTC as of today, acquired at an average cost of $75,476 each, while Bitcoin traded near $64,700 after the earnings report. That price left Strategy’s Bitcoin position below its total purchase cost. The company’s holdings had an original cost of $63.69 billion and a market value of about $54.77 billion. Strategy’s stock slipped after the results, falling as investors reviewed the company’s new capital plan. MSTR traded near $93.28 , down 4.56%, after the earnings update. Michael Saylor said Strategy increased Bitcoin holdings by 11% in the quarter. He also pointed to an 18% reduction in convertible debt and a 12% increase in USD reserves. Capital Plan Could Fund Reserves and Dividends Strategy’s capital management framework could allow up to about $5 billion in Bitcoin monetization. The funds could support reserves, preferred dividends, interest payments, and buybacks. The framework could direct up to $1.25 billion toward USD reserves. It could also help cover about $1.76 billion in annual preferred dividends and interest payments. Strategy may also use up to $2 billion for common stock and digital credit security buybacks. The company has created separate $1 billion repurchase programs for those securities. The company has already sold about $218.4 million of Bitcoin this year. Those sales helped fund preferred dividends, marking a change from its long-standing Bitcoin accumulation approach. Management said future capital raises will not go entirely toward Bitcoin purchases. Proceeds may be split between BTC and USD reserves, depending on market conditions. Strategy also said Bitcoin-backed borrowing is not currently under review. The company cited counterparty and margin risks as reasons for avoiding that option. STRC Preferred Stock Becomes Main Focus Analysts said Strategy’s management is now focused on returning STRC preferred stock to par. TD Cowen reiterated a Buy rating and kept its $260 target after the Q2 update. Benchmark also kept its rating on Strategy but lowered its price target to $435 from $570. The firm also pointed to STRC preferred stock parity as a central management goal. H.C. Wainwright also reiterated its Buy rating on Strategy and maintained a $325 price target. The firm said Strategy’s capital management approach could support STRC during the Bitcoin drawdown, with further upside tied to stronger BTC sentiment and improvement in MSTR’s mNAV. Source: X Strategy’s preferred equity structure has become an important part of its funding model. The company has used preferred stock issuance to raise capital while managing its Bitcoin strategy. The firm raised about $17.06 billion through capital markets programs this year. It also reduced convertible debt to $6.71 billion after repurchasing $1.5 billion of notes at a discount. Strategy’s USD reserve reached $3.75 billion at quarter-end. Management said that reserve covers more than 2.1 years of preferred stock dividends and debt interest obligations. The company’s next steps will depend on Bitcoin prices, STRC trading levels, reserve needs, and investor demand. Strategy remains the largest corporate Bitcoin holder, but its latest plan gives management more flexibility to sell BTC when needed.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67721229",
+      "guid": "https://timestabloid.com/?p=108478",
+      "published_on": 1785668416,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "XRP to Rally 60,000%? Analyst Says Nobody Is Ready for What XRP Could Do Next",
+      "url": "https://timestabloid.com/xrp-to-rally-60000-analyst-says-nobody-is-ready-for-what-xrp-could-do-next/",
+      "body": "Crypto analyst Danny believes XRP is following the same long-term technical structure that preceded its historic rally in 2017, stating that the asset may be approaching another major expansion if a key support level continues to hold. In his recent market commentary, Danny presented a monthly XRP chart comparing the current cycle with the one that led to XRP’s explosive gains several years ago. According to the analyst, the similarities between the two periods suggest that XRP could be preparing for another significant upward move. However, his outlook remains based on technical analysis rather than a guarantee of future performance. The chart he attached highlights what Danny describes as a multi-year ascending support trendline. He noted that this support has repeatedly acted as the foundation for XRP’s long-term price structure. NOBODY IS READY FOR WHAT $XRP COULD DO NEXT $XRP is repeating the exact same trendline from 2017. The last time this structure held, $XRP rallied more than 60,000%. My roadmap: Phase 1: $1.10 → $0.97 → $1.80 Phase 2: $1.80 → $2.70 → $3.20 Phase 3: $3.20 → $6.50 →… https://t.co/Dgd2prhkGg pic.twitter.com/tdptDBYmET — DANNY (@Danny_Crypton) July 31, 2026 Three Successful Retests Form the Basis of the Analysis Danny’s chart suggests creating an ascending trendline followed by three separate retests. In the earlier market cycle, he identified the initial formation of the trendline, a first retest, a second retest, and a third retest before XRP experienced a dramatic breakout that eventually carried the asset to its all-time high. He believes the current market has followed a nearly identical path. The chart labels another creation point and three successive retests stretching from 2019 through 2026. According to Danny, XRP has now completed the third retest of the same long-term support, placing the asset in a position comparable to its position before its previous major rally. He stated that once the third retest holds, the expansion phase could accelerate quickly. His chart illustrates a series of higher highs after the third retest, with projected price movements extending into double-digit territory. Roadmap Outlines Progressive Price Targets Based on this interpretation, Danny outlined a three-phase roadmap for XRP. The first phase projects a move from approximately $1.10 to $0.97 to $1.80. The second phase anticipates a rise from $1.80 to $2.70 to $3.20. Finally, the third phase targets a continuation from $3.20 to $6.50 before ultimately reaching $13.00. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Danny also referenced XRP’s previous market performance, noting that the last time this long-term structure remained intact, the asset rallied by more than 60,000%. He explained that the current chart repeats the same trendline and suggested that many market participants are underestimating its potential. The analyst added that most XRP investors will likely wait for confirmation before changing their outlook, implying that the largest portion of any potential move could occur before broader market confidence returns. Danny also pointed to what he described as a history of successful market calls, stating that he accurately identified every major S&P 500 selloff, Bitcoin’s 2025 all-time high, and Bitcoin’s decline from $126,000 to $60,000. He further claimed that he was among the few analysts who correctly identified the market top in October, presenting those calls as reasons to give weight to his current XRP forecast. While his projection is based on historical chart similarities, it represents his personal technical outlook and should not be interpreted as a certainty of future price performance. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post XRP to Rally 60,000%? Analyst Says Nobody Is Ready for What XRP Could Do Next appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis|XRP Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67721397",
+      "guid": "https://coinpaprika.com/news/global-banks-move-real-money-80-seconds",
+      "published_on": 1785668400,
+      "imageurl": "https://resources.cryptocompare.com/news/80/67721397.jpeg",
+      "title": "Global Banks Move Real Money Cross-Border in 80 Seconds in BIS Pilot",
+      "url": "https://coinpaprika.com/news/global-banks-move-real-money-80-seconds",
+      "body": "The Bank for International Settlements said 28 commercial banks and five central banks settled about $1 million in cross-border payments in roughly 80 seconds. The Project Agorá test used tokenised central bank reserves and commercial bank deposits on a shared ledger.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|WALLET|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "67721631",
+      "guid": "https://u.today/crypto-dominated-by-scam-memecoins-and-security-failures-says-experienced-analyst",
+      "published_on": 1785668400,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67721631.jpeg",
+      "title": "Crypto 'Dominated by Scam Memecoins and Security Failures,' Says Experienced Analyst",
+      "url": "https://u.today/crypto-dominated-by-scam-memecoins-and-security-failures-says-experienced-analyst",
+      "body": "Cryptocurrency market is struggling substantially, now with the exploit of one of the most popular cold-storage solutions on the market.",
+      "tags": "Bitcoin|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785668113,
+    "time_range_start": "2026-08-02 10:55:13",
+    "time_range_end": "2026-08-02 11:55:13"
+  }
+}
