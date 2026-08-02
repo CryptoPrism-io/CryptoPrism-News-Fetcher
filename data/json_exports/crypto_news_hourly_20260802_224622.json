@@ -1,0 +1,112 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67764679",
+      "guid": "https://news.bitcoin.com/?p=836151",
+      "published_on": 1785709859,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67764679.jpeg",
+      "title": "Bitcoin Miners Face August Showdown After Revenue Rebound",
+      "url": "https://news.bitcoin.com/mining/bitcoin-miners-face-august-showdown-after-revenue-rebound/",
+      "body": "After June’s brutal slide from May, bitcoin miners finally caught a bit of breathing room. July mining revenue climbed by $38.93 million over June, offering a modest rebound, but not enough to erase the pressure many operators have been battling for months. May’s Boom Quickly Turned Into June’s Bust The latest six months of mining",
+      "tags": "Mining|BIP110|Bitcoin Miners|Fork|Hashrate|mining",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MINING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67762885",
+      "guid": "https://ambcrypto.com/?p=621485",
+      "published_on": 1785708034,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Crypto market’s weekly winners and losers –  PUMP, KAITO, FET, LDO",
+      "url": "https://ambcrypto.com/crypto-market-weekly-review-02-august/",
+      "body": "This week, the market put the A.I. narrative under the spotlight. Here's a quick look at how some of your favorite tokens performed.",
+      "tags": "News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|LDO|FET",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67761910",
+      "guid": "https://en.bitcoinsistemi.com/breaking-donald-trump-makes-a-surprise-statement-on-iran-suspends-attacks/",
+      "published_on": 1785707346,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67761910.jpeg",
+      "title": "BREAKING: Donald Trump Makes a Surprise Statement on Iran – Suspends Attacks",
+      "url": "https://en.bitcoinsistemi.com/breaking-donald-trump-makes-a-surprise-statement-on-iran-suspends-attacks/",
+      "body": "US President Donald Trump announced that Saudi Arabia, the United Arab Emirates, Qatar, and Iran had urged him to postpone the planned military attacks. Trump said the planned operation against Iran would be very comprehensive and powerful, but he suspended the attack plan after regional countries requested time for diplomacy. Trump stated that allies in the region believe an agreement is close, and that the first phase of talks focuses on the security and reopening of the Strait of Hormuz. According to Trump, once this is agreed upon, negotiations on Iran’s nuclear program will begin. The Strait of Hormuz stands out as one of the most critical transit points for global oil and liquefied natural gas transportation. A military conflict in the region is considered to have significant consequences for energy prices and global trade. In addition, Trump announced that new talks with Iran will begin tomorrow. Related News: Watch Out: Massive Token Unlocks Coming for 10 Altcoins This Week—Here’s the Day-by-Day, Hour-by-Hour Schedule Trump also commented on developments concerning the Japanese yen. He stated that the US intervened in the market due to its good relations with Japan, arguing that Washington has always supported Tokyo and that the US also benefits economically from the relevant regulations. *This is not investment advice. Continue Reading: BREAKING: Donald Trump Makes a Surprise Statement on Iran – Suspends Attacks",
+      "tags": "Economy|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|ASIA|COMMODITY|MARKET|REGULATION",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "67762118",
+      "guid": "https://cryptopotato.com/?p=1444448",
+      "published_on": 1785707345,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67762118.jpeg",
+      "title": "Robinhood’s Q2 Revenue Hits Record $1.31B as Prediction Markets Fuel 10x Surge in Event Contracts",
+      "url": "https://cryptopotato.com/robinhoods-q2-revenue-hits-record-1-31b-as-prediction-markets-fuel-10x-surge-in-event-contracts/",
+      "body": "Robinhood posted record second-quarter net revenue of $1.31 billion, up 32% year-over-year, as activity across prediction markets, options, and equities helped offset a sharp decline in crypto income. The company’s transaction-based revenue jumped 44% to $776 million during the quarter. Event contracts emerged as one of its fastest-growing businesses. In fact, revenue from event contracts reached $156 million, more than 10 times higher than a year earlier. The number of contracts traded also surged more than 10x to a record 13.6 billion. Prediction Markets Steal the Spotlight Speaking about the growth of prediction markets, Chairman and CEO Vlad Tenev said that the space has grown steadily since March and expects the momentum to continue. Robinhood launched Rothera, a CFTC-licensed exchange and clearinghouse, in June through its joint venture with Susquehanna International Group. The company said more than 3.5 billion event contracts had been traded to date. Meanwhile, options remained another major contributor, generating $342 million in revenue. This figure was up by 29% year-over-year. Equities revenue climbed even more sharply, rising 95% to $129 million as equity notional trading volumes reached a record $956 billion, an 85% increase from the same period last year. The strong performance across these businesses came despite weaker cryptocurrency activity. Robinhood’s crypto revenue fell 38% year-over-year to $100 million, while crypto notional trading volume stood at $40 billion, including $18 billion from its app and $22 billion from Bitstamp. Global Push The online brokerage is pushing deeper into blockchain and digital assets internationally. It unveiled the public mainnet for Robinhood Chain, an Ethereum Layer 2 network designed for financial services and real-world assets, while also announcing stock tokens for eligible users in more than 120 countries. In May, it launched Agentic Trading, which allows customers to use AI-powered agents to trade equities, options, and crypto. Nearly 100,000 customers have opened Agentic Trading accounts so far, with more than $100 million in assets under custody. During the quarter, the company expanded its international footprint by closing its acquisition of WonderFi, a Canadian digital asset products and services platform. The move marked its official entry into the Canadian market. Tenev also pointed to the broader expansion strategy, saying “Whether it’s the Robinhood Chain, Robinhood Ventures, or Trump Accounts, our product velocity is focused on one goal: making everyone an owner. Broad ownership is essential to a free, stable, and prosperous society.” The post Robinhood’s Q2 Revenue Hits Record $1.31B as Prediction Markets Fuel 10x Surge in Event Contracts appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|Prediction Markets|Robinhood",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67762457",
+      "guid": "https://en.coinotag.com/bitcoin-clarity-act-stalls-senate-80-days",
+      "published_on": 1785707237,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67762457.jpeg",
+      "title": "Bitcoin CLARITY Act Stalls in Senate After 80 Days",
+      "url": "https://en.coinotag.com/bitcoin-clarity-act-stalls-senate-80-days",
+      "body": "Crypto News Bitcoin (BTC) is being pushed into a regulatory framing fight after Chris Giancarlo, the former chair of the U.S. Commodity Futures Trading Commission, urged crypto builders not to trea...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|COMMODITY|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785707182,
+    "time_range_start": "2026-08-02 21:46:22",
+    "time_range_end": "2026-08-02 22:46:22"
+  }
+}
