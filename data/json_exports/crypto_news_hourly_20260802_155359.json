@@ -1,0 +1,292 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67739355",
+      "guid": "https://en.coinotag.com/bitcoin-south-korea-stablecoin-outflow-367m",
+      "published_on": 1785685268,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67739355.jpeg",
+      "title": "Bitcoin Faces $367M South Korea Stablecoin Outflow",
+      "url": "https://en.coinotag.com/bitcoin-south-korea-stablecoin-outflow-367m",
+      "body": "Crypto News Bitcoin (BTC) is the benchmark asset most exposed as South Korean traders shifted stablecoins toward offshore venues in June, extending a capital-flight pattern that regulators can no l...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67738798",
+      "guid": "https://en.coin-turk.com/?p=240845",
+      "published_on": 1785685257,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67738798.jpeg",
+      "title": "Vandell reassures $XRP investors, Clarity Act delay will not affect long-term outlook",
+      "url": "https://en.coin-turk.com/vandell-reassures-xrp-investors-clarity-act-delay-will-not-affect-long-term-outlook/?utm_source=rss&utm_medium=rss&utm_campaign=vandell-reassures-xrp-investors-clarity-act-delay-will-not-affect-long-term-outlook",
+      "body": "🚨 Vandell says Clarity Act delays do not change the long-term case for $XRP. 🕒 He expects regulatory clarity will come, but not spark an instant bull market. 🏦 Institutional capital will likely move slowly, even after new rules are signed. 📜 The Clarity Act aims to clear up US digital asset regulations and boost confidence. Continue Reading: Vandell reassures $XRP investors, Clarity Act delay will not affect long-term outlook The post Vandell reassures $XRP investors, Clarity Act delay will not affect long-term outlook appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67737874",
+      "guid": "https://en.coin-turk.com/?p=240843",
+      "published_on": 1785684477,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67737874.jpeg",
+      "title": "Worldcoin trades at $0.3147 as analysts eye $0.50 breakout target",
+      "url": "https://en.coin-turk.com/worldcoin-trades-at-0-3147-as-analysts-eye-0-50-breakout-target/?utm_source=rss&utm_medium=rss&utm_campaign=worldcoin-trades-at-0-3147-as-analysts-eye-0-50-breakout-target",
+      "body": "🚨 Worldcoin (WLD) trades at $0.3147 after holding a key support zone. 🟢 Buyers are returning to $WLD as technical indicators turn positive. 📈 Analysts set the next resistance at $0.320-$0.325, with eyes on $0.50. 📉 Worldcoin remains within a long-term descending channel as traders watch for a breakout. Continue Reading: Worldcoin trades at $0.3147 as analysts eye $0.50 breakout target The post Worldcoin trades at $0.3147 as analysts eye $0.50 breakout target appeared first on COINTURK NEWS .",
+      "tags": "Worldcoin (WLD)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|WLD",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67737934",
+      "guid": "https://cointelegraph.com/news/strategy-leaves-preferred-strc-dividend-at-12-price-still-below-par",
+      "published_on": 1785684213,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67737934.jpeg",
+      "title": "Strategy leaves preferred STRC dividend at 12% as price still below par",
+      "url": "https://cointelegraph.com/news/strategy-leaves-preferred-strc-dividend-at-12-price-still-below-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Investors have previously benefited from a payout boost when the preferred STRC shares traded well below their $100 par value for a month.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67737379",
+      "guid": "https://u.today/why-89-million-coldcard-drain-is-bullish-for-bitcoin-etfs-bloomberg-analyst-explains",
+      "published_on": 1785684015,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67737379.jpeg",
+      "title": "Why $89 Million Coldcard Drain Is Bullish for Bitcoin ETFs, Bloomberg Analyst Explains",
+      "url": "https://u.today/why-89-million-coldcard-drain-is-bullish-for-bitcoin-etfs-bloomberg-analyst-explains",
+      "body": "Bloomberg’s Eric Balchunas shares his take on a $89 million drain from Coldcard hardware wallets and how it provides the ultimate bull case for regulated spot Bitcoin ETFs.",
+      "tags": "Bitcoin wallet|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67737251",
+      "guid": "https://en.coin-turk.com/?p=240838",
+      "published_on": 1785683578,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67737251.jpeg",
+      "title": "Dogecoin advocate warns after Coldcard wallet breach leads to $88.6 million bitcoin theft",
+      "url": "https://en.coin-turk.com/dogecoin-advocate-warns-after-coldcard-wallet-breach-leads-to-88-6-million-bitcoin-theft/?utm_source=rss&utm_medium=rss&utm_campaign=dogecoin-advocate-warns-after-coldcard-wallet-breach-leads-to-88-6-million-bitcoin-theft",
+      "body": "🚨 $BTC worth $88.6 million was stolen in a major Coldcard wallet breach. 🛡️ Thousands of long-term holders were affected by this vulnerability. 📢 Mishaboar and researchers urge Coldcard users to move funds immediately. 🕒 The stolen bitcoin had been dormant for nearly 3.5 years on average. Continue Reading: Dogecoin advocate warns after Coldcard wallet breach leads to $88.6 million bitcoin theft The post Dogecoin advocate warns after Coldcard wallet breach leads to $88.6 million bitcoin theft appeared first on COINTURK NEWS .",
+      "tags": "Dogecoin (DOGE)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|DOGE|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67737521",
+      "guid": "https://en.coinotag.com/shib-on-chain-transfers-jump-68-to-8517",
+      "published_on": 1785683192,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67737521.jpeg",
+      "title": "SHIB On-Chain Transfers Jump 68% to 8,517",
+      "url": "https://en.coinotag.com/shib-on-chain-transfers-jump-68-to-8517",
+      "body": "SHIB News Shiba Inu (SHIB), the Ethereum-based altcoin , recorded a sharp one-day increase in network activity as transfer counts rose 68.75% from 5,057 on July 31 to 8,517 on Aug. 1, according to ...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|SHIB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67737628",
+      "guid": "https://coinpedia.org/?p=577315",
+      "published_on": 1785683086,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "How High Will XRP Price Go if the CLARITY Act Passes in 2026?",
+      "url": "https://coinpedia.org/news/how-high-will-xrp-price-go-if-the-clarity-act-passes-in-2026/",
+      "body": "The post How High Will XRP Price Go if the CLARITY Act Passes in 2026? appeared first on Coinpedia Fintech News Analyst Jake Claver believes XRP is set up for a repricing event once the CLARITY Act crosses the finish line, and he’s pointing to two past moves in XRP’s history as the reason why. Claver brought to attention a pair of historical catalysts he believes are instructive. XRP gained about 70,000% in 240 days after …",
+      "tags": "News|Crypto news|Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "67736450",
+      "guid": "https://decrypt.co/?p=374808",
+      "published_on": 1785682863,
+      "imageurl": "https://resources.cryptocompare.com/news/44/67736450.jpeg",
+      "title": "What’s the Deal With Meta’s ‘Pervert Glasses’?",
+      "url": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
+      "body": "Lawsuits, privacy complaints, secret recordings, and government investigations have put Meta’s AI glasses under scrutiny.",
+      "tags": "Technology",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TECHNOLOGY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "67736341",
+      "guid": "https://en.coin-turk.com/?p=240836",
+      "published_on": 1785682858,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67736341.jpeg",
+      "title": "764 whales control 94% of SHIB, price eyes $0.00000500 breakout",
+      "url": "https://en.coin-turk.com/764-whales-control-94yuzde-of-shib-price-eyes-0-00000500-breakout/?utm_source=rss&utm_medium=rss&utm_campaign=764-whales-control-94yuzde-of-shib-price-eyes-0-00000500-breakout",
+      "body": "🐳 Just 764 whales control 94% of SHIB's supply, leaving retail with only a fraction. 📈 In $SHIB, transaction activity surged 68% as price neared $0.00000500. 💰 The top 5 holders possess $2.76 billion out of a $4.80 billion market cap. ⏳ Most SHIB price moves now rest on decisions by a handful of large holders. Continue Reading: 764 whales control 94% of SHIB, price eyes $0.00000500 breakout The post 764 whales control 94% of SHIB, price eyes $0.00000500 breakout appeared first on COINTURK NEWS .",
+      "tags": "Shiba (SHIB)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SHIB|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67736509",
+      "guid": "https://timestabloid.com/?p=108508",
+      "published_on": 1785682855,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "XRP ETF See Continued Inflows Exceeding $1.5 Billion: XRP Investors Could Earn Up to $3,700 Daily",
+      "url": "https://timestabloid.com/xrp-etf-see-continued-inflows-exceeding-1-5-billion-xrp-investors/",
+      "body": "As XRP-related ETFs continue to attract institutional inflows, market confidence in XRP’s long-term prospects is further strengthened. For many investors, the focus is shifting from short-term price fluctuations to how to enhance the long-term allocation value and efficiency of digital assets. Recently, XRP ETFs have seen continuous net inflows, reflecting the steadily growing demand for XRP from institutional investors. Although short-term market volatility persists and some retail investors remain on the sidelines, institutional funds continue to allocate XRP through regulated financial products, maintaining its high profile among mainstream digital assets. With the regulatory environment continuously improving and institutional participation increasing, more and more XRP holders are beginning to consider whether there are more efficient and sustainable ways to enhance the growth value of XRP while holding it long-term. XRP ETFs See Continued Inflows Surpassing $1.5 Billion, Sending Positive Market Signals As of the closing bell on August 2nd, according to TradingView citing market data, XRP-related ETFs have attracted over $1.5 billion in cumulative inflows, marking a significant milestone in the recent digital asset market. This sustained net inflow not only reflects institutional investors’ recognition of XRP’s long-term value but also demonstrates the growing market acceptance of regulated digital asset investment products. While secondary market trading activity has slowed recently, and retail investor sentiment remains relatively cautious, institutional funds have maintained a steady inflow, providing continuous liquidity support to the XRP market and further strengthening XRP investors’ confidence in the market’s long-term prospects. XRP Investors’ Best Choice for Yield Growth Through EX DeFi Against this market backdrop, more and more investors are focusing on EX DeFi, hoping to explore more stable and diversified yield models through cloud mining and yield aggregation mechanisms while holding popular cryptocurrencies such as XRP, BTC, and ETH for the long term. Compared to highly volatile futures trading or frequent buying and selling strategies, EX DeFi offers a more convenient way to participate in cryptocurrency trading. Users can participate in cloud mining without purchasing mining rigs or incurring equipment maintenance costs, further improving the utilization efficiency of digital assets while focusing on the long-term development of XRP. For users with a certain amount of capital, they can also choose suitable yield plans according to their needs, achieving more flexible asset allocation. About EX DeFi Founded in 2021 and headquartered in the UK, EX DeFi operates in accordance with European regulatory frameworks such as MiCA and MiFID II, continuously improving its platform transparency, legal compliance, and user protection mechanisms. The platform employs a multi-layered security architecture, including: PwC annual financial and security compliance audit; Lloyd’s of London digital asset custody insurance; Cloudflare enterprise-grade cybersecurity protection; McAfee® security protection system; AI intelligent risk control, multi-layered encryption architecture, and 2FA two-factor authentication. Currently, EX DeFi supports multiple mainstream digital assets including XRP, BTC, ETH, USDT, BNB, USDC, DOGE, LTC, SOL, and ADA, providing users with a more flexible and convenient cloud mining experience. Start earning daily mining rewards in three steps: Step 1: Register an account Complete registration using your email address to receive a $17 trial bonus. Step 2: Choose a mining plan Based on your personal budget and asset plan, choose a suitable mining contract plan and start participating automatically with one click. Step 3: Earn rewards After the contract starts, the system will automatically allocate computing power, and rewards will be automatically settled 24 hours a day. Users can withdraw rewards at any time according to their needs, or continue participating for long-term asset management. Example DeFi Popular Contracts BTC (Beginner Trial Contract): Investment of $100, Term: 2 days, Daily Yield: $4, Total Profit: $100 + $8 DOGE (Golden Shell Mini Dogecoin Pro): Investment of $500, Term: 6 days, Daily Yield: $6.5, Total Profit: $500 + $39 BTC (Canaan-Avalon-A1466): Investment of $1000, Term: 10 days, Daily Yield: $13.4, Total Profit: $1000 + $134 LTC (Bitmain Antminer L7): Investment of $5,000, Term: 20 days, Daily Yield: $73.5, Total Profit: $5,000 + $1,470 BTC (Bitmain S19K-Pro): Investment of $10,000, Term: 30 days, Daily Yield: $161, Total Profit: $10,000 USD +4,830 Click here to see more mining contract solutions from EX DeFi. Summary As the XRP ETF continues to attract institutional inflows and the EU’s regulatory framework for XRP continues to improve, more and more investors are shifting their focus from simply chasing price increases to long-term asset allocation and return management, thereby driving XRP value growth. Against this backdrop, EX DeFi provides XRP holders with more diversified ways to participate, further exploring asset utilization efficiency and return management based on long-term XRP holding. As the digital asset market continues to mature, cloud mining’s sustainable return model is gradually becoming a development direction attracting more and more investors. Still hesitating? Join EX DeFi now, start your digital asset journey, and explore daily passive income opportunities. Disclaimer: This is a sponsored press release for informational purposes only. It does not reflect the views of Times Tabloid, nor is it intended to be used as legal, tax, investment, or financial advice. Times Tabloid is not responsible for any financial losses. The post XRP ETF See Continued Inflows Exceeding $1.5 Billion: XRP Investors Could Earn Up to $3,700 Daily appeared first on Times Tabloid .",
+      "tags": "Press Release",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|MINING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67736280",
+      "guid": "https://timestabloid.com/?p=108471",
+      "published_on": 1785682854,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Black Swan Capitalist Shares the Truth About CLARITY Act With XRP Holders",
+      "url": "https://timestabloid.com/black-swan-capitalist-shares-the-truth-about-clarity-act-with-xrp-holders/",
+      "body": "As questions continue to surface over the delayed progress of the U.S. Clarity Act, Black Swan Capitalist co-founder Vandell has reassured investors that the development does not change his long-term outlook for the digital asset market. Explaining further in his tweet, he said his investment thesis has never depended on the legislation becoming law on a specific timeline. Instead, he believes XRP investors should pay closer attention to what the bill is designed to achieve and maintain realistic expectations about how its eventual passage could influence the crypto market. The truth about the Clarity Act. What it really means for the crypto market and how it likely plays out. Full breakdown. https://t.co/1HrU9Qub1K pic.twitter.com/D5LdxfLgsl — Vandell | Black Swan Capitalist (@vandell33) July 31, 2026 Regulatory Clarity Could Remove a Major Barrier Vandell described the Clarity Act as legislation intended to establish a clearer regulatory framework for cryptocurrencies, digital assets, blockchain companies, exchanges, and token issuers in the United States. He explained that uncertainty over whether digital assets should be classified as securities or commodities has created years of confusion for investors, businesses, and financial institutions. He said this lack of regulatory certainty has discouraged large institutions from committing significant capital to the sector because firms typically wait for clear legal frameworks before expanding into emerging technologies. In his view, the legislation would provide the certainty necessary for long-term infrastructure development, innovation, and broader institutional participation across the digital asset industry. Addressing the recent delay, Vandell noted that lawmakers have postponed further consideration of the bill until after the August Senate recess. While public reports have linked the delay to disagreements over ethics provisions involving public officials and digital assets, he said lawmakers are simply buying more time before moving the legislation forward. Regardless of the reason, he said he still expects the bill to become law eventually. Why Investors Should Not Expect an Immediate Market Transformation Although Vandell believes the Clarity Act will ultimately benefit the crypto industry, he cautioned against assuming its passage will immediately trigger a sustained bull market. He said investors often confuse the long-term impact of regulatory clarity with the short-term reaction of financial markets. Drawing on his experience studying market behavior, he suggested that institutional investors frequently position themselves before major headlines emerge. As a result, he believes any excitement following the bill’s passage could initially produce a strong rally while also creating liquidity for early participants to reduce positions if they choose. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Vandell stressed that institutional capital does not enter markets overnight simply because legislation has been signed. He explained that large financial organizations must complete legal reviews, compliance procedures, investment committee approvals, custody arrangements, and operational planning before deploying substantial amounts of capital. He also emphasized that regulation alone does not create the liquidity needed to drive long-term market expansion. Instead, he said the strongest environment for digital assets will emerge when regulatory clarity coincides with supportive monetary policy, improving financial conditions, and expanding liquidity. Vandell concluded that this combination would provide the foundation for increased institutional investment in blockchain infrastructure, tokenization , stablecoins, digital payments, and utility-focused cryptocurrencies. While he expects the Clarity Act to become law eventually, he believes its greatest impact will come over time as regulatory certainty and favorable macroeconomic conditions work together to encourage broader institutional participation across the digital asset industry. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Black Swan Capitalist Shares the Truth About CLARITY Act With XRP Holders appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|CLARITY Act|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|REGULATION|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67736449",
+      "guid": "https://coinpaprika.com/news/stablecoins-last-mile-bank-italy",
+      "published_on": 1785682800,
+      "imageurl": "https://resources.cryptocompare.com/news/80/67736449.jpeg",
+      "title": "Stablecoins Solve On-Chain Speed but Not the Costly Last Mile, Bank of Italy Finds",
+      "url": "https://coinpaprika.com/news/stablecoins-last-mile-bank-italy",
+      "body": "The Bank of Italy tested 200 USDC transfers across 10 remittance corridors and found total costs ranged from 0.3% to nearly 9% of the amount sent. Blockchain fees were a tiny share, while exchange and conversion charges drove most of the expense.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|EXCHANGE|FIAT|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "67736204",
+      "guid": "https://cryptopotato.com/?p=1444568",
+      "published_on": 1785682742,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67736204.jpeg",
+      "title": "Why Is Cardano (ADA) Up 9% Today While the Crypto Market Stalls?",
+      "url": "https://cryptopotato.com/why-is-cardano-ada-up-9-today-while-the-crypto-market-stalls/",
+      "body": "There’s rarely a big altcoin gainer during the current market conditions, in which every breakout attempt is halted in its tracks. This is particularly true for weekend moves, as the market tends to freeze on Saturday and Sunday. The latest example came in the past 36-48 hours. Even though the situation in the Middle East continues to develop quickly, with Trump claiming a Hormuz Strait deal is in the making and Iran refuting his statement once again, BTC and most altcoins have remained sluggish. However, Cardano’s ADA has emerged as the clear winner this weekend, gaining over 9% and jumping past $0.19 hours ago for the first time in almost a month. Here’s the most likely reason and what could follow next. ADAUSD on TradingView Whales Are Buying Since we are excluding a rally from the broader market, perhaps the most obvious reason behind ADA’s impressive resurgence over the past day has been the recent behavior of whales. These large market participants, who can influence the underlying asset’s price moves with big purchases or sales, have gone on an accumulation spree. Santiment Intelligence data shared by Ali Martinez shows that whales have scooped more than 240 million ADA in less than a week. Their total holdings went to 14.55 billion before retracing slightly. The analyst concluded that this substantial acquisition has helped fuel the asset’s notable 22% surge in the past five days, while the rest of the market stagnates. Whales loaded up. Cardano took off. Over 240 million $ADA have been accumulated in the past five days, helping fuel a 22% price surge per data from @SantimentData . pic.twitter.com/6Q6P6luBZn — Ali Charts (@alicharts) August 2, 2026 Major Breakout Knocking on the Door Another analyst going under the X moniker, Gerla, noted that ADA is “knocking on the door of a major breakout.” Their chart shows that ADA is fighting for the $0.19-$0.20 resistance level now, which capped its previous breakout attempt last month. However, the bullish RSI divergence and the completion of an inverse head-and-shoulders suggest that ADA finally has the strength to overcome that obstacle and aim at the next one, positioned at around $0.30. ZAYK Charts was even more bullish, indicating that a successful surge past the first resistance level could pave the way for another leg up toward $0.50. The post Why Is Cardano (ADA) Up 9% Today While the Crypto Market Stalls? appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Cardano (ADA) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ADA|ALTCOIN|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785682439,
+    "time_range_start": "2026-08-02 14:53:59",
+    "time_range_end": "2026-08-02 15:53:59"
+  }
+}
