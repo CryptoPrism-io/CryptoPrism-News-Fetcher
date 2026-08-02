@@ -1,0 +1,92 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67768467",
+      "guid": "https://news.bitcoin.com/?p=836093",
+      "published_on": 1785713406,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67768467.jpeg",
+      "title": "Samson Mow Shares 5 Urgent Steps for Coldcard Users Facing Losses",
+      "url": "https://news.bitcoin.com/security/samson-mow-shares-5-urgent-steps-for-coldcard-users-facing-losses/",
+      "body": "Bitcoin advocate Samson Mow outlined five immediate actions for users affected by the Coldcard wallet losses following the disclosure of a random number generator vulnerability. His recommendations focus on preserving evidence, reporting thefts, avoiding recovery scams, and documenting information that could support ownership claims. Samson Mow Outlines Immediate Actions for Affected Users JAN3 CEO Samson",
+      "tags": "Security|Coldcard|Hack",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67769070",
+      "guid": "https://en.coinotag.com/ethereum-eth-short-squeeze-606m-liquidation-wave",
+      "published_on": 1785713218,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67769070.jpeg",
+      "title": "Ethereum (ETH) Short Squeeze Drives $606M Liquidation Wave",
+      "url": "https://en.coinotag.com/ethereum-eth-short-squeeze-606m-liquidation-wave",
+      "body": "Ethereum News Ethereum (ETH) moved sharply higher after roughly $606.48 million in leveraged crypto positions were forcibly closed over the 24 hours ending Aug. 2, according to market liquidation d...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67767322",
+      "guid": "https://en.coinotag.com/bitcoin-btc-wallet-holding-100-btc-anthropic-security-test",
+      "published_on": 1785711723,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67767322.jpeg",
+      "title": "Bitcoin (BTC) Wallet Holding 100 BTC Becomes Anthropic Security Test",
+      "url": "https://en.coinotag.com/bitcoin-btc-wallet-holding-100-btc-anthropic-security-test",
+      "body": "Bitcoin News BitGo chief executive Mike Belshe has turned a portion of his company’s Bitcoin (BTC) holdings into a public security experiment, funding a wallet with exactly 100 BTC and inviting Ant...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67766667",
+      "guid": "https://ambcrypto.com/?p=621564",
+      "published_on": 1785711604,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Bitcoin whales pull 2,957 BTC off Kraken – Is a supply squeeze ahead?",
+      "url": "https://ambcrypto.com/bitcoin-whales-pull-2957-btc-off-kraken-is-a-supply-squeeze-ahead/",
+      "body": "Bitcoin whales withdrew $186.6 million from Kraken as BTC tested critical support amid persistent bullish positioning.",
+      "tags": "Bitcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785711099,
+    "time_range_start": "2026-08-02 22:51:39",
+    "time_range_end": "2026-08-02 23:51:39"
+  }
+}
