@@ -1,0 +1,52 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67698117",
+      "guid": "https://ambcrypto.com/?p=621335",
+      "published_on": 1785646821,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Ledger, Trezor say ‘funds are safe’ after Coldcard flaw helps hacker steal 38M Bitcoin",
+      "url": "https://ambcrypto.com/ledger-trezor-say-funds-are-safe-after-coldcard-flaw-helps-hacker-steal-38m-bitcoin/",
+      "body": "BTC sentiment fell to a four-month low after Coldcard's $38M exploit.",
+      "tags": "News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|WALLET|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67698098",
+      "guid": "https://en.coinotag.com/bitcoin-rebounds-1500-after-iran-strike-cancellation",
+      "published_on": 1785646131,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67698098.jpeg",
+      "title": "Bitcoin Rebounds $1,500 After Iran Strike Cancellation",
+      "url": "https://en.coinotag.com/bitcoin-rebounds-1500-after-iran-strike-cancellation",
+      "body": "Bitcoin News Bitcoin (BTC) found relief in South Korean trading after Washington stepped back from a planned weekend strike on Iran, with Bitcoin stabilizing after several risk-off sessions. Upbit ...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785644395,
+    "time_range_start": "2026-08-02 04:19:55",
+    "time_range_end": "2026-08-02 05:19:55"
+  }
+}
