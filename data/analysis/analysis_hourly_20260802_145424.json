@@ -1,0 +1,68 @@
+{
+  "timestamp": "20260802_145424",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785678864,
+    "time_range_start": "2026-08-02 13:54:24",
+    "time_range_end": "2026-08-02 14:54:24"
+  },
+  "total_articles": 13,
+  "unique_sources": 8,
+  "unique_categories": 18,
+  "unique_tags": 29,
+  "body_stats": {
+    "avg_length": 2519.92,
+    "min_length": 74,
+    "max_length": 18845
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-02 13:55:28",
+    "newest": "2026-08-02 14:46:58",
+    "time_span_minutes": 51.5
+  },
+  "top_sources": {
+    "CoinTurk News": 3,
+    "Crypto Potato": 3,
+    "U.Today": 2,
+    "Bitcoin.com": 1,
+    "Cryptopolitan": 1,
+    "coinpedia": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 12,
+    "MARKET": 6,
+    "TRADING": 6,
+    "XRP": 4,
+    "BTC": 3,
+    "EXCHANGE": 3,
+    "BUSINESS": 2,
+    "ETH": 2,
+    "SPONSORED": 1,
+    "DIGITAL ASSET TREASURY": 1,
+    "MACROECONOMICS": 1,
+    "BLOCKCHAIN": 1,
+    "FORKS": 1,
+    "SHIB": 1,
+    "REGULATION": 1
+  },
+  "top_tags": {
+    "Crypto News": 3,
+    "News": 3,
+    "Ethereum (ETH)": 1,
+    "Featured": 1,
+    "bitcoin treasuries": 1,
+    "michael saylor": 1,
+    "Strategy": 1,
+    "ETH Analysis": 1,
+    "Ethereum (ETH) Price": 1,
+    "Ripple (XRP)": 1,
+    "Crypto Price Predictions": 1,
+    "Pi Network": 1,
+    "XRP Analysis": 1,
+    "Ripple (XRP) Price": 1,
+    "Shiba Inu (SHIB) News": 1
+  }
+}
