@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260802_185643",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785693403,
+    "time_range_start": "2026-08-02 17:56:43",
+    "time_range_end": "2026-08-02 18:56:43"
+  },
+  "total_articles": 11,
+  "unique_sources": 8,
+  "unique_categories": 14,
+  "unique_tags": 34,
+  "body_stats": {
+    "avg_length": 969.73,
+    "min_length": 113,
+    "max_length": 3530
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-02 18:00:12",
+    "newest": "2026-08-02 18:52:38",
+    "time_span_minutes": 52.43
+  },
+  "top_sources": {
+    "CoinTurk News": 3,
+    "Crypto Potato": 2,
+    "CoinDesk": 1,
+    "CoinOtag": 1,
+    "Bitcoin.com": 1,
+    "Forbes Digital Assets": 1,
+    "TimesTabloid": 1,
+    "AMB Crypto": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 8,
+    "TRADING": 6,
+    "BTC": 4,
+    "MARKET": 4,
+    "REGULATION": 2,
+    "XRP": 2,
+    "SOL": 2,
+    "DIGITAL ASSET TREASURY": 1,
+    "APT": 1,
+    "BUSINESS": 1,
+    "ETH": 1,
+    "SPONSORED": 1,
+    "OTHER": 1,
+    "ALTCOIN": 1
+  },
+  "top_tags": {
+    "Crypto News": 3,
+    "News": 3,
+    "Bitcoin (BTC) Price": 2,
+    "Donald Trump": 2,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "Crypto Bits": 1,
+    "Aptos": 1,
+    "social": 1,
+    "SocialFB": 1,
+    "Top News": 1,
+    "Bitcoin ETF": 1,
+    "Ethereum (ETH) Price": 1,
+    "Ethereum ETF": 1,
+    "Policy": 1
+  }
+}
