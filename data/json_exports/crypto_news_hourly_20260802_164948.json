@@ -1,0 +1,152 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67741923",
+      "guid": "https://coinpaper.com/33809/evernorth-coo-says-japans-xrp-future-hinges-on-solving-a-chicken-and-egg-dilemma",
+      "published_on": 1785688335,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Evernorth COO Says Japan's XRP Future Hinges on Solving a Chicken-and-Egg Dilemma",
+      "url": "https://coinpaper.com/33809/evernorth-coo-says-japans-xrp-future-hinges-on-solving-a-chicken-and-egg-dilemma",
+      "body": "Evernorth COO: Japan's XRP 'Chicken-and-Egg' Dilemma Could End as Tokenization Accelerates Japanese financial institutions remain optimistic about XRP's long-term potential, but adoption continues to be held back by what Evernorth Chief Operating Officer Meg Nakamura describes as a classic chicken-and-egg dilemma. Speaking at WebX Asia 2026 in Tokyo, Nakamura said many banks and financial firms recognize the value of blockchain-powered finance , yet few are prepared to be the first to make significant investments without seeing broader institutional participation. According to Nakamura, the hesitation stems from a self-reinforcing cycle: institutions want proof that their peers have embraced XRP before committing capital, while widespread adoption cannot occur until more players take that initial leap. As a result, many firms remain in a wait-and-see mode, closely monitoring the market instead of leading it. She noted that this cautious stance aligns with Japan's financial culture, where regulatory compliance, operational resilience, and long-term risk management often outweigh the desire to be first movers. Rather than rushing into blockchain adoption, institutions are prioritizing pilot programs, strategic collaborations, and limited deployments to validate the technology before expanding its use. Although XRP remains central to these discussions , Nakamura believes the industry's attention is shifting beyond digital payments. While stablecoins have dominated recent conversations by improving payment efficiency and cross-border settlement, she argued that tokenization is poised to become blockchain's defining use case. Unlike stablecoins, which primarily facilitate value transfer, tokenization enables real-world assets, including government bonds, equities, real estate, private credit, commodities, and investment funds, to exist as digital assets on blockchain networks. This has the potential to streamline settlement, reduce operational costs, unlock liquidity, enable fractional ownership, and make previously inaccessible assets available to a broader pool of investors. Evernorth COO Says Tokenization and Regulation Could Unlock XRP's Institutional Future For financial institutions, tokenization is increasingly seen as the next evolution of capital markets rather than simply another cryptocurrency application. As adoption grows, blockchain infrastructure such as the XRP Ledger is expected to play an increasingly important role in issuing, transferring, and settling tokenized assets at institutional scale. Nakamura also emphasized that regulatory clarity is becoming a catalyst, not a constraint, for innovation. Clear legal frameworks give financial institutions the confidence to develop blockchain-based products while meeting compliance requirements, significantly lowering barriers to adoption. Japan is particularly well positioned to capitalize on this shift, having established one of the world's most comprehensive digital asset regulatory environments. As regulations continue to mature and tokenization gains traction, Nakamura believes today's hesitation toward XRP could gradually fade, paving the way for broader institutional adoption and a new phase of blockchain-driven financial innovation.",
+      "tags": "News|Ripple",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BLOCKCHAIN|MARKET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67741130",
+      "guid": "https://en.coin-turk.com/?p=240849",
+      "published_on": 1785687659,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67741130.jpeg",
+      "title": "Strategy clarifies Bitcoin policy, expects to remain a net buyer",
+      "url": "https://en.coin-turk.com/strategy-clarifies-bitcoin-policy-expects-to-remain-a-net-buyer/?utm_source=rss&utm_medium=rss&utm_campaign=strategy-clarifies-bitcoin-policy-expects-to-remain-a-net-buyer",
+      "body": "🟠 Michael Saylor confirmed Strategy never promised a “never sell” policy for $BTC. 🟠 The company sold Bitcoin for liquidity needs but aims to keep accumulating more. 🟠 Strategy holds 843,775 Bitcoin, the largest corporate stash worldwide. 🟠 📈 Saylor reiterated that limited sales would not signal a shift from its long-term strategy. Continue Reading: Strategy clarifies Bitcoin policy, expects to remain a net buyer The post Strategy clarifies Bitcoin policy, expects to remain a net buyer appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67740194",
+      "guid": "https://news.bitcoin.com/?p=836107",
+      "published_on": 1785686756,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67740194.jpeg",
+      "title": "Stablecoin Supply Sheds $15 Billion in Biggest Drop Since Terra",
+      "url": "https://news.bitcoin.com/stablecoins/stablecoin-supply-sheds-15-billion-in-biggest-drop-since-terra/",
+      "body": "The stablecoin market cracked this summer, shedding roughly $14.56 billion after new federal rules wiped out interest payments on digital dollars. Moves like this tend to flush out yield-driven capital first, leaving traders scrambling to reposition. Data collected by defillama.com over the past seven days shows the stablecoin sector bled another $2.767 billion. Total stablecoin",
+      "tags": "Stablecoins|GENIUS Act|Stablecoin|Tether (USDT)|tokenization|USDC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67740208",
+      "guid": "https://coinpaper.com/33806/ripple-executive-reveals-why-july-was-momentous-for-rlusd-with-a-beehive-of-activity-being-the-order-of-the-day",
+      "published_on": 1785686658,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Ripple Executive Reveals Why July Was Momentous for RLUSD with a BeeHive of Activity Being the Order of the Day",
+      "url": "https://coinpaper.com/33806/ripple-executive-reveals-why-july-was-momentous-for-rlusd-with-a-beehive-of-activity-being-the-order-of-the-day",
+      "body": "Ripple's RLUSD Records Landmark July With Ripple Mint, AI Payments, and Major Exchange Listings Ripple's dollar-backed stablecoin, RLUSD , delivered one of its strongest months to date, marked by major product launches, strategic partnerships, new exchange listings, and growing institutional adoption. Ripple's Senior Vice President of Stablecoins, Jack McDonald, described July as a busy month for the RLUSD, underscoring the rapid momentum behind RLUSD as it continues to expand across enterprise finance and blockchain-powered payments. A key highlight was the launch of Ripple Mint , a unified platform that enables institutions to mint, redeem, manage, and access RLUSD through a single dashboard or API. Built for banks, payment providers, fintechs, and corporate treasury teams, the platform simplifies stablecoin issuance, liquidity management, and treasury operations, making enterprise adoption more seamless. Ripple also strengthened RLUSD's institutional footprint through its investment in Notabene, with plans to integrate the stablecoin into Notabene's B2B payments network, which processes more than $2 trillion in annualized transaction volume. Well, the integration is expected to give financial institutions and payment providers a compliant, blockchain-based settlement option for cross-border payments at scale. RLUSD Expands Across Exchanges, AI Payments, and Institutional Finance Enterprise utility expanded further as Nuvion integrated RLUSD into its global banking and cross-border payments platform. The move allows businesses to transition seamlessly between traditional banking infrastructure and blockchain payment rails while improving settlement speed, liquidity, and treasury efficiency, reinforcing RLUSD's role as an enterprise-grade settlement asset. RLUSD also broadened its global availability with listings on Mobee, Korbit, Upbit Global, and Bithumb, significantly increasing access for users, particularly in South Korea, one of the world's most active digital asset markets. Greater exchange availability is expected to strengthen both liquidity and adoption. Beyond traditional finance, Ripple advanced RLUSD's role in the emerging AI economy by launching its AI Starter Kit, enabling x402-powered payments with XRP and RLUSD . The toolkit allows autonomous AI agents to pay for APIs, cloud computing, and other digital services, positioning RLUSD for the rapidly evolving machine-to-machine payments landscape. Meanwhile, Binance, Bybit, and OKX introduced new reward programs for RLUSD holders, encouraging broader participation and liquidity. Ripple also deepened its collaboration with BNY Mellon, which recently tested after-hours U.S. Treasury settlement backed by RLUSD reserves, highlighting the stablecoin's potential to support round-the-clock institutional financial markets. Why does this matter? Well, July's milestones demonstrate that RLUSD is rapidly evolving beyond a conventional dollar-backed stablecoin. Through enterprise infrastructure, institutional partnerships, AI-powered payments, and expanding global accessibility, Ripple is positioning RLUSD as a core settlement asset for the next generation of digital finance.",
+      "tags": "News|Ripple",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|REGULATION|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67740009",
+      "guid": "https://ambcrypto.com/?p=621537",
+      "published_on": 1785686430,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Humanity crypto gains 10% – Can a $4.24M whale transfer derail H’s rally?",
+      "url": "https://ambcrypto.com/humanity-crypto-gains-10-can-a-4-24m-whale-transfer-derail-hs-rally/",
+      "body": "Humanity holds firm after a $4.24 million Bybit transfer as bullish derivatives positioning offsets selling concerns.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|EXCHANGE|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67739944",
+      "guid": "27cbbc3d-7fc1-4566-93ce-aacf34189cf7",
+      "published_on": 1785686400,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67739944.jpeg",
+      "title": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
+      "url": "https://www.coindesk.com/tech/2026/08/02/the-future-of-crypto-payments-won-t-include-on-ramps-or-bridges-fun-ceo-says",
+      "body": "Alex Fine said standalone crypto payment rails are becoming obsolete as platforms shift toward unified funding flows that abstract away blockchain complexity for users.",
+      "tags": "Tech|Prediction Markets|Exclusive|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67739570",
+      "guid": "https://en.bitcoinsistemi.com/watch-out-entering-a-critical-week-numerous-economic-developments-and-altcoin-events-are-coming-up-h/",
+      "published_on": 1785685932,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67739570.jpeg",
+      "title": "Watch Out: Entering a Critical Week—Numerous Economic Developments and Altcoin Events Are Coming Up—Here’s the Day-by-Day, Hour-by-Hour Schedule",
+      "url": "https://en.bitcoinsistemi.com/watch-out-entering-a-critical-week-numerous-economic-developments-and-altcoin-events-are-coming-up-h/",
+      "body": "Bitcoin prices, which generally traded sideways throughout the past week, are poised to close the week 1.47% lower, driven by strengthening predictions that the Fed will raise interest rates, as well as developments such as a security vulnerability in the Coldcard hardware wallet that resulted in some users’ assets being stolen. On the other hand, numerous economic developments and altcoin events await cryptocurrency users in the new week. Here is the cryptocurrency calendar we have prepared for you at Bitcoinsistemi.com. (All times are given in UTC+3 Turkish time) Monday, August 3rd Upbit will delist AERGO and AQT. American Bitcoin will release its second-quarter financial report. The crypto wallet Ctrl Wallet will cease operations. The DeFi control panel Zapper will be completely shut down. Tuesday, August 4th Palantir will release its earnings report. SpaceX will release its earnings report. Bitcoin mining company Hut8 will release its second-quarter financial report. Binance will end support for the Sophon (SOPH) mainnet. Related News: 15 Altcoins See Explosive Trading Volume in South Korea Wednesday, August 5th AMD will release its earnings report. Circle will release its earnings report. Galaxy Digital will release its earnings report. 15:15 – US ADP Non-Farm Payrolls Change (Expected: 71k, Previous: 98k) Thursday, August 6 SpaceX (SPCX) is about to make a major key breakthrough. 15:30 – US Initial Jobless Claims (Expected: 205k, Previous: 197k) Related News: 15 Altcoins See Explosive Trading Volume in South Korea Friday, August 7 DataMEDS AI will distribute memecoin to its shareholders. Grayscale will be distributing staking rewards quarterly. 15:30 – US Average Hourly Earnings (Monthly Change) (Expected: 0.3%, Previous: 0.3%) 15:30 – US Non-Farm Payrolls Change (Expected: 88k, Previous: 57k) 15:30 – US Unemployment Rate (Expected: 4.2%, Previous: 4.2%) *This is not investment advice. Continue Reading: Watch Out: Entering a Critical Week—Numerous Economic Developments and Altcoin Events Are Coming Up—Here’s the Day-by-Day, Hour-by-Hour Schedule",
+      "tags": "Altcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|ASIA|BTC|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785685788,
+    "time_range_start": "2026-08-02 15:49:48",
+    "time_range_end": "2026-08-02 16:49:48"
+  }
+}
