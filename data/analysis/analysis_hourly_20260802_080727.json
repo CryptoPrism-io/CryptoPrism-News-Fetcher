@@ -1,0 +1,63 @@
+{
+  "timestamp": "20260802_080727",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785654447,
+    "time_range_start": "2026-08-02 07:07:27",
+    "time_range_end": "2026-08-02 08:07:27"
+  },
+  "total_articles": 6,
+  "unique_sources": 6,
+  "unique_categories": 12,
+  "unique_tags": 16,
+  "body_stats": {
+    "avg_length": 998.33,
+    "min_length": 112,
+    "max_length": 3954
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-02 07:23:02",
+    "newest": "2026-08-02 08:00:44",
+    "time_span_minutes": 37.7
+  },
+  "top_sources": {
+    "AMB Crypto": 1,
+    "TimesTabloid": 1,
+    "Bitcoin.com": 1,
+    "BitcoinSistemi": 1,
+    "CoinOtag": 1,
+    "U.Today": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 6,
+    "BTC": 3,
+    "AAVE": 1,
+    "MARKET": 1,
+    "TRADING": 1,
+    "BUSINESS": 1,
+    "FIAT": 1,
+    "REGULATION": 1,
+    "XRP": 1,
+    "MINING": 1,
+    "EXCHANGE": 1,
+    "BNB": 1
+  },
+  "top_tags": {
+    "News": 3,
+    "Analysis": 1,
+    "HideCryptopanic": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "Cryptocurrency": 1,
+    "CLARITY Act": 1,
+    "Elizabeth Warren": 1,
+    "L": 1,
+    "XRP": 1,
+    "Regulation & Legal": 1,
+    "mining": 1,
+    "Russia": 1,
+    "Bitcoin": 1,
+    "Crypto News": 1
+  }
+}

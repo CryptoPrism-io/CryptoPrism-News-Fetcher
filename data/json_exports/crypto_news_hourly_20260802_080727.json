@@ -1,0 +1,132 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67709574",
+      "guid": "https://ambcrypto.com/?p=621369",
+      "published_on": 1785657644,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Aave rejects $100 resistance, drops 11% – $88 support decides next move",
+      "url": "https://ambcrypto.com/aave-rejects-100-resistance-drops-11-88-support-decides-next-move/",
+      "body": "For most of July, AAVE had oscillated between $88 and $100, but the technical indicators now showed firm selling pressure.",
+      "tags": "Analysis|HideCryptopanic|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "AAVE|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67709562",
+      "guid": "https://timestabloid.com/?p=108489",
+      "published_on": 1785657640,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "CLARITY Act Update for XRP Holders: “Big Bank Beth Hates President Trump So Much…”",
+      "url": "https://timestabloid.com/clarity-act-update-for-xrp-holders-big-bank-beth-hates-president-trump-so-much/",
+      "body": "A Senate debate over crypto industry regulation is heating up. Senator Cynthia Lummis pushed back against a fact sheet released by Senator Elizabeth Warren’s office. The document, published by the Senate Banking Committee’s Minority Staff, criticized the Trump-Republican ethics legislative language released July 22 in the new draft of the bill . Lummis responded with a point-by-point rebuttal. The Stakes for the CLARITY Act The CLARITY Act remains stalled in Congress. Lummis has warned that failure to pass the bill before recess could push its fate to 2030 . The legislation aims to establish rules for the digital asset industry. Supporters argue consumers and law enforcement need a clear regulatory structure. Warren’s office argues the bill contains loopholes that benefit President Trump’s personal crypto holdings. Big Bank Beth @SenWarren hates President Trump so much that she’d rather have no rules of the road for the digital asset industry — leaving consumers vulnerable and law enforcement empty-handed — than take the win for consumers. Let’s get the facts straight on her “fact sheet”:… pic.twitter.com/3DZJ04gliw — Senator Cynthia Lummis (@SenLummis) July 31, 2026 Warren’s Critique The Senate Banking Committee’s Minority Staff fact sheet states Trump earned more than $1.4 billion from cryptocurrency ventures in 2025 alone. The document also claims the ethics provisions “do not restrict the primary ways Trump has raked in more than a billion dollars in crypto profits since he took office.” The Minority Staff argues enforcement is left solely to the Department of Justice. State attorneys general and private parties are “specifically barred from ever bringing an enforcement action.” The fact sheet also raises concerns about World Liberty Financial, noting Trump made $799 million from the platform according to his financial disclosures. The Minority Staff argues family members and Trump-affiliated entities could structure new ventures to avoid the bill’s restrictions. Lummis Responds Lummis rejected the characterization of the bill’s blind trust provisions. She cited 5 U.S.C. §13104(f)(3)(A) and 5 C.F.R. 2634.403, which bar a trustee from disclosing trust holdings to the official. She argued that restriction is “literally what makes a blind trust blind.” The image she attached to her post shows the relevant regulatory text confirming that communications between an independent trustee and interested parties are restricted, with even non-trust matters subject to the prohibition. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 On the $TRUMP memecoin , Lummis noted it launched before Trump took office. She argued the ethics ban applies to conduct during the presidency, not prior to it. On the question of adult children running World Liberty Financial, she stated federal ethics law has “never imputed financial interests from adult, independent children — only spouses and minor children.” What Comes Next? Both senators are building their cases before a potential recess deadline. Warren’s office focuses on enforcement gaps and existing revenue streams. Lummis believes the bill is ready , and argues that established law addresses the concerns Warren raises. The CLARITY Act’s timeline now depends on whether Congress acts before the break. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post CLARITY Act Update for XRP Holders: “Big Bank Beth Hates President Trump So Much…” appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|CLARITY Act|Elizabeth Warren|L|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|REGULATION|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67707577",
+      "guid": "https://news.bitcoin.com/?p=835920",
+      "published_on": 1785655801,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67707577.jpeg",
+      "title": "Moscow Bitcoin Mining Ban Hits Data Centers Until 2032",
+      "url": "https://news.bitcoin.com/regulation-and-legal/moscow-bitcoin-mining-ban-hits-data-centers-until-2032/",
+      "body": "The government of Russia has included the city of Moscow and other regions in a 2024 decree banning cryptocurrency mining activities from August 15 to December 31, 2032. The amendment also includes the Moscow region and some territories of the Kursk region. Russia Expands Cryptocurrency Ban Decree Reach, Includes Moscow and Moscow Region The Government",
+      "tags": "Regulation & Legal|mining|Russia",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MINING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67707586",
+      "guid": "https://en.bitcoinsistemi.com/michael-saylor-we-never-said-we-d-never-sell-bitcoin/",
+      "published_on": 1785655746,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67707586.jpeg",
+      "title": "Michael Saylor: “We Never Said We’d Never Sell Bitcoin”",
+      "url": "https://en.bitcoinsistemi.com/michael-saylor-we-never-said-we-d-never-sell-bitcoin/",
+      "body": "Strategy Chairman Michael Saylor said the company had never made a commitment to never sell its Bitcoins, but expected to remain a net Bitcoin buyer in the long term. Saylor’s statement came after reports that Strategy had received new authorization allowing it to sell up to $5 billion worth of Bitcoin. Responding to these claims, Saylor stated that the sales authorization was not new and had been announced on June 29th as part of the company’s capital management framework. Saylor stated, “Old news is being presented as new. Strategy announced this authorization on June 29th as part of its capital management framework. This arrangement permits the sale of BTC for the stated purposes but does not compel the company to sell. No new authorization has been announced, and we expect to continue to be a net Bitcoin buyer over time.” Related News: Michael Saylor Announced That the Bitcoin Update He Opposed Is Now Impossible to Pass Saylor stated that Strategy’s Bitcoin monetization program does not require the company to sell its BTC holdings, and noted that the company has never officially adopted a “BTC will never be sold” policy. *This is not investment advice. Continue Reading: Michael Saylor: “We Never Said We’d Never Sell Bitcoin”",
+      "tags": "Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "67708302",
+      "guid": "https://en.coinotag.com/bitcoin-faces-7-billion-binance-stablecoin-outflows",
+      "published_on": 1785655742,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67708302.jpeg",
+      "title": "Bitcoin (BTC) Faces $7 Billion Binance Stablecoin Outflows",
+      "url": "https://en.coinotag.com/bitcoin-faces-7-billion-binance-stablecoin-outflows",
+      "body": "Bitcoin News Bitcoin (BTC) is facing a liquidity test after on-chain data reviewed by COINOTAG as of Aug. 1 showed nearly $7 billion of net stablecoin outflows from Binance so far in 2026, raising ...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67707351",
+      "guid": "https://u.today/no-way-to-secure-crypto-top-analyst-says",
+      "published_on": 1785655382,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67707351.jpeg",
+      "title": "'No Way to Secure Crypto,' Top Analyst Says",
+      "url": "https://u.today/no-way-to-secure-crypto-top-analyst-says",
+      "body": "BlockTower Capital founder Ari Paul says that the incident shows that \"there is simply no way to secure crypto.\"",
+      "tags": "Cryptocurrency Hack",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785654447,
+    "time_range_start": "2026-08-02 07:07:27",
+    "time_range_end": "2026-08-02 08:07:27"
+  }
+}
