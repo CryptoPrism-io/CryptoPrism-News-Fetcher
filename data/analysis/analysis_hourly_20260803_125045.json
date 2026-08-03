@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260803_125045",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785757845,
+    "time_range_start": "2026-08-03 11:50:45",
+    "time_range_end": "2026-08-03 12:50:45"
+  },
+  "total_articles": 28,
+  "unique_sources": 17,
+  "unique_categories": 19,
+  "unique_tags": 37,
+  "body_stats": {
+    "avg_length": 901.07,
+    "min_length": 75,
+    "max_length": 4346
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 11:51:45",
+    "newest": "2026-08-03 12:44:29",
+    "time_span_minutes": 52.73
+  },
+  "top_sources": {
+    "Coinpaper": 4,
+    "Cointelegraph": 3,
+    "CoinTurk News": 3,
+    "AMB Crypto": 2,
+    "CoinOtag": 2,
+    "CoinDesk": 2,
+    "coinpedia": 2,
+    "Decrypt": 1,
+    "Seeking Alpha": 1,
+    "BitcoinSistemi": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 19,
+    "BTC": 11,
+    "BUSINESS": 9,
+    "TRADING": 8,
+    "MACROECONOMICS": 7,
+    "FIAT": 6,
+    "MARKET": 6,
+    "XRP": 6,
+    "REGULATION": 4,
+    "EXCHANGE": 3,
+    "WALLET": 3,
+    "ASIA": 3,
+    "OTHER": 2,
+    "ETH": 2,
+    "ALTCOIN": 2
+  },
+  "top_tags": {
+    "News": 10,
+    "Crypto News": 4,
+    "Business": 3,
+    "Bitcoin": 3,
+    "Latest News": 3,
+    "Ripple (XRP)": 3,
+    "Social": 2,
+    "Trading View": 2,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "Cryptocurrency": 2,
+    "": 1,
+    "CRCL": 1,
+    "USDC-USD": 1,
+    "Analysis": 1
+  }
+}
