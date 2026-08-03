@@ -1,0 +1,58 @@
+{
+  "timestamp": "20260803_015750",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785718670,
+    "time_range_start": "2026-08-03 00:57:50",
+    "time_range_end": "2026-08-03 01:57:50"
+  },
+  "total_articles": 6,
+  "unique_sources": 4,
+  "unique_categories": 10,
+  "unique_tags": 14,
+  "body_stats": {
+    "avg_length": 1757.17,
+    "min_length": 113,
+    "max_length": 5937
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 01:00:12",
+    "newest": "2026-08-03 01:42:48",
+    "time_span_minutes": 42.6
+  },
+  "top_sources": {
+    "CoinOtag": 2,
+    "TimesTabloid": 2,
+    "Bitcoin.com": 1,
+    "AMB Crypto": 1
+  },
+  "top_categories": {
+    "MARKET": 6,
+    "CRYPTOCURRENCY": 5,
+    "BUSINESS": 3,
+    "XRP": 2,
+    "REGULATION": 2,
+    "ALTCOIN": 1,
+    "BTC": 1,
+    "MINING": 1,
+    "ADA": 1,
+    "TRADING": 1
+  },
+  "top_tags": {
+    "Crypto News": 2,
+    "News": 2,
+    "Regulation & Legal": 1,
+    "CLARITY Act": 1,
+    "Donald Trump": 1,
+    "senator": 1,
+    "Press Release": 1,
+    "Analysis": 1,
+    "HideCryptopanic": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "ambcrypto": 1,
+    "Artificial Intelligence (AI)": 1,
+    "AI": 1
+  }
+}
