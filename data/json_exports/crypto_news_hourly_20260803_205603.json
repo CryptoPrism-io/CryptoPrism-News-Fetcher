@@ -1,0 +1,292 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67844134",
+      "guid": "https://en.bitcoinsistemi.com/a-signal-seen-once-a-year-in-bitcoin-the-calm-before-the-storm/",
+      "published_on": 1785790146,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67844134.jpeg",
+      "title": "A Signal Seen Once a Year in Bitcoin: “The Calm Before the Storm…”",
+      "url": "https://en.bitcoinsistemi.com/a-signal-seen-once-a-year-in-bitcoin-the-calm-before-the-storm/",
+      "body": "Crypto analyst Luke Martin noted that Bitcoin’s volatility over the past 30 days has fallen below that of technology stocks, indicating a rare signal in the market. According to Martin, Bitcoin’s realized volatility falling below that of the QQQ fund, which tracks the Nasdaq 100, stands out as a development seen only once or twice a year. The analyst stated that Bitcoin has remained unusually calm during a period when other assets have exhibited similarly sharp movements to the cryptocurrency market. According to shared historical data, Bitcoin rose by an average of 20.58% over a seven-day period following 12 instances where this signal emerged. The average 30-day return after the signal was 141.81%, showing that Bitcoin gained value in all 12 instances examined. Related News: BREAKING: Michael Saylor Comments on Today's Bitcoin Sale - “I Said I Would Never Sell Any of My 'Personal' Bitcoins” Looking at longer-term data, the 60-day average return was recorded at 359.72%, and the success rate at 91.67%. In the 90-day period following the signal, all 11 events examined showed an increase, with an average return of 635.94%. In the 180-day period, all 10 events resulted in a positive outcome, with an average return of 731.96%. Martin argued that similar periods in the past have favored Bitcoin bulls, describing the current low volatility as “the calm before the storm.” However, it should be remembered that past performance does not guarantee future price movements and high ratios are based on a limited number of historical observations. *This is not investment advice. Continue Reading: A Signal Seen Once a Year in Bitcoin: “The Calm Before the Storm…”",
+      "tags": "Analysis|Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TECHNOLOGY|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "67843880",
+      "guid": "content_6a70f570b795b1c9f35ebfe0",
+      "published_on": 1785790093,
+      "imageurl": "https://resources.cryptocompare.com/news/94/67843880.jpeg",
+      "title": "Bitcoin Prices Rally In Spite Of $116 Million Coldcard Hack",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/08/03/bitcoin-prices-rally-in-spite-of-116-million-coldcard-hack/",
+      "body": "Bitcoin prices climbed on Monday, August 3, even as headlines were dominated by a hack that resulted in the loss of over $100 million’ worth of the digital currency.",
+      "tags": "Forbes Digital Assets|/digital-assets|Forbes Digital Assets|/digital-assets|standard",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Forbes Digital Assets",
+        "img": "https://resources.cryptocompare.com/news/94/default.png",
+        "lang": "EN"
+      },
+      "source": "forbes"
+    },
+    {
+      "id": "67843924",
+      "guid": "https://zycrypto.com/?p=118557",
+      "published_on": 1785789982,
+      "imageurl": "https://images.cryptocompare.com/news/default/zycrypto.png",
+      "title": "Analyst Sees XRP Entering a High-Impact Zone With 1,200% Upside Potential",
+      "url": "https://zycrypto.com/analyst-sees-xrp-entering-a-high-impact-zone-with-1200-upside-potential/",
+      "body": "XRP traded relatively firmly on Monday after posting a strong rally over the past week, a move that has once again put the token in focus among technical analysts.",
+      "tags": "Cryptocurrency|News|Cryptocurrency News|Ripple|XRP News|XRPUSD|XRPUSDT",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "ZyCrypto",
+        "img": "https://images.cryptocompare.com/news/default/zycrypto.png",
+        "lang": "EN"
+      },
+      "source": "zycrypto"
+    },
+    {
+      "id": "67843599",
+      "guid": "https://news.bitcoin.com/?p=836547",
+      "published_on": 1785789614,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67843599.jpeg",
+      "title": "Michael Saylor Says He’s Never Sold Bitcoin, Not One Satoshi",
+      "url": "https://news.bitcoin.com/featured/michael-saylor-says-hes-never-sold-bitcoin-not-one-satoshi/",
+      "body": "Michael Saylor says he has never sold any personally held bitcoin, separating his own holdings from Strategy’s corporate treasury. His statement followed the company’s third BTC sale of 2026, which left Strategy holding 842,138 bitcoin. Saylor Responds After Strategy’s Latest Bitcoin Sale Strategy Inc. (Nasdaq: MSTR) Executive Chairman Michael Saylor declared Aug. 3 that he",
+      "tags": "Featured|bitcoin treasuries|michael saylor|Strategy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|SPONSORED|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67843598",
+      "guid": "https://decrypt.co/?p=374868",
+      "published_on": 1785789573,
+      "imageurl": "https://resources.cryptocompare.com/news/44/67843598.jpeg",
+      "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
+      "url": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
+      "body": "Air-gapped wallets keep private keys completely offline, reducing exposure to hackers—but they're not immune from threats.",
+      "tags": "|Technology",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TECHNOLOGY|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "67843457",
+      "guid": "https://ambcrypto.com/?p=621908",
+      "published_on": 1785789497,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Bitcoin Cash price stalls near $214 despite Cash 3.0 payments push",
+      "url": "https://ambcrypto.com/bitcoin-cash-price-stalls-near-214-despite-cash-3-0-payments-push/",
+      "body": "Bitcoin Cash attracted fresh attention after new payment demonstrations at Cash 3.0. BCH remains range-bound as volume and trend strength stay weak.",
+      "tags": "Bitcoin Cash|News|News 1|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BCH|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67843250",
+      "guid": "https://en.coin-turk.com/?p=241016",
+      "published_on": 1785789420,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67843250.jpeg",
+      "title": "Giancarlo says Dodd-Frank gave Washington power over capital flows, warns crypto threatens it",
+      "url": "https://en.coin-turk.com/giancarlo-says-dodd-frank-gave-washington-power-over-capital-flows-warns-crypto-threatens-it/?utm_source=rss&utm_medium=rss&utm_campaign=giancarlo-says-dodd-frank-gave-washington-power-over-capital-flows-warns-crypto-threatens-it",
+      "body": "🇺🇸 Former CFTC Chair Giancarlo claims Dodd-Frank gave Washington unprecedented power over capital flows. 🔥 Crypto threatens this control by shifting allocation decisions to algorithms, not politicians. ⚡ The CLARITY Act, seen as a solution for regulatory ambiguity in $XRP, now faces delays in the Senate. 📅 Ongoing resistance could push comprehensive crypto legislation as far as 2030. Continue Reading: Giancarlo says Dodd-Frank gave Washington power over capital flows, warns crypto threatens it The post Giancarlo says Dodd-Frank gave Washington power over capital flows, warns crypto threatens it appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67843378",
+      "guid": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report",
+      "published_on": 1785788987,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67843378.jpeg",
+      "title": "Bessent’s top crypto adviser Tyler Williams exits US Treasury: Report",
+      "url": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "A key architect of the Trump administration’s digital asset agenda is leaving the Treasury Department as Congress struggles to advance landmark crypto legislation.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67843163",
+      "guid": "https://en.coinotag.com/ethereum-eth-hosts-blackrock-tokenized-cash-fund-3m-minimum",
+      "published_on": 1785788587,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67843163.jpeg",
+      "title": "Ethereum (ETH) Hosts BlackRock Tokenized Cash Fund With $3M Minimum",
+      "url": "https://en.coinotag.com/ethereum-eth-hosts-blackrock-tokenized-cash-fund-3m-minimum",
+      "body": "Ethereum News BlackRock has launched a tokenized money-market vehicle that records ownership on Ethereum (ETH), extending the world’s largest asset manager’s regulated cash products onto public blo...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67842692",
+      "guid": "https://cryptopotato.com/?p=1444632",
+      "published_on": 1785788412,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67842692.jpeg",
+      "title": "Shiba Inu Turns 6: Here’s How Many SHIB Tokens Were Burned in July",
+      "url": "https://cryptopotato.com/shiba-inu-turns-6-heres-how-many-shib-tokens-were-burned-in-july/",
+      "body": "The SHIB team and community have scorched billions of tokens in the past month. The resurgence of the burning program has coincided with the positive performance of the self-proclaimed Dogecoin killer, whose price has jumped by 10% within that period. Big Burn, But There’s a Catch The X account Shibburn revealed that over 3.2 billion SHIB have been transferred to a null address in July, permanently removing them from circulation. This represents a major 1,395% increase from the June figure. The July number may seem substantial, but its USD equivalent is less than $17,000. It’s also important to note that the major burns occurred only during a handful of days toward the end of the month, while during the remaining days there wasn’t much action on that front. On July 27, for instance, the team and community scorched almost 1.3 billion tokens, nearly 40% of the total amount. The core purpose of SHIB’s burning mechanism is to reduce the token’s supply and make SHIB more valuable via scarcity. But with more than 585 trillion coins in circulation, the remaining amount is enormous, meaning the team and community should up their game to trigger a rally. Meanwhile, the meme coin has posted a 10% increase over the last 30 days, potentially propelled by the rising burn rate and certain whale activity, which CryptoPotato reported on. Happy Birthday, Shiba Inu On August 1, the meme coin project celebrated its sixth anniversary. The SHIB Army expected an ecosystem update or a major announcement on that day, but instead the team simply outlined the rise from “zero to a global movement” and said that “the experiment continues.” Many X users congratulated Shiba Inu for its birthday, yet others voiced clear disappointment over the lack of meaningful progress lately, as well as the massive price collapse the native token has suffered over the past years. The post Shiba Inu Turns 6: Here’s How Many SHIB Tokens Were Burned in July appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Shiba Inu (SHIB)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "DOGE|SHIB|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67841339",
+      "guid": "https://news.bitcoin.com/?p=836455",
+      "published_on": 1785787273,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67841339.jpeg",
+      "title": "Prediction Markets Explode in July as World Cup Fueled $54B in Trades",
+      "url": "https://news.bitcoin.com/featured/prediction-markets-explode-in-july-as-world-cup-fueled-54b-in-trades/",
+      "body": "The 2026 FIFA World Cup pushed prediction markets into one of the fastest-growing corners of finance, driving record trading volume, fees, transactions, and open interest as millions of traders flocked to platforms to wager on match outcomes and tournament milestones. Prediction markets allow people to buy and sell contracts tied to the outcome of future",
+      "tags": "Featured|Kalshi|Polymarket|Prediction markets|World Cup",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SPONSORED|TRADING",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67841226",
+      "guid": "https://timestabloid.com/?p=108561",
+      "published_on": 1785787225,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Update for XRP Holders: Ex-CFTC Chair Reveals Why Some In Washington Fight Crypto",
+      "url": "https://timestabloid.com/update-for-xrp-holders-ex-cftc-chair-reveals-why-some-in-washington-fight-crypto/",
+      "body": "Washington’s resistance to crypto has never been fully explained by risk or consumer protection alone. Former CFTC Chairman Chris Giancarlo offered a more candid explanation in a recent video shared by crypto commentator BankXRP (@BankXRP). His argument cuts to something rarely stated plainly in regulatory circles. Dodd-Frank, Giancarlo said, gave Washington something it had never formally held before: a political role in how capital moves through the economy. “The allocation of capital is going to have a politically driven component to it,” he said. That shift gave regulators like Senator Elizabeth Warren significant institutional leverage. Crypto threatens to dismantle it entirely. Former CFTC Chairman Chris Giancarlo just made a bold claim about WHY some in Washington fight crypto so hard His argument: Dodd-Frank gave Washington a political say in how capital gets allocated. Crypto removes that entirely just algorithms, no political filter. He says… https://t.co/JWusgOceKy pic.twitter.com/yZPUHVgRAp — 𝗕𝗮𝗻𝗸XRP (@BankXRP) August 2, 2026 Algorithms Over Politics Giancarlo argues that crypto bypasses both Wall Street and Washington, removing their role as gatekeepers over where capital flows. “If we get the algorithms right, the algorithms aren’t going to recognize somebody’s skin color or their other differentials.” In that system, capital flows by market logic rather than political priority. That is precisely what makes crypto a threat to those who built authority around Dodd-Frank’s framework. Giancarlo named Warren specifically, describing her as someone who “strived to use Dodd-Frank to get in a position of power for the allocation of capital.” Warren’s opposition to crypto , in his reading, is institutional self-preservation. The CLARITY Act and What It Changes This political backdrop explains much of what has unfolded around the CLARITY Act. The bill passed the House in July 2025 with strong bipartisan support. The Senate Banking Committee advanced it in May . But the Senate floor has remained out of reach. Congress heads into summer recess on August 8. Senate Majority Leader John Thune has acknowledged the bill will likely miss that window. Analysts consider this a serious setback for 2026 passage, and Senator Lummis has suggested that missing this window could push crypto legislation to 2030 . We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Giancarlo’s comments suggest the resistance also has a structural dimension. Passing the CLARITY Act means accepting a regulatory architecture that reduces political discretion over digital assets. For some in Washington, that is a difficult concession. XRP’s Position XRP benefits directly from clarity legislation. As one of the most legally scrutinized digital assets in the U.S., XRP operated under regulatory ambiguity for years before securing clarity through the courts . A functional framework dividing oversight between the SEC and CFTC would give XRP and its institutional users more defined ground to operate on. The CLARITY Act creates that structure. And with Giancarlo’s comments now circulating widely, the political resistance to the bill has a clearer explanation. Capital allocation that operates outside political influence is exactly what the bill’s supporters, and XRP’s ecosystem, have been pushing toward. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Update for XRP Holders: Ex-CFTC Chair Reveals Why Some In Washington Fight Crypto appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|CFTC|CLARITY Act|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67841218",
+      "guid": "https://ambcrypto.com/?p=621722",
+      "published_on": 1785787216,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Arthur Hayes buys 6M Ethena as more whales position: Can ENA break $0.09?",
+      "url": "https://ambcrypto.com/arthur-hayes-buys-6m-ethena-as-more-whales-position-can-ena-break-0-09/",
+      "body": "Here's why whale positioning may not fuel Ethena's price higher.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING|ENA|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67841791",
+      "guid": "https://u.today/legendary-trader-brandt-on-bitcoin-bull-market-not-urgent",
+      "published_on": 1785787181,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67841791.jpeg",
+      "title": "Legendary Trader Brandt on Bitcoin: Bull Market 'Not Urgent'",
+      "url": "https://u.today/legendary-trader-brandt-on-bitcoin-bull-market-not-urgent",
+      "body": "Veteran trader Peter Brandt has poured cold water on hopes of an imminent Bitcoin rally, saying current chart patterns provide no indication that a new bull market is close despite ongoing optimism among some market participants.",
+      "tags": "Bitcoin Price Prediction|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785786963,
+    "time_range_start": "2026-08-03 19:56:03",
+    "time_range_end": "2026-08-03 20:56:03"
+  }
+}

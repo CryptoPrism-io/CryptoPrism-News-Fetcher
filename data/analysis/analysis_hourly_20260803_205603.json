@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260803_205603",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785786963,
+    "time_range_start": "2026-08-03 19:56:03",
+    "time_range_end": "2026-08-03 20:56:03"
+  },
+  "total_articles": 14,
+  "unique_sources": 12,
+  "unique_categories": 18,
+  "unique_tags": 37,
+  "body_stats": {
+    "avg_length": 732.57,
+    "min_length": 64,
+    "max_length": 3984
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 19:59:41",
+    "newest": "2026-08-03 20:49:06",
+    "time_span_minutes": 49.42
+  },
+  "top_sources": {
+    "Bitcoin.com": 2,
+    "AMB Crypto": 2,
+    "BitcoinSistemi": 1,
+    "Forbes Digital Assets": 1,
+    "ZyCrypto": 1,
+    "Decrypt": 1,
+    "CoinTurk News": 1,
+    "Cointelegraph": 1,
+    "CoinOtag": 1,
+    "Crypto Potato": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 13,
+    "TRADING": 8,
+    "BTC": 5,
+    "MARKET": 5,
+    "XRP": 3,
+    "REGULATION": 3,
+    "TECHNOLOGY": 2,
+    "SECURITY INCIDENTS": 2,
+    "SPONSORED": 2,
+    "MACROECONOMICS": 2,
+    "DIGITAL ASSET TREASURY": 1,
+    "BCH": 1,
+    "ETH": 1,
+    "DOGE": 1,
+    "SHIB": 1
+  },
+  "top_tags": {
+    "News": 5,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "Cryptocurrency": 2,
+    "Featured": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Crypto News": 2,
+    "Analysis": 1,
+    "Bitcoin": 1,
+    "standard": 1,
+    "Cryptocurrency News": 1,
+    "Ripple": 1,
+    "XRP News": 1,
+    "XRPUSD": 1
+  }
+}
