@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260803_054035",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785732035,
+    "time_range_start": "2026-08-03 04:40:35",
+    "time_range_end": "2026-08-03 05:40:35"
+  },
+  "total_articles": 9,
+  "unique_sources": 7,
+  "unique_categories": 16,
+  "unique_tags": 19,
+  "body_stats": {
+    "avg_length": 1240.89,
+    "min_length": 178,
+    "max_length": 4101
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 04:43:24",
+    "newest": "2026-08-03 05:35:47",
+    "time_span_minutes": 52.38
+  },
+  "top_sources": {
+    "CoinOtag": 3,
+    "Coinpaper": 1,
+    "Bitcoin.com": 1,
+    "CoinDesk": 1,
+    "coinpedia": 1,
+    "Bitcoinist": 1,
+    "Crypto Potato": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 8,
+    "BTC": 5,
+    "BUSINESS": 4,
+    "MARKET": 4,
+    "ASIA": 2,
+    "TECHNOLOGY": 1,
+    "ETH": 1,
+    "RESEARCH": 1,
+    "SECURITY INCIDENTS": 1,
+    "REGULATION": 1,
+    "BNB": 1,
+    "ALTCOIN": 1,
+    "BLOCKCHAIN": 1,
+    "WALLET": 1,
+    "XRP": 1
+  },
+  "top_tags": {
+    "Crypto News": 5,
+    "News": 3,
+    "Business": 1,
+    "Security": 1,
+    "Bitcoin (BTC)": 1,
+    "Hardware wallet": 1,
+    "Markets": 1,
+    "Bitcoin News": 1,
+    "Technical Analysis": 1,
+    "Altcoins": 1,
+    "market": 1,
+    "XRP": 1,
+    "XRPL": 1,
+    "social": 1,
+    "SocialFB": 1
+  }
+}
