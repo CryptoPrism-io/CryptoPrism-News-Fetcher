@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260803_192027",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785781227,
+    "time_range_start": "2026-08-03 18:20:27",
+    "time_range_end": "2026-08-03 19:20:27"
+  },
+  "total_articles": 12,
+  "unique_sources": 9,
+  "unique_categories": 15,
+  "unique_tags": 30,
+  "body_stats": {
+    "avg_length": 1524.33,
+    "min_length": 144,
+    "max_length": 4418
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 18:32:34",
+    "newest": "2026-08-03 19:12:10",
+    "time_span_minutes": 39.6
+  },
+  "top_sources": {
+    "Crypto Potato": 3,
+    "Bitcoin.com": 2,
+    "CoinTurk News": 1,
+    "AMB Crypto": 1,
+    "Cryptopolitan": 1,
+    "TimesTabloid": 1,
+    "Forbes Digital Assets": 1,
+    "BitcoinSistemi": 1,
+    "CoinOtag": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 10,
+    "BTC": 8,
+    "BUSINESS": 5,
+    "MARKET": 5,
+    "TRADING": 4,
+    "REGULATION": 4,
+    "DIGITAL ASSET TREASURY": 3,
+    "FIAT": 2,
+    "MACROECONOMICS": 2,
+    "BNB": 1,
+    "MINING": 1,
+    "XRP": 1,
+    "OTHER": 1,
+    "SECURITY INCIDENTS": 1,
+    "TECHNOLOGY": 1
+  },
+  "top_tags": {
+    "Crypto News": 5,
+    "News": 4,
+    "Bitcoin": 3,
+    "Bitcoin (BTC)": 2,
+    "AA News": 2,
+    "CLARITY Act": 2,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "bitcoin treasuries": 1,
+    "Binance Coin (BNB)": 1,
+    "News 1": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "ABTC": 1,
+    "ASST": 1
+  }
+}
