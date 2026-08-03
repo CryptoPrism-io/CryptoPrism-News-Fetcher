@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260803_153838",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785767918,
+    "time_range_start": "2026-08-03 14:38:38",
+    "time_range_end": "2026-08-03 15:38:38"
+  },
+  "total_articles": 22,
+  "unique_sources": 16,
+  "unique_categories": 20,
+  "unique_tags": 36,
+  "body_stats": {
+    "avg_length": 928.73,
+    "min_length": 69,
+    "max_length": 3717
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 14:38:59",
+    "newest": "2026-08-03 15:33:57",
+    "time_span_minutes": 54.97
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "CoinDesk": 2,
+    "AMB Crypto": 2,
+    "Coinpaper": 1,
+    "Decrypt": 1,
+    "Cointelegraph": 1,
+    "CoinOtag": 1,
+    "Finbold": 1,
+    "U.Today": 1,
+    "Bitcoin.com": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 20,
+    "BTC": 13,
+    "TRADING": 6,
+    "XRP": 5,
+    "BUSINESS": 4,
+    "MARKET": 4,
+    "DIGITAL ASSET TREASURY": 3,
+    "MACROECONOMICS": 3,
+    "REGULATION": 3,
+    "ASIA": 2,
+    "ETH": 2,
+    "TECHNOLOGY": 2,
+    "ALTCOIN": 2,
+    "FIAT": 2,
+    "WALLET": 1
+  },
+  "top_tags": {
+    "News": 7,
+    "Cryptocurrency News": 4,
+    "Crypto News": 3,
+    "XRP": 2,
+    "Bitcoin (BTC)": 2,
+    "Altcoin": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Ripple": 1,
+    "": 1,
+    "Business": 1,
+    "Finance": 1,
+    "American Bitcoin": 1,
+    "Exclusive": 1,
+    "Eric Trump": 1
+  }
+}
