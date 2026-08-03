@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260803_220115",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785790875,
+    "time_range_start": "2026-08-03 21:01:15",
+    "time_range_end": "2026-08-03 22:01:15"
+  },
+  "total_articles": 9,
+  "unique_sources": 7,
+  "unique_categories": 13,
+  "unique_tags": 22,
+  "body_stats": {
+    "avg_length": 1450.33,
+    "min_length": 147,
+    "max_length": 9727
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 21:05:53",
+    "newest": "2026-08-03 21:48:23",
+    "time_span_minutes": 42.5
+  },
+  "top_sources": {
+    "CoinTurk News": 2,
+    "ZyCrypto": 2,
+    "AMB Crypto": 1,
+    "BitcoinSistemi": 1,
+    "Bitcoin.com": 1,
+    "Seeking Alpha": 1,
+    "Decrypt": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 8,
+    "TRADING": 4,
+    "BTC": 3,
+    "MARKET": 3,
+    "BUSINESS": 2,
+    "FIAT": 1,
+    "ZEC": 1,
+    "USDC": 1,
+    "SOL": 1,
+    "ADA": 1,
+    "FORKS": 1,
+    "REGULATION": 1,
+    "MACROECONOMICS": 1
+  },
+  "top_tags": {
+    "News": 4,
+    "Cryptocurrency News": 4,
+    "Cryptocurrency": 2,
+    "News 1": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "United States": 1,
+    "Analysis": 1,
+    "Bitcoin": 1,
+    "Market Updates": 1,
+    "privacy coins": 1,
+    "zcash (ZEC)": 1,
+    "BTCI": 1,
+    "IBIT": 1,
+    "BITO": 1
+  }
+}
