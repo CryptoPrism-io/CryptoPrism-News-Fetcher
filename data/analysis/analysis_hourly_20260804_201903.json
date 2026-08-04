@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260804_201903",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785871143,
+    "time_range_start": "2026-08-04 19:19:03",
+    "time_range_end": "2026-08-04 20:19:03"
+  },
+  "total_articles": 18,
+  "unique_sources": 11,
+  "unique_categories": 51,
+  "unique_tags": 29,
+  "body_stats": {
+    "avg_length": 1228.94,
+    "min_length": 66,
+    "max_length": 4163
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 19:19:54",
+    "newest": "2026-08-04 20:05:51",
+    "time_span_minutes": 45.95
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "Bitcoin.com": 2,
+    "Coinpaper": 2,
+    "AMB Crypto": 2,
+    "Cointelegraph": 2,
+    "Crypto Potato": 1,
+    "TimesTabloid": 1,
+    "BitcoinSistemi": 1,
+    "CoinOtag": 1,
+    "Cryptopolitan": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 17,
+    "MARKET": 9,
+    "XRP": 6,
+    "REGULATION": 6,
+    "EXCHANGE": 5,
+    "TRADING": 5,
+    "BLOCKCHAIN": 4,
+    "ETH": 4,
+    "BTC": 4,
+    "WALLET": 4,
+    "BUSINESS": 3,
+    "FIAT": 3,
+    "ASIA": 2,
+    "AVAX": 2,
+    "RESEARCH": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "Crypto News": 2,
+    "Ripple": 2,
+    "Ethereum": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Latest News": 2,
+    "Ripple (XRP)": 2,
+    "AA News": 1,
+    "Avalanche (AVAX) Price": 1,
+    "Stellar (XLM)": 1,
+    "Market Updates": 1,
+    "Bitcoin (BTC)": 1,
+    "markets and prices": 1,
+    "Cryptocurrency": 1
+  }
+}
