@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260804_115720",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785841040,
+    "time_range_start": "2026-08-04 10:57:20",
+    "time_range_end": "2026-08-04 11:57:20"
+  },
+  "total_articles": 25,
+  "unique_sources": 18,
+  "unique_categories": 24,
+  "unique_tags": 42,
+  "body_stats": {
+    "avg_length": 2892.68,
+    "min_length": 36,
+    "max_length": 16269
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 10:59:08",
+    "newest": "2026-08-04 11:50:00",
+    "time_span_minutes": 50.87
+  },
+  "top_sources": {
+    "U.Today": 2,
+    "AMB Crypto": 2,
+    "cryptonews": 2,
+    "CoinTurk News": 2,
+    "Coinpaper": 2,
+    "Cryptopolitan": 2,
+    "CoinDesk": 2,
+    "Finbold": 1,
+    "Decrypt": 1,
+    "Bitcoin.com": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 23,
+    "TRADING": 10,
+    "MARKET": 10,
+    "BTC": 10,
+    "EXCHANGE": 5,
+    "FIAT": 5,
+    "ETH": 4,
+    "BUSINESS": 4,
+    "XRP": 3,
+    "BLOCKCHAIN": 3,
+    "SECURITY INCIDENTS": 3,
+    "SHIB": 2,
+    "ASIA": 2,
+    "SUI": 2,
+    "MINING": 2
+  },
+  "top_tags": {
+    "News": 9,
+    "Bitcoin": 4,
+    "Crypto News": 3,
+    "Social": 2,
+    "Trading View": 2,
+    "ambcrypto": 2,
+    "Industry Talk": 2,
+    "presales": 2,
+    "Crypto Price Predictions": 2,
+    "Crypto Daybook Americas": 2,
+    "Shiba Inu": 1,
+    "Ethereum": 1,
+    "Cryptocurrency news": 1,
+    "BTC": 1,
+    "cryptocurrency": 1
+  }
+}
