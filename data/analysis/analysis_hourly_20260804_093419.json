@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260804_093419",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785832459,
+    "time_range_start": "2026-08-04 08:34:19",
+    "time_range_end": "2026-08-04 09:34:19"
+  },
+  "total_articles": 37,
+  "unique_sources": 17,
+  "unique_categories": 27,
+  "unique_tags": 91,
+  "body_stats": {
+    "avg_length": 4306.97,
+    "min_length": 77,
+    "max_length": 13706
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 08:35:11",
+    "newest": "2026-08-04 09:30:55",
+    "time_span_minutes": 55.73
+  },
+  "top_sources": {
+    "Bitcoin World": 14,
+    "Crypto Daily": 3,
+    "Crypto Potato": 2,
+    "Bitzo": 2,
+    "Cryptopolitan": 2,
+    "AMB Crypto": 2,
+    "CoinOtag": 2,
+    "Bitcoin.com": 1,
+    "Cointelegraph": 1,
+    "Coinpaper": 1
+  },
+  "top_categories": {
+    "MARKET": 25,
+    "CRYPTOCURRENCY": 24,
+    "MACROECONOMICS": 13,
+    "TRADING": 13,
+    "BUSINESS": 12,
+    "FIAT": 11,
+    "BTC": 8,
+    "EXCHANGE": 8,
+    "REGULATION": 8,
+    "ETH": 5,
+    "XRP": 5,
+    "ASIA": 4,
+    "SECURITY INCIDENTS": 3,
+    "COMMODITY": 3,
+    "RESEARCH": 3
+  },
+  "top_tags": {
+    "Crypto News": 9,
+    "Forex News": 8,
+    "News": 7,
+    "Forex": 4,
+    "More News": 3,
+    "Coldcard": 2,
+    "social": 2,
+    "Markets": 2,
+    "Japanese yen": 2,
+    "Breaking News": 2,
+    "Altcoins": 2,
+    "Press Release": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Ripple": 2
+  }
+}
