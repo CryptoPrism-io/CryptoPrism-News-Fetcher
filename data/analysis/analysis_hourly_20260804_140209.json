@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260804_140209",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785848529,
+    "time_range_start": "2026-08-04 13:02:09",
+    "time_range_end": "2026-08-04 14:02:09"
+  },
+  "total_articles": 22,
+  "unique_sources": 14,
+  "unique_categories": 23,
+  "unique_tags": 54,
+  "body_stats": {
+    "avg_length": 1570.18,
+    "min_length": 81,
+    "max_length": 6470
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 13:03:35",
+    "newest": "2026-08-04 14:00:08",
+    "time_span_minutes": 56.55
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "coinpedia": 3,
+    "Cryptopolitan": 3,
+    "Seeking Alpha": 2,
+    "BitcoinSistemi": 1,
+    "CoinDesk": 1,
+    "Crypto Potato": 1,
+    "Decrypt": 1,
+    "Finbold": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 16,
+    "MARKET": 9,
+    "TRADING": 9,
+    "BUSINESS": 8,
+    "REGULATION": 5,
+    "MACROECONOMICS": 3,
+    "EXCHANGE": 3,
+    "XRP": 3,
+    "FIAT": 2,
+    "BTC": 2,
+    "RESEARCH": 2,
+    "BNB": 2,
+    "ASIA": 2,
+    "TECHNOLOGY": 2,
+    "OTHER": 2
+  },
+  "top_tags": {
+    "News": 6,
+    "Crypto news": 2,
+    "Press Release": 2,
+    "Tech": 2,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "Altcoin": 1,
+    "Analysis": 1,
+    "Finance": 1,
+    "Tokenization": 1,
+    "BNY": 1,
+    "GLXY": 1,
+    "Stellar (XLM)": 1,
+    "AA News": 1,
+    "Crypto News": 1
+  }
+}
