@@ -1,0 +1,172 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67932892",
+      "guid": "https://ambcrypto.com/?p=622055",
+      "published_on": 1785880846,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Ethena whales stake 40 million ENA – Is $0.098 in sight?",
+      "url": "https://ambcrypto.com/ethena-whales-stake-40-million-ena-is-0-098-in-sight/",
+      "body": "Whale staking tightened ENA’s liquid supply, but price still needs buyers above $0.09.",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING|ENA|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67932326",
+      "guid": "https://cryptopotato.com/?p=1444718",
+      "published_on": 1785880063,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67932326.jpeg",
+      "title": "Bitcoin Holds Key Support as On-Chain Data Shows Fresh Accumulation",
+      "url": "https://cryptopotato.com/bitcoin-holds-key-support-as-on-chain-data-shows-fresh-accumulation/",
+      "body": "Bitcoin finished July on a strong note before losing momentum at the start of August with two straight daily closes below $63,000. The decline has raised fresh caution even as blockchain data points to steady buying around current price levels. That buying activity became clearer in recent on-chain data, which shows roughly 155,000 BTC moved into the $62,000 to $65,000 cost-basis range during the latest pullback. The zone now holds the largest concentration of supply across the market and represents about 0.7% of Bitcoin’s circulating supply. Accumulation Continues Despite Price Weakness According to the recent Bitfinex report, the supply cluster expanded while prices declined instead of shrinking through broad selling activity. The report said the pattern suggests buyers absorbed selling pressure rather than existing holders leaving the market in large numbers. The data also highlights different behavior between long-term and short-term holders during the recent decline. Long-term holders continued accumulating Bitcoin, while many short-term holders reduced positions near their purchase prices. Despite those signs of accumulation, broader market activity has become more subdued. Bitcoin entered August after recording a 7.3% gain during July, which matched historical seasonal trends for the month. However, spot trading volumes have fallen to levels last seen in late 2023. Market Sentiment Turns More Cautious Institutional demand also weakened as U.S. spot Bitcoin exchange-traded funds recorded a combined net weekly outflow of $61.5 million. That result ended three consecutive weeks of positive inflows and reflected softer demand from large market participants. The options market has also turned more defensive as participants paid higher premiums for downside protection. Even so, implied volatility remains close to multi-year lows, suggesting expectations for relatively limited price swings. Beyond market positioning, broader economic conditions continue influencing sentiment. Second-quarter GDP expanded 1.5%, while private domestic demand rose 3.9%, driven by consumer spending and AI-related investment. Inflation also remains a focus after personal consumption expenditures prices increased at a 5.1% annualized pace. Meanwhile, the 10-year real yield reached 2.41%, placing it only nine basis points below a level some analysts consider important for non-yielding assets. The post Bitcoin Holds Key Support as On-Chain Data Shows Fresh Accumulation appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|social|SocialFB|Bitcoin (BTC) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67932909",
+      "guid": "https://en.coinotag.com/xrp-ledger-launches-axelar-cross-chain-transfers-for-9-assets",
+      "published_on": 1785879976,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67932909.jpeg",
+      "title": "XRP Ledger Launches Axelar Cross-Chain Transfers for 9 Assets",
+      "url": "https://en.coinotag.com/xrp-ledger-launches-axelar-cross-chain-transfers-for-9-assets",
+      "body": "XRP News XRP (XRP), the native token of the XRP Ledger, moved into a broader interoperability phase on Aug. 4 after the network enabled native cross-chain transfers through Axelar Network. The inte...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "WALLET|XRP|AXL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67932099",
+      "guid": "https://decrypt.co/?p=374928",
+      "published_on": 1785879963,
+      "imageurl": "https://resources.cryptocompare.com/news/44/67932099.jpeg",
+      "title": "OpenAI Dumps Apple Employees' Text Messages to Fight Trade Secret Suit",
+      "url": "https://decrypt.co/374928/openai-emails-text-messages-apple-trade-secrets-lawsuit",
+      "body": "The ChatGPT maker released emails and text messages it says expose factual errors in Apple's lawsuit and undercut claims that former Apple employees brought confidential information to the company.",
+      "tags": "Artificial Intelligence",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "67931871",
+      "guid": "https://news.bitcoin.com/?p=836734",
+      "published_on": 1785879849,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67931871.jpeg",
+      "title": "Dragonfly’s Haseeb Qureshi Says $2 AI Audit Could Have Caught Coldcard Flaw",
+      "url": "https://news.bitcoin.com/crypto-news/dragonflys-haseeb-qureshi-says-2-ai-audit-could-have-caught-coldcard-flaw/",
+      "body": "Dragonfly’s Haseeb Qureshi says the Coldcard vulnerability shows how artificial intelligence (AI) is rewriting cybersecurity economics. As the cost of finding flaws collapses, he argues that crypto companies must deploy frontier AI models against every software release. Coldcard Flaw Could Push Crypto Firms to Test Every Release With AI Artificial intelligence is making vulnerability discovery",
+      "tags": "Crypto News|Artificial intelligence (AI)|Cryptocurrency|Hack",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TECHNOLOGY|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67930360",
+      "guid": "https://en.coin-turk.com/?p=241161",
+      "published_on": 1785878274,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67930360.jpeg",
+      "title": "Jay Clayton sworn in as Director of National Intelligence after Senate approval",
+      "url": "https://en.coin-turk.com/jay-clayton-sworn-in-as-director-of-national-intelligence-after-senate-approval/?utm_source=rss&utm_medium=rss&utm_campaign=jay-clayton-sworn-in-as-director-of-national-intelligence-after-senate-approval",
+      "body": "🗞️ Jay Clayton sworn in as new US Director of National Intelligence after Senate confirmation. 🔥 The former SEC chair is well-known in $XRP circles for initiating the Ripple lawsuit. 🚀 Clayton later moved into digital asset advisory roles at One River and Fireblocks. 📌 He takes over the intelligence position from Tulsi Gabbard. Continue Reading: Jay Clayton sworn in as Director of National Intelligence after Senate approval The post Jay Clayton sworn in as Director of National Intelligence after Senate approval appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67930262",
+      "guid": "https://decrypt.co/?p=374914",
+      "published_on": 1785878163,
+      "imageurl": "https://resources.cryptocompare.com/news/44/67930262.jpeg",
+      "title": "Ledger Says Coldcard Exploit Shows Bitcoin Wallet Security Must Adapt to AI",
+      "url": "https://decrypt.co/374914/ledger-coldcard-exploit-bitcoin-wallet-security-ai",
+      "body": "Ledger CTO Charles Guillemet says the Coldcard exploit underscores why certified hardware randomness matters—and why AI is reshaping wallet security.",
+      "tags": "|Technology",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TECHNOLOGY|WALLET|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "67930506",
+      "guid": "https://www.cryptopolitan.com/?p=300134",
+      "published_on": 1785878028,
+      "imageurl": "https://resources.cryptocompare.com/news/43/67930506.jpeg",
+      "title": "Apple briefly pulls Telegram from App Store over CSAM content",
+      "url": "https://www.cryptopolitan.com/telegram-durov-dismiss-app-removal/",
+      "body": "Pavel Durov has doubled down on Telegram’s position after Apple removed the platform from its App Store earlier this week following a review that revealed offensive material in the app. Telegram, used by more than a billion people, has called the takedown of its app an overreaction to the conduct of a single user. The app was reinstated days later. Did Telegram take its app off the App Store? Apple shortly took the Telegram app off its app store, saying its review of Telegram turned up material that violated its strict guidelines against child sexual abuse material (CSAM). The app reappeared on the App Store after the content was removed and the poster was banned. Anyone who already had Telegram installed was able to keep using it throughout the brief window. The takedown mainly blocked new downloads and updates. Telegram directly challenged Apple’s decision on X, asking if the company’s safety standards would be applied equally to all other apps in the store Telegram spokesperson Remi Vaughn spoke against the decision, saying that Apple disrupted the communication of a billion people due to the actions of a single user. The company’s founder, Pavel Durov, explained on his personal channel that the offensive material bypassed the app’s security measures because the AI-modified content was posted by editing an old message in an active group chat. Durov also explained that the attacker was a takedown extortionist; an individual who posts offensive material and demands ransom in exchange for not targeting communities. Do Apple and Telegram have existing issues? Apple previously pulled Telegram from the App Store in 2018 over inappropriate content, and once again restored it once the issue was resolved. French authorities arrested Durov back in 2024, and he was charged with enabling illegal transactions and complicity in the distribution of CSAM. Telegram responded by disabling some features it described as misused and changing how it handles private chats. Durov remains under formal investigation in France. The Paris prosecutor’s office confirmed that Durov faces an array of potential charges for criminal activities linked to Telegram. Cryptopolitan previously reported that Durov is wanted in Russia over allegedly aiding Ukraine’s “terrorist activities” in the country. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "News|Apple|Telegram",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785877481,
+    "time_range_start": "2026-08-04 21:04:41",
+    "time_range_end": "2026-08-04 22:04:41"
+  }
+}

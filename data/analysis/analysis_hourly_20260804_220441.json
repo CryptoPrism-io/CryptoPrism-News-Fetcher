@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260804_220441",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785877481,
+    "time_range_start": "2026-08-04 21:04:41",
+    "time_range_end": "2026-08-04 22:04:41"
+  },
+  "total_articles": 8,
+  "unique_sources": 7,
+  "unique_categories": 15,
+  "unique_tags": 19,
+  "body_stats": {
+    "avg_length": 810.0,
+    "min_length": 86,
+    "max_length": 2520
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 21:13:48",
+    "newest": "2026-08-04 22:00:46",
+    "time_span_minutes": 46.97
+  },
+  "top_sources": {
+    "Decrypt": 2,
+    "AMB Crypto": 1,
+    "Crypto Potato": 1,
+    "CoinOtag": 1,
+    "Bitcoin.com": 1,
+    "CoinTurk News": 1,
+    "Cryptopolitan": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 7,
+    "TRADING": 2,
+    "BTC": 2,
+    "WALLET": 2,
+    "XRP": 2,
+    "TECHNOLOGY": 2,
+    "SECURITY INCIDENTS": 2,
+    "ALTCOIN": 1,
+    "ENA": 1,
+    "MARKET": 1,
+    "MACROECONOMICS": 1,
+    "AXL": 1,
+    "OTHER": 1,
+    "REGULATION": 1,
+    "EXCHANGE": 1
+  },
+  "top_tags": {
+    "Crypto News": 3,
+    "News": 2,
+    "Altcoin": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "ambcrypto": 1,
+    "AA News": 1,
+    "social": 1,
+    "SocialFB": 1,
+    "Bitcoin (BTC) Price": 1,
+    "Artificial Intelligence": 1,
+    "Artificial intelligence (AI)": 1,
+    "Cryptocurrency": 1,
+    "Hack": 1,
+    "Cryptocurrency News": 1
+  }
+}
