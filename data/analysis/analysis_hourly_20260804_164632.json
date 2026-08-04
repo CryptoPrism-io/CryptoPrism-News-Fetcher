@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260804_164632",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785858392,
+    "time_range_start": "2026-08-04 15:46:32",
+    "time_range_end": "2026-08-04 16:46:32"
+  },
+  "total_articles": 19,
+  "unique_sources": 13,
+  "unique_categories": 22,
+  "unique_tags": 41,
+  "body_stats": {
+    "avg_length": 889.79,
+    "min_length": 76,
+    "max_length": 4221
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 15:47:05",
+    "newest": "2026-08-04 16:43:03",
+    "time_span_minutes": 55.97
+  },
+  "top_sources": {
+    "CoinOtag": 3,
+    "AMB Crypto": 3,
+    "CoinTurk News": 2,
+    "CoinDesk": 2,
+    "Seeking Alpha": 1,
+    "Bitcoin.com": 1,
+    "Cryptopolitan": 1,
+    "coinpedia": 1,
+    "BitcoinSistemi": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 15,
+    "TRADING": 7,
+    "BTC": 6,
+    "BUSINESS": 6,
+    "MACROECONOMICS": 4,
+    "MARKET": 4,
+    "ALTCOIN": 3,
+    "EXCHANGE": 2,
+    "REGULATION": 2,
+    "ETH": 2,
+    "XRP": 2,
+    "BLOCKCHAIN": 2,
+    "FIAT": 2,
+    "SPONSORED": 1,
+    "FLR": 1
+  },
+  "top_tags": {
+    "News": 10,
+    "Crypto News": 3,
+    "Social": 3,
+    "Trading View": 3,
+    "Altcoin": 2,
+    "News 1": 2,
+    "XYZ": 1,
+    "BTC-USD": 1,
+    "SP500": 1,
+    "Featured": 1,
+    "BIP110": 1,
+    "Bitcoin (BTC)": 1,
+    "Fork": 1,
+    "michael saylor": 1,
+    "Soft Fork": 1
+  }
+}

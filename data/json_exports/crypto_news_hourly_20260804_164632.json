@@ -1,0 +1,392 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67914551",
+      "guid": "https://seekingalpha.com/news/4624849-block-heads-into-earnings-with-big-expectations-can-it-deliver-on-q2-guidance?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1785861783,
+      "imageurl": "https://resources.cryptocompare.com/news/50/67914551.jpeg",
+      "title": "Block heads into earnings with big expectations: Can it deliver on Q2 guidance?",
+      "url": "https://seekingalpha.com/news/4624849-block-heads-into-earnings-with-big-expectations-can-it-deliver-on-q2-guidance?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on Block Excerpt: Block - An Overlooked AI Beneficiary Within Financial Services Block: Revenue Growth And Margin Are Truly Underappreciated Block: The Margin Story Is Real, But The Stock Has Caught Up (Downgrade To Hold) Cathie Wood's ARK Invest, Strategy, BlackRock, others collaborate for Bitcoin Security Consortium New York judge rejects Zelle parent's bid to dismiss lawsuit on allegedly enabling fraud - report",
+      "tags": "XYZ|BTC-USD|SP500",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "67914249",
+      "guid": "https://news.bitcoin.com/?p=836796",
+      "published_on": 1785861310,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67914249.jpeg",
+      "title": "Strategy’s Saylor Tells BIP-110 Backers to ‘Stand Down’ Before Fork",
+      "url": "https://news.bitcoin.com/featured/strategys-saylor-tells-bip-110-backers-to-stand-down-before-fork/",
+      "body": "Michael Saylor told the backers of a contested Bitcoin proposal to “stand down” this week, days before a deadline that could split the network in two. Saylor has rejected BIP-110 on several occasions in recent times. On Tuesday, the Strategy executive chairman posted the message on X on Aug. 4, stating: “At 961,022, BIP-110 has",
+      "tags": "Featured|BIP110|Bitcoin (BTC)|Fork|michael saylor|Soft Fork|Strategy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|SPONSORED|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67913884",
+      "guid": "https://en.coin-turk.com/?p=241127",
+      "published_on": 1785861028,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67913884.jpeg",
+      "title": "Silver nears $59 as inventories shrink, technical breakout could target $60",
+      "url": "https://en.coin-turk.com/silver-nears-59-as-inventories-shrink-technical-breakout-could-target-60/?utm_source=rss&utm_medium=rss&utm_campaign=silver-nears-59-as-inventories-shrink-technical-breakout-could-target-60",
+      "body": "🚨 Silver stays near $59 as tight inventories and technicals fuel anticipation. 📉 A break above $59.20 could send $SILVER toward the $60 mark, analysts note. 🔋 Inventory data shows supplies fell from 525 million to 313 million ounces since 2025. 🪙 The Silver Institute now forecasts the global deficit will widen in 2026. Continue Reading: Silver nears $59 as inventories shrink, technical breakout could target $60 The post Silver nears $59 as inventories shrink, technical breakout could target $60 appeared first on COINTURK NEWS .",
+      "tags": "Silver",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|MACROECONOMICS",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67913542",
+      "guid": "8dce15af-63de-4559-b40e-4c45b12b1c7e",
+      "published_on": 1785860519,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67913542.jpeg",
+      "title": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
+      "url": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
+      "body": "Senators Elizabeth Warren and Richard Blumenthal requested the U.S. Securities and Exchange Commission probe Trump's memecoin.",
+      "tags": "Policy|Donald Trump|Memecoin|Clarity Act|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67914108",
+      "guid": "https://en.coinotag.com/xrp-unlocks-280m-rlusd-borrowing-via-flare-fxrp-vault",
+      "published_on": 1785860294,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67914108.jpeg",
+      "title": "XRP Unlocks $280M RLUSD Borrowing via Flare FXRP Vault",
+      "url": "https://en.coinotag.com/xrp-unlocks-280m-rlusd-borrowing-via-flare-fxrp-vault",
+      "body": "XRP News XRP (XRP) holders gained a new dollar-liquidity route after Flare Networks' wrapped FXRP token was approved as collateral in a $280 million Sentora lending vault on Morpho Blue's Ethereum ...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|XRP|FLR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67913437",
+      "guid": "https://en.coin-turk.com/?p=241125",
+      "published_on": 1785860248,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67913437.jpeg",
+      "title": "Dinari launches tokenized S&P 500 trading for US investors via blockchain",
+      "url": "https://en.coin-turk.com/dinari-launches-tokenized-sp-500-trading-for-us-investors-via-blockchain/?utm_source=rss&utm_medium=rss&utm_campaign=dinari-launches-tokenized-sp-500-trading-for-us-investors-via-blockchain",
+      "body": "🚀 Dinari enables tokenized S&P 500 trading for US investors using blockchain technology. 💸 Investors buy and sell shares as digital tokens, with USDC powering all transactions. 📈 Tokenization of real-world stocks sees rapid global expansion and strong demand. 🇺🇸 Dinari extends regulated access to $USDC settlement and S&P 500 stocks in the US. Continue Reading: Dinari launches tokenized S&P 500 trading for US investors via blockchain The post Dinari launches tokenized S&P 500 trading for US investors via blockchain appeared first on COINTURK NEWS .",
+      "tags": "Blockchain News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BUSINESS|TRADING|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67913408",
+      "guid": "https://www.cryptopolitan.com/?p=300093",
+      "published_on": 1785860240,
+      "imageurl": "https://resources.cryptocompare.com/news/43/67913408.jpeg",
+      "title": "France-based Sequans continues to unwind BTC position to recommit to IoT",
+      "url": "https://www.cryptopolitan.com/sequans-cuts-bitcoin-stash-to-314-coins/",
+      "body": "Sequans Communications (NYSE: SQNS) trimmed down its Bitcoin treasury to 314 coins during the second quarter and wiped out its convertible debt, the French chipmaker said Tuesday, August 4, as CEO Georges Karam steers the company back toward its IoT semiconductor business. According to the Paris-based company’s preliminary second-quarter results, it held 1,514 BTC worth $103.2 million as of the end of March. How many Bitcoins did Sequans Communications sell in three months? The company reportedly held 314 BTC, which was valued at $18.4 million as of June 30. Sequans Communications had spent months boxed in by collateral rules. Back in March, it had 1,217 BTC worth $82.9 million locked up, pledged as security against its convertible notes. But it has now sold 1,200 coins over the quarter, changing that math. The company booked a realized net gain of $5.3 million on the second-quarter sales, a turnaround from the $11.7 million realized loss it took in the first quarter when it was dumping coins into a falling market. Sequans is not ranked number 73 among public company holders of Bitcoin per BitcoinTreasuries.net . Its 314 BTC are now worth $20 million. Sequans Bitcoin holdings. Source: BitcoinTreasuries.net Why did Sequans Communications sell its Bitcoins? Karam shared insights into what led to the sales, positioning it as capital-structure housekeeping. A number of companies offloading their holdings usually point to the need to divest and refocus on another sector, with AI and data centers emerging as the new areas of focus. For Sequan, it was to focus on their core IOT strategy. Karam stated that they fully redeemed their convertible debt in May and closed the quarter with $21 million in cash, up from $10.6 million three months earlier, and no debt on the books. In the first quarter of 2026, Sequans had a $29.3 million unrealized impairment on the Bitcoin holdings, and this led to a $76.2 million net loss. The second-quarter impairment was far smaller, at $3.0 million. Product sales carried the quarter The chip business, which Karam is now pushing to the front, had a better three months. Revenue reached $7.5 million, up 23.2% from the first quarter and above the company’s own guidance, though still down 8.4% from a year earlier because the 2025 figure included one-off licensing money from a Qualcomm deal. Strip that out, and revenue climbed 84.2% year over year. Karam said product sales made up the bulk of the total and rose more than 80% from a year earlier. He pointed to over 40 design-win projects now in mass production, which he put at 55% of a $300 million three-year product pipeline, and to a first drone customer for the company’s RF transceiver technology. Gross margin slipped to 32.9% from 37.7% in the prior quarter, a drop the company attributed to more low-margin hardware in the mix. Investors liked the read as SQNS traded at $2.87 in pre-market on Tuesday, up 17.62% from Monday’s close, according to Google Finance , though the stock remains far below its 52-week high of $13.90. From 370 coins to a full retreat Sequans has now reversed the treasury play it started barely a year ago. Karam began buying Bitcoin in July 2025 with 370 coins, built the pile toward a peak above 3,300, having floated a target of 3,000 coins funded by up to $200 million in share sales. The selling started in November 2025, when the company offloaded about 970 coins to redeem half its convertible debt. A further 1,025-coin sale followed in the first quarter of 2026. Sequans is not the only company letting go of a sizeable part of its Bitcoin holdings. MARA Holdings, Riot Platforms, Hut 8, and Cango, among others, have all cut Bitcoin exposure in recent months. Even Strategy, the largest corporate holder, sold 1,638 coins for about $104.7 million in late July to fund dividends and build cash. Don’t just read crypto news. Understand it. Subscribe to our newsletter. It's free .",
+      "tags": "News|BTC|SQNS",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "67912829",
+      "guid": "https://ambcrypto.com/?p=622289",
+      "published_on": 1785859843,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Aptos launches Confidential APT, but price still can’t break $0.58",
+      "url": "https://ambcrypto.com/aptos-launches-confidential-apt-but-price-still-cant-break-0-58/",
+      "body": "The upgrade is now live on mainnet, but weak pressure has limited the token’s response.",
+      "tags": "Altcoin|News|News 1|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING|APT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67913544",
+      "guid": "https://coinpedia.org/?p=577596",
+      "published_on": 1785859638,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Bitget Stocks Research Shows Tokenized Equities Race Heating Up With 140% Rise in 2026",
+      "url": "https://coinpedia.org/news/bitget-stocks-research-shows-tokenized-equities-race-heating-up-with-140-rise-in-2026/",
+      "body": "The post Bitget Stocks Research Shows Tokenized Equities Race Heating Up With 140% Rise in 2026 appeared first on Coinpedia Fintech News Tokenized equities are growing fast, but simply listing stock-backed tokens isn’t enough anymore. As per latest Bitget’s research report, the battleground has shifted toward execution quality, liquidity, and infrastructure. The report shows the active market capitalization of tokenized stocks and equities has risen more than 140% from $814 million to $1.976 billion, while Bitget is …",
+      "tags": "News|Crypto news|Exchange News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|MARKET|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "67912599",
+      "guid": "https://en.bitcoinsistemi.com/historic-change-may-be-on-the-horizon-for-the-established-altcoin-solana-sol-two-major-proposals-pre/",
+      "published_on": 1785859628,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67912599.jpeg",
+      "title": "Historic Change May Be on the Horizon for the Established Altcoin Solana (SOL)! Two Major Proposals Prepared! Here’s What’s to Come",
+      "url": "https://en.bitcoinsistemi.com/historic-change-may-be-on-the-horizon-for-the-established-altcoin-solana-sol-two-major-proposals-pre/",
+      "body": "A proposal has been submitted that would make significant changes to Solana, one of the world’s largest altcoins. According to Coindesk, Solana validators are offering suggestions to increase spending and reduce SOL issuance. At this point, Solana validators are offering two governance proposals, SIMD-0550 and SIMD-0553, to reduce the supply of SOL and increase token burning. If accepted, these two proposals could lead to significant changes in Solana’s current economic model. The proposals aim to substantially increase the daily amount of SOL burned in the network from current levels. These proposals could increase the network’s daily consumption from 650 SOL ($47,000) to 9,000 SOL ($650,000). It could also move Solana’s target of achieving 1.5% inflation from 2032 to 2029, reducing supply by approximately 18.9 million SOL over six years. Some experts argue that an increase in fuel consumption alone may not be enough to transform Solana into a deflationary system. They claim that even if daily fuel consumption increases to 9,000 SOL, a deflationary shift will be difficult because it will remain below the 60,000 SOL injected into the market each day. *This is not investment advice. Continue Reading: Historic Change May Be on the Horizon for the Established Altcoin Solana (SOL)! Two Major Proposals Prepared! Here’s What’s to Come",
+      "tags": "Altcoin|Analysis|News|Solana",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|SOL|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "67913140",
+      "guid": "https://en.coinotag.com/chainlink-link-bitgo-wbtc-7-3b-ccip-mandate",
+      "published_on": 1785859434,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67913140.jpeg",
+      "title": "Chainlink (LINK) Wins $7.3B WBTC Cross-Chain Mandate From BitGo",
+      "url": "https://en.coinotag.com/chainlink-link-bitgo-wbtc-7-3b-ccip-mandate",
+      "body": "Chainlink News Chainlink (LINK) has become the exclusive cross-chain messaging layer for BitGo’s Wrapped Bitcoin ecosystem, a mandate covering about $7.3 billion in WBTC. The custody and infrastruc...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|LINK|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67912242",
+      "guid": "https://ambcrypto.com/?p=622059",
+      "published_on": 1785859241,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Bitcoin recovers above $64K: Has the Coldcard-driven sell-off ended?",
+      "url": "https://ambcrypto.com/bitcoin-recovers-above-64k-has-the-coldcard-driven-sell-off-ended/",
+      "body": "Bitcoin's short-term holders panic-sold before turning back to accumulation.",
+      "tags": "Bitcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67912230",
+      "guid": "https://timestabloid.com/?p=108640",
+      "published_on": 1785859226,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Analyst to XRP Traders: Window for This Cycle’s Biggest Move Is Closing. What’s Next?",
+      "url": "https://timestabloid.com/analyst-to-xrp-traders-window-for-this-cycles-biggest-move-is-closing-whats-next/",
+      "body": "XRP is approaching a key technical level on the monthly chart shared by crypto analyst EGRAG CRYPTO (@egragceypto). The chart shows a Diamond Pattern nearing a decision point, while the 33 EMA and 50 SMA are converging in the same area. The combination has placed the next major XRP move firmly in focus. The analyst describes the setup as a potential turning point for the current cycle, with a confirmed breakout that could trigger significantly higher prices. The chart uses an inverted orientation, so the projected move appears visually downward even though the marked price levels represent upside targets. #XRP – The Diamond Is Closing : The monthly Diamond Pattern is approaching its decision point. The 33 EMA and 50 SMA are converging right at the apex—just like previous cycle bottoms. A confirmed breakout could ignite the next macro expansion, while a rejection keeps XRP… pic.twitter.com/wtSeAcGp4F — EGRAG CRYPTO (@egragcrypto) August 3, 2026 The Diamond Is Closing The latest XRP structure has developed over a lengthy period and now sits close to completion. XRP formed this Diamond pattern from trendlines within a long-term ascending channel and a smaller descending channel. The chart shows XRP heading toward a key decision point after an extended period of red candles . The analyst wrote, “The Diamond is closing… and so is the window for this cycle’s biggest move.” The monthly timeframe also gives the setup significance. Rather than focusing on short-term price movements, the chart tracks XRP through several major market cycles. 33 EMA and 50 SMA Converge The moving averages provide another key part of EGRAG’s analysis. The 33 EMA and 50 SMA are interacting with current price levels within the Diamond structure. The chart compares this configuration with previous cycle bottoms. Those historical examples show bullish reactions after similar interactions between the moving averages during earlier major XRP structures. The most recent of these was XRP’s 500% surge in late 2024 . Their current convergence gives traders another major bullish technical reference alongside the Diamond itself. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Higher XRP Targets Come Into Focus EGRAG CRYPTO states that “A confirmed breakout could ignite the next macro expansion.” The chart marks a series of higher XRP price levels, beginning with $1.50 and $2.20. It then extends toward $5, $11.50, $24.50, $60, $135, and a final target of $300 . They are not presented as guaranteed outcomes. Instead, they represent the successive price areas highlighted on his chart if the structure resolves with the anticipated expansion. If XRP clears the Diamond structure , the higher projected levels become increasingly relevant. The convergence of the 33 EMA and 50 SMA adds another technical element to monitor. The analyst told investors to focus on structure rather than noise as the market awaits a decision. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Analyst to XRP Traders: Window for This Cycle’s Biggest Move Is Closing. What’s Next? appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67912240",
+      "guid": "https://ambcrypto.com/?p=622294",
+      "published_on": 1785859071,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Ethereum’s EIP-8361 aims to curb ETH inflation by reducing staking rewards",
+      "url": "https://ambcrypto.com/ethereums-eip-8361-aims-to-curb-eth-inflation-by-reducing-staking-rewards/",
+      "body": "EIP-8361 could cut Ethereum consensus staking yield to 1.2%, but lower rewards may place pressure on validators and liquid-staking products.",
+      "tags": "Ethereum|News|News 1|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67911884",
+      "guid": "https://u.today/hyperliquid-scores-new-4-billion-all-time-high-in-real-world-asset-trading",
+      "published_on": 1785858855,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67911884.jpeg",
+      "title": "Hyperliquid Scores New $4 Billion All-Time High in Real-World Asset Trading",
+      "url": "https://u.today/hyperliquid-scores-new-4-billion-all-time-high-in-real-world-asset-trading",
+      "body": "Traders push Hyperliquid past a $4 billion milestone, ditching classic crypto for 24/7 tokenized shares of SK Hynix and Micron.",
+      "tags": "Hyperliquid",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67912681",
+      "guid": "https://en.coinotag.com/hyperliquid-hype-rwa-perpetuals-41-percent-volume",
+      "published_on": 1785858790,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67912681.jpeg",
+      "title": "Hyperliquid (HYPE) Real-World Assets Hit 41% of Perpetual Volume",
+      "url": "https://en.coinotag.com/hyperliquid-hype-rwa-perpetuals-41-percent-volume",
+      "body": "Hyperliquid News Hyperliquid's ecosystem is expanding counter-cyclically even as its native altcoin HYPE retreats from recent highs, with real-world-asset trading emerging as the network's fastest-...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67911962",
+      "guid": "https://cointelegraph.com/news/bitdeer-ai-data-center-lease-norway",
+      "published_on": 1785858620,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67911962.jpeg",
+      "title": "Bitdeer expands AI infrastructure with long-term $4.7B data center lease",
+      "url": "https://cointelegraph.com/news/bitdeer-ai-data-center-lease-norway?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "A 16-year agreement secures 121 megawatts of AI computing capacity in Norway, highlighting how crypto mining companies continue to pursue new revenue streams beyond Bitcoin.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MINING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67911473",
+      "guid": "https://coinpaper.com/33898/spacex-earnings-report-today-can-ai-revive-spcx-stock-rally",
+      "published_on": 1785858514,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "SpaceX Earnings Report Today: Can AI Revive SPCX Stock Rally?",
+      "url": "https://coinpaper.com/33898/spacex-earnings-report-today-can-ai-revive-spcx-stock-rally",
+      "body": "strategy, Starlink growth, and a major insider lockup expiration this week. SpaceX will release its first quarterly earnings report as a public company after the market closes on August 4, with investors watching management's comments on artificial intelligence, Starlink, and long-term growth plans more closely than the quarterly numbers. The report arrives after the stock lost about 15% from its $135 IPO price and more than 50% from its post-listing peak, placing added attention on the company's outlook. At press time, SPCX price was trading at $117 , up 2.75% from the intra-day low. Wall Street expects SpaceX to report a quarterly loss, while analysts continue to focus on the company's AI strategy, satellite business, and progress toward building orbital data center infrastructure. Another major event follows just two days later when the first insider lockup period expires, increasing the number of shares available for trading. AI Strategy and Starlink Take Center Stage Analysts expect SpaceX to report its second-quarter financial results after the closing bell, followed by an earnings call with investors and analysts. Market estimates point to a loss of about $0.23 per share on revenue of approximately $6.82 billion. Several analysts have indicated that management's outlook may carry more weight than the reported earnings. Bernstein said ”“the quarterly results should not matter”” and added that investor attention remains fixed on the company's confidence in artificial intelligence and orbital data center plans. The firm maintained an Outperform rating and a $239 price target on SpaceX. Analysts said the long-term investment case depends on successful Starship reuse, sufficient semiconductor capacity, regulatory progress, and continued demand for AI computing services. Deutsche Bank also expects results to meet market estimates and believes the stock could stabilize after the first lockup expiration. The bank identified AI-related growth as the primary driver for future valuation rather than short-term earnings performance. Starlink remains another major focus for investors because it continues to generate recurring revenue through global satellite internet services. Analysts will look for updates on subscriber growth, commercial contracts, and future expansion plans during the earnings call. Lockup Expiration Adds Near-Term Pressure SpaceX shareholders are also preparing for the company's first post-IPO lockup expiration on August 6. The event will allow insiders and early investors to begin selling a large number of previously restricted shares. Current estimates suggest roughly 911 million shares could become eligible for trading through the first release period. Based on recent market prices, those shares represent more than $100 billion in potential market value. Additional lockup releases are expected over the coming months, increasing the public float in stages. The approaching expiration has contributed to recent volatility in SpaceX shares. The stock has fallen sharply from its June high as investors assess how additional share supply could affect trading activity after earnings. Analysts are also expected to ask Elon Musk about Starship testing, future launch timelines, satellite expansion, and reported plans for large orbital data centers designed to support artificial intelligence computing. Texas Investment and Long-Term Growth Plans Ahead of the earnings release, SpaceX also advanced one of its Texas projects by making an early payment under its Terafab tax agreement. The company paid Grimes County $10 million before the scheduled deadline, representing nearly 40% of the county's expected 2026 property tax revenue. County officials said the funds could support infrastructure projects, employee compensation, and staff retention. Representatives from SpaceX and the Terafab project are scheduled to answer questions during the August 5 Commissioners Court meeting. Reports indicate the broader Terafab project could eventually involve investments of up to $119 billion. The company is also expanding AI computing capacity through new data center development in Texas while continuing work on satellite infrastructure and launch systems.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|MARKET|REGULATION|TRADING",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67911405",
+      "guid": "b8755bcc-e054-415d-8a88-3eef2a76160a",
+      "published_on": 1785858425,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67911405.jpeg",
+      "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street’s settlement rails",
+      "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments",
+      "body": "Payments will run on the bank’s proprietary blockchain and be routed automatically through its existing client interface.",
+      "tags": "Finance|banks|Tokenization|tokenized deposits|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|FIAT",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785858392,
+    "time_range_start": "2026-08-04 15:46:32",
+    "time_range_end": "2026-08-04 16:46:32"
+  }
+}
