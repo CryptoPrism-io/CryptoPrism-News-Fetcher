@@ -1,0 +1,49 @@
+{
+  "timestamp": "20260804_000031",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785798031,
+    "time_range_start": "2026-08-03 23:00:31",
+    "time_range_end": "2026-08-04 00:00:31"
+  },
+  "total_articles": 4,
+  "unique_sources": 3,
+  "unique_categories": 9,
+  "unique_tags": 7,
+  "body_stats": {
+    "avg_length": 302.5,
+    "min_length": 200,
+    "max_length": 461
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-03 23:17:25",
+    "newest": "2026-08-03 23:38:53",
+    "time_span_minutes": 21.47
+  },
+  "top_sources": {
+    "CoinOtag": 2,
+    "Bitcoin.com": 1,
+    "coinpedia": 1
+  },
+  "top_categories": {
+    "REGULATION": 2,
+    "SECURITY INCIDENTS": 2,
+    "CRYPTOCURRENCY": 2,
+    "BUSINESS": 1,
+    "WLD": 1,
+    "EXCHANGE": 1,
+    "BLOCKCHAIN": 1,
+    "BTC": 1,
+    "TRADING": 1
+  },
+  "top_tags": {
+    "Crypto News": 2,
+    "Regulation & Legal": 1,
+    "Brian Armstrong": 1,
+    "CLARITY Act": 1,
+    "Coinbase": 1,
+    "News": 1,
+    "Crypto news": 1
+  }
+}

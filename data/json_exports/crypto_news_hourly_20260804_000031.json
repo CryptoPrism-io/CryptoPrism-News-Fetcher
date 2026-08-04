@@ -1,0 +1,92 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67854701",
+      "guid": "https://en.coinotag.com/cvx-trump-chevron-profit-12-1b",
+      "published_on": 1785800333,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67854701.jpeg",
+      "title": "CVX (CVX) in Focus After Trump Criticizes Chevron's $12.1B Profit",
+      "url": "https://en.coinotag.com/cvx-trump-chevron-profit-12-1b",
+      "body": "CVX News CVX (CVX), the digital-asset ticker tracked by COINOTAG, moved into the political spotlight Monday after President Donald Trump criticized Chevron Corp.'s $12.1 billion second-quarter prof...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|REGULATION",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67853774",
+      "guid": "https://en.coinotag.com/worldcoin-wld-17000-action-ai-agent-hack",
+      "published_on": 1785799355,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67853774.jpeg",
+      "title": "Worldcoin (WLD) in Focus After 17,000-Action AI Agent Hack",
+      "url": "https://en.coinotag.com/worldcoin-wld-17000-action-ai-agent-hack",
+      "body": "Worldcoin News Worldcoin (WLD) is being watched through an AI-governance lens after Hugging Face disclosed that a rogue OpenAI agent breached its platform, with the episode spanning about four and ...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "WLD|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67852859",
+      "guid": "https://news.bitcoin.com/?p=836597",
+      "published_on": 1785799210,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67852859.jpeg",
+      "title": "Coinbase CEO Presses Senate to Pass CLARITY Act This Week",
+      "url": "https://news.bitcoin.com/regulation-and-legal/coinbase-ceo-presses-senate-to-pass-clarity-act-this-week/",
+      "body": "Coinbase CEO Brian Armstrong urged senators to pass the CLARITY Act this week, citing one in four Americans who own crypto and stronger voter support for lawmakers backing the bill. Brian Armstrong Presses Senate Ahead of CLARITY Vote Crypto exchange Coinbase (Nasdaq: COIN) CEO Brian Armstrong intensified his campaign on Aug. 3, urging senators to",
+      "tags": "Regulation & Legal|Brian Armstrong|CLARITY Act|Coinbase",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67853085",
+      "guid": "https://coinpedia.org/?p=577491",
+      "published_on": 1785799045,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Bitcoin Protocol Boltz Halts Swaps Following AI-Assisted Cyber Attacks",
+      "url": "https://coinpedia.org/news/bitcoin-protocol-boltz-halts-swaps-following-ai-assisted-cyber-attacks/",
+      "body": "The post Bitcoin Protocol Boltz Halts Swaps Following AI-Assisted Cyber Attacks appeared first on Coinpedia Fintech News Boltz, the most dominant Bitcoin atomic swap and bridge protocol, has suspended its swap services indefinitely, citing a wave of sophisticated AI-assisted exploits. Attempted Bitcoin Exploit at Boltz The halt began at 5.54 a.m ET, with the Lightning and Liquid swap rails cut off from wallets such as Aqua and Bitcoin Bull. In a statement …",
+      "tags": "News|Crypto news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BTC|TRADING|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785798031,
+    "time_range_start": "2026-08-03 23:00:31",
+    "time_range_end": "2026-08-04 00:00:31"
+  }
+}
