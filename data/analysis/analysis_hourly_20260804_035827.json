@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260804_035827",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785812307,
+    "time_range_start": "2026-08-04 02:58:27",
+    "time_range_end": "2026-08-04 03:58:27"
+  },
+  "total_articles": 11,
+  "unique_sources": 7,
+  "unique_categories": 15,
+  "unique_tags": 33,
+  "body_stats": {
+    "avg_length": 2506.64,
+    "min_length": 140,
+    "max_length": 5443
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-04 02:58:51",
+    "newest": "2026-08-04 03:49:08",
+    "time_span_minutes": 50.28
+  },
+  "top_sources": {
+    "Bitcoin World": 4,
+    "TimesTabloid": 2,
+    "Crypto Potato": 1,
+    "Bitcoin.com": 1,
+    "CoinTurk News": 1,
+    "CoinOtag": 1,
+    "Cointelegraph": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 6,
+    "MARKET": 5,
+    "TRADING": 5,
+    "REGULATION": 4,
+    "MACROECONOMICS": 4,
+    "BTC": 3,
+    "BUSINESS": 3,
+    "DIGITAL ASSET TREASURY": 3,
+    "XRP": 2,
+    "ETH": 1,
+    "BLOCKCHAIN": 1,
+    "ENA": 1,
+    "FIAT": 1,
+    "ASIA": 1,
+    "XMR": 1
+  },
+  "top_tags": {
+    "Crypto News": 6,
+    "CRYPTOCURRENCY": 2,
+    "News": 2,
+    "AA News": 1,
+    "social": 1,
+    "SocialFB": 1,
+    "Ripple (XRP) Price": 1,
+    "Kalshi": 1,
+    "legal": 1,
+    "Ethereum (ETH)": 1,
+    "ENA": 1,
+    "Ethena": 1,
+    "Staking": 1,
+    "whale": 1,
+    "Forex News": 1
+  }
+}
