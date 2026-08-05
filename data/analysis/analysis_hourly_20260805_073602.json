@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260805_073602",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785911762,
+    "time_range_start": "2026-08-05 06:36:02",
+    "time_range_end": "2026-08-05 07:36:02"
+  },
+  "total_articles": 26,
+  "unique_sources": 13,
+  "unique_categories": 24,
+  "unique_tags": 58,
+  "body_stats": {
+    "avg_length": 2007.88,
+    "min_length": 70,
+    "max_length": 6784
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-05 06:40:11",
+    "newest": "2026-08-05 07:30:19",
+    "time_span_minutes": 50.13
+  },
+  "top_sources": {
+    "Bitcoin World": 7,
+    "coinpedia": 4,
+    "CoinTurk News": 3,
+    "AMB Crypto": 2,
+    "CoinOtag": 2,
+    "Bitcoin.com": 1,
+    "BitcoinSistemi": 1,
+    "Invezz": 1,
+    "Cointelegraph": 1,
+    "Cryptopolitan": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 18,
+    "MARKET": 13,
+    "BUSINESS": 11,
+    "TRADING": 10,
+    "FIAT": 7,
+    "BTC": 6,
+    "REGULATION": 6,
+    "MACROECONOMICS": 5,
+    "ALTCOIN": 4,
+    "ASIA": 4,
+    "BLOCKCHAIN": 4,
+    "TECHNOLOGY": 3,
+    "MINING": 2,
+    "DIGITAL ASSET TREASURY": 2,
+    "EXCHANGE": 2
+  },
+  "top_tags": {
+    "Crypto News": 7,
+    "News": 5,
+    "Altcoins": 4,
+    "Forex News": 4,
+    "Short News": 3,
+    "Forex": 3,
+    "Cryptocurrency": 2,
+    "Bitcoin": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "ambcrypto": 2,
+    "Bitcoin (BTC)": 2,
+    "Stock Market": 2,
+    "Digital Assets": 2,
+    "Currency Markets": 2
+  }
+}
