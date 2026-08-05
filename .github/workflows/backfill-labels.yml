@@ -40,7 +40,7 @@ jobs:
 
       - name: Backfill ML_LABELS from 1K_coins_ohlcv
         run: |
-          python -m src.features.labels \
+          python -m ml.features.labels \
             --from-date "${{ inputs.from_date }}" \
             --to-date "${{ inputs.to_date }}"
 

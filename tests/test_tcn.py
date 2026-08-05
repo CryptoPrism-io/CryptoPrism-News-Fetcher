@@ -5,7 +5,7 @@ import pytest
 
 
 def test_tcn_residual_block():
-    from src.models.tcn import TCNResidualBlock
+    from ml.models.tcn import TCNResidualBlock
     block = TCNResidualBlock(in_channels=8, out_channels=64, kernel_size=3, dilation=1, dropout=0.0)
     x = torch.randn(4, 8, 168)
     out = block(x)
@@ -13,7 +13,7 @@ def test_tcn_residual_block():
 
 
 def test_tcn_model_forward():
-    from src.models.tcn import TCNModel
+    from ml.models.tcn import TCNModel
     model = TCNModel(input_channels=8, embed_dim=16, n_classes=3)
     x = torch.randn(4, 8, 168)
     emb, logits = model(x)
@@ -23,7 +23,7 @@ def test_tcn_model_forward():
 
 def test_tcn_batch_independence():
     """Different batch items produce different outputs."""
-    from src.models.tcn import TCNModel
+    from ml.models.tcn import TCNModel
     torch.manual_seed(42)
     model = TCNModel(input_channels=8, embed_dim=16, n_classes=3)
     model.eval()

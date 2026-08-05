@@ -5,7 +5,7 @@ import pytest
 
 
 def test_rule_based_classifier():
-    from src.features.news_events import classify_event_rule_based
+    from ml.features.news_events import classify_event_rule_based
 
     assert classify_event_rule_based("Coinbase lists XRP for trading") == "listing"
     assert classify_event_rule_based("Hacker steals $100M from DeFi protocol") == "hack_exploit"
@@ -17,7 +17,7 @@ def test_rule_based_classifier():
 
 
 def test_compute_hours_since():
-    from src.features.news_events import compute_hours_since
+    from ml.features.news_events import compute_hours_since
 
     events = pd.DataFrame({
         "timestamp": pd.to_datetime(["2025-06-01 10:00+00:00", "2025-06-02 15:00+00:00"]),
@@ -32,7 +32,7 @@ def test_compute_hours_since():
 
 
 def test_magnitude_lookup():
-    from src.features.news_events import get_magnitude_estimate
+    from ml.features.news_events import get_magnitude_estimate
 
     assert get_magnitude_estimate("listing") > 0
     assert get_magnitude_estimate("hack_exploit") < 0

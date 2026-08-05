@@ -46,7 +46,7 @@ jobs:
           "
 
       - name: Run backfill
-        run: python -m src.features.btc_residuals --backfill
+        run: python -m ml.features.btc_residuals --backfill
 
       - name: Report status
         if: always()

@@ -87,18 +87,18 @@ jobs:
         run: |
           FROM_DATE="${{ github.event.inputs.from_date }}"
           if [ -n "$FROM_DATE" ]; then
-            python -m src.nlp.sentiment --batch-size 64 --from-date "$FROM_DATE"
+            python -m etl.transform.sentiment --batch-size 64 --from-date "$FROM_DATE"
           else
-            python -m src.nlp.sentiment --batch-size 64
+            python -m etl.transform.sentiment --batch-size 64
           fi
 
       - name: Step 2 — Aggregate signals → FE_NEWS_SIGNALS
         run: |
           FROM_DATE="${{ github.event.inputs.from_date }}"
           if [ -n "$FROM_DATE" ]; then
-            python -m src.features.news_signals --from-date "$FROM_DATE"
+            python -m ml.features.news_signals --from-date "$FROM_DATE"
           else
-            python -m src.features.news_signals
+            python -m ml.features.news_signals
           fi
 
       - name: Report row counts

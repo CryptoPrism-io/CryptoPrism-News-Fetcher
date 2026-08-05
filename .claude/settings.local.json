@@ -16,8 +16,8 @@
     "allow": [
       "Bash(mkdir:*)",
       "Bash(touch:*)",
-      "Bash(python -m src.news_fetcher.cryptocompare_sample)",
-      "Bash(python -m src.news_fetcher.db_test)",
+      "Bash(python -m scripts.legacy.cryptocompare_sample)",
+      "Bash(python -m scripts.legacy.db_test)",
       "Bash(tree:*)",
       "Bash(python:*)",
       "WebSearch",

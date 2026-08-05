@@ -273,7 +273,7 @@ def main():
 
     schema["_cross_db_guide"] = build_cross_db_guide(schema)
 
-    out_path = os.path.join(ROOT, "src", "trading", "db_schema_full.json")
+    out_path = os.path.join(ROOT, "schemas", "db_schema_full.json")
     with open(out_path, "w") as f:
         json.dump(schema, f, indent=2, default=str)
     print(f"\nSchema written to {out_path}")

@@ -5,7 +5,7 @@ import pytest
 
 
 def test_build_features_returns_expected_columns():
-    from src.models.regime import build_regime_features
+    from ml.models.regime import build_regime_features
 
     np.random.seed(42)
     n = 100
@@ -28,7 +28,7 @@ def test_build_features_returns_expected_columns():
 
 
 def test_hmm_fit_predict():
-    from src.models.regime import fit_regime_hmm, predict_regime
+    from ml.models.regime import fit_regime_hmm, predict_regime
 
     np.random.seed(42)
     X = np.random.randn(500, 7)
@@ -43,7 +43,7 @@ def test_hmm_fit_predict():
 
 
 def test_label_states():
-    from src.models.regime import label_states
+    from ml.models.regime import label_states
 
     np.random.seed(42)
     X = np.random.randn(100, 7)

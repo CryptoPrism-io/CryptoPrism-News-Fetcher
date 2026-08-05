@@ -7,5 +7,5 @@ Wants=network-online.target
 Type=oneshot
 WorkingDirectory=/opt/cpio-news-fetcher
 EnvironmentFile=/etc/cv-ingester.env
-ExecStart=/usr/bin/python3 -m src.news_fetcher.fetch_ccv --prod --limit 200 --table cc_news
+ExecStart=/usr/bin/python3 -m etl.extract.fetch_ccv --prod --limit 200 --table cc_news
 # Loud failure surfaces in `systemctl status` / journald and (via the script) Telegram.

@@ -56,7 +56,7 @@ print(f'  {len(regime_data["dates"])} days, {state_counts}')
 
 # 3. Test set predictions for ROC + confusion matrix
 print('3. ROC + Confusion...')
-from src.models.train_lgbm import compute_splits
+from ml.models.train_lgbm import compute_splits
 split = compute_splits('news_augmented')
 
 labels = pd.read_sql(f"""

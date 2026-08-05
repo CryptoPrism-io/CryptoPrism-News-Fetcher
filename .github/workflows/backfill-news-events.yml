@@ -39,7 +39,7 @@ jobs:
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
       - name: Run news events backfill
-        run: python -m src.features.news_events --${{ github.event.inputs.mode }}
+        run: python -m ml.features.news_events --${{ github.event.inputs.mode }}
 
       - name: Report status
         if: always()

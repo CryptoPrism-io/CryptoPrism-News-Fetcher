@@ -18,7 +18,7 @@ import statistics
 import psycopg2
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.news_fetcher.fetch_ccv import insert_db  # reuse the exact ingest insert
+from etl.extract.fetch_ccv import insert_db  # reuse the exact ingest insert
 
 
 def conn():

@@ -5,7 +5,7 @@ import pytest
 
 
 def test_lstm_model_forward():
-    from src.models.lstm_extractor import LSTMExtractor
+    from ml.models.lstm_extractor import LSTMExtractor
     model = LSTMExtractor(input_dim=12, hidden_dim=64, embed_dim=12, n_classes=3)
     x = torch.randn(8, 30, 12)
     emb, logits = model(x)
@@ -14,7 +14,7 @@ def test_lstm_model_forward():
 
 
 def test_lstm_model_deterministic():
-    from src.models.lstm_extractor import LSTMExtractor
+    from ml.models.lstm_extractor import LSTMExtractor
     torch.manual_seed(42)
     model = LSTMExtractor(input_dim=12, hidden_dim=64, embed_dim=12, n_classes=3)
     model.eval()
@@ -25,7 +25,7 @@ def test_lstm_model_deterministic():
 
 
 def test_build_sequences():
-    from src.models.lstm_extractor import build_sequences
+    from ml.models.lstm_extractor import build_sequences
     import pandas as pd
     np.random.seed(42)
     n = 60

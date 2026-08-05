@@ -4,13 +4,13 @@
 
 Before writing ANY SQL query, `pd.read_sql`, `psycopg2` query, DB migration, or code that reads/writes PostgreSQL tables:
 
-1. **Invoke the `db-schema-lookup` skill** OR read `src/trading/db_schema_full.json` directly
+1. **Invoke the `db-schema-lookup` skill** OR read `schemas/db_schema_full.json` directly
 2. Confirm which database (dbcp / cp_backtest / cp_backtest_h) has the table you need
 3. Verify column names, date ranges, and row counts match your assumptions
 
 **Why:** This project has three databases where the same table name (e.g. `FE_MOMENTUM_SIGNALS`) exists in multiple DBs with vastly different data — dbcp has a 1-date snapshot (~1K rows), cp_backtest has years of history (~1M rows). Querying the wrong one produces silent failures (null features, empty results, garbage backtests).
 
-**Schema JSON:** `src/trading/db_schema_full.json` (regenerate via `scripts/db_schema_export.py` on GitHub Actions)
+**Schema JSON:** `schemas/db_schema_full.json` (regenerate via `scripts/db_schema_export.py` on GitHub Actions)
 
 **Postgres MCP servers** (live queries — use to verify schema or run exploratory queries):
 - `mcp__postgres__query` → **dbcp** (production)
