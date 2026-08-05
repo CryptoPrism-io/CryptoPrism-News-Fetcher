@@ -59,6 +59,30 @@ jobs:
           conn.close()
           "
 
+      - name: Apply migration 019 — widen news_id to BIGINT (idempotent)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          conn.autocommit = True
+          cur = conn.cursor()
+          cur.execute(\"SELECT data_type FROM information_schema.columns WHERE table_name = 'FE_NEWS_SENTIMENT' AND column_name = 'news_id'\")
+          row = cur.fetchone()
+          if row and row[0] == 'bigint':
+              print('news_id already BIGINT. No-op.')
+          else:
+              print('Applying migration 019 (news_id INTEGER -> BIGINT)...')
+              with open('migrations/019_fe_news_sentiment_news_id_bigint.sql') as f:
+                  cur.execute(f.read())
+              print('Applied.')
+          conn.close()
+          "
+
       - name: Step 1 — Score articles with FinBERT → FE_NEWS_SENTIMENT
         run: |
           FROM_DATE="${{ github.event.inputs.from_date }}"
