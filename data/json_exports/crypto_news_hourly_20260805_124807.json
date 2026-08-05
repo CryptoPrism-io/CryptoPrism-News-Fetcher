@@ -1,0 +1,452 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67987330",
+      "guid": "https://news.bitcoin.com/?p=836958",
+      "published_on": 1785934016,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67987330.jpeg",
+      "title": "Luxembourg Expands FIU Alerts to Crypto Exchanges",
+      "url": "https://news.bitcoin.com/regulation-and-legal/luxembourg-expands-fiu-alerts-to-crypto-exchanges/",
+      "body": "Luxembourg is enacting new legislation that empowers its Financial Intelligence Unit to issue cross-institution fraud alerts to both traditional banks and cryptocurrency exchanges. Targeting Crypto Loopholes Luxembourg is adding cryptocurrency exchanges to its emergency financial alert system under new anti-fraud legislation taking effect Aug. 8, extending broad asset-freezing notices beyond traditional banks as part of",
+      "tags": "Regulation & Legal|Cryptocurrency|Europe|Exchange|Luxembourg",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67987100",
+      "guid": "c5a66431-149b-4068-8c5b-dfb84894ca4a",
+      "published_on": 1785933739,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67987100.jpeg",
+      "title": "Galaxy Digital shares slip 5% after second-quarter results",
+      "url": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
+      "body": "Helios produced data-center revenue for the first time with Phase I expected to generate about $80 million quarterly from Q3.",
+      "tags": "Finance|Galaxy Digital|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67987331",
+      "guid": "https://cryptopotato.com/?p=1444876",
+      "published_on": 1785933731,
+      "imageurl": "https://resources.cryptocompare.com/news/27/67987331.jpeg",
+      "title": "Wall Street Meets Web3: BlackRock, Visa, and Mastercard Back Circle’s New Arc Blockchain",
+      "url": "https://cryptopotato.com/wall-street-meets-web3-blackrock-visa-and-mastercard-back-circles-new-arc-blockchain/",
+      "body": "USDC stablecoin issuer Circle has announced the founding validator cohort for Arc, its open blockchain network. It is currently in private mainnet with more than 100 ecosystem and institutional builders. Circle said the network is on track for a public mainnet launch on September 16, 2026. Behind Circle’s New Blockchain According to the official post, the founding validator group includes BlackRock, The Depository Trust & Clearing Corporation (DTCC), Galaxy, Global Payments, ICE, Mastercard, MoneyGram, SBI Group, Standard Chartered, Sumitomo Corporation and Visa. Circle said the group represents a model in which institutions building on the network also help secure it. The aim is to create a foundation of trusted and globally distributed operators that can support secure and scalable on-chain financial applications. BlackRock is also expected to deploy BUIDL, the BlackRock USD Institutional Digital Liquidity Fund, on Arc through the network’s native USDC integration. The setup is intended to let institutional investors subscribe to, redeem, and deploy fund assets within one on-chain environment. Circle is also working with DTCC to enable the tokenization of assets custodied by The Depository Trust Company on Arc beginning in the second half of 2027. The main objective is to let market participants use third-party applications on the blockchain for stablecoin-native settlement outside DTC against DTC-tokenized assets. DTCC said the integration supports its multi-chain strategy. DTC-tokenized assets will continue to carry the same protections, rights, and safeguards available to investors holding assets traditionally. Commenting on the latest development, Mastercard Chief Product Officer Jorn Lambert said, “As stablecoins and other digital assets move into real-world payments, settlement, and treasury flows, Mastercard is focused on helping customers operate across an increasingly diverse payments ecosystem. Our participation as a founding validator on Arc reflects that commitment — supporting trusted, interoperable infrastructure that can help connect emerging blockchain networks with the broader financial systems businesses rely on every day.” Arc Product Suite Arc is also expected to have a range of applications and services available from day one. DeFi protocols and capital allocators including Aave, Aerodrome, FalconX, Galaxy, GSR, Keyrock, Morpho, Nonco, Uniswap and XFX will support borrowing, trading and on-chain capital deployment. Meanwhile, payment providers Rain, Thunes and Wirex have been tasked with routing stablecoin payment and settlement flows. Binance Wallet, Chainlink, Fireblocks, Kraken, Ledger, MetaMask, Uniswap Labs and Upbit, on the other hand, will enable access to USDC on Arc, custody and cross-chain asset movement. At launch, Circle plans to introduce a product suite around Arc, which includes tools for common on-chain workflows, AI-powered applications and smart contract development, tokenized real-world asset management and interfaces for developers, users and agents. The post Wall Street Meets Web3: BlackRock, Visa, and Mastercard Back Circle’s New Arc Blockchain appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|BlackRock|Circle|Mastercard|USDC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BUSINESS|EXCHANGE|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "67986869",
+      "guid": "https://u.today/solana-sol-secures-new-all-time-high-network-activity-through-the-roof",
+      "published_on": 1785933360,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67986869.jpeg",
+      "title": "Solana (SOL) Secures New All-Time High: Network Activity Through the Roof",
+      "url": "https://u.today/solana-sol-secures-new-all-time-high-network-activity-through-the-roof",
+      "body": "Solana's new all-time high in key network stat is even more important than local price moves on the market.",
+      "tags": "Solana",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67986868",
+      "guid": "https://u.today/xrps-realized-volatility-drops-to-3-month-low-on-binance",
+      "published_on": 1785933033,
+      "imageurl": "https://resources.cryptocompare.com/news/64/67986868.jpeg",
+      "title": "XRP's Realized Volatility Drops to 3-Month Low on Binance",
+      "url": "https://u.today/xrps-realized-volatility-drops-to-3-month-low-on-binance",
+      "body": "XRP is flashing signs of a potential price breakout as its volatility metric falls to multi-month lows on Binance following the prolonged market downturn.",
+      "tags": "XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|MARKET|XRP|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "67986401",
+      "guid": "c23a8545-ae0e-4709-9974-53ec9d0806e3",
+      "published_on": 1785932919,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67986401.jpeg",
+      "title": "AI agent token once worth $2.4 billion ends with founder calling it dead",
+      "url": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
+      "body": "Eliza Labs founder Shaw Walters said the ELIZAOS foundation is closing and holders should sell, ending the token that replaced AI16Z after a lawsuit, rebrand and 97% crash.",
+      "tags": "Markets|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|ADMINISTRATIVE EVENTS|TICKER CHANGE",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67986284",
+      "guid": "https://coinpaper.com/33934/spacex-spcx-stock-soars-10-as-q2-revenue-jumps-92-to-781-billion",
+      "published_on": 1785932788,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "SpaceX (SPCX) Stock Soars 10% as Q2 Revenue Jumps 92% to $7.81 Billion",
+      "url": "https://coinpaper.com/33934/spacex-spcx-stock-soars-10-as-q2-revenue-jumps-92-to-781-billion",
+      "body": "SpaceX shares climbed more than 10% after the company reported stronger-than-expected second-quarter financial results, with revenue nearly doubling from a year earlier. The stock traded at $126.06 at the time of writing after rising steadily throughout the trading session, reflecting positive investor reaction to the company's first earnings report as a public company. The aerospace and technology company reported revenue of $7.81 billion for the second quarter of 2026, up 92% from the same period last year. Net loss narrowed to $541 million from $1.01 billion a year earlier, while adjusted EBITDA increased 191% to $3.54 billion. Investors also focused on the company's expanding AI business, growing Starlink subscriber base, and long-term infrastructure strategy. AI Business and Starlink Drive Revenue Growth SpaceX reported strong growth across its major business segments during the quarter. Starlink generated $4.29 billion in connectivity revenue as the satellite internet service reached 12 million subscribers, double the total recorded a year earlier. The AI division produced $2.56 billion in revenue, representing a 247% year-over-year increase. The segment, however, reported an operating loss of $1.26 billion as the company continued investing heavily in infrastructure. Total capital expenditure reached $18.37 billion during the quarter, with approximately $15.83 billion directed toward AI projects. Launch services generated $962 million in revenue but remained unprofitable during the quarter. Management continued emphasizing the company's transition toward AI infrastructure and digital services while maintaining investments across its space operations. During the earnings call , Chief Operating Officer Gwynne Shotwell said, “On the government side, we won more than $6 billion in U.S. contracts in Q2, supporting major Space Force programs that offer our nation mission-critical communications and sensing capabilities, and we see even more room for growth in this sector in this coming year.” Digital Assets and AI Expansion Remain in Focus SpaceX ended the quarter with digital assets valued at $1.10 billion, compared with approximately $1.64 billion at the end of 2025. The company previously disclosed holdings of 18,712 Bitcoin in its IPO filing. Cash, cash equivalents, and marketable securities totaled approximately $100 billion, while contract backlog reached $47.5 billion. Management also discussed future AI growth during the earnings presentation. The company expects its AI business to become a larger contributor to revenue as additional computing agreements begin generating income. SpaceX has already signed compute capacity agreements with enterprise customers, with additional revenue expected from future AI infrastructure deployments. Chief Executive Officer Elon Musk also announced an exclusive partnership with Nvidia to develop the Starmind AI-1 satellite computing platform. The project will use Nvidia's next-generation Vera Rubin architecture to support orbital AI computing infrastructure. Each satellite will feature Rubin GPUs and Vera CPUs as the company expands computing capacity in low-Earth orbit. Musk said the company selected Nvidia because it represents “the best AI computer.” Analysts Offer Mixed Views Despite Strong Results Several research firms updated their outlook after the earnings release. Mizuho maintained its Outperform rating and kept a $200 price target, citing strong revenue growth, adjusted EBITDA expansion, and continued investment in AI infrastructure. The firm also pointed to management's long-term targets, including higher AI revenue, expanded computing capacity, and continued development of Starship. Management said additional compute lease agreements are expected to contribute billions of dollars in future revenue as enterprise demand continues growing. Piper Sandler maintained a Neutral rating while lowering its price target from $156 to $140. The firm cited valuation concerns, expected growth in tradable shares after future lock-up expirations, elevated capital spending projections, and uncertainty surrounding long-term AI cloud contract performance.",
+      "tags": "News|Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|TRADING|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "67986022",
+      "guid": "https://finbold.com/?p=272909",
+      "published_on": 1785932678,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "Trading expert sets date when Bitcoin price will bottom at $50,000",
+      "url": "https://finbold.com/trading-expert-sets-date-when-bitcoin-price-will-bottom-at-50000/",
+      "body": "Bitcoin ( BTC ) could be on track to establish a major cycle bottom near $50,000 within the next two months, according to a trading analysis. The analysis, shared by TradingShot in a TradingView post on August 5, was based on the Coin Value Days Destroyed (CVDD) indicator, one of the most reliable signals for identifying long-term market lows. The outlook comes as Bitcoin remains in the final stages of its current bear cycle following a sharp decline in June. Since then, BTC has been consolidating around the shifted CVDD level, a pattern that has historically preceded the final downward leg before a cycle low is established. Bitcoin price analysis chart. Source: TradingView TradingShot noted that the actual CVDD is currently near $48,100 and continues to trend slightly lower. Based on historical behavior, a direct test of this level would place Bitcoin’s next major bottom around $50,000. CVDD is an on-chain valuation metric that tracks Coin Days Destroyed, a measure of long-term holder activity, while incorporating the U.S. dollar value of transferred coins. The indicator is widely used to identify periods when Bitcoin is significantly undervalued and approaching a long-term floor. CVDD Bitcoin historical trend Historical data shows the indicator has accurately identified major Bitcoin bottoms across multiple market cycles. The CVDD was tested twice during the 2022 bear market, once during the 2018 and 2020 cycle lows, twice in 2015, and it also aligned closely with Bitcoin’s 2011 bottom. Notably, during the last two bear cycles, the cryptocurrency spent at least four months trading around the CVDD before recovering. In 2015, a touch of the shifted CVDD alone was enough to mark the cycle low, suggesting a direct test of the indicator can establish a market bottom. Based on these patterns, the analyst expects Bitcoin to reach the CVDD zone within the next two months, potentially bottoming near $50,000 before a new bullish phase begins. The analysis also highlights the 50-week moving average . Historically, after Bitcoin bottoms at the CVDD level, a break above the 1W MA50 has confirmed the start of a new bull cycle. Bitcoin’s recovering network activity The bearish outlook contrasts with improving on-chain activity. In this regard, data shared by market analyst Ali Martinez shows Bitcoin network participation is increasing, with weekly active addresses climbing 20% to more than 720,000. Bitcoin $BTC network activity is picking up. Weekly active addresses have jumped 20%, surpassing 720,000. https://t.co/ziyfF8cP6R pic.twitter.com/Sce4AXlCyk — Ali Charts (@alicharts) August 4, 2026 Rising network activity is often viewed as a sign of strengthening user engagement and growing demand for the blockchain. As for price action, Bitcoin continues to trade below the key $65,000 level as the cryptocurrency remains in a period of consolidation. At press time, BTC was trading at $64,066, up nearly 1% over the past 24 hours. The post Trading expert sets date when Bitcoin price will bottom at $50,000 appeared first on Finbold .",
+      "tags": "Cryptocurrency news|Bitcoin|BTC|crypto|cryptocurrency",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "67985395",
+      "guid": "a2f85a50-397a-4424-9d9e-bc1e5a4c0486",
+      "published_on": 1785931928,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67985395.jpeg",
+      "title": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
+      "url": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
+      "body": "The company reported no BTC sales in the second quarter, but shares fell before the open as investors focused on capital spending, free cash flow pressure and a looming insider lockup expiry.",
+      "tags": "Markets|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67985173",
+      "guid": "https://decrypt.co/?p=374947",
+      "published_on": 1785931772,
+      "imageurl": "https://resources.cryptocompare.com/news/44/67985173.jpeg",
+      "title": "Morning Minute: Jim Cramer Sells His Bitcoin Over Quantum Fears",
+      "url": "https://decrypt.co/374947/morning-minute-jim-cramer-sells-his-bitcoin-over-quantum-fears",
+      "body": "The last time he sold was in December 2022 with Bitcoin at $16,800. Will Jim's sales mark the bottom again?",
+      "tags": "|Opinion",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "67985141",
+      "guid": "1acc2480-96c9-4852-8df1-559b888e5b18",
+      "published_on": 1785931745,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67985141.jpeg",
+      "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
+      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+      "body": "The funds bring Yellow Card’s total financing to more than $120 million since being founded 10 years ago.",
+      "tags": "Finance|Stablecoins|banks|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67985533",
+      "guid": "https://www.cryptopolitan.com/?p=300445",
+      "published_on": 1785931627,
+      "imageurl": "https://resources.cryptocompare.com/news/43/67985533.jpeg",
+      "title": "Japan's FSA launches dedicated crypto and stablecoin division on August 7",
+      "url": "https://www.cryptopolitan.com/japan-fsa-launch-crypto-stablecoin-division/",
+      "body": "Japan’s Financial Services Agency (FSA) will launch a dedicated Crypto Assets and Stablecoins Division on August 7, giving the country’s digital-asset firms a single supervisor. The agency is following through on a reorganization it approved back in December 2025, and is a major step forward in the country’s goal to treat crypto like mainstream financial products. What does the new FSA division do? Crypto oversight in Japan has typically been scattered across low-level offices, but the Financial Services Agency will be launching a division with three specialized teams dedicated to the sector, called the Crypto Assets and Stablecoins Division, on August 7. Before the creation of this division , cryptocurrency-related work was handled by the Crypto, Blockchain and Innovation Office and the Crypto Monitoring Office— both of which sat under the Risk Analysis Division of the Comprehensive Policy Bureau. These were small office-level units without much authority or visibility. The new Crypto Assets and Stablecoins Division sits under the newly created Asset Management and Insurance Supervision Bureau, and has more staff, a larger budget, and more authority than the previous administration. The three specialized offices within the division include the Crypto Asset Monitoring Office, the Innovation Promotion Office, and the Digital Payment Planning Office. The FSA said the restructuring is needed to handle new challenges from financial digitalization and to strengthen its ability to supervise financial institutions as technology evolves. The division’s launch will fulfill a promise made eight months ago by Finance Minister Satsuki Katayama when she announced the reorganization plan on December 26, 2025, at a press conference after a cabinet meeting. What else is changing for crypto in Japan? Japan is in the middle of executing a plan that includes reclassifying crypto, cutting taxes, and possibly approving Bitcoin (BTC-USD) ETFs. The new division is part of that plan. Japan has been moving fast to bring crypto under mainstream financial rules. Cryptopolitan previously reported that the country’s parliament passed a law set to take effect in 2027 that reclassifies crypto assets as financial products under the Financial Instruments and Exchange Act (FIEA), rather than the Payment Services Act. The change means that crypto will be treated like stocks and bonds, with stricter rules including bans on insider trading, stricter disclosure requirements, and heavier penalties for unregistered operators, such as up to 10 years in prison (up from 3 years) and fines of up to ¥10 million (about $61,600), up from ¥3 million (about $18,500). The reclassification also lays the foundation for spot crypto ETFs on the Tokyo Stock Exchange, possibly as early as 2027. Finance Minister Satsuki Katayama has said she will push forward on reviewing ETF approvals. Regarding taxes, Cryptopolitan reported that a companion tax proposal expected to apply from January 1, 2028, would cut Japan’s maximum crypto tax from 55% to a flat 20%, matching the rate on stocks. Japan’s three megabanks, MUFG (NYSE: MUFG), Mizuho (NYSE: MFG), and Sumitomo Mitsui (NYSE: SMFG), are already involved in stablecoin experiments under the new framework. Only licensed banks, money transfer providers, and trust companies can issue yen-pegged stablecoins in Japan. The FSA has also been tightening enforcement against offshore platforms. Bitget said this month it would wind down services for Japanese residents, following Bybit’s earlier exit after FSA warnings. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|BTC|ETH|FSA|JPY",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "67985002",
+      "guid": "https://en.bitcoinsistemi.com/crypto-fear-and-greed-index-rises-in-the-last-24-hours-has-it-broken-out-of-the-fear-zone-here-are-t/",
+      "published_on": 1785931568,
+      "imageurl": "https://resources.cryptocompare.com/news/81/67985002.jpeg",
+      "title": "Crypto Fear and Greed Index Rises in the Last 24 Hours! Has It Broken Out of the Fear Zone? Here Are the Details",
+      "url": "https://en.bitcoinsistemi.com/crypto-fear-and-greed-index-rises-in-the-last-24-hours-has-it-broken-out-of-the-fear-zone-here-are-t/",
+      "body": "The Crypto Fear and Greed Index, a key indicator measuring investor sentiment in the cryptocurrency market, has seen a limited recovery in the last 24 hours. According to data published by CoinMarketCap, the index rose 2 points compared to the previous day, reaching 37. Despite this, the indicator remains in the “fear” zone, suggesting a continued cautious approach among investors. The index indicates excessive fear in the market as it approaches zero, and excessive optimism and greed as it approaches 100. The current level of 37 points suggests that while there has been a slight improvement in investor confidence, market participants are still hesitant to take risks. CoinMarketCap considers many different data points affecting the cryptocurrency market when creating its index. The calculation takes into account the price movements of the top 10 cryptocurrencies by market capitalization, overall market volatility, indicators in derivative markets, particularly the put/call ratio, the Stablecoin Supply Ratio (SSR), and search data from CoinMarketCap users. This creates a comprehensive indicator reflecting investor psychology. Analysts note that the limited rise seen in the index indicates a slight easing of panic in the markets. However, the fact that the indicator is still in the fear zone reveals that investors continue to act cautiously due to macroeconomic developments, interest rate policies, and regulatory uncertainties surrounding crypto assets. According to experts, for the improvement in investor sentiment to become permanent, not only psychological indicators but also increased trading volumes and strengthening institutional capital inflows are needed. Funding flows, particularly into spot Bitcoin and Ethereum ETFs, and developments regarding global monetary policies are expected to be decisive in shaping market sentiment in the coming period. While the Crypto Fear and Greed Index isn’t a sufficient indicator for making investment decisions on its own, it’s closely monitored by investors to understand the overall market sentiment. Whether the index can break out of the fear zone in the coming days is considered one of the important signals regarding the direction of the cryptocurrency market. *This is not investment advice. Continue Reading: Crypto Fear and Greed Index Rises in the Last 24 Hours! Has It Broken Out of the Fear Zone? Here Are the Details",
+      "tags": "News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "67985662",
+      "guid": "https://en.coinotag.com/bitcoin-mempool-spikes-to-89031-after-coldcard-hack",
+      "published_on": 1785931528,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67985662.jpeg",
+      "title": "Bitcoin Mempool Spikes to 89,031 After Coldcard Hack",
+      "url": "https://en.coinotag.com/bitcoin-mempool-spikes-to-89031-after-coldcard-hack",
+      "body": "Bitcoin mempool transactions reached 89,031 after the Coldcard wallet hack, while ETF inflows and a firmware flaw reshaped custody debates.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67984755",
+      "guid": "https://timestabloid.com/?p=108727",
+      "published_on": 1785931312,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "How to Earn an Extra $1,500 Daily Using XRPPower’s Intelligent AI System",
+      "url": "https://timestabloid.com/how-to-earn-an-extra-1500-daily-using-xrppowers-intelligent/",
+      "body": "In 2026, the global economy will continue to face numerous challenges. High inflation, slowing consumption, and financial market volatility will cause continued fluctuations in the prices of assets such as stocks, crude oil, and cryptocurrencies. For many families, the cost of living is rising while income growth is struggling to keep pace with expenses. More and more salaried workers, freelancers, and retirees are focusing on how to manage their funds more efficiently and seeking more legal and compliant digital services. Meanwhile, artificial intelligence technology has entered a new stage of development. AI has been widely applied in areas such as data analysis, automated management, and risk monitoring, bringing new possibilities to fintech and gradually moving digital asset management towards a more intelligent and efficient direction. Against this backdrop, XRPPower has comprehensively upgraded its platform, combining AI intelligent technology with automated strategies to launch a brand-new intelligent AI contract solution, hoping to provide users with a simpler and more convenient digital asset management experience. How to Get Started with XRPPower? Using XRPPower is convenient and simple; you can start experiencing intelligent AI services in just a few steps. Step 1: Free Account Registration Quickly create your own XRPPower account using your email address. New users receive a $21 new user bonus upon registration. Step 2: Choose a Suitable Product Plan The platform offers various AI smart contract plans with different amounts and periods. Users can choose the product that best suits their financial planning and needs. Step 3: Deposit with Mainstream Cryptocurrencies XRPPower supports deposits and withdrawals using various mainstream cryptocurrencies, including BTC, ETH, XRP, and USDC, providing a more convenient way for global users to manage their funds. Step 4: View Daily Settlement Records Based on the rules of the selected product, the system will automatically complete daily settlements, and the relevant amount will be credited to your account balance. Users can choose to withdraw according to platform rules or continue to use the funds to purchase other products. Step 5: Share and Invite to Earn Referral Rewards After logging into your account, go to the Dashboard to view your exclusive referral link or registration code. Successfully invite friends to register and meet the platform’s activity rules to receive corresponding referral rewards, with a maximum permanent reward of 5%. Details of Some Popular Contract Returns Investment Amount: $1000, Contract Period: 7 days, Daily Return: $13.20, Principal Return at Maturity: $1000 Investment Amount: $5000, Contract Period: 15 days, Daily Return: $70.50, Principal Return at Maturity: $5000 Investment Amount: $10000, Contract Period: 20 days, Daily Return: $153, Principal Return at Maturity: $10000 Click to view more contract details. Who is XRPPower more suitable for? For busy working professionals, the AI ​​automation system reduces daily management time; for new users who want to learn about digital asset management, they can start by understanding the platform based on their own circumstances and choosing products that suit their needs; for retirees or those who want to optimize the allocation of idle funds, they can also combine personal financial planning to choose product solutions that meet their needs. AI is becoming a crucial tool for digital asset services. The value of AI lies not only in improving efficiency but also in helping platforms optimize data processing, automate execution, and enhance system stability. XRPPower continuously upgrades its systems around intelligence, security, and user experience, aiming to leverage AI technology to provide more convenient digital asset services to users worldwide. According to XRPPower, since its launch in 2023, the platform has accumulated over 3 million registered users. In the future, XRPPower will continue to optimize its AI intelligent system and product experience, continuously improving service quality to provide more intelligent and efficient digital services to users globally. More information: https://xrppower.com/ Media Contact: info@xrppower.com Disclaimer: This is a sponsored press release for informational purposes only. It does not reflect the views of Times Tabloid, nor is it intended to be used as legal, tax, investment, or financial advice. Times Tabloid is not responsible for any financial losses. The post How to Earn an Extra $1,500 Daily Using XRPPower’s Intelligent AI System appeared first on Times Tabloid .",
+      "tags": "Finance|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|SPONSORED|TECHNOLOGY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67984773",
+      "guid": "https://cryptodaily.co.uk/2026/08/india-crypto-reporting-regime-2026",
+      "published_on": 1785931298,
+      "imageurl": "https://resources.cryptocompare.com/news/75/67984773.jpeg",
+      "title": "India Adds Crypto Transactions to Its Reporting Regime",
+      "url": "https://cryptodaily.co.uk/2026/08/india-crypto-reporting-regime-2026",
+      "body": "If you signed up at an Indian crypto exchange this week and got hit with extra questions about your tax residency and a taxpayer ID, that wasn’t a glitch. It’s the new normal. India just pulled crypto transactions into a formal reporting net. The compliance people have been waiting for this. Everyone else is about to feel it in onboarding flows and annual statements. The kicker: from April 1, 2027, India plans to start sharing cross‑border crypto data automatically with other jurisdictions under the OECD’s crypto standard. That changes the privacy calculus for anyone trying to keep trading footprints off the grid. On July 24, 2026, the Central Board of Direct Taxes (CBDT) dropped a 198‑page Guidance Note spelling out how “Reporting Crypto‑Asset Service Providers” (RCASPs) must capture and report crypto transaction data to the Income Tax Department. It plugs directly into Section 509 of the Income‑tax Act, 2025 and its implementing Rules 241–244, and it introduces a new reporting form: Form 167. That’s the operational backbone exchanges and other platforms will now have to use for annual filings. A2Z Taxcorp LLP ; Business Standard . India isn’t banning crypto; it’s hard‑wiring it into a tax and information system that mirrors traditional finance, with cross‑border data pipes built in from the start. Practically, RCASPs must collect users’ tax‑residency information and taxpayer‑identification details, maintain records, and furnish annual reports of specified crypto transactions. The guidance also sets the stage for India to participate in the OECD Crypto‑Asset Reporting Framework (CARF) and to begin automatic exchange of cross‑border crypto data on April 1, 2027. The Economic Times ; Informist Media . Inside the new rules: Section 509, Rules 241–244, and Form 167 What actually changed The Guidance Note operationalizes Section 509 of the Income‑tax Act, 2025 and the related Rules 241–244. It doesn’t invent the policy; it tells platforms how to comply. Central to that is Form 167, the template for furnishing crypto‑transaction information to the tax authority. Think of it like the crypto version of a traditional financial information return. Business Standard . What data RCASPs must collect Per the CBDT guidance, RCASPs are expected to collect and validate: User tax residency (country/territory) Taxpayer identification details (such as a local TIN or equivalent) Transaction‑level information for specified crypto events The record‑keeping duty sits with the platform, not the user. Annual reports then flow to the Income Tax Department. The Economic Times . AreaBefore the guidanceWith the new frameworkLegal anchorHigh‑level provisions; patchy interpretationSection 509 + Rules 241–244 clarified by CBDT Guidance NoteReporting formNo standardized crypto returnForm 167 prescribed for crypto‑transaction reportingUser dataBasic KYC per exchange policyMandatory tax residency and TIN collection for reportable usersCross‑borderAd‑hoc information exchangeOECD CARF alignment; automatic exchange from Apr 1, 2027 Who must report: RCASPs in plain terms Typical entities covered The guidance uses the term Reporting Crypto‑Asset Service Providers. In everyday terms, think centralized exchanges dealing with Indian users, broker‑dealers offering crypto, certain wallet or custody providers that intermediate transactions, and perhaps marketplace operators. If you touch user orders, pricing, custody, or settlement at scale, assume you’re in the blast radius until counsel tells you otherwise. A2Z Taxcorp LLP . Edge cases to watch Decentralized protocols, non‑custodial wallets, and pure software providers may argue they don’t qualify, but that’s where interpretive risk lives. The more a service facilitates a transaction and holds user info, the easier it is for it to be deemed an RCASP. How reporting will work: data flows and timelines The operational loop RCASPs will run Collect user tax‑residency and TIN during onboarding or refresh existing users’ records. Classify transactions that meet the “specified” criteria under the rules. Structure the data according to the fields and logic of Form 167. Maintain audit‑ready records across the year. Furnish the annual report to the Income Tax Department within the prescribed window. Dates worth pinning on your wall MilestoneDateWhat it meansCBDT issues 198‑page Guidance NoteJuly 24, 2026Operational playbook for RCASPs releasedPublic comments on draft guidanceUntil Aug 17, 2026 (reported)Stakeholders can flag implementation snagsForm 167 framework liveFollowing Guidance NoteReporting templates and processes kick inAutomatic cross‑border data exchange under CARFFrom Apr 1, 2027India begins sharing crypto‑transaction data with partner jurisdictions Sources: A2Z Taxcorp LLP ; Ricago ; Informist Media . The cross‑border shift: India signs on to OECD CARF Why CARF matters OECD’s Crypto‑Asset Reporting Framework is the global template many tax authorities are adopting to curb under‑reporting and cross‑border evasion. India’s Guidance Note explicitly aligns with CARF and states the country will participate in the automatic exchange of crypto data from April 1, 2027. That means an Indian resident trading on an offshore exchange that’s also in the CARF club may find their activity mirrored back to India via data pipes. Informist Media . What users should expect More jurisdictional visibility. Less room for arbitrage based on “they’ll never know.” Also, more paperwork: residency self‑certifications, TIN declarations, and occasional re‑verification if your status changes. What this means for Indian users and global platforms For Indian residents Expect extra prompts on exchanges asking for tax residency and your taxpayer number. Annual statements may look more like brokerage composites, with standardized fields to help the platform complete Form 167. If you have accounts abroad, assume those platforms could eventually feed data into India through CARF connections. None of this is tax advice, but it’s common sense to keep clean records and reconcile your trades. For global exchanges and service providers If you serve Indian users, geofencing or not, the safer assumption is you’ll need an India‑ready reporting process. That means mapping your data to Form 167, adjusting KYC to capture tax‑residency and TIN details up front, and preparing for annual filings. The CBDT guidance is long for a reason: it expects robust, audit‑friendly systems. The Economic Times . Header/cover image used with the A2Z Taxcorp story for CBDT’s ‘Guidance Note on Crypto‑Asset Reporting Obligations’ — useful as a visual pointer to the official guidance document (PDF) and its publication. — Source: A2Z Taxcorp LLP Implementation curve: consultation, budgets, and a moving target The consultation window The CBDT and Ministry allowed public comments on the draft guidance, with a reported deadline of August 17, 2026. That’s not just a courtesy. It’s a chance for exchanges, custodians, and compliance vendors to flag things like conflicting data definitions, over‑broad user scopes, or unrealistic deadlines. Ricago . Budgeting for compliance If you’re a platform operator, assume you’ll need engineering cycles to add fields, new data validations, and reporting pipelines. Legal and tax will need bandwidth to interpret edge cases. Support teams will field “why are you asking for my TIN?” tickets. It’s a whole‑of‑company shift, even if the surface area looks like two extra onboarding questions. Expect a few revisions Guidance evolves. The first year usually surfaces mismatches between what’s written and what’s technically possible. That’s fine. Better to implement early with a clear paper trail than wait for the perfect spec that never arrives. Risks & What Could Go Wrong Data accuracy: Bad residency or TIN data cascades into incorrect filings and user friction later. Privacy and security: Centralized storage of sensitive IDs increases breach exposure; encryption and access controls must level up. Scope creep: Over‑broad interpretations could pull in tools and protocols that don’t actually intermediate transactions. Regulatory divergence: If CARF timelines or definitions differ across countries, multi‑jurisdiction platforms face conflicting obligations. Operational load: Smaller exchanges may struggle with the cost and speed of building Form 167 reporting. User experience drag: More KYC steps could push some users off compliant venues and into riskier gray markets. The biggest near‑term risk isn’t the rule itself; it’s rushed, error‑prone implementation that invites penalties and erodes user trust. If you want steady, plain‑English updates as this framework settles, we cover the policy beats and on‑chain fallout at Crypto Daily . Frequently Asked Questions What is Form 167 and why is everyone talking about it? Form 167 is the standardized return RCASPs will use to furnish information on specified crypto transactions to India’s Income Tax Department. It’s the compliance template introduced by the CBDT to turn policy into an annual reporting workflow. Business Standard . Who exactly counts as a Reporting Crypto‑Asset Service Provider (RCASP)? Think centralized exchanges and other intermediaries that facilitate crypto transactions for users and hold relevant data. The exact boundary can get nuanced, but if a business helps users trade, custodies assets, or settles orders, it should assume RCASP responsibilities until clarified. A2Z Taxcorp LLP . What user information will exchanges now request? Platforms will ask for your tax residency and a taxpayer identification number, and they’ll keep transaction‑level records for reporting. This aligns with the CBDT guidance and the broader OECD CARF model. The Economic Times . When does cross‑border crypto data sharing begin for India? According to the guidance, India intends to participate in the automatic exchange of cross‑border crypto transaction data starting April 1, 2027, under the OECD’s CARF system. Informist Media . Is this the same as taxing crypto at new rates? No. This development is about reporting and information exchange, not a new tax rate. It sits alongside India’s existing tax framework; the guidance focuses on who must report what, and how. Can decentralized protocols or self‑custody users ignore this? If there’s no intermediary that meets RCASP criteria and no custodial relationship, reporting obligations may not apply in the same way. But once a platform intermediates or holds user data, reporting can kick in. When in doubt, platforms should seek legal advice; users should keep complete records. How can platforms prepare without over‑collecting user data? Collect only what the guidance requires (residency, TIN, transaction details), implement strong data‑minimization and access controls, and document your rationale. Expect audits to value process discipline as much as raw data. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "67985189",
+      "guid": "https://cointelegraph.com/news/binance-redotpay-lawsuit-alleged-473-million-losses",
+      "published_on": 1785931291,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67985189.jpeg",
+      "title": "Binance sues RedotPay over alleged $473 million user losses: Report",
+      "url": "https://cointelegraph.com/news/binance-redotpay-lawsuit-alleged-473-million-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Binance-linked companies sued RedotPay, accusing it of diverting more than 470,000 Binance Card users under a commercial deal and seeking nearly $473 million in damages.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67984489",
+      "guid": "https://ambcrypto.com/?p=622424",
+      "published_on": 1785931257,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Pump.fun buys back 332M PUMP – Rally continues ONLY IF…",
+      "url": "https://ambcrypto.com/pump-fun-buys-back-332m-pump-rally-continues-only-if/",
+      "body": "Pump.fun's buybacks, whale accumulation, and rising Open Interest strengthened PUMP's rally toward key resistance.",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67984752",
+      "guid": "https://timestabloid.com/?p=108709",
+      "published_on": 1785931256,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "XRP Collateral Supply Shock Loading. Here’s What Is Happening",
+      "url": "https://timestabloid.com/xrp-collateral-supply-shock-loading-heres-what-is-happening/",
+      "body": "XRP could take on a broader role in on-chain finance as lending, borrowing, and collateral services develop on the XRP Ledger. Crypto commentator Zach Rector has highlighted this potential shift in his recent tweet, saying the network is moving toward an infrastructure that could allow both retail users and institutions to use XRP as collateral. Rector said the idea of an XRP supply shock had previously been treated as a meme but claimed the situation could change as new capital market services become available. He focused specifically on the ability to lend and borrow against XRP, describing it as a development that had not previously been available on the XRP Ledger. Rector said these capabilities could begin changing in the second half of 2026 as new infrastructure develops around the network. He pointed to Ripple’s recent strategic investments in UK-based fintech companies ZILO and Licuido as part of this development. XRP Collateral Supply Shock loading… pic.twitter.com/6boFk3o8Ux — Zach Rector (@ZachRector7) August 3, 2026 Ripple Investments Add Institutional Infrastructure According to Rector, the two companies will contribute regulated transfer agency issuance and collateral mobility to capital markets infrastructure built on the XRP Ledger. Licudio focuses on regulated tokenization services, while ZILO develops transfer agency technology designed to manage investment funds and maintain official shareholder records. ZILO also has relationships with established financial institutions, including Citi and State Street, while Fidelity International is connected to the company through its investment activities. Rector linked these developments to the increasing use of the XRP Ledger for tokenized financial products . He specifically referenced Aviva Investors tokenizing its U.S. dollar liquidity fund on the XRP Ledger, describing the move as evidence that institutional activity on the network is expanding. The development of regulated infrastructure could become important if more traditional financial assets move onto blockchain networks. Transfer agency systems can support the administration and ownership records associated with investment funds, while collateral mobility can help financial institutions use tokenized assets across different financial activities. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Rector Expects XRP to Be Locked as Collateral Rector said the expansion of on-chain capital markets could lead both retail participants and institutions to lock XRP as collateral when accessing lending and borrowing services. His central point was that increased use of XRP as collateral could affect the amount of the asset readily available in the market. If XRP is committed to lending and borrowing activities, some of the supply could become temporarily unavailable for other uses. Rector therefore described an “XRP collateral supply shock” as a potential outcome of the infrastructure now being developed. He concluded by saying that most of the cryptocurrency market is not yet focused on these developments and encouraged his audience to pay closer attention to the changes taking place on the XRP Ledger . Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post XRP Collateral Supply Shock Loading. Here’s What Is Happening appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MARKET|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67984418",
+      "guid": "https://en.coin-turk.com/?p=241222",
+      "published_on": 1785931202,
+      "imageurl": "https://resources.cryptocompare.com/news/79/67984418.jpeg",
+      "title": "Ex-LAPD officer Eric Halem sentenced to life for Bitcoin theft and kidnapping",
+      "url": "https://en.coin-turk.com/ex-lapd-officer-eric-halem-sentenced-to-life-for-bitcoin-theft-and-kidnapping/?utm_source=rss&utm_medium=rss&utm_campaign=ex-lapd-officer-eric-halem-sentenced-to-life-for-bitcoin-theft-and-kidnapping",
+      "body": "🚨 Ex-LAPD officer Eric Halem gets life plus 15 years for stealing $350,000 in $BTC. 🚔 Halem and accomplices posed as police, kidnapping a teenager to steal a Bitcoin-loaded hard drive. ⚖️ Judge described the crime as driven by \"sheer and utter greed\" and denied a new trial. 📊 Halem still faces insurance fraud and another crypto-related robbery charge. Continue Reading: Ex-LAPD officer Eric Halem sentenced to life for Bitcoin theft and kidnapping The post Ex-LAPD officer Eric Halem sentenced to life for Bitcoin theft and kidnapping appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "67984270",
+      "guid": "https://cryptonews.com/news/bitcoin-price-prediction-key-levels/",
+      "published_on": 1785930780,
+      "imageurl": "https://resources.cryptocompare.com/news/52/67984270.jpeg",
+      "title": "Bitcoin Price Prediction: Global Stocks Just Hit Record Highs, But Bitcoin Is Stuck Below $64,300 for the Fourth Time",
+      "url": "https://cryptonews.com/news/bitcoin-price-prediction-key-levels/",
+      "body": "In the latest Bitcoin price prediction, it is trading at $64,068.82, down 0.42% in the last 24 hours, holding a narrow band between $63,958 and $64,508, even as global equity markets printed fresh records, a disconnect that deserves attention. The $64,300 level is the short-term line in the sand, and whether BTC reclaims it cleanly or stalls below it will shape positioning for the next several sessions. Here’s what the data actually says about the path ahead. Macro conditions on Aug. 5 were broadly constructive: the S&P 500 and Dow closed at all-time highs, Japan’s Nikkei gained 3.5% and South Korea’s benchmark surged 4.3%, while Brent crude slid toward $78.85 and the U.S. 10-year Treasury yield eased to roughly 4.603%. signs of bottom being in: • price stops going down on bad news (saylor selling millions into 58-60k & $BTC printing higher lows) • crypto native mobile apps starting to pickup real traction (pumpfun revenue up 20% week-over-week, fomo 100k+ users in a week) • institutional… — Ansem (@blknoiz06) August 5, 2026 Historically, cheaper oil and lower yields have lifted non-yielding assets like BTC. U.S. spot Bitcoin ETFs posted $19.6 million in net inflows on Aug. 4 , a modest tailwind after a brutal $265 million outflow day on Aug. Strategy also sold 1,638 BTC for approximately $105 million, small relative to its 842,138 BTC stash, but it removed a reliable bid from the market. The macro setup is supportive; the crypto-native demand picture is not yet confirming it. Discover: Everyone’s Got a Take. Get Free $25 to Actually Trade Yours Bitcoin Price Prediction: Can Bitcoin Break $64,300 and Reclaim Momentum This Week? BTC is sitting at $64,092 on the daily chart, and the structure since the June low around $58,000 has been the most sustained recovery attempt since the broader downtrend began, with price grinding higher over 6 weeks and now pushing into the $64,000 to $65,000 zone which is the first meaningful resistance from the pre-June breakdown. The dotted line around $64,000 to $65,000 is the level that has been capping every push since July, and price is sitting right at it again, making this the third or fourth test of that ceiling without a clean break. Source: BTCUSD / Tradingview The more times a resistance level gets tested without breaking, the more likely it eventually gives way, but equally, every failed attempt adds to the overhead supply sitting there waiting to sell. A daily close above $65,000 held over multiple sessions opens $68,000 first, then $72,000 as the next meaningful resistance from the May breakdown zone, and above that, the picture starts to look more constructive. On the downside, $60,000 is the floor that needs to hold on to any pullback, and the June low at $58,000 is the absolute line that cannot break without the entire recovery from the lows collapsing. Six weeks of higher lows off the June bottom is the most positive structure BTC has printed in months, but it means nothing until $65,000 actually flips. Discover: Your Market Calls Are Worth Something. Start With Free $25 on Kalshi Bitcoin Hyper Targets Early-Mover Upside as Bitcoin Tests Key Levels BTC consolidating below resistance while macro conditions look supportive is exactly the setup that drives capital toward earlier-stage plays with asymmetric upside potential. Spot BTC at this price offers limited near-term return relative to the volatility traders are absorbing, which is why presale infrastructure projects are drawing attention from active allocators who track Bitcoin’s ecosystem closely. Bitcoin Hyper ($HYPER) is positioning itself as the first Bitcoin Layer 2 with Solana Virtual Machine (SVM) integration, delivering sub-second smart contract execution while anchoring to Bitcoin’s security model. The pitch is direct: solve Bitcoin’s core limitations (slow transactions, high fees, zero programmability) without sacrificing trust. The presale has raised $33,002,521.93 at a current token price of $0.0136842, with staking already live. The Decentralized Canonical Bridge for native BTC transfers is a technically meaningful differentiator. The project recently crossed $33M raised , a signal of sustained demand, not a one-session spike. Presales carry real risk: tokens are illiquid until launch, and infrastructure projects face execution risk at every stage. Research the roadmap carefully before committing capital. Research Bitcoin Hyper here. Discover: Get Paid to Be Right, $25 to Start on Kalshi Don’t Miss Out on Our $1,000 USDT Airdrop on ByBit The post Bitcoin Price Prediction: Global Stocks Just Hit Record Highs, But Bitcoin Is Stuck Below $64,300 for the Fourth Time appeared first on Cryptonews .",
+      "tags": "Price Analysis|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "67984167",
+      "guid": "https://cointelegraph.com/news/circle-q2-revenue-misses-wall-street-estimates",
+      "published_on": 1785930518,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67984167.jpeg",
+      "title": "Circle Q2 revenue falls short of Wall Street estimates",
+      "url": "https://cointelegraph.com/news/circle-q2-revenue-misses-wall-street-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Stablecoin issuer Circle reported $701 million in Q2 revenue, missing Wall Street estimates of about $713 million.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785930487,
+    "time_range_start": "2026-08-05 11:48:07",
+    "time_range_end": "2026-08-05 12:48:07"
+  }
+}

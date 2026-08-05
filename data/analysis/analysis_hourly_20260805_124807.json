@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260805_124807",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785930487,
+    "time_range_start": "2026-08-05 11:48:07",
+    "time_range_end": "2026-08-05 12:48:07"
+  },
+  "total_articles": 22,
+  "unique_sources": 16,
+  "unique_categories": 22,
+  "unique_tags": 39,
+  "body_stats": {
+    "avg_length": 1961.36,
+    "min_length": 105,
+    "max_length": 11072
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-05 11:48:38",
+    "newest": "2026-08-05 12:46:56",
+    "time_span_minutes": 58.3
+  },
+  "top_sources": {
+    "CoinDesk": 4,
+    "U.Today": 2,
+    "TimesTabloid": 2,
+    "Cointelegraph": 2,
+    "Bitcoin.com": 1,
+    "Crypto Potato": 1,
+    "Coinpaper": 1,
+    "Finbold": 1,
+    "Decrypt": 1,
+    "Cryptopolitan": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 17,
+    "MARKET": 9,
+    "BTC": 9,
+    "BUSINESS": 7,
+    "TRADING": 7,
+    "EXCHANGE": 6,
+    "REGULATION": 4,
+    "BLOCKCHAIN": 3,
+    "XRP": 2,
+    "BNB": 2,
+    "ASIA": 2,
+    "USDC": 1,
+    "SOL": 1,
+    "ADMINISTRATIVE EVENTS": 1,
+    "TICKER CHANGE": 1
+  },
+  "top_tags": {
+    "News": 10,
+    "Finance": 3,
+    "Cryptocurrency": 2,
+    "Crypto News": 2,
+    "XRP": 2,
+    "Markets": 2,
+    "BTC": 2,
+    "Latest News": 2,
+    "Regulation & Legal": 1,
+    "Europe": 1,
+    "Exchange": 1,
+    "Luxembourg": 1,
+    "Galaxy Digital": 1,
+    "AA News": 1,
+    "BlackRock": 1
+  }
+}
