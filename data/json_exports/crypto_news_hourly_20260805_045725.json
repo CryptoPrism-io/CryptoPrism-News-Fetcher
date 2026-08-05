@@ -1,0 +1,132 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67957803",
+      "guid": "https://en.coinotag.com/ethereum-staking-push-targets-bny-90-percent-fortune-100-reach",
+      "published_on": 1785904892,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67957803.jpeg",
+      "title": "Ethereum Staking Push Targets BNY’s 90% Fortune 100 Reach",
+      "url": "https://en.coinotag.com/ethereum-staking-push-targets-bny-90-percent-fortune-100-reach",
+      "body": "Crypto News BNY (Bank of New York Mellon) moved to bring Ethereum (ETH) staking economics closer to its institutional custody base on Aug. 4, announcing a collaboration with Galaxy Digital that wou...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|FIAT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67956854",
+      "guid": "a26e1a30-15f7-40d4-88c8-15ca50bb925e",
+      "published_on": 1785904336,
+      "imageurl": "https://resources.cryptocompare.com/news/5/67956854.jpeg",
+      "title": "Bitcoin flat at $64,000 as stocks print records and Hormuz deal nears",
+      "url": "https://www.coindesk.com/markets/2026/08/05/bitcoin-flat-at-usd64-000-as-stocks-print-records-and-hormuz-deal-nears",
+      "body": "BTC held near $64,000 as MSCI's world index set another peak and Brent fell toward a Hormuz deal. Ether is the only major down on the week.",
+      "tags": "Markets|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "67956855",
+      "guid": "https://news.bitcoin.com/?p=836836",
+      "published_on": 1785904247,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67956855.jpeg",
+      "title": "Dutch Court Hears Crypto Dispute Kidnapping Case",
+      "url": "https://news.bitcoin.com/regulation-and-legal/dutch-court-hears-crypto-dispute-kidnapping-case/",
+      "body": "Dutch prosecutors charged three men in connection with a May 1 incident in Nieuw-Vennep involving the kidnapping, physical abuse, and extortion of a man over a cryptocurrency dispute. Legal Penalties Under Dutch Law A dispute over cryptocurrency investments escalated into the kidnapping, extortion, and degrading abuse of a man in Nieuw-Vennep, Dutch prosecutors said Aug.",
+      "tags": "Regulation & Legal|Cryptocurrency|Fraud|legal|Netherlands",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67956381",
+      "guid": "https://en.coinotag.com/bitcoin-macro-backdrop-after-sp-500-record",
+      "published_on": 1785903284,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67956381.jpeg",
+      "title": "Bitcoin Macro Backdrop Strengthens After S&P 500 Rises 1.79%",
+      "url": "https://en.coinotag.com/bitcoin-macro-backdrop-after-sp-500-record",
+      "body": "Crypto News Bitcoin (BTC) is entering a stronger risk-asset backdrop after U.S. equity benchmarks closed at fresh records on Tuesday, giving macro-sensitive traders a new reference point for digita...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67955553",
+      "guid": "https://cointelegraph.com/news/bybit-austria-electronic-money-license-europe-payments",
+      "published_on": 1785902596,
+      "imageurl": "https://resources.cryptocompare.com/news/16/67955553.jpeg",
+      "title": "Bybit’s EU payments arm secures Austrian e-money license",
+      "url": "https://cointelegraph.com/news/bybit-austria-electronic-money-license-europe-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Bybit’s Austrian payments subsidiary gained regulatory approval to develop card, merchant, open-banking and person-to-person payment services.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "67955032",
+      "guid": "https://ambcrypto.com/?p=622127",
+      "published_on": 1785902457,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "MYX Finance up 13% after breakout – Can bulls push it past $0.12?",
+      "url": "https://ambcrypto.com/myx-finance-up-13-after-breakout-can-bulls-push-it-past-0-12/",
+      "body": "MYX rallies amid technical breakout, short liquidations, and leveraged longs.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785902245,
+    "time_range_start": "2026-08-05 03:57:25",
+    "time_range_end": "2026-08-05 04:57:25"
+  }
+}
