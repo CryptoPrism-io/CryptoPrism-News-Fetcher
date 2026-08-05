@@ -2,10 +2,11 @@ name: Hourly Crypto News Fetch
 
 on:
   schedule:
-    # Runs every 4 hours at minute 0 (e.g., 0:00, 4:00, 8:00, etc.)
-    # Reduced from hourly to stay within the free CryptoCompare API quota
-    # (max ~100 calls/month; hourly pagination exhausted it within days).
-    - cron: '0 */4 * * *'
+    # Runs once a day at 06:30 UTC, Mon–Fri only (skips weekends).
+    # Reduced from hourly → 4-hourly → daily to stay within the free
+    # CryptoCompare API quota (100 calls/period; ~20 remaining). The cv VM
+    # ingester is the primary always-on pipeline; this is enrichment only.
+    - cron: '30 6 * * 1-5'
 
   # Allow manual trigger
   workflow_dispatch:
