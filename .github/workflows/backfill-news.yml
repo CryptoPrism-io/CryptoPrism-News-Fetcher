@@ -6,11 +6,11 @@ on:
       start_date:
         description: "Start date (YYYY-MM-DD)"
         required: true
-        default: "2026-02-04"
+        default: "2026-07-20"
       end_date:
         description: "End date (YYYY-MM-DD, inclusive)"
         required: true
-        default: "2026-02-25"
+        default: "2026-07-31"
       window_hours:
         description: "Hours per fetch window (smaller = more API calls but safer)"
         required: false
@@ -19,7 +19,7 @@ on:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
 
     steps:
       - name: Checkout repository
@@ -31,8 +31,11 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install dependencies
+      - name: Install base dependencies
         run: pip install -r requirements.txt
+
+      - name: Install ML dependencies (sentiment backfill)
+        run: pip install transformers torch sentencepiece tqdm
 
       - name: Create .env file
         run: |
@@ -48,9 +51,64 @@ jobs:
       - name: Test DB connection
         run: python -c "from src.news_fetcher.db_cc_news import test_connection; ok = test_connection(); exit(0 if ok else 1)"
 
-      - name: Run backfill
+      - name: Apply migration 019 — widen news_id to BIGINT (idempotent)
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          conn.autocommit = True
+          cur = conn.cursor()
+          cur.execute(\"SELECT data_type FROM information_schema.columns WHERE table_name = 'FE_NEWS_SENTIMENT' AND column_name = 'news_id'\")
+          row = cur.fetchone()
+          if row and row[0] == 'bigint':
+              print('news_id already BIGINT. No-op.')
+          else:
+              print('Applying migration 019 (news_id INTEGER -> BIGINT)...')
+              with open('migrations/019_fe_news_sentiment_news_id_bigint.sql') as f:
+                  cur.execute(f.read())
+              print('Applied.')
+          conn.close()
+          "
+
+      - name: Backfill cc_news via CryptoCompare API
         run: |
           python -m src.news_fetcher.backfill \
             --start "${{ github.event.inputs.start_date }}" \
             --end "${{ github.event.inputs.end_date }}" \
             --window-hours "${{ github.event.inputs.window_hours }}"
+
+      - name: Score sentiment backlog (FinBERT → FE_NEWS_SENTIMENT)
+        run: |
+          python -m src.nlp.sentiment --batch-size 64 --from-date "${{ github.event.inputs.start_date }}"
+
+      - name: Regenerate news signals (FE_NEWS_SENTIMENT → FE_NEWS_SIGNALS)
+        run: |
+          python -m src.features.news_signals --from-date "${{ github.event.inputs.start_date }}"
+
+      - name: Report row counts
+        if: always()
+        run: |
+          python -c "
+          from dotenv import load_dotenv; load_dotenv()
+          import os, psycopg2
+          conn = psycopg2.connect(
+              host=os.environ['DB_HOST'], port=os.environ.get('DB_PORT',5432),
+              dbname=os.environ['DB_NAME'], user=os.environ['DB_USER'],
+              password=os.environ['DB_PASSWORD'], sslmode=os.environ.get('DB_SSLMODE','require')
+          )
+          cur = conn.cursor()
+          cur.execute('SELECT COUNT(*) FROM cc_news')
+          print(f'cc_news rows: {cur.fetchone()[0]}')
+          cur.execute('SELECT COUNT(*) FROM \"FE_NEWS_SENTIMENT\"')
+          print(f'FE_NEWS_SENTIMENT rows: {cur.fetchone()[0]}')
+          cur.execute('SELECT COUNT(*) FROM \"FE_NEWS_SIGNALS\"')
+          print(f'FE_NEWS_SIGNALS rows: {cur.fetchone()[0]}')
+          cur.execute('SELECT MAX(timestamp) FROM \"FE_NEWS_SIGNALS\"')
+          print(f'FE_NEWS_SIGNALS latest: {cur.fetchone()[0]}')
+          conn.close()
+          "

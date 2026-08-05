@@ -124,8 +124,23 @@ def fetch_unscored_articles(conn, from_date: str | None, batch_size: int) -> lis
         return cur.fetchall()
 
 
+# cv ingester (fetch_ccv.link_to_id) mints signed 64-bit ids from article URLs;
+# cc_news.id is BIGINT. FE_NEWS_SENTIMENT.news_id is widened to BIGINT in
+# migration 019, but guard anyway so one malformed row can never abort a batch.
+def _is_valid_news_id(value) -> bool:
+    """True if value is a non-None int that fits a Postgres BIGINT (±9.2e18)."""
+    try:
+        return isinstance(value, int) and -2**63 <= value <= 2**63 - 1
+    except TypeError:
+        return False
+
+
 def insert_sentiment_batch(conn, rows: list[dict]):
-    """Write scored rows to FE_NEWS_SENTIMENT. Upsert-safe via ON CONFLICT DO NOTHING."""
+    """Write scored rows to FE_NEWS_SENTIMENT. Upsert-safe via ON CONFLICT DO NOTHING.
+
+    Filters out rows with invalid/out-of-range news_id before executing the
+    batch so a single bad article cannot abort the whole run (log-and-continue).
+    """
     sql = """
         INSERT INTO "FE_NEWS_SENTIMENT" (
             news_id, published_on, title_score, body_score, composite_score,
@@ -137,8 +152,20 @@ def insert_sentiment_batch(conn, rows: list[dict]):
         )
         ON CONFLICT (news_id, model_version) DO NOTHING
     """
+    clean, dropped = [], 0
+    for row in rows:
+        if _is_valid_news_id(row.get("news_id")):
+            clean.append(row)
+        else:
+            dropped += 1
+            log.warning(f"SKIP sentiment row: invalid news_id={row.get('news_id')!r} "
+                        f"(published_on={str(row.get('published_on'))[:30]!r})")
+    if dropped:
+        log.warning(f"Skipped {dropped}/{len(rows)} invalid rows in sentiment batch")
+    if not clean:
+        return
     with conn.cursor() as cur:
-        psycopg2.extras.execute_batch(cur, sql, rows, page_size=500)
+        psycopg2.extras.execute_batch(cur, sql, clean, page_size=500)
     conn.commit()
 
 
