@@ -1,0 +1,132 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "67945363",
+      "guid": "https://news.bitcoin.com/?p=836735",
+      "published_on": 1785893173,
+      "imageurl": "https://resources.cryptocompare.com/news/14/67945363.jpeg",
+      "title": "Ripple Pushes Full XRPL Stack as Tokenized Assets Expand",
+      "url": "https://news.bitcoin.com/featured/ripple-pushes-full-xrpl-stack-as-tokenized-assets-expand/",
+      "body": "Ripple is building issuance, stablecoin, trading, custody, and credit infrastructure as financial institutions adopt tokenized assets. Its XRPL ecosystem links programmable funds with continuous settlement, liquidity, yield, collateral, and compliance tools. Ripple Expands Its Institutional Tokenization Infrastructure Ripple President Monica Long outlined the company’s broader strategy on Aug. 4 after Ripple announced strategic investments in",
+      "tags": "Featured|real-world assets (RWA)|Ripple XRP|tokenization",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|SPONSORED|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "67944982",
+      "guid": "https://en.coinotag.com/xrp-lawsuit-architect-jay-clayton-confirmed-51-47-intelligence-chief",
+      "published_on": 1785892101,
+      "imageurl": "https://resources.cryptocompare.com/news/77/67944982.jpeg",
+      "title": "XRP Lawsuit Architect Jay Clayton Confirmed 51-47 as US Intelligence Chief",
+      "url": "https://en.coinotag.com/xrp-lawsuit-architect-jay-clayton-confirmed-51-47-intelligence-chief",
+      "body": "XRP News Jay Clayton, the former U.S. Securities and Exchange Commission chairman who approved the lawsuit that placed altcoin XRP at the center of American crypto enforcement, has been sworn in as...",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|EXCHANGE|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "67943729",
+      "guid": "https://timestabloid.com/?p=108671",
+      "published_on": 1785891637,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Alibaba’s New Flagship AI Model Coded for 10 Straight Days Without Human Help",
+      "url": "https://timestabloid.com/alibabas-new-flagship-ai-model-coded-for-10-straight-days/",
+      "body": "Alibaba unveiled Qwen3.8-Max on August 3, 2026, its largest and most capable model to date, built around a headline demonstration: the model spent more than ten days autonomously building a complete software project from an empty folder, writing its own code, running its own tests, and merging its own pull requests without a human reviewing each step. Qwen3.8-Max runs 2.4 trillion total parameters using a sparse mixture-of-experts architecture that activates only 95 billion at a time, with a 1-million-token context window. On the crowdsourced Arena.AI leaderboard, it immediately became the highest-ranking Chinese model for text tasks, though it still trails several Anthropic offerings including Claude Fable 5; for vision tasks, it ranked second globally, behind only a Fable 5 variant. Pricing lands at $2 per million input tokens and $6 per million output — roughly three times cheaper than Moonshot’s Kimi K3 and well below what US frontier labs charge, according to OfficeChai’s coverage . The autonomy demonstrations Alibaba is leading with Beyond the 10-day coding run, Alibaba highlighted a chip-design test in which the model autonomously optimized a cryptographic hardware accelerator over roughly 500 turns, cutting the design from 8,298 logic gates to 678 and shrinking the resulting chip’s die area by 81%. In a separate research-reproduction test, the model rebuilt a machine learning paper from zero, running 33 rounds of GPU training over about 125 hours, writing 7,600 lines of code, and then generating 18 improvement ideas that outperformed the original paper’s method — entered into a real online contest against 526 human teams, it beat 87% of the field. The first Max-class model Alibaba has ever open-sourced Every previous Qwen Max-tier release, including Qwen3.7-Max and the Qwen3.8-Max preview that preceded this launch, shipped as a closed, cloud-hosted product only. Alibaba says full open weights for Qwen3.8-Max will follow within a week, alongside a smaller Qwen3.8-27B variant developers can run without a data center — reversing Alibaba’s prior pattern of keeping its top-tier models proprietary while open-sourcing only smaller siblings. Notably, Alibaba has not yet specified the license that will govern those weights, a detail VentureBeat flagged as potentially consequential for enterprise adoption. Why enterprises should treat the headline demos with some caution Alibaba built native compatibility into Qwen3.8-Max for both OpenAI-style and Anthropic-style API clients, letting developers point existing Claude Code or Codex setups directly at the model with minimal reconfiguration — a deliberate move to capture developers already invested in competitors’ tooling. Still, the marquee autonomy demonstrations are vendor-run showcases rather than independently reproduced benchmarks, and enterprises evaluating the model for genuinely unsupervised, multi-day agentic work should treat the specific numbers as a starting point for their own testing rather than a guarantee of comparable real-world performance. What to watch next Whether the promised open-weight release actually lands next week, and under what license. Whether independent benchmarks confirm Qwen3.8-Max’s claimed parity with GPT-5.6 Sol and Fable 5 on agentic tasks. How Alibaba’s Hong Kong-listed shares, which rose 7% on the announcement, respond once the open-weight release actually ships. Sources Alibaba Releases Qwen 3.8 Max, Beats GPT 5.6 Sol and Fable on Many Benchmarks — OfficeChai Qwen3.8-Max Arrives With a Bold Claim: It Outperforms GPT-5.6 Sol Max and Fable 5 on Agentic Computer Use — VentureBeat Alibaba’s AI Model Qwen3.8-Max Made Widely Accessible Ahead of Open-Weights Release — South China Morning Post Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. The post Alibaba’s New Flagship AI Model Coded for 10 Straight Days Without Human Help appeared first on Times Tabloid .",
+      "tags": "Artificial Intelligence (AI)|News|AI",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|TECHNOLOGY|RESEARCH",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "67943756",
+      "guid": "https://ambcrypto.com/?p=622232",
+      "published_on": 1785891612,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Italy’s Intesa Sanpaolo cuts IBIT shares by 94%, doubles down on Ethereum: Details",
+      "url": "https://ambcrypto.com/italys-intesa-sanpaolo-cuts-ibit-shares-by-94-doubles-down-on-ethereum-details/",
+      "body": "Does Intesa's IBIT decline reflect a larger shift in institutional sentiment toward Bitcoin?",
+      "tags": "Global News|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "67945413",
+      "guid": "https://bitcoinworld.co.in/?p=369287",
+      "published_on": 1785891612,
+      "imageurl": "https://resources.cryptocompare.com/news/82/default.png",
+      "title": "Altcoin Season Index Drops to 45: Bitcoin Dominance Strengthens",
+      "url": "https://bitcoinworld.co.in/altcoin-season-index-drops-45-4/",
+      "body": "BitcoinWorld Altcoin Season Index Drops to 45: Bitcoin Dominance Strengthens CoinMarketCap’s Altcoin Season Index fell to 45 on [date], down seven points from the previous day, signaling a continued shift toward Bitcoin dominance in the cryptocurrency market. The index, which measures whether altcoins are outperforming Bitcoin, has been declining over the past week, reflecting changing investor sentiment. Understanding the Altcoin Season Index The Altcoin Season Index is calculated by comparing the price performance of Bitcoin against the top 100 cryptocurrencies by market capitalization, excluding stablecoins and wrapped tokens. When 75% of those top 100 coins outperform Bitcoin over a 90-day period, the market is considered to be in an “altcoin season.” Conversely, a reading below that threshold indicates Bitcoin season, with the index moving closer to 100 representing a stronger altcoin signal. At 45, the index suggests that fewer than half of the top altcoins have managed to beat Bitcoin’s returns over the past three months. This is a notable shift from earlier in the year when altcoins experienced a brief rally, pushing the index above 60. The current level indicates that investors are favoring Bitcoin’s relative stability amid macroeconomic uncertainties. Market Context and Implications The decline in the Altcoin Season Index comes at a time when Bitcoin’s market dominance has been steadily increasing, currently hovering around 55% according to data from TradingView. This trend is often observed during periods of market consolidation or risk-off sentiment, where investors rotate capital from smaller-cap assets into the largest cryptocurrency. Several factors may be contributing to this shift. Regulatory developments in major markets, such as the ongoing discussions around spot Bitcoin ETFs in the United States, have drawn attention to Bitcoin as a more regulated and institutional-friendly asset. Additionally, the upcoming Bitcoin halving event, expected in April 2024, has historically led to increased interest in Bitcoin as investors anticipate a supply squeeze. What This Means for Investors For cryptocurrency traders and investors, the Altcoin Season Index is a useful barometer for market cycles. A reading below 50 suggests that Bitcoin is likely to continue outperforming altcoins in the near term, which may influence portfolio allocation strategies. However, the index is a lagging indicator, reflecting past performance rather than predicting future movements. Historically, altcoin seasons have been characterized by high volatility and significant gains for smaller cryptocurrencies, but they also carry higher risk. In contrast, Bitcoin season often provides a more stable, albeit potentially lower-return, environment. Investors should consider their risk tolerance and investment horizon when interpreting these signals. Conclusion CoinMarketCap’s Altcoin Season Index at 45 underscores the current dominance of Bitcoin in the cryptocurrency market. While this trend may continue in the short term, market conditions can change rapidly. Staying informed through reliable metrics like the Altcoin Season Index can help investors navigate the dynamic crypto landscape with greater confidence. FAQs Q1: What is the Altcoin Season Index? The Altcoin Season Index is a metric by CoinMarketCap that compares Bitcoin’s performance against the top 100 cryptocurrencies (excluding stablecoins and wrapped coins) over a 90-day period. A reading of 75 or above indicates an altcoin season, while lower values suggest Bitcoin season. Q2: Why is the index at 45 significant? A reading of 45 means that fewer than half of the top altcoins have outperformed Bitcoin in the last 90 days. This indicates that Bitcoin is currently the stronger performer, which can influence investor strategy and market sentiment. Q3: How often is the Altcoin Season Index updated? CoinMarketCap updates the index daily, providing a near real-time snapshot of market trends. This allows investors to track shifts in market dynamics as they happen. This post Altcoin Season Index Drops to 45: Bitcoin Dominance Strengthens first appeared on BitcoinWorld .",
+      "tags": "Crypto News|altcoin season|BITCOIN|COINMARKETCAP|CRYPTOCURRENCY|Market Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BTC|BUSINESS|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin World",
+        "img": "https://resources.cryptocompare.com/news/82/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinworld"
+    },
+    {
+      "id": "67945411",
+      "guid": "https://bitcoinworld.co.in/?p=369288",
+      "published_on": 1785891311,
+      "imageurl": "https://resources.cryptocompare.com/news/82/default.png",
+      "title": "Putin Signs Law Regulating Russia’s Crypto Market, Effective September 1",
+      "url": "https://bitcoinworld.co.in/putin-signs-russia-crypto-regulation-law/",
+      "body": "BitcoinWorld Putin Signs Law Regulating Russia’s Crypto Market, Effective September 1 Russian President Vladimir Putin has signed into law a comprehensive bill that brings the country’s cryptocurrency market under formal regulatory oversight, according to local news agency TASS. The legislation, which takes effect on September 1, establishes a legal framework for crypto exchanges, custodians, mining operations, and the issuance and circulation of digital financial assets (DFA). Key Provisions of the New Law The new law mandates that crypto trading operators register with a self-regulatory organization (SRO) and maintain a minimum capital of 15 million rubles (approximately $187,000). However, operators are granted a transition period until July 1, 2027, to comply with the registration requirement, allowing existing businesses to continue operations in the interim. For retail investors, the law imposes an annual limit of 300,000 rubles (around $3,700) per firm for purchasing highly liquid cryptocurrencies through licensed intermediaries. Qualified investors, on the other hand, will be able to trade without such restrictions, reflecting a tiered approach to investor protection. Advertising and Payment Restrictions Advertising cryptocurrencies and using them as a means of payment for goods and services remains prohibited under the new legislation. Exceptions are made for foreign trade settlements and for crypto obtained through mining, which may be used in specific circumstances. Additionally, banks are now required to block fund transfers suspected of being linked to unlicensed crypto trading operators, further tightening oversight. Implications for the Market This regulatory move signals Russia’s intent to integrate the crypto sector into its financial system while maintaining strict controls. By establishing clear rules for exchanges and mining, the government aims to reduce illegal activities and enhance transparency. The tiered access for retail versus qualified investors suggests a cautious approach to consumer protection, while the transition period for operators indicates a pragmatic path toward full compliance. For international observers, Russia’s stance on crypto remains nuanced. While domestic use as payment is restricted, the allowance for cross-border settlements and mining could position the country as a significant player in the global crypto mining industry, particularly given its energy resources. Conclusion The signing of this bill marks a pivotal step in Russia’s regulatory journey with cryptocurrencies. As the law takes effect in September, market participants will be watching closely to see how enforcement unfolds and whether further adjustments are made. For now, the legislation provides a clearer, albeit restrictive, framework for crypto activities in Russia, balancing innovation with state oversight. FAQs Q1: When does the new Russian crypto regulation take effect? The law takes effect on September 1, with some provisions, such as the registration deadline for operators, extended until July 1, 2027. Q2: Can retail investors in Russia buy cryptocurrencies under the new law? Yes, retail investors can buy highly liquid cryptocurrencies through registered intermediaries, but with an annual limit of 300,000 rubles per firm. Qualified investors face no such restrictions. Q3: Is advertising cryptocurrencies allowed in Russia? No, advertising cryptocurrencies remains banned, except for foreign trade settlements and crypto obtained through mining. Using crypto as payment for goods and services is also prohibited. This post Putin Signs Law Regulating Russia’s Crypto Market, Effective September 1 first appeared on BitcoinWorld .",
+      "tags": "Crypto News|CRYPTOCURRENCY|Digital Financial Assets|MINING|REGULATION|Russia",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|MINING|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin World",
+        "img": "https://resources.cryptocompare.com/news/82/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinworld"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1785891076,
+    "time_range_start": "2026-08-05 00:51:16",
+    "time_range_end": "2026-08-05 01:51:16"
+  }
+}
