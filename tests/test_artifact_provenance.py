@@ -17,7 +17,7 @@ import pytest
 # ── C: unique, immutable artifact paths ──────────────────────────────────────
 
 def test_build_artifact_path_is_unique_and_timestamped():
-    from src.models.train_lgbm import build_artifact_path
+    from ml.models.train_lgbm import build_artifact_path
 
     t1 = datetime(2026, 6, 28, 6, 27, 0, tzinfo=timezone.utc)
     t2 = datetime(2026, 7, 5, 2, 0, 0, tzinfo=timezone.utc)
@@ -33,13 +33,13 @@ def test_build_artifact_path_is_unique_and_timestamped():
 # ── B: train-time consistency tripwire ───────────────────────────────────────
 
 def test_assert_feature_consistency_passes_when_aligned():
-    from src.models.train_lgbm import assert_feature_consistency
+    from ml.models.train_lgbm import assert_feature_consistency
 
     assert_feature_consistency(SimpleNamespace(n_features_in_=3), ["a", "b", "c"])
 
 
 def test_assert_feature_consistency_raises_on_mismatch():
-    from src.models.train_lgbm import assert_feature_consistency
+    from ml.models.train_lgbm import assert_feature_consistency
 
     with pytest.raises(ValueError):
         assert_feature_consistency(
@@ -59,7 +59,7 @@ def _write_artifact(path, n_features, feature_names=None):
 
 
 def test_activation_guard_raises_on_row_artifact_skew(tmp_path):
-    from src.models.registry import assert_registry_artifact_consistent
+    from ml.models.registry import assert_registry_artifact_consistent
 
     art = tmp_path / "m.pkl"
     _write_artifact(art, 95)  # model fit on 95
@@ -71,7 +71,7 @@ def test_activation_guard_raises_on_row_artifact_skew(tmp_path):
 
 
 def test_activation_guard_passes_when_consistent(tmp_path):
-    from src.models.registry import assert_registry_artifact_consistent
+    from ml.models.registry import assert_registry_artifact_consistent
 
     art = tmp_path / "m.pkl"
     _write_artifact(art, 3, ["a", "b", "c"])
@@ -79,7 +79,7 @@ def test_activation_guard_passes_when_consistent(tmp_path):
 
 
 def test_activation_guard_proceeds_when_artifact_missing():
-    from src.models.registry import assert_registry_artifact_consistent
+    from ml.models.registry import assert_registry_artifact_consistent
 
     # Missing file → best-effort: warn and proceed (never brick activation).
     assert_registry_artifact_consistent(
@@ -88,7 +88,7 @@ def test_activation_guard_proceeds_when_artifact_missing():
 
 
 def test_activation_guard_accepts_list_valued_features_used(tmp_path):
-    from src.models.registry import assert_registry_artifact_consistent
+    from ml.models.registry import assert_registry_artifact_consistent
 
     art = tmp_path / "m.pkl"
     _write_artifact(art, 2, ["a", "b"])

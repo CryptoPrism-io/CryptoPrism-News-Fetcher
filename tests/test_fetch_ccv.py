@@ -1,6 +1,6 @@
 import importlib
 
-mod = importlib.import_module("src.news_fetcher.fetch_ccv")
+mod = importlib.import_module("etl.extract.fetch_ccv")
 
 
 def test_link_to_id_is_stable_and_signed64():

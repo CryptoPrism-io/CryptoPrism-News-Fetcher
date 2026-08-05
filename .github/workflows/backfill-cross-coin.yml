@@ -54,9 +54,9 @@ jobs:
         run: |
           FROM_DATE="${{ github.event.inputs.from_date }}"
           if [ -n "$FROM_DATE" ]; then
-            python -m src.features.cross_coin --from-date "$FROM_DATE"
+            python -m ml.features.cross_coin --from-date "$FROM_DATE"
           else
-            python -m src.features.cross_coin --backfill
+            python -m ml.features.cross_coin --backfill
           fi
 
       - name: Report status

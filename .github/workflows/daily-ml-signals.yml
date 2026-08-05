@@ -76,7 +76,7 @@ jobs:
           # labels.py without --from-date only computes yesterday, which leaves
           # the val/test windows empty and crashes train_lgbm.py.
           FROM_DATE=$(date -d "60 days ago" +%Y-%m-%d)
-          python -m src.features.labels --from-date "$FROM_DATE"
+          python -m ml.features.labels --from-date "$FROM_DATE"
 
       - name: Step 2 — Refresh training MV (if full pipeline, retrain, or weekly)
         if: |
@@ -84,26 +84,26 @@ jobs:
           github.event.inputs.mode == 'retrain_price' ||
           github.event.inputs.mode == 'retrain_news'  ||
           github.event.schedule == '0 2 * * 0'
-        run: python -m src.features.refresh_mv
+        run: python -m ml.features.refresh_mv
 
       - name: Step 3a — Retrain price-only model
         if: |
           github.event.inputs.mode == 'retrain_price' ||
           github.event.inputs.mode == 'full_pipeline'
-        run: python -m src.models.train_lgbm --mode price_only
+        run: python -m ml.models.train_lgbm --mode price_only
 
       - name: Step 3b — Retrain news-augmented model (manual or weekly Sunday)
         if: |
           github.event.inputs.mode == 'retrain_news'  ||
           github.event.inputs.mode == 'full_pipeline' ||
           github.event.schedule == '0 2 * * 0'
-        run: python -m src.models.train_lgbm --mode news_augmented
+        run: python -m ml.models.train_lgbm --mode news_augmented
 
       - name: Step 3c-ensemble — Retrain ensemble model (weekly Sunday)
         if: |
           github.event.inputs.mode == 'full_pipeline' ||
           github.event.schedule == '0 2 * * 0'
-        run: python -m src.models.train_ensemble
+        run: python -m ml.models.train_ensemble
 
       - name: Save model artifact to cache
         if: |
@@ -185,15 +185,15 @@ jobs:
           "
 
       - name: Step 3d — Refresh inference MV (always — needed for signals_only too)
-        run: python -m src.features.refresh_mv --inference
+        run: python -m ml.features.refresh_mv --inference
 
       - name: Step 4 — Run daily inference → ML_SIGNALS
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
           if [ -n "$DATE_ARG" ]; then
-            python -m src.inference.daily_signals --date "$DATE_ARG"
+            python -m ml.inference.daily_signals --date "$DATE_ARG"
           else
-            python -m src.inference.daily_signals
+            python -m ml.inference.daily_signals
           fi
 
       - name: Report ML_SIGNALS status

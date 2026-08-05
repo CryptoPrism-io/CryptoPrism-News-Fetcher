@@ -10,7 +10,9 @@ on:
       - main
     paths:
       - 'deploy/**'
-      - 'src/news_fetcher/**'
+      - 'etl/extract/**'
+      - 'etl/load/**'
+      - 'crypto_db/**'
       - '.github/workflows/deploy-cv-vm.yml'
 
 permissions:

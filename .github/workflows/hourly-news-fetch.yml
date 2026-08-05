@@ -45,11 +45,11 @@ jobs:
           echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
 
       - name: Test DB connection
-        run: python -c "from src.news_fetcher.db_cc_news import test_connection; ok = test_connection(); exit(0 if ok else 1)"
+        run: python -c "from etl.load.db_cc_news import test_connection; ok = test_connection(); exit(0 if ok else 1)"
 
       - name: Run hourly news fetch
         run: |
-          python -m src.news_fetcher.fetch_hourly
+          python -m etl.extract.fetch_hourly
 
       - name: Upload artifacts (optional)
         if: always()

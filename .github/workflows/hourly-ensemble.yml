@@ -57,9 +57,9 @@ jobs:
         run: |
           DATE_ARG="${{ github.event.inputs.date }}"
           if [ -n "$DATE_ARG" ]; then
-            python -m src.inference.hourly_signals --date "$DATE_ARG"
+            python -m ml.inference.hourly_signals --date "$DATE_ARG"
           else
-            python -m src.inference.hourly_signals
+            python -m ml.inference.hourly_signals
           fi
 
       - name: Monitor — signals + what bot will trade

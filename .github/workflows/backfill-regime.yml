@@ -44,9 +44,9 @@ jobs:
       - name: Run regime backfill
         run: |
           if [ "${{ github.event.inputs.method }}" = "hmm" ]; then
-            python -m src.models.regime --train
+            python -m ml.models.regime --train
           else
-            python -m src.models.regime --backfill-rules
+            python -m ml.models.regime --backfill-rules
           fi
 
       - name: Report status

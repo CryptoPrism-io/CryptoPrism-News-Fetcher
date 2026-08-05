@@ -49,7 +49,7 @@ jobs:
           restore-keys: ensemble-artifacts-
 
       - name: Run embedding backfill
-        run: python -m src.inference.backfill_embeddings --model ${{ github.event.inputs.model }}
+        run: python -m ml.inference.backfill_embeddings --model ${{ github.event.inputs.model }}
 
       - name: Report status
         if: always()

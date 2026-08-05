@@ -16,9 +16,9 @@ echo [3/4] Verifying GPU...
 python -c "import torch; print('CUDA:', torch.cuda.is_available()); print('GPU:', torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'NO GPU')"
 
 echo [4/4] Running FinBERT backfill (GPU, batch=256)...
-python -m src.nlp.sentiment --batch-size 256 --from-date 2025-10-21
+python -m etl.transform.sentiment --batch-size 256 --from-date 2025-10-21
 
 echo.
 echo Done! Now run news_signals aggregation:
-echo   python -m src.features.news_signals --from-date 2025-10-21
+echo   python -m ml.features.news_signals --from-date 2025-10-21
 pause

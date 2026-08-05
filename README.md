@@ -457,10 +457,10 @@ cp .env.example .env
 
 ```bash
 # Test database connection
-python -m src.news_fetcher.db_test
+python -m scripts.legacy.db_test
 
 # Fetch sample news data
-python -m src.news_fetcher.cryptocompare_sample
+python -m scripts.legacy.cryptocompare_sample
 ```
 
 ## ⚙️ Configuration
@@ -553,7 +553,7 @@ Settings → Secrets and variables → Actions → New repository secret
 
 **🧪 Test Database Connection**
 ```bash
-python -m src.news_fetcher.db_test
+python -m scripts.legacy.db_test
 ```
 Verifies PostgreSQL connectivity and credentials.
 
@@ -562,7 +562,7 @@ Verifies PostgreSQL connectivity and credentials.
 
 **📰 Fetch Sample News**
 ```bash
-python -m src.news_fetcher.cryptocompare_sample
+python -m scripts.legacy.cryptocompare_sample
 ```
 Fetches latest cryptocurrency news from CryptoCompare.
 
@@ -591,10 +591,10 @@ Actions → Hourly Crypto News Fetch → Run workflow
 #### 📥 Complete News Pipeline
 
 ```python
-from src.news_fetcher.api_connector import fetch_news
-from src.news_fetcher.data_feature import extract_headlines
-from src.news_fetcher.data_organiser import organise_headlines
-from src.news_fetcher.db_connector import push_headlines
+from etl.extract.api_connector import fetch_news
+from scripts.legacy.data_feature import extract_headlines
+from scripts.legacy.data_organiser import organise_headlines
+from etl.load.db_connector import push_headlines
 
 # 1. Fetch news from API
 news_data = fetch_news("v1/article/list", {"limit": 20})
@@ -964,10 +964,10 @@ python -m pytest tests/test_db_connector.py
 ### Integration Tests
 ```bash
 # Test database connectivity
-python -m src.news_fetcher.db_test
+python -m scripts.legacy.db_test
 
 # Test CryptoCompare API
-python -m src.news_fetcher.cryptocompare_sample
+python -m scripts.legacy.cryptocompare_sample
 ```
 
 ### Manual Testing

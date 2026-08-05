@@ -49,7 +49,7 @@ jobs:
           EOF
 
       - name: Test DB connection
-        run: python -c "from src.news_fetcher.db_cc_news import test_connection; ok = test_connection(); exit(0 if ok else 1)"
+        run: python -c "from etl.load.db_cc_news import test_connection; ok = test_connection(); exit(0 if ok else 1)"
 
       - name: Apply migration 019 — widen news_id to BIGINT (idempotent)
         run: |
@@ -77,18 +77,18 @@ jobs:
 
       - name: Backfill cc_news via CryptoCompare API
         run: |
-          python -m src.news_fetcher.backfill \
+          python -m etl.extract.backfill \
             --start "${{ github.event.inputs.start_date }}" \
             --end "${{ github.event.inputs.end_date }}" \
             --window-hours "${{ github.event.inputs.window_hours }}"
 
       - name: Score sentiment backlog (FinBERT → FE_NEWS_SENTIMENT)
         run: |
-          python -m src.nlp.sentiment --batch-size 64 --from-date "${{ github.event.inputs.start_date }}"
+          python -m etl.transform.sentiment --batch-size 64 --from-date "${{ github.event.inputs.start_date }}"
 
       - name: Regenerate news signals (FE_NEWS_SENTIMENT → FE_NEWS_SIGNALS)
         run: |
-          python -m src.features.news_signals --from-date "${{ github.event.inputs.start_date }}"
+          python -m ml.features.news_signals --from-date "${{ github.event.inputs.start_date }}"
 
       - name: Report row counts
         if: always()

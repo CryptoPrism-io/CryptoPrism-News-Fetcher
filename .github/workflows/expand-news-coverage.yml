@@ -30,13 +30,13 @@ jobs:
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
       - name: Step 1 — Re-map coins with expanded mapper
-        run: python -m src.nlp.remap_coins
+        run: python -m etl.transform.remap_coins
 
       - name: Step 2 — Regenerate FE_NEWS_SIGNALS
-        run: python -m src.features.news_signals
+        run: python -m ml.features.news_signals
 
       - name: Step 3 — Regenerate FE_NEWS_EVENTS
-        run: python -m src.features.news_events --backfill
+        run: python -m ml.features.news_events --backfill
 
       - name: Report status
         if: always()

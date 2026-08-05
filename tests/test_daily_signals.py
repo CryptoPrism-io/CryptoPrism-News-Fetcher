@@ -26,7 +26,7 @@ def test_resolve_features_prefers_artifact_over_registry():
 
     Inference must build X from the artifact's 95, not the registry's 113.
     """
-    from src.inference.daily_signals import resolve_inference_features
+    from ml.inference.daily_signals import resolve_inference_features
 
     artifact_features = [f"f{i}" for i in range(95)]
     artifact = {"features": artifact_features}
@@ -44,7 +44,7 @@ def test_resolve_features_prefers_artifact_over_registry():
 
 def test_resolve_features_accepts_list_valued_registry():
     """features_used may already be a python list (not a JSON string)."""
-    from src.inference.daily_signals import resolve_inference_features
+    from ml.inference.daily_signals import resolve_inference_features
 
     artifact = {"features": ["a", "b", "c"]}
     active = {"model_id": 1, "artifact_path": "x.pkl", "features_used": ["a", "b", "c"]}
@@ -55,7 +55,7 @@ def test_resolve_features_accepts_list_valued_registry():
 def test_resolve_features_falls_back_to_model_when_artifact_lacks_list():
     """Older artifacts without a 'features' key fall back to the model's own
     recorded feature names rather than the registry list."""
-    from src.inference.daily_signals import resolve_inference_features
+    from ml.inference.daily_signals import resolve_inference_features
 
     class _FakeModel:
         feature_name_ = ["m0", "m1", "m2", "m3"]
@@ -80,7 +80,7 @@ def test_inference_matrix_width_matches_model_and_does_not_crash():
     lgb = pytest.importorskip("lightgbm")
     import pandas as pd
 
-    from src.inference.daily_signals import resolve_inference_features
+    from ml.inference.daily_signals import resolve_inference_features
 
     rng = np.random.default_rng(0)
     n_model_feats = 95

@@ -6,7 +6,7 @@ import pytest
 
 def test_rolling_ols_basic():
     """Rolling OLS on synthetic data recovers known beta."""
-    from src.features.btc_residuals import rolling_ols
+    from ml.features.btc_residuals import rolling_ols
 
     np.random.seed(42)
     n = 60 * 24  # 60 days hourly
@@ -26,7 +26,7 @@ def test_rolling_ols_basic():
 
 def test_rolling_ols_short_series():
     """Returns NaN for windows shorter than lookback."""
-    from src.features.btc_residuals import rolling_ols
+    from ml.features.btc_residuals import rolling_ols
 
     btc_ret = np.random.normal(0, 0.01, 100)
     coin_ret = np.random.normal(0, 0.01, 100)
@@ -36,7 +36,7 @@ def test_rolling_ols_short_series():
 
 def test_residual_vol_ratio():
     """Residual vol ratio between 0 and 1."""
-    from src.features.btc_residuals import compute_residual_vol_ratio
+    from ml.features.btc_residuals import compute_residual_vol_ratio
 
     np.random.seed(42)
     residuals = np.random.normal(0, 0.005, 720)
@@ -47,7 +47,7 @@ def test_residual_vol_ratio():
 
 def test_compute_for_slug():
     """End-to-end: compute residuals for a single coin."""
-    from src.features.btc_residuals import compute_for_slug
+    from ml.features.btc_residuals import compute_for_slug
 
     np.random.seed(42)
     n = 60 * 24

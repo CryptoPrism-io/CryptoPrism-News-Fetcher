@@ -45,8 +45,8 @@ jobs:
           [ -n "$SSLMODE" ] && echo "DB_SSLMODE=$SSLMODE" >> .env || true
 
       - name: Run trading cycle
-        run: python -m src.trading.spot_bot --run
+        run: python -m ml.trading.spot_bot --run
 
       - name: Show status
         if: always()
-        run: python -m src.trading.spot_bot --status
+        run: python -m ml.trading.spot_bot --status

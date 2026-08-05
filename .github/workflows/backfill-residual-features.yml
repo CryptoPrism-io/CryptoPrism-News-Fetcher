@@ -63,7 +63,7 @@ jobs:
           "
 
       - name: Run residual features backfill
-        run: python -m src.features.residual_features --backfill
+        run: python -m ml.features.residual_features --backfill
 
       - name: Report status
         if: always()
