@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260806_092127",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1786004487,
+    "time_range_start": "2026-08-06 08:21:27",
+    "time_range_end": "2026-08-06 09:21:27"
+  },
+  "total_articles": 24,
+  "unique_sources": 13,
+  "unique_categories": 28,
+  "unique_tags": 27,
+  "body_stats": {
+    "avg_length": 3199.25,
+    "min_length": 81,
+    "max_length": 12260
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-06 08:21:27",
+    "newest": "2026-08-06 09:16:07",
+    "time_span_minutes": 54.67
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "Bitzo": 4,
+    "coinpedia": 3,
+    "Crypto Daily": 2,
+    "AMB Crypto": 2,
+    "Coinpaper": 2,
+    "BitcoinSistemi": 1,
+    "TimesTabloid": 1,
+    "Coinpaprika": 1,
+    "Invezz": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 16,
+    "MARKET": 14,
+    "TRADING": 10,
+    "REGULATION": 7,
+    "BTC": 6,
+    "ALTCOIN": 5,
+    "FIAT": 4,
+    "COMMODITY": 3,
+    "MACROECONOMICS": 3,
+    "BLOCKCHAIN": 3,
+    "SOL": 2,
+    "XRP": 2,
+    "ASIA": 2,
+    "BUSINESS": 2,
+    "SECURITY INCIDENTS": 2
+  },
+  "top_tags": {
+    "News": 7,
+    "Altcoin": 3,
+    "More News": 3,
+    "Breaking News": 3,
+    "Social": 2,
+    "Trading View": 2,
+    "ambcrypto": 2,
+    "Crypto": 2,
+    "Financial Markets": 2,
+    "Cryptocurrency News": 1,
+    "Guest Post": 1,
+    "Cryptocurrency": 1,
+    "CLARITY Act": 1,
+    "Elizabeth Warren": 1,
+    "XRP": 1
+  }
+}
