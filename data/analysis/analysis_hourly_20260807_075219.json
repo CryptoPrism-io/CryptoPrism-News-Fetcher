@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260807_075219",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1786085539,
+    "time_range_start": "2026-08-07 06:52:19",
+    "time_range_end": "2026-08-07 07:52:19"
+  },
+  "total_articles": 23,
+  "unique_sources": 17,
+  "unique_categories": 30,
+  "unique_tags": 35,
+  "body_stats": {
+    "avg_length": 2376.74,
+    "min_length": 83,
+    "max_length": 10771
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-08-07 07:00:00",
+    "newest": "2026-08-07 07:45:29",
+    "time_span_minutes": 45.48
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "Crypto Daily": 3,
+    "AMB Crypto": 2,
+    "Finbold": 1,
+    "CoinDesk": 1,
+    "Crypto Potato": 1,
+    "BitcoinSistemi": 1,
+    "U.Today": 1,
+    "Bitzo": 1,
+    "Cryptopolitan": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 21,
+    "MARKET": 10,
+    "TRADING": 8,
+    "BTC": 7,
+    "REGULATION": 6,
+    "BUSINESS": 5,
+    "BLOCKCHAIN": 4,
+    "XRP": 4,
+    "MACROECONOMICS": 3,
+    "ALTCOIN": 3,
+    "SPONSORED": 3,
+    "ETH": 2,
+    "COMMODITY": 2,
+    "EXCHANGE": 2,
+    "TECHNOLOGY": 2
+  },
+  "top_tags": {
+    "News": 4,
+    "XRP": 2,
+    "Crypto News": 2,
+    "Altcoin": 2,
+    "Breaking News": 2,
+    "Bitcoin (BTC)": 2,
+    "More News": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "ambcrypto": 2,
+    "Cryptocurrency News": 2,
+    "Altcoins": 2,
+    "Cryptocurrency news": 1,
+    "crypto": 1,
+    "cryptocurrency": 1
+  }
+}
