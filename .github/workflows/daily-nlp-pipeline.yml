@@ -101,6 +101,10 @@ jobs:
             python -m ml.features.news_signals
           fi
 
+      - name: Step 3 — Regenerate structured events → FE_NEWS_EVENTS (incremental)
+        run: |
+          python -m ml.features.news_events --incremental
+
       - name: Report row counts
         if: always()
         run: |
@@ -119,5 +123,8 @@ jobs:
           print(f'FE_NEWS_SIGNALS rows: {cur.fetchone()[0]}')
           cur.execute('SELECT MAX(timestamp) FROM \"FE_NEWS_SIGNALS\"')
           print(f'FE_NEWS_SIGNALS latest: {cur.fetchone()[0]}')
+          cur.execute('SELECT COUNT(*), MAX(timestamp) FROM \"FE_NEWS_EVENTS\"')
+          ev = cur.fetchone()
+          print(f'FE_NEWS_EVENTS rows: {ev[0]}, latest: {ev[1]}')
           conn.close()
           "
