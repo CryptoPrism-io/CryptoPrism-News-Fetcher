@@ -164,6 +164,7 @@ TITLE_NAME_TO_SLUG = {
     "cardano": "cardano", "polkadot": "polkadot", "chainlink": "chainlink",
     "avalanche": "avalanche-2", "dogecoin": "dogecoin", "shiba inu": "shiba-inu",
     "ripple": "ripple", "litecoin": "litecoin", "uniswap": "uniswap",
+    "xrp": "ripple", "xrp token": "ripple", "xrp news": "ripple", "xrp price": "ripple",
     "cosmos": "cosmos", "stellar": "stellar", "filecoin": "filecoin",
     "aptos": "aptos", "arbitrum": "arbitrum", "optimism": "optimism",
     "toncoin": "the-open-network", "hedera": "hedera-hashgraph",
@@ -184,11 +185,16 @@ TITLE_NAME_TO_SLUG = {
     "immutable": "immutable-x", "mantle": "mantle", "pyth": "pyth-network",
 }
 
-_TITLE_PATTERNS = {
-    slug: re.compile(r'\b' + re.escape(name) + r'\b', re.IGNORECASE)
-    for name, slug in TITLE_NAME_TO_SLUG.items()
-    if len(name) > 3  # skip short names to avoid false positives
-}
+# Title patterns per slug. Multiple names can map to one slug (e.g. ripple/xrp),
+# so we keep a LIST of compiled patterns per slug and match any of them.
+_TITLE_PATTERNS: dict[str, list[re.Pattern]] = {}
+for _name, _slug in TITLE_NAME_TO_SLUG.items():
+    # Skip short generic words (>=3 chars allowed only for unambiguous tickers);
+    # all names here are >=3 chars, which is safe for this explicit ticker list.
+    if len(_name) >= 3:
+        _TITLE_PATTERNS.setdefault(_slug, []).append(
+            re.compile(r'\b' + re.escape(_name) + r'\b', re.IGNORECASE)
+        )
 
 # Broad market categories that map to BTC as market proxy
 MARKET_PROXY_CATEGORIES = {
@@ -234,8 +240,10 @@ def map_categories_to_slugs(categories_str: str, include_market_proxy: bool = Fa
     # Title/body matching for additional coverage
     search_text = f"{title} {body[:500] if body else ''}"
     if search_text.strip():
-        for slug, pattern in _TITLE_PATTERNS.items():
-            if slug not in slugs and pattern.search(search_text):
+        for slug, patterns in _TITLE_PATTERNS.items():
+            if slug in slugs:
+                continue
+            if any(p.search(search_text) for p in patterns):
                 slugs.append(slug)
 
     # If no specific coin found but article is market-wide, tag as BTC proxy
