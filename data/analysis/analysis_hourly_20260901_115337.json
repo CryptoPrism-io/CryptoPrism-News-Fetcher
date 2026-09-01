@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260901_115337",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1788260017,
+    "time_range_start": "2026-09-01 10:53:37",
+    "time_range_end": "2026-09-01 11:53:37"
+  },
+  "total_articles": 38,
+  "unique_sources": 18,
+  "unique_categories": 30,
+  "unique_tags": 61,
+  "body_stats": {
+    "avg_length": 2382.95,
+    "min_length": 37,
+    "max_length": 11769
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-01 10:53:45",
+    "newest": "2026-09-01 11:47:07",
+    "time_span_minutes": 53.37
+  },
+  "top_sources": {
+    "Coinpaper": 6,
+    "coinpedia": 5,
+    "CoinTurk News": 4,
+    "CoinOtag": 4,
+    "Bitcoin World": 4,
+    "Crypto Daily": 2,
+    "cryptonews": 2,
+    "BitcoinSistemi": 1,
+    "Finbold": 1,
+    "Bitcoin.com": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 27,
+    "TRADING": 21,
+    "MARKET": 14,
+    "BUSINESS": 13,
+    "BTC": 11,
+    "XRP": 8,
+    "REGULATION": 8,
+    "EXCHANGE": 6,
+    "MACROECONOMICS": 6,
+    "ASIA": 4,
+    "BLOCKCHAIN": 4,
+    "ETH": 3,
+    "ALTCOIN": 3,
+    "FIAT": 3,
+    "WALLET": 2
+  },
+  "top_tags": {
+    "News": 11,
+    "Crypto News": 6,
+    "Crypto": 3,
+    "Ripple (XRP)": 3,
+    "Price Analysis": 3,
+    "Business": 3,
+    "More News": 3,
+    "Bitcoin": 2,
+    "Short News": 2,
+    "Altcoins": 2,
+    "Crypto Daybook Americas": 2,
+    "Forex News": 2,
+    "presales": 2,
+    "XRP": 2,
+    "Analysis": 1
+  }
+}
