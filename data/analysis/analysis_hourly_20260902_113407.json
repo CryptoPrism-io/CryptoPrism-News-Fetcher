@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260902_113407",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1788345247,
+    "time_range_start": "2026-09-02 10:34:07",
+    "time_range_end": "2026-09-02 11:34:07"
+  },
+  "total_articles": 25,
+  "unique_sources": 16,
+  "unique_categories": 21,
+  "unique_tags": 39,
+  "body_stats": {
+    "avg_length": 1822.6,
+    "min_length": 37,
+    "max_length": 6514
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-02 10:34:09",
+    "newest": "2026-09-02 11:25:37",
+    "time_span_minutes": 51.47
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "CoinDesk": 3,
+    "Finbold": 2,
+    "Crypto Daily": 2,
+    "TimesTabloid": 2,
+    "Huobi blog": 1,
+    "Cryptopolitan": 1,
+    "U.Today": 1,
+    "AMB Crypto": 1,
+    "Crypto Potato": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 24,
+    "TRADING": 12,
+    "MARKET": 10,
+    "BTC": 9,
+    "FIAT": 7,
+    "REGULATION": 6,
+    "EXCHANGE": 5,
+    "XRP": 5,
+    "BUSINESS": 5,
+    "SPONSORED": 4,
+    "ALTCOIN": 4,
+    "ETH": 3,
+    "BNB": 2,
+    "USDT": 2,
+    "ZRX": 1
+  },
+  "top_tags": {
+    "News": 8,
+    "XRP": 5,
+    "Crypto News": 3,
+    "Cryptocurrency news": 2,
+    "crypto": 2,
+    "cryptocurrency": 2,
+    "Cryptocurrency News": 2,
+    "Finance": 2,
+    "Crypto Daybook Americas": 2,
+    "Price Analysis": 2,
+    "Stocks news": 1,
+    "Binance": 1,
+    "XRPL": 1,
+    "Breaking News": 1,
+    "HTX Evolve": 1
+  }
+}
