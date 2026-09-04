@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260904_113317",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1788517997,
+    "time_range_start": "2026-09-04 10:33:17",
+    "time_range_end": "2026-09-04 11:33:17"
+  },
+  "total_articles": 30,
+  "unique_sources": 16,
+  "unique_categories": 25,
+  "unique_tags": 38,
+  "body_stats": {
+    "avg_length": 1092.17,
+    "min_length": 91,
+    "max_length": 4630
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-04 10:33:20",
+    "newest": "2026-09-04 11:20:20",
+    "time_span_minutes": 47.0
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "CoinOtag": 5,
+    "Coinpaper": 4,
+    "Cointelegraph": 2,
+    "coinpedia": 2,
+    "Crypto Daily": 1,
+    "BitcoinSistemi": 1,
+    "TimesTabloid": 1,
+    "AMB Crypto": 1,
+    "Coinpaprika": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 21,
+    "TRADING": 11,
+    "MARKET": 7,
+    "BTC": 6,
+    "FIAT": 6,
+    "ETH": 5,
+    "REGULATION": 5,
+    "XRP": 4,
+    "BNB": 4,
+    "WALLET": 3,
+    "BUSINESS": 3,
+    "SHIB": 2,
+    "EXCHANGE": 2,
+    "MACROECONOMICS": 2,
+    "USDT": 1
+  },
+  "top_tags": {
+    "News": 9,
+    "Crypto News": 6,
+    "Crypto": 4,
+    "Cryptocurrency News": 3,
+    "Latest News": 2,
+    "Cryptocurrency": 2,
+    "Short News": 2,
+    "Bitcoin (BTC)": 2,
+    "Shiba (SHIB)": 1,
+    "Ripple (XRP)": 1,
+    "More News": 1,
+    "Altcoin": 1,
+    "Exchange": 1,
+    "XRP": 1,
+    "XRP Ledger": 1
+  }
+}
