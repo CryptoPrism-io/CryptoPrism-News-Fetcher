@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260907_125301",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1788781981,
+    "time_range_start": "2026-09-07 11:53:01",
+    "time_range_end": "2026-09-07 12:53:01"
+  },
+  "total_articles": 20,
+  "unique_sources": 13,
+  "unique_categories": 28,
+  "unique_tags": 34,
+  "body_stats": {
+    "avg_length": 1603.4,
+    "min_length": 62,
+    "max_length": 6379
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-07 11:57:18",
+    "newest": "2026-09-07 12:49:42",
+    "time_span_minutes": 52.4
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "Coinpaper": 3,
+    "Cointelegraph": 2,
+    "CoinDesk": 2,
+    "Cryptopolitan": 1,
+    "Decrypt": 1,
+    "coinpedia": 1,
+    "BitcoinSistemi": 1,
+    "AMB Crypto": 1,
+    "Bitzo": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 17,
+    "MARKET": 10,
+    "TRADING": 7,
+    "BTC": 6,
+    "XRP": 5,
+    "ETH": 5,
+    "EXCHANGE": 3,
+    "ASIA": 3,
+    "REGULATION": 3,
+    "BNB": 2,
+    "ALTCOIN": 2,
+    "FIAT": 2,
+    "MACROECONOMICS": 2,
+    "BUSINESS": 2,
+    "BLOCKCHAIN": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "Crypto": 3,
+    "XRP": 2,
+    "": 2,
+    "Markets": 2,
+    "Regulation": 1,
+    "BTC": 1,
+    "ETH": 1,
+    "KRW": 1,
+    "Law and Order": 1,
+    "Cryptocurrency Price Prediction": 1,
+    "Price Prediction": 1,
+    "Analysis": 1,
+    "Bitcoin": 1,
+    "Economy": 1
+  }
+}

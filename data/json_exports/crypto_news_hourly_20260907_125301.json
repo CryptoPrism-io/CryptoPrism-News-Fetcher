@@ -1,0 +1,412 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "71147100",
+      "guid": "https://coinpaper.com/35404/bitcoin-price-prediction-can-bitcoin-reclaim-100k-before-year-end",
+      "published_on": 1788785382,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Bitcoin Price Prediction: Can Bitcoin Reclaim $100K Before Year-End?",
+      "url": "https://coinpaper.com/35404/bitcoin-price-prediction-can-bitcoin-reclaim-100k-before-year-end",
+      "body": "Bitcoin is trading near $79,800 after failing to hold its weekend push above $80,000, putting the $78,500-$79,000 support region back in focus. The technical setup and Binance liquidation data suggest BTC may need to test lower liquidity before bulls can make a stronger attempt toward $83,000-$84,000. Bitcoin’s $80,500 Rejection Brings $78,500 Into Focus Bitcoin’s latest pullback followed a move into a resistance area around $80,500 that crypto trader Kaz had identified as a possible rejection point. The Sunday advance stalled near that zone before BTC turned lower around the start of Monday’s Asian session. Bitcoin BTC $80.5K Rejection and $78.5K Support. Source: Kaz (@XBTkaz) on X The chart places the next important level near $78,562, with a broader demand zone extending from roughly $78,000 to $78,500. That area could determine whether the current decline remains a pullback within a potential recovery structure or develops into a deeper correction. Kaz is watching the $78,500 level and the zone immediately below it for a possible long setup, with an eventual upside objective around $83,000-$84,000. That bullish scenario needs confirmation rather than simply a touch of support. A dip toward $78,500 followed by a strong rebound would show buyers defending the area. BTC would then need to reclaim $80,500, turning the recent rejection level into support, to strengthen the case for further upside. A decisive break below the highlighted demand zone would weaken the setup and invalidate the immediate path projected on the chart. Bitcoin Liquidation Heatmap Highlights $79K and $80.6K Liquidity The Binance BTC/USDT 24-hour liquidation heatmap provides additional context for the technical setup, showing significant leveraged positioning both above and below Bitcoin’s current price. Binance BTC/USDT 24-Hour Liquidation Heatmap. Source: CoinGlass The heatmap shows one of the strongest nearby liquidity concentrations around $78,900-$79,000. Another prominent band sits around $80,600-$80,800, close to the resistance zone that recently rejected Bitcoin. Additional liquidity is visible higher around $81,000-$81,500 and near $83,000, while another cluster sits in the low-$78,000 region. Liquidation heatmaps identify price areas where leveraged positions could be forced to close. These concentrations can attract attention because reaching them may accelerate volatility, but they are not guaranteed price targets. With Bitcoin trading at about $79,829 at the time of writing, according to CoinMarketCap, BTC remains positioned between the major nearby liquidity pools. That creates a relatively clear short-term battle. A move below $79,000 could expose the $78,500 support area and potentially the lower demand zone. Conversely, a recovery above $80,500-$80,800 could force attention toward liquidity around $81,000 and higher. Bitcoin Price Prediction: Can BTC Reach $83,000? The immediate Bitcoin price outlook depends heavily on the reaction around $78,500-$79,000. If buyers defend that region and BTC subsequently reclaims $80,500, the technical structure would improve and the $83,000-$84,000 target could come back into play. If $78,500 fails decisively, however, the bullish continuation setup would lose strength and Bitcoin could spend more time searching for support below the current range.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|TRADING|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "71146613",
+      "guid": "https://www.cryptopolitan.com/?p=309132",
+      "published_on": 1788785110,
+      "imageurl": "https://resources.cryptocompare.com/news/43/71146613.jpeg",
+      "title": "South Korean crypto holders must still report even if overseas crypto exchanges collapse",
+      "url": "https://www.cryptopolitan.com/korea-oversea-crypto-account-exchange-fails/",
+      "body": "South Korea’s National Tax Service ruled on August 28 that a resident who holds crypto at an overseas exchange must still declare that account under the country’s foreign-account disclosure rules. The rule still applies even when the overseas exchange collapses and locks the holder out of trading or withdrawals. The rule lands months before Seoul begins taxing crypto gains in January 2027. Why did South Korea ask users to report holdings even if crypto exchanges collapse? A question asked by a Korean resident was what gave rise to the latest ruling. The resident was a creditor of an overseas crypto exchange that went bankrupt in November 2022. According to the National Tax Service, the resident held token balances on the platform before the collapse. Later, they joined the estate’s distribution process and began receiving partial payouts into a domestic foreign-currency account. The resident then asked the tax agency if reporting overseas financial accounts under Article 53 of Korea’s Act on International Tax Adjustment still applies in the event of an account getting stuck in bankruptcy limbo, where they cannot trade or withdraw; the tax agency said yes. The agency said that an account opened with a foreign virtual-asset service provider retains the reporting obligation, and the duty survives the operator’s bankruptcy. What the disclosure rule actually requires Korean residents and domestic companies must report their overseas financial accounts when the combined balance tops 500 million won, which is around $350,000, on any month-end during the year. The filings must identify the foreign institution, the account, and the balance. Digital assets have counted toward this regime since the 2023 reporting cycle. However, self-custody wallets are not included, as they are not accounts opened with a service provider. This time around, the new ruling extends that line to say that insolvency does not release an exchange from disclosure, even when the holder has effectively lost control of the assets. A valuation headache for frozen balances Reporting an account is not the same as owing tax on it. However, some Koreans may struggle to prove that the balances on their overseas exchange accounts are already gone or inaccessible. This is because the interface of a bankrupt exchange may still show a customer’s original token balance long after the estate has become unable to return the full amount. In some cases, the amount that later gets distributed is a fraction of the original balance. This exercise can take years, and an example is the FTX estate , which only began paying creditors long after customers lost access to their funds. According to the tax agency , Koreans reported 10.5 trillion won in overseas digital assets during the 2026 cycle; this is a 5.4% decline from a year earlier. Separate from the 22% tax landing in 2027 The disclosure rules are not the same as the levy on crypto profits , although the latter is yet to come into force, as Cryptopolitan reports. From January 1, 2027, the country plans a combined 22% rate, 20% national plus 2% local, on annual gains above 2.5 million won. So far, the tax agency has not shared how it intends to handle staking, airdrops, or how acquisition costs are calculated. Critics say that defining new taxable events by administrative notice is in opposition to Korea’s “no taxation without law” principle. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "Regulation|BTC|ETH|KRW|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "71146552",
+      "guid": "https://decrypt.co/?p=377546",
+      "published_on": 1788785030,
+      "imageurl": "https://resources.cryptocompare.com/news/44/71146552.jpeg",
+      "title": "Irish Gangs Are Renting Private Vaults to Hide Crypto Keys",
+      "url": "https://decrypt.co/377546/irish-gangs-are-renting-private-vaults-to-hide-crypto-keys",
+      "body": "Keys are going into rented boxes alongside cash, watches and passports, Ireland’s Criminal Assets Bureau says.",
+      "tags": "||Law and Order",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "71146426",
+      "guid": "https://coinpaper.com/35402/analyst-predicts-xrp-could-surge-342-as-bullish-golden-cross-nears",
+      "published_on": 1788784856,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Analyst Predicts XRP Could Surge 342% as Bullish Golden Cross Nears",
+      "url": "https://coinpaper.com/35402/analyst-predicts-xrp-could-surge-342-as-bullish-golden-cross-nears",
+      "body": "XRP is approaching a potentially important bullish technical signal, but one widely followed analyst believes the next major cycle could reach far beyond the $2 target currently dominating short-term forecasts. XRP trades near $1.40 after recovering sharply from its August low near $1.00. The immediate bullish roadmap points toward $1.50-$1.55 and then the August peak around $1.70. But EGRAG Crypto is looking considerably higher. Analyst Maps First XRP Target Above $6 In a fresh three-month XRP analysis, EGRAG used Elliott Wave and Fibonacci measurements to identify $6.19–$8.07 as the first major target zone for a potential fifth macro wave. His framework then places stronger extensions around $11.45, above $13 and potentially $17 if momentum accelerates. Those are long-term technical projections rather than near-term price targets, and the setup depends on XRP completing its current structure without breaking important support. Still, even the lowest target would represent extraordinary upside. From $1.40, XRP would need to gain approximately 342% to reach $6.19 and about 476% to reach $8.07. The forecast is also distinct from the recent $60 XRP target , which requires a monthly close above $3.66 before that much larger technical setup would even activate. Golden Cross Still Needs Confirmation The bullish case begins much closer to XRP’s current price. Analyst places the rapidly rising 20-day moving average around $1.32, while intermediate averages sit near $1.19–$1.24. XRP also remains around its 200-day moving-average zone. A sustained move above $1.50–$1.55 would strengthen the breakout case, with approximately $1.70 representing the next major hurdle. Coinpaper’s broader XRP price outlook has similarly identified the $1.50 area as a key zone after August’s powerful recovery. There is also evidence that traders are already positioning aggressively. XRP recently recorded its strongest derivatives activity in six months after its roughly 57% rebound from August lows, while futures positioning has climbed sharply. However, the broader market remains much less confident about extreme targets. Prediction-market pricing currently gives XRP only about a 39% chance of trading above $2 at any point in 2026 , underscoring how aggressive a $6-$8 forecast remains.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "3291400",
+      "guid": "https://coinpedia.org/?p=75818",
+      "published_on": 1788784508,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Cardano (ADA) Price Prediction 2026, 2027 – 2030: Will ADA Price Hit $2?",
+      "url": "https://coinpedia.org/price-prediction/cardano-price-prediction/",
+      "body": "The post Cardano (ADA) Price Prediction 2026, 2027 – 2030: Will ADA Price Hit $2? appeared first on Coinpedia Fintech News Story Highlights The live price of the Cardano token is . Cardano price could see a potential upside toward $5.00 by the end of 2026. ADA’s long-term expansion scenario points toward $350.00 by 2030. Cardano (ADA), one of the most research-driven Layer-1 blockchains, is now entering a critical phase of execution after years of development-focused …",
+      "tags": "Cryptocurrency Price Prediction|Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ADA|ALTCOIN|BTC|ETH|MARKET|TRADING|FORKS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "71146150",
+      "guid": "https://en.bitcoinsistemi.com/ubs-and-goldman-sachs-announce-fed-expectations-friday-will-be-very-critical-how-will-bitcoin-be-aff/",
+      "published_on": 1788784393,
+      "imageurl": "https://resources.cryptocompare.com/news/81/71146150.jpeg",
+      "title": "UBS and Goldman Sachs Announce FED Expectations: Friday Will Be Very Critical! How Will Bitcoin Be Affected? Here Are the Details",
+      "url": "https://en.bitcoinsistemi.com/ubs-and-goldman-sachs-announce-fed-expectations-friday-will-be-very-critical-how-will-bitcoin-be-aff/",
+      "body": "Bitcoin has experienced sharp fluctuations in the past week. Having started September at around $78,000, BTC surged above $82,000 during the week, reaching its highest level since May. However, it couldn’t maintain these levels and fell back below $80,000. The volatility in Bitcoin is particularly attributed to strong US employment data and expectations that the Fed may raise interest rates, with the likelihood of a Fed rate hike in September increasing further. At this point, two prominent figures have offered important assessments regarding interest rates. UBS Expects Two Interest Rate Hikes from the Fed! According to Reuters, UBS predicts the Fed will raise interest rates by 25 basis points each month, in September and December. UBS previously predicted that the Fed would not make any changes to monetary policy throughout 2026. Strong Employment Data Changes Expectations! UBS stated that the change in interest rate expectations was influenced by strong employment data released in the US. UBS analysts also pointed to Fed Chairman Kevin Warsh’s hawkish messages at the Jackson Hole meeting and the risks of supply-side inflation. These developments, they said, strengthened the expectation that the Fed may raise interest rates again. UBS Global Wealth Management said in a recent note, “Hawkish statements, particularly (Fed Chairman Kevin) Warsh’s Jackson Hole speech, rising supply-side inflation risks, and August labor market data, were strong enough to change this forecast.” Goldman Sachs Points to Friday! Ahead of the Fed’s September meeting, investment bank Goldman Sachs released an important assessment. Goldman Sachs, evaluating the August employment report, stated that non-farm payrolls exceeded expectations and that figures for the previous two months were also revised upwards. However, Goldman Sachs stated that the strong employment data released in the US in August alone is not enough to warrant a Fed interest rate hike at its September meeting. According to the bank, the main indicator that will determine the Fed’s decision will be the inflation data. At this point, attention is focused on inflation data, and according to Goldman Sachs, a moderate US CPI figure to be released on Friday, September 11th, could support a scenario where the Fed leaves interest rates at current levels in September. Conversely, higher-than-expected inflation could strengthen expectations of an interest rate hike. Probability of Interest Rate Hike in September is 60%! According to CME FedWatch data, markets are pricing in a 25 basis point interest rate hike by the Fed at approximately 60.4 percent at its September meeting. The increase in the probability of a rate hike following strong employment data indicates that investors’ expectations for the Fed’s September meeting have become more hawkish. What Will Be the Impact on Bitcoin? The Federal Reserve’s interest rate decision stands out as a critical macroeconomic indicator for the direction of Bitcoin. A rate cut could increase liquidity and risk appetite, creating upward pressure on Bitcoin, while a rate hike or hawkish messages could lead to a strengthening of the dollar and a move away from risky assets by investors. In this context, markets will closely follow not only the interest rate decision but also the messages the Fed will give regarding the coming period. *This is not investment advice. Continue Reading: UBS and Goldman Sachs Announce FED Expectations: Friday Will Be Very Critical! How Will Bitcoin Be Affected? Here Are the Details",
+      "tags": "Analysis|Bitcoin|Economy|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|MARKET|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "71146448",
+      "guid": "https://cointelegraph.com/markets/zcash-highest-price-market-cap-20-billion",
+      "published_on": 1788784283,
+      "imageurl": "https://resources.cryptocompare.com/news/16/71146448.jpeg",
+      "title": "Zcash hits highest price since 2016 as market cap tops $20B",
+      "url": "https://cointelegraph.com/markets/zcash-highest-price-market-cap-20-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "ZEC gained 45% over the past week, extending its rally since Grayscale converted its Zcash Trust into an ETF that began trading Aug. 25.",
+      "tags": "Markets",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|ZEC",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "71145790",
+      "guid": "https://ambcrypto.com/?p=631037",
+      "published_on": 1788784213,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "WOO X under scrutiny after 3-day withdrawal crisis: ‘Are we getting rug?’",
+      "url": "https://ambcrypto.com/woo-x-under-scrutiny-after-3-day-withdrawal-crisis-are-we-getting-rug/",
+      "body": "If this continues for long will WOO X become the next BitMart?",
+      "tags": "News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "WOO|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "71145845",
+      "guid": "https://en.coin-turk.com/?p=247926",
+      "published_on": 1788784213,
+      "imageurl": "https://resources.cryptocompare.com/news/79/71145845.jpeg",
+      "title": "Monero overtakes Chainlink in top 10, $10.07 billion market cap leads",
+      "url": "https://en.coin-turk.com/monero-overtakes-chainlink-in-top-10-10-07-billion-market-cap-leads/?utm_source=rss&utm_medium=rss&utm_campaign=monero-overtakes-chainlink-in-top-10-10-07-billion-market-cap-leads",
+      "body": "🚨 Monero climbs into the top 10 after overtaking $LINK’s market cap. 📈 $LINK surged 18% last week but lost its lead as XMR rallied over the month. ⚡ The gap between XMR and LINK is just $110 million, with rankings still volatile. 🔍 Both coins followed sharply different price paths before this shift. Continue Reading: Monero overtakes Chainlink in top 10, $10.07 billion market cap leads The post Monero overtakes Chainlink in top 10, $10.07 billion market cap leads appeared first on COINTURK NEWS .",
+      "tags": "Chainlink (LINK)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "LINK|MARKET|TRADING|XMR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "71145222",
+      "guid": "https://en.coin-turk.com/?p=247925",
+      "published_on": 1788783673,
+      "imageurl": "https://resources.cryptocompare.com/news/79/71145222.jpeg",
+      "title": "Japan reclassifies crypto under FIEA, paving way for ETFs and Shiba Inu surge",
+      "url": "https://en.coin-turk.com/japan-reclassifies-crypto-under-fiea-paving-way-for-etfs-and-shiba-inu-surge/?utm_source=rss&utm_medium=rss&utm_campaign=japan-reclassifies-crypto-under-fiea-paving-way-for-etfs-and-shiba-inu-surge",
+      "body": "🚨 Japan classifies crypto under FIEA, setting the stage for future ETFs. 📈 Shiba Inu joins BTC and ETH on Japan's Green List and gains exposure through Mercari. 💡 Crypto assets now face a flat 20% tax rate, down from as high as 55% previously. 💥 4 million new crypto accounts have opened in Japan, fueled by demand for $SHIB. Continue Reading: Japan reclassifies crypto under FIEA, paving way for ETFs and Shiba Inu surge The post Japan reclassifies crypto under FIEA, paving way for ETFs and Shiba Inu surge appeared first on COINTURK NEWS .",
+      "tags": "Shiba (SHIB)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|ETH|SHIB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "71144704",
+      "guid": "https://coinpaper.com/35400/xrp-jumps-57-from-august-low-as-sept-15-clarity-act-vote-nears",
+      "published_on": 1788783475,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "XRP Jumps 57% From August Low as Sept. 15 CLARITY Act Vote Nears",
+      "url": "https://coinpaper.com/35400/xrp-jumps-57-from-august-low-as-sept-15-clarity-act-vote-nears",
+      "body": "XRP’s derivatives market has gone from quiet to crowded in a matter of weeks. Futures trading volume across Binance, Bybit, OKX and Bitget reached $11.37 billion on Aug. 22, its highest level since early February, according to CryptoQuant data. XRP had traded near $0.90 in mid-August, when large-holder deposits to Binance were still elevated. By Sept. 7, XRP had recovered to roughly $1.41, putting the token about 57% above that low. That makes the derivatives surge more than another pre-vote speculation story. It shows how rapidly leverage has returned after one of XRP’s sharpest rebounds of 2026. XRP Leverage Returned Before the Sept. 15 Narrative By Aug. 26, Binance’s estimated XRP leverage ratio had climbed to around 0.21, its highest since January, while futures volume was running more than five times spot volume. Long accounts outnumbered shorts by roughly two to one, with top Binance traders even more heavily tilted bullish. We had already identified the early derivatives shift when Binance open interest surged during XRP’s climb toward $1.40. Exchange Withdrawals Add Another Twist The futures boom also coincided with 231 million XRP leaving exchanges over 48 hours, according to CryptoQuant-linked data. Exchange withdrawals do not automatically prove whale accumulation, but large outflows can reduce immediately available sell-side liquidity. We separately tracked XRP exchange outflows reaching six-month highs during the same period. That is a notable reversal from mid-August, when large holders were still depositing XRP to Binance during weakness. XRP market signal Recent reading Mid-August XRP low ~$0.90 Sept. 7 XRP price ~$1.41 Approx. rebound ~57% Futures volume peak $11.37B Large exchange withdrawals 231M XRP Sept. 15 Could Cut Both Ways The Sept. 15 Senate vote remains a legitimate catalyst, but it is not a final vote to enact the CLARITY Act. The scheduled test concerns cloture on the motion to proceed, meaning senators would effectively decide whether debate on H.R. 3633 can advance. Coinpaper’s Sept. 15 vote guide explains why clearing that hurdle would still leave amendments and additional votes ahead. XRP also already enters the debate with unusually strong legal precedent following the Ripple case, as explored in Coinpaper’s recent look at XRP’s existing regulatory clarity . That makes Sept. 15 less of a binary legal event than some XRP headlines imply. The bigger near-term issue may be the amount of leverage now sitting around the trade. A positive surprise could help XRP challenge $1.50 and potentially revisit August’s roughly $1.65 peak. But with futures activity at six-month highs and longs already crowded, disappointment could produce forced liquidations just as quickly. The $11.37 billion derivatives spike therefore signals enthusiasm. but it also means XRP heads toward Sept. 15 with considerably more leverage to unwind than it had only a few weeks ago.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|XRP|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "71144571",
+      "guid": "https://cointelegraph.com/markets/markets-tilt-toward-september-rate-hikes-five-things-to-know-in-bitcoin-this-week",
+      "published_on": 1788783022,
+      "imageurl": "https://resources.cryptocompare.com/news/16/71144571.jpeg",
+      "title": "Yen intervention meets US inflation data: Five things to know in Bitcoin this week",
+      "url": "https://cointelegraph.com/markets/markets-tilt-toward-september-rate-hikes-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "This week’s CPI and PPI prints, along with the Fed’s Sept. 16 rate decision, could determine whether Bitcoin can secure $80,000 as a support level.",
+      "tags": "Markets",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|MARKET|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "71144005",
+      "guid": "https://en.coin-turk.com/?p=247923",
+      "published_on": 1788782953,
+      "imageurl": "https://resources.cryptocompare.com/news/79/71144005.jpeg",
+      "title": "AI model predicts $30.71 XRP price, sparking debate across crypto community",
+      "url": "https://en.coin-turk.com/ai-model-predicts-30-71-xrp-price-sparking-debate-across-crypto-community/?utm_source=rss&utm_medium=rss&utm_campaign=ai-model-predicts-30-71-xrp-price-sparking-debate-across-crypto-community",
+      "body": "🚨 AI predicts a jump to $30.71 in $XRP, drawing reaction across the crypto community. 🤖 Four projected milestones—$7.62, $11.56, $12.41, and $30.71—were shared without context. 💬 Users questioned the credibility and transparency of such AI-generated forecasts. 📉 XRP’s real path to these prices depends on market trends, demand, and investor behavior. Continue Reading: AI model predicts $30.71 XRP price, sparking debate across crypto community The post AI model predicts $30.71 XRP price, sparking debate across crypto community appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "71143970",
+      "guid": "439b6a6f-5bd3-4e01-8707-8ac28ef798af",
+      "published_on": 1788782891,
+      "imageurl": "https://resources.cryptocompare.com/news/5/71143970.jpeg",
+      "title": "Solana to triple transaction size as apps get room for more complex trades",
+      "url": "https://www.coindesk.com/tech/2026/09/07/solana-to-triple-transaction-size-as-apps-get-room-for-more-complex-trades",
+      "body": "A Transaction v1 feature activates Wednesday, allowing complex proofs and large multisig operations to fit in one transaction while forcing services that read Solana to update.",
+      "tags": "Tech|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "71143658",
+      "guid": "92895f13-6a58-43bf-9d1f-a69fc5b44cd8",
+      "published_on": 1788782732,
+      "imageurl": "https://resources.cryptocompare.com/news/5/71143658.jpeg",
+      "title": "DBS and Citi complete weekend USD payment via Swift’s Digital Ledger using tokenized deposits",
+      "url": "https://www.coindesk.com/business/2026/09/07/dbs-and-citi-enable-instant-24-7-cross-border-tokenised-deposit-payments-on-the-swift-ledger",
+      "body": "The transaction is the second confirmed live use of Swift's blockchain ledger, coming as the network races to prove it can compete with digital payment rails that never close.",
+      "tags": "Finance|tokenized deposits|banks|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|WALLET",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "71143297",
+      "guid": "https://bitzo.com/2026/09/why-layer-two-is-changing-crypto-casino-bet-costs",
+      "published_on": 1788782445,
+      "imageurl": "https://resources.cryptocompare.com/news/104/71143297.jpeg",
+      "title": "Why Layer Two Is Changing Crypto Casino Bet Costs",
+      "url": "https://bitzo.com/2026/09/why-layer-two-is-changing-crypto-casino-bet-costs",
+      "body": "The interesting thing about Layer 2 is not that it made deposits cheaper. Several Layer 1 chains already move a deposit for less than a penny, so that problem was solved elsewhere. What Layer 2 changed is what a casino can afford to record. Writing every resolved bet to a public chain was economically absurd at mainnet prices and is now routine, and that shift is quietly reshaping what transparency means in this sector. Three Things That Changed Together Each follows from the same upgrade, and they pull in different directions. Settlement Economics Before March 2024, posting data to Ethereum meant paying for expensive calldata. EIP-4844, the Dencun upgrade, introduced blob transactions that moved rollup data into a separate, prunable space, and costs fell 80 to 90% within days of activation. The numbers since are unrecognisable. Mid-2026 per-transaction fees sit below ten cents across every major rollup: Base around five cents with median figures as low as two, ZKsync Era near seven, Arbitrum and OP Mainnet around eight to nine, and Starknet between five and nineteen depending on proof load. Ethereum mainnet base fees fell from 7.141 gwei in January 2025 to roughly 0.50 gwei a year later, a 93% decline, and mainnet transactions still run into dollars. Now apply that to a casino. A platform writing every settled bet to a chain pays a fee per record. At several dollars a transaction, that is a business model that cannot exist. At two to nine cents, it becomes an operating cost like any other, and at scale the arithmetic works. Which is why on-chain settlement moved from a curiosity to something platforms actually ship. Dexsport writes settlement to a public on-chain desk, and the economics behind that choice are downstream of blob pricing and not of any decision the casino made. The Risk That Replaced Fees Here is the consequence nobody markets, and it is now the more important variable. Fees across the major rollups have converged so tightly that the spread between the lowest and highest is roughly four cents. For any deposit a casino player would make, that difference is noise. Cost has stopped being a reason to choose one rollup over another. What replaced it is exit security. L2BEAT stage ratings publish a decentralisation measure that measures one specific thing: whether you can withdraw from a rollup without the operator's permission if its sequencer misbehaves or censors you. That is now the primary differentiator, and it is a genuinely different kind of risk from a fee. Optimistic rollups, which include Arbitrum, Base and Optimism, carry a seven-day exit window by design. Soft finality arrives in seconds, and hard finality takes around thirteen minutes, but a full trust-minimised withdrawal to mainnet runs on that week-long challenge period. For a casino balance, that is usually irrelevant. On the day you want funds off a chain quickly, it is. Micro-Transaction Pricing A quieter issue that matters specifically for this use case. Research has warned that rollups over- or underprice very small transactions, which is precisely the size class a per-bet settlement record falls into. A system optimised for swaps and transfers is not necessarily priced correctly for thousands of tiny writes. That does not make the model unsound. It does mean the cost assumptions behind on-chain settlement are less settled than the headline fee figures suggest, and the economics could shift again as rollups refine their pricing. The Real Benefit for a Player Worth separating the real benefit from the marketing version. You do not personally save money because a casino settles on Layer 2. Your deposit cost is whatever chain you funded on, and a sub-cent Layer 1 costs the same. What you get is a record. A resolved market leaves a timestamped entry independent of the account screen, retrievable by you and by anyone else, and that entry exists because it now costs cents to create. Dexsport is non-custodial as well, so settled funds return to a wallet you hold instead of sitting in an operator balance, and the two properties work together: the money is yours and the record of how it got there is public. External measurability follows from the same thing. DappRadar already ranks gambling platforms by settled smart contract volume and unique active wallets drawn from public chain data, which is only possible for operators recording settlement somewhere visible. Transparency Stops Somewhere The honest boundary, and it has not moved. Settlement records show what was paid. They do not show how a price was set, because odds are calculated off-chain by the operator and no rollup sees that process. Dexsport prices off-chain like any hybrid platform, and cheap settlement does nothing to change that. Nor does an on-chain record speak to withdrawal conduct, terms enforcement or how a large win gets handled, which remain the things most likely to go wrong. On-chain recording covers a specific and narrow claim , and treating it as a general trust signal overreads it considerably. Taking It Practically Layer 2 made a kind of record affordable, and that record is worth having. It did not make casinos honest, cheap or safe, and it did not change what a bet costs you. If a platform advertises Layer 2 settlement, two questions are worth asking: Which rollup, since the security models differ even where the fees do not What its exit path looks like, because that is what an L2BEAT stage rating measures Notice that neither question is about the fee. Fees are low everywhere now, and verification of individual game outcomes is a separate mechanism again. Confirm what is legal where you live, keep stakes within a set budget, and play only if you are of legal age, since KYC or AML checks may apply. Responsible gambling is untouched by settlement architecture, and a bet recorded immaculately on a rollup costs exactly what the game's house edge says it does. Disclaimer: The information here is provided for general purposes only and is not legal, tax, investment, or financial advice. Network fees, rollup architectures and platform features change, and figures cited reflect conditions reported during 2026, so confirm current details before transferring. Betting carries risk, and rules vary by country, so check the law where you live. Please gamble responsibly, within your means, and only if you are of legal age.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|MARKET|REGULATION|ARB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitzo",
+        "img": "https://resources.cryptocompare.com/news/104/default.png",
+        "lang": "EN"
+      },
+      "source": "bitzo"
+    },
+    {
+      "id": "71143569",
+      "guid": "https://timestabloid.com/?p=110959",
+      "published_on": 1788782421,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Egrag Crypto Presents the Most Confluent XRP Price Target",
+      "url": "https://timestabloid.com/egrag-crypto-presents-the-most-confluent-xrp-price-target/",
+      "body": "XRP could be approaching another important stage in its long-term technical structure. Crypto analyst Egrag Crypto identified $6.40 as XRP’s “most confluent target” and explained that the cryptocurrency has reacted precisely from a key level within a long-term symmetrical triangle. The analyst’s latest chart focuses on the relationship between XRP’s current price action and the upper boundary of the multi-year formation. XRP was trading around $1.42 on September 6, according to recent market data, keeping the asset close to the levels highlighted in Egrag’s analysis. Egrag Crypto Points to Symmetrical Triangle Reaction Egrag Crypto said in his tweet that XRP “bounced exactly” off the upper edge of the symmetrical triangle , a level he has repeatedly cited in his previous analysis. The chart attached to his post marks the area around the current price with a highlighted circle, showing XRP testing the upper boundary of the broader structure. The analyst then asked his followers to determine what the technical structure suggests could happen next. Rather than simply presenting another price prediction, Egrag challenged XRP traders to explain the potential next move based on the chart itself. The attached chart also identifies several Fibonacci extension levels above XRP’s current trading range. Among them, the $6.40 area stands out as a major target, while additional projections extend substantially higher. Egrag Crypto’s previous analysis also identified $6.40 as his first major target after confirming XRP’s broader bullish structure. #XRP – THE MOST CONFLUENT TARGET : $6.40 TA can sometimes make you look like an oracle seeing the future. #XRP bounced exactly from the upper edge of the Symmetrical Triangle , a level I’ve highlighted probably 1,000 times. Now the real question: Can YOU read… pic.twitter.com/8JtKPvOTvk — EGRAG CRYPTO (@egragcrypto) September 6, 2026 $6.40 Remains a Key Technical Target Egrag Crypto’s latest post emphasizes the convergence of technical levels around the projected $6.40 target. The chart labels this area as a “Confluence Range,” indicating that multiple technical measurements point toward the same region. His broader analysis has previously outlined a sequence in which XRP would need to establish stronger support and reclaim important resistance levels before reaching the higher targets. In July, Egrag identified the $1.23 to $1.65 area as an important zone, followed by the $3.00 to $3.50 region and eventually the $6.40 target. Egrag Challenges XRP Traders to Read the Structure Egrag also offered a 200 XRP bonus for what he considers the best technical explanation of the chart. He asked participants to repost, like, and comment with their own analysis, stating he wants to identify those who understand the structure. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 His post does not present $6.40 as an immediate price target. Instead, it frames the level within a longer-term technical setup that still depends on how XRP behaves around the current structure and the resistance levels above it. For now, Egrag’s central message remains focused on the symmetrical triangle, the recent bounce from its upper boundary, and the $6.40 level as the most significant confluence target in his current XRP analysis. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Egrag Crypto Presents the Most Confluent XRP Price Target appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis|XRP Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "71143311",
+      "guid": "https://en.coin-turk.com/?p=247918",
+      "published_on": 1788782413,
+      "imageurl": "https://resources.cryptocompare.com/news/79/71143311.jpeg",
+      "title": "DBS and Citi complete first weekend tokenized cross-border payment via Swift",
+      "url": "https://en.coin-turk.com/dbs-and-citi-complete-first-weekend-tokenized-cross-border-payment-via-swift/?utm_source=rss&utm_medium=rss&utm_campaign=dbs-and-citi-complete-first-weekend-tokenized-cross-border-payment-via-swift",
+      "body": "🚀 DBS and Citi processed their first weekend tokenized cross-border payment using blockchain. 💡 Settlement between Singapore and the US was completed in minutes, not days. 🌍 Major banks like Standard Chartered and HSBC have also piloted blockchain payments. 💰 Tokenized $USDC transactions signal rapid change in global banking infrastructure. Continue Reading: DBS and Citi complete first weekend tokenized cross-border payment via Swift The post DBS and Citi complete first weekend tokenized cross-border payment via Swift appeared first on COINTURK NEWS .",
+      "tags": "Real World Asset",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BLOCKCHAIN|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "71143331",
+      "guid": "https://cryptopotato.com/?p=1447940",
+      "published_on": 1788782363,
+      "imageurl": "https://resources.cryptocompare.com/news/27/71143331.jpeg",
+      "title": "Ethereum Breakout Incoming? $300M in ETH Leaves Exchanges as Analyst Eyes Next Big Target",
+      "url": "https://cryptopotato.com/ethereum-breakout-incoming-300m-in-eth-leaves-exchanges-as-analyst-eyes-next-big-target/",
+      "body": "Popular analyst Ali Martinez outlined that more than 116,000 ETH were withdrawn from crypto exchanges in just two days. The stash was worth roughly $300 million at current prices. This has reduced the amount of ETH immediately available for trading, potentially easing sell-side pressure. Although exchange withdrawals alone do not necessarily indicate accumulation, as assets can also be moved for staking, custody, or other purposes, the timing is peculiar, as ETH is making another attempt to break above the $2,500 threshold. What’s the Next Target? In a separate analysis also dedicated to ETH’s performance, Martinez noted that the asset has traded between $2,370 and $2,530 since its breakout during the last week of August. Recall that Ethereum, alongside the rest of the market, exploded after August 19, surging from $1,900 to the aforementioned upper boundary. However, it was unable to break through despite trying on several occasions, and each subsequent rejection drove it south toward $2,400 or slightly below. The analyst believes ETH is now gradually rebuilding momentum for its next move, and the direction should be confirmed by an hourly close outside that range. The current structure, he added, appears to favor buyers. If the largest altcoin is indeed able to break through $2,530, Martinez noted that the next immediate target would be $2,700. The one after that would be at $2,822, where more than 10 million tokens were last transacted, making it a major supply zone that could trigger “a rejection or, at the very least, slow advance.” Ethereum is sitting on a major support zone around $2,475, where roughly 2.86 million ETH have previously changed hands. As long as this level holds, the path toward $2,722 remains relatively clear. The real test comes between $2,723 and $2,822, where more than 10 million $ETH … https://t.co/kwLrVWl186 pic.twitter.com/ffwai9aOpn — Ali Charts (@alicharts) September 7, 2026 ETF Still Green The other piece of good news for ETH investors comes from the ETF net inflows. As reported yesterday, the past week was also quite beneficial for the funds tracking the altcoin, as they gained $218.41 million. In the past two weeks alone, the net inflows have skyrocketed to well over $1 billion. Moreover, the Ethereum ETFs have been in the red only once weekly since the beginning of July, and even that streak-breaker was quite modest, with net outflows of just $2.26 million. The post Ethereum Breakout Incoming? $300M in ETH Leaves Exchanges as Analyst Eyes Next Big Target appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Ethereum (ETH) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BUSINESS|ETH|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "71143336",
+      "guid": "https://u.today/ripples-rlusd-sees-massive-repositioning-from-xrp-ledger-to-ethereum",
+      "published_on": 1788782238,
+      "imageurl": "https://resources.cryptocompare.com/news/64/71143336.jpeg",
+      "title": "Ripple's RLUSD Sees Massive Repositioning From XRP Ledger to Ethereum",
+      "url": "https://u.today/ripples-rlusd-sees-massive-repositioning-from-xrp-ledger-to-ethereum",
+      "body": "Ripple appears to be deflating the supply of RLUSD on the XRP Ledger while pumping the supply on Ethereum, as a massive cross-chain movement involving the stablecoin was noticed.",
+      "tags": "RLUSD",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1788781981,
+    "time_range_start": "2026-09-07 11:53:01",
+    "time_range_end": "2026-09-07 12:53:01"
+  }
+}
