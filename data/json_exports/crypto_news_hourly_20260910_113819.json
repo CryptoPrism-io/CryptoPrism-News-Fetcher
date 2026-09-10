@@ -1,0 +1,592 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "71446609",
+      "guid": "https://en.coin-turk.com/?p=248447",
+      "published_on": 1789039874,
+      "imageurl": "https://resources.cryptocompare.com/news/79/71446609.jpeg",
+      "title": "Bitcoin hovers near $78,000 as CPI report and Fed meeting loom",
+      "url": "https://en.coin-turk.com/bitcoin-hovers-near-78000-as-cpi-report-and-fed-meeting-loom/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-hovers-near-78000-as-cpi-report-and-fed-meeting-loom",
+      "body": "🚨 Bitcoin tests $78,000 support as traders brace for US CPI and Fed decisions. 📉 Major altcoins like $ETH and XRP drop alongside the wider cryptocurrency market. 💡 Crypto sentiment stays strong, with the Fear & Greed Index at 70 despite volatility. ⚡ US inflation data and new regulation votes could set the next direction for crypto. Continue Reading: Bitcoin hovers near $78,000 as CPI report and Fed meeting loom The post Bitcoin hovers near $78,000 as CPI report and Fed meeting loom appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BTC|MARKET|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "71446163",
+      "guid": "https://seekingalpha.com/news/4641523-nasdaq-kraken-parent-advance-work-on-equity-tokens-with-expanded-partnership-tokens-to-launch-in-q2-2027?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1789039848,
+      "imageurl": "https://resources.cryptocompare.com/news/50/71446163.jpeg",
+      "title": "Nasdaq, Kraken parent advance work on equity tokens with expanded partnership; tokens to launch in Q2 2027",
+      "url": "https://seekingalpha.com/news/4641523-nasdaq-kraken-parent-advance-work-on-equity-tokens-with-expanded-partnership-tokens-to-launch-in-q2-2027?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on Nasdaq, Kraken Co Ltd Nasdaq: 23-Hour Trading Is The Now; Global Financial Infrastructure Is The Future Nasdaq, Inc. (NDAQ) Q2 2026 Earnings Call Transcript Nasdaq, Inc. 2026 Q2 - Results - Earnings Call Presentation Nasdaq trading volume U.S. matched equity volume in August slips 11% from July SoFi to list its stablecoin on trading platform of Kraken parent",
+      "tags": "NDAQ|KRAKEN",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "71446397",
+      "guid": "https://news.bitcoin.com/?p=846348",
+      "published_on": 1789039825,
+      "imageurl": "https://resources.cryptocompare.com/news/14/71446397.jpeg",
+      "title": "XRP, Ether Draw Fresh Cash as Bitcoin ETFs Lose $120M",
+      "url": "https://news.bitcoin.com/market-updates/xrp-ether-draw-fresh-cash-as-bitcoin-etfs-lose-120m/",
+      "body": "U.S. bitcoin ETFs posted $120.24 million in net outflows on Wednesday, extending their losing streak to a second session. Ether, XRP and solana funds all attracted fresh capital, while HYPE ETFs remained under pressure. ARK Leads Outflows for Bitcoin ETFs The money kept moving, just not in bitcoin’s direction. U.S. spot bitcoin exchange-traded funds (ETFs)",
+      "tags": "Market Updates|Bitcoin (BTC)|ETF|Ethereum (ETH)|Ripple XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|SOL|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "71446101",
+      "guid": "https://decrypt.co/?p=377864",
+      "published_on": 1789039735,
+      "imageurl": "https://resources.cryptocompare.com/news/44/71446101.jpeg",
+      "title": "Nasdaq Invests $100M in Kraken Parent Payward at $21B Valuation",
+      "url": "https://decrypt.co/377864/nasdaq-invests-100m-in-kraken-parent-payward-at-21b-valuation",
+      "body": "Deutsche Börse's April stake implied a $13.3 billion valuation. Five months on, Nasdaq is paying at $21 billion.",
+      "tags": "||Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "71445878",
+      "guid": "https://thecryptobasic.com/?p=167659",
+      "published_on": 1789039618,
+      "imageurl": "https://resources.cryptocompare.com/news/65/71445878.jpeg",
+      "title": "Coinbase CEO Armstrong Says Bitcoin Cycle Bottom Is In, Sees Uptrend Over Next Two Years",
+      "url": "https://thecryptobasic.com/2026/09/10/coinbase-ceo-armstrong-says-bitcoin-cycle-bottom-is-in-sees-uptrend-over-next-two-years/",
+      "body": "Coinbase Chief Executive Brian Armstrong expects Bitcoin to rise as the cryptocurrency approaches its next halving, saying he believes the market has already reached its low for the current cycle. Armstrong outlined that view during a Bloomberg Television interview on Thursday, placing the potential improvement in Bitcoin’s trajectory within the next one to two years. Visit Website",
+      "tags": "Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "The Crypto Basic",
+        "img": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+        "lang": "EN"
+      },
+      "source": "thecryptobasic"
+    },
+    {
+      "id": "71445996",
+      "guid": "https://cryptonews.com/news/bitcoin-price-prediction-66/",
+      "published_on": 1789039438,
+      "imageurl": "https://resources.cryptocompare.com/news/52/71445996.jpeg",
+      "title": "Bitcoin Price Prediction: Can BTC Reclaim $80K After Losing $78K Support?",
+      "url": "https://cryptonews.com/news/bitcoin-price-prediction-key-levels-to-watch/",
+      "body": "Bitcoin price prediction has BTC sitting at $77,800, down -1.4% over 24 hours, stuck in the same corridor that’s frustrated bulls for weeks. The global crypto market cap slipped to $2.75 trillion, down -1.2% in a day, with $95.24Bn in daily trading volume. Chart watchers point to a confirmed bearish divergence on the 3-day RSI that emerged after Bitcoin’s recent short squeeze, a signal that’s aged into a genuine consolidation pattern rather than a fakeout. A level below the current price matters more than most traders realize right now, and it’s not the obvious one. Away from the charts, the US Treasury bought back $12.5Bn in short-term debt and plans up to $6Bn in long-term bond repurchases tomorrow, triple the usual size. That’s liquidity management aimed at containing yields, and it’s the kind of macro plumbing that quietly shapes risk appetite across every asset class, crypto included. Bitcoin Price Prediction: Can BTC Hit $80,000 This Week? $BTC is back at the $78,000 level. PPI data is coming today, and CPI data will be released tomorrow. Any sign of inflation heating up could push Bitcoin below the 50W EMA. And if inflation shows more signs of cooling, we could finally get a weekly close above the 50 MA. pic.twitter.com/cMl5qXVEed — Ted (@TedPillows) September 10, 2026 Bitcoin trades at $77.800, pinned below the $80,000-$82,000 resistance band that’s rejected multiple attempts this cycle. Volume at $95.24 billion signals participation without conviction; traders are positioned, not committed. The 50-week EMA near $77,000 remains the line in the sand; lose it, and the $76,000-$77,000 liquidation cluster becomes the next magnet, according to Reuters’ technical mapping , which flags a “golden retracement” resistance near $82,793. Bull case: Reclaiming $80,000-$82,000 as support flips the setup, opening a path toward $90,000. Base case: continued chop between $77,000 and $80,000 as the market digests the RSI divergence. Bear case: a break below $77,200 triggers liquidations down to $76,100, testing the broader $73,000-$75,000 support shelf. You can read more about levels and ETF flows in this Bitcoin price prediction breakdown . None of this is resolved yet; patience matters more than prediction here. Earn $50 and Enter $300K Prize Draw on EdgeX Bitcoin Hyper Targets Early Mover Upside as Bitcoin Tests Key Levels BTC holders sitting on gains from the monthly rally have a fair question to ask: at a $2.7 trillion combined crypto market cap and Bitcoin’s own $1.5 trillion valuation, how much upside realistically remains before the next leg requires a genuinely new catalyst? The gold-transfer story is a strong narrative, not a new use case, and Bitcoin’s digital gold thesis has been priced in for years. That’s where earlier-stage infrastructure plays start to pull attention. Bitcoin Hyper ($HYPER) is positioning itself as the first Bitcoin Layer 2 with full SVM integration, aiming to deliver execution speeds faster than Solana itself while settling back to Bitcoin’s base layer for security. The project has raised $33M in presale funding at a current token price of just $0.0136859, with staking rewards offered at a high APY. Core features include a decentralized canonical bridge for BTC transfers and low-latency smart contract execution, effectively giving Bitcoin the programmability it’s lacked for 15 years. Gain Access to New Bitcoin Layer 2 Early Here Discover: The Best Token Presales The post Bitcoin Price Prediction: Can BTC Reclaim $80K After Losing $78K Support? appeared first on Cryptonews .",
+      "tags": "Bitcoin News|Price Analysis|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "71445500",
+      "guid": "d294edfb-2194-4549-8401-ce500495dc3a",
+      "published_on": 1789039281,
+      "imageurl": "https://resources.cryptocompare.com/news/5/71445500.jpeg",
+      "title": "Nasdaq invests $100 million in Kraken parent company Payward at $21 billion valuation",
+      "url": "https://www.coindesk.com/business/2026/09/10/nasdaq-invests-usd100-million-in-kraken-parent-company-payward-at-usd21-billion-valuation",
+      "body": "The investment expands a strategic partnership to bring tokenized, voting-enabled equities to crypto exchange users.",
+      "tags": "Finance|Kraken|Nasdaq|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "71446585",
+      "guid": "https://www.cryptopolitan.com/?p=310227",
+      "published_on": 1789039233,
+      "imageurl": "https://resources.cryptocompare.com/news/43/71446585.jpeg",
+      "title": "Fear persists as Anthropic struggles to explain why AI agents went rogue",
+      "url": "https://www.cryptopolitan.com/anthropic-ai-internet-breaches-flaws/",
+      "body": "Anthropic has blamed a misconfiguration in a blog post explaining the four incidents of its Claude models hacking third-party systems after they broke onto the internet during testing. However, the assessment stopped short of explaining why the models actually pressed on with the attacks, with the company admitting that it did not have those answers yet. That admission by Anthropic has offered fresh points to AI doomers that have been questioning how much control AI labs actually have over the models they are putting out to the public, and even more so, the more powerful systems they use internally. How did Anthropic AI models break onto the internet? Anthropic presented the definitive answer to how its models escaped their testing sandbox in a Wednesday blog post that clarified that a single outside partner was responsible for running the cybersecurity evaluations in all four confirmed incidents. Apparently, the test machines were not completely cut off from the internet due to a setup error, even though Claude was told it was operating in a sealed simulation without a route to the open web. The evaluation partner in those simulations, Irregular, put the error down to a naming mistake: a fictional company used in a hacking drill happened to match a real domain. So, in operating under the assumption that everything in the simulation was fair game, the models hacked the real third-party sites using weak passwords and exposed endpoints. The latest of the four incidents, involving an early build of Claude Opus 4.6, was only reported this week even though it happened way back in January. Anthropic itself had covered the other three incidents involving an Opus 4.7, Mythos 5 and an internal research model in July. Anthropic said it never caught the January incident until last month. That discovery prompted a wider sweep of roughly 481 million transcripts, which did not turn up any new cases more serious than what it already knew. Model Incident Date Reported Date Details Claude Opus 4.6 January September Discovered during August sweep Claude Opus 4.7 July July Covered in initial July disclosure Mythos 5 July July Showed notably high biased reasoning Internal Research Model July July Covered in initial July disclosure Anthropic cannot explain some of its models’ behaviors The explanation of how the models broke free on the internet was one thing; Anthropic did not have answers as to why the models ignored signs that they had reached the real internet (biased reasoning) and why they caused damage to complete tasks (recklessness). Anthropic researchers came up empty when they dug into internal training to figure out the rationale for the biased reasoning. The red flags never showed up in the AI lab’s pre-release checks, either before the models were shipped to testing. By its own admission, catching the worst behaviors ahead of model release “remains challenging.” However, Anthropic has said it will submit transcripts and grant staff access to the METR research nonprofit, which will now start an eight-week independent review of the incidents. Bad timing with a $2 trillion IPO on the horizon The disclosure arrived alongside open dissent inside the industry. Jacob Coxon, who spent about three years on pretraining research at OpenAI and Anthropic, said on X on Wednesday that he had quit because neither firm was “acting responsibly,” warning they were racing toward self-improving superintelligence. Anthropic safety researcher Evan Hubinger separately told the BBC he put the odds that AI “could kill all humans” within a decade above 10%. Those warnings now shadow a large IPO. Venture investor and Trump’s former AI and crypto czar, David Sacks, said on Thursday that Anthropic’s offering “must be paused until the claims of this ‘whistleblower’ can be investigated,” Cryptopolitan reported. Anthropic is chasing a public valuation near $2 trillion, against a recent private mark of about $965 billion, which leaves the safety questions and the financial ones increasingly hard to separate. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "Tech|Anthropic|OpenAI",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|RESEARCH|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "71445802",
+      "guid": "https://u.today/400000-btc-by-2030-coinbase-ceo-says-its-reasonable",
+      "published_on": 1789039200,
+      "imageurl": "https://resources.cryptocompare.com/news/64/71445802.jpeg",
+      "title": "400,000 BTC by 2030: Coinbase CEO Says It's 'Reasonable'",
+      "url": "https://u.today/400000-btc-by-2030-coinbase-ceo-says-its-reasonable",
+      "body": "Coinbase CEO Brian Armstrong predicts the next year or two is going to be good for Bitcoin.",
+      "tags": "Bitcoin Price|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "71445392",
+      "guid": "https://en.bitcoinsistemi.com/there-is-a-risk-of-a-japanese-yen-carry-trade-in-bitcoin-and-altcoins-how-will-it-affect-the-market/",
+      "published_on": 1789039087,
+      "imageurl": "https://resources.cryptocompare.com/news/81/71445392.jpeg",
+      "title": "There is a Risk of a “Japanese Yen Carry Trade” in Bitcoin and Altcoins—How Will It Affect the Market?",
+      "url": "https://en.bitcoinsistemi.com/there-is-a-risk-of-a-japanese-yen-carry-trade-in-bitcoin-and-altcoins-how-will-it-affect-the-market/",
+      "body": "It is pointed out that investors in the cryptocurrency market should closely follow not only the Fed’s policies but also interest rate and yen movements in Japan. EasyA co-founder Dom Kwok assessed why the Japanese yen is important for global markets and especially for risky assets like Bitcoin and altcoins. According to Kwok, Japan’s interest rates, which remained near zero or even negative for many years, created a significant source of cheap liquidity for global investors. Investors borrowed yen at low interest rates, converted these funds into other currencies such as the dollar, and then invested them in assets with higher return potential, such as stocks, bonds, and cryptocurrencies. This strategy, known in the markets as the “yen carry trade,” has facilitated a significant influx of cheap capital into global markets while simultaneously driving up the prices of risky assets. “Decreased Profitability of Carry Trader Operations Could Negatively Impact Risky Assets Like Cryptocurrencies” Kwok noted that the weak yen makes carry trades more attractive, which can support the flow of liquidity into the cryptocurrency market. Conversely, a strengthening yen and rising interest rates in Japan can reduce the profitability of such trades. In such a scenario, investors may need to reduce their positions to pay off their yen-denominated debt. This process of selling risky assets like stocks and cryptocurrencies can create strong selling pressure on Bitcoin and altcoins. Kwok cited the events of August 2024 as an example. After the Bank of Japan (BOJ) raised its interest rate to 0.25%, the yen rapidly appreciated, carry trade positions unwinded, and volatility in global markets increased significantly. The cryptocurrency market was also negatively affected by the global risk aversion movement during this period. *This is not investment advice. Continue Reading: There is a Risk of a “Japanese Yen Carry Trade” in Bitcoin and Altcoins—How Will It Affect the Market?",
+      "tags": "Analysis|Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|FIAT|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "71445390",
+      "guid": "https://en.bitcoinsistemi.com/?p=195016",
+      "published_on": 1789038922,
+      "imageurl": "https://resources.cryptocompare.com/news/81/71445390.jpeg",
+      "title": "10 Best Meme Coins Making Headlines as Apeing Presale Surpasses $65K in Under 24 Hours",
+      "url": "https://en.bitcoinsistemi.com/10-best-meme-coins-making-headlines-as-apeing-presale-surpasses-65k-in-under-24-hours/",
+      "body": "What happens when meme culture meets a tightly structured token economy? The hunt for the best meme coins is moving beyond simple viral appeal. Traders are increasingly watching community strength, tokenomics, ecosystem development, and the mechanics behind new launches. Dogecoin, Shiba Inu, Pepe, Bonk, ApeCoin, Pudgy Penguins, Floki, Fartcoin, and Brett each bring a different identity to the meme coin sector, while Apeing is building a fresh narrative through its LIVE presale. Apeing is currently in the Paper Hand Panic stage, with $APEING priced at $0.0004 and a limited stage allocation of 300,000,000 tokens. The project has also reported 350 million tokens sold in less than an hour of presale activity, Stage 3 unlocked in 6 hours of presale, and $68,175. Its fixed supply, large presale allocation, and burn mechanism add another layer to the story for readers tracking the best meme coins . 1. Apeing – Best Meme Coins Get a Scarcity-Focused New Challenger The best meme coins often become memorable because they combine culture with a simple narrative that communities can rally around. Apeing is taking that idea into its LIVE presale while putting tokenomics at the center of the story. Its total supply is fixed at 16.75 billion $APEING, while 40% of the supply is allocated to the presale. Apeing is currently in Stage 3, Paper Hand Panic, with an allocation of 300,000,000 $APEING tokens available at a presale price of $0.0004. The project has set a target listing price of $0.01, representing a stated potential ROI of 2,400% from the current presale price. The presale has raised $68,175 so far, with a holder count of 211. As the current stage progresses, the next presale price is set at $0.0005, making the existing Stage 3 price a defined entry point before the pricing moves higher. Apeing – Best Meme Coins Spotlight a LIVE Presale With a Built-In Burn Mechanism The Apeing presale is LIVE, and the current stage carries a limited allocation of 300,000,000 $APEING at a defined presale price of $0.0004. The project’s structured model means the presale moves through separate stages, with prices increasing between stages. Once the current allocation moves forward, the next stage takes over under its planned pricing structure. The stated listing price is $0.01, giving the current presale price a major point of contrast. The bigger story, however, is the mechanics behind the supply. Apeing has a fixed total supply of 16.75 billion tokens, with 40% reserved for the presale. When a stage closes with tokens left unsold, those tokens are burned according to the project’s stated mechanism. For readers searching for the best meme coins, this gives Apeing a clear narrative built around scarcity, defined allocation, and timing. The current window is therefore about more than simply joining a meme coin presale. It is about entering while the present allocation and pricing structure remain active. As the presale progresses, later stages carry higher planned prices, making the current phase particularly relevant to readers following the top meme coins before the next stage takes over. The Apeing Math: $4,000 In, 10 Million Tokens, $100,000 at Listing Imagine a hypothetical $4,000 entry into Apeing at the current presale price of $0.0004. That allocation would secure 10,000,000 $APEING tokens with 2400% ROI in sta ge 3 . If the stated $0.01 listing price were reached, those tokens would have a theoretical value of $100,000, creating a striking difference between the initial allocation and the stated listing valuation. This scenario highlights why Apeing’s LIVE presale, limited stage allocation, and rising stage prices are attracting attention from readers searching for an early position in the project. How to Join the Apeing Presale The Apeing presale is available through the project’s official channels. Readers interested in the current stage can visit the official Apeing website for the latest presale price, available allocation, participation information, and project updates. As the presale progresses through its structured stages, the official website and verified Apeing social channels remain the primary sources for current information and announcements. 2. Dogecoin – The Original Meme Coin Keeps Its Cultural Crown Dogecoin remains one of the most recognizable names in the meme coin market. What began as a playful cryptocurrency developed into a major internet culture phenomenon, supported by a large and highly recognizable community. Its strength continues to come from brand awareness, liquidity, broad exchange availability, and an enormous social presence. Dogecoin also maintains a simple blockchain design that supports payments and transfers. Its longevity gives it a unique position among the best meme coins, particularly for audiences seeking the original meme-driven crypto narrative. Continued community activity and mainstream recognition keep Dogecoin firmly embedded in conversations surrounding the top meme coins. 3. Shiba Inu – From Meme Culture to a Broader Crypto Ecosystem Shiba Inu has evolved far beyond its original meme branding. The project has developed an expanding ecosystem that includes Shibarium, decentralized applications, NFTs, governance initiatives, and community-focused products. That broader ecosystem gives Shiba Inu a different profile from purely culture-driven meme tokens. Its development has increasingly focused on creating practical blockchain infrastructure around its community. Shibarium also provides a foundation for applications and transactions within the wider Shiba Inu ecosystem. This evolution keeps SHIB relevant among the best meme coins and demonstrates how meme-focused projects can build broader blockchain identities. 4. Pepe – Internet Culture Powers One of Crypto’s Biggest Meme Brands Pepe has become one of the defining meme assets of the current crypto era, drawing its identity from the widely recognized Pepe the Frog internet meme. Its appeal is strongly tied to culture, social engagement, community participation, and viral market narratives. CoinMarketCap continues to list Pepe among the prominent meme assets by market presence, while recent CMC coverage has focused on its role as a sentiment-driven token and ongoing technical market interest. Its straightforward meme identity gives PEPE a powerful place within discussions about the top meme coins, especially when social attention becomes a major market driver. 5. Bonk – Solana’s Community Meme Coin Keeps Building Bonk established itself as a major dog-themed meme coin within the Solana ecosystem. Its community-oriented identity and integration with Solana-based applications have helped it become more than a simple viral token. The project has developed around community participation and an expanding collection of ecosystem initiatives, while its presence across decentralized applications and trading venues keeps it visible. CoinMarketCap identifies BONK as a Solana-based dog-themed coin created for the community, reinforcing its strong connection to the Solana culture. That combination of meme branding and ecosystem integration makes Bonk a notable name among the best meme coins. 6. ApeCoin – A Meme Brand Connected to a Larger Web Ecosystem ApeCoin holds a distinctive position within the broader Web and NFT ecosystem.. It is closely associated with the Bored Ape Yacht Club ecosystem and was designed to support community governance, culture, and participation across related initiatives. The token has developed utility around the ApeCoin DAO and broader ecosystem activities, giving it a profile that extends beyond meme speculation. Its connection to established digital collectibles and Web communities provides a recognizable cultural foundation. For readers exploring the top meme coins, ApeCoin represents the intersection of meme culture, NFTs, community governance, and broader digital entertainment. 7. Pudgy Penguins – From NFT Culture to a Recognizable Token Brand Pudgy Penguins has developed into one of the most recognizable consumer-facing NFT brands in crypto, with PENGU serving as its community token. The project has expanded its identity through merchandise, digital collectibles, social media, and mainstream brand exposure. CoinMarketCap describes PENGU as the official coin of Pudgy Penguins and highlights the project’s broad cultural reach and community presence. That brand-driven approach gives Pudgy Penguins a different path within the meme sector. Rather than relying solely on a token narrative, the project combines digital collectibles, recognizable characters, and community culture, keeping it relevant among the best meme coins. 8. Floki – Meme Culture Meets Utility and Ecosystem Expansion Floki has developed from a meme-focused token into a broader crypto ecosystem with products spanning decentralized finance, gaming, education, and community initiatives. Its branding remains heavily rooted in meme culture, but its ecosystem strategy aims to provide additional utility around the token. The project has continued building a recognizable global community while expanding its ecosystem beyond the traditional meme coin formula. That combination of branding and utility gives Floki a distinct position among the top meme coins, particularly for audiences interested in meme projects that attempt to create additional products and services around their communities. 9. Fartcoin – Internet Humor Turns Into a Market Narrative Fartcoin represents the irreverent side of the meme coin market, using absurd internet humor as its primary cultural engine. Its identity is intentionally simple, humorous, and designed for social sharing. Like many meme-driven assets, its appeal is closely connected to online communities, viral narratives, and the speed at which internet culture can turn a joke into a recognizable crypto brand. Fartcoin demonstrates how meme markets can be driven by entertainment and cultural momentum rather than traditional blockchain utility. That makes it a notable contender among the best meme coins. 10. Brett – Base Culture Gives This Meme Coin Its Identity Brett has become closely associated with the Base ecosystem and has established itself as one of the better-known meme brands within that blockchain community. Its character-driven identity and strong community culture have helped it gain visibility across social platforms and crypto markets. The token’s appeal is heavily connected to Base’s growing ecosystem and the cultural energy surrounding community-driven assets. Brett demonstrates how blockchain ecosystems can develop their own native meme identities as users and creators build shared communities. Its Base connection and recognizable branding keep it in the conversation around the top meme coins. Conclusion – Best Meme Coins Are Expanding Beyond Simple Memes The best meme coins now cover a surprisingly broad spectrum, from Dogecoin’s long-standing cultural influence and Shiba Inu’s expanding ecosystem to Pepe’s internet-native identity, Bonk’s Solana roots, ApeCoin’s Web culture, Pudgy Penguins’ consumer brand, Floki’s utility push, Fartcoin’s humor-driven community, and Brett’s Base connection. Apeing brings a different story through its LIVE presale and scarcity-focused tokenomics. The current stage has a limited allocation and a defined entry price, while the project’s fixed supply, 40% presale allocation, and burn mechanism create a clear token structure. With stage pricing designed to increase as the presale progresses, the current window gives readers exploring the best meme coins an opportunity to investigate Apeing before the next stage begins. The official Apeing channels provide the latest information for anyone looking to explore the current presale. For More Information Website: Visit the Official Apeing Website Telegram: Join the Apeing Telegram Channel Twitter: Follow Apeing On X (Formerly Twitter) FAQs About Best Meme Coins What are the best meme coins to watch? The best meme coins include established community-driven assets such as Dogecoin, Shiba Inu, Pepe, Bonk, Floki, and other emerging projects with strong cultural or ecosystem narratives. Which meme coin has the strongest community? Community strength varies across projects, but Dogecoin, Shiba Inu, Pepe, and several newer meme assets have developed highly active online communities and recognizable brands. What makes a meme coin popular? Meme coins typically gain attention through strong branding, social engagement, community participation, viral narratives, ecosystem connections, and cultural relevance. Is Apeing’s meme coin presale live? Yes. Apeing’s presale is LIVE, with the current stage offering a limited allocation at its defined presale price while later stages carry higher planned prices. What makes Apeing different from other top meme coins? Apeing combines meme culture with a fixed supply, a dedicated presale allocation, and a mechanism that burns unsold tokens from completed presale stages. Article Summary The best meme coins span established community brands and emerging projects built around internet culture, blockchain ecosystems, NFTs, and utility. Dogecoin, Shiba Inu, Pepe, Bonk, ApeCoin, Pudgy Penguins, Floki, Fartcoin, and Brett each offer distinct narratives. Apeing adds a LIVE presale story centered on fixed supply, a 40% presale allocation, limited stage availability, and the burning of unsold stage tokens as its structured presale progresses. Alt Text for Publishers best meme coins, top meme coins, Apeing presale, Apeing coin, meme coin presale, Dogecoin, Shiba Inu, Pepe crypto, Bonk crypto, Floki crypto Continue Reading: 10 Best Meme Coins Making Headlines as Apeing Presale Surpasses $65K in Under 24 Hours",
+      "tags": "Sponsored",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "DOGE|MARKET|SHIB|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "71445211",
+      "guid": "450dce76-19b0-4b1f-bb40-d532fb030c3d",
+      "published_on": 1789038900,
+      "imageurl": "https://resources.cryptocompare.com/news/5/71445211.jpeg",
+      "title": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/10/bitcoin-traders-dial-down-bullish-plays-ahead-of-u-s-inflation-data",
+      "body": "Your day-ahead look for Sept. 10, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "71444950",
+      "guid": "https://invezz.com/news/2026/09/10/bitcoin-is-flashing-a-warning-near-78000-is-the-market-missing-it/",
+      "published_on": 1789038742,
+      "imageurl": "https://resources.cryptocompare.com/news/69/71444950.jpeg",
+      "title": "Bitcoin is flashing a warning near $78,000: is the market missing it?",
+      "url": "https://invezz.com/news/2026/09/10/bitcoin-is-flashing-a-warning-near-78000-is-the-market-missing-it/",
+      "body": "Cryptocurrency prices moved lower on Thursday as Bitcoin (BTC) retreated to test support near $78,000. Major altcoins followed the market leader, with Ethereum (ETH) slipping toward $2,470 and XRP declining to approximately $1.37. Despite the broad pullback, investor appetite for risk remains relatively strong. The Crypto Fear & Greed Index rose to 70 from 66, keeping market sentiment firmly in “Greed” territory. Sustained optimism could support another breakout, although macroeconomic and geopolitical risks may fuel near-term volatility. Bitcoin consolidation signals a lasting market repricing Bitcoin has traded within a relatively narrow range over the past two weeks while repeatedly defending support near $77,000. Currently, Bitcoin is testing the upper portion of its consolidation range rather than threatening to break below its floor. The market’s ability to absorb a sharp move without reversing suggests that investors have genuinely reassessed Bitcoin’s value. However, BTC must continue holding its key support levels for the constructive outlook to remain intact. Escalating tensions in the Middle East are contributing to cautious market conditions. Iran-backed Houthi forces have expanded their attacks on Saudi Arabia’s energy infrastructure and shipping vessels in the Red Sea. The escalation has pushed crude oil prices higher and encouraged investors to reduce their exposure to risk-sensitive assets. Bitcoin and other cryptocurrencies could face additional selling pressure if the conflict worsens or rising energy costs intensify concerns about inflation. US CPI and Fed decision could trigger volatility Investors are also preparing for Friday’s US Consumer Price Index report and the Federal Reserve’s monetary policy decision on Wednesday. Bitcoin remains sensitive to changes in interest-rate expectations. Recent dovish signals from the Fed initially supported prices, but strong employment data later reversed the move and left BTC broadly unchanged for the week. According to K33 Research, the Producer Price Index, CPI report, and upcoming Federal Open Market Committee meeting are key volatility catalysts. The September 15 Senate cloture vote on the CLARITY Act also represents a major crypto-specific event. Inflation data that supports lower interest rates could lift Bitcoin and the broader cryptocurrency market. Conversely, stronger-than-expected readings may reinforce expectations that monetary policy will remain restrictive. Bitcoin holds above major moving averages Bitcoin is trading below $78,000 on Thursday and has maintained a broadly bullish technical structure despite its latest pullback. BTC remains above its major exponential moving averages, indicating that the wider uptrend is still intact. However, momentum indicators point to a period of consolidation rather than an immediate breakout. The Relative Strength Index has fallen from overbought territory to approximately 58. This signals that buying momentum has cooled but remains moderately positive. Meanwhile, the Moving Average Convergence Divergence indicator has moved deeper into negative territory, highlighting fading upside pressure and the possibility of further range-bound trading. Bitcoin is trading just slightly below the support at $78,094, with the $77,000 region serving as an important near-term floor. If sellers push BTC below this area, the 200-day EMA at approximately $72,923 and the 50-day EMA near $72,764 form a concentrated demand zone. These closely positioned moving averages could attract buyers seeking exposure at lower prices. The 100-day EMA around $70,727 represents the next major structural support. A decisive break below that level would signal a more significant deterioration in Bitcoin’s broader trend. For the bullish case to strengthen, the MACD would need to stabilize while the RSI begins moving higher again. Such a shift could indicate that momentum is returning and prepare Bitcoin for another attempt to extend its advance. The post Bitcoin is flashing a warning near $78,000: is the market missing it? appeared first on Invezz",
+      "tags": "Bitcoin|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Invezz",
+        "img": "https://resources.cryptocompare.com/news/69/default.png",
+        "lang": "EN"
+      },
+      "source": "invezz"
+    },
+    {
+      "id": "71445074",
+      "guid": "https://cryptodaily.co.uk/2026/09/lbank-august-tradfi-trading-volume-surpasses-3-billion-as-daily-volume-jumps-74",
+      "published_on": 1789038487,
+      "imageurl": "https://resources.cryptocompare.com/news/75/71445074.jpeg",
+      "title": "LBank August TradFi Trading Volume Surpasses $3 Billion as Daily Volume Jumps 74%",
+      "url": "https://cryptodaily.co.uk/2026/09/lbank-august-tradfi-trading-volume-surpasses-3-billion-as-daily-volume-jumps-74",
+      "body": "Singapore, Singapore, September 10th, 2026, Chainwire LBank , a global cryptocurrency exchange, has released its August TradFi trading data, marking another step in the platform’s expansion across global financial markets. In August, LBank’s daily TradFi trading volume surpassed $3 billion, while average daily trading volume rose 74% month-on-month and average daily trading users increased 14%. The growth reflects a broader shift in market behavior, as traders increasingly seek seamless access to diverse asset classes through a unified trading environment. LBank’s TradFi offering spans metals, stocks, commodities, and indices, bringing a growing range of globally recognized assets into a unified trading environment. The lineup includes exposure to major themes across gold, technology, artificial intelligence, semiconductors, and rare earths, with assets including SK Hynix (SKHY), SpaceX (SPCX), Direxion Korea Bull 3X (KORU), SanDisk (SNDK), and Changxin Memory Technologies (CXMT). Rather than managing multiple brokerage accounts across markets and time zones, users can access and trade a broad range of TradFi assets through a single LBank account, with leverage of up to 500x available on selected assets. The acceleration in August was not limited to overall volume. LBank recorded a new daily TradFi trading volume high of more than $3 billion, alongside a 74% month-on-month increase in average daily trading volume and a 14% increase in average daily trading users. Trading activity was led by a mix of precious metals and technology-linked assets, with GOLD, SKHYNIX, and SILVER ranking as the three most actively traded assets and accounting for 8.20%, 7.63%, and 3.77% of total TradFi trading volume, respectively. The performance points to sustained appetite across both defensive and growth-oriented segments, while highlighting the growing role of crypto-native platforms in connecting traders with global financial markets. Beyond the breadth of its offering, LBank is continuing to strengthen the market infrastructure supporting its TradFi ecosystem. The platform has now listed 288 TradFi assets, providing exposure across an increasingly diverse range of global markets and investment themes. Among these, SKHYNIX has emerged as one of the platform’s standout TradFi markets. According to CoinGlass data, SKHYNIX’s futures trading volume on LBank ranks Top2 among tracked exchanges, highlighting the strong market activity and growing demand for the asset on the platform. “TradFi is no longer sitting at the edge of the crypto market — it is becoming part of the market itself,” said Eric He, Community Angel Officer and Risk Control Adviser. “The momentum we saw in August reflects a broader shift in how global assets are being accessed, traded, and connected. As the boundaries between crypto and traditional markets continue to converge, traders are looking beyond individual asset classes toward a more unified financial experience. LBank’s ambition is not simply to bring more TradFi assets on-chain, but to build a global trading infrastructure where opportunities can exist within the same ecosystem — with the liquidity, accessibility, and efficiency that traders expect.” Looking ahead, LBank will continue to expand its TradFi ecosystem across equities, commodities, metals, indices, and other high-demand global assets, while further strengthening liquidity, execution infrastructure, and market accessibility. As capital increasingly moves across the boundaries of traditional and digital finance, LBank aims to position itself at the intersection of these markets, giving traders broader access to global opportunities through an increasingly connected and efficient trading ecosystem. About LBank Founded in 2015, LBank is a leading global cryptocurrency exchange serving over 25 million registered users in 160 countries and regions. With a daily trading volume exceeding $23.81 billion and 10 years of safety with zero security incidents, LBank is dedicated to providing a comprehensive and user-friendly trading experience. Through innovative trading solutions, the platform has enabled users to achieve average returns of over 130% on newly listed assets. LBank has listed over 300 mainstream coins and more than 50 high-potential gems. Ranked No. 1 in 100x Gems, Highest Gains, and Meme Share, LBank leads the market with the fastest altcoin listings, unmatched liquidity, and industry-first trading guarantees, making it the go-to platform for crypto investors worldwide. Follow LBank for Updates Website: https://www.lbank.com/ Twitter: https://twitter.com/LBank_Exchange Telegram: https://t.me/LBank_en Instagram: https://www.instagram.com/lbank_exchange LinkedIn: https://www.linkedin.com/company/lbank ContactPR & Communications TeamLBankpress@lbank.com Disclaimer: This is a sponsored press release and is for informational purposes only. It does not reflect the views of Crypto Daily, nor is it intended to be used as legal, tax, investment, or financial advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SPONSORED|TRADING|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "71445255",
+      "guid": "https://en.coinotag.com/nintendo-stock-slides-7943-yen-zelda-direct-bitcoin-risk-appetite",
+      "published_on": 1789038410,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71445255.jpeg",
+      "title": "Nintendo Stock Slides 5.45% to ¥7,943 as Bitcoin (BTC) Traders Weigh Risk Appetite",
+      "url": "https://en.coinotag.com/nintendo-stock-slides-7943-yen-zelda-direct-bitcoin-risk-appetite",
+      "body": "Nintendo stock fell 5.45% to ¥7,943, down over 10% in five days, after a Zelda Direct with no new 3D Mario; Sam Altman cleared Nov 5-6 for Ocarina of Time.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71444528",
+      "guid": "https://timestabloid.com/?p=111205",
+      "published_on": 1789038168,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Community Reacts As Hunter Biden’s $LAPTOP Crashes 90% 30 Minutes After Launch",
+      "url": "https://timestabloid.com/community-reacts-as-hunter-bidens-laptop-crashes-90-30-minutes-after-launch/",
+      "body": "Hunter Biden launched his $LAPTOP cryptocurrency token on September 9. Within 30 minutes of launch, it had crashed 90% from its peak. YouTuber Crypto Rover (@cryptorover) reported on X, triggering reactions from many in the crypto space. The Launch Details Biden announced $LAPTOP earlier in the week, positioning it as a memecoin tied to his controversial laptop story. The token launched on Coinbase’s Base network. The founding team held 30% of the 1 billion token supply. Another 20% went to airdrops targeting investors who lost money on Donald Trump’s $TRUMP coin , Biden’s Substack subscribers, and followers of video journalist Andrew Callaghan. The launch generated significant attention, but the price collapsed almost immediately after trading opened. The token has fallen even further. At press time, it traded at $0.7614, down 99.8% from its peak of over $400. BREAKING: Hunter Biden’s crypto token $LAPTOP has already crashed 90% from its peak, in just 30 minutes. pic.twitter.com/6I8wAVm6K8 — Crypto Rover (@cryptorover) September 9, 2026 Crypto Community Reacts Several prominent voices responded quickly on X. One commenter said the token “speedran the entire shitcoin lifecycle” in 30 minutes, a reference to the typical rise-and-fall pattern of low-quality cryptocurrency launches. Another took a harder stance. He argued this was not a market crash but deliberate theft, tagging Biden directly in his post. A third commenter directed his post at Senator Elizabeth Warren, arguing that her push to delay the CLARITY Act gave space for exactly this kind of unregulated activity. One community member offered a detailed response. He argued that political memecoins follow the same pattern every time: starting with hype, then airdrop theater, then insiders sell first. He told buyers they had not been rugged but had paid for a lesson, adding that treating a ticker with a famous last name as an investment rather than a lottery ticket will keep producing the same result. Ethics Concerns Cut Both Ways The timing raises a significant question about political consistency. Senate Democrats have aggressively opposed the CLARITY Act , citing ethics concerns around officials profiting from crypto while shaping policy. Their objections helped delay the bill and kept crypto markets operating with limited regulatory oversight. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Meanwhile, Hunter Biden, son of former President Joe Biden, launched a memecoin that collapsed within its first half hour of trading. A functioning regulatory structure under the CLARITY Act may have prevented this kind of launch entirely. The White House struck a deal in late July to include ethics provisions in a new draft of the CLARITY Act . However, critics argued the language did not go far enough. As of now, the bill has not passed. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Community Reacts As Hunter Biden’s $LAPTOP Crashes 90% 30 Minutes After Launch appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|Hunter Biden",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|TRADING|AIRDROP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "71444491",
+      "guid": "https://thecryptobasic.com/?p=167636",
+      "published_on": 1789038113,
+      "imageurl": "https://resources.cryptocompare.com/news/65/71444491.jpeg",
+      "title": "Cardano DeFi Platform Empowa Reports Unauthorized ADA and NIGHT Transfers From Its Treasury Wallets",
+      "url": "https://thecryptobasic.com/2026/09/10/cardano-defi-platform-empowa-reports-unauthorized-ada-and-night-transfers-from-its-treasury-wallets/",
+      "body": "Cardano-based DeFi platform Empowa has disclosed two connected incidents involving unauthorized transfers from three project-controlled wallets. According to Empowa, the incidents involved its ADA treasury wallet and two wallets holding undistributed EMP tokens. Visit Website",
+      "tags": "Market|Latest Cardano (ADA) Crypto News Today",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ADA|REGULATION|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "The Crypto Basic",
+        "img": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+        "lang": "EN"
+      },
+      "source": "thecryptobasic"
+    },
+    {
+      "id": "71445084",
+      "guid": "https://en.coinotag.com/malone-lam-pleads-guilty-245m-bitcoin-theft-laundering-ring",
+      "published_on": 1789038066,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71445084.jpeg",
+      "title": "Malone Lam Pleads Guilty in $245M Bitcoin (BTC) Theft and Laundering Ring",
+      "url": "https://en.coinotag.com/malone-lam-pleads-guilty-245m-bitcoin-theft-laundering-ring",
+      "body": "Singaporean Malone Lam admitted leading a RICO conspiracy that stole and laundered over $245M in crypto, including 4,100 BTC taken from one DC victim.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71444495",
+      "guid": "https://cryptodaily.co.uk/2026/09/metamask-independent-company-consensys-split",
+      "published_on": 1789038066,
+      "imageurl": "https://resources.cryptocompare.com/news/75/71444495.jpeg",
+      "title": "MetaMask Becomes Independent Company as Consensys Splits Business in Two",
+      "url": "https://cryptodaily.co.uk/2026/09/metamask-independent-company-consensys-split",
+      "body": "Consensys Software Inc. said on September 9 that it plans to split into two independently operated companies, rebranding the existing company as MetaMask while creating a new infrastructure business that will retain the Consensys name. The planned separation, confirmed by Consensys , is expected to be completed by the end of 2026. The move separates MetaMask’s consumer-facing, self-custodial finance operation from the company’s Ethereum protocol and institutional blockchain infrastructure businesses. MetaMask takes the consumer mandate Under the plan, the current Consensys Software entity will become MetaMask. The renamed company will focus on consumer self-custodial finance, positioning the wallet brand as the standalone consumer platform in the group’s new structure. MetaMask has operated as part of Consensys Software before the announced restructuring. The corporate change would make it one of the two independently run companies rather than a business within the existing Consensys organisation. New Consensys to house Linea and infrastructure The newly created company using the Consensys name will contain the protocols and institutional infrastructure operation, including Linea. Its stated focus will be Ethereum protocols and institutional blockchain infrastructure. The protocol and enterprise-oriented businesses would sit separately from MetaMask’s consumer remit under the announced plan; Consensys did not announce completion of the transaction. Official Consensys graphic accompanying the announcement that Consensys Software Inc. will become MetaMask and split its institutional protocols business into a new Consensys company. — Source: Consensys Leadership and value accrual Joe Lubin, Consensys’ founder, will be chairman and chief executive of MetaMask, as well as executive chairman of the new Consensys. Mike Kriak will become Consensys’ chief executive, with David Cunningham as its president. Lubin told Fortune that MetaMask’s consumer operation had been accruing value faster than Consensys’ other business units, helping motivate the separation. Completion target Consensys expects the separation to be completed by the end of 2026. Until then, the announcement sets out the intended allocation of the businesses and their leadership, rather than a completed corporate split. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BUSINESS|REGULATION|TECHNOLOGY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "71444529",
+      "guid": "https://ambcrypto.com/?p=631698",
+      "published_on": 1789038011,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Examining Plasma’s 11% drop: Can XPL bulls trigger rebound to THIS?",
+      "url": "https://ambcrypto.com/examining-plasmas-11-drop-can-xpl-bulls-trigger-rebound-to-this/",
+      "body": "XPL approached key demand as declining participation weakened price, while liquidity accumulated near $0.09.",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "71444634",
+      "guid": "https://coinpaprika.com/news/germany-moves-tax-bitcoin-like-stocks",
+      "published_on": 1789038000,
+      "imageurl": "https://resources.cryptocompare.com/news/80/71444634.jpeg",
+      "title": "Germany Moves to Tax Bitcoin Like Stocks",
+      "url": "https://coinpaprika.com/news/germany-moves-tax-bitcoin-like-stocks",
+      "body": "Germany's Finance Ministry has drafted a bill to tax crypto gains as capital income, ending a rule that lets investors sell Bitcoin tax-free after one year. The change would apply to assets bought after 31 December 2026 and take effect in January 2027.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "71445506",
+      "guid": "https://coinpedia.org/?p=582119",
+      "published_on": 1789037938,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "VeChain Price Breaks Multi-Year Downtrend: Can VET’s Rally Go Further?",
+      "url": "https://coinpedia.org/price-analysis/vechain-price-breaks-multi-year-downtrend-can-vets-rally-go-further/",
+      "body": "The post VeChain Price Breaks Multi-Year Downtrend: Can VET’s Rally Go Further? appeared first on Coinpedia Fintech News VeChain price rally is gaining attention in the crypto market. VET token has pushed sharply higher after months of compressed action, breaking above the descending structure that had kept sellers in control. As VeChain approaches a major protocol upgrade and expands its infrastructure footprint, the key question is this another relief rally, or the start …",
+      "tags": "Price Analysis|Altcoins",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING|VET|FORKS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "71445083",
+      "guid": "https://en.coinotag.com/arya-ag-2-billion-grain-network-avalanche-avax-ledger",
+      "published_on": 1789037878,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71445083.jpeg",
+      "title": "Arya.ag Puts $2 Billion Grain Network on Avalanche (AVAX) Ledger",
+      "url": "https://en.coinotag.com/arya-ag-2-billion-grain-network-avalanche-avax-ledger",
+      "body": "Arya.ag is recording $2 billion in stored crops on an Avalanche-based ledger, with three major banks joining and $1.3 billion in annual loans in scope.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "AVAX|WALLET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71444674",
+      "guid": "https://en.coinotag.com/pump-fun-93-tokenized-stock-pairs-solana-custom-pairs",
+      "published_on": 1789037699,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71444674.jpeg",
+      "title": "Pump.fun Brings 93 Tokenized Stock Pairs to Solana (SOL) With Custom Pairs Launch",
+      "url": "https://en.coinotag.com/pump-fun-93-tokenized-stock-pairs-solana-custom-pairs",
+      "body": "Pump.fun's Custom Pairs on Solana (SOL) support 93 tokenized stock pairs as Sunrise adds 20 US equities and daily token launches hit a record 263,000.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71444506",
+      "guid": "https://en.coinotag.com/near-protocol-rejection-250-255-resistance-spinning-top",
+      "published_on": 1789037502,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71444506.jpeg",
+      "title": "NEAR (NEAR) Slips to $2.40 After Rejection at $2.50-$2.55 Resistance",
+      "url": "https://en.coinotag.com/near-protocol-rejection-250-255-resistance-spinning-top",
+      "body": "NEAR slid to $2.40 after a rejection at $2.50-$2.55 resistance. COINOTAG's composite engine rates $2.3125 support at 87/100 and $2.4291 resistance at 85/100.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "NEAR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71443498",
+      "guid": "https://thecryptobasic.com/?p=167652",
+      "published_on": 1789037439,
+      "imageurl": "https://resources.cryptocompare.com/news/65/71443498.jpeg",
+      "title": "Ripple’s David Schwartz Explains How XRP Will Overtake Bitcoin in Market Cap",
+      "url": "https://thecryptobasic.com/2026/09/10/david-schwartz-explains-how-xrp-will-overtake-bitcoin-in-market-cap/",
+      "body": "Ripple’s former Chief Technology Officer David Schwartz believes XRP will eventually overtake Bitcoin as the world’s largest cryptocurrency. He argued that this scenario would result from XRP growing faster than Bitcoin, not from BTC collapsing. Visit Website",
+      "tags": "Market|David Schwartz News|Latest Bitcoin (BTC) News Today|Latest XRP (Ripple) News Today",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TECHNOLOGY|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "The Crypto Basic",
+        "img": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+        "lang": "EN"
+      },
+      "source": "thecryptobasic"
+    },
+    {
+      "id": "71444504",
+      "guid": "https://en.coinotag.com/bitcoin-btc-stalls-below-80000-selling-pressure-fades",
+      "published_on": 1789037323,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71444504.jpeg",
+      "title": "Bitcoin (BTC) Stalls Below $80,000 as On-Chain Selling Pressure Fades",
+      "url": "https://en.coinotag.com/bitcoin-btc-stalls-below-80000-selling-pressure-fades",
+      "body": "Bitcoin (BTC) trades near $78,000 after losing $80,000 as on-chain selling pressure fades. ETF inflows hit $986.9M; COINOTAG flags $79,414 as key resistance.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71444084",
+      "guid": "https://en.coinotag.com/vitalik-buterin-eip-8288-ethereum-quantum-privacy-gas-costs",
+      "published_on": 1789037135,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71444084.jpeg",
+      "title": "Vitalik Buterin Backs EIP-8288 to Cut Ethereum (ETH) Quantum-Private Costs by Over 99%",
+      "url": "https://en.coinotag.com/vitalik-buterin-eip-8288-ethereum-quantum-privacy-gas-costs",
+      "body": "Ethereum co-founder Vitalik Buterin backs EIP-8288 for the I-star fork, cutting quantum-safe private transaction costs from 10M gas to tens of thousands.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "71443905",
+      "guid": "https://en.coinotag.com/xrp-ledger-2028-quantum-ready-mainnet-plan",
+      "published_on": 1789036833,
+      "imageurl": "https://resources.cryptocompare.com/news/77/71443905.jpeg",
+      "title": "XRP (XRP) Ledger Eyes 2028 Quantum-Ready Mainnet Under Vet's Plan",
+      "url": "https://en.coinotag.com/xrp-ledger-2028-quantum-ready-mainnet-plan",
+      "body": "An XRPL contributor proposes a quantum-resistant mainnet by 2028, with hybrid signatures in 2027 — but no formal roadmap or validator vote confirms it yet.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789036699,
+    "time_range_start": "2026-09-10 10:38:19",
+    "time_range_end": "2026-09-10 11:38:19"
+  }
+}
