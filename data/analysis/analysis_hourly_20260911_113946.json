@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260911_113946",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789123186,
+    "time_range_start": "2026-09-11 10:39:46",
+    "time_range_end": "2026-09-11 11:39:46"
+  },
+  "total_articles": 36,
+  "unique_sources": 19,
+  "unique_categories": 34,
+  "unique_tags": 51,
+  "body_stats": {
+    "avg_length": 1485.22,
+    "min_length": 38,
+    "max_length": 10040
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-11 10:41:03",
+    "newest": "2026-09-11 11:36:30",
+    "time_span_minutes": 55.45
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "CoinOtag": 4,
+    "TimesTabloid": 3,
+    "CoinDesk": 3,
+    "Crypto Daily": 3,
+    "Coinpaper": 2,
+    "The Crypto Basic": 2,
+    "coinpedia": 2,
+    "Cointelegraph": 2,
+    "Bitcoin.com": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 27,
+    "MARKET": 18,
+    "TRADING": 16,
+    "BTC": 11,
+    "XRP": 8,
+    "BUSINESS": 6,
+    "MACROECONOMICS": 6,
+    "REGULATION": 4,
+    "TECHNOLOGY": 4,
+    "BLOCKCHAIN": 3,
+    "EXCHANGE": 3,
+    "RESEARCH": 2,
+    "WALLET": 2,
+    "ZEC": 2,
+    "ALTCOIN": 2
+  },
+  "top_tags": {
+    "News": 11,
+    "Crypto News": 6,
+    "XRP": 3,
+    "Ripple (XRP)": 3,
+    "Cryptocurrency": 2,
+    "XRP Price": 2,
+    "XRP Price Analysis": 2,
+    "Bitcoin (BTC)": 2,
+    "Business": 2,
+    "Crypto Daybook Americas": 2,
+    "Finance": 2,
+    "Market": 2,
+    "More News": 2,
+    "Cryptocurrency Price Prediction": 2,
+    "Price Prediction": 2
+  }
+}
