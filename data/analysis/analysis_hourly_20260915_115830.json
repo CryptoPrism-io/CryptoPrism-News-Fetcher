@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260915_115830",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789469910,
+    "time_range_start": "2026-09-15 10:58:30",
+    "time_range_end": "2026-09-15 11:58:30"
+  },
+  "total_articles": 38,
+  "unique_sources": 17,
+  "unique_categories": 27,
+  "unique_tags": 63,
+  "body_stats": {
+    "avg_length": 1896.53,
+    "min_length": 38,
+    "max_length": 6896
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-15 10:59:12",
+    "newest": "2026-09-15 11:50:12",
+    "time_span_minutes": 51.0
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "Crypto Daily": 4,
+    "AMB Crypto": 4,
+    "coinpedia": 3,
+    "CoinDesk": 3,
+    "Coinpaprika": 3,
+    "Bitzo": 2,
+    "BitcoinSistemi": 2,
+    "Bitcoin.com": 2,
+    "TimesTabloid": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 31,
+    "MARKET": 18,
+    "TRADING": 16,
+    "REGULATION": 15,
+    "MACROECONOMICS": 7,
+    "EXCHANGE": 7,
+    "BTC": 6,
+    "XRP": 5,
+    "FIAT": 5,
+    "SPONSORED": 4,
+    "BUSINESS": 4,
+    "SOL": 4,
+    "BNB": 3,
+    "DIGITAL ASSET TREASURY": 3,
+    "ETH": 2
+  },
+  "top_tags": {
+    "News": 12,
+    "More News": 5,
+    "Cryptocurrency News": 3,
+    "Cryptocurrency": 3,
+    "Ripple": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "ambcrypto": 2,
+    "XRP": 2,
+    "Business": 2,
+    "Google News": 2,
+    "HideCryptopanic": 2,
+    "Crypto Daybook Americas": 2,
+    "Opinion": 2,
+    "Shiba (SHIB)": 1
+  }
+}
