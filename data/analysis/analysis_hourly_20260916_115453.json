@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260916_115453",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789556093,
+    "time_range_start": "2026-09-16 10:54:53",
+    "time_range_end": "2026-09-16 11:54:53"
+  },
+  "total_articles": 30,
+  "unique_sources": 16,
+  "unique_categories": 30,
+  "unique_tags": 44,
+  "body_stats": {
+    "avg_length": 1376.43,
+    "min_length": 38,
+    "max_length": 5527
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-16 10:56:16",
+    "newest": "2026-09-16 11:54:36",
+    "time_span_minutes": 58.33
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Coinpaprika": 4,
+    "Finbold": 3,
+    "CoinDesk": 3,
+    "Bitcoin.com": 2,
+    "coinpedia": 2,
+    "cryptonews": 2,
+    "Coinpaper": 1,
+    "Crypto Daily": 1,
+    "Cointelegraph": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 24,
+    "MARKET": 14,
+    "TRADING": 13,
+    "XRP": 8,
+    "REGULATION": 7,
+    "BTC": 7,
+    "ASIA": 4,
+    "BUSINESS": 3,
+    "FIAT": 3,
+    "EXCHANGE": 3,
+    "RESEARCH": 2,
+    "ALTCOIN": 2,
+    "MACROECONOMICS": 2,
+    "ETH": 2,
+    "ZEC": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "XRP": 5,
+    "Cryptocurrency news": 3,
+    "crypto": 3,
+    "cryptocurrency": 3,
+    "Bitcoin": 3,
+    "Ripple (XRP)": 2,
+    "Crypto News": 2,
+    "Altcoin News": 2,
+    "Crypto Daybook Americas": 2,
+    "Ethereum": 2,
+    "Markets": 2,
+    "Press release": 1,
+    "Business": 1,
+    "Stellar": 1
+  }
+}

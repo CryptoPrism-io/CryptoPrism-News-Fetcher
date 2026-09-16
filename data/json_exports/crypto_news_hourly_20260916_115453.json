@@ -1,0 +1,612 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "72032225",
+      "guid": "https://news.bitcoin.com/?p=848109&preview=true&preview_id=848109",
+      "published_on": 1789559676,
+      "imageurl": "https://resources.cryptocompare.com/news/14/72032225.jpeg",
+      "title": "DSA’s Adrian Wall Leads Institutional Infrastructure Discussion at The Digital Chamber’s Convergence Forum",
+      "url": "https://news.bitcoin.com/press-releases/dsas-adrian-wall-leads-institutional-infrastructure-discussion-at-the-digital-chambers-convergence-forum/",
+      "body": "Washington, D.C., September 16, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, today announced the conclusion of Managing Director Adrian Wall’s participation in The Digital Chamber’s Convergence Forum, held September 14, 2026, in New York City. The forum",
+      "tags": "Press release",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "RESEARCH",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "72031722",
+      "guid": "https://coinpaper.com/35796/salesforce-outage-hits-customers-worldwide-crm-stock-falls",
+      "published_on": 1789559208,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Salesforce Outage Hits Customers Worldwide, CRM Stock Falls",
+      "url": "https://coinpaper.com/35796/salesforce-outage-hits-customers-worldwide-crm-stock-falls",
+      "body": "Salesforce suffered a major global outage on Wednesday, which left customers facing severe delays, intermittent errors and an inability to access some services at an awkward moment for the cloud software giant. The disruption was first reported at around 8:30 a.m. UTC on Sept. 16 and affected hundreds of Salesforce instances in markets including the United States, UK, Germany, France, India and Japan. Salesforce said its investigation found that requests were stalling while waiting for a response from an internal login service, consuming available server resources. The company initially considered restarting systems before identifying increased load on a core component as the underlying problem. By 10:56 a.m. UTC, Salesforce said it successfully validated a fix on a test instance and had begun rolling it out across affected systems. The incident was still classified as a major disruption. Salesforce Stock Falls as Dreamforce Takes Center Stage The outage comes during Dreamforce 2026, Salesforce's flagship annual conference in San Francisco, where the company is pushing its latest artificial intelligence products and partnerships. Dreamforce runs from Sept. 15 through Sept. 18 and includes more than 400 sessions focused heavily on Salesforce's vision for the ”Agentic Enterprise.” Salesforce shares were already under pressure before Wednesday's outage. CRM stock closed Tuesday at $255.65, down 1.46% from Monday's $259.43 close. The decline followed a sharp 4.73% rally on Monday. Salesforce stock price (Source: CoinCodex) Shares were down another roughly 0.5% in Wednesday premarket trading at around $254.40. Because Tuesday's decline occurred before the outage began, it cannot be attributed to the service disruption. However, the incident creates another issue for investors to monitor as markets digest Salesforce's Dreamforce announcements. Options pricing ahead of Dreamforce suggested traders were preparing for Salesforce stock to move as much as 4% in either direction by the end of the week, which sheds some light on the importance investors are placing on announcements from the conference. Those announcements include AIforce , a new interface layer that is designed to make Salesforce data, workflows and business logic available across AI applications, as well as an expanded Google Cloud partnership connecting Salesforce services with Google's AI infrastructure. The timing makes Wednesday's outage particularly interesting. Salesforce is using Dreamforce to convince large enterprises to place more critical workflows and AI agents on its infrastructure, which means that reliability will remain an important part of that pitch even as the company expands deeper into enterprise AI.",
+      "tags": "News|Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|MARKET|TECHNOLOGY|TRADING",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "72031815",
+      "guid": "https://finbold.com/?p=275223",
+      "published_on": 1789559095,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "AI predicts Stellar (XLM) price for September 30, 2026",
+      "url": "https://finbold.com/ai-predicts-stellar-xlm-price-for-september-30-2026/",
+      "body": "Stellar ( XLM ) fell nearly 10% to $0.175 amid a broader cryptocurrency market downturn following a failed Clarity Act vote on September 16, and our machine learning algorithm suggests the price is most likely to remain where it is throughout the month. That is, based on the forecast given by Finbold’s AI Agent , XLM will gain on average 0.56% over the next couple of weeks, rising from $0.175 at press time to just $0.176 on September 30. XLM price prediction September 2026. Source: Finbold The artificial intelligence ( AI ) tool combined the results given by three large language models (LLMs): DeepSeek Chat, ChatGPT 5.7 Luna, and Gemini 3.5 Flash. However, not all models agreed in their forecast. Notably, DeepSeek Chat projects XLM at $0.181, representing a potential 3.35% increase from the reference price. ChatGPT also forecasts an advance, with a target of $0.178 and a projected gain of 1.64%. On the other hand, Gemini 3.5 Flash takes a more cautious view, predicting that XLM will decline to $0.170, or 3.32% below the reference price. The difference between the highest and lowest forecasts is $0.011, showing there’s some uncertainty regarding the token’s near-term direction. LLMs predict XLM price on September 30. Source: Finbold Short-term XLM price outlook AI forecasts are estimates rather than guaranteed outcomes. In other words, their accuracy will depend on market conditions as the month progresses. For now, the outlook remains negative. Namely, a technical breakdown below key support levels is adding to selling pressure. The token’s decline significantly outpaced Bitcoin’s ( BTC ) 1.42% loss, highlighting the weakness in altcoins as traders reduced exposure to riskier digital assets. Likewise, XLM broke below the 61.8% Fibonacci retracement level at $0.178 and its 200-day simple moving average ( MA ) near $0.176. The move triggered stop-loss orders and algorithmic selling, while trading volume climbed 5%, suggesting elevated activity during the decline. As mentioned, the failed Clarity Act vote on Wednesday renewed concerns surrounding monetary policy, while the Altcoin Season Index fell 18% over the past week. However, the upcoming Protocol 28 vote on September 16 could provide a network-related catalyst, but its impact on price remains uncertain. Featured image via Shutterstock The post AI predicts Stellar (XLM) price for September 30, 2026 appeared first on Finbold .",
+      "tags": "Cryptocurrency news|crypto|cryptocurrency|Stellar|XLM",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING|XLM|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "72031585",
+      "guid": "https://en.coin-turk.com/?p=249401",
+      "published_on": 1789559056,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72031585.jpeg",
+      "title": "DCENT urges urgent asset transfer from app wallet after security breach",
+      "url": "https://en.coin-turk.com/dcent-urges-urgent-asset-transfer-from-app-wallet-after-security-breach/?utm_source=rss&utm_medium=rss&utm_campaign=dcent-urges-urgent-asset-transfer-from-app-wallet-after-security-breach",
+      "body": "🚨 DCENT Wallet detected a security breach affecting its App Wallet. ⚠️ Users storing assets in the DCENT App Wallet or using the same recovery phrase must urgently transfer funds to a secure hardware wallet. 🔒 DCENT Hardware Wallets remain safe, with no incidents reported so far. 📈 South Korea’s strong interest in $XRP makes this security update particularly significant for local traders. Continue Reading: DCENT urges urgent asset transfer from app wallet after security breach The post DCENT urges urgent asset transfer from app wallet after security breach appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|XRP|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72031567",
+      "guid": "https://cryptodaily.co.uk/2026/09/ecb-merchant-applications-2027-digital-euro-pilot",
+      "published_on": 1789558865,
+      "imageurl": "https://resources.cryptocompare.com/news/75/72031567.jpeg",
+      "title": "ECB Opens Merchant Applications for Its 2027 Digital Euro Pilot",
+      "url": "https://cryptodaily.co.uk/2026/09/ecb-merchant-applications-2027-digital-euro-pilot",
+      "body": "The Eurosystem has opened applications for euro-area e-commerce and mobile-commerce merchants to take part in its digital euro pilot, moving the project into testing at the online checkout layer. Businesses have until 17:00 CET on October 27, 2026 to apply, according to the European Central Bank’s pilot guidance . The call, launched on September 15, seeks businesses that can accept a beta digital euro for remote purchases in controlled online or mobile settings. It follows the Eurosystem’s earlier selection of payment service providers, shifting the programme from the infrastructure side of the pilot toward merchant acceptance. Merchant applications target remote checkout payments The recruitment is directed at merchants operating in the euro area through e-commerce or mobile-commerce channels. Selected businesses would accept the beta digital euro at checkout for remote person-to-business payments , alongside an acquiring pilot payment service provider. The ECB’s announcement of the call identifies e-commerce and mobile-commerce merchants as the participants sought for the pilot, narrowing the immediate use case to merchant checkout rather than a broad public deployment across every payment setting. Applicants must submit an application questionnaire, a declaration and supporting evidence to the ECB by the deadline. The materials set out a formal process for businesses seeking a place in the testing phase, rather than an open consumer launch of the digital euro. The acquiring provider component is central to the design. Merchants are being recruited to test acceptance with a payment service provider already participating in the pilot, linking the customer-facing checkout environment to the provider infrastructure selected by the Eurosystem. The 2027 beta will test operations and user experience The pilot is planned to begin in the second half of 2027 and run for 12 months. It will test technical functionality, operational processes and user experience, according to PYMNTS . Its payment instrument will be a beta digital euro with no legal-tender status. That status frames the exercise as a limited test programme: merchants would be evaluating how acceptance works in controlled remote-commerce environments, including the operational and user-facing elements that arise at checkout. The stated test areas extend beyond whether the technical system functions: over the year-long pilot, the Eurosystem will be able to observe the processes around it and the experience of the users involved, rather than relying on a one-off demonstration. For online retailers and mobile-commerce operators, the call therefore concerns participation in a defined beta environment. The ECB has not presented the merchant recruitment as the introduction of a legal-tender payment method. Merchant recruitment follows selection of 36 payment providers The ECB selected 36 payment service providers from more than 50 applicants for the pilot. The July ECB announcement said the firms would provide the programme’s payment-provider infrastructure. The Eurosystem opened its merchant call on September 15 for euro-area e-commerce and mobile-commerce businesses. Selected merchants would accept a beta digital euro at e-commerce or mobile-commerce checkout for remote person-to-business payments alongside an acquiring pilot payment service provider. Applications are due in October. The pilot is planned for the second half of 2027 and will run for 12 months, leaving the current recruitment focused on participation in a later controlled test rather than immediate acceptance activity. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|REGULATION|TRADING|MACROECONOMICS",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "72031808",
+      "guid": "https://cointelegraph.com/news/circle-arc-mainnet-launch-usdc-native-gas",
+      "published_on": 1789558784,
+      "imageurl": "https://resources.cryptocompare.com/news/16/72031808.jpeg",
+      "title": "Circle launches Arc mainnet with USDC as native gas token",
+      "url": "https://cointelegraph.com/news/circle-arc-mainnet-launch-usdc-native-gas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Circle’s Arc mainnet is live with USDC for transaction fees, support for more than 20 fiat stablecoins and links to over 20 blockchains.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "72030752",
+      "guid": "https://en.coin-turk.com/?p=249399",
+      "published_on": 1789558276,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72030752.jpeg",
+      "title": "EGRAG CRYPTO identifies key $1.30 support as XRP fractal repeats",
+      "url": "https://en.coin-turk.com/egrag-crypto-identifies-key-1-30-support-as-xrp-fractal-repeats/?utm_source=rss&utm_medium=rss&utm_campaign=egrag-crypto-identifies-key-1-30-support-as-xrp-fractal-repeats",
+      "body": "🚨 EGRAG CRYPTO sees a repeating price fractal playing out in $XRP. 📊 XRP currently trades just above $1.30, with key support at this level. 🛑 The chart flags $1.3915 and $1.8452 as major resistance points overhead. 🔎 Analyst expects the new fractal could mirror the summer's breakout rally. Continue Reading: EGRAG CRYPTO identifies key $1.30 support as XRP fractal repeats The post EGRAG CRYPTO identifies key $1.30 support as XRP fractal repeats appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72030599",
+      "guid": "https://news.bitcoin.com/?p=848070",
+      "published_on": 1789558247,
+      "imageurl": "https://resources.cryptocompare.com/news/14/72030599.jpeg",
+      "title": "Whale Sells 866 BTC for 26,924 ETH Hours Before Bitcoin Price Tanked",
+      "url": "https://news.bitcoin.com/crypto-news/whale-sells-866-btc-26924-eth-bitcoin-price-clarity-act/",
+      "body": "A trader sold 866 bitcoin and bought 26,924 ether on Sept. 15, hours before the U.S. Senate blocked the CLARITY Act, resulting in bitcoin’s price falling under $75,000 shortly afterward. The Trade Onchain analytics firm Lookonchain flagged the wallet, labeled 0x4553, and the accounting turned out to be unusually clean, with the whale swapping 512",
+      "tags": "Crypto News|Bitcoin (BTC)|Ethereum (ETH)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|TRADING|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "4110097",
+      "guid": "https://coinpedia.org/?p=85401",
+      "published_on": 1789557606,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "SKY (SKY) Price Prediction 2026, 2027 – 2030: Is SKY a Strong Long-Term DeFi Investment?",
+      "url": "https://coinpedia.org/price-prediction/maker-dao-mkr-price-prediction/",
+      "body": "The post SKY (SKY) Price Prediction 2026, 2027 – 2030: Is SKY a Strong Long-Term DeFi Investment? appeared first on Coinpedia Fintech News Story Highlights The live Price of the SKY token is SKY could target the $0.10 price level by 2026. By 2030, SKY may hit $7.92 levels. MakerDAO has completed its Endgame transformation, operating under the Sky brand with SKY replacing MKR as the network’s governance token. MKR holders can still convert their tokens into SKY …",
+      "tags": "Cryptocurrency Price Prediction|Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ICO|MKR|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "72031803",
+      "guid": "https://www.cryptonewsz.com/clarity-act-stall-senate-vote-crypto-uncertain/",
+      "published_on": 1789557444,
+      "imageurl": "https://images.cryptocompare.com/news/default/cryptonewsz.png",
+      "title": "CLARITY Act Fails Senate Vote, Leaving US Crypto Rules in Limbo",
+      "url": "https://www.cryptonewsz.com/clarity-act-stall-senate-vote-crypto-uncertain/",
+      "body": "The U.S. Senate was unable to advance the CLARITY Act and has garnered attention towards financial regulators and their capabilities to develop crypto rules. The CLARITY Act bill failed to secure the 60 votes that were needed to invoke cloture and it received 49 votes in favor and 50 against. The drawback has raised questions over how securities and commodity regulations will apply across the watch-brokered market if Congress does not eventually move forward with the designated framework. To this, former CFTC Chairman Christopher Giancarlo called the Senate setback discouraging, but said it would not stop the march of innovation in the United States. Meanwhile, industry figures and lawmakers have had different perspectives on what could happen next. NEW: Former @CFTC Chairman @giancarloMKTS tells me the Senate’s failure to pass the Clarity Act is a disappointment but will not stop the “march of innovation” in the U.S. “ @SECPaulSAtkins and @ChairmanSelig are determined to do what their jobs require them to do and put in… — Eleanor Terrett (@EleanorTerrett) September 16, 2026 Why Did the CLARITY Act Face a Setback? The CLARITY Act failed to pass after falling short of the 60 votes necessary to invoke cloture. The Senate vote was 49 to 50, meaning the legislation did not even reach a basic majority, and backers fell 11 votes short of the threshold needed to open floor debate on H.R. 3633. The drawback has garnered attention on the wider question of how virtual assets should be governed in the United States. The CLARITY Act sought to create an overall framework for the virtual asset market and deem how securities and commodities rules would apply to different crypto products. Former CFTC Chairman Christopher Giancarlo described the Senate’s failure to pass the legislation as a discouraging act, but said it would not stop the innovation in the U.S. He said SEC Chair Paul Atkinson and CFTC Chair Michael Selig were ready to carry out the responsibilities and create regulatory frameworks to support financial innovation. This would also support market modernization and economic growth under the U.S. law. The failed vote has created sharply different reactions among market players and industry participants. Senator Cynthia Lummis, the chief architect of the CLARITY Act, criticized Senator Democrats subsequent to the voting. She said Democrats had not been grave about consumer rights and preserving American leadership. Lummis also stated they were constantly changing their demands during discussions. They had also denied steps addressing politicians’ personal crypto investments and consumer rights. Lummis added that the vote could affect the American leadership and benefit China and other competitors. These remarks represent her evaluation of the Senate Democrats’ position after the vote. According to Eleanor Terrett, Senator John Kennedy said he was not flabbergasted that the bill did not pass but did not believe that the legislation was necessarily dead. He said his Democratic colleagues understood the requirement for a cryptocurrency market structure and indicated the issue could return during the lame-duck session. Senator Ted Cruz also said that he hoped the legislation could return, comparing its status to the distinction between something dead and mostly dead. Cruz blamed Democrats for what he described as political maneuvering and said this could push crypto activity and jobs offshore. What Happens to US Crypto Rules After the Senate Setback? The failure has shifted attention towards SEC and CFTC and whether they can develop crypto rules without new legislation. SEC Chair Paul Atkins had previously demonstrated that the agency could advance rules on their own, while CFTC Chair Michael Sigel had similarly indicated this synergy. Ripple CEO Brad Garlinghouse also said the SEC and CFTC could develop rules despite the drawback. Giancarlo said these two agencies were hellbent to establish a governed framework within their current duties. Meanwhile, Brian Armstrong said the CLARITY Act’s failure was discouraging but argued that the crypto niche could not continue waiting for Congress. Brian said the SEC and CFTC have the required mechanisms to develop regulations under their authority. He also expects the agencies to start working on the issue. Armstrong also pointed to the GENIUS Act , saying that stablecoin legislation was already law and described it as more lenient on rewards. He pointed out that some concessions made on the CLARITY discussions were difficult to accept and led to the legislative setback. He also believed that the setback could bear benefits. Senator Thom Tillis filed a motion to reconsider, leaving another procedural attempt feasible. Kennedy also recommended that the legislation could return during the lame-duck session, although the timing could become crucial as Congress members approach the November elections. The Senate outcome coincided with a plunge across the crypto market. Bitcoin fell to just under $75,000 after the outcome before recovering to around $76,000, down 3.7% on the day. XRP was down 9.74%, while the total crypto market capitalization stood near $2.58 trillion. For now, the CLARITY Act remains stalled in the Senate, while garnering attention towards regulators’ continued bipartisan discussions and the probability of another legislative attempt. The outcome leaves the future structure of U.S. crypto regulation reliant on developments across both Congress and the monetary regulatory agencies.",
+      "tags": "Crypto Regulations",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|MARKET|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CryptoNewsZ",
+        "img": "https://images.cryptocompare.com/news/default/cryptonewsz.png",
+        "lang": "EN"
+      },
+      "source": "cryptonewsz"
+    },
+    {
+      "id": "72029700",
+      "guid": "https://en.coin-turk.com/?p=249396",
+      "published_on": 1789557436,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72029700.jpeg",
+      "title": "Zcash coinholders approve faster network, keep halving schedule in NU7 upgrade vote",
+      "url": "https://en.coin-turk.com/zcash-coinholders-approve-faster-network-keep-halving-schedule-in-nu7-upgrade-vote/?utm_source=rss&utm_medium=rss&utm_campaign=zcash-coinholders-approve-faster-network-keep-halving-schedule-in-nu7-upgrade-vote",
+      "body": "🚨 Zcash coinholders back faster network, keep halving schedule in NU7 vote. 🔒 Nearly two-thirds of eligible ZEC took part, the highest turnout to date. 🗳️ In $ZEC, 96.6% of voters choose to delay coin reissuance until 2031. 💡 Zcash aims to align with bitcoin’s monetary policy and strengthen privacy. Continue Reading: Zcash coinholders approve faster network, keep halving schedule in NU7 upgrade vote The post Zcash coinholders approve faster network, keep halving schedule in NU7 upgrade vote appeared first on COINTURK NEWS .",
+      "tags": "Altcoin News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ZEC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72029797",
+      "guid": "1a69f590-afbb-44f3-9374-3a0d0e834101",
+      "published_on": 1789557411,
+      "imageurl": "https://resources.cryptocompare.com/news/5/72029797.jpeg",
+      "title": "Bitcoin loses touch with the Dollar Index, U.S. stocks ahead of the Fed",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
+      "body": "Your day-ahead look for Sept. 16, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "72029802",
+      "guid": "https://u.today/nearly-2-billion-of-bitcoin-sent-to-exchanges-at-loss-as-clarity-act-fails",
+      "published_on": 1789557372,
+      "imageurl": "https://resources.cryptocompare.com/news/64/72029802.jpeg",
+      "title": "Nearly $2 Billion of Bitcoin Sent to Exchanges at Loss as Clarity Act Fails",
+      "url": "https://u.today/nearly-2-billion-of-bitcoin-sent-to-exchanges-at-loss-as-clarity-act-fails",
+      "body": "Bitcoin's short-term holders are rapidly moving tokens back to exchanges following the buzzing Clarity Act failure, causing exchange inflow to hit a monthly high.",
+      "tags": "Bitcoin|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "72029271",
+      "guid": "https://finbold.com/?p=275202",
+      "published_on": 1789557177,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "XRP price prediction after Clarity Act fails to pass",
+      "url": "https://finbold.com/xrp-price-prediction-after-clarity-act-fails-to-pass/",
+      "body": "XRP is under pressure after the U.S. Senate failed to advance the Digital Asset Market Clarity Act, a landmark cryptocurrency bill designed to establish a clearer regulatory framework for digital assets. The legislation fell short of the 60 votes needed to move forward, dealing a setback to an industry that had hoped the bill would provide greater certainty around the treatment of cryptocurrencies such as XRP. The failed vote triggered a broad cryptocurrency market selloff, with XRP among the hardest-hit major digital assets. The token has dropped more than 8% over the past 24 hours and was trading at $1.29 as of press time. XRP seven-day price chart. Source: Finbold Notably, the Clarity Act would have helped define the roles of the SEC and CFTC in overseeing digital assets. For XRP, which has spent years at the center of regulatory debates, the legislation was viewed as a potential step toward greater legal certainty. Instead, the Senate vote leaves the industry reliant on existing agency guidance and future regulatory actions. XRP price prediction Based on current technical indicators, ChatGPT’s outlook remains cautiously constructive despite the recent correction. The base-case scenario is for XRP to stabilize and consolidate between $1.25 and $1.40 as the market absorbs the Clarity Act disappointment. If sentiment improves and the broader crypto market recovers, XRP could rebound toward the $1.50 to $1.70 range over the coming months. Conversely, a sustained deterioration in market sentiment could see the token retest the $1.15 to $1.25 zone. XRP price prediction. Source: ChatGPT XRP technical analysis The most notable aspect of XRP’s chart is that the cryptocurrency continues to trade above both its key moving averages ( MA ) despite the sharp selloff. The 50-day simple moving average currently sits at $1.23, while the 200-day simple moving average stands at $1.27. With XRP trading at $1.29, the asset remains above both indicators. This is significant because the 50-day SMA is a key measure of medium-term trend strength, while the 200-day SMA is widely used to assess the long-term trend. As long as XRP remains above both levels, its broader bullish structure remains intact despite recent weakness. Meanwhile, XRP’s 14-day Relative Strength Index ( RSI ) stands at 45.22, placing it in neutral territory. The reading suggests bearish momentum has increased following the Clarity Act setback, but remains well above the oversold threshold of 30, indicating sellers have not fully taken control of the market. Featured image via Shutterstock The post XRP price prediction after Clarity Act fails to pass appeared first on Finbold .",
+      "tags": "Cryptocurrency news|Clarity Act|crypto|cryptocurrency|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "72029436",
+      "guid": "https://en.bitcoinsistemi.com/clarity-act-vote-shakes-crypto-market-this-altcoin-dropped-the-most-first-statements-from-the-white/",
+      "published_on": 1789557071,
+      "imageurl": "https://resources.cryptocompare.com/news/81/72029436.jpeg",
+      "title": "Clarity Act Vote Shakes Crypto Market: This Altcoin Dropped the Most! First Statements from the White House and Industry Arrive, What Happens Next?",
+      "url": "https://en.bitcoinsistemi.com/clarity-act-vote-shakes-crypto-market-this-altcoin-dropped-the-most-first-statements-from-the-white/",
+      "body": "The Digital Asset Market Clarity Act, which aims to create a comprehensive regulatory framework for digital assets in the US, failed to gain the necessary support to pass in the Senate. In the vote, 49 senators voted in favor and 50 against, failing to reach the 60-vote threshold required for the bill to proceed. Following the negative outcome of the vote on the Clarity Act, Bitcoin fell by approximately 3%, dropping to $75,000. In response, after the US Senate failed to pass the ‘CLARITY Act’, XRP lost approximately 10% of its value, recording the biggest drop among major cryptocurrencies. XRP fell by approximately 10% to around $1.28. While other altcoins also experienced declines, the drops were more limited compared to XRP. Ethereum fell by about 5% to around $2,400, and Solana also dropped by 5% to around $97. A Huge Disappointment! The lack of progress on the Clarity Act has caused great disappointment in the cryptocurrency sector, and significant assessments have also come from prominent figures. Coinbase CEO Brian Armstrong expressed his disappointment that the Clarity Act was not progressing in the US Senate, in a post on his X account. However, he noted that bipartisan negotiations could bring the bill back to the agenda. SEC and CFTC Highlights! Armstrong said that Congress shouldn’t be waited for and that the SEC and CFTC could create clearer regulations for cryptocurrencies with their existing powers. He predicted that regulatory clarity would still be achieved. Armstrong, stating that the industry made some concessions during the Clarity Act negotiations, suggested that the bill’s failure might have been a better outcome. He emphasized that the crypto sector will continue to transform the financial system through regulatory bodies. Statement from the White House! White House official Patrick Witt described the unsuccessful Senate vote on the Clarity Act as a “great disappointment.” Witt argued that the outcome poses a risk to the U.S.’s global leadership in finance, and that the decision could weaken the U.S.’s influence over global financial standards, adding that all eyes are now on the next steps to be taken by the SEC and the CFTC. Witt argued that this was a failure on the part of American leadership. Witt stated that if the law does not progress, the influence of Brussels or Beijing-based regulators on global financial markets could increase in the future. He also thanked President Donald Trump, David Sacks, Senator Cynthia Lummis, and other senators for their contributions to the process. A Call to Regulatory Bodies! Witt, who also praised the cooperation between the Treasury, SEC, and CFTC administrations, specifically addressed SEC Chairman Paul Atkins and CFTC Chairman Michael Selig, stating that the next step lies with the regulatory bodies. Finally, crypto journalist Brady Dale argues that following the failure of the procedural vote in the US Senate that would have allowed the Clarity Act to proceed, the responsibility lies primarily with certain political actors, including President Donald Trump. Dale argued that Trump’s launch of the TRUMP memecoin negatively impacted the process. He also claimed that Senator Tim Scott stifled legislative momentum by insisting on a separate Senate text instead of directly advancing the House bill after the GENIUS Act. *This is not investment advice. Continue Reading: Clarity Act Vote Shakes Crypto Market: This Altcoin Dropped the Most! First Statements from the White House and Industry Arrive, What Happens Next?",
+      "tags": "Altcoin|Analysis|Bitcoin|Ethereum|News|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|REGULATION|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "72029410",
+      "guid": "https://cryptonews.com/news/doge-1-moon-mission-launches-today-amid-broader-crypto-market-pullback/",
+      "published_on": 1789556978,
+      "imageurl": "https://resources.cryptocompare.com/news/52/72029410.jpeg",
+      "title": "DOGE-1 Moon Mission Launches Today Amid Broader Crypto Market Pullback",
+      "url": "https://cryptonews.com/news/doge-1-moon-mission-launches-today-amid-broader-crypto-market-pullback/",
+      "body": "On Wednesday, September 16, 2026, the first-ever space mission funded entirely by Dogecoin, DOGE-1, is scheduled to launch from the Kennedy Space Center in Florida. While this marks a historic milestone for digital assets, it arrives during a broader market correction. Yesterday, the US Senate rejected the Clarity Act, triggering a 2% decline in the total crypto market cap, which now sits at $2.57 trillion. Analyzing the Market: Short-Term Correction vs. Long-Term Meme Coin Strength The regulatory setback has led to a temporary wave of caution across major digital assets: Bitcoin (BTC) is trading near $75,500, down approximately 1.5% on the day and 5% over the past week. Ethereum (ETH) has declined by 5% this week, trading just under the $2,400 threshold. Dogecoin (DOGE) has experienced a 13% weekly drop, alongside a 3.7% daily decline. Despite this short-term volatility, the broader outlook for high-utility and community-backed assets remains robust. The meme coin sector has grown 21.6% over the past month, reaching a total valuation of $26.84 billion. Dogecoin itself has gained 13% over the last 30 days, maintaining a market capitalization of $13.62 billion. This sustained interest continues to drive capital into early-stage projects, with the Maxi Doge (MAXI) presale now rapidly approaching the $5 million milestone. Technical Specifications of the DOGE-1 Mission The DOGE-1 payload is a compact 40kg satellite designed to orbit the moon, collect surface imagery, and gather sensor data. Developed by Geometric Energy Corporation, the satellite is booked on a SpaceX Falcon 9 rideshare rocket. In addition to its scientific objectives, the satellite features a small external screen that will broadcast logos and digital art back to Earth. While the launch has faced several delays over the past two years, final countdown preparations are underway. Market analysts, including Trader Tardigrade on X, are monitoring the event closely to assess how this high-profile deployment might influence the next market cycle for dog-themed digital assets. $DOGE /monthly — When DOGE Leaves the Floor Every single time #Dogecoin has consolidated at a floor level, it has launched into a parabolic bull run. Three historical floor patterns Each floor = massive breakout 2015 floor → Explosive move 2019 floor →… pic.twitter.com/BmCRUaw85K — Trader Tardigrade (@TATrader_Alan) September 16, 2026 Maxi Doge Capitalizes on Meme Coin Sector Resilience For investors seeking exposure to the meme coin ecosystem with structured yield opportunities, Maxi Doge (MAXI) offers a secure entry point on the Ethereum network. To address security concerns, the project’s smart contracts have been fully audited by independent blockchain security firms Coinsult and SolidProof. The project features a fixed total supply of 150.24 billion tokens, structured to support marketing, liquidity, development, and community incentives. pic.twitter.com/Vg6OpDX6Bq — MaxiDoge (@MaxiDoge_) August 13, 2026 The Maxi Doge presale has successfully raised $4.86 million, targeting a hard cap milestone of $5.20 million. The current presale price stands at $0.0002839 per token, up from its initial offering price of $0.00025. A key feature of the ecosystem is its staking protocol, which currently offers a 64% Annual Percentage Yield (APY), allowing early participants to accumulate rewards prior to exchange listings. How to Participate in the Maxi Doge Presale Eligible participants can secure MAXI tokens by visiting the official Maxi Doge site and connecting a compatible Web3 wallet. For mobile users, the presale is integrated with the Best Wallet app, which is available for download on the Apple App Store and Google Play . Users can find the presale directly under the “Upcoming Tokens” tab within the application. The platform supports purchases using ETH, BNB, USDT, USDC, or standard bank cards. Once purchased, tokens can be immediately committed to the staking contract to begin earning the 64% APY. For real-time project updates and community discussions, users can follow the official X page and join the Telegram group . Get Ahead of Next Meme Coin Launch Here The post DOGE-1 Moon Mission Launches Today Amid Broader Crypto Market Pullback appeared first on Cryptonews .",
+      "tags": "News|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "DOGE|ETH|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "72029406",
+      "guid": "https://cryptonews.com/news/xrp-price-fall/",
+      "published_on": 1789556940,
+      "imageurl": "https://resources.cryptocompare.com/news/52/72029406.jpeg",
+      "title": "XRP Price Loses 10% as Crypto Weakness Deepens",
+      "url": "https://cryptonews.com/news/xrp-price-fall-can-it-recover/",
+      "body": "XRP price trades at $1.28, down 9% on the day. The decline was XRP’s largest one-day percentage loss since February 5. The move placed attention on how the token would trade after the sharp fall, as it was trading between $1.40 and $1.45 in the previous 24 hours. The decline reduced XRP’s market cap to $80 billion, or 3.34% of the total cryptocurrency market cap. XRP’s highest market capitalization was at $210 billion. As this is being reported, the XRP price remains 65% below its all-time high of $3.65, set on July 18 last year. Other major cryptocurrencies also declined during the session. Bitcoin was last at $75,500, down 2% on the day, while Ethereum traded at under $2,400, down 4%. Those declines provide important market context for XRP’s move. Trade XRP on Bybit and Get a Chance to Win Our $1,000 USDT Airdrop Why the $1.28-$1.30 Zone Matters for XRP Price? XRP is trading at $1.28 after another sharp move lower, with the token down 0.7% over the past 24 hours. The decline becomes more significant across longer timeframes, with XRP down 8.2% over seven days and 10.4% over the past month. Trading activity remains substantial, with XRP recording approximately $80.46 billion in 24-hour volume. Its market capitalization stands at around $5.88 billion, while the latest price action shows a volatile move lower after several failed recovery attempts. Xrp (XRP) 24h 7d 30d 1y All time Discover: The Best Token Presales At $1.28, XRP is now testing a much lower level following the recent selling pressure. The immediate question for traders is whether buyers can stabilize the price around this area or whether another wave of selling pushes XRP toward fresh lows. The chart data also shows a volatile recovery attempt followed by another sharp move lower. XRP briefly rebounded from an earlier decline before sellers returned, pushing the price back toward $1.28. That price action makes the current level an important area to watch as the market searches for a potential stabilization point. For now, the combination of a 10.4% monthly decline and substantial trading volume keeps the focus on whether buyers can absorb the remaining selling pressure. Earn $50 and Enter $300K Prize Draw on EdgeX The post XRP Price Loses 10% as Crypto Weakness Deepens appeared first on Cryptonews .",
+      "tags": "Altcoin News|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|AIRDROP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "72029519",
+      "guid": "https://coinpedia.org/?p=582977",
+      "published_on": 1789556848,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Why Arbitrum (ARB) & Zcash (ZEC) Price Defying the Crypto Market Ahead of FOMC?",
+      "url": "https://coinpedia.org/price-analysis/why-arbitrum-arb-zcash-zec-price-defying-the-crypto-market-ahead-of-fomc/",
+      "body": "The post Why Arbitrum (ARB) & Zcash (ZEC) Price Defying the Crypto Market Ahead of FOMC? appeared first on Coinpedia Fintech News The crypto market is facing renewed pressure ahead of the FED’s FOMC decision after the US Senate failed to advance the CLARITY Act in a 49-50 procedural vote. Bitcoin price briefly dropped below $75,000 while Ethereum dropped toward $2,358 amid the regulatory setback. Yet the Arbitrum (ARB) price and Zcash (ZEC) price show notable resilience …",
+      "tags": "Price Analysis|Altcoins",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|ZEC|ARB|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "72029133",
+      "guid": "https://finbold.com/?p=275212",
+      "published_on": 1789556832,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "Lawyer reveals key reason XRP sank after CLARITY Act vote",
+      "url": "https://finbold.com/lawyer-reveals-key-reason-xrp-sank-after-clarity-act-vote/",
+      "body": "As XRP ’s market capitalization fell by approximately $7.1 billion over the past 24 hours, following a major setback on the CLARITY Act, a proposed federal regulation in the United States aimed at regulating the crypto industry, William Arthur Morgan, an Australian commercial litigation lawyer at Morgan Mac Lawyers , said it stood to gain more from legal clarity than other cryptocurrency assets. Morgan stated that he believes the main reason XRP’s price slumped by over 8% in 24 hours on September 16, to $1.29 at press time, was that it stood to gain more than most crypto from the passage of the CLARITY Act. “Not because XRP needs legal clarity but because the crypto market needs legal clarity and the institutions that are increasingly interested in XRP need the crypto market to have legal clarity,” Morgan stated . As such, he concluded that XRP price stands to gain a ‘strong positive impact’ if and when the CLARITY Act passes. After this bill failed to gain bipartisan support on Tuesday, Stuart Alderoty, the Chief Legal Officer (CLO) at Ripple Labs, recounted XRP’s legal clarity through several agencies. “Ripple and XRP stand on settled ground. The 2023 federal Court ruling established that XRP is not a security. And in March, the Securities and Exchange Commission (SEC) and Commodity Futures Trading Commission (CFTC) issued a joint interpretation naming XRP a digital commodity. SEC Chairman Paul Atkins and CFTC Chairman Mike Selig understand these markets,” Alderoty highlighted . Nonetheless, Ripple Labs admitted that the latest slowdown in passing the CLARITY Act is ‘a tremendous missed opportunity for American consumers, the digital asset industry, and U.S. competitiveness’. XRP price performance amid CLARITY Act stalls Over the last seven days, XRP price has fallen by 9.36%, thereby lowering its market cap to $80.4 billion. During the past 24 hours, XRP price changed by a decline of 8.14%. XRP/USD 7-day chart. Source: Finbold At the time of reporting, this token had a reported 24-hour trading volume of $6.64 billion, up 45.1%, according to data from CoinMarketCap . Over the past 24 hours, Bitcoin ( BTC ), Solana ( SOL ), and Ethereum ( ETH ) slipped 1.28%, 3.51%, and 2.98%, respectively. Top 10 crypto performance. Source: CoinMarketCap. Consequently, Morgan concluded that XRP’s price is highly correlated with legal clarity, as it recorded higher volatility today than other crypto assets. Featured image via Shutterstock The post Lawyer reveals key reason XRP sank after CLARITY Act vote appeared first on Finbold .",
+      "tags": "Cryptocurrency news|Regulations news|Bitcoin|crypto|cryptocurrency|Ethereum|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "72029236",
+      "guid": "https://cryptopotato.com/?p=1448740",
+      "published_on": 1789556778,
+      "imageurl": "https://resources.cryptocompare.com/news/27/72029236.jpeg",
+      "title": "Pi Network (PI) Tumbles 14% Daily: Is a Recovery on the Horizon?",
+      "url": "https://cryptopotato.com/pi-network-pi-tumbles-14-daily-is-a-recovery-on-the-horizon/",
+      "body": "The cryptocurrency market took a sharp hit after the CLARITY Act failed, and many digital assets fell into red territory. Pi Network’s native token is the worst performer in the top 100 club, down 14% in a day. Despite the decline, some analysts believe a bullish reversal could be closer than it appears. PI Loses More Ground As CryptoPotato reported , the US Senate failed to advance the landmark bill, known as the CLARITY Act, because it did not reach the necessary 60 votes. Although the development was largely expected, it triggered a broad correction, with Bitcoin (BTC) plunging to $75,000 and Ethereum (ETH) dipping below $2,400 after a 3% daily decline. These drops, though, are no match for PI’s poor performance. The native cryptocurrency of the controversial project is the only one (from the biggest 100) to post a double-digit decline today (September 16) and currently trades around $0.083 (per CoinGecko), the lowest level since the start of August. PI’s market capitalization tumbled under the $1 billion psychological mark and now stands at roughly $940 million. This makes it the 76th-largest cryptocurrency. It is important to note that PI’s pullback comes despite the latest ecosystem development. X account BSCN revealed that the Core Team initiated protocol upgrade v27, starting with a Testnet2 implementation and planning to transition to Mainnet by the end of the week. “Among other things, this protocol transition upgrades Pi Node Docker to V27.1.0 and aims to ensure the stability of the network’s infrastructure and prepare for future developments such as integration with Pi Dex. This protocol transition represents a major step toward decentralizing the network,” the post reads. Meanwhile, Pi Network’s official X account has not yet confirmed the upgrade. Rebound Incoming? The reality for PI may seem quite grim, yet certain analysts think a revival remains possible. X user Crypto With Gopal claimed the price has printed a double-bottom setup and is holding the $0.075-$0.085 support zone while forming higher lows. “A clean reclaim above $0.10 could confirm bullish momentum and open the path toward the $0.14 target. Bulls are slowly regaining control after the prolonged downtrend,” he maintained. PI’s Relative Strength Index (RSI) supports the bullish scenario. The ratio has plunged to an oversold territory of 23, suggesting that the token could be gearing up for a recovery. The index runs from 0 to 100, where anything above 70 is usually interpreted as a warning for an impending correction. PI RSI, Source: RSI Hunter The post Pi Network (PI) Tumbles 14% Daily: Is a Recovery on the Horizon? appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Pi Network (PI)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MARKET|TRADING|FORKS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "72028707",
+      "guid": "https://en.coin-turk.com/?p=249394",
+      "published_on": 1789556596,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72028707.jpeg",
+      "title": "XRP Ledger secures 83% validator approval for XLS-56 batch upgrade",
+      "url": "https://en.coin-turk.com/xrp-ledger-secures-83yuzde-validator-approval-for-xls-56-batch-upgrade/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-ledger-secures-83yuzde-validator-approval-for-xls-56-batch-upgrade",
+      "body": "🚀 XLS-56 batch upgrade secures 83% validation, trigger countdown begins in $XRP. ⏳ The feature enables up to 8 transactions in a single, all-or-nothing bundle. 🛡️ Validators will activate the update automatically on September 29, 2026. 📈 Batch transactions promise new business and DeFi use cases in the XRPL ecosystem. Continue Reading: XRP Ledger secures 83% validator approval for XLS-56 batch upgrade The post XRP Ledger secures 83% validator approval for XLS-56 batch upgrade appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72028536",
+      "guid": "https://timestabloid.com/?p=111581",
+      "published_on": 1789556437,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Egrag Crypto Says XRP Fractal Is Playing Out. Here’s What It Means",
+      "url": "https://timestabloid.com/egrag-crypto-says-xrp-fractal-is-playing-out-heres-what-it-means/",
+      "body": "Crypto analyst EGRAG CRYPTO (@egragcrypto) has identified a repeating XRP price pattern that he believes is actively playing out. In a recent post, he said that the XRP fractal is playing out . He attached a 1-hour chart with the current price sitting at $1.3202, down 0.32% at the time of the post. The chart highlights a sequence of circled price behavior from July through mid-August, where XRP repeatedly tested and bounced from a compressed range near the $0.97 to $1.05 support band before breaking sharply higher in late August . The analyst uses this prior sequence as the structural basis for his current fractal read. #XRP – Fractal is playing out…. pic.twitter.com/O6vTByg05t — EGRAG CRYPTO (@egragcrypto) September 15, 2026 The Fractal Structure The chart shows white arrows marking four distinct rejection points after the August spike, which peaked under $1.69. Each rejection pulled XRP lower, and the price has since declined toward the $1.30 support zone, highlighted in green on the right side of the chart. A rising white trendline runs beneath the price action following the August breakout . XRP is currently testing the area below this trendline, which adds weight to the current moment as a potential inflection zone. The fractal argument rests on the earlier circled accumulation behavior. Multiple circles on the left of the chart mark repeated tests of the lower support band near $0.97 to $1.05 before the August breakout occurred. EGRAG CRYPTO appears to be watching for a similar pattern to complete now. Key Price Levels Several levels stand out on the chart. To the downside, $1.1522 and $1.1000 are marked in green as support zones. Below those, $1.0500 and $0.9700 are labeled in red, indicating deeper pullback targets if support fails. To the upside, the chart shows resistance levels at $1.3915, $1.3896, $1.4923, $1.5114, $1.5436, and $1.6203. A horizontal resistance band also sits near $1.8452 in blue, with additional levels extending toward $1.8825 and $1.9788. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 Where XRP Stands The $1.30 level, highlighted in green directly to the right of the current price, represents the immediate support zone that EGRAG CRYPTO’s chart is watching. XRP sits just above that level in the green support zone and below a cluster of resistance levels . The fractal pattern EGRAG CRYPTO has identified this current price behavior as analogous to the pre-breakout consolidation seen earlier in the chart. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Egrag Crypto Says XRP Fractal Is Playing Out. Here’s What It Means appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "72028597",
+      "guid": "https://ambcrypto.com/?p=633196",
+      "published_on": 1789556414,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Coinbase CEO calls on SEC, CFTC after CLARITY Act fails: ‘Can’t wait on Congress anymore’",
+      "url": "https://ambcrypto.com/coinbase-ceo-calls-on-sec-cftc-after-clarity-act-fails-cant-wait-on-congress-anymore/",
+      "body": "Fairshake’s reported strategy raises a harder question: what exactly earns the industry’s support?",
+      "tags": "Global News|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "72028688",
+      "guid": "https://coinpaprika.com/news/coinex-cease-operations-nine-years",
+      "published_on": 1789556400,
+      "imageurl": "https://resources.cryptocompare.com/news/80/72028688.jpeg",
+      "title": "CoinEx to Cease Operations After Nine Years, Withdrawals End December 22",
+      "url": "https://coinpaprika.com/news/coinex-cease-operations-nine-years",
+      "body": "CoinEx, a Hong Kong crypto exchange founded in December 2017, will cease all operations. Users can withdraw funds until 02:00 UTC on December 22, 2026, after which the platform shuts down permanently.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "72028972",
+      "guid": "https://coinpaprika.com/education/future-rwa-defi/",
+      "published_on": 1789556400,
+      "imageurl": "https://resources.cryptocompare.com/news/80/72028972.jpeg",
+      "title": "The Future of RWA + DeFi: What Comes After Tokenized Treasuries?",
+      "url": "https://coinpaprika.com/education/future-rwa-defi/",
+      "body": "Future RWA DeFi trends: what comes after tokenized Treasuries — scaling private credit, tokenized equities, and deposit tokens for DeFi collateral.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|DIGITAL ASSET TREASURY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "72028973",
+      "guid": "https://coinpaprika.com/education/tokenized-private-credit-defi/",
+      "published_on": 1789556400,
+      "imageurl": "https://resources.cryptocompare.com/news/80/72028973.jpeg",
+      "title": "Tokenized Private Credit in DeFi: The Biggest RWA Category",
+      "url": "https://coinpaprika.com/education/tokenized-private-credit-defi/",
+      "body": "Tokenized private credit is DeFi's biggest RWA category — market size, how it works, and which platforms (Figure, Maple, Centrifuge) lead in 2026.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "72028416",
+      "guid": "2b844be0-08fe-48dd-877b-2612b2f49d7f",
+      "published_on": 1789556400,
+      "imageurl": "https://resources.cryptocompare.com/news/5/72028416.jpeg",
+      "title": "Bitcoin traders brace for Fed hike, but a surprise hold could pose bigger risk",
+      "url": "https://www.coindesk.com/markets/2026/09/15/bitcoin-traders-brace-for-fed-hike-but-a-surprise-hold-could-pose-bigger-risk",
+      "body": "Bitcoin is stuck near $80,000 as traders build stablecoin positions that could return to the market once Fed uncertainty clears.",
+      "tags": "Markets|Federal Reserve|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "72028418",
+      "guid": "516a89c4-0135-4a13-a9ab-e2b861eea9ce",
+      "published_on": 1789556400,
+      "imageurl": "https://resources.cryptocompare.com/news/5/72028418.jpeg",
+      "title": "Two Prime makes onchain finance push with $10 million-backed bitcoin yield vault",
+      "url": "https://www.coindesk.com/markets/2026/09/15/two-prime-makes-onchain-finance-push-with-usd10-million-backed-bitcoin-yield-vault",
+      "body": "Two Prime expands into onchain finance with a bitcoin lending vault built on Pareto for institutional investors.",
+      "tags": "Markets|Bitcoin News|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "72028689",
+      "guid": "https://coinpaprika.com/news/cryptos-biggest-senate-bet-collapses-clarity",
+      "published_on": 1789556400,
+      "imageurl": "https://resources.cryptocompare.com/news/80/72028689.jpeg",
+      "title": "Crypto's Biggest Senate Bet Collapses as Clarity Act Falls Short of 60 Votes",
+      "url": "https://coinpaprika.com/news/cryptos-biggest-senate-bet-collapses-clarity",
+      "body": "The U.S. Senate rejected the Digital Asset Market Clarity Act on 15 September 2026, with a 49-50 procedural vote falling short of the 60 needed to advance. The defeat effectively ends federal crypto market structure legislation for the year.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "72028181",
+      "guid": "https://en.coin-turk.com/?p=249388",
+      "published_on": 1789556176,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72028181.jpeg",
+      "title": "Chainlink trades at $11.28 as LINK eyes breakout above $11.50 resistance",
+      "url": "https://en.coin-turk.com/chainlink-trades-at-11-28-as-link-eyes-breakout-above-11-50-resistance/?utm_source=rss&utm_medium=rss&utm_campaign=chainlink-trades-at-11-28-as-link-eyes-breakout-above-11-50-resistance",
+      "body": "🚨 Chainlink’s $LINK holds above $11.10 as traders watch the $11.50 resistance. 📈 $LINK volume jumped 14% while open interest declined to $576 million. 🔗 New Chainlink integrations boost cross-chain tools on Robinhood Chain and GM Trade. 📉 LINK’s momentum stays cautious as RSI sits at 41.44. Continue Reading: Chainlink trades at $11.28 as LINK eyes breakout above $11.50 resistance The post Chainlink trades at $11.28 as LINK eyes breakout above $11.50 resistance appeared first on COINTURK NEWS .",
+      "tags": "Chainlink (LINK)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "LINK|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789556093,
+    "time_range_start": "2026-09-16 10:54:53",
+    "time_range_end": "2026-09-16 11:54:53"
+  }
+}
