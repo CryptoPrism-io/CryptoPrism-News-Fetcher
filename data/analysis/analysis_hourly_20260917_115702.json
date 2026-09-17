@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260917_115702",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789642622,
+    "time_range_start": "2026-09-17 10:57:02",
+    "time_range_end": "2026-09-17 11:57:02"
+  },
+  "total_articles": 18,
+  "unique_sources": 11,
+  "unique_categories": 19,
+  "unique_tags": 29,
+  "body_stats": {
+    "avg_length": 1377.22,
+    "min_length": 38,
+    "max_length": 5219
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-17 11:00:00",
+    "newest": "2026-09-17 11:48:45",
+    "time_span_minutes": 48.75
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "CoinDesk": 2,
+    "cryptonews": 2,
+    "AMB Crypto": 2,
+    "Crypto Potato": 1,
+    "Huobi blog": 1,
+    "Cryptopolitan": 1,
+    "BitcoinSistemi": 1,
+    "CoinOtag": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 15,
+    "REGULATION": 8,
+    "MARKET": 8,
+    "TRADING": 6,
+    "BLOCKCHAIN": 5,
+    "XRP": 4,
+    "ZEC": 2,
+    "BUSINESS": 2,
+    "USDT": 2,
+    "BTC": 2,
+    "MACROECONOMICS": 2,
+    "AIRDROP": 1,
+    "COMMODITY": 1,
+    "ASIA": 1,
+    "RESEARCH": 1
+  },
+  "top_tags": {
+    "News": 7,
+    "Ripple (XRP)": 3,
+    "Altcoin News": 2,
+    "Crypto News": 2,
+    "CLARITY Act": 2,
+    "Crypto Daybook Americas": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Finance": 1,
+    "Circle": 1,
+    "AA News": 1,
+    "social": 1,
+    "Product Updates": 1,
+    "HTX": 1,
+    "Price Analysis": 1
+  }
+}
