@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260918_113601",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789727761,
+    "time_range_start": "2026-09-18 10:36:01",
+    "time_range_end": "2026-09-18 11:36:01"
+  },
+  "total_articles": 29,
+  "unique_sources": 16,
+  "unique_categories": 30,
+  "unique_tags": 38,
+  "body_stats": {
+    "avg_length": 2012.41,
+    "min_length": 38,
+    "max_length": 17728
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-18 10:42:49",
+    "newest": "2026-09-18 11:32:23",
+    "time_span_minutes": 49.57
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Crypto Daily": 5,
+    "Cointelegraph": 2,
+    "BitcoinSistemi": 2,
+    "CoinOtag": 2,
+    "Finbold": 2,
+    "Coinpaprika": 2,
+    "Bitcoin.com": 1,
+    "Cryptopolitan": 1,
+    "CoinDesk": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 19,
+    "MARKET": 14,
+    "REGULATION": 13,
+    "TRADING": 11,
+    "BTC": 8,
+    "BUSINESS": 7,
+    "MACROECONOMICS": 6,
+    "XRP": 5,
+    "BLOCKCHAIN": 5,
+    "ZEC": 4,
+    "EXCHANGE": 3,
+    "ALTCOIN": 3,
+    "DIGITAL ASSET TREASURY": 3,
+    "FIAT": 3,
+    "BNB": 2
+  },
+  "top_tags": {
+    "News": 6,
+    "More News": 6,
+    "Crypto News": 3,
+    "Bitcoin": 3,
+    "Analysis": 2,
+    "Altcoin News": 2,
+    "Crypto Daybook Americas": 2,
+    "Cryptocurrency news": 2,
+    "cryptocurrency": 2,
+    "XRP": 2,
+    "Cryptocurrency News": 1,
+    "Ripple XRP": 1,
+    "XRP price": 1,
+    "Crypto Price Predictions": 1,
+    "ADA": 1
+  }
+}
