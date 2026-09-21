@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260921_130722",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1789992442,
+    "time_range_start": "2026-09-21 12:07:22",
+    "time_range_end": "2026-09-21 13:07:22"
+  },
+  "total_articles": 36,
+  "unique_sources": 19,
+  "unique_categories": 27,
+  "unique_tags": 68,
+  "body_stats": {
+    "avg_length": 1900.97,
+    "min_length": 75,
+    "max_length": 15892
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-21 12:08:02",
+    "newest": "2026-09-21 13:00:27",
+    "time_span_minutes": 52.42
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Cryptopolitan": 4,
+    "coinpedia": 3,
+    "Decrypt": 2,
+    "Seeking Alpha": 2,
+    "The Crypto Basic": 2,
+    "Crypto Potato": 2,
+    "U.Today": 2,
+    "Bitcoin.com": 2,
+    "CoinDesk": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 36,
+    "BTC": 20,
+    "TRADING": 18,
+    "MARKET": 13,
+    "BUSINESS": 9,
+    "REGULATION": 8,
+    "MACROECONOMICS": 7,
+    "ETH": 6,
+    "XRP": 5,
+    "DIGITAL ASSET TREASURY": 4,
+    "EXCHANGE": 4,
+    "BLOCKCHAIN": 3,
+    "FIAT": 3,
+    "SOL": 3,
+    "BNB": 3
+  },
+  "top_tags": {
+    "News": 9,
+    "Bitcoin": 6,
+    "XRP": 3,
+    "Crypto News": 3,
+    "Altcoin": 2,
+    "XRP Price Prediction": 2,
+    "": 2,
+    "Market": 2,
+    "BTC": 2,
+    "MSTR": 2,
+    "STRC": 2,
+    "More News": 2,
+    "Bitcoin (BTC)": 2,
+    "Ripple (XRP)": 2,
+    "Markets": 2
+  }
+}
