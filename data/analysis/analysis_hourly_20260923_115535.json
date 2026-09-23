@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260923_115535",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790160935,
+    "time_range_start": "2026-09-23 10:55:35",
+    "time_range_end": "2026-09-23 11:55:35"
+  },
+  "total_articles": 22,
+  "unique_sources": 14,
+  "unique_categories": 29,
+  "unique_tags": 37,
+  "body_stats": {
+    "avg_length": 1384.59,
+    "min_length": 38,
+    "max_length": 4465
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-23 11:00:00",
+    "newest": "2026-09-23 11:44:37",
+    "time_span_minutes": 44.62
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "Crypto Potato": 2,
+    "U.Today": 2,
+    "AMB Crypto": 2,
+    "CoinDesk": 2,
+    "cryptonews": 2,
+    "Coinpaper": 1,
+    "Seeking Alpha": 1,
+    "NewsBTC": 1,
+    "coinpedia": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 19,
+    "TRADING": 13,
+    "BTC": 8,
+    "MARKET": 8,
+    "BUSINESS": 6,
+    "XRP": 5,
+    "ETH": 3,
+    "BNB": 2,
+    "ALTCOIN": 2,
+    "ZEC": 2,
+    "MACROECONOMICS": 2,
+    "EXCHANGE": 1,
+    "TECHNOLOGY": 1,
+    "REGULATION": 1,
+    "BSV": 1
+  },
+  "top_tags": {
+    "News": 7,
+    "Crypto News": 3,
+    "Ripple (XRP)": 3,
+    "XRP": 2,
+    "Altcoin": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Crypto Daybook Americas": 2,
+    "Bitcoin": 2,
+    "Crypto Bits": 1,
+    "Ethereum (ETH) Price": 1,
+    "Crypto": 1,
+    "ZBAO": 1,
+    "Altcoins": 1,
+    "Alpaca": 1
+  }
+}

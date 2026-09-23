@@ -1,0 +1,452 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "72653586",
+      "guid": "https://cryptopotato.com/?p=1449412",
+      "published_on": 1790163877,
+      "imageurl": "https://resources.cryptocompare.com/news/27/72653586.jpeg",
+      "title": "Ethereum (ETH) Soars 15% Weekly and Now Enters an ‘Interesting Zone:’ Analyst",
+      "url": "https://cryptopotato.com/ethereum-eth-soars-15-weekly-and-now-enters-an-interesting-zone-analyst/",
+      "body": "The second-largest cryptocurrency has rallied by double digits over the past week amid the broader market’s resurgence, surging to well above $2,700. Most analysts are optimistic the revival could turn into a full-blown bull run, with some projecting a move to a new all-time high. The Next Targets X user Wealthmanager believes ETH should reach $3,000 “relatively soon.” They claimed there is little resistance between $2,750 and $3,000, adding that “the next impulse up is just a matter of time.” Popular analyst Michael van de Poppe argued that Ethereum is entering an “interesting zone,” stressing that rising above its current levels could lead to a completely new phase. “If this area breaks, the next area of resistance is likely $3,400, and that would mean that we’re back into a new range. I don’t think we’ll see anything sub $2,000 in the near future again,” he said. Trader Tardigrade spotted an inverse head-and-shoulders setup on ETH’s 3-day chart, assuming the asset is primed for a massive breakout, and projecting a rally to $4,100. X user Gerla appears to be among the biggest optimists, maintaining that the cryptocurrency is still “ridiculously early in this move” and forecasting a potential explosion to a new historical peak of $10,000. “The next Ethereum run could surprise a lot of people,” he added. Meanwhile, ETH investors have been abandoning Binance at a pace not seen in three years. The development reduces immediate selling pressure, reflects a longer-term holding strategy, and strengthens the bullish price scenario. Bull Trap? Of course, not everyone is certain that the cryptocurrency will keep pumping. Earlier this month, X user DANNY claimed ETH is setting up for “a huge trap” and envisioned potential capitulation to $1,500 and reaching a cycle bottom by the end of the year. The analyst who goes by Midas echoed a similar prediction, envisioning a retest of the $1,700-$1,800 range and then a drop to as low as $1,400. “But I still don’t expect ETH to make the same kind of new cycle lows as BTC. ETH has been showing much stronger relative structure, and I still think it will outperform once this correction is finished. There is just one major downside target left to clear before the real expansion starts. So, short-term, I’m bearish on ETH. Long term this setup can become one of the strongest opportunities of the cycle,” they added. The post Ethereum (ETH) Soars 15% Weekly and Now Enters an ‘Interesting Zone:’ Analyst appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Ethereum (ETH) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|TRADING|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "72653360",
+      "guid": "https://en.coin-turk.com/?p=250642",
+      "published_on": 1790163801,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72653360.jpeg",
+      "title": "XRP surges 25% in a week as Crypto Bitlord predicts “turbo nuclear” rally",
+      "url": "https://en.coin-turk.com/xrp-surges-25yuzde-in-a-week-as-crypto-bitlord-predicts-turbo-nuclear-rally/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-surges-25yuzde-in-a-week-as-crypto-bitlord-predicts-turbo-nuclear-rally",
+      "body": "🚀 XRP jumps 25% in a week after Crypto Bitlord predicts a “turbo nuclear” move. 💸 $XRP hit $1.62 with daily trading volume soaring past $7.6 billion. 🔍 Ripple’s integration with major partners and AI payment tools sparks new optimism. 📈 Community remains divided over whether this rally will signal a lasting breakout. Continue Reading: XRP surges 25% in a week as Crypto Bitlord predicts “turbo nuclear” rally The post XRP surges 25% in a week as Crypto Bitlord predicts “turbo nuclear” rally appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72653464",
+      "guid": "https://coinpaper.com/36120/coinbase-launches-fixed-rate-bitcoin-loans-coin-stock-holds-near-200",
+      "published_on": 1790163732,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Coinbase Launches Fixed-Rate Bitcoin Loans, COIN Stock Holds Near $200",
+      "url": "https://coinpaper.com/36120/coinbase-launches-fixed-rate-bitcoin-loans-coin-stock-holds-near-200",
+      "body": "Coinbase is expanding its crypto lending business with a new product that lets customers borrow USDC against their Bitcoin at a fixed interest rate. The exchange launched the fixed-rate, fixed-term loans through Morpho Midnight, with both the borrowing rate and repayment date determined when the loan is opened. The service operates on Base, Coinbase’s Ethereum layer-2 network. That differs from Coinbase’s existing Morpho Blue-powered loans, where interest rates fluctuate depending on lending and borrowing demand. Those variable-rate products have already grown to more than $1.4 billion in active loans backed by roughly $3 billion of collateral. Coinbase Pushes Deeper Into Onchain Credit Coinbase is currently offering fixed loans that mature either at the end of the current month or the following month, with “end of month” defined as the final Friday of the month. Rates are determined through supply and demand as lenders and borrowers submit offers through Morpho Midnight’s on-chain market. The structure gives Bitcoin holders another way to access liquidity without selling their BTC. That can be particularly attractive to investors who want to keep their exposure to Bitcoin while getting dollar-denominated capital. Morpho Midnight only launched on Base in July, which makes Coinbase one of its earliest large-scale integrations. Morpho says the protocol could eventually support credit products backed by assets beyond crypto, including tokenized stocks and other real-world assets. The opportunity could be massive. The Bitcoin-backed credit market is estimated at roughly $16 billion, while research suggests it could grow considerably as crypto collateral becomes more integrated with traditional credit markets. A 2026 Protocol Theory survey of 1,244 crypto holders in the US and Australia also found that 88% would consider using a crypto-backed loan or credit product. (Source: Protocol Theory) COIN stock, however, showed little immediate reaction to the announcement. Coinbase shares closed Sept. 22 at $201.07, up just 0.01% for the session after trading between roughly $197 and $203. The stock was down about 1.7% to $197.60 in pre-market trading. Coinbase stock price over the past month (Source: CoinCodex) Still, COIN has recently strengthened alongside the wider crypto market. The stock was up about 16+% over the past month at Tuesday’s close.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|EXCHANGE|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "72652952",
+      "guid": "https://seekingalpha.com/news/4645913-zhibao-technology-to-acquire-crypto-trading-platform-mevx?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1790163337,
+      "imageurl": "https://resources.cryptocompare.com/news/50/72652952.jpeg",
+      "title": "Zhibao Technology to acquire crypto trading platform MeVX",
+      "url": "https://seekingalpha.com/news/4645913-zhibao-technology-to-acquire-crypto-trading-platform-mevx?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on Zhibao Technology Historical earnings data for Zhibao Technology Financial information for Zhibao Technology",
+      "tags": "ZBAO",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TECHNOLOGY|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "72653073",
+      "guid": "https://u.today/bitwise-buys-over-19-million-of-xrp",
+      "published_on": 1790163328,
+      "imageurl": "https://resources.cryptocompare.com/news/64/72653073.jpeg",
+      "title": "Bitwise Buys Over $19 Million of XRP",
+      "url": "https://u.today/bitwise-buys-over-19-million-of-xrp",
+      "body": "XRP is gaining momentum amid sustained demand from institutional investors as Bitwise buys over $19 million worth of XRP in one day.",
+      "tags": "XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "72652711",
+      "guid": "https://en.coin-turk.com/?p=250641",
+      "published_on": 1790163081,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72652711.jpeg",
+      "title": "Ripple CTO Emeritus David Schwartz criticizes SEC’s regulatory approach",
+      "url": "https://en.coin-turk.com/ripple-cto-emeritus-david-schwartz-criticizes-secs-regulatory-approach/?utm_source=rss&utm_medium=rss&utm_campaign=ripple-cto-emeritus-david-schwartz-criticizes-secs-regulatory-approach",
+      "body": "🚨 Ripple CTO Emeritus David Schwartz criticized SEC-style regulatory tactics in public. 🔥 Schwartz linked unclear state rules against a manufacturer to Ripple’s fight with the SEC. 💡 Ripple has argued that the SEC’s lack of clear guidelines harmed $XRP and its investors. ⚡ The Ripple-SEC case continues to impact debates on regulation in both crypto and beyond. Continue Reading: Ripple CTO Emeritus David Schwartz criticizes SEC’s regulatory approach The post Ripple CTO Emeritus David Schwartz criticizes SEC’s regulatory approach appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|REGULATION|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72652688",
+      "guid": "https://ambcrypto.com/?p=635182",
+      "published_on": 1790163045,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Asian investors drive Bitcoin SV higher – Can BSV’s rally last?",
+      "url": "https://ambcrypto.com/asian-investors-drive-bitcoin-sv-higher-can-bsvs-rally-last/",
+      "body": "With over 60% of volume coming from the Asian market, sentiment could have a major impact on BSV’s price.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|TRADING|BSV|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "72652581",
+      "guid": "https://www.newsbtc.com/?p=914656",
+      "published_on": 1790163000,
+      "imageurl": "https://resources.cryptocompare.com/news/21/72652581.jpeg",
+      "title": "Ondo And Alpaca Add In-Kind Minting For Tokenized Stocks",
+      "url": "https://www.newsbtc.com/altcoins/ondo-and-alpaca-add-in-kind-minting-for-tokenized-stocks/",
+      "body": "TL;DR Ondo Finance has added in-kind minting and redemption for institutional Ondo Stocks users. Eligible institutions can contribute existing equity inventory rather than converting shares to cash first. The service currently supports tokenized positions on Ethereum and BNB Chain and is not a retail minting product. Ondo Finance is removing one of the more awkward steps in institutional stock tokenization : converting existing share inventory to cash before moving it onchain. Through an integration with Alpaca’s Instant Tokenization Network, eligible institutional users can now contribute existing equity inventory directly to mint Ondo Stocks positions. Shares Can Move Into The Tokenized System Without A Cash Detour The new in-kind flow changes the mechanics for institutions that already hold the underlying securities. Instead of selling shares, moving cash and then using that cash to create tokenized exposure, qualified users can deposit the existing inventory into the process. Ondo says the mechanism supports minting and redemption on Ethereum and BNB Chain. For large institutions, that can reduce settlement friction and make tokenized equities feel less like a separate market that needs to be funded from scratch. It also brings the workflow closer to the creation-and-redemption mechanics familiar from other institutional investment products. Retail Users Are Not The Target The service is restricted to KYC and AML-verified institutional participants. That means this is not a new button that lets ordinary retail users turn brokerage shares into blockchain tokens. The significance is more structural. Tokenized securities become easier to scale when the conversion process works with the inventory institutions already hold. Ondo and Alpaca are effectively trying to make the bridge between conventional equity custody and tokenized ownership less cumbersome. The product is now live for eligible institutional users on Ethereum and BNB Chain, with no cash-conversion step required for contributed inventory. This article was written by the News Desk and edited by Samuel Rae .",
+      "tags": "Altcoins|Alpaca|Ondo Finance|Tokenization",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|ETH|BNB|ONDO|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "NewsBTC",
+        "img": "https://images.cryptocompare.com/news/default/newsbtc.png",
+        "lang": "EN"
+      },
+      "source": "newsbtc"
+    },
+    {
+      "id": "72652585",
+      "guid": "https://u.today/is-chainlink-link-infosys-partnership-relevant-for-the-coin",
+      "published_on": 1790163000,
+      "imageurl": "https://resources.cryptocompare.com/news/64/72652585.jpeg",
+      "title": "Is Chainlink (LINK) Infosys Partnership Relevant for the Coin?",
+      "url": "https://u.today/is-chainlink-link-infosys-partnership-relevant-for-the-coin",
+      "body": "Chainlink’s Infosys partnership opens the door to enormous banking exposure, but its immediate impact on LINK remains difficult to quantify.",
+      "tags": "Chainlink",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "LINK|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "72652577",
+      "guid": "0935fa2d-ba16-4abf-8b48-35be5c4539e1",
+      "published_on": 1790162970,
+      "imageurl": "https://resources.cryptocompare.com/news/5/72652577.jpeg",
+      "title": "Live updates: Bitcoin slips under $86,000 as money rotates into BCH and ZEC",
+      "url": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
+      "body": "Bitcoin matched Monday's high near $87,300 before running into selling, while citcoin cash surged 28% on a CME futures listing and ZEC added 9%.",
+      "tags": "Finance|Live News|live_news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BCH|BTC|ZEC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "72652575",
+      "guid": "d5fe08b2-0dd6-4322-ba9e-8bcb54e7858d",
+      "published_on": 1790162930,
+      "imageurl": "https://resources.cryptocompare.com/news/5/72652575.jpeg",
+      "title": "The S&P 500 has a 'breadth' problem. Crypto doesn’t.",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/23/the-s-and-p-500-has-a-breadth-problem-crypto-doesn-t",
+      "body": "Your day-ahead look for Sept. 22, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "72652628",
+      "guid": "https://cryptonews.com/news/polymarket-nato-contract-2025/",
+      "published_on": 1790162805,
+      "imageurl": "https://resources.cryptocompare.com/news/52/72652628.jpeg",
+      "title": "Polymarket’s NATO–Russia Clash Alarm Explodes as Spy Chief Warns: ‘Months, Not Years’",
+      "url": "https://cryptonews.com/news/polymarket-nato-contract-2025/",
+      "body": "NATO Russia Prediction Odds: Czech intelligence chief Michal Koudelka has warned that Russia could test NATO through a limited incursion, drone activity, false-flag provocations, or an influence campaign on a timeline measured in months rather than years. That warning has revived interest in Polymarket’s NATO x Russia military clash contract – but the market as supplied concerns a 2025 resolution window, not a live forecast running through the rest of 2026. Got a Gut Feeling? It Could Pay Out 3.7X on Polymarket Key Takeaways on NATO Russia Prediction Odds Contract scope: The Polymarket event resolves on whether a military encounter occurred between Russian forces and the forces of a NATO member country during its stated 2025 window – it does not track an invasion scenario or a live 2026 probability. The warning: European intelligence officials describe possible drones, sabotage, false-flag operations or limited strikes as forms of escalation, while explicitly noting no imminent large-scale attack has been observed. The gap: A Russian test of NATO’s resolve is a materially different event from a full-scale invasion, and traders pricing geopolitical risk around either scenario need to keep the two apart. European leaders and NATO military officials have flagged the rising risk of Russian hybrid actions against alliance members, per the primary source reviewed, including drone or missile incidents capable of testing Article 5 commitments. Polish Prime Minister Donald Tusk is cited among officials warning that limited strikes or false-flag operations remain possible in the coming months as the war in Ukraine grinds on. NATO’s senior generals, for their part, have affirmed regional defense plans and force readiness in response, according to the same material. Senior commanders describe Vladimir Putin as more risk-tolerant the longer the war continues, but no buildup for direct confrontation with NATO has been observed. That distinction matters for anyone reading prediction markets as a geopolitical signal: a contract asking whether any military encounter occurred is a far lower bar than one asking whether Russia invaded a NATO member outright. The same need for close reading applies when considering the Houthi ground-entry market . Reading the NATO Russia Conflict Contract Correctly The Polymarket resolution criteria center on whether Russian forces and the forces of a NATO country engaged militarily within that stated period – not whether Russia launched a broader invasion. That framing echoes a pattern seen across other narrowly defined Polymarket contracts , where wording and resolution windows determine what a price actually reflects, and traders who skip the fine print routinely misread what a given percentage is pricing. Supplementary reporting from The Guardian and Anadolu Agency provides additional context. The broader hybrid picture officials are watching includes sabotage against critical infrastructure, drone incidents, and influence operations that could affect European support for Ukraine and test alliance cohesion. NATO’s Article 5 collective-defense clause is the backdrop to all of this, though nothing in the primary source establishes that any specific hybrid incident would automatically trigger it. That ambiguity is precisely what makes these situations difficult to price on platforms built for binary outcomes, a challenge also visible in how prediction markets have handled other fluid geopolitical standoffs . What Happens Next? The contract specifies a 2025 resolution window that does not extend to the current intelligence warnings. Later coverage tied to any fresh Polymarket listing would need its own verified resolution terms rather than an extension of this one. For now, the conditions worth tracking are concrete: any confirmed military encounter involving Russian and NATO-country forces, and official assessments of hybrid incidents alongside NATO’s ongoing defense planning, force readiness and diplomatic signaling. Until one of those materializes, the story remains a warning about a possible test of the alliance – not confirmation that Moscow is preparing an imminent clash. Got a Gut Feeling About Russia? It Could Pay Out Big on Polymarket The post Polymarket’s NATO–Russia Clash Alarm Explodes as Spy Chief Warns: ‘Months, Not Years’ appeared first on Cryptonews .",
+      "tags": "Industry Talk|Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "72653331",
+      "guid": "https://coinpedia.org/?p=583802",
+      "published_on": 1790162514,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Bitcoin Price Could Face Sharp Reversal, Bloomberg Analyst Warns",
+      "url": "https://coinpedia.org/news/bitcoin-price-could-face-sharp-reversal-bloomberg-analyst-warns/",
+      "body": "The post Bitcoin Price Could Face Sharp Reversal, Bloomberg Analyst Warns appeared first on Coinpedia Fintech News Bitcoin has climbed back above $86,000, but Bloomberg Intelligence senior commodity strategist Mike McGlone is warning that the recovery could face another sharp reversal. McGlone sees Bitcoin caught between the $100,000 area and a potential return toward $60,000, citing high Treasury yields, stock-market risks and weaker support from traditional markets. Mike McGlone Warns of a …",
+      "tags": "News|Bitcoin",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "72651833",
+      "guid": "https://en.coin-turk.com/?p=250640",
+      "published_on": 1790162241,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72651833.jpeg",
+      "title": "XRP reclaims $1.60 as whales add $2.2 billion in four days",
+      "url": "https://en.coin-turk.com/xrp-reclaims-1-60-as-whales-add-2-2-billion-in-four-days/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-reclaims-1-60-as-whales-add-2-2-billion-in-four-days",
+      "body": "🚨 Whales accumulated $2.2 billion in $XRP as the price reclaimed $1.60. ⚡ Large wallet buying matched an 8.22% price surge in just three days. 📊 $1.50-$1.60 remains the decisive range for technical breakout or correction. 🔎 XRP’s September rally follows accumulation after earlier lows this month. Continue Reading: XRP reclaims $1.60 as whales add $2.2 billion in four days The post XRP reclaims $1.60 as whales add $2.2 billion in four days appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72651867",
+      "guid": "https://en.bitcoinsistemi.com/a-first-in-bitcoin-after-3-years-cryptoquant-confirms-a-new-bull-market-here-are-the-most-critical-l/",
+      "published_on": 1790162170,
+      "imageurl": "https://resources.cryptocompare.com/news/81/72651867.jpeg",
+      "title": "A First in Bitcoin After 3 Years: CryptoQuant Confirms a New Bull Market! Here Are the Most Critical Levels to Watch From Now On!",
+      "url": "https://en.bitcoinsistemi.com/a-first-in-bitcoin-after-3-years-cryptoquant-confirms-a-new-bull-market-here-are-the-most-critical-l/",
+      "body": "The upward movement in Bitcoin and altcoins continues to attract attention. BTC has climbed above $87,000 since January, and analysts say it is giving significant technical signals confirming Bitcoin’s entry into a new bull market. At this point, according to CryptoQuant analysts, Bitcoin (BTC) has crossed its 365-day moving average again for the first time in nearly three years, signaling a significant shift in the long-term market outlook. New Bull Market Signal in Bitcoin: Critical Level Exceeded! In its latest report, CryptoQuant stated that Bitcoin has given a technical signal indicating the start of a new bull market by rising above the 365-day moving average, which is used to track long-term market trends. According to CryptoQuant’s weekly analysis, BTC’s reclaiming of the 365-day moving average around $80,500 was considered a significant indicator that the market was changing direction. This means BTC has recovered that average for the first time since March 2023. The company stated that in past market cycles, Bitcoin rising above its 365-day moving average coincided with the start of bull markets, while falling below this level coincided with bear markets. CryptoQuant stated that bull markets were observed after the indicator rose above the levels seen in 2019 and 2023, while downward breaks in late 2021 and November 2025 coincided with bear market periods. According to the report, the 365-day moving average, as well as the Bull Score, have been in bullish territory since mid-August and are currently at the 80 level. The Bull-Bear Market Cycle Indicator has also moved from the early bull phase to the “Bull” phase. At this point, CryptoQuant noted that three indicators signaling in the same direction offer stronger confirmation compared to a single indicator. Breaking Through Key Resistance Levels Also Supports the Bullish Outlook! Bitcoin’s vượt qua the key supply zone between $76,000 and $81,000 was also among the key developments highlighted in the analysis. At this point, Bitcoin has surpassed the $76,000-$81,000 range where long-term investors and early adopters who hadn’t moved in over seven years made significant sell-offs earlier in the year. According to CryptoQuant, this region stood out as one of the areas where long-term Bitcoin holders concentrated their selling pressure. It was stated that with this level being surpassed, Bitcoin has overcome the strongest supply resistance it has faced in the short term. Thus, the next significant resistance zone for the price has shifted to the $88,000-$90,000 range. The $90,000 level is particularly important as it intersects with the upper band of the on-chain price action for investors. CryptoQuant noted that as the price approaches this region, selling pressure could increase as investors’ profit margins widen. Critical Support Levels for Bitcoin: $80,400 and $70,600! Despite the bullish outlook and signals, CryptoQuant also pointed out that corrections in the Bitcoin price are possible. According to the analysis, the 365-day moving average around $80,400 acts as a significant support, while the 200-day moving average at $70,600 stands out as a more critical support level below. CryptoQuant notes that while momentum and technical indicators are upward, price corrections can be seen in the early stages of a bull market, and the current uptrend does not completely rule out such pullbacks. *This is not investment advice. Continue Reading: A First in Bitcoin After 3 Years: CryptoQuant Confirms a New Bull Market! Here Are the Most Critical Levels to Watch From Now On!",
+      "tags": "Analysis|Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "72651939",
+      "guid": "https://cryptonews.com/news/solana-price-prediction-alpenglow/",
+      "published_on": 1790162100,
+      "imageurl": "https://resources.cryptocompare.com/news/52/72651939.jpeg",
+      "title": "Solana Begins Testing on Major Speed Upgrade: SOL Price to $150?",
+      "url": "https://cryptonews.com/news/solana-price-prediction-alpenglow/",
+      "body": "Solana (SO) is changing hands near $117, down 0.78% on the day, as the network’s biggest structural overhaul in years quietly clears a critical testing milestone. There’s a number buried in this story that traders chasing the next leg up need to see before they place another order. Developers have pushed the Alpenglow upgrade to Solana’s public testnet, targeting a reduction in transaction finality from roughly 13 seconds to 0.15 seconds, replacing the current TowerBFT consensus mechanism with a new voting protocol called Votor. Validators running Agave 4.3 can now test the migration on a live copy of the network without risking real funds, following more than four months of trials on a dedicated test environment. Anza, the firm maintaining Agave, confirmed the move via its feature-gate tracker , and mainnet activation is currently penciled in for around September 28. Solana ETF demand remains firm, with $26.1M in net inflows on Sep. 21, lifting tracked cumulative flows to $1.44B. The move follows a 12-week run of weekly inflows showing continued investor interest despite recent market volatility. Track SOL ETF flows: https://t.co/dzGj0Pj8q6 pic.twitter.com/Pgj0atkVmj — AskClash (@AskClash) September 23, 2026 The timing matters. Spot Solana ETFs pulled in $26.1 million in net inflows on September 21, and network usage metrics, 23.2 million x402 AI-agent transactions in the trailing four weeks, suggest institutional and application-layer demand are both building into the upgrade window. Can Solana Price Hit $150 This Week? SOL USD price is testing the lower edge of a resistance band between $116 and $123.35, a level it needs to clear decisively to open the path toward $137.65 and eventually $144.76. The four-hour RSI sitting near 71 tells a mixed story: momentum is real, but that reading also flags a market getting stretched, one where a pullback wouldn’t be surprising. Support sits around $114.67, with a deeper floor near $106.95 if sentiment sours. (Source – TradingView, SOL USDT ) It is worth flagging buying walls at $123 and $132, with $150 emerging as the consensus upside target if both levels give way. The base case has SOL grinding against resistance into the September 28 Alpenglow activation, using the catalyst as the trigger for a breakout attempt. The bear case: a rejection at $120–$123 sends price back to retest $114.67, delaying the $150 conversation. Watch volume on any resistance test, a low-volume push through $123 would be far less convincing than one backed by real size. For deeper context on how the upgrade interacts with capacity and adoption trends, see this recent Solana infrastructure update . LiquidChain Targets Early Mover Upside as Solana Tests Key Levels Anyone holding SOL from the sub-$100 range is sitting comfortably. But buying in now, chasing a token already up 22.57% over seven days and pressing into resistance, is a different risk calculus entirely, the easy money on this leg has largely been made. That’s pushing some traders toward earlier-stage plays with more room to run, and cross-chain infrastructure is one of the more active corners of that search right now. LiquidChain (LIQUID) is building a Layer 3 execution environment designed to fuse Bitcoin, Ethereum, and Solana liquidity into a single unified layer — a “deploy-once, access-all” model for developers tired of fragmenting liquidity across chains. The presale is priced at $0.014958 per token, with $971,680.17 raised to date. Core features include single-step execution and verifiable settlement, aimed at removing the friction of bridging between ecosystems. As with any presale, there’s no secondary market yet and no guarantee the mainnet delivers on the roadmap, due diligence matters here. Those tracking the Solana-LiquidChain connection can research LiquidChain further before deciding. Gain Special Access to Layer 3 Trading Here Key Takeaways SOL must clear $120–$123.35 resistance to realistically target the $132–$150 zone flagged by analysts. A rejection at current resistance risks a retest of $114.67 support, or deeper to $106.95 on heavier selling. LiquidChain’s unified liquidity layer targets BTC, ETH, and Solana interoperability, with presale pricing at $0.014958. Alpenglow’s mainnet feature-gate activation, expected around September 28, is the next major catalyst for SOL price action. The post Solana Begins Testing on Major Speed Upgrade: SOL Price to $150? appeared first on Cryptonews .",
+      "tags": "Price Analysis|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "72651123",
+      "guid": "https://cryptopotato.com/?p=1449377",
+      "published_on": 1790161598,
+      "imageurl": "https://resources.cryptocompare.com/news/27/72651123.jpeg",
+      "title": "Zcash Tops $1,600 After Europe’s First ZEC ETP Debuts",
+      "url": "https://cryptopotato.com/zcash-tops-1600-after-europes-first-zec-etp-debuts/",
+      "body": "Zcash (ZEC) climbed above $1,600 for the first time since 2016 after 21Shares launched Europe’s first Zcash exchange-traded product (ETP) on Euronext Paris and Amsterdam. The rally coincides with the privacy coin expanding access through traditional investment markets, while heady short liquidations and leveraged trading add another layer to the price action. 21Shares Launches Europe’s First Zcash ETP CoinGecko reported the price milestone on September 23, with ZEC trading around $1,600 after reaching an intraday high of approximately $1,643. The listing gives investors another way to gain exposure to the cryptocurrency without holding ZEC directly. The physically backed product trades on Euronext Paris and Amsterdam. Investors can buy it through traditional brokerage accounts, avoiding the need to manage crypto wallets or take direct custody of the tokens. Its annual management fee is 2.5%. 21Shares also launched a physically backed ETP tracking ETHFI, the governance and utility token of the Ether.fi decentralized finance protocol. That product carries the same 2.5% annual fee as its ZEC counterpart. The European listing follows Grayscale’s launch of its spot Zcash ETF, which trades on NYSE Arca under the ticker ZCSH. Together, the products give investors in the United States and Europe regulated investment vehicles tied to ZEC. The price move has also caught the attention of leveraged traders, with Lookonchain reporting that a trader identified as 0xE34E opened a 50x long position on 140 ZEC, worth around $224,000. With the token breaking above $1,600, the position showed an unrealized profit of approximately $70,700, representing a reported return of 1,581%. ZEC Outpaces the Broader Crypto Market CoinGecko’s latest figures put ZEC just slightly above $1,600, up more than 10% over 24 hours, 43% in seven days, and over 91% across 30 days. Its one-year gain stands at 3,266%. The weekly performance comfortably exceeds the broader crypto market’s 14.1% increase in the same period. Trading activity has also picked up. ZEC recorded around $1.77 billion in 24-hour volume, a 61.1% increase from the previous day, with its price moving between roughly $1,456 and $1,643 during that period. ZEC cleared $1,500 last week after climbing 190% in a month, and analysts at the time did not agree on what would happen next. One of them, Ali Martinez, wrote that “momentum remains strong” and pointed to $1,800 as his next target, a call he first made in late August when the asset was trading near $820. Picolas Cage, another trader on X, predicted Zcash could eventually reach $14,000, arguing that investors have not properly placed where the token sits in the current market cycle. But others have leaned bearish, including Crypto with Haris ₿, who opened a $100,000 short earlier this month, insisting that the rally had relied heavily on short liquidations rather than new buying and that most of the bullish catalysts were already priced in by the time ZEC passed $1,500. Interestingly, data from CoinGlass shows Zcash’s jump past $1,600 caused about $21.62 million in liquidations in 24 hours, with $19.39 million of that hitting short positions. The post Zcash Tops $1,600 After Europe’s First ZEC ETP Debuts appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|social|Zcash|Zcash (ZEC) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING|ZEC|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "72651122",
+      "guid": "https://news.bitcoin.com/?p=849905",
+      "published_on": 1790161539,
+      "imageurl": "https://resources.cryptocompare.com/news/14/72651122.jpeg",
+      "title": "ETH Price Nears $2,800 as FTX Estate Sends $75M in Ether to Wintermute",
+      "url": "https://news.bitcoin.com/crypto-news/ftx-alameda-estate-75-million-ether-wintermute/",
+      "body": "FTX’s bankruptcy estate moved 27,372 ETH worth about $75.32 million to market maker Wintermute on Tuesday, routed through six separate wallets. Decoding the Movements Arriving in a big bunch, the FTX and Alameda Research liquidation team transferred 27,372 ETH, worth roughly $75.32 million, to Wintermute across six wallets, according to onchain analyst EmberCN. Other trackers",
+      "tags": "Crypto News|Alameda Research|Ethereum (ETH)|ftx",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|MARKET|TRADING|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "72651257",
+      "guid": "https://en.coin-turk.com/?p=250639",
+      "published_on": 1790161401,
+      "imageurl": "https://resources.cryptocompare.com/news/79/72651257.jpeg",
+      "title": "Bitcoin trades near $87,200 as Trump reports productive Iran meeting",
+      "url": "https://en.coin-turk.com/bitcoin-trades-near-87200-as-trump-reports-productive-iran-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-trades-near-87200-as-trump-reports-productive-iran-meeting",
+      "body": "🚨 Bitcoin trades near $87,200 after President Trump says US-Iran talks were “very good.” 📈 The $BTC price rose 14% in seven days, rebounding from $75,600 last week. 🤔 CryptoQuant’s CEO now expects the bull cycle to offer smaller, steadier gains. 🌐 The latest negotiations come as oil prices fall and ETF inflows rise. Continue Reading: Bitcoin trades near $87,200 as Trump reports productive Iran meeting The post Bitcoin trades near $87,200 as Trump reports productive Iran meeting appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|COMMODITY|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "72650973",
+      "guid": "https://timestabloid.com/?p=111972",
+      "published_on": 1790161259,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Sitcom about How XRP Ledger Was Born. Watch Episode 1: “The One Without Mining”",
+      "url": "https://timestabloid.com/sitcom-about-how-xrp-ledger-was-born-watch-episode-1-the-one-without-mining/",
+      "body": "The early history of the XRP Ledger has become a pop-culture parody on X, where Art Director X-Art presented the network’s origins as an episode of a fictional sitcom. The post uses the visual style associated with the television series F·R·I·E·N·D·S. It replaces the title with “F · O · U · N · D · E · R · S.” The first episode is titled “The One Without Mining,” referencing one of the XRP Ledger’s defining technical characteristics. X-Art Introduces “Founders” X-Art’s post presents the XRP Ledger’s early creators as the cast of a fictional series about how the network came into existence. Rather than presenting a conventional historical account, the post uses humor and 1990s television nostalgia to portray the ledger’s development. The “Founders” title follows the recognizable dot-separated presentation associated with F·R·I·E·N·D·S. The parody also follows the sitcom’s familiar episode naming structure, with “The One Without Mining” replacing the format commonly used for episodes of the original show. The post does not represent an actual television production. It is a fictional meme that uses the format of a well-known sitcom to reference the history of the XRP Ledger and its creators. F · O · U · N · D · E · R · S The sitcom about how the ripple:native Ledger was born. Episode 1: \"The One Without Mining\" cc @JoelKatz @bgarlinghouse @chrislarsensf pic.twitter.com/DNBcSIXbMh — X-Art (@Dogeh8er) September 21, 2026 “The One Without Mining” The episode title refers directly to the XRP Ledger’s consensus design. Unlike Bitcoin, the XRP Ledger does not rely on Proof-of-Work mining to validate transactions. David Schwartz, Jed McCaleb, and Arthur Britto began developing the technology that would become the XRP Ledger in 2011. Their work focused on creating a distributed ledger that could process transactions without relying on mining. The network uses a consensus protocol in which participating nodes agree on the state of the ledger. That distinction forms the central joke behind X-Art’s episode title. The phrase “The One Without Mining” turns a technical feature into a sitcom-style episode while retaining the parody historical reference. The Founders Behind the Parody The fictional “cast” refers primarily to Schwartz, McCaleb, and Britto, who played key roles in the early development of the XRP Ledger. The project later got linked to the formation of OpenCoin, co-founded by Chris Larsen, which later became Ripple. The XRP Ledger eventually launched in 2012, following the development work that began the previous year. Its design differed from Bitcoin by eliminating mining and using a consensus-based system to validate transactions. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 X-Art’s post compresses that history into a simple pop-culture format. By calling the fictional first episode “The One Without Mining,” the post places the ledger’s technical design at the center of its portrayal of the project’s origins. The result is a humorous, important look at XRP Ledger history, using a familiar television format to introduce the people and technology associated with its creation. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Sitcom about How XRP Ledger Was Born. Watch Episode 1: “The One Without Mining” appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Ledger",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MINING|TRADING|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "72650916",
+      "guid": "https://ambcrypto.com/?p=635106",
+      "published_on": 1790161224,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "NEAR Protocol brings U.S. stocks on-chain with Ondo – Why it matters",
+      "url": "https://ambcrypto.com/near-protocol-brings-u-s-stocks-on-chain-with-ondo-why-it-matters/",
+      "body": "NEAR is positioning its cross-chain infrastructure for the growing shift toward on-chain financial markets.",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BLOCKCHAIN|MARKET|NEAR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "72651121",
+      "guid": "https://coinpaprika.com/news/saudi-arabia-quiet-retreat-china-mbridge",
+      "published_on": 1790161200,
+      "imageurl": "https://resources.cryptocompare.com/news/80/72651121.jpeg",
+      "title": "Saudi Arabia's Quiet Retreat From China's mBridge Surfaces a Year On",
+      "url": "https://coinpaprika.com/news/saudi-arabia-quiet-retreat-china-mbridge",
+      "body": "Saudi Arabia's central bank has withdrawn from mBridge, a China-backed cross-border digital currency platform, according to a Financial Times report. The bank joined in June 2024 and ended participation after completing a proof of concept in May 2025.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|FIAT|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790160935,
+    "time_range_start": "2026-09-23 10:55:35",
+    "time_range_end": "2026-09-23 11:55:35"
+  }
+}
