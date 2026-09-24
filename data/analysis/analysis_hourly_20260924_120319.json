@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260924_120319",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790247799,
+    "time_range_start": "2026-09-24 11:03:19",
+    "time_range_end": "2026-09-24 12:03:19"
+  },
+  "total_articles": 30,
+  "unique_sources": 18,
+  "unique_categories": 25,
+  "unique_tags": 53,
+  "body_stats": {
+    "avg_length": 1244.47,
+    "min_length": 38,
+    "max_length": 4852
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-24 11:05:19",
+    "newest": "2026-09-24 12:00:39",
+    "time_span_minutes": 55.33
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "CoinDesk": 3,
+    "Finbold": 3,
+    "Decrypt": 2,
+    "Cryptopolitan": 2,
+    "U.Today": 2,
+    "AMB Crypto": 1,
+    "CryptoIntelligence": 1,
+    "TimesTabloid": 1,
+    "The Crypto Basic": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 27,
+    "MARKET": 10,
+    "TRADING": 9,
+    "BTC": 8,
+    "XRP": 7,
+    "FIAT": 6,
+    "EXCHANGE": 6,
+    "TECHNOLOGY": 5,
+    "ETH": 4,
+    "REGULATION": 4,
+    "BUSINESS": 3,
+    "LINK": 2,
+    "SECURITY INCIDENTS": 2,
+    "SPONSORED": 2,
+    "ADA": 1
+  },
+  "top_tags": {
+    "News": 6,
+    "": 4,
+    "XRP": 3,
+    "Cryptocurrency news": 3,
+    "cryptocurrency": 3,
+    "Ethereum": 2,
+    "Cryptocurrency": 2,
+    "Ripple (XRP)": 2,
+    "Tech": 2,
+    "Cryptocurrency News": 2,
+    "Bitcoin": 2,
+    "Bitcoin (BTC)": 2,
+    "Stocks news": 2,
+    "Stocks": 2,
+    "crypto": 2
+  }
+}
