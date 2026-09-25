@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260925_120332",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790334212,
+    "time_range_start": "2026-09-25 11:03:32",
+    "time_range_end": "2026-09-25 12:03:32"
+  },
+  "total_articles": 27,
+  "unique_sources": 15,
+  "unique_categories": 29,
+  "unique_tags": 48,
+  "body_stats": {
+    "avg_length": 1289.93,
+    "min_length": 38,
+    "max_length": 6844
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-25 11:03:58",
+    "newest": "2026-09-25 11:54:28",
+    "time_span_minutes": 50.5
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "coinpedia": 5,
+    "The Crypto Basic": 3,
+    "CoinDesk": 2,
+    "Crypto Daily": 2,
+    "Finbold": 1,
+    "Invezz": 1,
+    "BitcoinSistemi": 1,
+    "Bitcoin.com": 1,
+    "Bitcoinist": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 24,
+    "TRADING": 14,
+    "MARKET": 11,
+    "BUSINESS": 9,
+    "BTC": 7,
+    "FIAT": 4,
+    "EXCHANGE": 4,
+    "ETH": 3,
+    "XRP": 3,
+    "LINK": 2,
+    "QNT": 2,
+    "SECURITY INCIDENTS": 2,
+    "WALLET": 2,
+    "ALTCOIN": 1,
+    "REGULATION": 1
+  },
+  "top_tags": {
+    "News": 4,
+    "Short News": 4,
+    "Ripple (XRP)": 3,
+    "Markets": 2,
+    "Ethereum (ETH)": 2,
+    "Market": 2,
+    "Crypto Daybook Americas": 2,
+    "": 2,
+    "Bitcoin News": 1,
+    "Chainlink (LINK)": 1,
+    "Breaking News": 1,
+    "Cryptocurrency news": 1,
+    "crypto": 1,
+    "cryptocurrency": 1,
+    "QNT": 1
+  }
+}
