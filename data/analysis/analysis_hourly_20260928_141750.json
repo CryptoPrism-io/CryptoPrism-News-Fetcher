@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260928_141750",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790601470,
+    "time_range_start": "2026-09-28 13:17:50",
+    "time_range_end": "2026-09-28 14:17:50"
+  },
+  "total_articles": 26,
+  "unique_sources": 17,
+  "unique_categories": 24,
+  "unique_tags": 42,
+  "body_stats": {
+    "avg_length": 1759.35,
+    "min_length": 77,
+    "max_length": 4467
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-28 13:27:40",
+    "newest": "2026-09-28 14:06:31",
+    "time_span_minutes": 38.85
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "BitcoinSistemi": 3,
+    "Crypto Daily": 2,
+    "Cointelegraph": 2,
+    "U.Today": 2,
+    "Cryptopolitan": 2,
+    "Coinpaper": 1,
+    "Crypto Potato": 1,
+    "Bitcoin.com": 1,
+    "AMB Crypto": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 23,
+    "MARKET": 11,
+    "TRADING": 11,
+    "BUSINESS": 6,
+    "MINING": 5,
+    "BTC": 5,
+    "FIAT": 4,
+    "REGULATION": 4,
+    "MACROECONOMICS": 4,
+    "EXCHANGE": 4,
+    "XRP": 4,
+    "SPONSORED": 3,
+    "ETH": 3,
+    "SHIB": 2,
+    "OTHER": 2
+  },
+  "top_tags": {
+    "News": 6,
+    "More News": 3,
+    "Shiba (SHIB)": 2,
+    "Crypto News": 2,
+    "Ethereum": 2,
+    "Bitcoin (BTC)": 2,
+    "Commodities": 1,
+    "Latest News": 1,
+    "Citigroup": 1,
+    "Sponsored": 1,
+    "AA News": 1,
+    "social": 1,
+    "BitMine": 1,
+    "Market Updates": 1,
+    "Ethereum (ETH)": 1
+  }
+}
