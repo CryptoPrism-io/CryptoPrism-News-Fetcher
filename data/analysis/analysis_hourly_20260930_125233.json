@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260930_125233",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790769153,
+    "time_range_start": "2026-09-30 11:52:33",
+    "time_range_end": "2026-09-30 12:52:33"
+  },
+  "total_articles": 24,
+  "unique_sources": 16,
+  "unique_categories": 28,
+  "unique_tags": 62,
+  "body_stats": {
+    "avg_length": 1720.71,
+    "min_length": 93,
+    "max_length": 7833
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-09-30 11:54:22",
+    "newest": "2026-09-30 12:42:42",
+    "time_span_minutes": 48.33
+  },
+  "top_sources": {
+    "CoinTurk News": 3,
+    "CoinOtag": 3,
+    "BitcoinSistemi": 2,
+    "Seeking Alpha": 2,
+    "Bitcoin World": 2,
+    "U.Today": 2,
+    "Coinpaper": 1,
+    "Bitcoin.com": 1,
+    "Crypto Potato": 1,
+    "coinpedia": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 22,
+    "MARKET": 11,
+    "TRADING": 11,
+    "BLOCKCHAIN": 6,
+    "EXCHANGE": 5,
+    "BTC": 5,
+    "BUSINESS": 5,
+    "XRP": 4,
+    "WALLET": 3,
+    "TECHNOLOGY": 3,
+    "LINK": 3,
+    "ETH": 3,
+    "ZRX": 2,
+    "BNB": 2,
+    "ALTCOIN": 2
+  },
+  "top_tags": {
+    "News": 5,
+    "Crypto News": 4,
+    "Coinbase": 2,
+    "Analysis": 2,
+    "Altcoin": 2,
+    "XRP Ledger": 2,
+    "": 2,
+    "Crypto": 1,
+    "Bitcoin": 1,
+    "iGaming": 1,
+    "CFTC": 1,
+    "Kalshi": 1,
+    "Polymarket": 1,
+    "Prediction markets": 1,
+    "United States US": 1
+  }
+}
