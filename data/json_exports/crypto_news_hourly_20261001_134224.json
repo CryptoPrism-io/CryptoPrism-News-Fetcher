@@ -1,0 +1,472 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "73376393",
+      "guid": "https://en.coin-turk.com/?p=251853",
+      "published_on": 1790861843,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73376393.jpeg",
+      "title": "Citigroup lifts Bitcoin target to $113,000, forecasts $5 billion crypto inflows",
+      "url": "https://en.coin-turk.com/citigroup-lifts-bitcoin-target-to-113000-forecasts-5-billion-crypto-inflows/?utm_source=rss&utm_medium=rss&utm_campaign=citigroup-lifts-bitcoin-target-to-113000-forecasts-5-billion-crypto-inflows",
+      "body": "🚨 Citigroup raises 12-month $BTC target to $113,000, up from $82,000. 🟢 Bitcoin ETFs post 9 straight sessions of inflows, totaling $3.08 billion since Sept. 17. 📊 Bitcoin trading near $84,400 but remains 10% below its October 2025 record high. 🪙 Meme token investor turns $99 into $370,000 in “Niu Lai” using Fomo App. Continue Reading: Citigroup lifts Bitcoin target to $113,000, forecasts $5 billion crypto inflows The post Citigroup lifts Bitcoin target to $113,000, forecasts $5 billion crypto inflows appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73376394",
+      "guid": "https://cointelegraph.com/news/bitget-hack-q3-industry-losses-1-26-billion",
+      "published_on": 1790861747,
+      "imageurl": "https://resources.cryptocompare.com/news/16/73376394.jpeg",
+      "title": "Bitget’s $388M hack pushes Q3 crypto security losses past $1B",
+      "url": "https://cointelegraph.com/news/bitget-hack-q3-industry-losses-1-26-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Crypto security losses reached $1.26 billion in Q3 across 247 incidents, with September alone accounting for roughly $769 million.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "73376291",
+      "guid": "https://cryptopotato.com/?p=1450198",
+      "published_on": 1790861706,
+      "imageurl": "https://resources.cryptocompare.com/news/27/73376291.jpeg",
+      "title": "Bitcoin Price Analysis: Is BTC’s Consolidation the Calm Before the Storm?",
+      "url": "https://cryptopotato.com/bitcoin-price-analysis-is-btcs-consolidation-the-calm-before-the-storm/",
+      "body": "Bitcoin is consolidating around $83.5K after bouncing from the mid-$70K area. The charts show a constructive higher-timeframe structure, but BTC is now facing a significant resistance cluster while short-term momentum has cooled. At the same time, the Apparent Demand Growth metric on CryptoQuant has recently leaned negative, suggesting that the demand backdrop has not yet confirmed another sustained leg higher. Bitcoin Price Analysis: The Daily Chart Bitcoin’s daily chart shows a substantial recovery from the $76K region. BTC first reclaimed the $66K area and then accelerated above the $70K and $78K levels, eventually reaching the $88K resistance zone. This area previously acted as a rejection zone, and the latest rally stalled just below it. A valid move above $88K would therefore represent an important structural development, potentially opening the way toward the higher resistance zone around $96K shown on the chart. On the downside, the first notable support is around $76K, where the latest rally originated. The chart also highlights a deeper support zone around the $66K area, which remains the most important structural level located at the top of the previous consolidation range. The 100-day and 200-day moving averages have also improved considerably. BTC has reclaimed both after spending much of the earlier part of the year below them. The 100-day moving average is now turning upward aggressively toward the 200-day average, which is pointing to a potential bullish crossover in the coming weeks. Still, BTC needs to clear the $88K resistance area to demonstrate stronger continuation. The daily RSI has also recovered from its earlier weakness but is no longer near its recent highs. A bearish divergence is visible between the latest price advance and the RSI, with price making a higher high while momentum failed to establish a comparable high. This does not necessarily signal an immediate reversal, but it indicates that upside momentum has become less convincing while the price is stalling just below a major resistance zone. BTC/USDT 4-Hour Chart The 4-hour chart provides a clearer picture of the consolidation visible on the daily chart. After surging from roughly $75K to above $86K, Bitcoin entered a sideways-to-slightly bearish formation bounded by two descending yellow trendlines. BTC is currently trading near $83.8K, roughly in the middle of this short-term range. The upper trendline is approaching the $85K area, while the lower boundary is currently around $82K. This creates a relatively well-defined short-term structure. A breakout above the descending upper trendline, followed by a move through the $88K resistance zone, would signal that buyers are attempting to resume the preceding advance. Conversely, a breakdown below the lower trendline could expose the $81K bullish order block. A loss of this zone would weaken the current bullish structure and could bring the broader $76K demand area back into focus. In the near term, BTC therefore appears to be coiling beneath resistance. The key technical question is whether the current consolidation resolves through the upper trendline and the $88K level, or whether sellers force a deeper retracement toward $80K. On-Chain Analysis The Apparent Demand Growth chart on CryptoQuant provides a less supportive signal than the recent price action. The metric measures the net change in Bitcoin supply that has remained inactive for more than one year, adjusted for newly issued coins. Positive readings indicate that apparent demand is absorbing more BTC than the amount of supply entering the market through issuance, while negative readings indicate the opposite. Historically, the chart shows periods of sustained positive Apparent Demand Growth coinciding with strong advances in Bitcoin’s price. Conversely, prolonged negative readings have appeared during periods when price struggled to establish durable upside momentum. Sharp reversals from deeply negative readings have also preceded recoveries. The most recent portion of the chart shows that Apparent Demand Growth has been relatively unstable, with repeated negative readings and intermittent positive spikes. More recently, the metric has leaned toward negative territory even as Bitcoin recovered toward the mid-$80K range. This creates an important divergence between price and the underlying demand signal. Bitcoin has managed to recover significantly from its summer lows, but the Apparent Demand Growth data shown here does not yet display the sustained positive expansion that accompanied some of the market’s stronger historical advances. As a result, the on-chain data suggests that the latest price recovery has not yet been accompanied by a decisive improvement in apparent demand. If the metric turns persistently positive while BTC holds above $80K and challenges the $88K zone, that would provide stronger confirmation for the continuation scenario. However, if negative readings persist while price fails to break $88K, the current consolidation could remain vulnerable to a deeper correction, which could soon materialize if things fail to change for the better. The post Bitcoin Price Analysis: Is BTC’s Consolidation the Calm Before the Storm? appeared first on CryptoPotato .",
+      "tags": "BTC Analysis|Crypto News|Bitcoin (BTC) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "73376013",
+      "guid": "https://news.bitcoin.com/?p=852249",
+      "published_on": 1790861402,
+      "imageurl": "https://resources.cryptocompare.com/news/14/73376013.jpeg",
+      "title": "Bitcoin Price Hovers Near $84K as Oscillators Throw Cold Water",
+      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-hovers-near-84k-as-oscillators-throw-cold-water/",
+      "body": "Bitcoin’s price hovered near $83,900 Thursday morning as buyers defended the low-$83,000s while sellers repeatedly knocked back advances into the mid-$84,000s. Thursday’s technical summary still reads bullish, though moving averages are doing nearly all the heavy lifting as oscillators remain decidedly less enthusiastic. 1-Hour Chart: Buyers Fight Back, but $84,360 Blocks the Door The 1-hour",
+      "tags": "Market Updates|Bitcoin (BTC)|Bitcoin Price|market updates|Technical Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "73376023",
+      "guid": "https://u.today/ripples-north-star-xrp-records-10-million-agentic-payments-milestone-amid-ai-boom-main-crypto-news",
+      "published_on": 1790861400,
+      "imageurl": "https://resources.cryptocompare.com/news/64/73376023.jpeg",
+      "title": "Ripple's 'North Star' XRP Records 10 Million Agentic Payments Milestone Amid AI Boom: Main Crypto News Morning",
+      "url": "https://u.today/ripples-north-star-xrp-records-10-million-agentic-payments-milestone-amid-ai-boom-main-crypto-news",
+      "body": "Key crypto updates of the Oct. 1 morning: AI agents hit 10 million payments on Ripple-backed XRP Ledger as a US bond shock snaps Bitcoin’s ETF streak.",
+      "tags": "Cryptocurrency Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "73376054",
+      "guid": "https://cointelegraph.com/news/latam-stablecoin-liquidity-may-depend-on-few-providers-investor-says",
+      "published_on": 1790861400,
+      "imageurl": "https://resources.cryptocompare.com/news/16/73376054.jpeg",
+      "title": "LATAM stablecoin liquidity may depend on few providers, investor says",
+      "url": "https://cointelegraph.com/news/latam-stablecoin-liquidity-may-depend-on-few-providers-investor-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Researchers in a Latin American stablecoin ecosystem report warned “fragility in the system is concentrated in its thinnest layer,” with just 16 of 494 companies focused primarily on wholesale liquidity, treasury and credit.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|REGULATION|DIGITAL ASSET TREASURY|MACROECONOMICS",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "73376056",
+      "guid": "https://cointelegraph.com/magazine/stablecoins-can-drain-from-banks-and-nations-at-lightning-speed",
+      "published_on": 1790861400,
+      "imageurl": "https://resources.cryptocompare.com/news/16/73376056.jpeg",
+      "title": "Stablecoins can drain from banks and nations at lightning speed",
+      "url": "https://cointelegraph.com/magazine/stablecoins-can-drain-from-banks-and-nations-at-lightning-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Highly liquid and settling 24/7, stablecoins can leave banks and countries at lightning speed. But whether stablecoins are a risk — or an opportunity — depends on your perspective.",
+      "tags": "Magazine",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "73376049",
+      "guid": "https://cryptodaily.co.uk/2026/10/bitcoin-looks-boring-now-watch-out-when-consolidation-ends",
+      "published_on": 1790861172,
+      "imageurl": "https://resources.cryptocompare.com/news/75/73376049.jpeg",
+      "title": "Bitcoin Looks Boring Now: Watch Out When Consolidation Ends",
+      "url": "https://cryptodaily.co.uk/2026/10/bitcoin-looks-boring-now-watch-out-when-consolidation-ends",
+      "body": "The Bitcoin price is into the tenth day of boring sideways consolidation. How much longer can this go on for? Whether it’s to the up or the downside, once this period of inactivity breaks it could do so in spectacular fashion. Watch out for the coming rally/collapse. It’s not the time for taking your eye off the ball. Bitcoin holding firm while other asset classes fall Source: TradingView Into the teeth of obdurately rising bond yields, the $BTC price has performed exceptionally well, while other asset classes such as stocks and precious metals have been battered. This is not the usual state of affairs we have been used to, as until relatively recently, the Bitcoin price would have slavishly followed the US stock market, going down hard if stocks went down. Since rising out of its bear market Bitcoin has been a different beast, holding firm while the likes of gold have continued a slow but persistent decline. The 4-hour time frame chart above shows the sideways choppiness of the $BTC price . Within this new parallel channel the price is generally respecting the 0.25% and the 0.5% demarcation lines (dotted lines). If the price can get above 0.25% it is likely to continue up to the 0.50% line. From there, a big gap up to the top of the channel awaits. We will see if the $BTC price can get there and at least have the chance of a breakout. Bounce or collapse? Source: TradingView While it is certainly not confirmed, a downsloping trendline has been drawn in, which would make the current pattern a descending triangle. These are generally bearish patterns, but as can be seen, the $BTC price is currently trying to break beyond this trendline. If the pattern is kosha, then perhaps we might see some volume boosting the price up if it breaks out. At the bottom of the chart, the Stochastic RSI has its indicator lines coming down at a faster rate. They might be expected to touch bottom by the end of the weekend. Below this is the Relative Strength Index. The indicator line here is following along the top of the descending trendline nicely . If it doesn’t fall through, a decent bounce would be reflected in the price action in the chart above heading for the top of the channel. If it does fall through, expect a corresponding collapse in the price action. Bull flag breakout move still to come? Source: TradingView The weekly time frame reveals that after testing the $83K support level the $BTC price is probably ready to go higher. Why higher? Because the price has only just broken out of the bull flag and therefore it would be expected to rise quite a bit higher in order to get at least somewhere near its measured move to the upside ($94K). The Stochastic RSI indicator lines have crossed bullish, with the blue fast line back on top of the red slow line. In addition, the MACD for the weekly is recording a steady upward trend. The histogram gets a pale green bar now and then, but the blue MACD line is well above the red signal line, and so this trend looks set to continue. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "Breaking News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "73375860",
+      "guid": "https://en.coin-turk.com/?p=251852",
+      "published_on": 1790861123,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73375860.jpeg",
+      "title": "Top 10 Shiba Inu whale inflows jump to 10.44 billion SHIB, active addresses up",
+      "url": "https://en.coin-turk.com/top-10-shiba-inu-whale-inflows-jump-to-10-44-billion-shib-active-addresses-up/?utm_source=rss&utm_medium=rss&utm_campaign=top-10-shiba-inu-whale-inflows-jump-to-10-44-billion-shib-active-addresses-up",
+      "body": "🚨 Whale inflow to exchanges jumps to 10.44 billion $SHIB in 24 hours. 🟢 Active addresses and average inflow per transaction both increased. 📉 SHIB is trading just above its 200-day moving average at $0.00000565. 📊 Whale movements and meme token tracking remain vital for market watchers. Continue Reading: Top 10 Shiba Inu whale inflows jump to 10.44 billion SHIB, active addresses up The post Top 10 Shiba Inu whale inflows jump to 10.44 billion SHIB, active addresses up appeared first on COINTURK NEWS .",
+      "tags": "Shiba (SHIB)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SHIB|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73376169",
+      "guid": "https://www.cryptopolitan.com/?p=315490",
+      "published_on": 1790861079,
+      "imageurl": "https://resources.cryptocompare.com/news/43/73376169.jpeg",
+      "title": "SBI completes Bitbank acquisition in latest deal for struggling Japanese crypto exchanges",
+      "url": "https://www.cryptopolitan.com/sbi-completes-bitbank-takeover-japan/",
+      "body": "SBI has vaulted to the lead among Japanese exchanges by custodied assets after SBI Holdings completed the Bitbank buyout that folded the company into its financial group as a wholly owned subsidiary on October 1. The deal, which closed for ¥46.7 billion (about $289 million), won’t change much for the roughly 960,000 Bitbank users with registered accounts, with services not subject to any significant changes per the disclosure. The companies first disclosed in late June that they had signed binding agreements, after capital and business tie-up talks from earlier in the year. SBI closes deal to buy Bitbank Per Bitbank’s corporate announcement , the SBI acquisition was completed in multiple stages, with SBICAH, a wholly owned SBI unit, serving as the vehicle. Instead of one single purchase, SBICAH first bought 53,704 shares from Bitbank founder and CEO Noriyuki Hirosue and other individual holders. Next came a third-party allotment where the exchange issued 48,952 new shares to the SBI unit. Finally, the cash from the third-party allotment bankrolled the final step, where Bitbank repurchased the stakes held by MIXI and Ceres, its two largest corporate backers. The repurchases completed on October 1 retired the remaining steps, leaving SBI as Bitbank’s sole parent. Bitbank reshuffled its leadership alongside the ownership change The deal to acquire Bitbank was announced along with the president of SBI VC Trade, SBI’s existing exchange arm, Tomohiko Kondo, taking a director seat at the exchange. Hirosue will become an outside director at SBI VC Trade while remaining as representative director, president, and CEO. As part of the new structure, Satoshi Takagi, Nobuhiro Kanayama and Masaya Kubota left their roles as outside directors on the board. Why did SBI buy an unprofitable exchange? As Architect Partners mentioned after the deal was signed, SBI paid $289 million to acquire Bitbank for scale under regulation, rather than earnings. Adding Bitbank’s roughly ¥570 billion ($3.5 billion) in custodied assets and nearly a million accounts lifts the combined SBI platform to about ¥1.1 trillion in assets under custody across some 2.92 million accounts, based on end-of-April figures, enough to rank first among domestic operators by custodied assets. Bitbank also brings a Financial Services Agency license, deep altcoin liquidity and an institutional custody business, capabilities Architect Partners said would be slow and expensive for SBI to build on its own. “We expect consolidation to continue,” wrote the firm’s co-founder Steve Payne, who named bitFlyer, the last large independent, as “an obvious next domino.” Bitbank stressed that nothing changes for “bitbank” service users. The exchange said it looks forward to leveraging SBI Group’s financing, customer base and management resources to grow its exchange and other digital-asset lines. Another notch in SBI’s acquisition run Bitbank extends a years-long buying streak rather than a one-off. SBI VC Trade absorbed TaoTao in 2020, took on DMM Bitcoin’s accounts and custody assets after that exchange collapsed following a 2024 hack. SBI fully absorbed Bitpoint Japan in April 2026 after first buying into the exchange back in 2022. The backdrop is a changing rulebook. Japan is moving crypto assets under the Financial Instruments and Exchange Act, the law that governs stocks and securities, with legislation that would also cut the tax on crypto gains to a flat 20%. Those changes raise compliance and capital costs for smaller standalone platforms, which analysts cite as a driver of the current wave of deals. Don’t just read crypto news. Understand it. Subscribe to our newsletter. It's free .",
+      "tags": "News|Bitbank|JPY|SBI",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "73375520",
+      "guid": "https://decrypt.co/?p=379813",
+      "published_on": 1790860978,
+      "imageurl": "https://resources.cryptocompare.com/news/44/73375520.jpeg",
+      "title": "Minecraft, Candy Crush Among 11 Games in EU Virtual Currency Crackdown",
+      "url": "https://decrypt.co/379813/minecraft-candy-crush-among-11-games-in-eu-virtual-currency-crackdown",
+      "body": "The guidelines exclude cryptocurrencies, leaving tokens outside a regime written for currencies bought with real money inside games.",
+      "tags": "Gaming",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "73375372",
+      "guid": "https://ambcrypto.com/?p=637854",
+      "published_on": 1790860858,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "All about HYPE’s 3.5% hike after OTC sale and what’s next for altcoin",
+      "url": "https://ambcrypto.com/all-about-hypes-3-5-hike-after-otc-sale-and-whats-next-for-altcoin/",
+      "body": "Which way will HYPE's price action go now?",
+      "tags": "Analysis|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "73375765",
+      "guid": "https://coinpedia.org/?p=584891",
+      "published_on": 1790860094,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Bitcoin Price Prediction: Citi Raises 12-Month Target to $113K, Ether to $3,028",
+      "url": "https://coinpedia.org/news/bitcoin-price-prediction-citi-raises-12-month-target-to-113k-ether-to-3028/",
+      "body": "The post Bitcoin Price Prediction: Citi Raises 12-Month Target to $113K, Ether to $3,028 appeared first on Coinpedia Fintech News Bitcoin price prediction has turned more bullish after Citigroup raised its 12-month Bitcoin target from $82,000 to $113,000. The bank also lifted its Ether target to $3,028 from $2,240, pointing to stronger crypto activity, improving macro conditions, and renewed ETF inflows. Here’s why Citigroup raised this target. Citigroup Raises Bitcoin Price Target to $113K Citigroup …",
+      "tags": "News|Bitcoin|Ethereum",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|FIAT|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "73374372",
+      "guid": "https://en.coin-turk.com/?p=251846",
+      "published_on": 1790859872,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73374372.jpeg",
+      "title": "XRP traders eye breakout as Crypto Rover predicts move within 48 hours",
+      "url": "https://en.coin-turk.com/xrp-traders-eye-breakout-as-crypto-rover-predicts-move-within-48-hours/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-traders-eye-breakout-as-crypto-rover-predicts-move-within-48-hours",
+      "body": "🚨 Crypto Rover calls breakout for $XRP within 48 hours amid descending wedge. 📉 Price eyes key support at $1.23 to $1.26, with $1.55 as immediate resistance. 📈 A push above $1.55 could open path toward $1.75 and above. 🕒 Falling wedge pattern makes XRP one of the market's most-watched tokens now. Continue Reading: XRP traders eye breakout as Crypto Rover predicts move within 48 hours The post XRP traders eye breakout as Crypto Rover predicts move within 48 hours appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73374306",
+      "guid": "https://cryptonews.com/news/china-crypto-policy-forecast/",
+      "published_on": 1790859720,
+      "imageurl": "https://resources.cryptocompare.com/news/52/73374306.jpeg",
+      "title": "China Crypto Future: Solana Co. CEO Joseph Chee on Regulation",
+      "url": "https://cryptonews.com/news/china-crypto-policy-forecast/",
+      "body": "Solana Co. CEO Joseph Chee expects China eventually to accommodate more crypto activity under close regulation, a forecast he made in an interview on the sidelines of Korea Blockchain Week. Breaking: Solana Co. CEO Joseph Chee says China will eventually “find a way to manage crypto,” with Hong Kong likely staying its main testing ground, per WSJ. pic.twitter.com/v6nLO3FSR5 — Shrawan Kumar (@Shrawan_akumar) October 1, 2026 China was once a major center for bitcoin trading and mining, but mainland authorities ordered domestic crypto exchanges to close and banned fundraising through new digital tokens in 2017. That history gives Chee’s view market relevance, but it also sets a high bar for treating a possible future change as an established catalyst. Earn $50 and Enter $300K Prize Draw on EdgeX Solana Co.’s Forecast And The Crypto Reality in China Chee leads Solana Co. and made the comments during a blockchain-industry event in South Korea. That puts his remarks in a relevant industry setting, but his executive role does not turn a personal forecast into Chinese policy or a formal Solana announcement. Regional context can help explain why the question attracts attention. South Korea has its own active debate over crypto-market oversight, while Korea Blockchain Week brings industry participants into the same conversation. But policy developments in another market, like comments from an executive at a Solana-linked company, cannot establish what Beijing will do. JUST IN: China's top intelligence agency warns anonymity in crypto is a \"false proposition\" and an \"illusion.\" China's Ministry of State Security says foreign intelligence agencies use the \"illusion\" of crypto anonymity to trick citizens into espionage recruitment, claiming… — Watcher.Guru (@WatcherGuru) September 28, 2026 Interest in Solana and SOL also spans market activity beyond China, including the ecosystem’s meme-coin trading . That activity is not evidence of Chinese demand or regulatory support. Any attempt to price a future China opening into SOL would need more than a broad forecast: it would need concrete rules and evidence that the asset or network falls within them. Trade Crypto on Bybit and Get a Chance to Win Our $1,000 USDT Airdrop Hong Kong as The Testing Ground? Hong Kong’s separate approach offers a regional example of crypto activity operating under formal oversight. The city has developed a licensing framework for virtual-asset trading platforms; its Securities and Futures Commission platform regime sets out requirements for operators. The Hong Kong skyline. The same caution applies to stablecoins. Hong Kong’s regulatory work on virtual assets and stablecoins shows that a Chinese jurisdiction can create supervised channels for parts of the sector. It does not prove that mainland authorities intend to replicate those rules, or that a future mainland framework would include open access to stablecoins or public-chain tokens. For traders, the practical read is narrow: Chee’s statement keeps the possibility of a future, tightly regulated Chinese crypto market in view, but offers no actionable timing or asset-specific signal. Until mainland authorities publish concrete rules, China crypto policy remains a constraint to monitor rather than a confirmed source of new demand for SOL. Discover: The Best Token Presales The post China Crypto Future: Solana Co. CEO Joseph Chee on Regulation appeared first on Cryptonews .",
+      "tags": "Crypto Regulation News|Regulation",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|MARKET|REGULATION|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "73374321",
+      "guid": "https://seekingalpha.com/article/4951330-bitdeer-the-real-value-is-in-what-each-megawatt-can-earn?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+      "published_on": 1790859621,
+      "imageurl": "https://resources.cryptocompare.com/news/50/73374321.jpeg",
+      "title": "Bitdeer: The Real Value Is In What Each Megawatt Can Earn",
+      "url": "https://seekingalpha.com/article/4951330-bitdeer-the-real-value-is-in-what-each-megawatt-can-earn?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+      "body": "Summary Bitdeer Technologies Group has transitioned into an AI cloud and data center operator, with significant revenue contracts and tangible hardware progress. AI Cloud ARR increased to $86 million, and Malaysia sites are over 70% committed, but a lack of disclosed AI capex per MW clouds return visibility. Bitcoin mining economics have improved with BTC above $83,000, but mining alone cannot justify BTDR's current enterprise value. I maintain a Hold rating on BTDR, awaiting clarity on AI Cloud capital requirements and execution milestones before reassessing upside potential. A lot has changed since I looked at Bitdeer Technologies Group ( BTDR ) roughly two months ago. I had two primary concerns then. Bitcoin at $64,000 was substantially below my $73,900 estimated cost per coin, and shareholders were helping fund the company’s AI buildout. Bitcoin flipped bullish, now changing hands above $83,000 as of September 30. Bitdeer’s artificial intelligence has progressed too. That’s evident in AI Cloud ARR, which increased from $76 million to approximately $86 million. And early this week (on September 29), this firm disclosed offtake commitments covering more than 70% of its 21.7 MW A201 site in Malaysia. That represents over $1.7 billion of expected revenue over five years. Management currently puts the AI Cloud backlog near $2.9 billion. So we have a completely different setup now. I don’t think we are now looking at a firm that’s transitioning into an AI company. Bitdeer has done so. And I’ve moved to the next question, which I consider the most interesting at the moment. What can each megawatt earn? Well, a MW can mine BTC. It can support a colocation client. And Bitdeer can even put GPUs on it and sell AI compute. Those are different businesses with very different economics. Still, I maintain a Hold rating on BTDR. Why? I’ll answer in this analysis. Three Uses, Three Economies I’m using Tydal as an example here because we can see more of the economics. The 16-year Volta agreement covers 121 IT MW and roughly $4.7 billion of base-term revenue. That works out to around $2.4 million of revenue per IT MW annually. Bitdeer says approximately $500 million of capex (or roughly $4 million per IT MW) remains. Use Revenue per MW per year Capital per MW Status Mining $1M Rigs, largely spent My estimate Colocation (Tydal) $2.4M $4M remaining Revenue derived; capex disclosed AI Cloud (A102) $16.8M Not disclosed Revenue derived; capex missing Phase 1 is targeting December 31, 2026. And Phase 2, March 31, 2027. Another key thing, Bitdeer expects roughly $1.3 billion of letters of credit, subject to conditions. So the contract has credit support. While that might not remove execution risk, it gives me greater visibility than I would have with a typical early-stage AI data-center project. Malaysia is more exciting. A102 is fully contracted for more than $800 million of expected revenue over 5 years and has 9.5 MW. A201 is over 70% committed, with more than $1.7 billion in anticipated 5-year revenue. I apply the full 21.7 MW as the denominator, which gives me more than $15 million of annual revenue per MW. The actual figure for the committed portion would be higher. I just don’t use it here because the company hasn’t given us enough details to make it clean. A202 adds another 65.1 MW under a 10-year agreement, taking the Johor campus to 86.8 MW. This is where I find the AI story interesting. Bitdeer has already procured more than 100 racks of NVIDIA GB300 NVL 72 systems for A201. That’s ahead of the planned Q2 2027 energization. That’s tangible progress. I still have one problem, though. I don’t know what each AI MW costs. Management says customer prepayments generally cover 50% (or more) of AI Cloud capex. Helpful? Yeah. But not enough for me. What I want is the bridge from customer prepayments to GPU and infrastructure spending. Without that, the $16.8 million revenue-per-MW number looks impressive; the issue is I can’t tell what kind of return it produces. And that’s also why I separate Tydal’s $4.7 billion contract revenue from the $2.9 billion AI Cloud backlog. The contracts and capital requirements aren’t the same. Mining Has Improved, but it’s the Smaller Lever Bitcoin mining has become much more attractive over the past two months. What you’d expect when crypto prices rise. Bitdeer produced 1,310 BTC in August . At $83,000 BTC, that’s around $1.3 billion of annualized revenue if the firm maintains the production rate. Bitdeer The company reported 79.9 EH/s of self-mining capacity. Using its 15.8 J/TH Q2 fleet-efficiency number gives me approximately 1,260 MW of estimated power demand. And that puts illustrative mining revenue density at around $1 million per MW annually. I’d treat that as an upper bound, though. That 15.8 J/TH is from Q2, not the August fleet. Cost matters more to me. Bitdeer produced 2,694 BTC from self-mining and co-mining in the second quarter. And reported $199.8 million of related cost of revenue. That gives me roughly $74,200 per BTC. Bitdeer That’s only my calculation. Not something coming from Bitdeer’s report. Using that number against August’s annualized production, I get around a $145 million gross loss at $65,000 BTC. $92 million of gross profit at $80,000. And $249 million profit at a $90,000 BTC price. At 5x, I land at approximately $0.5 billion of mining value at $80,000 BTC and $1.2 billion at $90,000. So mining has improved. But even at $90,000, it can’t explain the valuation. And by the way, I’m expecting Bitcoin to continue higher, with my initial target around $88,250 and a $95,000 12-month forecast . I see another issue with BTDR, though. The company had 3,669 BTC outstanding under its Bitcoin loan at September-end. It held only 61 BTC in August. So we have an entity that’s short the asset it mines. A higher BTC price boosts mining revenue. The problem is it also increases the dollar value of that liability. Funding Still Matters This is what forms the basis of my BTDR rating. Adjusted EBITDA came in at $31.1 million in the second quarter. Operating cash flow was negative $158.5 million. And capex reached $266 million. Of that capex, $150 million went toward SEALMINER production and $116 million to data centers, GPUs, and related spending. One key thing is Bitdeer has funding options. It issued $375 million of 5% convertible notes due 2032 and together with its equity offering, used part of the proceeds to buy back $135 million of its 2029 notes. The company had also drawn $423.3 million under its BIT asset-collateralized facilities as of September 29. Equity issuance has slowed, though it hasn’t stopped. BTDR issued 4.37 million Class A shares for about $58 million net between July 1 and September 29. That’s approximately 1.6% dilution against 271.8 million shares outstanding at June 30. There’s also a new $1 billion ATM . Although only around $8.4 million had been sold under it as of September 29. The current $11.05 stock price and $276.2 million shares give us an equity value of roughly $3.05 billion. Using the June 30 balance sheet, I get roughly $1.34 billion of net debt and $4.4 billion in enterprise value. Remember this isn’t today’s balance sheet. I’m just using it as a valuation reference with the latest stock price and share count. At $80,000 BTC, my 5x mining valuation accounts for only approximately $0.5 billion of EV. So we have roughly $3.9 billion left for everything else. And that concerns me. AI Cloud, Tydal, Malaysia, and the broader power portfolio have to support the rest. What Would Change My Outlook Well, I want to see AI Cloud capex per MW. That’s probably the biggest missing figure. I’d become more constructive if Tydal Phase 1 completes on schedule and client prepayments fund most of the Malaysia buildout without significant increases in equity issuance. On the other hand, Tydal slipping would concern me. Same as AI Cloud utilization dropping below 90%, project capex coming in well above customer funds, or faster ATM activity while BTC falls below my estimated $73,900 cost. From here, the next few milestones would be more vital than another massive pipeline number. A102 targets energization in November 2026. Tydal Phase 1 December 31, 2026. A201 is expected in January 2027. Then A202 in the 3 rd quarter of 2027. Bitdeer has also moved from monthly infrastructure updates to quarterly disclosures alongside earnings. Those are key numbers that I’ll be watching. Investment Takeaway Bitdeer’s AI story is now more tangible than what we had two months ago. A102 is fully contracted. A201 has offtake commitments, while A202 adds another 65.1 MW. The company has also started procuring GB300 hardware. And BTC has moved above my estimated mining cost of $73,900. My only issue now is that the valuation problem hasn’t gone away. A contract can display revenue potential without telling us about the return on capital. That’s crucial for AI Cloud, where BTDR owns the GPU infrastructure and hasn’t given us capex to work out the economics. We have Tydal as a benchmark. It generates $2.4 million of revenue per IT MW against $4 million of remaining capex. AI Cloud looks better on revenue per MW. The problem is we don’t know what Bitdeer spends to generate it. That’s now my primary concern with this company. I still rate BTDR a Hold. It has shown what a megawatt can earn. What I want to see now is what Bitdeer has to spend to make it earn.",
+      "tags": "BTDR",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MINING|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "73374108",
+      "guid": "https://timestabloid.com/?p=112426",
+      "published_on": 1790859620,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Confirmed: XRP Ledger Can Be Used to Send ISO 20022 Payments for Banks",
+      "url": "https://timestabloid.com/confirmed-xrp-ledger-can-be-used-to-send-iso-20022-payments-for-banks/",
+      "body": "XRPL could connect blockchain-based payments accounting systems that financial institutions and businesses already use. Crypto researcher SMQKE made this point in a recent tweet, confirming that the XRP Ledger can support ISO 20022 payment workflows for banks. “Yes, the XRPL can be used to send ISO 20022 payments for banks. Confirmed. Watch,” SMQKE wrote. The attached video demonstrates how a payment system can connect XRPL with existing financial accounting processes. Rather than requiring users to change their familiar accounting procedures, the demonstration shows how a component can convert XRPL payment data into a format that existing software can process. Yes, the XRPL can be used to send ISO 20022 payments for banks. Confirmed. Watch. pic.twitter.com/kh453DJL7X — SMQKE (@SMQKEDQG) September 29, 2026 Video Demonstrates XRPL Integration In the video, the speaker explains how accounting users and small and medium-sized enterprises currently manage payments. He then discusses the global migration toward ISO 20022 and explains how the payment standard fits into the proposed system. The demonstration introduces a component that connects XRPL payments with an accounting workflow. The speaker explains that the component can retrieve online payments from the ledger and transform the payment information into an ISO 20022 format. The system then creates a file that users can import into their existing accounting software. The demonstration shows the process with a five Swiss franc payment. After the system processes the transaction, the accounting software records the received amount while the user continues with the familiar workflow. This process allows the accounting system to handle the transaction without requiring the user to recreate the payment information. Sending and Receiving Payments Through XRPL The speaker also explains how the system handles both sides of a payment. While a sender can use XRPL to send the payment, the receiver can use the ledger to receive the transaction and convert its information into a format that existing accounting software understands. We are on X, follow us to connect with us :- @TimesTabloid1 — TimesTabloid (@TimesTabloid1) June 15, 2025 The demonstration therefore focuses on connecting XRPL with established financial infrastructure. The proposed component converts ledger payment data into the accounting format, allowing users to maintain their existing processes. SMQKE’s post presents this functionality as confirmation that XRPL can support ISO 20022-based payment workflows. The accompanying video focuses on the technical connection between the ledger and accounting software, rather than requiring businesses to replace their current systems. The demonstration also shows how a user could receive a payment through XRPL, convert the transaction into an ISO 20022-compatible format, and continue using familiar accounting software. SMQKE’s post highlights this capability in the transition toward standardized financial messaging and presents XRPL as a network that can work alongside existing accounting infrastructure. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Confirmed: XRP Ledger Can Be Used to Send ISO 20022 Payments for Banks appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|ISO 20022|XRP|XRP Ledger",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TECHNOLOGY|WALLET|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "73374378",
+      "guid": "https://ambcrypto.com/?p=637759",
+      "published_on": 1790859604,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Ethereum beats Bitcoin by 42.71% in Q3 – Can ETH do it again?",
+      "url": "https://ambcrypto.com/ethereum-beats-bitcoin-by-42-71-in-q3-can-eth-do-it-again/",
+      "body": "Ethereum sees stronger whale positioning as its Q3 rebound strengthens its lead over Bitcoin.",
+      "tags": "Ethereum|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "73374524",
+      "guid": "https://coinpaprika.com/news/cftc-moves-put-event-contracts-beyond-state",
+      "published_on": 1790859600,
+      "imageurl": "https://resources.cryptocompare.com/news/80/73374524.jpeg",
+      "title": "CFTC Moves to Put Event Contracts Beyond State Gambling Rules",
+      "url": "https://coinpaprika.com/news/cftc-moves-put-event-contracts-beyond-state",
+      "body": "The US Commodity Futures Trading Commission has sent the White House two rules that would define prediction-market event contracts as swaps. One proposal folds event contracts into the swap definition, while an interim rule carves out casino-style gambling products.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "COMMODITY|TRADING",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "73373875",
+      "guid": "https://en.coin-turk.com/?p=251845",
+      "published_on": 1790859272,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73373875.jpeg",
+      "title": "SWIFT integrates blockchain, challenging XRP rivalry narrative",
+      "url": "https://en.coin-turk.com/swift-integrates-blockchain-challenging-xrp-rivalry-narrative/?utm_source=rss&utm_medium=rss&utm_campaign=swift-integrates-blockchain-challenging-xrp-rivalry-narrative",
+      "body": "🚨 SWIFT launches blockchain platform, moving beyond competition with $XRP. 🌍 17 partner banks can now send tokenized value across multiple major currencies. 🔗 SWIFT’s interoperable ledger aims to connect a growing pool of digital assets. 💡 XRP may become a key bridge as tokenized finance market expands. Continue Reading: SWIFT integrates blockchain, challenging XRP rivalry narrative The post SWIFT integrates blockchain, challenging XRP rivalry narrative appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MARKET|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73373393",
+      "guid": "https://en.coin-turk.com/?p=251844",
+      "published_on": 1790858852,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73373393.jpeg",
+      "title": "XRPL set for upgrade enabling institutional account controls once validator support hits 80%",
+      "url": "https://en.coin-turk.com/xrpl-set-for-upgrade-enabling-institutional-account-controls-once-validator-support-hits-80yuzde/?utm_source=rss&utm_medium=rss&utm_campaign=xrpl-set-for-upgrade-enabling-institutional-account-controls-once-validator-support-hits-80yuzde",
+      "body": "🚨 XRPL is on track to introduce account permission controls for institutions. 🟢 If validator support stays above 80%, the PermissionDelegationV1_1 upgrade could activate by October 8. 🔒 The upgrade fixes earlier security flaws and allows precise delegation of up to 10 roles per account. 💡 These changes help make $XRP more attractive to regulated financial institutions. Continue Reading: XRPL set for upgrade enabling institutional account controls once validator support hits 80% The post XRPL set for upgrade enabling institutional account controls once validator support hits 80% appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73373297",
+      "guid": "https://news.bitcoin.com/?p=852240",
+      "published_on": 1790858741,
+      "imageurl": "https://resources.cryptocompare.com/news/14/73373297.jpeg",
+      "title": "ZEC, NEAR Drive Explosive September Gains for Privacy Coins",
+      "url": "https://news.bitcoin.com/altcoins/zec-near-drive-explosive-september-gains-for-privacy-coins/",
+      "body": "In September, privacy coins significantly outperformed the broader cryptocurrency market as capital shifted away from high-cap altcoins. Zcash Surges Into Top 10 Privacy coins again outperformed the rest of the cryptocurrency market in September as capital rotated away from underperforming high-cap altcoins. Market data showed that several privacy coins logged gains in excess of 30%,",
+      "tags": "Altcoins|near protocol|privacy coins|zcash (ZEC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|ZEC|NEAR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "73374031",
+      "guid": "https://coinpedia.org/?p=584884",
+      "published_on": 1790858575,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "XRP News : Armada II Shareholders Approve Evernorth XRP Treasury Deal",
+      "url": "https://coinpedia.org/crypto-live-news/xrp-news-armada-ii-shareholders-approve-evernorth-xrp-treasury-deal/",
+      "body": "The post XRP News : Armada II Shareholders Approve Evernorth XRP Treasury Deal appeared first on Coinpedia Fintech News Armada Acquisition Corp. II shareholders approved the proposed business combination with Evernorth on September 30. The deal is expected to raise about $300 million in gross cash proceeds, while investors have also contributed XRP. At closing, Evernorth is expected to hold about 473 million XRP, making it the largest publicly traded pure-play XRP treasury company. …",
+      "tags": "Short News|Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|XRP|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790858544,
+    "time_range_start": "2026-10-01 12:42:24",
+    "time_range_end": "2026-10-01 13:42:24"
+  }
+}

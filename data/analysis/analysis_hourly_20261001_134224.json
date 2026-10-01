@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261001_134224",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1790858544,
+    "time_range_start": "2026-10-01 12:42:24",
+    "time_range_end": "2026-10-01 13:42:24"
+  },
+  "total_articles": 23,
+  "unique_sources": 14,
+  "unique_categories": 26,
+  "unique_tags": 38,
+  "body_stats": {
+    "avg_length": 1494.09,
+    "min_length": 42,
+    "max_length": 9451
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-01 12:42:55",
+    "newest": "2026-10-01 13:37:23",
+    "time_span_minutes": 54.47
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Cointelegraph": 3,
+    "Bitcoin.com": 2,
+    "AMB Crypto": 2,
+    "coinpedia": 2,
+    "Crypto Potato": 1,
+    "U.Today": 1,
+    "Crypto Daily": 1,
+    "Cryptopolitan": 1,
+    "Decrypt": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 20,
+    "TRADING": 10,
+    "BTC": 8,
+    "MARKET": 8,
+    "XRP": 6,
+    "REGULATION": 5,
+    "BUSINESS": 4,
+    "WALLET": 3,
+    "EXCHANGE": 2,
+    "DIGITAL ASSET TREASURY": 2,
+    "MACROECONOMICS": 2,
+    "ASIA": 2,
+    "ALTCOIN": 2,
+    "ETH": 2,
+    "SECURITY INCIDENTS": 1
+  },
+  "top_tags": {
+    "News": 5,
+    "Ripple (XRP)": 3,
+    "Bitcoin (BTC)": 2,
+    "Latest News": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Ethereum": 2,
+    "BTC Analysis": 1,
+    "Crypto News": 1,
+    "Bitcoin (BTC) Price": 1,
+    "Market Updates": 1,
+    "Bitcoin Price": 1,
+    "market updates": 1,
+    "Technical Analysis": 1,
+    "Cryptocurrency Market": 1
+  }
+}
