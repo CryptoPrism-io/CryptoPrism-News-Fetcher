@@ -1,0 +1,572 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "73926981",
+      "guid": "https://coinpaper.com/36928/mortgage-rates-hit-749-highest-in-nearly-3-years-as-housing-demand-falls",
+      "published_on": 1791379884,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Mortgage Rates Hit 7.49%, Highest in Nearly 3 Years as Housing Demand Falls",
+      "url": "https://coinpaper.com/36928/mortgage-rates-hit-749-highest-in-nearly-3-years-as-housing-demand-falls",
+      "body": "The average U.S. 30-year fixed mortgage rate has jumped to 7.49%, its highest level since November 2023, adding another affordability shock for prospective homebuyers. The rate increased 19 basis points in the week ended Oct. 2, according to the Mortgage Bankers Association’s Weekly Applications Survey . Mortgage rates have now climbed roughly 1.4 percentage points since late February as long-term Treasury yields moved sharply higher. Mortgage Demand Is Falling as Borrowing Costs Rise The latest rate increase is already weighing on demand. Total mortgage applications fell 4.2% from the previous week, while purchase applications declined 2.1% and refinancing activity dropped 7.5%. Refinancing is particularly vulnerable because millions of existing homeowners still hold mortgages well below current market rates. That gap creates a strong lock-in effect , where homeowners are reluctant to sell because moving often means replacing a 3%–4% mortgage with one costing more than 7%. Treasury Yields Are Driving Mortgage Rates Higher The Federal Reserve does not directly set mortgage rates. Thirty-year home loans are instead heavily influenced by long-term Treasury yields and mortgage-backed securities, which have both been under pressure as investors price in persistent inflation and stronger-for-longer interest rates. The 10-year Treasury yield has climbed above 5.3%, reaching levels not seen in roughly 24 years. Oil prices above $100 have added to inflation concerns, increasing the risk that borrowing costs remain elevated for longer. The connection was already visible when mortgage rates reached 7.03% in late September as Treasury yields moved above 5%. Only days later, the MBA measure has climbed another 46 basis points to 7.49%. Buyers Have More Choice but Less Purchasing Power The jump comes at an unusual point in the U.S. housing cycle. There were nearly 58% more sellers than buyers in August, the widest gap in Redfin data going back to 2013. Around 1.53 million sellers were competing for roughly 972,300 buyers. That seller imbalance should theoretically give buyers more negotiating power.",
+      "tags": "News|Policy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|COMMODITY|MARKET|REGULATION|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "73927002",
+      "guid": "https://seekingalpha.com/news/4650967-crypto-roundup-ether-slides-after-bitmines-tom-lee-signals-end-to-coin-buying?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1791379843,
+      "imageurl": "https://resources.cryptocompare.com/news/50/73927002.jpeg",
+      "title": "Crypto roundup: Ether slides after BitMine's Tom Lee signals end to coin buying",
+      "url": "https://seekingalpha.com/news/4650967-crypto-roundup-ether-slides-after-bitmines-tom-lee-signals-end-to-coin-buying?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on Ethereum and crypto Cryptocurrencies: Bitcoin Down 3% This Week ETHU: Ethereum's Bull Case Doesn't Automatically Work Here ETH: Stakes Ether Exposure As An Alternative Investment Strategy U.S. regulator offers proposal for crypto market oversight SEC proposes crypto custody framework for RIAs and regulated funds",
+      "tags": "ETH-USD|ETH|ETHE|ETHA|FETH|ETHU|BMNR|BITW|BTF|EETH|BETH|BETE|SETH|ETHD|ETHT|QETH|ETHV|ETHW|NCIQ|EHY|ETTY|ARKY",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|MARKET|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "73926985",
+      "guid": "https://en.coin-turk.com/?p=252707",
+      "published_on": 1791379764,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73926985.jpeg",
+      "title": "XRP sees $12.5 million liquidated as long positions dominate losses",
+      "url": "https://en.coin-turk.com/xrp-sees-12-5-million-liquidated-as-long-positions-dominate-losses/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-sees-12-5-million-liquidated-as-long-positions-dominate-losses",
+      "body": "🚨 $12.5 million in $XRP long positions were liquidated after a sharp market drop. 📉 Other major altcoins also saw losses between 6% and 11% during the session. 🗓️ New XRP Ledger amendments may activate this week if validator support holds above 80%. Continue Reading: XRP sees $12.5 million liquidated as long positions dominate losses The post XRP sees $12.5 million liquidated as long positions dominate losses appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73926960",
+      "guid": "https://coinpedia.org/?p=585660",
+      "published_on": 1791379347,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Tesla Stock Price Today: Shares Fall Despite Q3 Delivery Beat",
+      "url": "https://coinpedia.org/crypto-live-news/tesla-stock-price-today-shares-fall-despite-q3-delivery-beat/",
+      "body": "The post Tesla Stock Price Today: Shares Fall Despite Q3 Delivery Beat appeared first on Coinpedia Fintech News Tesla (TSLA) fell early Wednesday after three straight days of gains, with investors turning back to European self-driving regulations. The stock closed Tuesday at $380.68, up 0.51%, and traded near $377.60 in later quotes, down 0.81%. Shares are still down about 16% this year. Third-quarter EV deliveries came in well ahead of Wall Street estimates, …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "73926877",
+      "guid": "https://coinpaper.com/36926/spacex-seeks-40b-for-nvidia-chips-as-ai-debt-swells-to-88b",
+      "published_on": 1791379254,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "SpaceX Seeks $40B for Nvidia Chips as AI Debt Swells to $88B",
+      "url": "https://coinpaper.com/36926/spacex-seeks-40b-for-nvidia-chips-as-ai-debt-swells-to-88b",
+      "body": "SpaceX is looking to raise roughly $10 billion through bank loans and another $30 billion through investment-grade debt, according to the Financial Times . Apollo Global Management is expected to lead the financing, while Pimco is among the investors discussing participation. The deal is still at an early stage and is expected to close in 2027 if completed. SpaceX’s AI Expansion Is Becoming More Capital Intensive The financing would deepen SpaceX’s shift beyond rockets and Starlink into large-scale AI infrastructure. The company has already signed major contracts to sell compute capacity to outside customers. A Google compute agreement gives Google access to roughly 110,000 Nvidia GPUs for $920 million per month. SpaceX later signed another contract worth about $1.11 billion per month, strengthening management’s confidence in its target of reaching a $100 billion annualized revenue run rate. The new AI compute deal shows why additional GPU capacity has become strategically important. That creates a straightforward financing loop: SpaceX borrows billions to buy Nvidia hardware, deploys that hardware into data centers, and then attempts to recover the investment through long-term compute contracts. AI Borrowing Has Jumped From $20B to $88B SpaceX’s proposed financing comes as debt is becoming a much larger part of the AI investment cycle. AI-related borrowing in the U.S. leveraged-finance market has risen from about $20 billion in early 2025 to $88 billion in 2026, an increase of roughly 340%, according to Reuters. That does not include SpaceX’s planned package, which is investment-grade financing rather than the leveraged-finance segment behind the $88 billion figure. But both illustrate the same broader shift: AI infrastructure increasingly requires external capital rather than only corporate cash. Coinpaper previously reported how AI infrastructure debt is spreading across GPU providers, data-center operators and other companies building capacity ahead of expected demand.",
+      "tags": "News|Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|MARKET",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "73926397",
+      "guid": "https://en.coin-turk.com/?p=252706",
+      "published_on": 1791379044,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73926397.jpeg",
+      "title": "Aptos unveils MonoMove upgrade with up to 55x boost in smart contract execution",
+      "url": "https://en.coin-turk.com/aptos-unveils-monomove-upgrade-with-up-to-55x-boost-in-smart-contract-execution/?utm_source=rss&utm_medium=rss&utm_campaign=aptos-unveils-monomove-upgrade-with-up-to-55x-boost-in-smart-contract-execution",
+      "body": "🚀 Aptos unveils MonoMove, boosting smart contract execution up to 55x in $APT. ⚡ Internal testing shows significant speed increases for financial transactions. 📈 MonoMove is set for feature completion by 2026, with mainnet launch targeted for 2027. Continue Reading: Aptos unveils MonoMove upgrade with up to 55x boost in smart contract execution The post Aptos unveils MonoMove upgrade with up to 55x boost in smart contract execution appeared first on COINTURK NEWS .",
+      "tags": "Aptos",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "APT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73926959",
+      "guid": "https://coinpedia.org/?p=585656",
+      "published_on": 1791379002,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Dow Jones Today: Narrow Rally Faces Bond Selloff And $100 Oil",
+      "url": "https://coinpedia.org/crypto-live-news/dow-jones-today-narrow-rally-faces-bond-selloff-and-100-oil/",
+      "body": "The post Dow Jones Today: Narrow Rally Faces Bond Selloff And $100 Oil appeared first on Coinpedia Fintech News Dow Jones futures fell 0.7% on Wednesday morning, while S&P 500 futures lost 0.3% and Nasdaq-100 futures dropped 0.6%. Both indexes had closed at record highs the day before. Selling in global bonds pushed the 30-year Treasury yield up to 5.70%, its highest level since 2002, as investors waited for the minutes of the Fed’s …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|COMMODITY|TRADING|DIGITAL ASSET TREASURY|MACROECONOMICS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "73926958",
+      "guid": "https://coinpedia.org/?p=585651",
+      "published_on": 1791378972,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Bitcoin Price Tests $83,500 as Open Interest Rises: Is This Dip Worth Buying?",
+      "url": "https://coinpedia.org/price-analysis/bitcoin-price-tests-83500-as-open-interest-rises-is-this-dip-worth-buying/",
+      "body": "The post Bitcoin Price Tests $83,500 as Open Interest Rises: Is This Dip Worth Buying? appeared first on Coinpedia Fintech News The Bitcoin price is pulling back after struggling to break above the $87,000 to $88,000 region, bringing the $83,000 area back into focus. The latest setup shows BTC trading below a key range that may keep the bulls alert, as they are now required to defend an important support zone. Alongside this, the bigger question …",
+      "tags": "Price Analysis|Bitcoin",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "73926050",
+      "guid": "https://coinpaper.com/36924/why-is-dogecoin-down-today-doge-slides-7-as-btc-eth-and-xrp-sell-off",
+      "published_on": 1791378786,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Why Is Dogecoin Down Today? DOGE Slides 7% as BTC, ETH and XRP Sell Off",
+      "url": "https://coinpaper.com/36924/why-is-dogecoin-down-today-doge-slides-7-as-btc-eth-and-xrp-sell-off",
+      "body": "Dogecoin is leading losses among major cryptocurrencies on Wednesday, falling roughly 7% toward $0.089 as a broader risk-off move hits Bitcoin, Ethereum and XRP. The decline does not appear to be driven by any major Dogecoin-specific development. Instead, DOGE is amplifying a market-wide selloff as rising oil prices, Treasury yields and the U.S. dollar tighten financial conditions for speculative assets. Bitcoin briefly dropped below $84,000 , Ethereum lost around 4% , and XRP fell more than 3%. Dogecoin declined considerably faster, reinforcing its tendency to behave as a higher-beta version of the broader crypto market. The pullback comes just one day after DOGE formed its first daily golden cross in 14 months , when its 50-day moving average crossed above the 200-day average. Oil, Yields and the Dollar Hit Crypto Together The macro backdrop deteriorated rapidly. Brent crude climbed above $100 per barrel as renewed attacks on tankers increased concerns about Middle East supply disruptions. At the same time, the 10-year Treasury yield moved above 5.3%, while the U.S. Dollar Index strengthened above 102. Higher yields make interest-bearing assets more competitive with crypto, while a stronger dollar generally tightens global financial conditions. Rising oil adds another problem by increasing inflation concerns and potentially limiting how quickly central banks can ease monetary policy. Crypto liquidations also accelerated the decline, with market-wide liquidations climbing above $500 million as Bitcoin broke lower. DOGE Is Testing $0.088-$0.09 Support The selloff has pushed Dogecoin back into the same area that repeatedly acted as an important technical zone during September. DOGE has fallen below its short-term moving averages, while the 61.8% Fibonacci retracement sits near $0.0887 . The 100-day EMA is close to $0.086 , making that the next area to watch if selling continues. That leaves the immediate setup relatively simple. Holding roughly $0.088–$0.09 would keep DOGE inside its broader recovery structure. A decisive break could expose $0.086 and potentially the lower-$0.08 region, which previously acted as support during September’s leveraged pullback .",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|DOGE|ETH|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "73926685",
+      "guid": "https://en.coinotag.com/bitcoin-1010-crash-anniversary-19b-liquidations",
+      "published_on": 1791378723,
+      "imageurl": "https://resources.cryptocompare.com/news/77/73926685.jpeg",
+      "title": "Bitcoin (BTC) Marks One Year Since Trump's Tariff Post Erased $19 Billion",
+      "url": "https://en.coinotag.com/bitcoin-1010-crash-anniversary-19b-liquidations",
+      "body": "Bitcoin trades near $83,460 one year after the 10/10 tariff crash erased $19 billion, with US diesel at $6.41 a gallon adding fresh macro risk.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "73926957",
+      "guid": "https://coinpedia.org/?p=585606",
+      "published_on": 1791378625,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Europol Warns Crypto Wallets Face Severe Quantum Attack Risks",
+      "url": "https://coinpedia.org/news/europol-warns-crypto-wallets-face-severe-quantum-attack-risks/",
+      "body": "The post Europol Warns Crypto Wallets Face Severe Quantum Attack Risks appeared first on Coinpedia Fintech News Europol has warned that quantum computing could threaten the crypto industry, with wallet keys seen as the main risk. The agency is urging developers, wallet providers, and users to prepare for stronger security before quantum attacks become possible. In two new reports, Europol explained how quantum computers could put crypto assets and sensitive data at …",
+      "tags": "News|Bitcoin|Crypto news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "73926071",
+      "guid": "https://seekingalpha.com/article/4952495-node-monthly-commentary-september-2026?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+      "published_on": 1791378600,
+      "imageurl": "https://resources.cryptocompare.com/news/50/73926071.jpeg",
+      "title": "NODE Monthly Commentary: September 2026",
+      "url": "https://seekingalpha.com/article/4952495-node-monthly-commentary-september-2026?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+      "body": "Summary A second positive month: NODE returned +2.3% in September as the miners recovered from their summer selloff, versus -2.7% for crypto equities (the MVIS Global Digital Assets Equity Index, or MVDAPP), and +1.9% for the Nasdaq Composite, while bitcoin rose +5.9%. Coin exchange-traded products and miners carried the month: top contributors were the bitcoin ETP (+95.7 bps), Zcash ETP (+81.2 bps), and Hut 8 (+67.9 bps); rate- and policy-sensitive fintech detracted, led by Figure (-124.5 bps) and Circle (-39.2 bps). Crypto exposure through the coins: coin ETPs reached 22.1% of assets, lifting NODE's correlation to bitcoin to 0.70 from 0.42 in August. [[NODE]] does not hold bitcoin or other digital assets directly. It invests in equities and digital asset ETPs and carries a materially different risk profile; a single crypto asset is not directly comparable to the Fund. Monthly Review NODE returned +2.3% in September, ahead of crypto equities, the Nasdaq Composite, and the S&P 500. Bitcoin ( BTC-USD ) led at +5.9%, and coin ETPs captured a large share of that move. Year to date, NODE is up 12.8%, against +15.2% for crypto equities, +16.1% for the Nasdaq Composite, +12.8% for the S&P 500, and -4.1% for bitcoin. We now show the Nasdaq Composite in place of the Nasdaq 100 because it is the broader measure of the Nasdaq market. The leaders were miners with signed AI tenants and energized power, along with crypto ETPs. The drag came from names exposed to rates and Washington: September delivered both a Fed rate increase and a failed Senate vote on market-structure legislation. Within days of that vote, the Securities and Exchange Commission (SEC) and Commodity Futures Trading Commission (CFTC) began delivering parts of what the legislation would have through exemptive relief and staff guidance. That rapid deregulation catalyzed a sharp rally in many altcoins; the MarketVector Digital Assets 100 Small-Cap Index (MVDASC) rose 55% in September, according to Bloomberg. The risk is that a different administration could seek to reverse some of these rules. Bitcoin's path through the month: Early rally: on September 3, NODE's best day (+7.4%), TeraWulf rose 9.5% in a broad rebound across AI-infrastructure names while bitcoin cracked $80,000 for the first time in months. Mid-month dip: after the Senate vote, the Fed raised rates a quarter point on September 16, and bitcoin initially fell to about $75,600. Breakout: spot bitcoin ETPs swung from mid-month redemptions to more than $2B in creations, and bitcoin crossed above its 365-day moving average near $80,500. By September 21 it was above $86,000, its highest level since late January. September 2026 Returns (8/31/2026 to 9/30/2026) MTD Return (%) YTD Return (%) 1-Month Std. Dev. (%) 3-Month Std. Dev. (%) VanEck Onchain Economy ETF 2.3 12.8 62.6 68.5 S&P 500 ((TR)) -0.4 12.8 13.1 13.2 Nasdaq Composite 1.9 16.1 17.5 20.3 Bitcoin Benchmark Rate 5.9 -4.1 50.9 45.4 Crypto equities (MVIS Global Digital Assets Equity Index) -2.7 15.2 70.6 73.2 Source: Morningstar as of 9/30/2026. Standard deviation is annualized. Past performance is not a guarantee of future results. Index performance is not representative of fund performance. It is not possible to invest directly in an index. Not intended as a recommendation to buy or sell any securities named herein. Fund performance current to the most recent month end is available by visiting vaneck.com or by calling 800.826.2333. How We Have Positioned the Fund Since the Summer The portfolio has been shaped by 3 broad decisions over the past several months. 1. We concentrated on the miners during the July selloff. When the bitcoin mining stocks converting to AI data centers fell sharply after the Situational Awareness unwind (a large, levered AI-focused fund that sold its public equity book in late July after margin calls), we cut peripheral positions and concentrated in our highest-conviction compute names, companies that have signed decade-plus leases with AI labs and hyperscalers. Permitting headlines in Texas and Pennsylvania delayed the payoff through August, and September's rebound began to deliver it. The group increasingly trades on AI leases and funding costs rather than on the bitcoin price. The average correlation of our 12 miner holdings to bitcoin's daily returns is 0.46 year to date, down from 0.50 when we last measured in July and at the low end of the group's history. MARA, Riot, and CleanSpark remain the most bitcoin-sensitive; Bitdeer is the only name whose correlation has risen since July. As we have detailed, there is a price at which these companies could pivot back toward bitcoin mining, but it remains well above current spot, probably closer to $250,000. The group increasingly trades on AI leases and funding costs rather than on the bitcoin price. 2. We added bitcoin ETP exposure as our capitulation signals clustered. Our Mid-August Bitcoin ChainCheck found 8 of our 12 capitulation signals firing, with long-term holders shedding 356,000 bitcoin over 30 days, and all 12 had reached their capitulation zones at some point in the prior 3 months. We concluded that bitcoin appeared to have capitulated and was nearing or already in an accumulation phase, with bitcoin at $63,549 on August 11. We acted on that work. The bitcoin ETP allocation rose from roughly 7% of the Fund at the end of June to 16.8% at the end of September, and bitcoin has since rallied to about $83,600. Including ether, Solana, Zcash, and Hyperliquid, coin ETPs are now 22.1% of assets, approaching the Fund's limit on investment in its subsidiary, which generally may not exceed 25% of total assets at each quarter end. Coin ETPs are now 22.1% of assets, approaching the Fund's 25% subsidiary limit. 3. We built crypto exposure through the coins rather than through leveraged treasury companies. When we want more exposure to bitcoin or other networks, our default is a spot ETP that tracks the coin. The main alternative inside an equity fund is a digital asset treasury company (DAT): a listed company whose strategy is to hold crypto on its balance sheet, typically funded with debt, preferred stock, or serial equity issuance. That structure layers risks on top of the coin: Leverage magnifies drawdowns, and preferred dividends must be serviced through the cycle. Dilution from repeated equity raises and outsized executive awards. As we laid out in our Mid-September ChainCheck , we remain underweight DATs for those reasons. That said, there are times when DATs make sense for a fund like ours, including for tax and structural reasons. Equity in a DAT is ordinary stock for a registered fund, while coin ETPs are held through a subsidiary that is subject to a limit measured at each quarter end. As the ETP sleeve approaches that limit, DATs could become an attractive way to manage bitcoin and crypto beta. Washington: A Failed Vote, Then Deregulation On September 15, the Senate failed a procedural cloture vote on the CLARITY Act, 49-50, well short of the 60 votes required. It was NODE's worst day of the month (-4.2%). Within days, the regulators moved on their own. SEC Chair Paul Atkins said on X that the agency would deliver certainty with or without legislation, and CFTC Chair Michael Selig said in his own X post that his agency was ready to ship its rules. The SEC’s “Innovation Exemption” (September 17). The SEC granted a 5-year exemption allowing Tokenized Securities Venues to trade tokenized stocks, or tokenized versions of national market system (NMS)-listed equities, through permissioned automated market makers and liquidity pools without registering as traditional exchanges. The same order spared liquidity providers who supply tokenized NMS stock with their own capital from registering as dealers. In practical terms, onchain trading infrastructure can now perform exchange- and dealer-like functions for listed equities without the full registration burden. The relief runs through September 17, 2031. The CFTC's no-action position (the same day). The CFTC said qualifying providers of passive software may connect users to CFTC-registered derivatives firms and exchanges without registering as introducing brokers or associated persons. The SEC's token buyback FAQ (late September). The SEC's Division of Corporation Finance addressed protocol buybacks. Where a crypto system is functional and the token is not itself a security, announcing a repurchase for purposes such as treasury management, supply reduction, or protocol burns does not amount to the kind of pledge of essential managerial effort that can convert a token into a security. A later update narrowed this to protocols where no central party exists, favoring fully onchain treasury mechanics. This matters because buybacks have become one of the strongest fundamentals in crypto. Projects spent a record $638M on token buybacks year to date through late August, according to Allium Labs, with Hyperliquid and Pump.fun accounting for nearly 90% of that. The FAQ is staff guidance rather than Commission rulemaking, but it removes a long-standing overhang for open-source protocols that return revenue to tokenholders. Taken together, these steps give onchain venues relief from exchange and broker registration and give protocols room to run buybacks. The market's response was immediate in smaller tokens, with small-cap crypto up 55% for the month. Because much of this rests on exemptive orders and staff guidance, a future administration could seek to reverse parts of it. Biggest Winners and Losers Performance split between AI compute and crypto ETPs on one side and rate- and regulation-sensitive financials on the other. Sleeve Contribution (bps) Miners / AI data centers +226 Crypto ETPs +202 Semiconductors and hardware +77 Power and energy infrastructure +12 Exchanges, DATs and stablecoin -23 Fintech, lending and payments -151 Source: VanEck as of 9/30/2026. Contributions are calculated from daily holding weights and summed; totals do not add to the Fund's monthly return because of the compounding of daily returns, an effect that was larger than usual given September's wide daily price swings. Past performance is not a guarantee of future results. Not intended as a recommendation to buy or sell any securities named herein. Bitcoin's path through the month: Early rally: on September 3, NODE’s best day (+7.4%), TeraWulf rose 9.5% in a broad rebound across AI-infrastructure names while bitcoin cracked $80,000 for the first time in months. Mid-month dip: after the Senate vote, the Fed raised rates a quarter point on September 16, and bitcoin initially fell to about $75,600. Breakout: spot bitcoin ETPs swung from mid-month redemptions to The miners rebounded even as the market continued to digest the funding needs of the AI buildout at higher interest rates. Hut 8 led as construction continued across its campuses, and it closed a $1.07B senior secured revolving credit facility that strengthens its liquidity. IREN built on fiscal-year results that included a new multi-year contract with a leading frontier AI lab and $4B of contracted annual recurring revenue ((ARR)) for 2026 capacity. The coin ETPs were led by bitcoin and Zcash. The Zcash ETP began trading on August 25, and ZEC ran from the mid-$800s to the mid-$1,500s during September, with nearly $250M of net inflows into spot Zcash ETPs over the month according to SoSoValue . The detractors. Figure fell 21% as several large distributions from venture investors, many sitting on large gains, added supply while rising Treasury yields weighed on rate-sensitive lenders. In our view, the stock is in a post-initial public offering ((IPO)) trough, and we believe selling exhaustion, combined with continued strong fundamentals, could eventually catalyze a rebound. We added to the position during the month. Circle fell 14% around the CLARITY Act vote after trading at elevated levels into the event. On balance, we think the bill's failure probably helps crypto companies' ability to pass yield through to users compared with passage, since CLARITY had become a re-trade of the GENIUS Act's stablecoin terms. It does, however, introduce competition and extend regulatory uncertainty. Top 5 Contributors Return (%) Contribution (bps) Why Bitcoin ETP 6.0 95.7 Bitcoin broke above its 365-day average on more than $2B of ETF creations; largest position at about 17% of assets Zcash ETP 64.7 81.2 ZEC rose sharply on spot ETP inflows, renewed demand for onchain privacy and the deregulatory rally in altcoins Hut 8 ( HUT ) 9.5 67.9 Construction progress and a $1.07B revolver lifted shares as the market digested AI funding needs at higher rates IREN ( IREN ) 10.1 57.3 Momentum from a new frontier-AI-lab contract and $4B of contracted ARR coming out of earnings Solaris Energy ( SEI ) 40.5 46.9 Raised 2026 guidance and issued a strong first look at 2027 as demand for its data center power grew Bottom 5 Contributors Return (%) Contribution (bps) Why Figure ( FIGR ) -21.4 -124.5 Large venture-investor distributions in a post-IPO trough, plus rising yields; we believe selling exhaustion and strong fundamentals could drive an eventual rebound Circle ( CRCL ) -14.0 -39.2 Elevated into the CLARITY vote; failure likely helps yield pass-through but adds competition and uncertainty Aker (AKER NO) -14.5 -25.2 Gave back part of a strong year-to-date run Block ( XYZ ) -10.4 -20.1 Guidance implying slower gross profit growth and scheduled director sales Galaxy ( GLXY ) -7.6 -13.7 ERCOT Batch Zero process results underwhelmed, and shares slid with crypto equities into month-end Source: VanEck as of 9/30/2026. Past performance is not a guarantee of future results. Not intended as a recommendation to buy or sell any securities named herein. Fund performance current to the most recent month end is available by visiting vaneck.com or by calling 800.826.2333. Portfolio Changes We reduced our position count from 44 to 40 and made 4 sets of moves: Raised coin exposure: we continued adding to the bitcoin ETP, with a smaller addition to ether. Coin ETPs rose to 22.1% of assets from 17.4%. Took profits in AI hardware: trimmed SK Hynix, exited Vertiv, and sold Reddit after strong runs. Rotated within power: exited NRG and Brookfield Renewable; added to Vistra, Talen, and Constellation. Rebalanced the miners: trimmed Hut 8, Cipher, and TeraWulf into early-month strength and added to CleanSpark, Bitdeer, Core Scientific, MARA, and Riot. Net miner exposure rose to 42.8% from 41.5%, mostly through price appreciation. September 2026 Risk and Return Summary NODE's 1-month standard deviation was 62.6%, versus 70.6% for crypto equities, 50.9% for bitcoin, and 17.5% for the Nasdaq Composite. Over 3 months, NODE ran at 68.5%, against 73.2% for crypto equities. The peak-to-trough drawdown was 11.1% (September 22 to September 30). 10 of 21 trading days were positive, with a best day of +7.4% and a worst day of -4.2%. NODE's correlation to bitcoin rose to 0.70 from 0.42 in August, with a beta of 0.86. The driver was the larger coin ETP allocation; the miners themselves remain loosely tied to bitcoin, at a 0.46 average correlation year to date. NODE's correlation with crypto equities was 0.94. Correlation Matrix (daily returns, September 2026) NODE Nasdaq Bitcoin Crypto equities NODE 1.00 0.74 0.70 0.94 Nasdaq 0.74 1.00 0.70 0.71 Bitcoin 0.70 0.70 1.00 0.83 Crypto equities 0.94 0.71 0.83 1.00 Source: VanEck, Bloomberg as of 9/30/2026. Past performance is not a guarantee of future results. Index performance is not representative of fund performance. It is not possible to invest directly in an index. Not intended as a recommendation to buy or sell any securities named herein. Fund performance current to the most recent month end is available by visiting vaneck.com or by calling 800.826.2333. Forward Outlook We enter Q4 with our largest bitcoin ETP allocation since launch, consistent with the accumulation-phase view in our Mid-August ChainCheck. If the debasement trade resumes, we believe bitcoin stands to benefit disproportionately. Bitcoin remains highly volatile and could decline significantly. In our view the 4-year cycle remains supportive, though past cycles may not repeat. Our approach is unchanged: broad exposure to companies making or saving money from the adoption of digital assets, while seeking to manage volatility relative to crypto equities. Near-term catalysts we are watching include the pace at which the SEC and CFTC extend September's relief into formal rules, the Fed's path after the September hike and what it means for AI infrastructure financing, and state-level data center permitting in Texas and Pennsylvania. See our latest Bitcoin ChainCheck for our cycle view. Frequently Asked Questions What is a digital asset treasury company, and how does it differ from a spot crypto ETP? A digital asset treasury company ((DAT)) is a listed company whose primary strategy is to hold crypto on its balance sheet, typically funded with debt, preferred stock, or serial equity issuance. A spot ETP simply tracks the coin. The DAT structure layers leverage and dilution on top of the coin’s own volatility, so DAT equity can move more than the underlying asset in both directions, and preferred dividends must be serviced through the cycle. What did regulators do after the CLARITY Act vote failed? On September 17, the SEC exempted onchain venues that use automated market makers to trade tokenized listed stocks from registering as exchanges, and exempted their liquidity providers from dealer registration. The CFTC relieved passive software providers from introducing-broker registration. Later in the month, SEC staff guidance said functional, decentralized protocols can announce token buybacks without that alone turning the token into a security. The deregulatory push coincided with a 55% September gain in small-cap crypto. Why did Figure and Circle fall while bitcoin rose? Figure faced heavy selling from venture investors distributing large gains, along with rising yields; in our view, the stock is in a post-IPO trough, and selling exhaustion could eventually support a rebound. Circle traded at elevated levels into the CLARITY vote. We think the failure likely helps stablecoin issuers pass yield to users relative to passage, but it adds competition and uncertainty. Please note that VanEck may have a position(s) in the digital asset(s) and companies described below. Past performance is no guarantee of future results. Investment return and principal value will fluctuate; shares may be worth more or less than original cost when redeemed. Current performance may be lower or higher. Call 800.826.2333 or visit vaneck.com for month-end performance. This commentary reflects the views of the portfolio management team as of September 30, 2026, and should not be construed as investment advice or a recommendation to buy or sell any security. Past performance does not guarantee future results; the Fund's YTD return was 12.78% (NAV), through September 30, 2026, and investors should consider this alongside any monthly figures presented herein. Important Disclosures Links to third party websites are provided as a convenience and the inclusion of such links does not imply any endorsement, approval, investigation, verification or monitoring by us of any content or information contained within or accessible from the linked sites. By clicking on the link to a non-VanEck webpage, you acknowledge that you are entering a third-party website subject to its own terms and conditions. VanEck disclaims responsibility for content, legality of access or suitability of the third-party websites. Statements regarding market cycles are the author's opinion as of this date and are not a prediction of future performance. Past performance is no guarantee of future results. Fund holdings may vary. Visit vaneck.com/node for complete holdings information. Quarterly Standardized Performance (9/30/2026) Performance YTD 1 Year Since Inception (5/14/2025) NODE (NAV) 12.78 -3.00 33.48 NODE (Market Price) 12.47 -3.36 33.52 MVDAPP Index 15.17 -12.21 32.98 Source: VanEck as of 9/30/2026. Past performance is not a guarantee of future results. Not intended as a recommendation to buy or sell any securities named herein. Performance data quoted represents past performance and is not a guarantee of future results. Investment return and value of the shares of the Fund will fluctuate so that an investor’s shares, when sold, may be worth more or less than their original cost. Performance current to the most recent month end is available by calling 800.826.2333 or by visiting vaneck.com . Fees - VanEck Onchain Economy ETF (NODE): Total Expense Ratio – 0.67%. Van Eck Absolute Return Advisers Corporation (the “Adviser” or “VEARA”) will pay all expenses of the Fund (inclusive of any Subsidiary (as defined below) expenses), except for the fee payment under the investment management agreement, acquired fund fees and expenses, interest expense, offering costs, trading expenses, taxes and extraordinary expenses. Notwithstanding the foregoing, the Adviser has agreed to pay the offering costs until at least May 1, 2027. Referenced Holdings and Portfolio Weights (as of 9/30/2026) Referenced holding Portfolio weight (%) Spot bitcoin ETP 16.8% Spot ether ETP 1.6% Spot Solana ETP 0.9% Zcash ETP 2.1% Hyperliquid ETP 0.7% Hut 8 ( HUT ) 5.2% IREN ( IREN ) 5.3% Solaris Energy Infrastructure ( SEI ) 1.6% TeraWulf ( WULF ) 4.6% Cipher Mining ( CIFR ) 4.8% CleanSpark ( CLSK ) 4.1% Bitdeer ( BTDR ) 3.1% Core Scientific ( CORZ ) 2.8% MARA ( MARA ) 3.4% Riot Platforms ( RIOT ) 3.9% Figure Technology Solutions ( FIGR ) 5.1% Circle Internet Group ( CRCL ) 2.7% Aker (AKER NO) 1.7% Block ( XYZ ) 1.9% Galaxy Digital ( GLXY ) 2.1% Vistra ( VST ) 1.8% Talen Energy ( TLN ) 1.9% Constellation Energy ( CEG ) 1.4% SK Hynix (000660 KS) 0.5% Vertiv, Reddit, NRG Energy, Brookfield Renewable Not held as of 9/30/2026 Source: VanEck. Portfolio weights as of 9/30/2026. Holdings are subject to change. Not a recommendation to buy or sell any security. Definitions Bitcoin ((BTC)) is the world’s largest cryptocurrency by market capitalization. Ether ((ETH)) is the native asset of the Ethereum network, a decentralized, open-source blockchain platform and the second-largest cryptocurrency by market capitalization. Solana (SOL) is the native asset of the Solana network, a high-throughput public blockchain used for payments, decentralized finance, and other onchain applications. Zcash (ZEC) is a privacy-focused cryptocurrency that uses zero-knowledge cryptography to shield transaction details. Hyperliquid (HYPE) is the native asset of Hyperliquid, a blockchain built around an onchain order book for perpetual futures and spot trading. Digital asset treasuries (DATs) are publicly traded companies whose primary strategy is to hold digital assets on their balance sheet, often financed with debt or equity issuance. Spot ETP is an exchange-traded product that holds the underlying digital asset directly and is designed to track its price, before fees and expenses. Automated market maker (AMM) is a type of onchain trading venue that prices and executes trades against pooled liquidity using a formula, rather than matching individual buyers and sellers in an order book. Token buyback is the repurchase of a protocol’s tokens on the open market, typically funded from protocol revenue, to reduce supply or return value to tokenholders. Tokenized securities venue is a trading platform for tokenized representations of listed securities, as described in the SEC’s September 17, 2026 exemptive order. CLARITY Act refers to the Digital Asset Market Clarity Act, proposed U.S. legislation that would establish a market-structure framework for digital assets. GENIUS Act refers to the Guiding and Establishing National Innovation for U.S. Stablecoins Act, U.S. legislation establishing a regulatory framework for payment stablecoins. The MVIS Global Digital Assets Equity Index (MVDAPP) tracks the performance of companies involved in digital assets, including exchanges, mining, and related financial services, and is used herein as a reference for crypto equity performance. The MarketVector Digital Assets 100 Small-Cap Index (MVDASC) tracks the performance of the 50 smallest digital assets by market capitalization within the MarketVector Digital Assets 100 Index. Bitcoin Benchmark Rate is the Morningstar reference rate for the U.S. dollar price of bitcoin, used herein as a reference for spot bitcoin performance. S&P 500 Index is a stock market index of 500 of the largest companies listed on stock exchanges in the United States. The Nasdaq Composite Index is a stock market index that tracks nearly all common stocks listed on the Nasdaq stock exchange. Standard deviation is a measure of the dispersion of returns around their average, scaled here to an annual figure, and is used to measure price fluctuation. Drawdown is the peak-to-trough decline in value over the period. Beta is a measure of a portfolio’s price sensitivity relative to a benchmark; 1.0 equals the benchmark’s movement. Correlation is a statistical measure of how two assets move in relation to one another, ranging from -1.0 (opposite directions) to 1.0 (the same direction); 0 indicates no linear relationship. Basis Point (bps) is one one-hundredth of one percent (0.01%); 100 basis points equal 1%. NAV (Net Asset Value) is the per-share value of a fund’s assets minus liabilities, calculated at end of day. VanEck Onchain Economy ETF ( NODE ) Disclosures This is not an offer to buy or sell, or a recommendation to buy or sell any of the securities, financial instruments or digital assets mentioned herein. The information presented does not involve the rendering of personalized investment, financial, legal, tax advice, or any call to action. Certain statements contained herein may constitute projections, forecasts and other forward-looking statements, which do not reflect actual results, are for illustrative purposes only, are valid as of the date of this communication, and are subject to change without notice. Actual future performance of any assets or industries mentioned are unknown. Information provided by third party sources are believed to be reliable and have not been independently verified for accuracy or completeness and cannot be guaranteed. VanEck does not guarantee the accuracy of third party data. The information herein represents the opinion of the author(s), but not necessarily those of VanEck or its other employees. The Fund may invest nearly all of its net assets in either Digital Transformation Companies and/or Digital Asset Instruments. The Fund does not invest in digital assets or commodities directly. An investment in the Fund involves a substantial degree of risk and is not suitable for all investors. Investors in the Fund should be willing to accept a high degree of volatility in the price of the Fund’s Shares and the possibility of significant losses. An investment in the Fund is not a deposit with a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency. Therefore, you should consider carefully various risks before investing in the Fund, each of which could significantly and adversely affect the value of an investment in the Fund. An investment in the Fund may be subject to risks which include, among others, risks related to investing in digital transformation companies, digital asset instruments, commodities and commodity-linked instruments, subsidiary investment, commodity regulatory (with respect to investments in the subsidiary), tax (with respect to investments in the subsidiary), gap, liquidity, derivatives, regulatory, non-diversified, small- and medium-capitalization companies, depositary receipts, foreign securities, emerging market issuers, high portfolio turnover, market, operational, active management, authorized participant concentration, no guarantee of active trading market, trading issues, fund shares trading, premium/discount risk and liquidity of fund shares, industry concentration, cash transactions, underlying investment vehicle, and affiliated investment vehicle risks, all of which may adversely affect the fund. Emerging market issuers and foreign securities may be subject to securities markets, political and economic, investment and repatriation restrictions, different rules and regulations, less publicly available financial information, foreign currency and exchange rates, operational and settlement, and corporate and securities laws risks. Small- and medium-capitalization companies may be subject to elevated risks. Digital asset instruments may be subject to risks associated with investing in digital asset exchange-traded products (\"ETPs\"), which include the historical extreme volatility of the digital asset and cryptocurrency market, as well as less regulation and thus fewer investor protections, as these ETPs are not investment companies registered under the Investment Company Act of 1940 (\"1940 Act\") or commodity pools for the purposes of the Commodity Exchange Act (\"CEA\"). The technology relating to digital assets, including blockchain, is new and developing and the risks associated with digital assets may not fully emerge until the technology is widely used. Digital asset technologies are used by companies to optimize their business practices, whether by using the technology within their business or operating business lines involved in the operation of the technology. The cryptographic keys necessary to transact a digital asset may be subject to theft, loss, or destruction, which could adversely affect a company’s business or operations if it were dependent on the digital asset. There may be risks posed by the lack of regulation for digital assets and any future regulatory developments could affect the viability and expansion of the use of digital assets. Investing involves substantial risk and high volatility, including possible loss of principal. An investor should consider the investment objective, risks, charges and expenses of a Fund carefully before investing. To obtain a prospectus and summary prospectus, which contain this and other information, call 800.826.2333 or visit vaneck.com . Please read the prospectus and summary prospectus carefully before investing. Additional Disclosures The S&P 500 Index is a product of S&P Dow Jones Indices LLC and/or its affiliates and has been licensed for use by Van Eck Associates Corporation. Copyright © 2026 S&P Dow Jones Indices LLC, a division of S&P Global, Inc., and/or its affiliates. All rights reserved. Redistribution or reproduction in whole or in part are prohibited without written permission of S&P Dow Jones Indices LLC. Neither S&P Dow Jones Indices LLC, Dow Jones Trademark Holdings LLC, their affiliates nor their third party licensors make any representation or warranty, express or implied, as to the ability of any index to accurately represent the asset class or market sector that it purports to represent and neither S&P Dow Jones Indices LLC, Dow Jones Trademark Holdings LLC, their affiliates nor their third party licensors shall have any liability for any errors, omissions, or interruptions of any index or the data included therein © Van Eck Securities Corporation, Distributor, a wholly owned subsidiary of Van Eck Associates Corporation. Original Post",
+      "tags": "BTC-USD|HUT|IREN|SEI|FIGR|CRCL|XYZ|GLXY|WULF|CIFR|CLSK|BTDR|CORZ|MARA|RIOT|VST|TLN|CEG|NODE",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "73925890",
+      "guid": "https://en.coin-turk.com/?p=252704",
+      "published_on": 1791378324,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73925890.jpeg",
+      "title": "Stellar’s XLM slides 10% in a week, threatens key $0.20 support",
+      "url": "https://en.coin-turk.com/stellars-xlm-slides-10yuzde-in-a-week-threatens-key-0-20-support/?utm_source=rss&utm_medium=rss&utm_campaign=stellars-xlm-slides-10yuzde-in-a-week-threatens-key-0-20-support",
+      "body": "🚨 $XLM slumps 10% in a week, now testing crucial $0.20 support. 💹 Price drop follows failed attempt to hold September gains. 📉 Stellar faces heightened selling pressure as momentum turns bearish. Continue Reading: Stellar’s XLM slides 10% in a week, threatens key $0.20 support The post Stellar’s XLM slides 10% in a week, threatens key $0.20 support appeared first on COINTURK NEWS .",
+      "tags": "Stellar (XLM)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XLM|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73925891",
+      "guid": "https://coinpaper.com/36920/ethereum-price-prediction-citi-raises-eth-target-to-3028-as-price-falls-4",
+      "published_on": 1791378221,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Ethereum Price Prediction: Citi Raises ETH Target to $3,028 as Price Falls 4%",
+      "url": "https://coinpaper.com/36920/ethereum-price-prediction-citi-raises-eth-target-to-3028-as-price-falls-4",
+      "body": "Ethereum fell roughly 4% to around $2,600 Wednesday, putting fresh pressure on its recent recovery just days after Citi raised its 12-month ETH price target to $3,028. The decline was part of a broader crypto selloff as the 10-year Treasury yield climbed above 5.3%, the U.S. dollar strengthened and oil prices returned above $100. ETH traded near $2,599, while Bitcoin fell below $84,000 and XRP dropped toward $1.46. Citi’s target was issued on Oct. 1 rather than during Wednesday’s selloff. The bank raised its Ethereum forecast from $2,240 to $3,028, a roughly 35% increase, citing stronger crypto activity, improving macro conditions and expectations for renewed investment flows. ETH Is Moving Away From $3,000 At $2,600, Ethereum would need to gain roughly 16% to reach Citi’s $3,028 target. The immediate technical picture has weakened significantly. ETH had repeatedly tested the $2,775–$2,825 region during September, making $2,800 the key breakout level for another attempt at $3,000. Instead, sellers have pushed Ethereum back toward the $2,600 area. That brings the lower end of its recent range into focus. A sustained break below approximately $2,600 could expose the $2,500 region, while reclaiming $2,700 would be the first step toward rebuilding momentum. ETF Outflows Add Pressure Institutional flows are another near-term problem. U.S. spot Ethereum ETFs recorded approximately $201.9 million in net outflows on Oct. 6, their largest withdrawal in weeks, while Bitcoin ETFs attracted $118.8 million. The divergence reinforces the recent weakness in ETF demand . That is particularly important because Citi’s bullish thesis partly depends on crypto investment flows returning. The bank expects around $5 billion in crypto inflows over the next 12 months, although it expects allocations to arrive gradually rather than through another sudden surge. Ethereum’s supply picture remains more constructive. More than 1.5 million ETH was recently waiting to enter staking, compared with roughly 786,000 ETH queued to exit, strengthening the longer-term staking argument. Meanwhile, the network’s Glamsterdam upgrade is testing substantially higher Layer-1 capacity.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|FIAT|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "73925606",
+      "guid": "https://cryptonews.com/news/tokenized-commodities-jmwh/",
+      "published_on": 1791378060,
+      "imageurl": "https://resources.cryptocompare.com/news/52/73925606.jpeg",
+      "title": "XRP News: XRPL $2.2B Tokenization Depends on Energy Token",
+      "url": "https://cryptonews.com/news/xrp-news-energy-token-tokenized-commodities-jmwh/",
+      "body": "In major XRP news today, XRPL reported lead in tokenized commodities rests heavily on a single Justoken energy token: RWA.xyz lists JMWH at $2.23 billion, or 89% of the ledger’s commodity value. The RWA.xyz commodities dashboard classifies JMWH as a represented commodity on the XRP Ledger. Its asset page lists a total value of $2.229 billion, 37.15 million tokens, and 165 holders. Those figures place one energy-linked product ahead of the diamond collections that make up most of XRPL’s remaining commodity listings. XRPL commodities dashboard, RWA.xyz The largest listed diamond collection, DIA-AD-COL1, is valued at $105.2 million. Other Ctrl Alt collections range from $13.7 million to $46 million, leaving JMWH far larger than any individual listed XRPL commodity apart from itself. The concentration matters: a chain-level ranking built around one asset says less about the breadth of a commodity market than a similarly sized total spread across multiple issuers and products. The comparison with Ethereum also depends on the metric. The primary-source account cites about $2.2 billion in annual net commodity inflows for XRPL against $1.6 billion for Ethereum. Asset value produces a different comparison. RWA.xyz lists Tether Gold at about $2.91 billion across multiple networks, including Ethereum, while Paxos Gold is listed at about $1.79 billion on Ethereum. Tether Gold’s distributed value cannot be assigned exclusively to Ethereum because the dashboard does not publish a per-chain split. Earn $50 and Enter $300K Prize Draw on EdgeX A Represented Value Vs. Liquid Market RWA.xyz describes JMWH as a digital asset in which each token represents one real megawatt-hour of energy backed by energy companies. Its stated purpose includes facilitating financial transactions and energy traceability. RWA.xyz itself lists a $60 net asset value and a supply of 37,152,280 tokens, alongside a total of $2.229 billion. Multiplying the listed supply by the stated NAV yields approximately that total. This arithmetic explains the reported figure. XRP Legder, RWA.xyz RWA.xyz reports $4.52 billion in total represented asset value on XRPL and $7.03 billion in monthly RWA transfer volume, but transfers between addresses do not identify unique capital inflows or prove that tokens were bought in open markets. Large transfer totals demonstrate on-ledger movement; they do not, on their own, measure investor demand. The same separation between tokenized exposure and effective ownership is central to assessing tokenized assets’ ownership and liquidity . A token can represent an underlying contractual claim while offering limited evidence of secondary-market access. Trade XRP on Bybit and Get a Chance to Win Our $1,000 USDT Airdrop Does This News Create Demand for XRP? Justoken’s Enertoken launch with YPF Luz provides a concrete energy use case on XRPL. The project’s first phase covered more than $800 million in energy assets. The difference is a question of scope and valuation, not proof that one number is wrong. Justoken also issues commodity tokens outside XRPL. RWA.xyz lists its soybean and soybean-oil products on Polygon, underscoring that the issuer’s wider tokenization business is multi-chain. The presence of a large Justoken asset on XRPL is meaningful for the ledger’s use-case mix. Xrp (XRP) 24h 7d 30d 1y All time Token issuance news alone implies material buying pressure for XRP. XRPL transactions can involve XRP for fees and account reserves, but the figures cited here do not show how much XRP is held for those purposes, whether JMWH has substantial XRP-pair liquidity, or whether XRP serves as collateral or settlement capital for the energy contracts. That is the key distinction for the XRP market. New issuance and transfer activity can strengthen the case that XRPL supports real-world financial applications, while XRP’s price response depends on whether those applications create persistent demand for the token itself. The question of whether XRPL adoption translates into XRP demand cannot be answered by a represented-asset total alone. Discover: The Best Token Presales This Q4 The post XRP News: XRPL $2.2B Tokenization Depends on Energy Token appeared first on Cryptonews .",
+      "tags": "Altcoin News|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|MARKET|XRP|XAUT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "73925499",
+      "guid": "https://ambcrypto.com/?p=639062",
+      "published_on": 1791378039,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Meteora crypto jumps 10% – Can $187M DEX volume sustain MET’s rally?",
+      "url": "https://ambcrypto.com/meteora-crypto-jumps-10-can-187m-dex-volume-sustain-mets-rally/",
+      "body": "MET has surged by 10% after rebounding from EMA support as DEX volume, active addresses and trading activity signaled strengthening bullish momentum.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "73925517",
+      "guid": "https://timestabloid.com/?p=112761",
+      "published_on": 1791378026,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Evernorth Will Implement Active Measures to Increase XRP’s Value",
+      "url": "https://timestabloid.com/evernorth-will-implement-active-measures-to-increase-xrps-value/",
+      "body": "Evernorth plans to pursue activities beyond simply holding XRP, with institutional lending and decentralized finance among the strategies outlined for its XRP treasury business. Crypto researcher SMQKE pointed to these plans in an X post , citing an SBI Group presentation that describes Evernorth’s intended approach to managing its XRP holdings. SMQKE wrote that “Evernorth will implement active measures to increase XRP’s value,” before identifying lending for institutional investors and the use of DeFi as two planned strategies. The researcher described the information as documented and attached an SBI Group image detailing the company’s planned operations. The SBI Group presentation states that Evernorth has executed a PIPE investment involving a U.S. company scheduled to engage in the XRP treasury business alongside U.S. Ripple Inc. and other participants. It also says Evernorth plans to operate an XRP Ledger validator, while a major auditing firm will independently audit its financial reporting. SBI Group Invests $200 Million The presentation also details the capital Evernorth raised. SBI Group invested $200 million in cash, while Evernorth raised more than $1 billion in total through a combination of spot XRP and cash. The presentation identifies Ripple, Chris Larsen, institutional investors, and crypto asset exchanges as participants in the fundraising. It also states that Evernorth plans to increase the value of its assets through active measures rather than merely holding XRP. For that strategy, the document specifically identifies lending to institutional investors and leveraging decentralized finance. These activities would give Evernorth additional ways to deploy its XRP holdings while maintaining its focus on the XRP treasury model. The presentation further states that Evernorth plans to list on the U.S. Nasdaq market under the ticker XRPN through a business combination with Armada Acquisition Corp. II, a special purpose acquisition company. Evernorth Sets Out Nasdaq Timeline In the comments under SMQKE’s post, XRPBROJJEDAN provided a specific timeline for the planned Nasdaq debut. The commenter said Evernorth expects to close its SPAC transaction on October 7 and begin trading under the XRPN ticker on October 8. Duke offered a sharply different assessment. The commenter criticized what they described as years of exaggerated XRP predictions and claimed that influencers have benefited from repeated bullish narratives surrounding the asset. Duke also questioned whether some commentators present speculative expectations as established outcomes. SMQKE’s post, however, focused on the operational plans that SBI Group detailed in its presentation, particularly Evernorth’s intention to use XRP in lending and DeFi activities rather than limit its strategy to passive ownership. If Evernorth proceeds with these plans, the company could provide a clearer example of how an XRP treasury business intends to generate activity around its holdings. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Evernorth Will Implement Active Measures to Increase XRP’s Value appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|Evernorth|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|XRP|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "73925485",
+      "guid": "https://u.today/shiba-inu-shib-rare-golden-cross-breakout-meets-immediate-reality-check",
+      "published_on": 1791378005,
+      "imageurl": "https://resources.cryptocompare.com/news/64/73925485.jpeg",
+      "title": "Shiba Inu (SHIB) Rare 'Golden Cross' Breakout Meets Immediate Reality Check",
+      "url": "https://u.today/shiba-inu-shib-rare-golden-cross-breakout-meets-immediate-reality-check",
+      "body": "Shiba Inu (SHIB) triggers its first Golden Cross in two years just as $572M in liquidated longs triggers a make-or-break test.",
+      "tags": "Shiba Inu",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SHIB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "73925770",
+      "guid": "https://coinpaprika.com/news/arbitrum-bets-paxos-usdg-capture-stablecoin",
+      "published_on": 1791378000,
+      "imageurl": "https://resources.cryptocompare.com/news/80/73925770.jpeg",
+      "title": "Arbitrum Bets on Paxos' USDG to Capture Stablecoin Reserve Income",
+      "url": "https://coinpaprika.com/news/arbitrum-bets-paxos-usdg-capture-stablecoin",
+      "body": "Paxos launched its Global Dollar (USDG) stablecoin natively on Arbitrum on 6 October 2026, and the network joined the Paxos-led Global Dollar Network. The move lets Arbitrum and its builders share in reserve income that stablecoin issuers usually keep.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|ARB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "73926441",
+      "guid": "https://thecryptobasic.com/?p=172569",
+      "published_on": 1791377986,
+      "imageurl": "https://resources.cryptocompare.com/news/65/73926441.jpeg",
+      "title": "XRP Supply in Profit Rises to 57%, a 9-Month Peak",
+      "url": "https://thecryptobasic.com/2026/10/07/xrp-supply-in-profit-rises-to-57-a-9-month-peak/",
+      "body": "The ratio of the circulating XRP supply in profit has surged back above 57%, reaching highs last recorded in January 2026. This comes as XRP's price continues to hold above the crucial $1.40 level following the rally witnessed in August and September. Visit Website",
+      "tags": "Market|Latest XRP (Ripple) News Today",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "The Crypto Basic",
+        "img": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+        "lang": "EN"
+      },
+      "source": "thecryptobasic"
+    },
+    {
+      "id": "73925349",
+      "guid": "https://coinpaper.com/36918/bitcoin-price-prediction-btc-falls-to-84k-whale-share-hits-2-month-high",
+      "published_on": 1791377966,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Bitcoin Price Prediction: BTC Falls to $84K, Whale Share Hits 2-Month High",
+      "url": "https://coinpaper.com/36918/bitcoin-price-prediction-btc-falls-to-84k-whale-share-hits-2-month-high",
+      "body": "BTC traded near $84,300 after briefly dropping to around $83,680, according to LSEG data cited by Barron’s. The pullback extends Bitcoin’s repeated failure to break the $87K resistance that has capped the market since late September. The more interesting signal is coming from exchange flows. Whales Now Dominate a Shrinking Deposit Pool CryptoQuant data shows Bitcoin’s seven-day inflows to Binance fell to just 32,642 BTC on Oct. 5, placing the reading in the 11th percentile of the past year. At the same time, Binance’s seven-day Exchange Whale Ratio rose to 0.515, its highest level since August. The metric measures how much of total exchange inflows comes from the ten largest deposits. A higher whale ratio can indicate that large holders are becoming more active on exchanges, potentially increasing available sell-side liquidity. But there is an important caveat: total deposits are unusually low. That means whales can represent a larger share even without dramatically increasing the absolute amount of Bitcoin they send to Binance. CryptoQuant therefore cautions against reading the metric as a straightforward sell signal. Spot Buyers Are Still Showing Up Other market data is less bearish. Glassnode’s latest market pulse shows Bitcoin spot CVD flipping from -$102.8 million to +$33.2 million over the past week, suggesting aggressive spot buyers have returned. Futures open interest also eased from $38 billion to $36.6 billion, reducing some leverage after September’s rally. ETF demand has also recovered. U.S. spot Bitcoin funds recorded $118.8 million of net inflows on Oct. 6, reversing the previous session’s $89.8 million withdrawal. BlackRock’s IBIT accounted for almost all of the buying. That follows a strong Q3 inflow total of $6.34 billion.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|TRADING|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "73925484",
+      "guid": "https://cryptopotato.com/?p=1450613",
+      "published_on": 1791377955,
+      "imageurl": "https://resources.cryptocompare.com/news/27/73925484.jpeg",
+      "title": "Bitcoin Price Analysis: What’s Next for BTC After Sharp Drop Below $84K?",
+      "url": "https://cryptopotato.com/bitcoin-price-analysis-whats-next-for-btc-after-sharp-drop-below-84k/",
+      "body": "Bitcoin is trading below $84K after failing to continue its latest push toward the $90K region. While the general structure remains constructive, the latest pullback and weakening futures taker activity suggest that BTC may need to consolidate before attempting another breakout. Bitcoin Price Analysis: The Daily Chart The daily chart shows a significant structural improvement over the past several months. BTC has reclaimed both the 100-day and 200-day moving averages, currently positioned around $72K. The two averages have also converged, with the shorter-term average turning higher. This bullish crossover could potentially further strengthen the longer-term trend. Meanwhile, the price has also moved decisively above the $75K area, which now represents an important demand zone. Holding this region would keep the broader sequence of higher lows intact and preserve the bullish recovery structure. A deeper correction toward $70K, however, would still leave the larger trend relatively constructive, although losing that area would weaken the setup considerably. On the upside, BTC is facing a substantial supply zone around $88K. The market has repeatedly struggled to establish a daily close above this region. But a convincing breakout would expose the next major resistance area around $96K. Momentum also remains positive but has cooled. The daily RSI is still above the neutral 50 level while leaving considerable room before reaching overbought territory. This suggests that the market is not yet displaying the type of momentum exhaustion typically associated with a major top. BTC/USDT 4-Hour Chart The 4-hour chart presents a more cautious picture. BTC established an ascending triangle pattern from the September lows, with several successful tests reinforcing the structure. However, the price is now breaking below that trendline and has fallen toward $84K. The immediate area around $84K is therefore important. If buyers reclaim this zone and restore the broken trendline, the recent decline could prove to be only a temporary shakeout. In that scenario, BTC could retest the $88K resistance area and potentially challenge for a valid breakout once more. Conversely, a sustained move below $84K would increase the probability of a deeper correction toward the $75K-$78K region. That area coincides with the previous breakout and should be viewed as the first major support beneath the current range. The 4-hour RSI has also fallen sharply to around 38, showing that short-term momentum has deteriorated and is approaching oversold territory. This could allow for a relief bounce, but RSI alone does not confirm a reversal. Sentiment Analysis The taker buy/sell ratio provides a notable warning sign. The metric compares aggressive market buying with aggressive market selling, with readings above 1 indicating that taker buying is dominant and readings below 1 suggesting that sellers are more aggressive. The latest reading has dropped below 1 and is sitting around 0.994, significantly declining from its September highs. This indicates that aggressive buying pressure has weakened as BTC moved toward the $88K resistance area. More importantly, the taker buy/sell ratio has been trending lower since its August peak even as Bitcoin remained relatively elevated. This divergence suggests that the latest advance has not been accompanied by steadily increasing aggressive futures demand. That does not necessarily imply an immediate bearish reversal. However, it makes a clean breakout above $88K less convincing unless the metric begins recovering. A renewed move above 1 in the taker ratio, alongside a breakout in price, would provide stronger confirmation that buyers are regaining control. The post Bitcoin Price Analysis: What’s Next for BTC After Sharp Drop Below $84K? appeared first on CryptoPotato .",
+      "tags": "BTC Analysis|Crypto News|Bitcoin (BTC) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "73925333",
+      "guid": "https://invezz.com/news/2026/10/07/zcash-retreats-from-september-highs-as-bears-target-drop-to-1000/",
+      "published_on": 1791377679,
+      "imageurl": "https://resources.cryptocompare.com/news/69/73925333.jpeg",
+      "title": "Zcash retreats from September highs as bears target drop to $1,000",
+      "url": "https://invezz.com/news/2026/10/07/zcash-retreats-from-september-highs-as-bears-target-drop-to-1000/",
+      "body": "Zcash’s September rally has given way to a substantial correction, with ZEC trading near $1,319 on October 7 as technical indicators suggest the pullback could extend. The retreat from its late-September peak around $1,700 has brought the token close to a previously identified downside zone of $1,220–$1,300. Weekly Fibonacci levels and a developing daily bear pennant now point to additional downside scenarios. However, the pennant requires a confirmed breakdown before its projected target becomes more relevant. September momentum warning gives way to a correction Last month, analysts identified a bearish divergence in Zcash’s Relative Strength Index as the price approached resistance between $1,700 and $1,750. That divergence indicated weakening momentum despite rising prices and supported the possibility of a retreat toward 1,220–1,300. ZEC subsequently pushed higher before reversing. Its October 7 price near $1,319 leaves it just above the upper boundary of that projected correction zone. The reversal suggests that buyers have struggled to sustain the pace of September’s advance, although reaching a previously forecast area does not establish where the decline will end. On the weekly chart, Zcash has slipped below the 2.618 Fibonacci extension near $1,722 after failing to sustain its move toward recent highs. The supplied analysis identifies the 1.618 Fibonacci level around $1,136 as the next important downside reference. A move from $1,319 to that level would represent a decline of approximately 14%. Further below, the rising 20-week exponential moving average stands near $900. Together, those levels define a broad potential support region between $900 and $1,136, rather than a tightly clustered support zone. A test of $900 would imply a decline of roughly 32% from $1,319, although the moving average’s position will change over time. Zcash’s weekly RSI remains around the mid-60s after recently approaching overbought territory. That reading indicates momentum is still relatively strong, but has cooled from its earlier extremes. It also leaves room for further normalization if selling continues. The weekly setup therefore supports a possible retracement toward $1,136, with the 20-week EMA becoming a deeper reference if pressure intensifies. These remain conditional technical scenarios. Daily bear pennant points toward $986–$1,000 On the daily chart, ZEC is developing a potential bear pennant following a sharp decline from approximately $1,650. The initial drop was followed by tightening consolidation around 1,300–1,400. A decisive break below the formation’s lower trendline would support a bearish continuation interpretation. Using the height of the preceding decline, the analysis projects a possible target between $986 and $1,000. That would represent roughly 24%–25% downside from $1,319. The target sits near the rising 100-day EMA around $953, creating a broader support region between approximately $950 and $1,000. Until a breakdown occurs, the pennant remains a developing pattern. Zcash’s next move will depend on whether buyers can stabilize the consolidation or sellers push the price below its lower boundary. The post Zcash retreats from September highs as bears target drop to $1,000 appeared first on Invezz",
+      "tags": "Altcoins|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING|ZEC",
+      "source_info": {
+        "name": "Invezz",
+        "img": "https://resources.cryptocompare.com/news/69/default.png",
+        "lang": "EN"
+      },
+      "source": "invezz"
+    },
+    {
+      "id": "73926438",
+      "guid": "https://thecryptobasic.com/?p=172562",
+      "published_on": 1791377670,
+      "imageurl": "https://resources.cryptocompare.com/news/65/73926438.jpeg",
+      "title": "Marvell Stock Pulls Back After Investor Day Sets $80 Billion FY31 Revenue Midpoint",
+      "url": "https://thecryptobasic.com/2026/10/07/marvell-stock-pulls-back-after-investor-day-sets-80-billion-fy31-revenue-midpoint/",
+      "body": "Marvell Technology (NASDAQ: MRVL) shares fell 2.18% to $280.75 in Wednesday premarket trading, trimming part of Tuesday’s 5.81% advance after the chipmaker unveiled substantially higher long-term financial targets at its Investor Day in New York. The key update was Marvell’s decision to raise its fiscal 2028 revenue target to about $20 billion from a prior $18 billion. Visit Website",
+      "tags": "Tokenized Stocks",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TECHNOLOGY|TRADING",
+      "source_info": {
+        "name": "The Crypto Basic",
+        "img": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+        "lang": "EN"
+      },
+      "source": "thecryptobasic"
+    },
+    {
+      "id": "73924930",
+      "guid": "https://coinpaper.com/36914/ripple-mints-30m-rlusd-after-595m-issued-in-two-days",
+      "published_on": 1791377600,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Ripple Mints 30M RLUSD After $59.5M Issued in Two Days",
+      "url": "https://coinpaper.com/36914/ripple-mints-30m-rlusd-after-595m-issued-in-two-days",
+      "body": "The transaction was first flagged by the Ripple Stablecoin Tracker, which tracks RLUSD minting and burning activity onchain. RLUSD’s market capitalization is now estimated at roughly $2.5 billion, up substantially from the $2 billion level crossed in August. But the new mint should not automatically be interpreted as $30 million of fresh circulating supply. Ripple Is Minting and Burning RLUSD at Scale The latest transaction follows several large mints in September. On Sept. 21, the RLUSD Treasury minted 20 million and another 20.5 million RLUSD. Another 19 million tokens followed on Sept. 22, bringing reported issuance across those two days to $59.5 million. At the same time, Ripple has also been destroying tokens. Two Sept. 22 transactions burned approximately 29.85 million RLUSD, highlighting how quickly supply can move in both directions. That distinction matters. Ripple’s official documentation explains that institutional customers deposit dollars before equivalent RLUSD is minted. When customers redeem RLUSD for dollars, those tokens are burned. So a $30 million mint can represent customer issuance or treasury management rather than a permanent $30 million increase in circulation. RLUSD Has Become XRPL’s Main Dollar Asset The broader trend, however, is clear: Ripple’s stablecoin business is expanding rapidly. Recent reserve data showed more than $2.4 billion of RLUSD circulating, backed by approximately $2.53 billion in reserve assets. RLUSD reserves Growth has been particularly strong on the XRP Ledger. XRPL’s total stablecoin supply recently approached $1.3 billion, with RLUSD accounting for roughly 93% of the network’s dollar-pegged assets. That liquidity is increasingly feeding other parts of Ripple’s institutional strategy. RLUSD is being integrated into credit markets , yield products and settlement infrastructure, while Ripple has built Ripple Mint specifically to let institutions issue and redeem RLUSD programmatically. Ripple For XRP, the relationship is indirect but important. RLUSD transactions executed on XRPL still require XRP for network fees, and increasing dollar liquidity can support trading and financial activity across the ledger. Previous onchain analysis has found that RLUSD is expanding activity rather than simply replacing XRP .",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|MARKET|XRP|DIGITAL ASSET TREASURY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "73924934",
+      "guid": "https://en.coin-turk.com/?p=252703",
+      "published_on": 1791377484,
+      "imageurl": "https://resources.cryptocompare.com/news/79/73924934.jpeg",
+      "title": "MoonPay CEO’s Ripple post sparks speculation of potential XRP partnership",
+      "url": "https://en.coin-turk.com/moonpay-ceos-ripple-post-sparks-speculation-of-potential-xrp-partnership/?utm_source=rss&utm_medium=rss&utm_campaign=moonpay-ceos-ripple-post-sparks-speculation-of-potential-xrp-partnership",
+      "body": "👀 MoonPay CEO’s Ripple logo post triggers XRP partnership speculation. 🚀 No official confirmation from MoonPay or Ripple on any new collaboration involving $XRP. 💼 Pham’s regulatory background fuels hopes of potential institutional developments. Continue Reading: MoonPay CEO’s Ripple post sparks speculation of potential XRP partnership The post MoonPay CEO’s Ripple post sparks speculation of potential XRP partnership appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "73924433",
+      "guid": "https://seekingalpha.com/news/4650942-robinhoods-first-bitcoin-buy-25m-lands-on-balance-sheet?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1791377140,
+      "imageurl": "https://resources.cryptocompare.com/news/50/73924433.jpeg",
+      "title": "Robinhood's first Bitcoin buy: $25M lands on balance sheet",
+      "url": "https://seekingalpha.com/news/4650942-robinhoods-first-bitcoin-buy-25m-lands-on-balance-sheet?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on Robinhood Markets Robinhood: The Market Is Pricing In A Lot, But Not Really Everything Robinhood: Tokenized Stocks Are Coming, But It's Time To Sell Robinhood: The Simplicity Of This Thesis Is Precisely Why I'm Bullish Robinhood stock rises after launch of 'most ambitious' active trading products BlackSky to supply satellite imagery for Robinhood agent App",
+      "tags": "HOOD|HOOD:CA|BTC-USD|BTC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "73924649",
+      "guid": "https://news.bitcoin.com/?p=854037",
+      "published_on": 1791377126,
+      "imageurl": "https://resources.cryptocompare.com/news/14/73924649.jpeg",
+      "title": "Bitcoin Price Slides to $83K as Short-Term Bears Take Control",
+      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-slides-to-83k-as-short-term-bears-take-control/",
+      "body": "Bitcoin’s price range is trading near the floor of its 24-hour range after an overnight selloff dragged the BTC/USD pair to $83,404. The 1-hour picture is firmly bearish, with price below every listed moving average and the relative strength index (RSI) at 27, but the daily structure hasn’t completely cracked. Bulls now need to defend",
+      "tags": "Market Updates|Bitcoin (BTC)|Bitcoin Price|market updates|Technical Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1791376913,
+    "time_range_start": "2026-10-07 12:41:53",
+    "time_range_end": "2026-10-07 13:41:53"
+  }
+}

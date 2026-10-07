@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261007_134153",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1791376913,
+    "time_range_start": "2026-10-07 12:41:53",
+    "time_range_end": "2026-10-07 13:41:53"
+  },
+  "total_articles": 28,
+  "unique_sources": 14,
+  "unique_categories": 24,
+  "unique_tags": 76,
+  "body_stats": {
+    "avg_length": 2318.43,
+    "min_length": 126,
+    "max_length": 31509
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-07 12:45:26",
+    "newest": "2026-10-07 13:31:24",
+    "time_span_minutes": 45.97
+  },
+  "top_sources": {
+    "Coinpaper": 6,
+    "CoinTurk News": 4,
+    "coinpedia": 4,
+    "Seeking Alpha": 3,
+    "The Crypto Basic": 2,
+    "CoinOtag": 1,
+    "cryptonews": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1,
+    "U.Today": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 22,
+    "TRADING": 14,
+    "MARKET": 12,
+    "BTC": 11,
+    "BUSINESS": 8,
+    "XRP": 7,
+    "MACROECONOMICS": 4,
+    "ETH": 4,
+    "FIAT": 4,
+    "REGULATION": 3,
+    "ALTCOIN": 3,
+    "DIGITAL ASSET TREASURY": 3,
+    "COMMODITY": 2,
+    "WALLET": 1,
+    "APT": 1
+  },
+  "top_tags": {
+    "News": 9,
+    "Crypto": 5,
+    "Ripple (XRP)": 2,
+    "Short News": 2,
+    "Stock Market": 2,
+    "Bitcoin": 2,
+    "Crypto News": 2,
+    "BTC-USD": 2,
+    "XRP": 2,
+    "Policy": 1,
+    "ETH-USD": 1,
+    "ETH": 1,
+    "ETHE": 1,
+    "ETHA": 1,
+    "FETH": 1
+  }
+}
