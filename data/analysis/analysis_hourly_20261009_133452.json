@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261009_133452",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1791549292,
+    "time_range_start": "2026-10-09 12:34:52",
+    "time_range_end": "2026-10-09 13:34:52"
+  },
+  "total_articles": 18,
+  "unique_sources": 14,
+  "unique_categories": 19,
+  "unique_tags": 28,
+  "body_stats": {
+    "avg_length": 949.11,
+    "min_length": 61,
+    "max_length": 4592
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-09 12:36:30",
+    "newest": "2026-10-09 13:28:35",
+    "time_span_minutes": 52.08
+  },
+  "top_sources": {
+    "CoinTurk News": 3,
+    "Forbes Digital Assets": 2,
+    "CoinOtag": 2,
+    "Decrypt": 1,
+    "ZyCrypto": 1,
+    "Crypto Daily": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1,
+    "Coinpaprika": 1,
+    "Crypto Potato": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 13,
+    "MARKET": 9,
+    "TRADING": 8,
+    "BTC": 6,
+    "XRP": 5,
+    "BUSINESS": 5,
+    "ALTCOIN": 3,
+    "EXCHANGE": 3,
+    "RESEARCH": 2,
+    "REGULATION": 2,
+    "WALLET": 1,
+    "FIAT": 1,
+    "SOL": 1,
+    "ETH": 1,
+    "BNB": 1
+  },
+  "top_tags": {
+    "News": 5,
+    "Forbes Digital Assets": 4,
+    "/digital-assets": 4,
+    "Crypto News": 3,
+    "Ripple (XRP)": 2,
+    "Cryptocurrency": 2,
+    "Cryptocurrency News": 2,
+    "standard": 2,
+    "Altcoin": 2,
+    "": 1,
+    "Markets": 1,
+    "More News": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "XRP": 1
+  }
+}

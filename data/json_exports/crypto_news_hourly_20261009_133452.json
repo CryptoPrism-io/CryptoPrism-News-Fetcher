@@ -1,0 +1,372 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "74116998",
+      "guid": "https://en.coin-turk.com/?p=253017",
+      "published_on": 1791552515,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74116998.jpeg",
+      "title": "XRP Ledger payment activity drops by 400,000, price holds key $1.38 support",
+      "url": "https://en.coin-turk.com/xrp-ledger-payment-activity-drops-by-400000-price-holds-key-1-38-support/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-ledger-payment-activity-drops-by-400000-price-holds-key-1-38-support",
+      "body": "🚨 XRP Ledger payments plummet by 400,000 transactions overnight. 💡 $XRP price holds above the $1.38 support despite weaker market action. 📉 Transaction numbers drop as market volatility accelerates this week. Continue Reading: XRP Ledger payment activity drops by 400,000, price holds key $1.38 support The post XRP Ledger payment activity drops by 400,000, price holds key $1.38 support appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74116671",
+      "guid": "https://decrypt.co/?p=380574",
+      "published_on": 1791552012,
+      "imageurl": "https://resources.cryptocompare.com/news/44/74116671.jpeg",
+      "title": "Bitcoin Bleeds in Uptober—How Low Can It Go? Experts Weigh In",
+      "url": "https://decrypt.co/380574/bitcoin-bleeds-in-uptober-how-low-can-it-go-experts-weigh-in",
+      "body": "Experts highlight several support levels, from $83,000 down to $72,000, that Bitcoin may need to test in a bearish start to Uptober.",
+      "tags": "|Markets",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "74116599",
+      "guid": "https://zycrypto.com/?p=119654",
+      "published_on": 1791552003,
+      "imageurl": "https://images.cryptocompare.com/news/default/zycrypto.png",
+      "title": "Galaxy: 69.2% of Polymarket Retail Accounts Lose Money, With $338.9M in Aggregate Losses‬",
+      "url": "https://zycrypto.com/galaxy-69-2-of-polymarket-retail-accounts-lose-money-with-338-9m-in-aggregate-losses/",
+      "body": "A recent Galaxy Research analysis revealed significant losses among retail traders on Polymarket’s international platform. The firm found that 69.2% of roughly 2.9 million human-paced “retail” accounts finished below break-even. According to the report, these accounts posted aggregate losses totaling $338.9 million. As the report reads: “Out of retail accounts, 69.2% finished below break-even (unprofitable). In aggregate, the population is down $338.9m.The median retail account is down ~$3.00, and half the population falls between -$36.64 and +$0.40. These are amounts that wouldn’t change anybody’s life. As expected, the money is in the tails. The first percentile is -$4,804 and the 99th is +$3,381.” The research relied on on-chain settlement data curated by Stork. The study found clear differences in trading behavior after different outcomes. Notably, an estimated 15.2% of accounts did not trade again within 30 days after a loss. By comparison, only 6.1% of accounts stopped trading within the same 30-day window after a win. This gap suggests losses may prompt more accounts to step away than wins encourage continued activity. The research found that winning tends to keep users on the platform, with 6.1% of accounts not opening another position within 30 days after a win. Meanwhile, after a loss, 15.2% of accounts did not open another position. Losing accounts are reportedly 2.5x as likely to walk away. The research also found notable concentration in participation patterns. About 44.1% of traders concentrated more than 60% of their activity in a single topic. Specialization across topics produced mixed profitability results. Sports specialists made up 47% of specialists overall, but the group recorded the lowest profitability rate at 25.1%. In contrast, tech and science specialists achieved the highest profitability rate at 41.2%. The tech and science sample was smaller, which the analysis noted as a limiting factor for drawing broader conclusions from that category. Notable differences also appeared in how profitable and unprofitable traders sized their positions. Profitable traders had a median position size of $13.96, while unprofitable traders showed a lower median position size of $10. At the same time, holding time displayed no clear relationship with profitability. The data did not show a consistent link between how long positions were held and whether traders ended up profitable. Overall, Galaxy’s findings show that most of the roughly 2.9 million human-paced retail accounts on the platform finished underwater, with aggregate losses of $338.9 million and distinct patterns in post-loss exits, topic concentration, specialization outcomes, and position sizing.",
+      "tags": "Cryptocurrency|News|Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|RESEARCH",
+      "source_info": {
+        "name": "ZyCrypto",
+        "img": "https://images.cryptocompare.com/news/default/zycrypto.png",
+        "lang": "EN"
+      },
+      "source": "zycrypto"
+    },
+    {
+      "id": "74116202",
+      "guid": "https://en.coin-turk.com/?p=253016",
+      "published_on": 1791551735,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74116202.jpeg",
+      "title": "XRP Batch amendment with fix goes live, XRP price tests key support at $1.28",
+      "url": "https://en.coin-turk.com/xrp-batch-amendment-with-fix-goes-live-xrp-price-tests-key-support-at-1-28/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-batch-amendment-with-fix-goes-live-xrp-price-tests-key-support-at-1-28",
+      "body": "🚀 XRP launches Batch amendment with a simultaneous critical fix after major delays. 🔔 Recent Fed comments triggered a 4-day slide in $XRP, pushing the price down to $1.31. 📉 XRP now hovers near the key MA 200 support at $1.28 after falling below its MA 50. Continue Reading: XRP Batch amendment with fix goes live, XRP price tests key support at $1.28 The post XRP Batch amendment with fix goes live, XRP price tests key support at $1.28 appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74116249",
+      "guid": "content_6ac8e648482de62613d74824",
+      "published_on": 1791551546,
+      "imageurl": "https://resources.cryptocompare.com/news/94/74116249.jpeg",
+      "title": "Why Visa And Mastercard Backed A Stablecoin That Could Cut Into Their Own Business",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/10/09/why-visa-and-mastercard-backed-a-stablecoin-that-could-cut-into-their-own-business/",
+      "body": "Visa and Mastercard now own part of the OUSD stablecoin. The deal is a hedge on cross-border fees, priced in equity and reserve income rather than cash.",
+      "tags": "Forbes Digital Assets|/digital-assets|Forbes Digital Assets|/digital-assets|standard",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT",
+      "source_info": {
+        "name": "Forbes Digital Assets",
+        "img": "https://resources.cryptocompare.com/news/94/default.png",
+        "lang": "EN"
+      },
+      "source": "forbes"
+    },
+    {
+      "id": "74115321",
+      "guid": "https://cryptodaily.co.uk/2026/10/securitize-tokenized-us-stocks-solana-shareholder-rights",
+      "published_on": 1791550868,
+      "imageurl": "https://resources.cryptocompare.com/news/75/74115321.jpeg",
+      "title": "Securitize Launches Tokenized US Stocks With Shareholder Rights on Solana",
+      "url": "https://cryptodaily.co.uk/2026/10/securitize-tokenized-us-stocks-solana-shareholder-rights",
+      "body": "Securitize announced on October 8 that it had launched Securitize Stocks, offering eligible investors 1:1-backed security entitlements to 12 U.S. equities on Solana. The tokens settle in USDC and are designed to pass through applicable dividends and voting rights, though holders do not become registered shareholders unless they convert their entitlements. Initial Solana stock offering According to Securitize’s announcement , the initial roster comprises Apple, Microsoft, Nvidia, Alphabet, Tesla, Meta, Amazon, Netflix, Circle, SpaceX, Strategy and Palantir. The launch puts the instruments on Solana from the outset, rather than presenting the tokens as a separate cryptocurrency linked only to equity prices. Securitize describes them as security entitlements backed 1:1, with USDC used for settlement. Security entitlements and shareholder status The structure distinguishes an entitlement from direct ownership: token holders are not the companies’ registered shareholders by default and must convert their entitlements to obtain registration. Securitize said the tokens are issued under UCC Article 8, which is intended to preserve applicable economic benefits associated with the underlying equities. Those benefits include dividends and voting rights where applicable, so the arrangement provides specified shareholder-related benefits without automatically placing holders on the issuer’s shareholder register. PropAMM liquidity and trading hours Securitize’s Solana PropAMM is the initial trading venue, with Jump Trading supplying market-making liquidity during extended hours, The Block reported . Securitize plans to move toward 24/7 availability. For now, however, the announced model is extended-hours trading rather than round-the-clock access. Planned venue expansion Securitize also said the tokenized stocks are expected to become available through planned digital venues operated by NYSE and OKXICE. That distribution is not yet assured: it remains subject to regulatory and operational requirements, according to CoinDesk . Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|REGULATION|SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "74115312",
+      "guid": "https://ambcrypto.com/?p=639674",
+      "published_on": 1791550844,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Pump.fun loses KEY support as $5M liquidations raise PUMP’s downside risks",
+      "url": "https://ambcrypto.com/pump-fun-loses-key-support-as-5m-liquidations-raise-pumps-downside-risks/",
+      "body": "Pump.fun declined 7%, breached the $0.006 support, and fell to a low of $0.0052.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "74115295",
+      "guid": "https://timestabloid.com/?p=112846",
+      "published_on": 1791550803,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Dark Defender Says XRP Will Target Wave 3 and This Will Happen",
+      "url": "https://timestabloid.com/dark-defender-says-xrp-will-target-wave-3-and-this-will-happen/",
+      "body": "Crypto analyst Dark Defender believes XRP could target significantly higher prices if it completes its current correction and begins the next upward phase. His latest analysis revisits an Elliott Wave structure he has tracked since the first week of September and maintains a long-term price projection of $10.1101. However, XRP must first overcome several resistance levels and confirm the corrective phase has ended before the projected advance can take shape. In a post on X, Dark Defender explained that XRP has completed Wave 1 and appears close to finishing Wave 2. He also referenced an earlier analysis from September 12, which outlined the technical levels he continues to monitor as XRP attempts to recover. His five-day chart presents a potential path toward $10.1101, but the analyst’s forecast depends on XRP following the expected Elliott Wave structure. We have been discussing in detail the possibility of expanding C Wave under the subject conditions since the first week of September. Wave 1 is complete, Wave 2 will be complete, and XRP will target Wave 3. Please see the subject post from 12 September below: pic.twitter.com/vOt4180FoE — Dark Defender (@DefendDark) October 8, 2026 XRP Faces Resistance at $1.4445 Dark Defender’s four-hour chart identifies $1.33 as key support and $1.4445 as immediate resistance. In his September 12 analysis, he noted that XRP rebounded from $1.33 before climbing toward $1.4445, where sellers rejected the price. The analyst viewed that rejection as consistent with his expectations. He explained that XRP’s first attempt to break above a descending resistance line could fail before the market attempted again. Therefore, he maintained his bullish outlook despite the rejection, while emphasizing that XRP needs to reclaim resistance and confirm the end of Wave 2. Dark Defender also identified $1.3798, the 61.8% Fibonacci retracement level, as an important threshold. A sustained move above this level could strengthen XRP’s recovery, while a four-hour candle close above $1.4445 would provide stronger evidence of a potential breakout. However, a decline below $1.33 could weaken the bullish setup. Dark Defender warned that such a move could trigger an expanded Wave C correction, exposing XRP to potential downside targets at $1.2939 and $1.2133. RSI Shows Improving Momentum, but Resistance Remains Dark Defender also examined the Relative Strength Index (RSI) and the Ichimoku Cloud to assess XRP’s short-term momentum. His September 12 update recorded a four-hour RSI reading of 46.65, above its signal line at 39.41. He interpreted this crossover as a sign of improving bullish momentum in XRP’s rebound from support. However, the Ichimoku Cloud continued to indicate overhead resistance. Dark Defender identified the $1.42 area as an important level for XRP to overcome before the short-term outlook could improve further. These indicators suggest that buying momentum has improved, but XRP still needs to break through resistance before the chart can confirm a sustained recovery. Five-Day Chart Maintains the $10.11 Target Dark Defender’s longer-term chart places XRP’s initial advance toward $1.6992 within Wave 1, followed by the corrective Wave 2. If XRP completes this correction as he expects, he projects a potential Wave 3 advance toward $7.0786. His subsequent wave projections could then take the price to $10.1101. The analyst also identified $1.8815 as a significant level that XRP must reclaim to strengthen the longer-term bullish outlook. However, his projection depends on the market completing the expected wave structure. Reacting to the analysis, Siwers | LHT suggested that Wave 3 could prove particularly significant for XRP if Waves 1 and 2 develop as anticipated. The commenter also acknowledged that the market must confirm the setup. For now, Dark Defender’s forecast depends on XRP holding support and breaking through resistance. The $10.11 target remains a technical projection, not a confirmed destination. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Dark Defender Says XRP Will Target Wave 3 and This Will Happen appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "74115559",
+      "guid": "https://coinpaprika.com/news/thailand-clears-bitcoin-ether-etfs",
+      "published_on": 1791550800,
+      "imageurl": "https://resources.cryptocompare.com/news/80/74115559.jpeg",
+      "title": "Thailand Clears Bitcoin and Ether ETFs for Its Stock Exchange Next Week",
+      "url": "https://coinpaprika.com/news/thailand-clears-bitcoin-ether-etfs",
+      "body": "Thailand's Securities and Exchange Commission finalized rules letting Bitcoin and Ether exchange-traded funds list on the Stock Exchange of Thailand from October 16, 2026. Initial offerings cover only Bitcoin and Ether and must hold at least 80% net exposure to a single asset.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "74115000",
+      "guid": "https://cryptopotato.com/?p=1450768",
+      "published_on": 1791550547,
+      "imageurl": "https://resources.cryptocompare.com/news/27/74115000.jpeg",
+      "title": "One Whale Lost Nearly $70M in ETH – Another Got Wrecked Long and Short",
+      "url": "https://cryptopotato.com/one-whale-lost-nearly-70m-in-eth-another-got-wrecked-long-and-short/",
+      "body": "Bitcoin tanked from $87,000 to under $81,000 in just a few days and dragged almost all altcoins with it. As typically happens, those with over-leveraged positions got the worst of it, as the excessive open interest was attributed to the quick price moves. Lookonchain highlighted several large positions caught in the volatility, including an Ethereum whale that lost almost $70 million and AguilaTrades, whose trading return ended with losses on both sides. $70M ETH Position Wrecked Let’s begin with the biggest whale caught in the net of the market crash. An anonymous trader with a massive long position of 28,716 ETH was wiped out during the crash, with the greenback equivalent of $69.69 million. What’s even more impressive is that the whale has not abandoned the bullish bet. According to the on-chain resource, the trader subsequently opened another ETH long and now holds 78,955 ETH (worth over $195 million) in a fresh leveraged position. The new liquidation levels sit at just under $2,300. It’s worth noting that the altcoin tanked from over $2,700 to $2,400 before it rebounded by around a grand and now sits at around $2,500. Machi (Machi Big Brother) has lost $8.44 million over the past week, pushing his account value to under $1 million. As of press time, he still holds a 9,950 ETH long position worth over $24.6 million, with the liquidation price sitting at $2,431. AguilaTrades’ Unsuccessful Return Lookonchain further updated on the return of AguilaTrades. After more than six months on the sidelines, the trader opened a BTC long. However, he was caught by the market crash as well and closed the position at a $331,000 loss. He changed his mind and opened a 40x short on 200 BTC worth roughly $16.35 million. The market, though, flipped the script. Shortly after he turned bearish, the short position was wrecked , leaving him caught on the wrong side of both market moves. The latest update from the analytics resource indicated that his total losses for the day stand at $545,000. AguilaTrades(@AguilaTrades) returned to trading after more than 6 months of inactivity, only to get liquidated and lose $545K in just one day. Poor guy! https://t.co/2FywxlntZA https://t.co/j10B3v7brK — Lookonchain (@lookonchain) October 9, 2026 The post One Whale Lost Nearly $70M in ETH – Another Got Wrecked Long and Short appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Bitcoin (BTC) Price|Ethereum (ETH) Price|Whale",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "74114773",
+      "guid": "https://en.bitcoinsistemi.com/attention-binance-announces-delisting-of-14-altcoins-delisting-canceled-delisting-signal-given-for-t/",
+      "published_on": 1791550508,
+      "imageurl": "https://resources.cryptocompare.com/news/81/74114773.jpeg",
+      "title": "Attention: Binance Announces Delisting of 14 Altcoins! “Delisting Canceled!” – Delisting Signal Given for Two Altcoins!",
+      "url": "https://en.bitcoinsistemi.com/attention-binance-announces-delisting-of-14-altcoins-delisting-canceled-delisting-signal-given-for-t/",
+      "body": "Binance, the world’s largest cryptocurrency exchange, announced its new platform, Binance Alpha, in recent years to introduce early-stage altcoin projects. Binance, which has added many altcoins for listing, has now announced a delisting for its Binance Alpha platform. According to the announcement, Binance Alpha has implemented a comprehensive altcoin review mechanism. At this point, Binance Alpha announced that it had delisted 14 altcoins following a comprehensive review that included factors such as liquidity and trading volume. “Based on recent reviews, the following token(s) do not meet Binance Alpha’s standards and will be removed from the featured list on 09.10.2026 at 08:00 (UTC):” SUP (Superp), CUDIS (CUDIS), PYTHIA (PYTHIA), BLUM (Blum), KIN (Kindred Labs), DN (DeepNode), GAIA (Gaia), STRIKE (StrikeBit AI), CDL (Creditlink), KO (Kyuzo’s Friends), VRA (Verasity), EPT (Balance), SLX (SLIMEX) and CAI (CharacterX) Binance Alpha announced that withdrawal and sales transactions would continue even after the token was delisted. Both Altcoins Face Delisting Risk! In addition to the 14 altcoins, Binance announced that it has added two more altcoins to its watchlist. Accordingly, Binance announced that it will expand its Watch Label to include Biconomy (BICO) and Civic (CVC). The addition of these two altcoins to the watchlist does not automatically mean they will be delisted. “According to recent assessments, Binance will expand its Tracking Tag feature to include more tokens on October 9, 2026.” The tokens to be added to the Tracking Tag list are: BICO and CVC. Binance will conduct periodic project reviews and decide whether to add or remove the Tracking Tag from tokens based on its latest findings. *This is not investment advice. Continue Reading: Attention: Binance Announces Delisting of 14 Altcoins! “Delisting Canceled!” – Delisting Signal Given for Two Altcoins!",
+      "tags": "Altcoin|Analysis|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|EXCHANGE|MARKET|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "74115680",
+      "guid": "https://en.coinotag.com/japan-fsa-ic-chip-kyc-bitcoin-exchanges",
+      "published_on": 1791550378,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74115680.jpeg",
+      "title": "Japan's FSA Pulls Forward IC-Chip KYC for Bitcoin (BTC) Exchanges Before April 2027",
+      "url": "https://en.coinotag.com/japan-fsa-ic-chip-kyc-bitcoin-exchanges",
+      "body": "Japan's FSA urged banks and crypto exchanges on October 9 to shift from photo uploads to IC chip identity checks before the April 2027 abolition.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "74116230",
+      "guid": "https://thecryptobasic.com/?p=172719",
+      "published_on": 1791550374,
+      "imageurl": "https://resources.cryptocompare.com/news/65/74116230.jpeg",
+      "title": "Veteran Trader Says Last Cycle It Was XRP, This Time It’s Not",
+      "url": "https://thecryptobasic.com/2026/10/09/veteran-trader-says-last-cycle-it-was-xrp-this-time-its-not/",
+      "body": "Veteran Bitcoin investor Michael XBT believes Curve DAO Token (CRV) will be a standout performer in the current market cycle, drawing parallels to XRP rally in the previous cycle. He revealed that he invested heavily in XRP during the last cycle and now sees similar potential in CRV. Visit Website",
+      "tags": "Market|Latest XRP (Ripple) News Today",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRV|MARKET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "The Crypto Basic",
+        "img": "https://images.cryptocompare.com/news/default/thecryptobasic.png",
+        "lang": "EN"
+      },
+      "source": "thecryptobasic"
+    },
+    {
+      "id": "74116115",
+      "guid": "https://coinpedia.org/?p=585884",
+      "published_on": 1791550176,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Donald Trump Stock Holdings Reveals Nvidia, Coinbase and Strategy Transactions",
+      "url": "https://coinpedia.org/news/donald-trump-stock-holdings-reveals-nvidia-coinbase-and-strategy-transactions/",
+      "body": "The post Donald Trump Stock Holdings Reveals Nvidia, Coinbase and Strategy Transactions appeared first on Coinpedia Fintech News U.S. President Donald Trump’s latest financial disclosure reveals stock transactions involving Nvidia, Strategy, Coinbase, Microsoft, Meta Platforms and other major companies during August 2026. The report, filed with the U.S. Office of Government Ethics, also lists a purchase of SpaceX senior unsecured notes valued between $1 million and $5 million. The transactions provide a snapshot …",
+      "tags": "News|Altcoins|Crypto Stock|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BUSINESS|EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74115122",
+      "guid": "https://en.coinotag.com/bitcoin-btc-reclaims-83k-ai-revenue-fears-ease",
+      "published_on": 1791549951,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74115122.jpeg",
+      "title": "Bitcoin (BTC) Reclaims $83K as AI Revenue Fears Ease",
+      "url": "https://en.coinotag.com/bitcoin-btc-reclaims-83k-ai-revenue-fears-ease",
+      "body": "Bitcoin (BTC) reclaimed $83,000 as Nasdaq futures gained 0.8% premarket, with OpenAI's $70 billion revenue outlook and falling crude oil easing AI risk fears.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|COMMODITY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "74114190",
+      "guid": "content_6ac6a1ee743ffcd77a82a1cf",
+      "published_on": 1791549900,
+      "imageurl": "https://resources.cryptocompare.com/news/94/74114190.jpeg",
+      "title": "Tokenized Shares Continue To Drive Adoption, But Are Raising Accounting Questions As Well",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/10/09/tokenized-shares-continue-to-drive-adoption-but-are-raising-accounting-questions-as-well/",
+      "body": "Even as tokenized equity shares continue to come to market, accounting questions remain",
+      "tags": "Forbes Digital Assets|/digital-assets|Forbes Digital Assets|/digital-assets|standard",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET",
+      "source_info": {
+        "name": "Forbes Digital Assets",
+        "img": "https://resources.cryptocompare.com/news/94/default.png",
+        "lang": "EN"
+      },
+      "source": "forbes"
+    },
+    {
+      "id": "74113863",
+      "guid": "https://u.today/xrp-d-day-arrives-but-price-awaits-a-move",
+      "published_on": 1791549646,
+      "imageurl": "https://resources.cryptocompare.com/news/64/74113863.jpeg",
+      "title": "XRP D-Day Arrives but Price Awaits a Move",
+      "url": "https://u.today/xrp-d-day-arrives-but-price-awaits-a-move",
+      "body": "XRP’s long-awaited day arrives, but the market remains quiet.",
+      "tags": "XRP News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "74113642",
+      "guid": "https://en.coin-turk.com/?p=253012",
+      "published_on": 1791549390,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74113642.jpeg",
+      "title": "Zcash targets January for quantum-resistant signatures, launches private wallet tool",
+      "url": "https://en.coin-turk.com/zcash-targets-january-for-quantum-resistant-signatures-launches-private-wallet-tool/?utm_source=rss&utm_medium=rss&utm_campaign=zcash-targets-january-for-quantum-resistant-signatures-launches-private-wallet-tool",
+      "body": "🚨 Zcash plans to add quantum-resistant signatures in January to protect public payments. 💡 A new wallet tool lets users check balances without revealing linked addresses. 🛡️ About 70% of $ZEC sits in transparent addresses, making this update crucial for most holders. Continue Reading: Zcash targets January for quantum-resistant signatures, launches private wallet tool The post Zcash targets January for quantum-resistant signatures, launches private wallet tool appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ZEC",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1791549292,
+    "time_range_start": "2026-10-09 12:34:52",
+    "time_range_end": "2026-10-09 13:34:52"
+  }
+}
