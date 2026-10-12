@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261012_155146",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1791816706,
+    "time_range_start": "2026-10-12 14:51:46",
+    "time_range_end": "2026-10-12 15:51:46"
+  },
+  "total_articles": 23,
+  "unique_sources": 14,
+  "unique_categories": 21,
+  "unique_tags": 44,
+  "body_stats": {
+    "avg_length": 1748.91,
+    "min_length": 85,
+    "max_length": 7161
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-12 14:54:01",
+    "newest": "2026-10-12 15:48:59",
+    "time_span_minutes": 54.97
+  },
+  "top_sources": {
+    "CoinTurk News": 4,
+    "CoinOtag": 3,
+    "Cryptopolitan": 3,
+    "AMB Crypto": 2,
+    "CoinDesk": 2,
+    "BitcoinSistemi": 1,
+    "Invezz": 1,
+    "Bitzo": 1,
+    "Coinpaper": 1,
+    "Bitcoin.com": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 18,
+    "TRADING": 11,
+    "MARKET": 8,
+    "FIAT": 7,
+    "BTC": 7,
+    "REGULATION": 5,
+    "WALLET": 4,
+    "BUSINESS": 4,
+    "TECHNOLOGY": 3,
+    "MACROECONOMICS": 3,
+    "XRP": 3,
+    "SPONSORED": 2,
+    "ALTCOIN": 2,
+    "COMMODITY": 2,
+    "USDT": 2
+  },
+  "top_tags": {
+    "News": 9,
+    "Crypto News": 4,
+    "Bitcoin (BTC)": 3,
+    "Altcoin": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Finance": 2,
+    "Sponsored": 1,
+    "Crypto": 1,
+    "News 1": 1,
+    "More News": 1,
+    "Economy": 1,
+    "Ripple (XRP)": 1,
+    "Grindr": 1,
+    "Microsoft": 1
+  }
+}
