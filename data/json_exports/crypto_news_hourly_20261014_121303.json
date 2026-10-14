@@ -1,0 +1,672 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "74604776",
+      "guid": "https://news.bitcoin.com/?p=855816",
+      "published_on": 1791979558,
+      "imageurl": "https://resources.cryptocompare.com/news/14/74604776.jpeg",
+      "title": "Fidelity, Blackrock Lead $176M Bitcoin ETF Rebound",
+      "url": "https://news.bitcoin.com/bitcoin-etf/fidelity-blackrock-lead-176m-bitcoin-etf-rebound/",
+      "body": "U.S. crypto ETF flows improved sharply on Tuesday as bitcoin funds attracted $175.62 million and ether snapped a 10-session losing streak with $24.84 million in inflows. Fidelity Pulls in $103M as Bitcoin ETFs Flip Back to Inflows Institutional buyers returned with more conviction on Tuesday, but they were selective about where they put money. Bitcoin",
+      "tags": "Bitcoin ETF|Bitcoin (BTC)|Ethereum (ETH)|near protocol|zcash (ZEC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "74604885",
+      "guid": "https://en.coin-turk.com/?p=253531",
+      "published_on": 1791979470,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74604885.jpeg",
+      "title": "Coinbase, DOJ and UK agency disrupt West African crypto scams in joint London operation",
+      "url": "https://en.coin-turk.com/coinbase-doj-and-uk-agency-disrupt-west-african-crypto-scams-in-joint-london-operation/?utm_source=rss&utm_medium=rss&utm_campaign=coinbase-doj-and-uk-agency-disrupt-west-african-crypto-scams-in-joint-london-operation",
+      "body": "🚨 Coinbase joined DOJ and UK agencies in a London operation targeting West African scam networks. 💸 The team helped freeze assets and traced stolen funds linked to $8.65 billion in US online fraud losses. 🌍 Crackdown followed a surge in crypto scam activity as networks shifted from Southeast Asia to West Africa. Continue Reading: Coinbase, DOJ and UK agency disrupt West African crypto scams in joint London operation The post Coinbase, DOJ and UK agency disrupt West African crypto scams in joint London operation appeared first on COINTURK NEWS .",
+      "tags": "Coinbase",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74604565",
+      "guid": "https://www.trustnodes.com/2026/10/14/hack-the-planet-can-the-chatbots-get-away-with-that",
+      "published_on": 1791979371,
+      "imageurl": "https://images.cryptocompare.com/news/default/trustnodes.png",
+      "title": "Hack The Planet, Can The Chatbots Get Away With That?",
+      "url": "https://www.trustnodes.com/2026/10/14/hack-the-planet-can-the-chatbots-get-away-with-that",
+      "body": "An industry wash in trillions of dollars, that had the temerity to promise curing cancer, is currently very busy with teaching their models on how to hack...",
+      "tags": "Tech|Second|Opinion",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SECURITY INCIDENTS",
+      "source_info": {
+        "name": "TrustNodes",
+        "img": "https://images.cryptocompare.com/news/default/trustnodes.png",
+        "lang": "EN"
+      },
+      "source": "trustnodes"
+    },
+    {
+      "id": "74604886",
+      "guid": "https://cryptodaily.co.uk/2026/10/blur-frontend-deprecation-blend-loans-november-12",
+      "published_on": 1791979269,
+      "imageurl": "https://resources.cryptocompare.com/news/75/74604886.jpeg",
+      "title": "Blur Will Close Its Frontend and Stop New Blend Loans in November",
+      "url": "https://cryptodaily.co.uk/2026/10/blur-frontend-deprecation-blend-loans-november-12",
+      "body": "Blur will deprecate its blur.io frontend on November 12, while its marketplace protocol will remain operational on-chain, the company’s official account confirmed on October 13. The announcement follows Blur’s decision to stop matching new loans through its Blend lending product on the same date. November 12 frontend and Blend cutoff Blur said it will deprecate the user-facing blur.io frontend on November 12, while its marketplace protocol remains operational on-chain and BLUR retains control of the protocol’s fee switch, according to the company’s official X account . On the same date, Blend, Blur’s NFT-backed lending platform, will stop matching new loans, The Block reported on October 12. Blend borrower deadline Existing Blend borrowers must repay their loans by the cutoff or allow them to default. Blur plans to offer a withdrawal tool after that point, though the announced information did not specify further mechanics or a date for its availability. The November deadline ends new loan matching, not every on-chain component immediately: borrowers with outstanding positions have a defined action date, while users awaiting withdrawals must wait for the planned post-cutoff tool. Protocol remains after volume collapse The distinction is between Blur’s web interface and its underlying marketplace protocol: the company says the protocol will remain live on-chain. The retained BLUR fee-switch control indicates that governance over that function is likewise not being retired alongside the frontend. The move comes after a steep fall in marketplace activity. Blur’s monthly NFT trading volume declined from about $1.43 billion in March 2023 to less than $7 million in March 2026, a drop of more than 99.5%, according to CoinDesk . November 12 is now the concrete deadline for the frontend deprecation, the end of new Blend loan matching and repayment decisions for outstanding Blend borrowers. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|REGULATION|TRADING|BLUR",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "74604578",
+      "guid": "https://timestabloid.com/?p=113070",
+      "published_on": 1791979251,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Pundit Says Majority of XRP Holders Don’t Deserve the Wealth They Fantasize. Here’s why",
+      "url": "https://timestabloid.com/pundit-says-majority-of-xrp-holders-dont-deserve-the-wealth-they-fantasize-heres-why/",
+      "body": "A crypto enthusiast has challenged XRP holders to look beyond price targets and spend more time understanding the asset they own. Mrcauliman noted that many investors focus heavily on how much their XRP holdings could be worth at ambitious prices while paying less attention to XRP, the XRP Ledger (XRPL), and the factors that can influence demand. Mrcauliman Criticizes XRP Price Obsession In a recent post , Mrcauliman said many XRP holders focus primarily on the wealth they could gain from their holdings. He criticized investors who calculate how much their XRP would be worth at prices such as $100 without taking the time to understand how XRP works on the XRPL or what gives the asset utility. He said some holders have enough time to calculate hypothetical fortunes but do not use that time to study the technology or understand the factors that could create demand for XRP. Mrcauliman stressed that purchasing XRP does not entitle an investor to wealth. He also rejected the idea that holding XRP guarantees a future payout, warning that investors who rely entirely on a price target to change their financial situation could be relying on unrealistic expectations. Investors Push Back on the Argument The post drew responses from other members of the XRP community. Kyle Andrews questioned whether investors are expected to study an asset before buying it, noting that many people approach XRP in the same way they approach stocks by hoping they selected the right investment. Mudball also addressed the issue of XRP’s price reaction to positive developments. He noted that investors become frustrated because positive news surrounding XRP sometimes appears to coincide with falling prices. Responding to Mudball, Mrcauliman said that positive news does not automatically create immediate buying demand for XRP. He highlighted expectations, liquidity and selling pressure as factors that can influence price movements. He further noted that a decline following a positive news headline does not mean the news caused it. Mrcauliman repeated his broader point that some investors understand their preferred XRP price better than they understand the asset itself. Mrcauliman Clarifies His Position on Investors XRP Crypto Resource then challenged Mrcauliman’s position, saying investors who select successful companies deserve to benefit financially from their decisions. The account also said developers should receive compensation for their work but should not be considered more deserving of wealth than investors. Mrcauliman rejected that interpretation and said the argument attributed a position to him that he never expressed. He went further, explaining that his criticism focused on investors who refuse to understand what they own while treating hypothetical returns as money they are guaranteed to receive. He added that investing does not require someone to build the underlying technology, but it also does not guarantee a fortune. Mrcauliman also distinguished XRP from Ripple shares, noting that buying XRP is not the same as purchasing an ownership stake in Ripple . Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Pundit Says Majority of XRP Holders Don’t Deserve the Wealth They Fantasize. Here’s why appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Holders",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "74604552",
+      "guid": "https://ambcrypto.com/?p=641179",
+      "published_on": 1791979225,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Coinbase urges Bitcoin quantum preparation – ‘Begin this work now’",
+      "url": "https://ambcrypto.com/coinbase-urges-bitcoin-quantum-preparation-begin-this-work-now/",
+      "body": "The Q-Day may be years away, but Coinbase wants Bitcoin to be ready in advance",
+      "tags": "Bitcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "74604782",
+      "guid": "https://cointelegraph.com/news/hardware-wallet-supply-chain-risk-ledger-incident",
+      "published_on": 1791979182,
+      "imageurl": "https://resources.cryptocompare.com/news/16/74604782.jpeg",
+      "title": "Can crypto users trust the supply chain behind hardware wallets?",
+      "url": "https://cointelegraph.com/news/hardware-wallet-supply-chain-risk-ledger-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Ledger hardware wallet implants have renewed scrutiny of the middlemen handling devices before they reach buyers, even through authorized sellers.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "WALLET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "74604533",
+      "guid": "https://www.cryptopolitan.com/?p=318684",
+      "published_on": 1791979124,
+      "imageurl": "https://resources.cryptocompare.com/news/43/74604533.jpeg",
+      "title": "Hong Kong's celebrity NFT bust: Alex Fong counts losses as Blur folds",
+      "url": "https://www.cryptopolitan.com/hong-kong-star-alex-fong-blames-nfts/",
+      "body": "Hong Kong actor and singer Alex Fong says he lost more money on NFTs than he ever did trading stocks. The former Olympic swimmer made the revelation as Blur, a company that was once Ethereum’s largest NFT marketplace, has announced that it will be shutting down. Alex Fong joins other Hong Kong buyers in losing money on NFTs A 46-year-old Hong Kong actor and singer named Alex Fong has said that his NFT investments went so badly that he hid the scale of the losses from his wife, who asked about it almost daily. Fong was initially a competitive swimmer, but he moved into Hong Kong’s entertainment industry in 2001 and married artist Ye Xuan in February 2025. The couple announced the birth of a daughter that December. Fong says the losses on his NFTs were above anything he had lost in the stock market and warned fans not to copy him, blaming a fixation on getting rich overnight. In September 2021, Christie’s held its first NFT auction in Asia, “No Time Like Present,” built around Hong Kong actor Shawn Yue’s collection. The online sale brought in HKD 121.6 million ($15.6 million) and featured rare CryptoPunks, Bored Ape Yacht Club tokens, and Meebits. When Jay Chou’s PhantaBear collection launched a year later on January 1, 2022, all 10,000 tokens sold out in 40 minutes at 0.26 ETH each (about $1,000). Within days, it overtook Bored Ape Yacht Club. Meanwhile, sales of Edison Chen’s Heart Project jumped more than 20,000% as celebrities rushed in. However, by June 2022, PhantaBear’s floor price had dropped 96.6% from its peak to about 0.65 ETH (roughly US$730), below its launch price. NFTs tied to Chen and Yue also fell below their debut prices once the hype faded. A March 2026 CEPR study written by Economists William Goetzmann, Dong Huang, and Milad Nozari suggests that many NFT profits were never real. They looked at items that were resold and found that SuperRare prices seemed to grow about 490 times by October 2021, but only 6.2% of SuperRare NFTs were ever sold a second time. Owners also tended to sell their winners and keep their losers, skewing the data. Due to that, the economists estimate SuperRare’s actual peak was only about 10% of the reported figure, and it happened in March 2021, seven months earlier than the numbers suggested. Why is Blur shutting down? Blur, which once handled over 70% of all Ethereum NFT trades, said on October 12 that it will close its website on November 12. The company also said that it would stop offering new loans on its Blend lending service. The marketplace’s smart contracts will stay live on Ethereum, and BLUR holders will keep control of the fee switch. Blur’s monthly volume declined from about $1.43 billion in March 2022 to under $7 million three years later, a fall of more than 99.5%. BLUR dropped more than 20% after the announcement, to around US$0.015. The move follows the October 2 shutdown of Blast, another project from Blur founder Tieshun Roquerre. Aside from Blur, Cryptopolitan reported that Binance ended NFT trading on July 3, 2026. Nifty Gateway closed in April and Magic Eden scaled down its operations to focus on Solana. OpenSea, Tensor, Rarible and SuperRare are still running their NFT businesses. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|BAYC|BLUR|Magic Eden|OpenSea",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|ETH|TRADING|BLUR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "74604342",
+      "guid": "https://en.coin-turk.com/?p=253530",
+      "published_on": 1791979050,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74604342.jpeg",
+      "title": "Wells Fargo and 20 banks plan stablecoin launch for first half of 2027",
+      "url": "https://en.coin-turk.com/wells-fargo-and-20-banks-plan-stablecoin-launch-for-first-half-of-2027/?utm_source=rss&utm_medium=rss&utm_campaign=wells-fargo-and-20-banks-plan-stablecoin-launch-for-first-half-of-2027",
+      "body": "🚀 Wells Fargo and 20 financial giants will launch a stablecoin in early 2027. 💳 The banks plan to start with a digital dollar token and may add the euro later. 📈 Wells Fargo reported $5.95 billion in net income alongside its $USD stablecoin plan. Continue Reading: Wells Fargo and 20 banks plan stablecoin launch for first half of 2027 The post Wells Fargo and 20 banks plan stablecoin launch for first half of 2027 appeared first on COINTURK NEWS .",
+      "tags": "Stablecoin",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74604778",
+      "guid": "https://coinpedia.org/?p=586425",
+      "published_on": 1791978709,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Apple Stock Hits Record High as HomeView Launch Puts AI Growth Strategy in Focus",
+      "url": "https://coinpedia.org/price-analysis/apple-stock-hits-record-high-as-homeview-launch-puts-ai-growth-strategy-in-focus/",
+      "body": "The post Apple Stock Hits Record High as HomeView Launch Puts AI Growth Strategy in Focus appeared first on Coinpedia Fintech News Apple stock reached a record high as the company introduced its first smart home display, adding a new product category to its AI strategy. The HomeView device brings Siri, entertainment and connected-home controls into a single hub, positioning Apple against Amazon and Google. However, AAPL share price retreated from their intraday peak, however, as investors …",
+      "tags": "Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74604076",
+      "guid": "https://coinpaper.com/37267/monero-price-prediction-xmr-rises-3-as-peter-brandt-calls-it-his-favorite-altcoin-chart",
+      "published_on": 1791978672,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Monero Price Prediction: XMR Rises 3% as Peter Brandt Calls It His Favorite Altcoin Chart",
+      "url": "https://coinpaper.com/37267/monero-price-prediction-xmr-rises-3-as-peter-brandt-calls-it-his-favorite-altcoin-chart",
+      "body": "Key takeaways Peter Brandt favors Monero over several altcoin charts XMR rebounds toward $550 after recent market volatility Traders watch $565 resistance before potential $600 recovery Monero (XMR) is trading near $550 on October 14 following a strong rebound in the previous session, as veteran trader Peter Brandt's recent endorsement of its technical chart draws renewed attention to the privacy-focused cryptocurrency. XMR gained approximately 4% on October 13 after falling toward $520, recovering much of its recent losses. The rebound comes days after Brandt identified Monero as his preferred chart among several major altcoins, including XRP, Solana and Ethereum. However, whether XMR can extend its recovery toward $600 will depend on overcoming several nearby resistance levels. Peter Brandt Calls Monero His Favorite Altcoin Chart In an October 6 post on X , Brandt compared technical setups across several cryptocurrencies and highlighted Monero's relatively favorable price structure. ”Of these, my favorite by far is XMR,” Brandt wrote, explaining that his preference reflected historical price behavior rather than the cryptocurrency's underlying technology. His central argument concerned overhead supply, which represents potential selling pressure from investors who bought an asset at higher prices and may exit when it recovers. Brandt argued that Monero had already absorbed much of this supply, leaving fewer obvious technical obstacles than XRP. The distinction matters because a cryptocurrency can exhibit a bullish formation while still facing substantial resistance from previously trapped buyers. However, Brandt did not provide a specific new XMR price target in the comparison, nor did he confirm that he had opened a Monero position. His comments therefore represent a technical preference rather than a guaranteed forecast. Monero Price Rebounds After Falling Toward $520 Monero's latest recovery follows a volatile trading period. Historical XMR/USD market data show that the cryptocurrency fell from approximately $554 on October 7 to around $519 on October 9, before rebounding to nearly $549 on October 13. The October 13 session was particularly significant, with XMR trading between roughly $519 and $550 before closing near the upper end of that range. This movement follows the sharp Monero selloff in September, when XMR experienced substantial volatility after an earlier privacy-coin rally. Although the latest recovery supports improving short-term momentum, it has not yet established a sustained breakout above the cryptocurrency's early-October trading range. Monero's earlier breakout above $600 in January also illustrates how rapidly the asset can move when technical resistance gives way. Monero Price Prediction: Can XMR Reach $600? With Monero trading around $550, the immediate upside challenge is the $560–$565 region, where XMR encountered resistance earlier in October. A sustained move above $565 could bring the $580–$600 range into focus. Reaching $600 would require approximately 9.1% upside from the current reference price. Beyond that level, the September high near $630 represents a more ambitious technical objective, requiring roughly 14.5% appreciation. However, failure to hold $540 could expose the $525–$520 support region, followed by the psychologically important $500 level. These levels are conditional scenarios rather than targets issued by Brandt. Privacy Demand Could Support Monero, but Risks Remain Monero's investment narrative differs from that of many larger cryptocurrencies because its blockchain is designed to conceal transaction amounts and participant information by default. According to Monero's official documentation , the network uses ring signatures, stealth addresses and confidential transactions to provide financial privacy. Its supply model also includes ongoing mining rewards rather than Bitcoin-style periodic halvings, an important distinction explored in Coinpaper's Monero supply analysis . Nevertheless, regulatory restrictions and limited exchange access can reduce liquidity and magnify price volatility.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING|XMR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74603665",
+      "guid": "https://coinpaper.com/37265/ethereum-price-prediction-interactive-brokers-adds-eth-staking-as-783m-etf-exodus-finally-ends",
+      "published_on": 1791978407,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Ethereum Price Prediction: Interactive Brokers Adds ETH Staking as $783M ETF Exodus Finally Ends",
+      "url": "https://coinpaper.com/37265/ethereum-price-prediction-interactive-brokers-adds-eth-staking-as-783m-etf-exodus-finally-ends",
+      "body": "Key takeaways Interactive Brokers launches Ethereum staking through Zerohash Ethereum ETFs attract $24.8 million after prolonged withdrawals ETH faces critical resistance between $2,550 and $2,600 Ethereum is trading near $2,500 on October 14 as Interactive Brokers introduces ETH staking for eligible brokerage clients, expanding traditional investors' access to cryptocurrency rewards. The October 13 launch comes as Ethereum attempts to recover from a difficult week marked by declining prices and substantial ETF withdrawals. Although renewed institutional interest could improve sentiment, ETH has yet to establish a convincing breakout above $2,550–$2,600. Interactive Brokers Launches Ethereum Staking for Eligible Clients According to the official announcement , Interactive Brokers has introduced cryptocurrency staking through infrastructure provider Zerohash. At launch, eligible Interactive Brokers LLC customers can stake ETH directly through the broker's Client Portal, alongside their existing stock, options, futures and cryptocurrency investments. Clients can submit staking and unstaking requests through a dedicated dashboard, monitor pending activity and receive rewards credited as additional staked cryptocurrency. Those rewards may compound while positions remain staked. Interactive Brokers CEO Milan Galik compared the service to the company's Stock Yield Enhancement Program, explaining that investors should have opportunities to earn additional rewards from assets they already own. The brokerage supports trading in 20 digital assets, with cryptocurrency commissions starting between 0.12% and 0.18% of trade value. However, its new staking functionality initially supports Ethereum only. The development reinforces a broader trend toward institutional access to Ethereum staking , which already involved more than 43 million ETH in September. Importantly, allowing existing holders to stake ETH does not necessarily create additional buying pressure, even if it encourages investors to retain their holdings longer. Ethereum ETFs End 10-Day Outflow Streak With $24.8M Inflows The brokerage announcement coincides with a modest improvement in Ethereum ETF demand. According to Farside Investors , U.S. Ethereum ETFs attracted $24.8 million on October 13, ending ten consecutive trading sessions of net withdrawals. Those previous sessions, spanning September 29 through October 12, produced approximately $782.8 million in combined outflows. The reversal was driven by $16.7 million entering Grayscale's Ethereum Mini Trust and $8.1 million flowing into Fidelity's FETH. However, the latest inflows offset only about 3.2% of the preceding withdrawals, suggesting institutional demand remains fragile. This helps explain why ETH has struggled despite increased institutional participation . Ethereum Price Prediction: Can ETH Reclaim $2,600? Ethereum recovered from approximately $2,409 on October 13 to trade around $2,500 on October 14, suggesting buyers are defending the lower end of the recent trading range. However, the previous ETH price analysis identified $2,550–$2,600 as an important resistance area. From a $2,500 reference price, reaching $2,600 would require approximately 4% upside. A sustained move beyond that range could open a recovery toward $2,700, representing an 8% increase. Conversely, another rejection below $2,550 could leave Ethereum vulnerable to renewed selling toward $2,400. These levels represent conditional trading scenarios rather than confirmed forecasts. Will Staking Growth Help Ethereum's Long-Term Price? Ethereum's growing staking ecosystem could influence market supply by encouraging investors to commit ETH to network validation rather than keeping it immediately available for sale. Still, staking does not permanently remove tokens from circulation, and withdrawals can eventually return previously staked ETH to liquid markets. Recent staking withdrawal pressure illustrates why larger staking balances do not eliminate downside risk.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|ETH|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74603939",
+      "guid": "https://coinpedia.org/?p=586419",
+      "published_on": 1791978227,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "HYPE Price Analysis: $8.17 Million Whale Sale Puts $80 Support in Focus",
+      "url": "https://coinpedia.org/price-analysis/hype-price-analysis-8-17-million-whale-sale-puts-80-support-in-focus/",
+      "body": "The post HYPE Price Analysis: $8.17 Million Whale Sale Puts $80 Support in Focus appeared first on Coinpedia Fintech News The Hyperliquid (HYPE) price is facing renewed selling pressure, with the token trading near $81.36 in the latest chart snapshot after retreating from recent highs. The pullback comes as traders monitor a major holder’s $8.17 million HYPE transfer to Kraken and a concentration of leveraged positions around key price levels. With the market approaching a …",
+      "tags": "Price Analysis|Altcoins",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|EXCHANGE|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "34688377",
+      "guid": "https://coinpedia.org/?p=130830",
+      "published_on": 1791978215,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Beldex Price Prediction 2026, 2027 – 2030: Is BDX a Hidden Gem in Privacy Coins?",
+      "url": "https://coinpedia.org/price-prediction/beldex-price-prediction/",
+      "body": "The post Beldex Price Prediction 2026, 2027 – 2030: Is BDX a Hidden Gem in Privacy Coins? appeared first on Coinpedia Fintech News Story Highlights The live price of the Beldex token is BDX could attempt a recovery toward $0.057–$0.12 by 2026 if demand for privacy-focused Web3 tools increases. By 2030, BDX may move toward $0.817 if confidential ecosystems gain wider acceptance. Beldex BDX is building a particular corner of Web3, one where privacy is the default, not …",
+      "tags": "Cryptocurrency Price Prediction|Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74603387",
+      "guid": "https://en.coin-turk.com/?p=253529",
+      "published_on": 1791978210,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74603387.jpeg",
+      "title": "Saifedean Ammous says Bitcoin can surpass gold in market cap, outpace volatility",
+      "url": "https://en.coin-turk.com/saifedean-ammous-says-bitcoin-can-surpass-gold-in-market-cap-outpace-volatility/?utm_source=rss&utm_medium=rss&utm_campaign=saifedean-ammous-says-bitcoin-can-surpass-gold-in-market-cap-outpace-volatility",
+      "body": "🚀 Saifedean Ammous says $BTC can rival gold as volatility drops and adoption grows. 📈 Industry analysts predict Bitcoin could reach a $1 million price, matching gold’s market cap. 💡 Bitcoin’s current $1.6 trillion market cap is still far behind gold’s $29 trillion value. Continue Reading: Saifedean Ammous says Bitcoin can surpass gold in market cap, outpace volatility The post Saifedean Ammous says Bitcoin can surpass gold in market cap, outpace volatility appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74604349",
+      "guid": "https://en.coinotag.com/gamestop-ceo-ryan-cohen-buys-22-8-million-in-shares",
+      "published_on": 1791978123,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74604349.jpeg",
+      "title": "GameStop (GME) CEO Ryan Cohen Adds $22.8 Million in Shares, Filing Shows",
+      "url": "https://en.coinotag.com/gamestop-ceo-ryan-cohen-buys-22-8-million-in-shares",
+      "body": "GameStop (GME) CEO Ryan Cohen bought another $22.8 million in shares per an October 13 filing, lifting his total disclosed buying to about $97 million.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "74603421",
+      "guid": "https://www.cryptopolitan.com/?p=318686",
+      "published_on": 1791978056,
+      "imageurl": "https://resources.cryptocompare.com/news/43/74603421.jpeg",
+      "title": "Germany leads approvals as banks push into crypto under MiCA regime",
+      "url": "https://www.cryptopolitan.com/germany-becomes-mica-gateway-banks-crypto/",
+      "body": "Authorities in Germany are granting more authorizations under Europe’s MiCA law than those in other nations of the European Union. Almost all of the recently licensed entities are banking institutions, which have been trying to enter the regulated crypto market. Meanwhile, Berlin’s attempt to abolish a tax break for long-term coin investments is facing resistance, forcing the government to delay the plan. Bundesrepublik issues most MiCA licenses in Europe with banks forming the bulk Germany is establishing itself as the leader in terms of new authorizations under the Old Continent’s now fully enforced Markets in Crypto Assets (MiCA) regulation. The Federal Republic is issuing more licenses in accordance with the current rules than any other EU member state, local crypto media revealed, citing official stats. In the third quarter alone, 42 organizations received approvals, the BTC Echo website reported on Wednesday, quoting a new report from FinPlanet. That compares to a total of 72 across all of Europe, according to the survey, which was released by the digital-asset management consulting and compliance firm this week. Europe’s economic powerhouse and major cryptocurrency market accounted for more than half of all new authorizations in the region, the analysis shows. The latter was based on data sourced from Germany’s Federal Financial Supervisory Authority (BaFin) and the European Securities and Markets Authority (ESMA). It’s worth noting that all but one of the newly licensed entities are banking institutions. Among them are a number of cooperative banks, remarked the crypto news outlet. Germany’s Deutsche Bank is in the group as well. The Frankfurt-headquartered banking and financial services giant obtained its regulatory approval under MiCA last month. Out of a total of 100 companies registered as crypto service providers (CASPs), 65 are banks, according to FinPlanet’s CASP Radar report covering Q3 of 2026. German regulators authorized 58 institutions during the previous quarter. Another 120, licensed in other EU nations, will be able to operate in the Bundesrepublik, too. MiCA licensing slows down across Europe The EU’s MiCA regulation was passed by the European Parliament in April 2023 and formally adopted by the Council in mid-May of the same year. The comprehensive framework for digital assets and operations officially entered into force on June 29, 2023, with its publication in the Official Journal of the European Union. However, it took another three years for the law to enter into full effect as it was rolled out in several stages, including for stablecoins and other asset-backed tokens as well as CASPs in 2024. A transitional period allowing national governments in member states to transpose the legislation into domestic law and apply the pan-European rules ended on July 1, 2026. Since that date, all providers of crypto-related services in the European Economic Area (EEA), including the non-EU states Norway, Iceland, and Liechtenstein, must hold a MiCA license. While during the studied period, the number of licensed entities rose to 363, growth in new authorizations has slowed significantly, from 105 in the second quarter. Besides, not all are granted regulatory approvals, as was the recent case with Bitcoin.de, one of oldest and largest coin trading platforms in Germany and Europe. Earlier in October, Bafin rejected the MiCA application filed by its operator, futurum bank AG, part of Bitcoin Group SE. The future remains uncertain for the crypto marketplace, which serves more than 1 million users. Over the past years, crypto investors have enjoyed favorable treatment in Germany, including a tax break for gains from investments in digital assets held for more than a year. Indications that the federal government in Berlin intends to scrap the exemption for long-term cryptocurrency investments have been mounting this year. A bill drafted by the Finance Ministry aims to slap a 25% capital gains tax on all profits from crypto trading, regardless of the holding period, as Cryptopolitan reported in September. The good news for crypto owners in Germany this week is that the coalition cabinet of Chancellor Friedrich Merz is apparently postponing the decision under public pressure and opposition from members of the ruling majority in the Bundestag. Don’t just read crypto news. Understand it. Subscribe to our newsletter. It's free .",
+      "tags": "Regulation|BTC|EEA|ETH|EUR",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|MARKET|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "74603111",
+      "guid": "https://coinpaper.com/37263/bank-of-america-reports-q3-earnings-miss-as-profit-drops-sharply",
+      "published_on": 1791977924,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Bank of America Reports Q3 Earnings Miss as Profit Drops Sharply",
+      "url": "https://coinpaper.com/37263/bank-of-america-reports-q3-earnings-miss-as-profit-drops-sharply",
+      "body": "Key takeaways Bank of America reported weaker Q3 2026 results, with net income falling to $6.9 billion A $1.2 billion regulatory charge and weaker investment banking and trading revenue weighed heavily on the quarter AC stock fell around 4% in premarket trading as investors reacted to the earnings miss Bank of America reported weaker-than-expected third-quarter 2026 earnings on Wednesday, Oct. 14. A $1.2 billion regulatory penalty and declining investment banking revenue weighed on its financial performance. So far, the disappointing results triggered a selloff in the banking giant's shares. Bank of America fell approximately 4% in premarket trading as investors reacted to the earnings miss and mounting regulatory concerns. Bank of America Q3 2026 Earnings Miss Wall Street Expectations According to the bank's official earnings announcement, net income declined to $6.9 billion, or $0.91 per share, during the three months ending Sept. 30. That compares with $8.3 billion, or $1.04 per share, during the corresponding quarter in 2025. Excluding the regulatory settlement, adjusted earnings reached $1.08 per share, which was slightly below analysts' expectations of $1.10. Meanwhile, quarterly revenue totaled approximately $30 billion, missing Wall Street's forecast of $30.58 billion. The earnings decline was largely attributed to a $1.2 billion charge related to failures in the bank's anti-money laundering controls. US regulators identified shortcomings involving more than $5 billion in suspicious transactions that were not properly reported. Investment Banking and Trading Revenue Decline Beyond the regulatory penalty, Bank of America's investment banking operations experienced a challenging quarter. Investment banking fees declined 11% to $1.8 billion, thanks to weaker dealmaking activity during the recent geopolitical uncertainty , elevated borrowing costs and market volatility. Sales and trading revenue also fell 5% to $5.1 billion, primarily because of weaker performance in fixed-income, currency and commodities trading. However, the bank showed some resilience in other areas. Net interest income increased approximately 9% year over year to $16 billion, supported by loan growth and a larger deposit base. Credit quality remained relatively stable, with net charge-offs totaling $1.35 billion, compared with $1.41 billion during the previous quarter. Bank of America Stock Falls Following Q3 Results Bank of America shares closed Tuesday, Oct. 13, at approximately $53.96 after a 1.14% decline during the regular trading session. Selling pressure intensified after the earnings announcement on Wednesday. BAC shares dropped approximately 4% in premarket trading. The decline likely happened due to investor concerns about weaker profitability, disappointing investment banking performance and potential compliance expenses. The stock already fell approximately 1.9% since the beginning of 2026 through Tuesday's close. Investors will now be watching whether stronger net interest income can offset regulatory expenses and weakness in capital markets activity during the final quarter of 2026.",
+      "tags": "News|Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|MARKET|TRADING",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74603109",
+      "guid": "https://coinpaper.com/37261/bitcoin-price-prediction-citis-113k-target-implies-35-upside-despite-btcs-weak-recovery",
+      "published_on": 1791977871,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Bitcoin Price Prediction: Citi's $113K Target Implies 35% Upside Despite BTC's Weak Recovery",
+      "url": "https://coinpaper.com/37261/bitcoin-price-prediction-citis-113k-target-implies-35-upside-despite-btcs-weak-recovery",
+      "body": "Key takeaways Citi raises Bitcoin target from $82,000 to $113,000 Bitcoin ETF inflows rebound by $175.7 million Inflation and Treasury yields threaten BTC recovery Bitcoin's recovery remains fragile, with BTC trading around $83,400 in the October 14 reference market snapshot, approximately 35.5% below Citigroup's newly revised $113,000 price target. The investment bank expects stronger institutional demand to support Bitcoin over the next 12 months, but recent price weakness and volatile ETF flows suggest the path toward six figures could be difficult. A fresh $175.7 million rebound in spot Bitcoin ETF inflows offers some encouragement, while U.S. inflation remains a major near-term risk. Citi Raises Bitcoin Price Target by 38% to $113,000 Citigroup raised its 12-month Bitcoin price target from $82,000 to $113,000 on October 1, representing a 37.8% upgrade to its previous forecast. The bank cited stronger cryptocurrency market activity, improving macroeconomic conditions and expectations that investment inflows will resume as financial advisers and brokerage firms gradually increase their Bitcoin allocations. Citi anticipates approximately $5 billion in cryptocurrency investment inflows over the coming year, potentially providing additional demand for digital assets. However, the forecast depends on sustained investor participation rather than a single strong trading session. Interestingly, Citi's target remains below Bitcoin's October 2025 record above $126,000. That means the bank is forecasting a substantial recovery rather than a new all-time high, even after its earlier Bitcoin outlook highlighted improving institutional sentiment. At $83,400, Bitcoin would need to gain approximately $29,600 to reach Citi's target. Bitcoin ETFs Attract $175.7M After Heavy Outflows Institutional demand showed signs of improvement on October 13, when U.S. spot Bitcoin ETFs attracted $175.7 million in net inflows. According to Farside Investors , Fidelity's FBTC led with $103.1 million, followed by BlackRock's IBIT with $65.9 million. Morgan Stanley's MSBT contributed another $6.7 million. The recovery followed $65.4 million in withdrawals on October 12 and approximately $678.9 million in net outflows during October 5–9. This creates an important distinction between improving short-term demand and a sustainable institutional buying trend. One positive session cannot erase an entire week of withdrawals. Furthermore, as explained in our Bitcoin ETF supply analysis , fund purchases can exceed daily mining production without guaranteeing higher prices because existing holders may simultaneously sell. Bitcoin Price Prediction: Can BTC Break $85K? Bitcoin's immediate technical challenge is recovering $85,000, approximately 1.9% above the reference price. A sustained breakout could bring $90,000 into focus, requiring around 7.9% upside. Reaching $100,000 would demand a 19.9% advance, while Citi's $113,000 target implies approximately 35.5%. However, failure to maintain support around $82,000 could expose $80,000, a psychologically significant level previously examined during Bitcoin's $680 million ETF withdrawal period. US Inflation Could Determine Bitcoin's Next Target The October 14 U.S. inflation release introduces another potential catalyst. Economists surveyed by Reuters expected annual headline inflation of approximately 3.6% in September, partly reflecting higher energy prices. An upside inflation surprise could reinforce expectations of restrictive Federal Reserve policy and elevated Treasury yields, potentially reducing demand for risk-sensitive assets. Conversely, softer inflation could ease pressure on bond yields and support a recovery, although lower inflation would not automatically translate into Bitcoin buying.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74602848",
+      "guid": "https://en.bitcoinsistemi.com/a-major-quantum-threat-is-approaching-for-bitcoin-coinbase-issues-urgent-call/",
+      "published_on": 1791977707,
+      "imageurl": "https://resources.cryptocompare.com/news/81/74602848.jpeg",
+      "title": "A Major Quantum Threat is Approaching for Bitcoin! Coinbase Issues Urgent Call!",
+      "url": "https://en.bitcoinsistemi.com/a-major-quantum-threat-is-approaching-for-bitcoin-coinbase-issues-urgent-call/",
+      "body": "Recent rapid advancements in quantum computing technology have brought the quantum threat back to the forefront of security concerns for cryptocurrencies, particularly Bitcoin. The possibility that sufficiently powerful quantum computers could break the current cryptographic systems of cryptocurrencies is raising concerns about the long-term security of digital assets. Therefore, the transition to quantum-resistant technologies and the preparation of existing networks against quantum attacks are becoming increasingly important in the crypto sector, and warnings are mounting. The latest warning comes from Coinbase. Coinbase Issues Quantum Warning for Bitcoin! Coinbase, which holds approximately 5% of the BTC supply, stated that the Bitcoin network needs to prepare for cryptographic threats that quantum computers may pose in the future. It emphasized that the network should begin planning for a transition as soon as possible. Coinbase’s assessment noted that the transition process could take years. The exchange stated that Bitcoin needs to proactively respond to potential cryptographic risks that may arise from quantum computers in the future. At this point, an article titled “Working Together on Bitcoin’s Post-Quantum Readiness” written by Coinbase analyst Shashank Agrawal emphasized that Bitcoin’s transition to post-quantum security cannot be solved simply by choosing a new digital signature algorithm. The exchange added that many factors need to be considered together, including block space constraints, full node verification capacity, institutional asset custody requirements, compatibility with retail wallets, and how to handle non-transferable funds. According to the company, developers, researchers, and other stakeholders in the crypto ecosystem need to work in coordination to protect the network against future threats. At this point, Coinbase stressed that the transition could take years and that preparations needed to be completed before any quantum computing threat became a reality. Coinbase also stated that the future of Bitcoins whose keys are lost or cannot be transferred by their owners, and which are held in old addresses, also needs to be addressed. *This is not investment advice. Continue Reading: A Major Quantum Threat is Approaching for Bitcoin! Coinbase Issues Urgent Call!",
+      "tags": "Analysis|Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|MARKET|TECHNOLOGY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "74603807",
+      "guid": "https://en.coinotag.com/payward-kraken-saldo-bank-acquisition",
+      "published_on": 1791977704,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74603807.jpeg",
+      "title": "Kraken Parent Payward Signs Deal to Buy Lithuanian Bank Saldo, Closing in 2027",
+      "url": "https://en.coinotag.com/payward-kraken-saldo-bank-acquisition",
+      "body": "Payward, Kraken's parent, signed a deal to buy Lithuania's Saldo Bank, gaining an EU banking license across five markets with closing expected in 2027.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|FIAT|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "74603381",
+      "guid": "https://en.coinotag.com/ethereum-eth-20-percent-gain-3k-december",
+      "published_on": 1791977400,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74603381.jpeg",
+      "title": "Ethereum (ETH) Needs a 20% Gain to Reach $3,000 by December",
+      "url": "https://en.coinotag.com/ethereum-eth-20-percent-gain-3k-december",
+      "body": "Ethereum trades near $2,505 and needs roughly a 20% gain to reach $3,000 by December, with ETF outflows and rising supply weighing on the path.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "74602656",
+      "guid": "https://en.coin-turk.com/?p=253528",
+      "published_on": 1791977370,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74602656.jpeg",
+      "title": "Evernorth to ring Nasdaq Closing Bell after $300 million debut, holds 473 million XRP",
+      "url": "https://en.coin-turk.com/evernorth-to-ring-nasdaq-closing-bell-after-300-million-debut-holds-473-million-xrp/?utm_source=rss&utm_medium=rss&utm_campaign=evernorth-to-ring-nasdaq-closing-bell-after-300-million-debut-holds-473-million-xrp",
+      "body": "🔔 Evernorth rings the Nasdaq Closing Bell after listing under XRPN with $300 million proceeds. 🪙 The company enters public markets holding 473 million $XRP, the largest pure-play XRP treasury. 🚀 Investors debate whether public listing ceremonies affect asset prices or long-term value. Continue Reading: Evernorth to ring Nasdaq Closing Bell after $300 million debut, holds 473 million XRP The post Evernorth to ring Nasdaq Closing Bell after $300 million debut, holds 473 million XRP appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|XRP|DIGITAL ASSET TREASURY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74602590",
+      "guid": "https://cryptonews.com/news/ethereum-price-prediction-tom-lee-2/",
+      "published_on": 1791977340,
+      "imageurl": "https://resources.cryptocompare.com/news/52/74602590.jpeg",
+      "title": "Ethereum Price Prediction: Tom Lee Warns of ETH Drawdown After Kospi Bloodbath",
+      "url": "https://cryptonews.com/news/ethereum-price-prediction-tom-lee-2/",
+      "body": "Ethereum is trading at the $2,500 level as Tom Lee warns that Korea’s equity rout could spill into crypto, a bearish price prediction. The immediate question is whether forced selling can push ETH below $2,400, or whether that level can contain the damage. A sharp KOSPI drop is the trigger; ETF flows and leverage determine how far the shock travels. South Korea’s KOSPI fell more than 6% on October 13 in a technology-led selloff, with emergency trading controls reportedly activated. Lee, chairman of Bitmine Immersion Technologies, identified margin liquidations at Korean brokerages as a transmission channel: investors facing equity margin calls may sell liquid assets such as Ether to raise cash. Tom Lee believes South Korea’s stock market sell-off could be spilling over into crypto. Here’s why this matters. South Korea is a major crypto market, and when its stock market drops sharply, investors facing margin calls may be forced to sell other assets, including… pic.twitter.com/6hRM1luigT — D€~B€$T.nft (@debest_nft) October 14, 2026 ETH recently probed the $2,400 area before recovering toward $2,500, but the rebound has not cleared the broader pressure from leverage liquidations and uneven ETF demand. The price response now matters more than the warning alone: can support hold if Korean volatility persists? Earn $50 and Enter $300K Prize Draw on EdgeX Ethereum Price Prediction: Can ETH Reclaim $2,600 This Week? ETH is actually holding steady at $2,500, with a 24-hour range of $2,495–$2,520. The broader recent range was wider, from $2,410 to $2,560, showing how quickly the market tested lower bids before stabilizing. Support sits near $2,400; below it, $2,350–$2,360 is the next zone to watch. Resistance spans roughly $2,546–$2,600, with $2,666 a more meaningful recovery threshold. The setup remains fragile after a breakdown from higher levels. A seven-day model estimate near $2,504, with a projected range of $2,353–$2,666, offers little directional conviction. Ethereum (ETH) 24h 7d 30d 1y All time If $2,400 holds, ETF flows stabilize, and ETH could reclaim $2,600. Or price consolidates around $2,500 while traders await macro data and clearer flow signals, but renewed Korean equity stress or persistent liquidations could break $2,400 and expose $2,350. The risk is not abstract: weekly U.S. spot Ether ETF outflows were reported at approximately $542.1 million. Trade Ethereum on Bybit and Get a Chance to Win Our $1,000 USDT Airdrop LiquidChain Targets Early-Mover Interest as Ethereum Tests Support If ETH loses $2,400, holders may face another round of forced de-risking; even a hold would not erase the weakness in momentum. That makes the distinction between a tactical bounce and a confirmed recovery important. Rotating attention toward early-stage infrastructure may appeal to traders seeking a different risk profile. He said five more minutes. The Order said no. ⟁ pic.twitter.com/gegLD13ml3 — LiquidChain (@getliquidchain) October 11, 2026 LiquidChain ($LIQUID) is a Layer 3 project positioning itself as “The Cross-Chain Liquidity Layer,” designed to fuse Bitcoin, Ethereum, and Solana liquidity in one execution environment. Its stated model is deploy once, access all: developers deploy once across ecosystems, with features including a Unified Liquidity Layer, Single-Step Execution, Verifiable Settlement, and Deploy-Once Architecture. The presale price is $0.014965 , with $985K raised. Staking is also offered at a very high 1100% APY , only for presale buyers. Traders can research LiquidChain and review its stated features before the presale window closes. Discover: The Best Token Presales The post Ethereum Price Prediction: Tom Lee Warns of ETH Drawdown After Kospi Bloodbath appeared first on Cryptonews .",
+      "tags": "Price Analysis|Ethereum (ETH)|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|ETH|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "74602305",
+      "guid": "https://invezz.com/news/2026/10/14/zcash-jumps-6-in-two-days-despite-fresh-grayscale-outflows-can-zec-break-1320/",
+      "published_on": 1791977246,
+      "imageurl": "https://resources.cryptocompare.com/news/69/74602305.jpeg",
+      "title": "Zcash jumps 6% in two days despite fresh Grayscale outflows: can ZEC break $1,320?",
+      "url": "https://invezz.com/news/2026/10/14/zcash-jumps-6-in-two-days-despite-fresh-grayscale-outflows-can-zec-break-1320/",
+      "body": "Zcash (ZEC) rose 2% Wednesday, extending Tuesday’s 4% advance and recovering much of the ground lost during Monday’s sell-off. The privacy-focused cryptocurrency traded around $1,264 as buyers challenged nearby technical resistance. However, persistent withdrawals from Grayscale’s Zcash-focused fund continue to weigh on the demand picture. The recovery has improved short-term momentum, but ZEC still needs to clear its moving-average resistance zone and Monday’s peak to establish a stronger bullish outlook. Grayscale’s ZCSH records further redemptions Grayscale’s ZCSH fund posted $5.19 million in net outflows Tuesday, according to SoSoValue data . The withdrawals followed $1.66 million on Monday and $30.72 million across the previous week. Together, the first two sessions of this week produced $6.85 million in net redemptions. Selling pressure has persisted since late September, coinciding with the fund’s September 30 three-for-one share split. The timing alone does not establish that the split caused the withdrawals. These figures show that the rebound in ZEC’s spot price has yet to coincide with renewed buying through the investment product. Continued redemptions remain a headwind as traders assess whether the recent gains can develop into a sustained recovery. For the demand outlook to improve, a slowdown in redemptions or a return to net inflows would provide a more supportive signal alongside the strengthening price momentum. Zcash technical forecast: ZEC tests $1,261–$1,269 Moving-Average zone On the four-hour chart, ZEC has recovered from Tuesday’s low near $1,123 and is testing its declining 50-period and 200-period exponential moving averages. The averages sit at approximately $1,261 and $1,269. At $1,264, ZEC is slightly above the shorter-term average but remains below the longer-term barrier. A sustained move above this narrow zone would strengthen the immediate recovery. Repeated rejection could leave the token vulnerable to renewed selling. The price structure therefore remains mixed, with improving momentum meeting overhead resistance. The Relative Strength Index has risen to around 48, indicating modest positive momentum but remains below its neutral midpoint. The Moving Average Convergence Divergence line is also marginally above its signal line, supporting a tentative bullish shift. For a more convincing recovery, ZEC needs to reclaim $1,320, the peak established Monday on the four-hour chart. A sustained break above that level could bring $1,422 into focus. That price corresponds to the September 18 low identified in the analysis and now serves as a potential upside resistance target. If the rebound fades, Thursday’s low near $1,115 provides the next important downside reference. Below that, support stands around $1,050, corresponding to the September 4 high. The psychological $1,000 level offers a further threshold to watch. Zcash’s immediate direction hinges on whether buyers can maintain momentum through the moving-average zone. Clearing $1,320 would reinforce the recovery, while failure to overcome resistance could expose the lower support levels again. The post Zcash jumps 6% in two days despite fresh Grayscale outflows: can ZEC break $1,320? appeared first on Invezz",
+      "tags": "Altcoins|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING|ZEC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Invezz",
+        "img": "https://resources.cryptocompare.com/news/69/default.png",
+        "lang": "EN"
+      },
+      "source": "invezz"
+    },
+    {
+      "id": "74602385",
+      "guid": "https://coinpaper.com/37259/ripple-signs-fourth-korean-institutional-partner-with-meritz-securities-as-xrp-ledger-adoption-expands-in-asia",
+      "published_on": 1791977220,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Ripple Signs Fourth Korean Institutional Partner With Meritz Securities as XRP Ledger Adoption Expands in Asia",
+      "url": "https://coinpaper.com/37259/ripple-signs-fourth-korean-institutional-partner-with-meritz-securities-as-xrp-ledger-adoption-expands-in-asia",
+      "body": "Key takeaways Ripple secures its fourth Korean institutional partnership Meritz Securities explores custody, tokenization and crypto ETFs Deal expands Ripple's footprint beyond banking and insurance Ripple has signed a strategic partnership with South Korea's Meritz Securities, marking its fourth institutional agreement in the country during 2026 and its first with a securities firm. The October 14 announcement extends Ripple's presence across South Korea's banking, insurance and capital markets, although the companies have not confirmed any XRP purchases or immediate XRP Ledger deployment. Ripple Signs Fourth Korean Deal as Meritz Explores Crypto ETFs According to Ripple's announcement , the companies will explore integrating Ripple Custody and tokenization infrastructure into Meritz Securities' existing operations. Ripple Custody provides regulated institutions with infrastructure for storing, transferring and settling digital assets. The partnership will initially operate within existing securities regulations, with additional services potentially introduced as South Korea's regulatory framework develops. Meritz is evaluating several digital-asset businesses, including spot cryptocurrency ETFs, fractional investments, security tokens, trading platforms and Korean won-denominated stablecoins. However, these remain potential business opportunities rather than confirmed product launches. Ripple said it operates across more than 60 markets and holds over 85 licenses worldwide, providing a regulatory and infrastructure foundation for expanding institutional services. Ripple Expands Across Four Korean Financial Institutions The Meritz agreement follows three other partnerships that have established Ripple's presence in different areas of Korean finance. In April, Kyobo Life Insurance partnered with Ripple to explore tokenized government bonds , with the aim of reducing settlement times through digital-asset custody infrastructure. Later that month, Kbank, South Korea's first internet-only bank, announced plans to deploy institutional wallet infrastructure through Ripple Custody. In August, Jeonbuk Bank became the country's first regional bank to adopt Ripple Payments for cross-border remittances. Meritz introduces a fourth segment: securities and capital markets. Together, the agreements give Ripple institutional relationships spanning custody, banking infrastructure, international payments and potential tokenized investments. The expansion also follows Ripple's Brazilian market infrastructure partnership, where CSD BR began using XRPL to mirror selected investment fund ownership records.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|MARKET|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74602660",
+      "guid": "https://en.coinotag.com/uk-high-court-applies-chinese-law-61000-bitcoin-claims",
+      "published_on": 1791976843,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74602660.jpeg",
+      "title": "UK High Court Applies Chinese Law to Claims on 61,000 Seized Bitcoin (BTC)",
+      "url": "https://en.coinotag.com/uk-high-court-applies-chinese-law-61000-bitcoin-claims",
+      "body": "The UK High Court ruled Chinese law governs property claims to 61,000 seized Bitcoin worth $5 billion, leaving fraud victims' recovery uncertain.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "3870333",
+      "guid": "https://coinpedia.org/?p=149060",
+      "published_on": 1791976800,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "XDC Network Price Prediction 2026, 2027 – 2030: Is XDC Price a Good Investment?",
+      "url": "https://coinpedia.org/price-prediction/xdc-network-xdc-price-prediction/",
+      "body": "The post XDC Network Price Prediction 2026, 2027 – 2030: Is XDC Price a Good Investment? appeared first on Coinpedia Fintech News Story Highlights The XDC Price today is . The XDC Network price could hit a high of $0.052 in 2026. This altcoin, with a potential surge, may reach a high of $0.8347 by 2030. XDC Network (XDC) is an enterprise-focused Layer-1 blockchain designed to power cross-border payments, trade finance, and real-world asset (RWA) tokenization. Built …",
+      "tags": "Cryptocurrency Price Prediction|Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALGO|ALTCOIN|BLOCKCHAIN|MARKET|TECHNOLOGY|TRADING|XDC",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74601773",
+      "guid": "https://coinpaper.com/37257/xrp-etfs-extend-13-week-inflow-streak-as-ripple-token-falls-7-despite-continued-institutional-demand",
+      "published_on": 1791976720,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "XRP ETFs Extend 13-Week Inflow Streak as Ripple Token Falls 7% Despite Continued Institutional Demand",
+      "url": "https://coinpaper.com/37257/xrp-etfs-extend-13-week-inflow-streak-as-ripple-token-falls-7-despite-continued-institutional-demand",
+      "body": "Key takeaways XRP ETFs reportedly extend inflow streak to 13 weeks XRP price drops 7.3% despite fresh institutional demand Bitwise dominates inflows as broader crypto funds weaken U.S. spot XRP exchange-traded funds reportedly extended their net inflow streak to 13 consecutive weeks, attracting approximately $11.3 million between October 5 and October 9 despite XRP losing more than 7% of its value. The divergence highlights a growing disconnect between demand for regulated XRP investment products and the cryptocurrency's performance in the broader market. XRP declined from approximately $1.52 to $1.40 during the week, briefly touching $1.32, while cumulative ETF inflows approached $1.8 billion. XRP ETF Inflows Continue Despite 7% Price Drop The latest weekly inflows were concentrated in a small number of investment products rather than distributed evenly across issuers. Bitwise's XRP ETF reportedly attracted approximately $10.55 million, accounting for most of the week's positive flows. Franklin Templeton's XRPZ added roughly $4.1 million, while Canary Capital's XRPC recorded approximately $3.34 million in withdrawals. The concentration is significant because removing Bitwise's contribution would leave less than $1 million in net inflows across the remaining products. An independent calculation based on changes in issuer-reported holdings estimated approximately 7.9 million XRP in net additions during the week, equivalent to roughly $11.1 million at the relevant daily prices. These purchases followed the earlier XRP ETF inflows of $110.49 million recorded during the final week of August, when XRP also struggled to maintain its price. Bitcoin and Ethereum ETFs Face Heavy Withdrawals XRP's positive weekly fund flows contrasted with substantial redemptions from other cryptocurrency investment products. During the same period, U.S. spot Bitcoin ETFs reportedly lost approximately $681 million, while Ethereum funds experienced around $542 million in net withdrawals. Solana products also recorded approximately $24.8 million in outflows. Together, the three categories saw roughly $1.25 billion withdrawn, compared with continued positive XRP fund flows. This divergence follows earlier periods when XRP funds attracted investment while competing cryptocurrency ETFs experienced withdrawals.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74601710",
+      "guid": "https://en.coin-turk.com/?p=253521",
+      "published_on": 1791976710,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74601710.jpeg",
+      "title": "Ethereum leverage falls to 11-month low, ETF outflows continue for 10 days",
+      "url": "https://en.coin-turk.com/ethereum-leverage-falls-to-11-month-low-etf-outflows-continue-for-10-days/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-leverage-falls-to-11-month-low-etf-outflows-continue-for-10-days",
+      "body": "📉 Ethereum leverage drops to an 11-month low as outflows from spot ETFs persist. 💸 US spot ETH ETFs see a 10-day streak of net withdrawals totaling $85.4 million on Monday. 🟠 Cautious sentiment is reflected in falling derivatives leverage and weak $ETH buying in the US. Continue Reading: Ethereum leverage falls to 11-month low, ETF outflows continue for 10 days The post Ethereum leverage falls to 11-month low, ETF outflows continue for 10 days appeared first on COINTURK NEWS .",
+      "tags": "Ethereum (ETH)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74601715",
+      "guid": "https://finbold.com/?p=276937",
+      "published_on": 1791976689,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "AI sets XRP price prediction 2030",
+      "url": "https://finbold.com/ai-sets-xrp-price-prediction-2030/",
+      "body": "Even though XRP price has capitulated nearly 35% so far in 2026, trading at approximately $1.367 on October 14, two artificial intelligence ( AI ) large language models (LLMs), Gemini and ChatGPT expect this cryptocurrency to rally to a new all-time high (ATH) by 31 December, 2030. On Wednesday, Finbold queried these two LLMs and found that their average XRP price prediction 2030 is $7.75. As a result, these LLMs indicate a potential bull run of about 467%, over the next 4 years. OpenAI-backed Gemini set a price target of $8 by December 2030, thereby suggesting a possible 485.22% upside. XRP price prediction 2030. Source: ChatGPT On the other hand, Alphabet Inc. (NASDAQ: GOOGL )-backed Gemini anticipates the token’s price hitting $7.50, hence reaching a market capitalization of around $475 billion. XRP price prediction 2030. Source: Gemini Gemini’s bullish thesis was based on accelerating institutional adoption, as Finbold explained . However, this AI cautioned the crypto community about potential strong competitive headwinds, including from Solana ( SOL ), and Ethereum ( ETH ). XRP price performance today Over the past four years, the token’s price has soared over 190%, from $0.47 in mid-October 2022. XRP price chart for the past 4 years. Source: TradingView During the past 24 hours, the token’s trading volume fell more than 20% to $2.06 billion at the time of reporting, according to data Finbold fetched from CoinMarketCap . Although the token’s price has rebounded from its 2026 bear market bottom, it must consistently close above the major resistance level of $1.53 to confirm a fresh bull rally. Moreover, this supply level has remained since February 2, 2026. Nonetheless, these two LLM’s expect XRP price to record a robust uptrend over the coming years to reach $7.75 by December 31, 2030, fueled by mainstream institutional adoption. Featured image via Shutterstock The post AI sets XRP price prediction 2030 appeared first on Finbold .",
+      "tags": "Cryptocurrency news|cryptocurrency|Ethereum|investing|Solana|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|SOL|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "74601703",
+      "guid": "https://u.today/xrp-october-countdown-begins-two-dates-could-matter",
+      "published_on": 1791976510,
+      "imageurl": "https://resources.cryptocompare.com/news/64/74601703.jpeg",
+      "title": "XRP October Countdown Begins: Two Dates Could Matter",
+      "url": "https://u.today/xrp-october-countdown-begins-two-dates-could-matter",
+      "body": "These two developments could put the XRP ecosystem in focus in October.",
+      "tags": "XRP News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "U.Today",
+        "img": "https://images.cryptocompare.com/news/default/utoday.png",
+        "lang": "EN"
+      },
+      "source": "utoday"
+    },
+    {
+      "id": "74601700",
+      "guid": "4fec4f04-02e5-42f0-860a-9e732eb19d57",
+      "published_on": 1791976500,
+      "imageurl": "https://resources.cryptocompare.com/news/5/74601700.jpeg",
+      "title": "Here's how analysts see U.S. inflation influencing bitcoin",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
+      "body": "Your day-ahead look for Oct. 14, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1791976383,
+    "time_range_start": "2026-10-14 11:13:03",
+    "time_range_end": "2026-10-14 12:13:03"
+  }
+}
