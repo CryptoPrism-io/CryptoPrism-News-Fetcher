@@ -1,0 +1,572 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "74786266",
+      "guid": "https://coinpaper.com/37386/xrp-ledger-skipped-its-normal-validator-vote-to-fix-an-11-year-old-bug-developers-explain-why",
+      "published_on": 1792150860,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "XRP Ledger Skipped Its Normal Validator Vote to Fix an 11-Year-Old Bug: Developers Explain Why",
+      "url": "https://coinpaper.com/37386/xrp-ledger-skipped-its-normal-validator-vote-to-fix-an-11-year-old-bug-developers-explain-why",
+      "body": "Key takeaways XRPL bypassed standard voting for critical security fix Over 80% of trusted validators upgraded immediately Emergency response raises questions about decentralized governance XRP Ledger developers are defending an extraordinary security decision after deploying a critical protocol fix without waiting for the network's standard two-week validator approval process. The emergency update, released September 25, addressed an 11-year-old vulnerability that could have allowed attackers to create spendable XRP beyond the cryptocurrency's intended supply limit. Although investigators found no evidence of exploitation, the method used to eliminate the threat has sparked debate about how decentralized networks should respond to emergencies. Why XRP Ledger Skipped Its Two-Week Validator Vote Under the normal XRPL governance framework, changes affecting transaction processing must receive support from more than 80% of trusted validators for two consecutive weeks before activation. The September security patch followed a different procedure. According to the official vulnerability report , the fix became effective immediately on each server after upgrading to xrpld 3.4.1, rather than activating simultaneously through an approved amendment. Developers said the severity of the XRP supply vulnerability made the normal process too dangerous. Publishing the patch while leaving the flaw exploitable during an extended voting period could have given attackers enough information to reproduce the exploit. The underlying problem involved an integer overflow in the payment engine. Specially constructed transactions could have caused the system to credit more XRP than the sender actually paid, potentially creating new tokens. Researchers traced the vulnerable code to 2015, although they found no evidence that it had been exploited on a public network. Emergency Fix Introduced a Temporary Consensus Risk The decision was not without technical consequences. Normally, amendments activate simultaneously across compatible servers, ensuring validators apply identical transaction rules. The emergency update instead created a temporary period when upgraded servers would reject certain malicious transactions while older versions might still accept them. That disagreement could theoretically have interrupted ledger validation if attackers attempted to exploit the vulnerability before enough validators upgraded. However, the rapid rollout reduced that exposure. More than 80% of operators on the default Unique Node List had installed version 3.4.1 by September 25, according to the development team's disclosure. The response differed from the separate Batch security fix , which followed the normal amendment procedure and activated on October 9. Security Measure XRP Overflow Fix Batch Wrapper Fix Released September 25 September 25 Activation method Immediate upon server upgrade Validator-approved amendment Mainnet activation During server upgrades October 9 Key threat Unauthorized XRP creation Potential consensus disruption Source: XRPL vulnerability disclosure, October 9, 2026. Does the Emergency Patch Challenge XRP Ledger Decentralization? The incident has prompted questions about how much authority developers and validator operators should exercise during severe network emergencies. Criticism has focused partly on the temporary distribution of software before the security-sensitive source code was publicly released. Supporters argue that immediate coordination was necessary to prevent attackers from exploiting a disclosed weakness. The XRPL Foundation has rejected suggestions that operators were forced to install the update, emphasizing that validators made their own upgrade decisions. The debate also comes as upcoming XRPL lending upgrades continue moving through the ordinary voting process, demonstrating that routine protocol changes still require sustained validator support. Developers maintain that bypassing amendments should remain reserved for exceptionally severe security threats, rather than becoming a standard alternative to network governance. For XRP holders, the immediate concern has been addressed: the vulnerability was patched, and investigators reported no known exploitation. The longer-term question is how XRPL can maintain decentralized decision-making while responding quickly enough to future critical threats.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|WALLET|XRP|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74786116",
+      "guid": "https://en.coin-turk.com/?p=253837",
+      "published_on": 1792150704,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74786116.jpeg",
+      "title": "OpenAI model tapped unauthorized crypto wallet on Sepolia testnet, triggers FTC scrutiny",
+      "url": "https://en.coin-turk.com/openai-model-tapped-unauthorized-crypto-wallet-on-sepolia-testnet-triggers-ftc-scrutiny/?utm_source=rss&utm_medium=rss&utm_campaign=openai-model-tapped-unauthorized-crypto-wallet-on-sepolia-testnet-triggers-ftc-scrutiny",
+      "body": "🚨 OpenAI confirms its AI model used an unauthorized crypto wallet on Sepolia to complete a task. 🤖 The incident was detected after three months once OpenAI expanded its internal monitoring. 📢 Ongoing FTC subpoenas add pressure as OpenAI faces new questions over $ETH security incidents. Continue Reading: OpenAI model tapped unauthorized crypto wallet on Sepolia testnet, triggers FTC scrutiny The post OpenAI model tapped unauthorized crypto wallet on Sepolia testnet, triggers FTC scrutiny appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74786110",
+      "guid": "https://coinpaper.com/37387/united-airlines-expands-in-cleveland-12-years-after-abandoning-its-hub",
+      "published_on": 1792150653,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "United Airlines Expands in Cleveland 12 Years After Abandoning Its Hub",
+      "url": "https://coinpaper.com/37387/united-airlines-expands-in-cleveland-12-years-after-abandoning-its-hub",
+      "body": "Key takeaways United Airlines is rebuilding its Cleveland presence more than a decade after closing its former hub The airline has launched year-round Cleveland–Las Vegas service and will begin seasonal nonstop flights to Miami United is not restoring Cleveland as a connecting hub, instead focusing on point-to-point demand and selectively adding routes where it sees strong local travel demand United Airlines is rebuilding its presence at Cleveland Hopkins International Airport more than a decade after dismantling its former hub. The airline is adding new routes and pushing its schedule in the Ohio city to its highest level in years. The carrier launched year-round nonstop service between Cleveland and Las Vegas on Sept. 24, with flights operating five days per week. United is also preparing to introduce seasonal nonstop flights to Miami on Dec. 3, with the service scheduled to run through April 5, 2027. The additions are another step in United’s gradual return to a market it dramatically scaled back in 2014. United Airlines Rebuilds Its Cleveland Presence United once operated Cleveland as a major connecting hub. In 2013, the airline ran more than 60,000 flights from the airport, averaging more than 160 departures per day. That changed after the carrier closed the hub in 2014. By 2025, United was operating roughly 30 daily departures from Cleveland. The latest expansion does not signal a return to the old hub model, however. Instead, United is focusing primarily on nonstop services targeted at travelers originating in Northeast Ohio. Las Vegas is an important leisure and convention destination, while Miami gives Cleveland travelers better access to South Florida and the region’s large cruise market. United’s Cleveland-to-Las Vegas service is already operating. The route competes with Southwest Airlines and Frontier Airlines, while United will also face competition from Frontier and American Airlines when its Miami service begins. Cleveland Is Growing Again for United The expansion is important given how aggressively United pulled back from Cleveland after the hub closure. Rather than trying to funnel connecting passengers through the airport again, the airline appears to be betting on demand from the local market and selectively adding routes where it sees an opportunity. (Source: cleveland.com) That makes United’s Cleveland comeback very different from the operation it ran more than a decade ago. The airline is not bringing its old hub back. But with Las Vegas now operating and Miami coming in December, Cleveland is once again becoming a more important part of United’s domestic network.",
+      "tags": "News|Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74785523",
+      "guid": "https://ambcrypto.com/?p=641777",
+      "published_on": 1792150250,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Midnight price prediction – Can NIGHT defend KEY support and rally 26%?",
+      "url": "https://ambcrypto.com/midnight-price-prediction-can-night-defend-key-support-and-rally-26/",
+      "body": "Will NIGHT's price range exend and offer extra gains?",
+      "tags": "Analysis|HideCryptopanic|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "74785704",
+      "guid": "https://news.bitcoin.com/?p=856420",
+      "published_on": 1792150250,
+      "imageurl": "https://resources.cryptocompare.com/news/14/74785704.jpeg",
+      "title": "Vaneck Pulls the Plug on Its Lido Staked Ether ETF Before Launch",
+      "url": "https://news.bitcoin.com/finance/vaneck-withdraws-lido-staked-ether-etf/",
+      "body": "Vaneck has asked the U.S. Securities and Exchange Commission (SEC) to let it withdraw its Lido Staked Ethereum Exchange-Traded Fund (ETF), a year after filing for it. The One-Line Exit The filing was short, and in a Form RW dated Oct. 14, Vaneck Digital Assets vice president Matthew Babinsky asked the SEC to consent to",
+      "tags": "Finance|Ethereum (ETH)|Lido|staking|vaneck",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "74785702",
+      "guid": "https://cryptopotato.com/?p=1451321",
+      "published_on": 1792150230,
+      "imageurl": "https://resources.cryptocompare.com/news/27/74785702.jpeg",
+      "title": "Ripple Pushes RLUSD Deeper Into Banking With New Cross River Partnership",
+      "url": "https://cryptopotato.com/ripple-pushes-rlusd-deeper-into-banking-with-new-cross-river-partnership/",
+      "body": "New Jersey-based Cross River Bank has partnered with Ripple to bring RLUSD into its banking platform. The integration will support transactions on the XRP Ledger and allow customers to use the stablecoin alongside traditional payment methods. RLUSD Joins Cross River’s Payment Rails Cross River will integrate RLUSD into its Core Operating System, which connects financial services with payment networks. The goal is to give payment providers more flexibility when settling transactions. Businesses will be able to move funds between US dollars and Ripple’s stablecoin, handle cross-border payments, and manage treasury transfers around the clock. They will also be able to access traditional services such as ACH, wire transfers, and real-time payments through a single banking platform. One of the main changes is that customers can access RLUSD through a single API connection. The partnership will give businesses another way to settle payments faster and reduce delays. Transactions on the XRP Ledger take around three to five seconds to settle and cost a fraction of a cent, according to the announcement. Commenting on the development, Markus Infanger, SVP, RippleX at Ripple, said that stablecoins won’t transform payments through parallel financial systems. They can do it by becoming part of the banking infrastructure businesses already use. He went on to add, “Cross River is at the forefront of putting that into practice by bringing RLUSD and the XRP Ledger’s fast, low-cost settlement into its regulated banking platform. That combination can make it easier for fintechs to move money in real time, across borders and around the clock, while keeping the experience simple for the businesses and customers they serve.” The latest offering is currently available only in certain US states. Adoption Across Finance Standard Chartered launched custody support for the stablecoin through its DIFC branch in Dubai, to give eligible clients access to the bank’s digital asset custody services this week. It is also working with Ripple and LMAX Group to make RLUSD eligible collateral for selected LMAX products and services. Under the setup, the value of RLUSD held in custody could be reflected at the trading venue without moving the tokens themselves. The companies said this could reduce transfer-related risks, improve how counterparty exposure is managed, as well as help institutions use their capital more efficiently. In July, Ripple also unveiled Ripple Mint, a platform that lets institutions mint, redeem, and manage RLUSD in one place. It also allows them to move the stablecoin across supported blockchains and track transactions, which is expected to make it easier to use RLUSD for payments, trading, and treasury operations. Earlier, Japan’s Financial Services Agency (JFSA) approved the token for use in the country through SBI VC Trade. The post Ripple Pushes RLUSD Deeper Into Banking With New Cross River Partnership appeared first on CryptoPotato .",
+      "tags": "AA News|Crypto News|social|Ripple|Stablecoin|XRP Ledger",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|WALLET|XRP|DIGITAL ASSET TREASURY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "74785175",
+      "guid": "https://en.coin-turk.com/?p=253836",
+      "published_on": 1792149924,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74785175.jpeg",
+      "title": "CasiTrades targets $1.27 as potential XRP correction bottom",
+      "url": "https://en.coin-turk.com/casitrades-targets-1-27-as-potential-xrp-correction-bottom/?utm_source=rss&utm_medium=rss&utm_campaign=casitrades-targets-1-27-as-potential-xrp-correction-bottom",
+      "body": "🚨 Analyst CasiTrades sees $1.27 as the potential bottom for the $XRP correction. 📉 XRP is declining from $1.50, with major support at the 0.618 Fibonacci level. ⚡ RSI signals and chart patterns suggest a key turning point is near. Continue Reading: CasiTrades targets $1.27 as potential XRP correction bottom The post CasiTrades targets $1.27 as potential XRP correction bottom appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74785201",
+      "guid": "https://ambcrypto.com/?p=641803",
+      "published_on": 1792149915,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "GMGN Launches a 10-Day Onchain Trading Championship With a Custom Aston Martin on the Line",
+      "url": "https://ambcrypto.com/gmgn-launches-a-10-day-onchain-trading-championship-with-a-custom-aston-martin-on-the-line/",
+      "body": "Crypto traders have no shortage of opinions about who is actually good. The GMGN Global Championship is designed to settle it in public. GMGN, the multi-chain trading terminal built for meme coin and on-chain traders, has opened sign-ups for its first global trading competition. For 10 days, until October 26, competitors trade with real funds Continue reading \"GMGN Launches a 10-Day Onchain Trading Championship With a Custom Aston Martin on the Line\"",
+      "tags": "HideCryptopanic|Social|Sponsored",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SPONSORED|TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "74785749",
+      "guid": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap",
+      "published_on": 1792149767,
+      "imageurl": "https://resources.cryptocompare.com/news/16/74785749.jpeg",
+      "title": "Solana’s Liu says Shanghai event postponed over registration surge",
+      "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Solana Foundation President Lily Liu said registrations quadrupled overnight, exceeding the attendance limit registered with local authorities.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "74785168",
+      "guid": "https://coinpedia.org/?p=586753",
+      "published_on": 1792149415,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "BOFA Warns of Market Risk-Off Period Over Next 3–4 Weeks",
+      "url": "https://coinpedia.org/crypto-live-news/bofa-warns-of-market-risk-off-period-over-next-3-4-weeks/",
+      "body": "The post BOFA Warns of Market Risk-Off Period Over Next 3–4 Weeks appeared first on Coinpedia Fintech News Bank of America strategist Michael Hartnett expects investors to reduce risk over the next three to four weeks, citing 3% real yields, persistent inflation, AI valuation concerns and uncertainty surrounding the U.S. midterm elections. Hartnett also expects the Federal Reserve to raise interest rates in October, despite markets increasingly pricing in a pause. He favors …",
+      "tags": "Short News|Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|MARKET|MACROECONOMICS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74784636",
+      "guid": "4c5c9524-2f78-44da-9d2b-431bd30482cd",
+      "published_on": 1792149300,
+      "imageurl": "https://resources.cryptocompare.com/news/5/74784636.jpeg",
+      "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
+      "body": "Your day-ahead look for Oct. 16, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "74784467",
+      "guid": "https://coinpaper.com/37384/xrp-price-prediction-xrp-exchange-reserves-jump-by-84-million-tokens-in-three-days",
+      "published_on": 1792149114,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "XRP Price Prediction: XRP Exchange Reserves Jump by 84 Million Tokens in Three Days",
+      "url": "https://coinpaper.com/37384/xrp-price-prediction-xrp-exchange-reserves-jump-by-84-million-tokens-in-three-days",
+      "body": "Key takeaways Exchange wallets add nearly 84 million XRP Binance leads weekly increases in tracked balances Higher reserves do not confirm actual selling Nearly 84 million XRP were added to exchange-linked wallets between October 12 and October 15, raising questions about potential selling pressure as the cryptocurrency struggled to establish a sustained recovery near $1.30. Data from XRP Insights shows that 699 wallets attributed to 24 cryptocurrency exchanges accumulated a net 83.94 million XRP across three daily balance changes. Their combined holdings increased approximately 0.38% to 22.06 billion tokens. The increase is noteworthy because the tracked wallet count remained unchanged. However, higher exchange balances do not necessarily mean that investors are preparing to sell, making the distinction between custody and executable supply critical. XRP Exchange Wallets Add 83.94 Million Tokens in Three Days According to XRP Insights , the same exchange-attributed wallets recorded three consecutive daily increases, with the largest occurring on October 14. Reporting Date XRP Balance Increase October 13 +17.75 million October 14 +35.21 million October 15 +30.98 million Three-day total +83.94 million The increase lifted tracked exchange holdings from approximately 21.97 billion to 22.06 billion XRP. Because no additional wallets were introduced during the observation window, the change reflects higher balances within the existing tracked addresses rather than expanded monitoring coverage. A separate seven-day comparison for October 8–15 showed Binance-attributed wallets adding 54.61 million XRP, followed by smaller increases at Upbit, Kraken and Coinbase. These weekly figures overlap the three-day observations and should not be added to the 83.94 million total. The development contrasts with an earlier period of declining exchange reserves , when lower holdings at major platforms prompted speculation about tightening XRP supply. Does Rising Exchange Supply Mean XRP Holders Are Selling? Exchange deposits are frequently interpreted as a potential bearish signal because tokens held on trading platforms can be easier to sell. However, wallet balances do not reveal whether owners have placed sell orders, transferred funds for custody or moved assets between institutional accounts. The tracked addresses also include cold wallets and reserves supporting wrapped assets, meaning not every XRP counted represents immediately available selling liquidity. That distinction matters as XRP's recent trading volume declined sharply. Binance XRP/USDT spot turnover fell approximately 79% between October 8 and October 10, even as the token staged a modest price recovery. Lower trading activity can make markets more sensitive to large orders, but it does not establish that the newly recorded exchange balances will be sold. The latest wallet accumulation also follows a period of shifting whale activity , during which large holders' share of exchange withdrawals declined substantially. XRP Price Outlook Depends on Actual Selling Demand The exchange balance increase comes as institutional demand also faces questions. US spot XRP ETFs attracted only $740,400 in net inflows on October 14, despite approximately $1.8 billion in cumulative investor contributions since their launches. The latest ETF inflows suggest that new investment demand has slowed, although one day's fund flows cannot determine the direction of XRP's price. XRP traded near $1.32 during an October 15 market snapshot, leaving the $1.30 area an important psychological reference rather than a confirmed technical floor. Continued increases in exchange balances accompanied by aggressive spot selling would strengthen concerns about supply pressure. Conversely, stabilizing balances and improving spot demand could reduce those risks. For now, the 83.94 million XRP increase provides evidence of changing exchange custody, not confirmation of a coordinated selloff. The next meaningful signal will come from whether those balances translate into actual transactions.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|TRADING|XRP|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "74783968",
+      "guid": "https://coinpaper.com/37382/xrp-news-ripples-new-trading-platform-connects-wall-street-to-100-markets-but-does-xrp-benefit",
+      "published_on": 1792148712,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "XRP News: Ripple's New Trading Platform Connects Wall Street to 100+ Markets — But Does XRP Benefit?",
+      "url": "https://coinpaper.com/37382/xrp-news-ripples-new-trading-platform-connects-wall-street-to-100-markets-but-does-xrp-benefit",
+      "body": "Key takeaways Ripple Prime launches swaps across 100-plus reference markets Virtu begins trading with round-the-clock institutional access RLUSD collateral expands Ripple's traditional finance capabilities Ripple has launched round-the-clock institutional trading in derivatives linked to more than 100 traditional financial markets, allowing clients including Virtu to trade exposure to stocks, commodities and currencies even when conventional exchanges are closed. Announced on October 15, the new Ripple Prime offering supports real-world asset (RWA) perpetual swaps across equities, stock indexes, exchange-traded funds, metals, energy and foreign exchange. Trading and settlement operate 24 hours a day, seven days a week. The expansion introduces another institutional use case for Ripple's brokerage infrastructure, although the underlying contracts operate through Hyperliquid rather than directly on the XRP Ledger. Ripple Prime Brings 100+ Traditional Markets to 24/7 Trading According to Ripple's announcement , institutional clients can access perpetual swaps referencing futures contracts listed by Trade.xyz on Hyperliquid. Unlike conventional futures, perpetual contracts do not have fixed expiration dates. They provide exposure to underlying market prices through derivatives rather than requiring investors to purchase the referenced securities or commodities. This distinction matters because the launch does not represent the tokenization of more than 100 stocks or other assets on XRPL. Ripple Prime acts as principal to the institutional swaps, providing a single counterparty relationship and consolidated risk management across supported asset classes. The development builds on Ripple's earlier expansion into leveraged ETFs , where its prime brokerage business provides financing for institutional products linked to traditional securities. Clients can also manage margin across multiple asset classes, potentially reducing the amount of collateral they must maintain separately at different venues. Virtu Joins as RLUSD Becomes Trading Collateral Virtu Financial is among the institutional firms already trading the newly supported instruments. Scotte Moegling, Virtu's head of business development for digital assets, said the company's expansion into emerging liquidity pools benefits from Ripple Prime's round-the-clock cross-margining. The announcement also introduces another application for RLUSD, Ripple's US dollar-backed stablecoin, which eligible clients can use as collateral depending on jurisdiction. Institutional demand for RLUSD collateral has already attracted support from Standard Chartered and LMAX Group, which are developing additional trading infrastructure around the token. However, RLUSD's use as collateral should not be confused with every transaction settling on XRPL or requiring XRP. The new perpetual swaps reference Hyperliquid-listed instruments, and Ripple has not disclosed whether the service creates additional direct XRP demand. Ripple Expands Its $1.25 Billion Prime Brokerage Business Ripple Prime emerged from Ripple's $1.25 billion acquisition of Hidden Road in 2025, which expanded the company's operations beyond cryptocurrency payments and into institutional clearing, financing and derivatives. The platform subsequently added Hyperliquid connectivity in February 2026, enabling clients to manage decentralized derivatives exposure alongside other supported financial products. Its institutional relationships have continued growing, including an expanded arrangement with Brevan Howard , the investment manager overseeing approximately $35 billion in assets. The latest product also follows Ripple Prime's August launch of equity total-return swaps, giving the brokerage another way to serve hedge funds and professional trading firms. Nevertheless, continuous trading introduces challenges when traditional markets are closed. Derivative prices can move during weekends even when their underlying reference markets are not producing new official prices, potentially increasing valuation and liquidity risks. The service is currently offered through Ripple Prime's CIV BVI license. Ripple intends to expand availability to additional regions but has not announced a timetable. For Ripple, the immediate significance is broader institutional access to traditional-market derivatives. Any resulting benefits for XRP itself remain unquantified, making brokerage adoption and token demand two distinct developments.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "13865352",
+      "guid": "https://www.cryptopolitan.com/?p=319268",
+      "published_on": 1792148697,
+      "imageurl": "https://resources.cryptocompare.com/news/43/13865352.jpeg",
+      "title": "TradeXYZ and Variational compete for top spot as RWA perps volume expand on DEXs",
+      "url": "https://www.cryptopolitan.com/rwa-perpetual-futures-trading-surges/",
+      "body": "RWA perpetual futures are becoming more established in the crypto space, with volumes growing by nearly 75% since August. New platforms are adding to the volume, displacing the leading providers on Hyperliquid. In October, RWA perpetual futures volumes extended a seven-week streak of growth. Weekly volumes on decentralized markets climbed from $22.8B up to $39.8B, an increase of 74.7% against the final week of August. Competition is also rising among the providers of RWA trading. TradeXYZ still logged $12.73B in the past week, but has lost market share to Variational. Since early September, Variational’s market share has grown from 10.6% to 32% of all RWA perpetual futures trading. RWA trading has offset some of the slowdown on perpetual futures markets , which often shift between crypto, equities, and commodities. As Cryptopolitan reported , perpetual futures trading has turned into one of the major use cases for on-chain activity. Recently, Ripple also announced its own brand of on-chain RWA perpetual futures swaps. RWA perpetual futures on DEXs are the fastest and most direct way for crypto natives and international traders to access non-crypto markets. The growth of perpetual futures also coincides with rapidly expanding tokenization, which adds spot markets for selected assets. RWA perpetual futures add extra opportunities for leveraged positions. RWA perpetual futures are still a growth sector RWA perpetual futures trading is still evolving, and users are shifting between available markets. The sector remains unregulated for now, with minimal exclusion lists and still almost complete anonymity. TradeXYZ retains over $1.9B in open interest, a significant share of the $7.8B total on Hyperliquid. Its current competitor, Variational, reports $2B in total open interest, spread across 550 markets. TradeXYZ has lost some of its open interest since August, when it peaked at $2.15B. Other trackers place the TradeXYZ open interest at around $3.6B . In total, perpetual futures open interest for RWA is estimated at $3.8B based on Dune Analytics methods. Around $1.9B in value is used in decentralized protocols as collateral. RWA perpetual futures on DEXs still lag behind the centralized markets, which carry over $215B in open interest. Still, RWA perpetual futures are only a small part of that market, which is mostly focused on crypto contracts. As of 2026, on-chain infrastructure is mostly used by crypto natives. RWA perpetual futures and tokenization are yet to be adopted as official rails for traditional finance, though this is one of the optimistic cases for the industry. RWA perpetual futures also boost fee production, becoming one of the predictably busy markets with 101.5K active daily addresses for Hyperliquid, of which around 10K are trading RWA contracts. RWA contract trading is still one of the developing use cases, with more growth expected in the coming months. RWA perpetual futures bring real liquidity The growth of RWA perpetual futures on DEXs and centralized markets is the key to RWA adoption. In terms of tokenization, Ethereum, Solana, and BNB Chain are still leaders in paper value. Solana expanded its tokenized value from $1B in 2025 to $4.37B in October, with liquidity coming from XStocks trading on selected markets. The Hyperliquid ecosystem is still the leader for on-chain trading and bringing real liquidity from whales and crypto natives. HIP-3, the RWA perpetual futures hub on Hyperliquid, also tracks the main trends in the RWA space. As of October 16, the platform has focused again on indexes and selected equities, with another uptick in activity for gold and oil. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|HYPE|trade.xyz|Variational",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|LUNA|MARKET|REGULATION|SOL|TRADING|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "28042181",
+      "guid": "https://coinpedia.org/?p=304727",
+      "published_on": 1792148580,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Akash Network (AKT) Price Prediction 2026, 2027 – 2030",
+      "url": "https://coinpedia.org/price-prediction/akash-network-akt-price-prediction/",
+      "body": "The post Akash Network (AKT) Price Prediction 2026, 2027 – 2030 appeared first on Coinpedia Fintech News Story Highlights The live price of the AKT token is $0.76495599 The AKT price could hit a high of $2.037 in 2026. The Akash Network’s price may reach $18.50 by 2030. Akash Network is changing the game by giving developers access to affordable, decentralized cloud services powered by blockchain. As the demand for computing power …",
+      "tags": "Cryptocurrency Price Prediction|Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|ATOM|BLOCKCHAIN|ICO|MARKET|TRADING|AKT",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74783962",
+      "guid": "https://cryptodaily.co.uk/2026/10/venice-token-vvv-price-prediction-hold-above-24",
+      "published_on": 1792148471,
+      "imageurl": "https://resources.cryptocompare.com/news/75/74783962.jpeg",
+      "title": "Venice Token VVV Rebounds Above $24 After a Volatile Week — What Comes Next?",
+      "url": "https://cryptodaily.co.uk/2026/10/venice-token-vvv-price-prediction-hold-above-24",
+      "body": "Venice Token (VVV) has moved back above $24 after a sharp session, with CoinMarketCap reporting a price of $24.69 on October 12, up 10.83% over 24 hours. Reported 24-hour volume was about $44.94 million, while market capitalisation stood near $1.20 billion. A separate technical-market snapshot from Coinotag put VVV at $24.857 at 06:42 UTC the same day. The difference reflects separate observation points, but both place the token above the $24 threshold that frames the immediate question for traders. The rebound arrives as Venice has reduced VVV’s annual emissions to 2 million tokens from October 1, following staged reductions from 3 million annually. The supply change and an existing buy-and-burn mechanism provide a constructive backdrop, though the daily chart still carries a meaningful momentum warning. VVV’s daily trend is bullish, but MACD momentum remains negative The daily technical picture is positive on balance, but it is not uniform. Coinotag’s model classified six of seven indicator groups as bullish, while also flagging extreme volatility and divergence between timeframes. That combination matters after a double-digit daily move: trend measures can remain constructive even while momentum fails to confirm a clean continuation. VVV traded above six of eight moving averages in Coinotag’s October 12 reading. Its 50-day moving average was also above the 200-day average, a longer-term bullish arrangement that supports the broader trend rather than a purely short-lived bounce. Momentum is more mixed. The daily 14-period RSI was 47.6, a neutral result that placed the token neither in overbought nor oversold territory. By contrast, the four-hour RSI was 58.0 and marked bullish, although Coinotag characterised the overall four-hour outlook as neutral. The weekly RSI stood at 64.9, indicating stronger momentum over the longer timeframe. The main counterweight is the daily MACD. Blockspot showed a MACD reading of -0.2003 against a 0.6280 signal line at 03:00 GMT+2 on October 12, a bearish configuration. In practical terms, the moving-average structure and higher-timeframe RSI readings support the recovery, but the daily MACD means the market has not yet delivered unanimous momentum confirmation. This conflict makes price behaviour around the nearest levels more important than the rebound alone. A sustained advance with a move through resistance would better align the short-term chart with the bullish trend backdrop; repeated rejection could leave the negative MACD signal in focus. VVV support at $23.3712 and resistance at $25.6408 frame the next move With the Coinotag spot reading at $24.857, the closest identified levels sit relatively tightly around price. The first support is $23.3712, while the nearest resistance is $25.6408. Coinotag described both as level clusters rather than isolated chart marks: the support combines pivot, Fibonacci, moving-average and volume-profile references, and the resistance is its strongest identified cluster. LevelPriceTechnical basisNearest support$23.3712Daily cluster of pivot, Fibonacci, moving-average and volume-profile referencesSecond support$22.215550% Fibonacci retracement of the stated $9.816–$34.615 swingLower support$21.2031Second daily support in Coinotag’s level-cluster analysisNearest resistance$25.6408Strongest identified daily resistance clusterSecond resistance$26.5981Second resistance in the daily pivot structureHigher resistance$28.1144Higher daily pivot and level-cluster resistance For buyers, holding $23.3712 would preserve the nearest technical floor beneath the current price area. A decisive move above $25.6408 would be the first required break for an upside continuation, after which $26.5981 and $28.1144 are the next supplied resistance markers. Those are levels to be tested, not predictions that VVV must reach. For the bearish case, failure to maintain $23.3712 would shift attention to $22.2155. That level is specifically tied to the 50% retracement of Coinotag’s stated $9.816–$34.615 swing. Below it, $21.2031 is the remaining listed support. A rejection at $25.6408 followed by a loss of the first support would weaken the immediate recovery structure, particularly while the daily MACD remains bearish. Venice Token price outlook: can VVV sustain its move above $24? VVV has a credible, but conditional, case for sustaining its move above $24. The token was quoted near $24.86 in Coinotag’s snapshot after CoinMarketCap recorded a 10.83% 24-hour gain. Beneath the chart, Venice’s lower annual emissions and its policy of allocating $5 of every $100 in API-credit purchases to automatic VVV buybacks and burns add a supply-side element to the setup. Venice says those API-credit burns are in addition to subscription-related burns. That fundamental context does not resolve the near-term chart. The daily RSI at 47.6 is neutral and the daily MACD remains below its signal line, so the latest rise has not yet erased all signs of fragile momentum. On the other hand, price above six of eight moving averages, a 50-day average above the 200-day average, and bullish four-hour and weekly RSI readings leave the broader technical bias more constructive than the MACD alone suggests. The most important confirmation would be a hold above $23.3712 followed by a break through $25.6408. That sequence would strengthen the argument that the rebound is developing into a more durable advance and would bring the next quoted resistance levels into view. Conversely, inability to clear $25.6408 and a subsequent loss of $23.3712 would make the move above $24 less secure, with $22.2155 and then $21.2031 becoming the relevant downside reference points. For now, the evidence supports a cautiously positive outlook rather than a definitive breakout call. Reduced emissions, the burn mechanism and bullish longer-term trend signals support VVV’s recovery, but the mixed daily momentum readings mean the market still needs to prove that it can defend the first support and overcome the nearest resistance. This is market analysis, not investment advice. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|TRADING",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "74784463",
+      "guid": "https://en.coinotag.com/solana-meme-coin-dacity-gta-6-trailer-2900",
+      "published_on": 1792148463,
+      "imageurl": "https://resources.cryptocompare.com/news/77/74784463.jpeg",
+      "title": "Solana (SOL) Meme Coin Dacity Soars 2,900% After Rockstar's GTA 6 Trailer",
+      "url": "https://en.coinotag.com/solana-meme-coin-dacity-gta-6-trailer-2900",
+      "body": "A Solana meme coin called Dacity surged 2,900% to a $3.18 million market cap after Rockstar's GTA 6 trailer showed DacityCoin, then pulled back 53%.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "74783608",
+      "guid": "https://ambcrypto.com/?p=641679",
+      "published_on": 1792148459,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "LayerZero surges 23% – Why ZRO’s price rally faces THESE risks",
+      "url": "https://ambcrypto.com/layerzero-surges-23-why-zros-price-rally-faces-these-risks/",
+      "body": "LayerZero defended $2 and rose to a local high of $2.25 amid renewed market speculation.",
+      "tags": "Altcoin|News|Social|Trading View",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|MARKET|TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "74783651",
+      "guid": "https://timestabloid.com/?p=113192",
+      "published_on": 1792148455,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Analyst Says XRP Is Setting Up $1.27 As Bottom. Here’s What to Expect",
+      "url": "https://timestabloid.com/analyst-says-xrp-is-setting-up-1-27-as-bottom-heres-what-to-expect/",
+      "body": "XRP is approaching a price level that crypto analyst CasiTrades (@CasiTrades) believes could mark the bottom of a significant corrective wave. The setup has been building for weeks, and traders are now watching closely. At the time of her analysis, XRP traded at $1.3135. The Wave 2 Correction Takes Shape CasiTrades identifies the current XRP price action as a Wave 2 correction within a larger Elliott Wave structure. On the chart, the price has declined sharply from highs near $1.50, with the analyst targeting $1.27 as the likely bottom. She notes that $1.27 includes “a small buffer above the actual fib near $1.26,” which aligns with the 0.618 Fibonacci retracement level at $1.2602 visible on the chart. A secondary support cluster sits at $1.2374, representing the 0.65 retracement. The green support zone on the chart, labeled (2), spans roughly $1.24 to $1.32. This is where CasiTrades expects accumulation activity to concentrate . ripple:native SETTING UP $1.27 AS THE W2 BOTTOM! XRP is moving right along in its W2 correction, and we're getting VERY close to our first target at $1.27! Recent development is giving me even more reason to believe this could be our bottom. Remember, $1.27 includes a… pic.twitter.com/xRG20qHe9q — CasiTrades (@CasiTrades) October 15, 2026 Bitcoin’s Stability Adds a Variable One element CasiTrades highlights is Bitcoin’s relative stillness during this period. She notes that altcoins “could find support soon and break higher without making new lows” even if Bitcoin does not follow. This creates a scenario where XRP’s recovery does not depend entirely on a Bitcoin move . It gives XRP a degree of independence in the short term. Two Scenarios on the Table CasiTrades presents traders with two possible outcomes from the $1.27 level. In the first, XRP reacts at $1.27, holds, and builds toward a Wave 3 advance. In the second, price holds briefly before continuing lower toward $1.10 or $0.87. The $1.0924 and $1.0851 levels on the chart mark that deeper support band, reinforced by a wide green horizontal zone. She is clear about her preference. She describes the current zone as where “swing traders and long-term holders are accumulating, positioning for the larger trend toward double digits.” A confirmed break above $1.65 resistance is her threshold before considering leveraged positions. What Traders Are Watching The RSI indicator at the bottom of the chart shows a bullish divergence signal . The indicator currently reads 42.47, with the signal line at 37.07. Both are approaching oversold territory. CasiTrades asks whether the current pullback is “setting up the next major W3.” The chart structure she has built points to $1.27 as the decision level. A hold there keeps the bullish count intact. A break below opens the path to the lower support band. Either way, the structure will clarify soon. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Analyst Says XRP Is Setting Up $1.27 As Bottom. Here’s What to Expect appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BTC|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "74783845",
+      "guid": "https://coinpaprika.com/news/stablecoin-2-trillion-milestone-slips-2030",
+      "published_on": 1792148400,
+      "imageurl": "https://resources.cryptocompare.com/news/80/74783845.jpeg",
+      "title": "Stablecoin $2 Trillion Milestone Slips to 2030 as Supply Stalls Near $309 Billion",
+      "url": "https://coinpaprika.com/news/stablecoin-2-trillion-milestone-slips-2030",
+      "body": "Standard Chartered has pushed its forecast for a $2 trillion stablecoin market from 2028 to 2030. The bank cited flat supply, which has held near $309 billion for the past year.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|MARKET",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "74783374",
+      "guid": "https://en.bitcoinsistemi.com/new-rules-released-in-the-us-a-major-threat-emerges-for-bitcoin-bull-strategy-november-11th-will-be/",
+      "published_on": 1792148228,
+      "imageurl": "https://resources.cryptocompare.com/news/81/74783374.jpeg",
+      "title": "New Rules Released in the US, a Major Threat Emerges for Bitcoin Bull Strategy! November 11th Will Be Very Critical! Here Are the Details",
+      "url": "https://en.bitcoinsistemi.com/new-rules-released-in-the-us-a-major-threat-emerges-for-bitcoin-bull-strategy-november-11th-will-be/",
+      "body": "A new development has occurred in the cryptocurrency market that could affect the future of companies in indices. MSCI, one of the world’s leading index providers, announced that it has adopted new rules restricting the inclusion of companies that are not currently operational in its indices. Following MSCI’s announcement, Bitcoin treasury companies Strategy and Metaplanet are reportedly being considered for removal from the MSCI Global Investment Grade Market Indices starting in December. However, a final list of companies to be removed has not yet been announced. MSCI announced that the eligibility of non-operating companies for indexing will be reviewed under new regulations. According to the statement, the new rules will come into effect as part of the November 2026 index review, and the changes will be effective from the market close on November 30. Which Criteria Will Companies Be Evaluated By? MSCI’s new rules cover companies whose primary activities are based on holding investment assets like Bitcoin, rather than commercial operations. At this point, Strategy is also among the companies expected to be affected by MSCI’s new rules due to the large amount of Bitcoin on its balance sheet. According to the statement, the new rules foresee a two-stage screening process. In the first stage, companies will be examined to determine whether they possess significant operating assets. Companies that fail this assessment will be subject to a second screening process based on five financial ratios, regardless of sector. Companies that exceed the specified limits in at least four of the five indicators will lose their right to be included in the securities indices. To be removed from the current index, the company will need to meet the relevant conditions in both of its last two financial reporting periods. Final List to be Announced November 11th! MSCI has listed Strategy and Metaplanet among the companies that could be affected by its new rules, with the final list to be announced on November 11, 2026. Both companies’ business models, based on Bitcoin accumulation, are significant in terms of applying the new criteria. If they are delisted, funds that track MSCI indices may need to restructure their portfolios. *This is not investment advice. Continue Reading: New Rules Released in the US, a Major Threat Emerges for Bitcoin Bull Strategy! November 11th Will Be Very Critical! Here Are the Details",
+      "tags": "Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "74783290",
+      "guid": "858cf872-6414-49c2-94ef-037c7970fd99",
+      "published_on": 1792148075,
+      "imageurl": "https://resources.cryptocompare.com/news/5/74783290.jpeg",
+      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
+      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+      "body": "The stablecoin issuer’s CEO Jerermy Allaire told Reuters demand for digital dollars is growing across Asia, Africa and Latin America as banks and payment firms.",
+      "tags": "Finance|Stablecoins|Circle|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|MARKET",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "74783023",
+      "guid": "fe7d0d0e-003d-48e6-a817-9a7f94ec6b5c",
+      "published_on": 1792147946,
+      "imageurl": "https://resources.cryptocompare.com/news/5/74783023.jpeg",
+      "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+      "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
+      "body": "Nine crypto companies launched the Quantum Alliance to jointly prepare for quantum attacks, but they disagree on when the threat will arrive and whether vulnerable BTC should be frozen.",
+      "tags": "Tech|quantum computing|Bitcoin News|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "74784131",
+      "guid": "https://coinpedia.org/?p=586747",
+      "published_on": 1792147924,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "India’s Rupee Under Pressure as Mutual Funds Restrict Gold ETF Investments",
+      "url": "https://coinpedia.org/crypto-live-news/indias-rupee-under-pressure-as-mutual-funds-restrict-gold-etf-investments/",
+      "body": "The post India’s Rupee Under Pressure as Mutual Funds Restrict Gold ETF Investments appeared first on Coinpedia Fintech News India’s currency pressure is intensifying despite an estimated $75–80 billion in RBI intervention since June, with the rupee trading near ₹97 per dollar. HDFC, Kotak Mahindra and UTI have reportedly suspended bulk subscriptions to their gold ETFs following discussions with SEBI. The move aims to limit a potential surge in gold demand ahead of Diwali. …",
+      "tags": "Short News|Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "74783455",
+      "guid": "https://www.cryptopolitan.com/?p=319259",
+      "published_on": 1792147909,
+      "imageurl": "https://resources.cryptocompare.com/news/43/74783455.jpeg",
+      "title": "OpenAI agent spent from a stranger's crypto wallet, caught months later",
+      "url": "https://www.cryptopolitan.com/openai-discloses-another-rogue-agent/",
+      "body": "An OpenAI research model took funds from a crypto wallet it did not own to finish a June coding task. OpenAI discovered the incident in September, months after it had occurred and disclosed it this week. How did OpenAI’s research model access an unauthorized wallet? OpenAI has published an incident report about a model from its GPT-5.6 Sol family. The model was asked to update a crypto trading prototype and deploy contracts to Sepolia. Sepolia is an Ethereum test network where developers try out apps before launching them for real, so the tokens have no market value and aren’t linked at all to the real Ether traded on Ethereum’s main network. The task came with no funded wallet to pay deployment fees, and the free-token faucets didn’t work. So the model wrote a script that created 362 addresses from recovery phrases often reused by developers, then checked each one for a suitable balance. One of the 362 addresses held enough test ether for the job, but before using it, the model stopped and asked itself in its notes whether it was ethical to use a publicly known key and the funds in it. It arrived at the conclusion that the money was “effectively abandoned,” since the recovery phrase was public and test tokens have no value before signing the deployment, paying the fees and reporting the task as finished. Notably, the model did not say where the money came from. On Ethereum’s main network, those fees would have come out of someone’s real holdings that the model had no claim to. This is worrying considering crypto and AI firms are now wiring up agents that hold wallets and pay for services with no human signing off on each transaction. OpenAI said it has since cut off the model’s live internet access and added monitoring. The report states that the incident occurred on June 26, but it wasn’t discovered until three months later on September 25. OpenAI says it found out about the incident while expanding its misalignment monitoring across logs of older model activity. What is OpenAI under investigation for? OpenAI has created a framework for reporting misalignment and released its first batch of reports, saying it wants to get concerning behavior out fast, “even when we haven’t fully explained or mitigated” it. However, due to the timing, every honest report becomes material for people assembling complaints like the FTC, which plans to put senior executives under oath and issued civil subpoenas to OpenAI and Anthropic on Wednesday for records on safety incidents, security practices and privacy policies, Cryptopolitan reported . Months earlier, 15 Republican state attorneys general, led by Iowa’s Brenna Bird, told OpenAI to preserve every record of its Hugging Face breach, including any notes an agent left “apparently for future versions of itself” on escaping the company’s controls. OpenAI admitted to the Hugging Face breach in July, saying that rogue agents broke internal controls, reached the open internet and coordinated what it called “an unprecedented cyber incident.” Agents reportedly probed three U.S. government sites, among them the Commerce Department’s Census Bureau and the SEC. Rogue agent incident reports. Source: OpenAI OpenAI’s new site mentions a number of other incidents, including a September sandbox escape and a lab experiment with self-replicating prompt injection. OpenAI’s CEO Sam Altman has said the company is still sorting through agent activity logs and will disclose cases by severity. The Hugging Face incident is still the worst case found so far. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "Tech|Anthropic|ETH|FTC|OpenAI",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|ETH|MARKET|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "74782871",
+      "guid": "https://en.coin-turk.com/?p=253832",
+      "published_on": 1792147764,
+      "imageurl": "https://resources.cryptocompare.com/news/79/74782871.jpeg",
+      "title": "CryptoQuant: Bitcoin eyes new highs if price clears $87,165 20-month average",
+      "url": "https://en.coin-turk.com/cryptoquant-bitcoin-eyes-new-highs-if-price-clears-87165-20-month-average/?utm_source=rss&utm_medium=rss&utm_campaign=cryptoquant-bitcoin-eyes-new-highs-if-price-clears-87165-20-month-average",
+      "body": "🚀 Bitcoin eyes new all-time highs if it breaks $87,165 “inflection frontier”. 📈 Onchain data show investor momentum strengthening in $BTC this October. 🕰️ CryptoQuant’s cycle indicator points to recovery since the December 2025 pullback. Continue Reading: CryptoQuant: Bitcoin eyes new highs if price clears $87,165 20-month average The post CryptoQuant: Bitcoin eyes new highs if price clears $87,165 20-month average appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "74782737",
+      "guid": "a1fcc27e-bf96-4edb-aa42-c3ea04621774",
+      "published_on": 1792147729,
+      "imageurl": "https://resources.cryptocompare.com/news/5/74782737.jpeg",
+      "title": "Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype",
+      "url": "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
+      "body": "Volume in Hyperliquid’s Tesla contract hit $47 million in one hour after Elon Musk’s flying Roadster demo, up from $2.8 million, with U.S. stocks closed.",
+      "tags": "Finance|Elon Musk|Tokenization|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "74782849",
+      "guid": "https://invezz.com/news/2026/10/16/xrp-rebounds-above-1-32-after-brutal-sell-off-can-bulls-force-a-1-45-breakout/",
+      "published_on": 1792147704,
+      "imageurl": "https://resources.cryptocompare.com/news/69/74782849.jpeg",
+      "title": "XRP rebounds above $1.32 after brutal sell-off: can bulls force a $1.45 breakout?",
+      "url": "https://invezz.com/news/2026/10/16/xrp-rebounds-above-1-32-after-brutal-sell-off-can-bulls-force-a-1-45-breakout/",
+      "body": "XRP recovered toward $1.34 after briefly dropping below $1.32 as stronger-than-expected US producer inflation unsettled cryptocurrency markets. The token lost nearly 6% on Thursday before buyers stepped in around the closely watched support area. The rebound limited the decline, although the broader technical outlook remained bearish. The immediate question is whether XRP can sustain its recovery above $1.32. Holding that level would signal stabilization, while another breakdown could bring $1.25 back into focus. Hot PPI data adds to macroeconomic pressure September’s US Producer Price Index increased 1.3% month-over-month, exceeding analyst expectations of 0.5%. Core PPI, which excludes food and energy prices, rose 0.7% monthly against a forecast of 0.3%. That also represented an acceleration of 0.5 percentage points from the previous month. The release followed a hotter-than-expected Consumer Price Index reading, reinforcing concerns about persistent inflation and the Federal Reserve’s policy outlook. Although the figures initially weighed on cryptocurrencies, the subsequent recovery showed that buyers were willing to absorb supply near recent support levels. The volatile trading followed approximately $1.7 billion in cryptocurrency liquidations over four days, according to CoinGlass . Much of that pressure reflected a developing long squeeze, with falling prices forcing leveraged bullish positions to close. The market’s post-PPI reversal then caught traders positioned for further losses. More than $300 million in short positions were liquidated over the last 24 hours. Those figures cover the broader cryptocurrency market, not XRP alone. They nevertheless illustrate how sharp reversals can create losses on both sides of leveraged trading. Demand through XRP-linked exchange-traded funds remained subdued despite the price rebound. The products attracted approximately $13 million in net inflows so far in October, according to SoSoValue data. The funds could record a monthly total of roughly $26 million if that pace continued, a 79% decline from September. Weak ETF inflows suggest these products are providing limited fresh buying support. A sustained improvement would offer stronger evidence that investment appetite is recovering alongside the token’s price. Onchain data provides a potentially more constructive signal. According to Santiment data , XRP transfers into exchanges have declined following a pronounced increase between September 10 and September 27. Lower exchange inflows may indicate fewer tokens are moving to trading venues for potential sale. However, the metric does not establish that selling has stopped or that all exchange deposits are intended for liquidation. The decline could ease one source of supply pressure, particularly if buyers continue defending nearby support. XRP needs $1.45 breakout to strengthen reversal case The recovery around $1.32 keeps that area central to XRP’s near-term outlook. Sustained trading above it would support the possibility that the pullback is finding a floor. Further gains could also pressure remaining short positions, although a larger short squeeze would depend on positioning and follow-through buying. The more important reversal threshold identified in the source analysis is $1.45. A sustained move above that level would strengthen the case for a change in trend. The article’s longer-term $1.80 target remains a bullish scenario, not an immediate expectation. Until XRP clears resistance, downside risk persists. Losing $1.32 again would weaken the rebound and increase the possibility of a retest of $1.25. The post XRP rebounds above $1.32 after brutal sell-off: can bulls force a $1.45 breakout? appeared first on Invezz",
+      "tags": "Crypto|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Invezz",
+        "img": "https://resources.cryptocompare.com/news/69/default.png",
+        "lang": "EN"
+      },
+      "source": "invezz"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1792147422,
+    "time_range_start": "2026-10-16 10:43:42",
+    "time_range_end": "2026-10-16 11:43:42"
+  }
+}
