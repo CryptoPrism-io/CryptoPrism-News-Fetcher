@@ -1,0 +1,592 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "75102102",
+      "guid": "https://en.coin-turk.com/?p=254278",
+      "published_on": 1792497206,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75102102.jpeg",
+      "title": "Bitcoin trades below $81,500 as $160 million in crypto liquidations hit market",
+      "url": "https://en.coin-turk.com/bitcoin-trades-below-81500-as-160-million-in-crypto-liquidations-hit-market/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-trades-below-81500-as-160-million-in-crypto-liquidations-hit-market",
+      "body": "🟠 $160 million in crypto liquidations follow $BTC's dip below $81,500. 🛢️ Oil at $111 raises inflation fears, pressuring risk assets like Bitcoin. 📊 Traders are focused on Fed policy and the $80,000 support for $BTC. Continue Reading: Bitcoin trades below $81,500 as $160 million in crypto liquidations hit market The post Bitcoin trades below $81,500 as $160 million in crypto liquidations hit market appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|COMMODITY|MARKET|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75101700",
+      "guid": "https://coinpaper.com/37589/southwest-airlines-reveals-major-2027-route-expansion-here-s-where-it-will-fly",
+      "published_on": 1792496785,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Southwest Airlines Reveals Major 2027 Route Expansion: Here’s Where It Will Fly",
+      "url": "https://coinpaper.com/37589/southwest-airlines-reveals-major-2027-route-expansion-here-s-where-it-will-fly",
+      "body": "Key takeaways Southwest Airlines announced new international routes for summer 2027 The airline is reportedly considering Boeing 787 Dreamliners to launch long-haul international flights Southwest is also expanding its partnership with Icelandair, giving passengers more opportunities to connect to European destinations Southwest Airlines is expanding its international flight network with several new nonstop routes to popular Caribbean and Central American destinations. It is also exploring an even bigger move into long-haul international travel. The airline recently unveiled 11 new routes across 15 cities for summer 2027, including flights to the Bahamas, Dominican Republic, Costa Rica, and Turks and Caicos. Southwest is also considering introducing Boeing 787 Dreamliners to its fleet, which could open the door to long-distance international services. Boeing 787 Southwest Airlines Adds New International Routes for Summer 2027 Southwest announced on Oct. 2 that it will introduce three new international routes from Austin-Bergstrom International Airport, connecting the Texas capital with Nassau in the Bahamas, Punta Cana in the Dominican Republic, and Liberia in Costa Rica. (Source: simpleflying.com) The new services are scheduled to begin in June 2027, and will operate twice weekly on Saturdays and Sundays through early August. The airline also plans to introduce seasonal flights between Austin and San José, Costa Rica, beginning March 13, 2027, while bringing back service to Puerto Vallarta, Mexico. Nashville is another major beneficiary of the expansion, with new nonstop flights planned to Nassau and Providenciales in Turks and Caicos. The additions are part of Southwest's ambitious summer 2027 schedule, which will also introduce several domestic routes across the United States. Southwest Considers Boeing 787 Dreamliners for Long-Haul Flights Beyond the newly announced routes, Southwest is reportedly considering a major transformation of its international operations. According to an Oct. 8 Reuters report, the airline is evaluating Boeing 787 Dreamliners as its first widebody aircraft. This could allow the airline to launch longer international flights. Southwest has historically operated an all-Boeing 737 fleet, which makes the introduction of Dreamliners a major departure from its traditional business model. The airline is also considering Airbus aircraft, although the Boeing 787 is reportedly the preferred option. Southwest Expands European Connections Through Icelandair Southwest is also strengthening its international reach through its partnership with Icelandair. On Oct. 15, Icelandair announced expanded loyalty benefits and confirmed that St. Louis would become the partnership's seventh connecting gateway in May 2027. (Source: icelandairgroup.com) This will allow Southwest passengers to connect to Icelandair flights serving Iceland and numerous European destinations. While Southwest will not operate the transatlantic flights itself, the partnership gives its customers more international travel options. Together, the new routes, airline partnerships, and potential widebody aircraft investment point to a strategy that could transform Southwest from a predominantly domestic carrier into a more competitive international airline.",
+      "tags": "News|Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "75101636",
+      "guid": "https://www.cryptopolitan.com/?p=319865",
+      "published_on": 1792496637,
+      "imageurl": "https://resources.cryptocompare.com/news/43/75101636.jpeg",
+      "title": "Revolut says customers’ money is safe as Google Cloud outage knocks out payments",
+      "url": "https://www.cryptopolitan.com/revolut-google-cloud-outage-halts-payments/",
+      "body": "Revolut has reassured customers who can’t access card payments, transfers and ATM withdrawals that their money and data are safe after a Google Cloud outage knocked out those services on Tuesday. The failure lands exactly one year to the day that Coinbase, Robinhood and Lloyds Bank went down due to an Amazon Web Services outage. Revolut reports more than 80 million personal customers and over 800,000 business accounts, with around 13 million users in Britain. What happened to Revolut? Revolut responded to user reports about service downtimes in an X post , reassuring customers that “money and data are safe.” The post also disclosed that its engineers were already working on a fix to “a service disruption affecting multiple services.” We are currently experiencing a service disruption affecting multiple services. We can confirm that all our customers’ money and data are safe. We’ve been working to fix the issue since it was identified this morning and apologise to anyone affected and for any inconvenience… — Revolut (@Revolut) October 20, 2026 The outage has been traced back to Google Cloud, with BigQuery, App Engine, Cloud SQL and Firestore among affected services. Google flagged multiple failing services in its europe-west2 region on its service health dashboard , with the incident starting at 23:08 PDT on Monday, October 19. Google Cloud service health dashboard. Source: Google Cloud Revolut’s system status page shows 28 services as partially unavailable as of Cryptopolitan’s report, including card payments, bank card top-ups, transfers, ATM withdrawals, sign-in and premium features. System status page lists 28 partially unavailable services. Source: Revolut Reports count more than 1,500 reports from Revolut users on Downdetector. The London-based digital bank did not say how many customers were affected or when full service would return. Lloyds Bank downtime reports have also spiked. A year to the day after the AWS crash One year ago, on October 20, 2025, an Amazon Web Services outage centered on its US-EAST-1 region in Northern Virginia knocked Canva, Zoom, Coinbase, Robinhood, Venmo, Lloyds Bank and Amazon’s own Alexa and Ring offline. Coinbase users could not log in, place orders or withdraw funds on their mobile apps during that episode one year ago. The outage also lands a month after Revolut disclosed a data breach in which hackers demanded $3 million. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|Google|Revolut",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|FIAT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "75101385",
+      "guid": "https://en.coin-turk.com/?p=254277",
+      "published_on": 1792496546,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75101385.jpeg",
+      "title": "Mt. Gox repayment deadline pushed to 2027, $2.8B in Bitcoin remains",
+      "url": "https://en.coin-turk.com/mt-gox-repayment-deadline-pushed-to-2027-2-8b-in-bitcoin-remains/?utm_source=rss&utm_medium=rss&utm_campaign=mt-gox-repayment-deadline-pushed-to-2027-2-8b-in-bitcoin-remains",
+      "body": "🚨 Mt. Gox repayment deadline extended to 2027 with $2.8B in $BTC still held. 💱 Over 10,400 BTC moved but no sales or new creditor payments occurred. 📉 The creditor wait dates back to Mt. Continue Reading: Mt. Gox repayment deadline pushed to 2027, $2.8B in Bitcoin remains The post Mt. Gox repayment deadline pushed to 2027, $2.8B in Bitcoin remains appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75101764",
+      "guid": "https://en.coinotag.com/bitcoin-etf-outflows-910m-second-week-fomc",
+      "published_on": 1792496336,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75101764.jpeg",
+      "title": "Bitcoin (BTC) ETF Outflows Hit $910M in a Second Straight Weekly Retreat",
+      "url": "https://en.coinotag.com/bitcoin-etf-outflows-910m-second-week-fomc",
+      "body": "US spot Bitcoin ETFs shed $910 million across two weekly periods, and Bitcoin closed down 2.25% for a second week before the October 27-28 FOMC meeting.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75101118",
+      "guid": "https://www.cryptopolitan.com/?p=319870",
+      "published_on": 1792495949,
+      "imageurl": "https://resources.cryptocompare.com/news/43/75101118.jpeg",
+      "title": "Moscow targets traders importing Tether's USDT from abroad",
+      "url": "https://www.cryptopolitan.com/russia-cracks-down-tether-for-cash-trading/",
+      "body": "Russia’s banks have started cracking down on cryptocurrency traders obtaining Tether abroad and selling it for cash on the domestic market. The stablecoin is quite popular in the Russian Federation, where sanctions are limiting access to fiat finances and traditional cross-border payments. The dollar-pegged token is one of the three leading cryptocurrencies recently approved for use by retail investors in Russia, alongside Bitcoin and Ethereum. Russian banks target trading scheme involving Tether Russia’s banking system is now clamping down on an arbitrage scheme to acquire Tether (USDT) in neighboring nations and sell it for rubles in the country. The Central Bank of Russia (CBR) and commercial banks, many of which are majority state-owned, have begun blocking such transactions, local media revealed Monday. The process involves depositing into an account in another Commonwealth of Independent States (CIS) country, such as Belarus or Kyrgyzstan, and buying the stablecoin there. The digital currency, purchased in a jurisdiction where this is already legal or yet to be regulated, is then sold at a premium for cash in Russia. The scheme gained popularity in 2026. It relies on the price differential between digital and cash-based USDT rates to yield at least 2% on a deal, according to Sergey Cherechen, co-founder of the crypto company WhiteBird. The latter is the Belarus-licensed operator of a coin trading platform and crypto-fiat exchange which often serves as a gateway for Russian citizens, firms and entities to the digital-asset space. According to experts interviewed by RBC, some users swap stablecoins for “hundreds of millions of rubles a day” using the described method. Representatives of the industry told the business news outlet, which first reported about the crackdown, that the practice is “technically legal.” However, the monetary authority in Moscow views it as a high risk for the laundering of funds from unidentified sources due to insufficient proof of their origin. Russian banks are now preventing wires ultimately reaching Belarusian exchanges, while local crypto platforms have also been unable to legitimize related transactions. Lifting the restrictions imposed on such bank accounts and their holders is almost impossible, according to industry watchers citing Russia’s anti-money laundering legislation. Russia takes another step to curb crypto-cash trade Lagging behind others in the post-Soviet space such as Belarus, which registered its first crypto banks last month, Russia only recently legalized crypto operations like trading. Under the law “On digital currencies and digital rights” enforced in September, cryptocurrency transactions must be processed by service providers authorized by its central bank. Major banking institutions, including the state-controlled giants Sber and VTB, were among the first licensed to act as digital-asset exchanges and depositories, as reported by Cryptopolitan. The legislation also regulates cryptocurrency investment, although capped at less than $4,000 per intermediary for non-professional investors and limited to only the most liquid cryptocurrencies. Tether’s USDT is among the three digital coins with the largest market capitalization and trading volume initially admitted to the regulated Russian market, together with Bitcoin (BTC) and Ethereum (ETH). Russians and their companies have been increasingly using cryptocurrencies and stablecoins to circumvent Western fiat restrictions introduced with sanctions imposed over their country’s invasion of Ukraine. While Moscow is establishing its own crypto infrastructure, they are still mostly relying on platforms registered and operating in allied nations, like those linked to the sanctioned payments platform A7 . While not explicitly prohibited by the current law, the main issue with the USDT arbitrage scheme stems from the sale of digital currency for fiat cash, the crypto news outlet Bits.media noted in a report. After a transitional period that expires on July 1, 2027, it will no longer be possible to purchase Tether directly from CIS-based platforms via a Russian bank account and then sell it for cash inside the country. In recent clarifications on the new legal framework, the Bank of Russia indicated that peer-to-peer (P2P) cryptocurrency transactions as well as coin transfers to self-hosted wallets will be banned from that date, too. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "Regulation|BTC|CBR|CIS|ETH|RUB|USDT",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|REGULATION|USDT|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "75101104",
+      "guid": "https://cryptodaily.co.uk/2026/10/jpm-coin-ethereum-institutional-launch",
+      "published_on": 1792495867,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75101104.jpeg",
+      "title": "JPMorgan Brings JPM Coin Deposit Token to Ethereum for Institutional Clients",
+      "url": "https://cryptodaily.co.uk/2026/10/jpm-coin-ethereum-institutional-launch",
+      "body": "J.P. Morgan announced on October 19 that its Kinexys business had brought JPM Coin (JPMD), its US dollar-denominated deposit token, to Ethereum mainnet for institutional clients. Confirmed in a company announcement , the deployment expands JPM Coin’s availability beyond Base, giving approved participants another public blockchain for moving tokenized deposits. JPM Coin remains a permissioned product restricted to approved institutional participants rather than a retail-accessible crypto asset, according to Cointelegraph. JPM Coin goes live on Ethereum mainnet The Ethereum deployment places JPM Coin on the network where a broad range of assets, collateral arrangements and counterparties already operate onchain. It gives clients another public-chain option for near-real-time, around-the-clock money movement, according to Bloomberg Law . JPM Coin is denominated in US dollars and represents deposits within J.P. Morgan’s system. The announcement concerns its availability on Ethereum mainnet for institutional clients; it does not signal an opening of the token to the general public. Approved institutions can move tokenized deposits across the EVM ecosystem J.P. Morgan said JPM Coin supports peer-to-peer transfers between institutional clients in the Ethereum Virtual Machine ecosystem, including Ethereum and Base. The bank described the arrangement as an onchain liquidity layer for USD deposits. That framing focuses on settlement between eligible institutions operating across those networks. Access is restricted to approved institutional participants, a limitation reported by Cointelegraph , rather than an unrestricted token offering on Ethereum. Ethereum follows JPM Coin’s Base launch The Ethereum rollout follows JPM Coin’s November 2025 launch on Base. The expansion brings the bank’s deposit-token infrastructure to a second public blockchain while retaining the approved-participant model. Kinexys has processed more than $4 trillion in cumulative transactions since inception and has averaged $7 billion in daily transaction volume, according to J.P. Morgan. Those figures cover Kinexys activity and provide the bank’s stated scale for the infrastructure behind the latest deployment. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|FIAT|REGULATION|TOKEN SALE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75100864",
+      "guid": "https://news.bitcoin.com/?p=857306",
+      "published_on": 1792495843,
+      "imageurl": "https://resources.cryptocompare.com/news/14/75100864.jpeg",
+      "title": "Tom Lee Says VCs Regret Missing Bitcoin’s 80x Rise Over 10 Years",
+      "url": "https://news.bitcoin.com/finance/tom-lee-says-vcs-regret-missing-bitcoins-80x-rise-over-10-years/",
+      "body": "Fundstrat’s Tom Lee says venture investors he has known for a decade now regret not simply holding bitcoin, which rose from below $1,000 to around $80,000 over that span. Crypto VCs Question Startup Bets After Bitcoin’s 80x Decade Tom Lee is making a blunt case for simplicity in crypto investing. Speaking at TOKEN2049, the Fundstrat",
+      "tags": "Finance|Bitcoin (BTC)|Tom Lee|Venture Capital",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "75101102",
+      "guid": "https://cryptodaily.co.uk/2026/10/mesh-visa-crypto-spending-partnership",
+      "published_on": 1792495819,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75101102.jpeg",
+      "title": "Mesh and Visa Partner to Let Crypto Balances Be Spent Across 175 Million Merchants",
+      "url": "https://cryptodaily.co.uk/2026/10/mesh-visa-crypto-spending-partnership",
+      "body": "Mesh announced a strategic partnership with Visa on October 19, 2026, allowing users of participating wallets to spend crypto and stablecoin balances at merchants that accept Visa. Visa said its network covers more than 175 million merchant locations across over 200 countries and territories, according to Visa . The arrangement is designed to support in-store and online payments without requiring users to transfer funds to a bank account, load a card in advance or manually exchange assets before purchasing, Mesh said . The companies had not disclosed the initial participating wallets, supported devices or rollout dates when the partnership was announced, so its potential network reach was not a confirmation of an immediate launch across all Visa merchants or wallets. Mesh’s wallet layer is designed to fund Visa payments from crypto balances Cointelegraph reported that Visa credentials are intended to be provisioned through participating wallet applications, with merchants continuing to use their existing checkout infrastructure. In the proposed design, Mesh handles transaction funding and conversion among crypto, stablecoins and fiat. Participating wallet applications remain the user-facing access point, so the funding and conversion process occurs behind the payment flow. Mesh said the planned integration would let users pay without separately transferring funds, preloading a card or manually converting assets before each purchase. The arrangement therefore does not describe a new crypto-specific point-of-sale system for merchants; the payment would be presented through Visa credentials while Mesh manages the relevant balances. Visa’s 175 million locations supply the distribution, not an immediate wallet launch The headline figure attached to the partnership comes from Visa’s existing network footprint. Visa says its network reaches more than 175 million merchant locations in more than 200 countries and territories. Mesh’s announcement says participating wallets could use that acceptance footprint for crypto and stablecoin spending. But network coverage is not the same as confirmation that every wallet user can begin spending immediately. Neither company identified the wallets that will participate first, the devices that will be supported, or the timetable for availability at the time of disclosure. Those details will determine which consumers can use the arrangement and when. The wording of the announcement also places the wallet at the centre of distribution. Users would need access through a participating wallet application in order for Visa credentials to be provisioned under the model described. Visa acceptance at a merchant is therefore only one part of the planned payment path. For now, the partnership establishes the intended operating structure: Visa provides the merchant acceptance network, wallet applications provide the credential layer, and Mesh manages funding and conversion across crypto, stablecoins and fiat. The outstanding product details leave the scale and timing of consumer access unresolved. What Mesh and Visa have announced Mesh framed the agreement as a way to let participating wallet users spend digital-asset balances without first routing money through a bank account or preparing a prepaid balance. The model is intended for both physical retail payments and online checkout, with merchants retaining their existing systems. The announcement does not name the first wallet partners or specify a launch schedule. Until those integrations are identified, Visa’s 175 million-location network remains the available distribution footprint behind the proposal rather than a measure of confirmed user access. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|FIAT|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75101101",
+      "guid": "https://cryptodaily.co.uk/2026/10/mastercard-stablecoin-security-fraud-sanctions-screening",
+      "published_on": 1792495811,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75101101.jpeg",
+      "title": "Mastercard Launches Stablecoin Security to Screen Fraud and Sanctions Risk",
+      "url": "https://cryptodaily.co.uk/2026/10/mastercard-stablecoin-security-fraud-sanctions-screening",
+      "body": "Mastercard has launched Stablecoin Security to screen stablecoin transactions before funds move on-chain, combining payment and blockchain intelligence to identify fraud, scams, sanctions exposure and other financial-crime risks. Announced on October 19 at Money20/20 USA, the service is aimed at institutions that need to assess potentially complex on-chain activity before completing a payment. Its risk intelligence is designed to work with existing fraud and compliance workflows used by banks and payment firms. Mastercard said the first rollout will be in North America, with Borderless.xyz and Keyrails as initial partners. Mastercard launches Stablecoin Security Mastercard said Stablecoin Security will launch first in North America, with commercial availability expected worldwide in 2027. According to the company’s announcement , the service is intended to provide institutions with earlier visibility into risks associated with stablecoin transfers before funds move on-chain. It is designed to flag fraud, scams, sanctions exposure and other financial-crime risks before payment completion. The resulting information is intended to fit within financial institutions’ existing fraud, compliance and decision-making workflows, rather than be used only to review activity after settlement. How the API scores stablecoin payments The Block reported that banks will receive a risk score before stablecoin payments are completed. It said the service will screen transaction flows for fraud, scams, sanctions violations and other financial-crime risks. Mastercard’s own description identifies the delivery mechanism as a platform-agnostic API . The API analyzes transaction context, the origins of funds, exposure to restricted parties and scam indicators, then produces the score before payment completion. Mastercard said the score can feed into existing fraud and compliance workflows, enabling banks and other financial institutions to apply their internal processes to stablecoin transactions. The available details do not specify how individual signals are weighted or what risk threshold an institution would use. That leaves the score as an input to a payment or compliance workflow, rather than an automatic description of every transaction’s legal or financial status. Article image accompanying The Block’s report on Mastercard’s Stablecoin Security risk-screening service. — Source: The Block Complex Ethereum flows raise the screening challenge The need for transaction-level intelligence is partly tied to the way stablecoin movements appear on public blockchains. A 2025 sample examined by the Bank for International Settlements covered more than 593 million stablecoin transfer events across 141 million Ethereum transactions. According to the BIS study cited by Mastercard, nearly 60% of those transfer events occurred within complex, multi-step transactions. That finding is not a measure of fraud or sanctions activity, but it does show why a single transfer can be less informative than the broader transaction sequence around it. Mastercard’s stated focus on fund origins, transaction context and restricted-party exposure maps onto that complexity. A payment provider assessing risk before completion may need to evaluate more than the sending and receiving addresses when the transfer is one step in a larger on-chain process. Initial partners and 2027 rollout Borderless.xyz and Keyrails are the initial partners for Stablecoin Security. Mastercard said the North American launch will precede commercial availability worldwide, which it expects in 2027. The sequence makes the announcement a targeted first deployment rather than an immediate global expansion of the service. Its progress will depend on the North American partner rollout and Mastercard’s ability to bring the API to further institutions and markets ahead of its stated 2027 availability target. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|ETH|REGULATION|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75101100",
+      "guid": "https://cryptodaily.co.uk/2026/10/cme-bitcoin-cash-uniswap-futures-launch",
+      "published_on": 1792495803,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75101100.jpeg",
+      "title": "CME Launches Bitcoin Cash and Uniswap Futures, Adding Regulated Altcoin Exposure",
+      "url": "https://cryptodaily.co.uk/2026/10/cme-bitcoin-cash-uniswap-futures-launch",
+      "body": "CME Group made Bitcoin Cash and Uniswap futures available for trading on October 19, expanding its regulated cryptocurrency derivatives offering with standard and Micro contracts for both tokens. The products are listed on CME Globex and cleared through CME ClearPort, according to a CME Group notice . The launch gives market participants access to BCH and UNI exposure through CME’s CFTC-regulated derivatives marketplace, where the exchange positions the contracts as tools for regulated exposure and risk management. BCH and UNI futures begin trading on CME Globex The four contracts now available are Bitcoin Cash futures, Micro Bitcoin Cash futures, Uniswap futures and Micro Uniswap futures. Trading takes place on CME Globex, the group’s electronic trading platform, while clearing is handled through CME ClearPort. CME’s October 12 electronic-trading notice specified October 19 as the date the products became available. The listing brings two additional crypto assets onto a venue that operates within the US-regulated futures market structure. Contract sizes provide standard and Micro exposure CME’s standard and Micro futures represent 250 BCH and 25 BCH for Bitcoin Cash, respectively, and 10,000 UNI and 1,000 UNI for Uniswap, respectively, according to its crypto launch page . That gives each asset two contract sizes within CME’s CFTC-regulated cryptocurrency derivatives marketplace . CME extends its single-asset crypto lineup Bitcoin Cash and Uniswap join a single-asset crypto derivatives range that already includes futures linked to Bitcoin, Ether, XRP, Solana, Cardano, Chainlink, Stellar, Avalanche and Sui. The Block reported that the additions broaden CME’s roster beyond those existing assets. The new listings add BCH and UNI to that regulated suite with both standard and Micro-sized contracts, while CME Globex and CME ClearPort provide the trading and clearing venues for the products. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BCH|TRADING|UNI|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75100859",
+      "guid": "https://en.coin-turk.com/?p=254276",
+      "published_on": 1792495766,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75100859.jpeg",
+      "title": "XRP price target set at $1.48 for October 31, ChatGPT outlines key scenarios",
+      "url": "https://en.coin-turk.com/xrp-price-target-set-at-1-48-for-october-31-chatgpt-outlines-key-scenarios/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-price-target-set-at-1-48-for-october-31-chatgpt-outlines-key-scenarios",
+      "body": "🚨 $XRP base case price target set at $1.48 for October 31. 🟢 ChatGPT outlines 3 scenarios, including technical upgrade and ETF flows. 📉 XRP traded at $1.29 as of October 19 after weeks of outflows. Continue Reading: XRP price target set at $1.48 for October 31, ChatGPT outlines key scenarios The post XRP price target set at $1.48 for October 31, ChatGPT outlines key scenarios appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75101241",
+      "guid": "ca26ee92-6c4e-4ff6-8dae-4beaaad3f250",
+      "published_on": 1792495500,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75101241.jpeg",
+      "title": "France's parliament approves vote to hit stablecoin trades with 31% capital gains tax",
+      "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
+      "body": "Amendment I-3898 removes tax deferral for MiCA-compliant stablecoins starting January 2027.",
+      "tags": "Policy|Stablecoins|Tax|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75100593",
+      "guid": "https://cointelegraph.com/news/netflix-ftx-trailer-upset-first-30-seconds-ftx-coo",
+      "published_on": 1792495380,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75100593.jpeg",
+      "title": "Netflix FTX trailer was ‘enough to upset me’ in first 30 seconds: former FTX COO",
+      "url": "https://cointelegraph.com/news/netflix-ftx-trailer-upset-first-30-seconds-ftx-coo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Constance Wang criticized the streamer’s portrayal of her former FTX colleagues as not matching her own experience with Sam Bankman-Fried and Caroline Ellison.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "75100355",
+      "guid": "https://en.coin-turk.com/?p=254274",
+      "published_on": 1792495226,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75100355.jpeg",
+      "title": "New whales now hold 33% of BTC realized cap as Strategy reduces buying",
+      "url": "https://en.coin-turk.com/new-whales-now-hold-33yuzde-of-btc-realized-cap-as-strategy-reduces-buying/?utm_source=rss&utm_medium=rss&utm_campaign=new-whales-now-hold-33yuzde-of-btc-realized-cap-as-strategy-reduces-buying",
+      "body": "🐳 New whales now hold 33% of BTC realized cap, overtaking Strategy in $BTC accumulation. 💹 Large wallets added nearly 89,000 BTC in the past month as institutional buying slowed. 📝 Since early 2026, new whales have gained greater influence on overall market dynamics. Continue Reading: New whales now hold 33% of BTC realized cap as Strategy reduces buying The post New whales now hold 33% of BTC realized cap as Strategy reduces buying appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75100134",
+      "guid": "https://finbold.com/?p=277362",
+      "published_on": 1792495137,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "Analyst says Bitcoin has flashed an ‘extremely rare’ breakout signal",
+      "url": "https://finbold.com/analyst-says-bitcoin-has-flashed-an-extremely-rare-breakout-signal/",
+      "body": "Although Bitcoin ( BTC ) has been in a choppy consolidation over the past four weeks through October 20, 2026, popular pseudonymous crypto analyst Super฿ro, or SuperBitcoinBro, expects a massive bull run soon, catalyzed by an ‘extremely rare’ setup. The analyst highlighted that the Bitcoin price has now closed the past 28 days inside the body of one daily candle. SuperBitcoinBro pointed out that this signal has happened 5 times since the inception of Bitcoin, and each time it always continued in the direction of the initial breakout. BTC/USD daily chart analysis. Source: SuperBitcoinBro , TradingView Some of the instances that Super฿rob used to support this thesis include the post Covid-19 market crash, and before the November 2018 selloff. As a result, the analyst forecast a big move for the flagship coin, especially if its buyers aggressively accumulate at the support level near the base, at approximately $81,115. “If this pattern continues, then right here near the bottom of the range is about the best R/R you are going to get, and the ensuing move is likely to be massive,” SuperBitcoinBro noted in an X post on Tuesday. Bitcoin fundamentals on October 20 Despite Bitcoin price falling nearly 2% over the last 24 hours, trading at $81,362 at the time of writing, BlackRock Inc. (NYSE: BLK ) has reiterated its long-term conviction. In addition to iShares Bitcoin Trust ( IBIT ) recording a net cash inflow of $665.20 million on October 19, BlackRock filed with the United States Securities and Exchange Commission (SEC) for a new BTC exchange-traded fund (ETF) dubbed iShares Bitcoin Managed Protection ETF (PBIT). As such, the U.S. Bitcoin spot ETFs closed Monday with their highest daily cash inflow in a month, of $526.60 million, according to data Finbold fetched from SoSoValue . BTC spot ETFs daily cash flow. Source: SoSoValue BTC price performance today Bitcoin saw its market capitalization decline 1.83% over the last 24 hours, ranging at around $1.63 trillion at press time, based on metrics from CoinMarketCap . Bitcoin performance on October 20. Source: CoinMarketCap The crypto asset’s 24-hour average trading volume stagnated at roughly $24 billion. Nonetheless, SuperBitcoinBro believes that Bitcoin’s price is on the cusp of a major uptrend, potentially driven by renewed institutional demand. Featured image via Shutterstock The post Analyst says Bitcoin has flashed an ‘extremely rare’ breakout signal appeared first on Finbold .",
+      "tags": "Cryptocurrency news|Stocks news|Bitcoin|BTC|crypto|cryptocurrency|investing|Stocks",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "75099971",
+      "guid": "7d544105-b5a4-41d9-b624-4f00162f814d",
+      "published_on": 1792494861,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75099971.jpeg",
+      "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+      "body": "Your day-ahead look for Oct. 20, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75100717",
+      "guid": "https://en.coinotag.com/bitget-gmo-z-com-cryptonomics-thailand-acquisition",
+      "published_on": 1792494783,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75100717.jpeg",
+      "title": "Bitget Moves to Acquire GMO-Z.com Cryptonomics, Targeting Oct. 31 Completion",
+      "url": "https://en.coinotag.com/bitget-gmo-z-com-cryptonomics-thailand-acquisition",
+      "body": "Bitget plans to acquire Thailand's licensed GMO-Z.com Cryptonomics through BTGT Management, targeting Oct. 31 completion pending Thai regulatory approval.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75100107",
+      "guid": "https://cointelegraph.com/news/kazakhstan-court-limits-coinbase-bingx-four",
+      "published_on": 1792494741,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75100107.jpeg",
+      "title": "Kazakhstan court orders curbs on Coinbase, BingX and four others",
+      "url": "https://cointelegraph.com/news/kazakhstan-court-limits-coinbase-bingx-four?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Nine other crypto platforms voluntarily restricted app access in Kazakhstan, prompting the regulator to withdraw its claims against them.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "75099702",
+      "guid": "d88b9f42-616b-415f-bc0f-b05ada38eb2d",
+      "published_on": 1792494640,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75099702.jpeg",
+      "title": "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
+      "url": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
+      "body": "The report marks the first time JPMorgan has put a range on bitcoin returns in its research, though the bank remains cautious about BTC's role in portfolios.",
+      "tags": "Markets|JPMorgan|Bitcoin News|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|MARKET|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75099845",
+      "guid": "https://en.coin-turk.com/?p=254273",
+      "published_on": 1792494626,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75099845.jpeg",
+      "title": "XRP exchange inflows reach 6 billion tokens in 30 days, whale outflows at 5-year low",
+      "url": "https://en.coin-turk.com/xrp-exchange-inflows-reach-6-billion-tokens-in-30-days-whale-outflows-at-5-year-low/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-exchange-inflows-reach-6-billion-tokens-in-30-days-whale-outflows-at-5-year-low",
+      "body": "🚨 XRP exchange inflows jumped to 6 billion tokens in a month while whale withdrawals crashed. 📈 The 90-day moving average for whale outflows in $XRP dropped to a five-year low. 🧐 Major investors appear cautious as trading volumes shift and profit-taking slows for Bitcoin. Continue Reading: XRP exchange inflows reach 6 billion tokens in 30 days, whale outflows at 5-year low The post XRP exchange inflows reach 6 billion tokens in 30 days, whale outflows at 5-year low appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|EXCHANGE|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75099704",
+      "guid": "https://www.newsbtc.com/?p=915390",
+      "published_on": 1792494600,
+      "imageurl": "https://resources.cryptocompare.com/news/21/75099704.jpeg",
+      "title": "Mastercard Introduces Fraud Screening Before Stablecoin Payments Go On-Chain",
+      "url": "https://www.newsbtc.com/crypto-news/mastercard-introduces-fraud-screening-before-stablecoin-payments-go-on-chain/",
+      "body": "TL;DR: Mastercard has launched Stablecoin Security , a risk-scoring tool designed to help financial institutions examine payments before and during their movement across blockchains. Stablecoin transfers can settle quickly. Investigating a suspicious payment before it happens is a much harder task, particularly when the transaction crosses providers, blockchains and traditional banking systems. Mastercard wants to tackle that problem with Stablecoin Security, introduced at Money20/20 in Las Vegas. The product combines conventional payment intelligence with blockchain data so banks and payment companies can assess fraud, sanctions and scam risks across a transfer’s journey. The service works through an API and can generate a risk assessment before a transaction is completed. Mastercard says it can consider the payment context, the origin of the funds and potential exposure to restricted parties. Borderless.xyz and Keyrails are the initial partners. For businesses considering stablecoin settlement, this fills an operational gap. A payment may be technically possible and still raise questions about counterparties, compliance or whether the funds arrived through a compromised wallet. Mastercard’s announcement cites research covering 593 million stablecoin transfer events and 141 million Ethereum transactions in 2025, finding that almost 60% involved more complex, multi-step routes rather than simple one-to-one transfers. The company is initially launching in North America and expects wider commercial availability in 2027. It isn’t promising to eliminate fraud, but it is bringing a familiar banking control into an increasingly unfamiliar payment environment. Written by the News Desk and edited by Samuel Rae.",
+      "tags": "Crypto News|compliance|mastercard|payments|security|Stablecoins",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|ETH|RESEARCH|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "NewsBTC",
+        "img": "https://images.cryptocompare.com/news/default/newsbtc.png",
+        "lang": "EN"
+      },
+      "source": "newsbtc"
+    },
+    {
+      "id": "75099577",
+      "guid": "https://en.bitcoinsistemi.com/bithumb-to-halt-transfers-of-48-cryptocurrencies-due-to-solana-network-upgrade-here-are-the-altcoins/",
+      "published_on": 1792494368,
+      "imageurl": "https://resources.cryptocompare.com/news/81/75099577.jpeg",
+      "title": "Bithumb to Halt Transfers of 48 Cryptocurrencies Due to Solana Network Upgrade! Here Are the Altcoins",
+      "url": "https://en.bitcoinsistemi.com/bithumb-to-halt-transfers-of-48-cryptocurrencies-due-to-solana-network-upgrade-here-are-the-altcoins/",
+      "body": "South Korea-based cryptocurrency exchange Bithumb has announced it will temporarily suspend deposit and withdrawal transactions for 48 crypto assets due to upgrades to its Solana (SOL) network. According to a statement by the exchange, trading will cease on October 21, 2026, at 12:00 PM Turkish time. The decision was made to support the Solana network upgrade and prevent potential technical issues during the transfer of related assets. Assets that will be affected by the temporary suspension include Solana (SOL), BONK, Jupiter (JUP), Jito (JTO), Pyth Network (PYTH), Raydium (RAY), Render Token (RENDER), dogwifhat (WIF), Official Trump (TRUMP), and Pudgy Penguins (PENGU). Additionally, DoubleZero (2Z), Access Protocol (ACS), Arcium (ARX), Moonbird (BIRB), Bubblemaps (BMT), CUDIS, deBridge (DBR), Doodles (DOOD), GEODNET (GEOD), Grass (GRASS), Helium (HNT), HoloWorld AI (HOLO), Huma Finance (HUMA) and io.net (IO) will also be affected by the implementation. The list also includes Kamino Finance (KMNO), Solayer (LAYER), Mayflower (MAY), Magic Eden (ME), Meteora (MET), MetaDAO (META2), MEW, MOODENG, Metaplex (MPLX), Orca (ORCA), PONKE, Popcat (POPCAT), Pearl (PRL), Pump.fun (PUMP), and ROA Core (ROA). Seeker (SKR), Solstice (SLX), SNS, Sonic SVM (SONIC), SOON, Global Dollar (USDG), USELESS, Wormhole (W), and Humidifi (WET) are among the other assets included in the temporary trading restrictions. The announcement did not specify the exact time when deposit and withdrawal transactions will resume. It is important for users to follow the latest announcements published by Bithumb before making any transfers. *This is not investment advice. Continue Reading: Bithumb to Halt Transfers of 48 Cryptocurrencies Due to Solana Network Upgrade! Here Are the Altcoins",
+      "tags": "Altcoin|Exchange|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|EXCHANGE|SOL|PYTH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "75099969",
+      "guid": "https://en.coinotag.com/quinelings-solana-copycat-token-crashes-90-percent",
+      "published_on": 1792494249,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75099969.jpeg",
+      "title": "Quinelings Meme Coin Crashes Over 90% in Hours After Charles Hoskinson's Release",
+      "url": "https://en.coinotag.com/quinelings-solana-copycat-token-crashes-90-percent",
+      "body": "A Solana meme coin borrowing Charles Hoskinson's Quinelings name crashed more than 90% in hours on PumpSwap; the real project stays a research prototype.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SOL|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75099110",
+      "guid": "https://ambcrypto.com/?p=642731",
+      "published_on": 1792494038,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "MSTR flashes first ‘Golden Cross’ since 2023 – What’s next for Strategy?",
+      "url": "https://ambcrypto.com/mstr-flashes-first-golden-cross-since-2023-whats-next-for-strategy/",
+      "body": "But is this Golden Cross a bullish signal for MSTR or a distraction from its financial risks?",
+      "tags": "News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "75099102",
+      "guid": "https://timestabloid.com/?p=113385",
+      "published_on": 1792494032,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "AI Predicts Where XRP Will Trade On October 31, 2026",
+      "url": "https://timestabloid.com/ai-predicts-where-xrp-will-trade-on-october-31-2026/",
+      "body": "XRP has experienced a difficult October, declining from recent highs and facing weakening institutional flows. With less than two weeks remaining in the month, market participants are weighing whether scheduled network developments and potential ETF inflows can support a recovery. To assess the outlook, we asked ChatGPT to predict the price of XRP on October 31 . The AI’s central target is $1.48, with a broad possible range of $1.10 to $1.75. With XRP trading at approximately $1.29 as of October 19, ChatGPT outlined three distinct scenarios for month-end. It assigned a probability to each one based on current market conditions and upcoming developments. The Base Case ChatGPT assigns a 50% probability to its base-case range of $1.40 to $1.55, with a central target of $1.48. This would represent a gain of approximately 14.7% from current levels. The AI cited three primary supporting factors: a scheduled XRP Ledger technical upgrade set for around October 23, Cross River Bank’s integration of RLUSD , and a potential recovery in ETF inflows. However, ChatGPT noted that these developments would need to improve sentiment without necessarily producing a major rally. It stated that it “would expect this scenario to involve a gradual recovery rather than an uninterrupted rally.” The Bullish Outlook A 25% probability is assigned to the bullish scenario, which would require multiple catalysts to align simultaneously. ChatGPT identified the most critical conditions as a return to sustained ETF inflows, a successful activation of the October 23 upgrade, a broader cryptocurrency market recovery, and XRP breaking above key resistance levels . A move from $1.29 to $1.70 would represent an increase of approximately 31.8%. The AI stated it “would not make it the primary forecast without confirmation from price action and institutional flows.” Will XRP Decline? The remaining 25% probability covers a bearish outcome. ChatGPT pointed to continued ETF outflows as a central concern, noting that U.S. spot XRP ETFs recorded approximately $1.84 million in net outflows for the week ending October 16, ending a 13-week inflow streak. A broader decline in Bitcoin or failure of bullish announcements to generate real demand could also drive this outcome. Key Price Levels to Monitor ChatGPT identified $1.25 as near-term support , warning that a break below it would weaken the recovery outlook. The $1.35 to $1.40 range represents the first recovery zone XRP must reclaim, while $1.50 stands as a psychological milestone for the base case. The $1.60 to $1.70 range marks the threshold for the bullish scenario. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post AI Predicts Where XRP Will Trade On October 31, 2026 appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "75099458",
+      "guid": "https://coinpaprika.com/news/digital-bonds-break-out-dlt-issuance-hits",
+      "published_on": 1792494000,
+      "imageurl": "https://resources.cryptocompare.com/news/80/default.png",
+      "title": "Digital Bonds Break Out as DLT Issuance Hits Record €8.1 Billion",
+      "url": "https://coinpaprika.com/news/digital-bonds-break-out-dlt-issuance-hits",
+      "body": "Global issuance of DLT-based fixed income reached a record €8.1 billion in 2026 to date, 86% above all of 2025. Tokenised assets rose to $38.8 billion and DLT repo activity averaged about $360 billion a day.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "75099090",
+      "guid": "https://news.bitcoin.com/?p=857321",
+      "published_on": 1792493951,
+      "imageurl": "https://resources.cryptocompare.com/news/14/75099090.jpeg",
+      "title": "Arrington’s XRP Fund Holds a $514M Evernorth Stake Ripple Can Steer",
+      "url": "https://news.bitcoin.com/finance/arrington-xrp-capital-evernorth-stake-rippleworks/",
+      "body": "Arrington XRP Capital Fund disclosed a 19.9% voting stake in Nasdaq-listed Evernorth late Monday, and the same filing shows Rippleworks can direct how 30.2 million of the fund’s shares are voted. A Closer Look at the Filing A Form 3 is the initial ownership statement insiders and 10% holders file with the Securities and Exchange",
+      "tags": "Finance|Ripple XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "75099215",
+      "guid": "https://en.coin-turk.com/?p=254266",
+      "published_on": 1792493905,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75099215.jpeg",
+      "title": "Solana holds $100 as ETF outflows continue, eyes Alpenglow upgrade for $150 target",
+      "url": "https://en.coin-turk.com/solana-holds-100-as-etf-outflows-continue-eyes-alpenglow-upgrade-for-150-target/?utm_source=rss&utm_medium=rss&utm_campaign=solana-holds-100-as-etf-outflows-continue-eyes-alpenglow-upgrade-for-150-target",
+      "body": "🚀 Solana holds above $100 as traders watch for a breakout after ETF outflows. 📊 $60 million exited Solana ETFs in October, but spot buyers supported the $100 level. 🔧 Alpenglow upgrade set to slash transaction finality, with $SOL targeting $150 if momentum builds. Continue Reading: Solana holds $100 as ETF outflows continue, eyes Alpenglow upgrade for $150 target The post Solana holds $100 as ETF outflows continue, eyes Alpenglow upgrade for $150 target appeared first on COINTURK NEWS .",
+      "tags": "Solana (SOL)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1792493749,
+    "time_range_start": "2026-10-20 10:55:49",
+    "time_range_end": "2026-10-20 11:55:49"
+  }
+}
