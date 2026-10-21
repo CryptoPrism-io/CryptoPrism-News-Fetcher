@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261021_120931",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1792580971,
+    "time_range_start": "2026-10-21 11:09:31",
+    "time_range_end": "2026-10-21 12:09:31"
+  },
+  "total_articles": 28,
+  "unique_sources": 17,
+  "unique_categories": 29,
+  "unique_tags": 67,
+  "body_stats": {
+    "avg_length": 1686.79,
+    "min_length": 37,
+    "max_length": 14290
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-21 11:13:22",
+    "newest": "2026-10-21 12:05:34",
+    "time_span_minutes": 52.2
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Cryptopolitan": 3,
+    "Seeking Alpha": 2,
+    "CoinDesk": 2,
+    "Decrypt": 2,
+    "CoinOtag": 2,
+    "coinpedia": 2,
+    "cryptonews": 1,
+    "Crypto Daily": 1,
+    "TrustNodes": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 23,
+    "TRADING": 14,
+    "BTC": 10,
+    "ETH": 6,
+    "BUSINESS": 5,
+    "MARKET": 5,
+    "EXCHANGE": 4,
+    "ZEC": 3,
+    "FIAT": 3,
+    "ALTCOIN": 3,
+    "XRP": 2,
+    "DOGE": 2,
+    "BLOCKCHAIN": 2,
+    "SPONSORED": 1,
+    "DIGITAL ASSET TREASURY": 1
+  },
+  "top_tags": {
+    "News": 6,
+    "Altcoin News": 3,
+    "Crypto News": 3,
+    "Europe": 2,
+    "BTC": 2,
+    "XRP": 2,
+    "Tech": 2,
+    "Dogecoin": 2,
+    "Altcoin": 2,
+    "Cryptocurrency Price Prediction": 2,
+    "Price Prediction": 2,
+    "Crypto Daybook Americas": 2,
+    "Ethereum (ETH)": 1,
+    "More News": 1,
+    "Politics": 1
+  }
+}
