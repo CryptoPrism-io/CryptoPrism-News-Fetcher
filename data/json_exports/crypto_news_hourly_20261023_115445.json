@@ -1,0 +1,532 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "75340180",
+      "guid": "https://decrypt.co/?p=381681",
+      "published_on": 1792756177,
+      "imageurl": "https://resources.cryptocompare.com/news/44/75340180.jpeg",
+      "title": "Ethereum Delays Glamsterdam Testnet Fork Over Gas Security Flaws",
+      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
+      "body": "The Hoodi testnet fork is off after ChainSecurity found gas changes that could let contracts lock in failures, citing 13 real-world cases.",
+      "tags": "|Technology",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|TECHNOLOGY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "75340260",
+      "guid": "https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption",
+      "published_on": 1792756067,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75340260.jpeg",
+      "title": "Was crypto self-custody ever designed for beginners?",
+      "url": "https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Recent hardware wallet security incidents have renewed debate over whether self-custody is suitable for beginners, as multisig and seedless designs carry their own risks.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "75340072",
+      "guid": "https://cryptopotato.com/?p=1451919",
+      "published_on": 1792755904,
+      "imageurl": "https://resources.cryptocompare.com/news/27/75340072.jpeg",
+      "title": "Monero (XMR) Gains Attention, Zcash (ZEC) Faces Wild Swings, and More: Bits Recap October 23",
+      "url": "https://cryptopotato.com/monero-xmr-gains-attention-zcash-zec-faces-wild-swings-and-more-bits-recap-october-23/",
+      "body": "The popular privacy coin XMR has taken center stage lately after its price surged to an eight-month high. Its biggest rival, ZEC, also posted a substantial uptick, but bears stopped the rally, and the asset remains in the red on a weekly basis. For its part, BTC slipped 1% within the same period, yet the recent whale activity suggests the price may soon head north. XMR’s Pump The token registered a double-digit price increase yesterday (October 22), surpassing $650 for the first time since January. A potential catalyst for the rally was the announcement that GUI v0.18.5.4 ‘Fluorine Fermi’ has been released . Monero’s team explained that this minor upgrade reopens testnet and stagenet wallets and includes bug fixes. Some analysts expected XMR to continue its upward trajectory, with X users Sweep and Alaoui Capital predicting an explosion to a new all-time high of $1,000. Contrary to their projections, though, the privacy coin headed south and is currently worth $605 (per CoinGecko). In fact, Dr Profit recently warned that XMR’s open interest has hit a historic high (a claim Santiment rejected) and noted that the last time OI jumped this much, the price crashed 66% in just 20 days. ZEC’s Turbulence Zcash also performed well earlier this week and, on October 21, reached a nine-day peak above $1,360. At the time, its ascent likely followed reports that the team behind the asset plans to triple block production speed, with developers targeting November 5 for the NU7 upgrade. It also coincided with two major investors opening approximately $37 million in long positions on ZEC with 10x leverage. However, the surge was short-lived, and the token now trades near $1,200, down about 2% on a weekly basis. Meanwhile, X user Crypto With Gopal suggested bearish pressure has been building and anticipates a further plunge in the near future. He believes bears are now pushing the $1,050 neckline support on a head-and-shoulders pattern and said bulls need to defend support and reclaim $1,300+ to weaken the setup. What About BTC? The leading cryptocurrency looked ready to touch $85,000 on October 22, but got rejected and now hovers near $81,500. Factors that may have negatively impacted its performance include rising global geopolitical tensions and weak financial markets overall. Despite the volatility and uncertainty, whales seem reluctant to wave the white flag and have actually increased their exposure to BTC. As Crypto Potato reported , 40 newly created wallets have withdrawn over $770 million worth of the asset since October 1. Before that, market participants holding between 10 and 10,000 BTC accumulated almost 90,000 units in just one month. Such a buying spree leaves fewer assets available on the open market and could drive prices up (assuming demand doesn’t cool off). It may also encourage smaller players to buy, bringing fresh capital into the ecosystem. The post Monero (XMR) Gains Attention, Zcash (ZEC) Faces Wild Swings, and More: Bits Recap October 23 appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Bitcoin (BTC) Price|Monero (XMR) Price|Zcash (ZEC) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|XMR|ZEC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "75339622",
+      "guid": "https://news.bitcoin.com/?p=858103",
+      "published_on": 1792755645,
+      "imageurl": "https://resources.cryptocompare.com/news/14/75339622.jpeg",
+      "title": "You Can Get a Multisig Bitcoin Loan at a Bank, as Sygnum and Debifi Debut",
+      "url": "https://news.bitcoin.com/finance/you-can-get-a-multisig-bitcoin-loan-at-a-bank-as-sygnum-and-debifi-debut/",
+      "body": "A growing market for bitcoin-backed, multisig-secured loans now has what appears to be its first bank offering this type of product, as Sygnum and Debifi delivered on a promise made a year ago. Switzerland-headquartered digital asset bank Sygnum and Latvian bitcoin lending platform Debifi launched MultiSYG, a loan product that secures collateral in a multisig",
+      "tags": "Finance|Bank|Bitcoin (BTC)|Bitcoin loans|crypto lending",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "75339732",
+      "guid": "https://en.coin-turk.com/?p=254735",
+      "published_on": 1792755568,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75339732.jpeg",
+      "title": "Cardano rebounds 2% to $0.216 but faces resistance as whales reduce holdings",
+      "url": "https://en.coin-turk.com/cardano-rebounds-2yuzde-to-0-216-but-faces-resistance-as-whales-reduce-holdings/?utm_source=rss&utm_medium=rss&utm_campaign=cardano-rebounds-2yuzde-to-0-216-but-faces-resistance-as-whales-reduce-holdings",
+      "body": "🚨 Cardano rebounded nearly 2% to $0.216 but stayed under key resistance levels. 📉 Large investors reduced $ADA holdings, while bullish traders faced liquidations. 📰 Cardano remains below its major moving averages, risking another support test at $0.20. Continue Reading: Cardano rebounds 2% to $0.216 but faces resistance as whales reduce holdings The post Cardano rebounds 2% to $0.216 but faces resistance as whales reduce holdings appeared first on COINTURK NEWS .",
+      "tags": "Cardano (ADA)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ADA|BUSINESS|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75340279",
+      "guid": "https://en.coinotag.com/bitcoin-btc-90-day-volatility-38-percent-eight-times-euro",
+      "published_on": 1792755464,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75340279.jpeg",
+      "title": "Bitcoin (BTC) Volatility Runs at 38% Over 90 Days, 8 Times the Euro's 4.6%",
+      "url": "https://en.coinotag.com/bitcoin-btc-90-day-volatility-38-percent-eight-times-euro",
+      "body": "Bitcoin's 90-day realized volatility stands at 38%, eight times EUR/USD's 4.6% and triple the S&P 500's 11%, as risk management trims crypto swings while the VIX climbs above its average.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75339294",
+      "guid": "https://en.coin-turk.com/?p=254734",
+      "published_on": 1792755148,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75339294.jpeg",
+      "title": "S&P Global US PMI data to guide Fed policy, crypto traders eye rate signals",
+      "url": "https://en.coin-turk.com/sp-global-us-pmi-data-to-guide-fed-policy-crypto-traders-eye-rate-signals/?utm_source=rss&utm_medium=rss&utm_campaign=sp-global-us-pmi-data-to-guide-fed-policy-crypto-traders-eye-rate-signals",
+      "body": "🚨 S&P Global US PMIs out Friday, set to influence Fed’s rate decision and $BTC market mood. 📈 October PMIs are forecast to cool but remain well above contraction levels. 🇬🇧 UK sees strongest business activity in eight months as BoE eyes a rate hike. Continue Reading: S&P Global US PMI data to guide Fed policy, crypto traders eye rate signals The post S&P Global US PMI data to guide Fed policy, crypto traders eye rate signals appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75339076",
+      "guid": "https://ambcrypto.com/?p=643741",
+      "published_on": 1792755016,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "ICP crypto faces fresh pressure – Why DFINITY accuses NEAR of IP theft",
+      "url": "https://ambcrypto.com/icp-crypto-faces-fresh-pressure-why-dfinity-accuses-near-of-ip-theft/",
+      "body": "Will Internet Computer and NEAR Intents' fight affect ICP crypto sentiment?",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|ICP|NEAR|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "75339187",
+      "guid": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
+      "published_on": 1792755009,
+      "imageurl": "https://resources.cryptocompare.com/news/21/75339187.jpeg",
+      "title": "Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe",
+      "url": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
+      "body": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia October 23, 2026 — Paybis, a global crypto exchange and payment infrastructure provider, today added four local payment methods for buying crypto in Europe. Customers can now pay with iDEAL in the Netherlands, BLIK in Poland, Multibanco in Portugal and EPS in Austria. Cards and bank transfers remain available, but they are no longer the only options. Four new local payment methods live today: iDEAL, BLIK, Multibanco and EPS. No card details needed: customers confirm payment in their banking app or pay a Multibanco reference. More than 90 cryptocurrencies are available, including Bitcoin, Ethereum, Solana and USDC. First wave of 13 local payment methods; Paybis will support more than 30 ways to pay once all are live. Local payment methods at national scale The four methods operate at scale in their home markets. BLIK had 21.6 million active users in Poland at the end of June 2026, according to its operator, Polish Payment Standard. iDEAL processed more than 1.5 billion transactions in 2025 and handled 71% of online purchases in the Netherlands, according to the Dutch Payments Association. The Multibanco network has around 13,000 machines across Portugal, according to SIBS. EPS is offered by more than 11,000 online shops in Austria. Four methods, four markets iDEAL Netherlands Bank selection and confirmation in a banking app Limit per payment: EUR 50,000 BLIK Poland Six-digit code from a banking app Limit per payment: PLN 50,000 Multibanco Portugal Payment reference, paid at an ATM or in a banking app Limit per payment: EUR 5,000 EPS Austria Bank selection and confirmation in online banking Limit per payment: EUR 10,000 Simple crypto, paid locally Each method works the way it does for any other online payment in its market. The customer chooses the method at checkout and confirms the payment through their bank, or pays the Multibanco reference. No card details are needed. The crypto goes to the customer’s Paybis Wallet or to any external wallet address. Customers can choose from more than 90 cryptocurrencies, including Bitcoin, Ethereum, Solana and USDC. “Europe does not pay one way. A customer in Amsterdam reaches for iDEAL, a customer in Warsaw reaches for BLIK, and neither should need a card to buy crypto,” said Innokenty Isers, CEO and Founder of Paybis. “Now customers in the Netherlands, Poland, Portugal and Austria can pay the way they already pay for everything else online. Our philosophy is making crypto easy, and adding local payment methods market by market is how we do that.” What comes next iDEAL, BLIK, Multibanco and EPS are the first of 13 local payment methods Paybis is adding. Bancontact, KBC/CBC Bank and Belfius Pay in Belgium and Bancomat Pay in Italy follow in the next wave. Swish, Przelewy24, Vipps and MobilePay come after that. Once all are live, Paybis will support more than 30 ways to pay. About Paybis Paybis makes crypto simple for individuals and enterprises. Established in 2014, the company combines a trusted crypto exchange and wallet for buying, selling, swapping and holding over 90 cryptocurrencies, with award-winning crypto-fiat infrastructure. That infrastructure lets businesses transfer capital globally without traditional payment friction. In 2026, Paybis was recognized as Best Crypto Payment Provider, a testament to its expansive global reach, rapid onboarding protocols, and the deep expertise of the 200 dedicated professionals who drive its operations. Processing more than $6 billion annually, Paybis is one of the most efficient platforms for acquiring and transacting in digital assets. This commitment to operational excellence is why Paybis maintains one of the highest ratings for crypto companies on Trustpilot, and why 7 million users and hundreds of the world’s fastest-growing enterprises consistently rely on its services. Media contact Paybis Press Office Email: pr@paybis.com",
+      "tags": "Cryptocurrency Market News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|FIAT|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "NewsBTC",
+        "img": "https://images.cryptocompare.com/news/default/newsbtc.png",
+        "lang": "EN"
+      },
+      "source": "newsbtc"
+    },
+    {
+      "id": "75339186",
+      "guid": "https://www.newsbtc.com/crypto-news/hsbc-redcoin-hong-kong-dollar-stablecoin-payme-retail/",
+      "published_on": 1792755000,
+      "imageurl": "https://images.cryptocompare.com/news/default/newsbtc.png",
+      "title": "HSBC Brings Hong Kong Dollar Stablecoin To PayMe As Retail Rollout Begins",
+      "url": "https://www.newsbtc.com/crypto-news/hsbc-redcoin-hong-kong-dollar-stablecoin-payme-retail/",
+      "body": "TL;DR: HSBC has launched its Hong Kong dollar-backed RedCoin for payments through PayMe, with wallet activation set to expand to millions of users over the coming days. HSBC has made its first stablecoin a consumer payments product, rather than an institutional settlement experiment. On Friday, the bank announced that RedCoin, a Hong Kong dollar-denominated token with the ticker RCHKD, is launching through PayMe, its widely used local payments app. The bank describes RedCoin as licensed and regulated by the Hong Kong Monetary Authority under the city's Stablecoins Ordinance. That gives the launch a different starting point from many crypto-payment pilots: it is being introduced through an established banking interface, with customer onboarding and financial-crime controls built into the existing product. The PayMe distribution advantage More than 3.3 million people use PayMe, according to HSBC. They are not all being switched over to stablecoins in a single instant. The bank says users will be able to activate wallets in stages over the coming days, then send RCHKD to friends and family or pay participating merchants directly. HSBC says more than 100,000 merchants are in the payment network. That is a meaningful distribution claim, though it is not a measure of how many merchants will see RedCoin transactions on day one. Consumer demand, merchant experience and wallet activation are separate questions that the launch itself cannot answer. The commercial logic is clear. A payment token that requires someone to download an unfamiliar exchange app and learn wallet mechanics has a far steeper adoption challenge than one appearing inside a service they already use. HSBC is trying to test whether a familiar interface can make blockchain-based money feel ordinary. Payments first, tokenized investment later The immediate functions are peer-to-peer and merchant payments. HSBC also points to potential access to tokenized investment products in a later phase, but that should not be confused with a feature already available to every PayMe customer. There are still questions that matter beyond the launch headline. Users will want to know how quickly balances can be redeemed for conventional bank money, what protections apply when payments go wrong and whether the token offers any advantage over an instant bank transfer already available in Hong Kong. The more important signal for the wider market may be who is issuing the token. HSBC is placing its name, banking relationships and regulated distribution behind a retail stablecoin. Whether consumers embrace it will decide if this becomes a blueprint for banks elsewhere or simply another payments feature with limited usage. Source: www.about.hsbc.com.hk original announcement or data . Related Reading: stablecoins ; crypto custody ; tokenized assets . Written by the News Desk and edited by Samuel Rae.",
+      "tags": "Crypto News|crypto news|hsbc|October 2026",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|EXCHANGE|FIAT|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "NewsBTC",
+        "img": "https://images.cryptocompare.com/news/default/newsbtc.png",
+        "lang": "EN"
+      },
+      "source": "newsbtc"
+    },
+    {
+      "id": "75338853",
+      "guid": "https://en.coin-turk.com/?p=254733",
+      "published_on": 1792754608,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75338853.jpeg",
+      "title": "XRP co-founder Chris Larsen’s holdings would surpass $2.5 trillion if price hits $1,000",
+      "url": "https://en.coin-turk.com/xrp-co-founder-chris-larsens-holdings-would-surpass-2-5-trillion-if-price-hits-1000/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-co-founder-chris-larsens-holdings-would-surpass-2-5-trillion-if-price-hits-1000",
+      "body": "🚨 If $XRP jumps to $1,000, Chris Larsen’s holdings would surpass $2.5 trillion. 💰 Projections suggest hundreds of new billionaires if holders never sell their XRP. 📉 XRP has never exceeded $5 in its 17-year history, casting doubt on a $1,000 target. Continue Reading: XRP co-founder Chris Larsen’s holdings would surpass $2.5 trillion if price hits $1,000 The post XRP co-founder Chris Larsen’s holdings would surpass $2.5 trillion if price hits $1,000 appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75338752",
+      "guid": "cb7e51f5-f3b6-4e32-b4e2-65c995f49d05",
+      "published_on": 1792754553,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75338752.jpeg",
+      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+      "body": "Your day-ahead look for Oct. 23, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75339626",
+      "guid": "https://coinpedia.org/?p=587624",
+      "published_on": 1792754288,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Malaysia, Thailand Join Singapore to Expand Cross-Border Stablecoin Payments",
+      "url": "https://coinpedia.org/news/malaysia-thailand-join-singapore-to-expand-cross-border-stablecoin-payments/",
+      "body": "The post Malaysia, Thailand Join Singapore to Expand Cross-Border Stablecoin Payments appeared first on Coinpedia Fintech News Malaysia and Thailand are joining Singapore to make cross-border digital payments work more smoothly, bringing three central banks together to develop common rules for regulated stablecoins and tokenized bank deposits. The move could help financial institutions transfer and settle digital money across borders with fewer delays and lower implementation costs. Malaysia and Thailand Join Singapore’s …",
+      "tags": "News|Crypto news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|FIAT|MACROECONOMICS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75338344",
+      "guid": "https://en.bitcoinsistemi.com/jpmorgan-started-with-ethereum-in-this-field-now-another-altcoin-has-been-chosen-here-are-the-detail/",
+      "published_on": 1792754227,
+      "imageurl": "https://resources.cryptocompare.com/news/81/75338344.jpeg",
+      "title": "JPMorgan Started with Ethereum in This Field! Now Another Altcoin Has Been Chosen! Here Are the Details",
+      "url": "https://en.bitcoinsistemi.com/jpmorgan-started-with-ethereum-in-this-field-now-another-altcoin-has-been-chosen-here-are-the-detail/",
+      "body": "US banking giant JPMorgan has announced its latest move into the cryptocurrency market, beginning a collaboration with Solana. Accordingly, J.P. Morgan Asset Management has made two tokenized money market funds, MONY and JLTXX, available to investors on the Solana blockchain. The new application aims to facilitate fund transactions for institutional investors through digital asset networks. JPMorgan Announced! J.P. Morgan Asset Management announced that its My OnChain Net Yield Fund (MONY) and JPMorgan OnChain Liquidity–Token Money Market Fund (JLTXX) products are now available to eligible US investors through the Solana network. Previously available on the Ethereum network, these funds are now accessible via a second blockchain network with this expansion. Investors can access both funds through Morgan Money, the company’s cash management and transaction platform. Through Morgan Money, eligible investors can participate in the funds, redeem their shares, and hold their corresponding token balances in their own blockchain addresses. The statement explained that MONY is a 506(c) private placement fund offering qualified investors the opportunity to earn US dollar returns; and JLTXX is a US-registered government money market fund aiming to invest in support of stablecoin issuers under the GENIUS Act. Paul Przybylski, Global Head of Digital and Tokenized Assets Products at JP Morgan Asset Management, said, “Our clients operate across multiple networks, and their liquidity should reflect that. Bringing JLTXX and MONY to Solana gives stablecoin issuers and institutional investors access to the same funds across the on-chain networks they operate on. This launch strengthens our position as a leader in the tokenized liquidity space and underscores our commitment to scaling tokenized cash management through multi-chain channels.” *This is not investment advice. Continue Reading: JPMorgan Started with Ethereum in This Field! Now Another Altcoin Has Been Chosen! Here Are the Details",
+      "tags": "Altcoin|News|Solana",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BUSINESS|ETH|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "75338400",
+      "guid": "https://seekingalpha.com/article/4956853-coinbase-hold-until-deribit-prediction-markets-and-usdc-turn-into-profit?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+      "published_on": 1792754130,
+      "imageurl": "https://resources.cryptocompare.com/news/50/75338400.jpeg",
+      "title": "Coinbase: Hold Until Deribit, Prediction Markets And USDC Turn Into Profit",
+      "url": "https://seekingalpha.com/article/4956853-coinbase-hold-until-deribit-prediction-markets-and-usdc-turn-into-profit?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+      "body": "Summary Coinbase is rated Hold, reflecting strong liquidity, derivatives growth, and diversification, but lacks sustained operating profitability and faces cyclical crypto risks. Q3 earnings on October 29 are pivotal; I expect revenue of $1.12–$1.22B and underlying operating losses up to $75M, with a Q4 outlook critical for rating changes. COIN trades at high revenue multiples (8.8x FY26, 6.9x FY27), justified only if revenue rebounds; cost control and product margin evidence are needed for an upgrade. Key risks include declining retail activity, USDC revenue volatility, Deribit integration, ongoing stock compensation, and competitive threats from Robinhood and Circle. Hold Into the Q3 Test Coinbase ( COIN ) has some positive product updates for its Q3 earnings‚ such as derivatives market-share gains, faster prediction-market growth and all-time-high USDC balances during Q2. Lower retail spot trading volume during Q2 contributed to Coinbase's GAAP operating loss during Q2. The October 29 Q3 earnings release date is key to assessing the quality of Coinbase's earnings alongside trading volume. I suggest holding COIN shares. COIN has a variety of assets and other sources of income able to absorb a soft quarter. Shares of COIN are trading based on anticipated future benefits. Possible concerns about this investment recommendation include questions about whether profits from investments in Deribit and prediction markets will materialize and whether income from USDC and other sources will be stable despite changes in customer holdings and interest rates. Also of concern is whether restructuring savings will be used to boost operating income rather than for other purposes‚ including customer loyalty initiatives and stock awards. Diversified, but Still Tied to the Crypto Cycle Coinbase has diversified into other financial services in addition to‌ crypto brokerage services. Revenue from transactions‌ remains an important part of Coinbase's business‚ accounting for about 52% of second-quarter 2026 net revenue. Other‌ financial services and products accounted for about 48% of second-quarter 2026 net revenue. Other financial services and products include revenue from stablecoins‚ blockchain rewards‚ interest and finance-fee income‚ custody services‚ and other‌ services. Revenue from consumer‌ transactions is the largest component of revenue from transactions. Revenue from institutional transactions is valuable for other reasons‚ including Coinbase's‌ ownership of Deribit‚ an options and other derivatives exchange. Coinbase is in a unique position to drive transformation (COIN 2Q 2026 Update) The revenue opportunity‌ has advantages and disadvantages. Trading revenue‌ is repeatable but highly cyclical. USDC revenue is‌ comparable to balance-linked spread income on USDC reserves and depends on many variables‚ including interest rates and the number of USDC tokens in circulation and held by Coinbase and others. Under‌ the Circle agreement ‚ Coinbase is entitled to 50% of residual USDC reserve income after specified allocations. This can soften the impact of reduced trading revenue‌ but does not provide stable revenue. Coinbase has meaningful trading‚ custody‚ and derivatives businesses. Stablecoin economics still depend on Circle ( CRCL ). Prediction markets carry external exchange fees borne by Coinbase. I expect to see network advantages‚ such as liquidity, relationships with regulators and other institutions, and financial resources. I do not see a business insulated from cryptocurrency market risks. Revenue Fell Faster Than Costs Q2 revenue fell 14% sequentially to‌ $1.220 billion. Q2 transaction revenue fell‌ 21% to $599 million. Q2 subscription and services revenue‌ fell 5% to $555 million. Lower costs in Q2 did‌ not offset declining revenue. GAAP‌ operating profit was not achieved in Q2. Coinbase met its prior forecasts for operating and stock-compensation expenses but‌ missed its prior forecasts for subscription and services revenue. 2Q financial summary (COIN 2Q 2026 Update) Retail metrics‌ explain recent trends. Quarterly consumer transaction revenue fell 20% sequentially to $452 million‚ and consumer spot trading volume fell 24% to $25.8‌ billion. The revenue-to-volume ratio rose to 1.75% in the most recent quarter from 1.68% in the first quarter‚ though the ratio does not reflect consumer spot trading revenue because other revenue-generating activities‚ such as derivatives and prediction markets‚‌ are factored into revenue. Monthly transacting users fell to 7.6 million from 8.2 million sequentially‚ consistent with less consumer spot trading and a shift in product mix, not stronger engagement, protecting retail monetization. Transaction revenue for the first 26 days of July was about $130 million. Management warned against trying to predict full Q3 results from partial information. Consensus for Q3 revenue and loss per share is $1.17 billion and $0.22‚ respectively. The consensus for Q4 revenue is $1.34 billion, with slightly positive earnings per share. Q3 and Q4 consensus estimates have moved down since the Q2 release. Consensus estimates are not actual results for Q3. A Fed interest rate increase took place late in Q3, on September 16, and could benefit USDC reserve income. Only a portion of Q3 revenue is likely to be affected by the rate increase. 3Q Outlook (COIN 2Q 2026 Update) Profitability, Liquidity, and Capital Allocation The purest number for Q2 is the GAAP operating loss of $113.5 million. Leaving out the operating loss of $31.7 million related to crypto assets held for operations‚ the restructuring charge of $52.4 million‚ and the incident recovery of $33.9 million‚ I estimate an underlying operating loss of $63.2 million. This estimate is for an underlying operating loss‚ not an EPS figure. Fair value adjustments to other financial assets and liabilities are presented separately after operating income and should be disregarded in evaluating the trading platform. Adjusted EBITDA was positive $207.8 million‚ and stock‌ compensation expense was $238.3 million. Key items to keep in mind include stock compensation‚ which would continue‚ and the lack of any indication in third-quarter guidance of lower stock compensation expense due to reduced‌ headcount. Another ongoing GAAP expense related to the Deribit acquisition is‌ amortization of intangible assets‚ although it is not part of adjusted expenses. Income Statement (COIN 2Q 2026 Update) Liquidity is a plus‌ for the company. Coinbase had $8.789 billion in cash and other short-term investments compared with $5.944‌ billion in long-term debt. Operating cash flow was $380‌ million for the first half of the year. Coinbase repurchased 7.092‌ million shares for $1.243 billion. The number of shares outstanding declined about 1.51% during the period‚ suggesting that the share repurchases were substantial beyond offsetting‌ share issuances. Investment results are mixed because the loss-making company used its cash resources to‌ offset share-based compensation costs. Derivatives Lead, Robinhood and Circle Shape the Rest Coinbase's main competitive strength is derivatives. Notional value of matching activity for the second quarter was $1.027 trillion‚ down less than 1% from $1.032 trillion in the first quarter‚ even as overall derivatives market activity declined by 12%. Coinbase's company-defined derivatives market share reached an all-time high. Annualized sales of prediction market products rose 106% quarter over quarter to more than $100 million. Other metrics of scale are also improving. No margin information is available for either product line. Note that trading volume and profits are not the same. Robinhood ( HOOD ) is a major competitor in consumer and event products. Products offered by Robinhood directly compete with Coinbase products. In addition to custody services‚ Coinbase should take steps to safeguard other types of consumer interactions. Robinhood's second-quarter update shows that it can be expensive for Coinbase to believe that other prediction-market services won't compete with its offerings. Circle is a partner, the issuer of USDC and Coinbase's economic counterparty. Details about USDC revenue and payouts are relevant to Coinbase's risk considerations about concentration of funds and partners. Profitability comparisons with HOOD and partner CRCL (Seeking Alpha) Valuation and Rating Triggers On October 21‚ the price of COIN stock was $177.08 per‌ share. The value of COIN's equity on that date, using its period-end shares outstanding‚ was approximately $46.7 billion‚‌ or 8.8 times estimated revenue for fiscal year 2026 and 6.9 times estimated revenue for fiscal year 2027. I believe the multiples based on estimated revenue are too high because‌ the FY2026 estimate embeds a sharp revenue decline while the FY2027 estimate assumes a material rebound. Earnings multiples are not useful because of the‌ wide range of estimates of COIN's FY2027 EPS. Other data‚ including revenue‚ and estimates of COIN's revenue provide a‌ better basis for valuation than historical earnings multiples that may be distorted by remeasurement of crypto assets and liabilities. Weekly price chart of COIN since 2024 (TradingView) My base view is‌ third-quarter revenue of $1.12 billion to $1.22 billion and subscription and services revenue in line with management's expectations. Underlying operating‌ losses of $0 million to $75 million are expected. Fourth-quarter revenue results or a credible outlook of $1.25 billion‌ to $1.40 billion would indicate some improvement but not sustained earnings improvements. These results would support my HOLD rating‚ reflecting advantages of the company's diversification strategies and a lack‌ of evidence of sustained operating profitability from cost-cutting efforts. Evidence that would contradict‌ the base case includes evidence of underlying operating profitability from product margins or further declines below base-case expectations. I would raise Coinbase's rating if Q3 revenues of at least $1.25 billion or service revenues of at least $580 million and positive underlying income at Coinbase are reported‚ along with a Q4 revenue outcome or credible outlook of at least $1.45 billion at Coinbase. Q3 total revenue is a measure of Coinbase's revenue performance. Positive underlying income is a measure of cost control. The Q4 test prevents premature rating upgrades based on a single strong quarter. I would watch for other reports‚ including the Q4 earnings report‚ to confirm the information needed for a rating upgrade. Fair value adjustments are not considered. Risks to an upgrade include negative underlying income at Coinbase and weaker-than-expected Q4 results. And lower my rating if third-quarter total revenue is less than $1.1 billion or third-quarter subscription and services revenue is less than $500 million and the third-quarter underlying operating loss is at least $100 million‚ and the fourth-quarter revenue outcome or credible outlook is less than $1.2 billion. These are signs that strategies to grow the company are not addressing spot trading concerns and that cost-cutting measures are insufficient to make up for lost revenue. The expected recovery would need to be reset. Further deterioration in future periods would add to the case for lowering the rating. Other events‚ including regulatory and impairment concerns‚ could also cause us to lower the rating. Product-level revenue and profitability information would counter my view. Key Risks and What to Watch Declining retail sales are the main risk. Declines in retail activity and user engagement with retail sales negatively impact retail profits until replacement products can be introduced. Relevant retail sales metrics to monitor include the number of retail transactions and users. Sales of derivative products provide some benefit‚ but disclosed margin conversion would better mitigate the risks of declining retail sales. USDC revenue risks include several factors‚ such as lower average balances and a lower share of USDC held by Coinbase‚ lower average balances and a lower share of USDC held by other institutions‚ and lower yields on USDC reserves. I suggest tracking long-term trends in average balances and shares held by Coinbase instead of quarterly data. Higher federal rates and other factors related to corporate allocations help reduce these risks‚ but concentration in one economic counterparty, Circle, makes the offset imperfect. Deribit presents additional risks. Most of the purchase price was assigned to goodwill and intangible assets. These assignments could lead to ongoing amortization in earnings and impairment costs for Deribit. Other prediction market risks include higher exchange fees for greater trading volumes. Information on market share and other revenue and cost considerations for the acquired companies and evidence of impairment can be used to evaluate whether scale is benefiting shareholders in the prediction market. In addition‚ continuing cost and control risks could hinder business activities. Even after layoffs and other reductions in the workforce‚ cost risk and risk related to stock compensation remain‚ and management time and effort spent addressing control risks and weaknesses could increase costs. High liquidity and the ability to repurchase stock can reduce some related risks‚ but other issues‚ including continued stock dilution and questions about the quality of earnings‚ remain. Hold Pending Proof of Margin I rate Coinbase stock as a hold. Advantages of owning Coinbase stock include its financial position and improving derivatives franchise. Disadvantages include the high share price‚ which implies that investors expect the company's operations to improve before new products can fund that recovery. My view of the company's stock changes as other considerations‚ such as revenue sources and fixed costs‚ are evaluated to understand business profitability. Favorable information about revenues from Deribit‚ prediction markets‚ and USDC holdings and few stock issuances that would dilute ownership may make COIN stock a good investment. Other factors that may make COIN stock a poor investment include more retail investor competition and other risks to stablecoins and fixed costs. View COIN stock as a monitored position in a company transitioning to a new business model‚ not a proven escape from the cryptocurrency trading cycle.",
+      "tags": "CRCL|HOOD|COIN:CA|HOOD:CA|ZCOI:CA|ZHOO:CA|COIN",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|TRADING|USDC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "75339623",
+      "guid": "https://coinpedia.org/?p=587635",
+      "published_on": 1792754087,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Nvidia Faces Bearish Call As Seaport Warns Of $250 Billion Balance Sheet Strain",
+      "url": "https://coinpedia.org/crypto-live-news/nvidia-faces-bearish-call-as-seaport-warns-of-250-billion-balance-sheet-strain/",
+      "body": "The post Nvidia Faces Bearish Call As Seaport Warns Of $250 Billion Balance Sheet Strain appeared first on Coinpedia Fintech News Seaport Research Partners’ Jay Goldberg has kept his Sell rating on Nvidia with a $180 price target, about 15% below Thursday’s $212 close, Barron’s reported. Nvidia shares fell 4.4% on Thursday amid renewed doubts over AI spending, then rose 1.3% in premarket trading on Friday. Goldberg said Nvidia should keep posting record sales in the …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|RESEARCH",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75338186",
+      "guid": "6a4505e4-e014-40ff-8a3c-15d804425b98",
+      "published_on": 1792753981,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75338186.jpeg",
+      "title": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
+      "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+      "body": "Bitcoin went quiet after a week of big swings, with tech futures steadying and Brent hitting its highest level since early May. The Fed meets next week.",
+      "tags": "Markets|Live News|live_news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|COMMODITY|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75338077",
+      "guid": "https://www.newsbtc.com/news/htx-research-publishes-crypto-market-outlook-ahead-of-the-2026-u-s-midterm-elections/",
+      "published_on": 1792753923,
+      "imageurl": "https://resources.cryptocompare.com/news/21/75338077.jpeg",
+      "title": "HTX Research Publishes Crypto Market Outlook Ahead of the 2026 U.S. Midterm Elections",
+      "url": "https://www.newsbtc.com/news/htx-research-publishes-crypto-market-outlook-ahead-of-the-2026-u-s-midterm-elections/",
+      "body": "HTX Research, the dedicated research arm of HTX, has published a new report titled Crypto Market Outlook Before and After the 2026 U.S. Midterm Elections . The report finds that while the midterm elections may reshape policy expectations for the next two years, short-term crypto pricing remains governed by inflation, financing costs, and capital flows. Its base case for the period before and immediately after the vote is one of elevated volatility, repeated repricing, and divergence across assets, rather than a sustained rally driven by a single political narrative. The report examines how the upcoming elections may affect the pace of crypto legislation, regulatory oversight, and asset pricing. It covers the current macro and funding environment, policy implications under different congressional outcomes, election sensitivity across major crypto asset categories, conditional market scenarios, and a framework of indicators for monitoring developments from the pre-election period through the first half of 2027. The full report is available at: https://square.htx.com/htx-research-latest-report-crypto-market-outlook-before-and-after-the-2026-u-s-midterm-elections/ *The above content is not an investment advice and does not constitute any offer or solicitation to offer or recommendation of any investment product. About HTX Research HTX Research is the dedicated research arm of HTX Group, responsible for conducting in-depth analyses, producing comprehensive reports, and delivering expert evaluations across a broad spectrum of topics, including cryptocurrency, blockchain technology, and emerging market trends. Committed to providing data-driven insights and strategic foresight, HTX Research plays a pivotal role in shaping industry perspectives and supporting informed decision-making within the digital asset space. Through rigorous research methodologies and cutting-edge analytics, HTX Research remains at the forefront of innovation, driving thought leadership and fostering a deeper understanding of evolving market dynamics. Visit us . Connect with HTX Research Team: research@htx-inc.com",
+      "tags": "Cryptocurrency Market News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MARKET|RESEARCH|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "NewsBTC",
+        "img": "https://images.cryptocompare.com/news/default/newsbtc.png",
+        "lang": "EN"
+      },
+      "source": "newsbtc"
+    },
+    {
+      "id": "75338735",
+      "guid": "https://en.coinotag.com/uniswap-aggregator-hooks-7-external-liquidity-sources",
+      "published_on": 1792753735,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75338735.jpeg",
+      "title": "Uniswap Aggregator Hooks Link 7 External Liquidity Sources on 3 Networks",
+      "url": "https://en.coinotag.com/uniswap-aggregator-hooks-7-external-liquidity-sources",
+      "body": "Uniswap Labs launched Aggregator Hooks linking seven external liquidity sources across three networks, covering over 90% of DEX trading activity.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|UNI|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75337967",
+      "guid": "https://en.coin-turk.com/?p=254731",
+      "published_on": 1792753717,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75337967.jpeg",
+      "title": "CZ and Vitalik say AI threats to Bitcoin crypto are overstated, Bitcoin Core changes bug policy",
+      "url": "https://en.coin-turk.com/cz-and-vitalik-say-ai-threats-to-bitcoin-crypto-are-overstated-bitcoin-core-changes-bug-policy/?utm_source=rss&utm_medium=rss&utm_campaign=cz-and-vitalik-say-ai-threats-to-bitcoin-crypto-are-overstated-bitcoin-core-changes-bug-policy",
+      "body": "🚨 CZ and Vitalik Buterin say AI is unlikely to break $BTC cryptography. 🤖 Leading developers warn social engineering is a bigger threat than math breakthroughs. 📢 Bitcoin Core updates its bug disclosure policy to address swiftly expanding AI risks. Continue Reading: CZ and Vitalik say AI threats to Bitcoin crypto are overstated, Bitcoin Core changes bug policy The post CZ and Vitalik say AI threats to Bitcoin crypto are overstated, Bitcoin Core changes bug policy appeared first on COINTURK NEWS .",
+      "tags": "Ethereum (ETH)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75337659",
+      "guid": "https://www.cryptopolitan.com/?p=320793",
+      "published_on": 1792753399,
+      "imageurl": "https://resources.cryptocompare.com/news/43/75337659.jpeg",
+      "title": "Smarter Web adds 20 BTC as its preferred shares pay their first weekly dividend",
+      "url": "https://www.cryptopolitan.com/smarter-web-buys-bitcoin-preferred-dividend/",
+      "body": "The largest public corporate holder of Bitcoin in the United Kingdom (UK), The Smarter Web Company disclosed on Friday, October 23, that it added 20 BTC to its treasury for about £1.23 million. The firm also set the first weekly dividend on the MORE preferred shares, funding its Bitcoin purchases at £0.2301 per share. Smart Web is the UK’s largest public corporate holder of Bitcoin. Source: BitcoinTreasuries.net Smarter Web’s 20 BTC purchase pushes average cost down The 20 Bitcoin purchase that Smarter Web disclosed on October 23 came at an average price of £61,733. That number helped push down the average price of its 2,850 BTC stack, which the firm built at an average price of £81,837, for a net cost of £233.2 million. Overall, Smarter Web’s Bitcoin position cost a gross £242 million after adding about £8.7 million of gross sales. The firm has a market capitalization of roughly £208 million and put its quarter-to-date BTC yield, the per-share metric it uses to judge whether buying adds value, at 2.41%. Friday’s addition is the second Bitcoin top-up in a week, adding to the 83 BTC the firm bought on October 15, paying a cumulative £5.2 million at an average of £62,676 per unit. Part of the funds the Bristol firm raised from selling preferred shares went to trimming its Coinbase strategic credit facility to about £16 million from £17 million. The first MORE dividend lands at £0.2301 The bigger first for the company is the payout. According to a regulatory notice filed on October 20, the inaugural weekly dividend on its MORE preferred shares will be £0.2301 per share for the week ending 23 October 2026. The record date is October 23, the ex-dividend date October 22, and the cash is due to reach holders on November 9. The MORE dividend rate currently runs at 12% a year on a £100 reference amount, a figure the board can vary within limits set in the prospectus it published on 29 September. MORE, which has a structure similar to the “digital credit” model championed by Strategy’s Michael Saylor, is the first preferred share issued by a UK corporate Bitcoin holder, as Cryptopolitan reported when the plan surfaced in September. Smarter Web returned to buying Bitcoin after selling 178 BTC to repay an $11.7 million convertible held by the TOBAM Group two weeks early. TD Cowen rated the stock a Buy with a £0.73 price target when the broker reviewed the preferred plan in September. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "News|BTC|MORE|SWC",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|TRADING|DIGITAL ASSET TREASURY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "75337517",
+      "guid": "https://ambcrypto.com/?p=643635",
+      "published_on": 1792753239,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "From Alpenglow to Quantumglow – Inside Solana’s post-quantum plan",
+      "url": "https://ambcrypto.com/from-alpenglow-to-quantumglow-inside-solanas-post-quantum-plan/",
+      "body": "Solana currently has an 'F' rating for post-quantum readiness due to its classical signatures across wallets and validator votes.",
+      "tags": "Altcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "75337607",
+      "guid": "https://timestabloid.com/?p=113506",
+      "published_on": 1792753223,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "If XRP Price Goes to $1,000, Here’s How Richer Ripple Co-Founder Chris Larsen Becomes",
+      "url": "https://timestabloid.com/if-xrp-price-goes-to-1000-heres-how-richer-ripple-co-founder-chris-larsen-becomes/",
+      "body": "Chris Larsen co-founded Ripple. He also holds 2.53 billion XRP. At a price of $1,000 per token, his holdings would be worth $2.53 trillion. That figure would make him the world’s first trillionaire, making it a key topic of discussion within the XRP community. Crypto enthusiast XRP Olesya laid out the scenario in an X post. At $1,000 per XRP, Larsen’s wealth would eclipse every existing billionaire on the planet. But Olesya took the analysis further, estimating what the price target could mean for the broader holder base. She projected 300 to 500 new billionaires, 10,000 centimillionaires, 100,000 decamillionaires, and 500,000 millionaires, assuming holders do not sell their XRP before it reaches that price level. Wait….Chris Larsen holds 2.53B $XRP . If the price per #XRP goes to $1,000, he will be worth $2.53 Trillion. Chris Larsen will be the world's first Trillionaire. Not only that, but if no one sells any of their $XRP , here is the estimated list of new billionaires and… pic.twitter.com/usDIUipR5H — XRP Olesya (@Olesya_rose) October 20, 2026 The Sell Pressure Problem That last condition is where the conversation gets complicated. Commenter Mark Parker challenged the assumption directly. “No one is ever going to hold all of their XRP until it goes to $1,000,” he wrote, adding that sellers would exit “at every level” as price climbed through $50, $150, $275, and $500. His argument is straightforward: sustained holding discipline across millions of participants is unlikely at those valuations. The Crypto Commentator pushed back on the exercise itself. “Can you finally see how absurd these valuation ‘predictions’ are,” he wrote . Historical Context and Skepticism Not everyone approached the discussion with measured skepticism. Commenter JC was unambiguous. “Come now let’s be real. $1000 is never ever happening,” he wrote, noting XRP has not reached $5 in its 17-year existence. That historical point carries weight. XRP reached its all-time high near $3.84 in January 2018. It has not come close since. The gap between current prices and a $1,000 target represents a move of several orders of magnitude. What the Numbers Actually Show The figures in Olesya’s projection come with significant assumptions attached. The Forbes-cited data sourced from XRPL rich lists and public disclosures notes that some figures are approximate and based entirely on a hypothetical $1,000 price. Brad Garlinghouse’s holdings, for example, are listed as unknown. Gregg Kidd’s 1 billion XRP figure is labeled as an option, not a confirmed holding. The exercise is speculative by design. Its value is in illustrating concentration. A small number of early holders and insiders stand to gain disproportionately if XRP ever reaches that price level. Whether the price ever gets there is a separate question entirely — and one the market has not answered in 17 years. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post If XRP Price Goes to $1,000, Here’s How Richer Ripple Co-Founder Chris Larsen Becomes appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|Chris Larsen|Ripple Co-Founder|XRP|XRP Holders|XRP Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "75337859",
+      "guid": "https://coinpaprika.com/news/south-korea-crypto-law-nears-finish-line-2027",
+      "published_on": 1792753200,
+      "imageurl": "https://resources.cryptocompare.com/news/80/default.png",
+      "title": "South Korea's Crypto Law Nears the Finish Line as a 2027 Tax Fight Erupts",
+      "url": "https://coinpaprika.com/news/south-korea-crypto-law-nears-finish-line-2027",
+      "body": "South Korea's Financial Services Commission said consultations on the Digital Asset Basic Act have reached their final stage. The bill would license exchanges and set stablecoin issuance rules as a January 2027 crypto tax deadline approaches.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "75337308",
+      "guid": "https://en.coin-turk.com/?p=254725",
+      "published_on": 1792753103,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75337308.jpeg",
+      "title": "Colombia arrests 8 in $42 million crypto drug laundering operation, all face US extradition",
+      "url": "https://en.coin-turk.com/colombia-arrests-8-in-42-million-crypto-drug-laundering-operation-all-face-us-extradition/?utm_source=rss&utm_medium=rss&utm_campaign=colombia-arrests-8-in-42-million-crypto-drug-laundering-operation-all-face-us-extradition",
+      "body": "🚨 8 suspects arrested in Colombia over alleged $42 million crypto drug laundering network. 💰 Officials in Colombia and the US claim the group used smurfing and tokens to mask drug funds. 🌎 All detainees face extradition to the US, building on previous $USDT laundering crackdowns. Continue Reading: Colombia arrests 8 in $42 million crypto drug laundering operation, all face US extradition The post Colombia arrests 8 in $42 million crypto drug laundering operation, all face US extradition appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "USDT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75338056",
+      "guid": "https://en.coinotag.com/project-eleven-ai-bitcoin-crypto-quantum-warning",
+      "published_on": 1792752991,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75338056.jpeg",
+      "title": "Project Eleven CTO Warns AI Could Break Bitcoin (BTC) Crypto Before 2030 Quantum Threat",
+      "url": "https://en.coinotag.com/project-eleven-ai-bitcoin-crypto-quantum-warning",
+      "body": "Project Eleven's CTO warns AI could crack Bitcoin (BTC) cryptography before quantum computers can, though no deployed cipher has been broken to date.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1792752885,
+    "time_range_start": "2026-10-23 10:54:45",
+    "time_range_end": "2026-10-23 11:54:45"
+  }
+}
