@@ -1,0 +1,692 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "75647889",
+      "guid": "https://bitzo.com/2026/10/bitcoin-etf-vs-buying-bitcoin-directly-fees-ownership-and-risks",
+      "published_on": 1793103742,
+      "imageurl": "https://resources.cryptocompare.com/news/104/75647889.jpeg",
+      "title": "Bitcoin ETF vs Buying Bitcoin Directly: Fees, Ownership and Risks",
+      "url": "https://bitzo.com/2026/10/bitcoin-etf-vs-buying-bitcoin-directly-fees-ownership-and-risks",
+      "body": "Buying a spot Bitcoin ETF and purchasing Bitcoin directly provide exposure to the same underlying asset, but they involve different costs, ownership rights and custody arrangements. A spot Bitcoin exchange-traded product allows investors to buy shares through a brokerage account without managing cryptocurrency wallets. Direct BTC ownership allows investors to transfer Bitcoin on the network and, with self-custody, control their own private keys. The differences have become more significant as competition among US Bitcoin funds has driven annual fees as low as 0.14% in 2026. Bitcoin ETF vs Bitcoin: Key Differences FeatureSpot Bitcoin ETF/ETPDirect BitcoinWhat investors ownShares of a Bitcoin investment trustBTCCustodyFund-appointed custodianSelf-custody or exchange custodianAnnual fund feeVaries by productNo fund management feeTrading hoursExchange trading sessions24/7 crypto marketsBitcoin transfersGenerally unavailable to retail shareholdersSupportedMain costsFund fees, brokerage costs, spreadsExchange fees, spreads, network feesMain risksBTC volatility, tracking, custody and fund structureBTC volatility, wallet security and platform risks The SEC's investor guidance makes an important regulatory distinction: US spot Bitcoin products are generally exchange-traded commodity trusts, not investment companies registered under the Investment Company Act of 1940. Although commonly called ETFs, they do not receive every protection applicable to traditional registered investment funds. How Much Do Bitcoin ETFs Charge in 2026? The annual sponsor fee is one of the clearest differences between owning BTC directly and holding a Bitcoin fund. A comparison of US spot Bitcoin products, using published fee information current to October 22, 2026, shows substantial variation. FundTickerAnnual feeMorgan Stanley Bitcoin TrustMSBT0.14%Grayscale Bitcoin Mini TrustBTC0.15%Franklin Bitcoin ETFEZBC0.19%Bitwise Bitcoin ETFBITB0.20%ARK 21Shares Bitcoin ETFARKB0.21%iShares Bitcoin TrustIBIT0.25%Fidelity Wise Origin Bitcoin FundFBTC0.25%Grayscale Bitcoin TrustGBTC1.50% Source: Bitcoin ETF fee comparison , October 22, 2026. Fees may change. For a hypothetical $10,000 investment, the approximate first-year sponsor fee would be: MSBT: $14 IBIT: $25 GBTC: $150 These figures assume the investment's value remains unchanged and exclude brokerage commissions and trading spreads. Fund fees are generally reflected in the product's net asset value rather than charged as separate annual invoices. Over longer holding periods, a persistent fee difference can affect total returns. Direct Bitcoin ownership avoids the ETF sponsor fee, but investors may still pay exchange commissions, bid-ask spreads, network transaction fees and hardware-wallet costs. Do Bitcoin ETF Investors Actually Own Bitcoin? No. Retail investors purchasing spot Bitcoin ETF shares generally own securities issued by the fund rather than Bitcoin they can withdraw to a personal wallet. The fund holds the underlying BTC through its custody arrangements. For example, BlackRock explains that investors in its iShares Bitcoin Trust ETF, IBIT, own shares while the fund's Bitcoin is held by Coinbase Custody. This structure provides economic exposure to BTC without requiring shareholders to manage private keys. However, shareholders generally cannot transfer the fund's Bitcoin to an external wallet or spend it on the Bitcoin network. Direct ownership works differently. Someone holding BTC in a self-custodied wallet can authorise transactions, transfer funds between addresses and use compatible Bitcoin payment services. That flexibility comes with responsibility for protecting wallet credentials. Self-Custody vs ETF Custody: Which Has More Risk? Neither arrangement eliminates risk. They expose investors to different failure scenarios. Bitcoin self-custody With self-custody, investors manage their private keys and recovery information. The main advantage is independent control over transactions without requiring a trading platform to authorise withdrawals. The main disadvantage is that losing access to private keys or recovery phrases may result in permanent loss of funds. The SEC's crypto custody bulletin highlights these responsibilities, including the risks of lost devices, theft and compromised credentials. Bitcoin ETF custody An ETF investor does not personally manage the Bitcoin private keys. Instead, the investment relies on the fund, its custodian and the brokerage and market infrastructure through which the shares are held and traded. This removes much of the operational burden of self-custody but introduces dependence on intermediaries. Investors should review the fund's custody arrangements, insurance disclosures, operational risks and prospectus. Regulatory oversight does not guarantee protection against Bitcoin price declines or every possible custody loss. Why Bitcoin ETF Returns Can Differ From BTC Prices Spot Bitcoin products aim to track the underlying cryptocurrency, but their returns need not match Bitcoin's performance exactly. Differences can arise from: Annual sponsor fees. Premiums or discounts between market price and net asset value. Bid-ask spreads. Trading hours and market liquidity. Cash holdings or operational expenses permitted by the fund structure. The distinction is particularly relevant during weekends. Bitcoin trades continuously, while shares of US-listed spot Bitcoin products trade during available securities-market sessions. If BTC moves sharply on Saturday or Sunday, ETF investors generally cannot react through ordinary ETF share trading until their market reopens. The opening price may then reflect the change that occurred while stock exchanges were closed. Is a Bitcoin ETF Better for Long-Term Investors? The answer depends on what the investor needs from Bitcoin. A spot Bitcoin ETF may be more convenient for investors who already manage securities through brokerage accounts, want familiar portfolio reporting or do not want responsibility for private-key management. Direct Bitcoin may be more suitable for investors who prioritise self-custody, unrestricted on-chain transfers and ownership outside the conventional brokerage structure. Fees also matter. For investors holding BTC over many years, recurring fund costs can accumulate. However, direct custody involves its own security requirements and potential transaction expenses. Tax treatment depends on jurisdiction, account structure and individual circumstances. ETF shares should not be assumed to receive the same treatment as direct BTC holdings in every country. Bitcoin ETF or Direct BTC: What Should Investors Compare? Before choosing between the two structures, investors should consider three practical questions. What form of ownership is required? ETF shares offer price exposure; self-custodied Bitcoin provides direct control of the underlying asset. What is the total cost? Compare ongoing fund charges with exchange fees, trading spreads and custody expenses. Who is responsible for security? Self-custody places key management with the holder, while an ETF relies on professional custody and financial intermediaries. The most important distinction is that a Bitcoin ETF is not simply Bitcoin stored in a different account. It is a financial security designed to deliver exposure to Bitcoin's price. For investors who only need portfolio exposure, that distinction may be acceptable. For those who want to hold, transfer and control BTC directly, it is fundamental. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News|Bitcoin",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitzo",
+        "img": "https://resources.cryptocompare.com/news/104/default.png",
+        "lang": "EN"
+      },
+      "source": "bitzo"
+    },
+    {
+      "id": "75647802",
+      "guid": "https://en.coin-turk.com/?p=255161",
+      "published_on": 1793103566,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75647802.jpeg",
+      "title": "Binance adds 227 new futures pairs in 2026, will delist 12 spot pairs",
+      "url": "https://en.coin-turk.com/binance-adds-227-new-futures-pairs-in-2026-will-delist-12-spot-pairs/?utm_source=rss&utm_medium=rss&utm_campaign=binance-adds-227-new-futures-pairs-in-2026-will-delist-12-spot-pairs",
+      "body": "🚨 Binance adds 227 new futures pairs, nearing its 2025 record in just ten months. 📉 The exchange will delist 12 spot and 10 margin pairs due to low liquidity. 💼 About 70% of new contracts on $BTC exchanges now relate to TradFi assets. Continue Reading: Binance adds 227 new futures pairs in 2026, will delist 12 spot pairs The post Binance adds 227 new futures pairs in 2026, will delist 12 spot pairs appeared first on COINTURK NEWS .",
+      "tags": "Binance",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|EXCHANGE|BNB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75648144",
+      "guid": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant",
+      "published_on": 1793103504,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75648144.jpeg",
+      "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "A decline in the share of Bitcoin’s realized cap held by coins unmoved for 18 months or longer points to the ‘early stages’ of a bull market, analysis says.",
+      "tags": "Markets",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "75648008",
+      "guid": "https://cryptodaily.co.uk/2026/10/fragile-bitcoin-braces-for-major-economic-data-week",
+      "published_on": 1793103486,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75648008.jpeg",
+      "title": "Fragile Bitcoin Braces for Major Economic Data Week",
+      "url": "https://cryptodaily.co.uk/2026/10/fragile-bitcoin-braces-for-major-economic-data-week",
+      "body": "Now trading beneath $80K, a fragile Bitcoin price could face a buffeting from the economic winds of an important week of major economic data releases. An FOMC meeting, PCE inflation data, wage inflation, and company earnings are all released this week. How will the $BTC price react? US 10-year bond yield to continue to fall Source: TradingView The short-term chart above shows that the 10-year bond yield has broken down from a head and shoulders topping pattern . Initially coming down as low as 4.94%, the yield has formed a bear flag. This could allow the yield to get back above 5% but if the flag plays out, the current end game is another breakdown which could eventually take the yield down to the full measured move out of the head and shoulders pattern of about 4.7%. This would certainly suit the market, and also provide a better environment for a potential recovery of the $BTC price . $BTC price at critical level Source: TradingView Be that as it may, viewing the $BTC price in the short-term time frame it can be observed that the price is in a critical position. Right at the bottom of the descending channel pattern , and sitting on the last horizontal support line, the $BTC price could break down, and it could happen quite soon. The breakdown target would be $75,600. Despite that, there is the chance of course that the price bounces from here. The price has tracked down beneath a small descending trendline all the way from the top of the descending channel. If the bulls can engineer a bounce here and the $BTC price breaks through the trendline, there could be another rally to the upper trendline of the channel. Inflation figures and Fed funds rate may influence the direction. Potential AI stocks recovery? Source: TradingView So here we are at the moment of truth. Falling through the current support and out of the descending channel, first stop would be $75,600. That fails and the $BTC price would be heading down to $70K . Is this likely to happen? If the stock market continues to fall, and especially if AI stocks take a beating, then yes, the probabilities would be in favour of this downside route. However, there are signs that the AI stocks may be beginning a recovery of sorts . In fact, with the kind of revenue that they are producing, it is hard to see how they can be kept down. A bubble is one thing, but companies that are growing at such an incredible rate with order books full to the brim - this is something the market has never before experienced. That the new digital economy will be using crypto rails may be a foregone conclusion. Bitcoin as a store of value within this economy is another strong bet. JP Morgan’s estimate that Bitcoin will beat stocks and gold over the next decade also plays along with this thesis. Shorter and shallower corrections in this bull market? Source: TradingView Is this correction of 9.2% enough? In the last bull market there were three corrections of around 20% before the bull market even got going. Once the bull market did get into full swing, two big corrections of around 30% ensued. If we go back to the 2018-2022 bull market the Covid correction of 72% was followed by another of 55%. Having said that, it would appear that the last bear market was far shorter than the previous two bear markets. Around 266 days compared with 378 days. ETF and institutional buying are changing the cycle. Wouldn’t it then hold that this bull market will also be shorter than the 850 to 900 day norms up to now? Perhaps this is why the $BTC price has not hung around for too long thus far, and maybe corrections will be shorter and shallower. Let us see if this current correction will be a relatively short one to set the standard for the rest of this bull market. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "Breaking News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75647719",
+      "guid": "https://coinpedia.org/?p=588033",
+      "published_on": 1793103079,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "XRP News : Ripple and C2FO Bring Instant Trade Finance Payments to XRP Ledger",
+      "url": "https://coinpedia.org/crypto-live-news/xrp-news-ripple-and-c2fo-bring-instant-trade-finance-payments-to-xrp-ledger/",
+      "body": "The post XRP News : Ripple and C2FO Bring Instant Trade Finance Payments to XRP Ledger appeared first on Coinpedia Fintech News Ripple is partnering with C2FO to bring financing and settlement for C2FO Instant Pay to the XRP Ledger (XRPL), using its RLUSD stablecoin to help suppliers receive payments in seconds. Businesses often wait 30, 60 or 90 days to receive payments for their goods and services. Even when they access early payment options, bank settlement …",
+      "tags": "Short News|Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|WALLET|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75647558",
+      "guid": "https://cryptodaily.co.uk/2026/10/tokenized-stocks-vs-traditional-shares-what-do-investors-actually-own",
+      "published_on": 1793102971,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75647558.jpeg",
+      "title": "Tokenized Stocks vs Traditional Shares: What Do Investors Actually Own?",
+      "url": "https://cryptodaily.co.uk/2026/10/tokenized-stocks-vs-traditional-shares-what-do-investors-actually-own",
+      "body": "Tokenized stocks can provide exposure to publicly traded companies through blockchain networks, but owning a stock token is not always legally equivalent to owning an ordinary share. The difference depends on how the token is structured. Some represent genuine shareholder rights, including dividends and voting. Others provide an indirect interest through a custodian, while synthetic tokens may offer only exposure to price movements. The distinction has become increasingly important in October 2026, as financial firms expand tokenized equity offerings while major US companies challenge unauthorised tokenization of their shares. Tokenized Stocks vs Traditional Shares: The Main Differences Traditional shares represent an ownership interest in a company. Investors generally hold them directly or through a broker and receive the rights associated with the relevant share class. Tokenized stocks use blockchain technology to issue or represent securities, but the legal structure determines what the holder actually owns. FeatureTraditional sharesTokenized stocksOwnershipDirect or broker-held equity interestDepends on token structureDividendsAvailable when declared and applicableMay be passed through or excludedVoting rightsSubject to share class and holding arrangementsNot guaranteedTrading hoursUsually exchange hours, with some extended tradingPotentially 24/7, depending on venueSettlementConventional securities settlement infrastructureMay use blockchain transfers, subject to legal settlement arrangementsCustodyBroker or securities custodianBroker, token custodian or blockchain walletMain risksMarket, issuer and intermediary risksMarket risks plus token, smart-contract and platform risks The US Securities and Exchange Commission distinguishes between several tokenization models in its official investor guidance . The underlying technology alone does not establish ownership rights. Three Types of Tokenized Stocks Investors Should Understand 1. Issuer-sponsored tokenized shares These securities are issued directly by a company or through an authorised agent. A tokenized share of the same class can carry the same legal rights as an equivalent conventional share, including applicable voting and dividend rights. Ownership records may be maintained on a blockchain rather than exclusively through conventional infrastructure. However, the share class still matters. A tokenized security belonging to a different class may provide different rights. 2. Custodial tokenized stocks Under a custodial model, an intermediary holds the underlying securities while investors receive tokenized security entitlements. The token represents an indirect interest in shares held through the custody arrangement. Investors may receive substantially the same economic benefits and rights as conventional brokerage customers, although they must rely on the intermediary's legal and operational arrangements. This structure resembles traditional brokerage ownership more closely than direct registration on a company's shareholder register. 3. Synthetic stock tokens Synthetic tokens are different. They provide economic exposure to a stock's price through a separate instrument or derivative. The holder does not necessarily own the underlying shares or have a legal claim against the company whose stock price is referenced. Dividend treatment, voting rights and other protections depend on the product agreement. This is why investors should never assume that purchasing a token labelled with a familiar stock ticker makes them shareholders in that company. Securitize Launch Shows How Stock Ownership Can Move Onchain On October 8, Securitize launched tokenized US stock products designed to provide security entitlements backed by underlying shares. According to the company's official announcement , the initial offering includes exposure to companies such as Apple, Microsoft, Nvidia, Alphabet, Tesla, Meta and Amazon. The products initially operate on Solana through Securitize's registered broker-dealer infrastructure. Securitize says the securities are backed one-for-one by corresponding US equities and are designed to provide the relevant rights and economic benefits. That is materially different from a synthetic token tracking a stock price without an underlying ownership entitlement. However, investors must still evaluate custody arrangements, jurisdictional eligibility, fees and how shareholder rights are exercised. Blockchain settlement does not eliminate the need for regulated intermediaries. Why 22 Companies Objected to Tokenized Trading The development of tokenized equities has also encountered resistance from listed companies. On October 23, Reuters reported that 22 US-listed companies had objected to tokenized versions of their shares trading through OKXICE, a platform backed by OKX and Intercontinental Exchange. The companies included Microsoft, Alphabet, Wells Fargo, Arm Holdings and Intuit. OKXICE had planned to offer tokenized trading in 63 stocks. The objections matter because the SEC's September 2026 Innovation Exemption allows issuers to prevent unaffiliated third parties from listing tokenized versions of their shares under that framework. The regulatory document reviewed by Reuters did not establish a reason for every objection. Consequently, the objections should not be interpreted as proof that all 22 companies oppose blockchain technology or stock tokenization generally. They do demonstrate that issuer consent and regulatory compliance can determine which tokenized products become available. See Reuters' report on the issuer objections . Do Tokenized Stocks Pay Dividends? They can, but dividend rights are not universal. For genuine equity securities, entitlement to dividends depends on the underlying share class and ownership arrangement. A custodial token provider may distribute corresponding economic benefits through its platform. A synthetic product may instead provide an adjustment or payment linked to dividends, or no equivalent benefit at all. Investors should check whether the product documentation specifies: Rights to declared dividends. How distributions are calculated and delivered. Whether withholding taxes or intermediary fees apply. Whether holders can exercise voting rights. A token's name or price correlation is not sufficient evidence of these rights. Can Tokenized Stocks Trade 24/7? Blockchain infrastructure can support transfers outside conventional exchange hours, creating the possibility of round-the-clock trading. But continuous technical availability is not the same as continuous market liquidity. A tokenized stock venue still needs buyers, sellers, pricing information and mechanisms for managing market risk. When the underlying US stock market is closed, the latest official exchange price may no longer represent the price at which investors are willing to trade. That can produce wider bid-ask spreads and deviations from conventional share prices. The SEC's Innovation Exemption also imposes conditions on eligible venues, including protections related to shareholder rights and underlying trading halts. Not every tokenized stock product is therefore authorised to operate continuously without restrictions. Are Tokenized Stocks Safer Than Traditional Shares? Tokenization changes the infrastructure used to represent or transfer an investment. It does not remove the underlying market risk. If Nvidia shares fall, a properly backed tokenized security representing the same economic exposure can also decline. Tokenized securities may additionally involve: Custody risk: Investors may depend on an intermediary holding the underlying securities. Smart-contract risk: Software vulnerabilities could disrupt transfers or other operations. Liquidity risk: Smaller trading venues may have limited order depth. Legal risk: Investor rights and protections vary according to the product structure and jurisdiction. Price-tracking risk: Synthetic instruments may not perfectly replicate the underlying stock's performance. The relevant comparison is not simply blockchain versus traditional finance. It is the legal ownership model, market structure and safeguards associated with each product. Tokenized Stocks or Traditional Shares: Which Makes More Sense? Traditional shares remain the more established option for investors seeking conventional brokerage access, established market infrastructure and clearly documented shareholder rights. Tokenized securities may appeal to investors who value blockchain-based transfers, alternative custody arrangements or access to compatible digital-asset infrastructure. However, those features are only useful when the legal rights and trading arrangements are properly understood. Before purchasing any tokenized equity product, investors should establish whether the token represents an actual security, an indirect custodial entitlement or a synthetic claim. That distinction determines what happens to dividends, voting rights and ownership protections. The Bottom Line The debate over tokenized stocks is moving beyond whether shares can be represented on a blockchain. The more important question is what investors receive when they purchase the token. Securitize's October launch demonstrates how securities entitlements can move onto blockchain infrastructure, while the objections to OKXICE show that issuer rights remain an important constraint. Tokenization may change how securities are traded and settled, but it does not automatically create shareholder ownership. For investors comparing tokenized stocks with traditional shares, the legal structure behind the token matters more than the technology displaying it. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BUSINESS|MARKET|REGULATION|TRADING",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75647717",
+      "guid": "https://coinpedia.org/?p=588030",
+      "published_on": 1793102910,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Microsoft Layoffs 2026: Buyout Offer Reaches India, VP Level Days Before Earnings",
+      "url": "https://coinpedia.org/crypto-live-news/microsoft-layoffs-2026-buyout-offer-reaches-india-vp-level-days-before-earnings/",
+      "body": "The post Microsoft Layoffs 2026: Buyout Offer Reaches India, VP Level Days Before Earnings appeared first on Coinpedia Fintech News More than a quarter of Microsoft’s workforce has been offered a way out as the company tries to pay for its AI ambitions. About 60,000 employees across the US, Canada, India and the UK are eligible for a new voluntary exit package, CNBC reported, citing a person familiar with the plan. That is roughly 27% …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75647716",
+      "guid": "https://coinpedia.org/?p=588028",
+      "published_on": 1793102891,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "SPGI Stock Outlook Improves as S&P Global Raises 2026 Guidance",
+      "url": "https://coinpedia.org/crypto-live-news/spgi-stock-outlook-improves-as-sp-global-raises-2026-guidance/",
+      "body": "The post SPGI Stock Outlook Improves as S&P Global Raises 2026 Guidance appeared first on Coinpedia Fintech News S&P Global (NYSE: SPGI) reported third-quarter 2026 revenue of $3.68 billion, up 7% year over year, while adjusted earnings per share rose 9% to $4.58. The company raised its full-year revenue and adjusted earnings outlook, supporting its growth outlook. The Indices business led growth, with revenue rising 20% to $554 million. Revenue from Ratings increased …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75647115",
+      "guid": "https://en.coin-turk.com/?p=255160",
+      "published_on": 1793102726,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75647115.jpeg",
+      "title": "Spanish police uncover 20,000 bitcoin transfers in Arbistar fraud case",
+      "url": "https://en.coin-turk.com/spanish-police-uncover-20000-bitcoin-transfers-in-arbistar-fraud-case/?utm_source=rss&utm_medium=rss&utm_campaign=spanish-police-uncover-20000-bitcoin-transfers-in-arbistar-fraud-case",
+      "body": "🚨 Arbistar wallets moved over 20,000 bitcoin worth $1.1 billion as the scheme collapsed. 💰 Spanish police say top Arbistar insiders routed stolen funds in $BTC to outside wallets. 🇪🇸 The $BTC fraud affected up to 32,000 investors across Spain and several other countries. Continue Reading: Spanish police uncover 20,000 bitcoin transfers in Arbistar fraud case The post Spanish police uncover 20,000 bitcoin transfers in Arbistar fraud case appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75647186",
+      "guid": "https://cryptodaily.co.uk/2026/10/us-gdp-and-pce-inflation-why-october-29-could-move-markets",
+      "published_on": 1793102654,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75647186.jpeg",
+      "title": "US GDP and PCE Inflation: Why October 29 Could Move Markets",
+      "url": "https://cryptodaily.co.uk/2026/10/us-gdp-and-pce-inflation-why-october-29-could-move-markets",
+      "body": "US GDP and PCE inflation data will be released together on October 29, giving investors two important readings on whether the economy is growing fast enough to sustain corporate earnings without generating further inflation. The Bureau of Economic Analysis (BEA) will publish its advance estimate of third-quarter GDP alongside September's Personal Income and Outlays report at 8:30 a.m. Eastern Time. The timing matters. Both releases arrive one day after the Federal Reserve's October policy decision, potentially changing market expectations for interest rates through December and into 2027. Investors will focus on three figures: real GDP growth, core PCE inflation and real consumer spending. US GDP and PCE Inflation: What Is Being Released? According to the official BEA release calendar , the following reports are scheduled for Thursday, October 29. Economic indicatorReporting periodWhat it measuresReal GDPQ3 2026Inflation-adjusted economic outputHeadline PCE inflationSeptember 2026Changes in consumer pricesCore PCE inflationSeptember 2026Price changes excluding food and energyPersonal incomeSeptember 2026Income received by householdsPersonal spendingSeptember 2026Consumer expenditure The GDP release is the first official estimate for the quarter and will be revised as additional information becomes available. The PCE report provides a more recent monthly picture of inflation and household spending. Reading the two reports together gives investors a clearer assessment of both economic momentum and price pressures. What to Watch in the Q3 2026 GDP Report Headline real GDP growth will indicate whether the US economy maintained its momentum during the third quarter. However, the composition of growth may be more important than the headline number. Consumer spending Personal consumption expenditures are the largest component of US GDP. Growth supported by higher real consumer spending would suggest that household demand remains resilient despite elevated borrowing costs. Investors should distinguish inflation-adjusted spending from nominal spending, which can increase simply because prices are rising. Business investment Private investment will provide another important signal, particularly given substantial spending on artificial intelligence infrastructure. Data centres, computing equipment and related construction can contribute to GDP when they qualify as domestic investment. However, the economic impact depends on where equipment is produced, how spending is classified and the contribution from imports. Strong investment does not automatically establish that the companies financing it are earning attractive returns. Inventories and trade Changes in business inventories and net exports can produce large quarterly GDP movements. A headline increase driven mainly by inventory accumulation may tell a different story from growth supported by household spending and business investment. Investors should therefore examine the contributions to GDP rather than relying exclusively on the annualised growth rate. The BEA's GDP data tables provide the underlying breakdown. September PCE Inflation: Why Core Prices Matter The PCE price index is a central measure in the Federal Reserve's assessment of inflation. According to the BEA's latest published PCE data , headline PCE inflation was 3.4% year over year in August 2026. September's report will show whether price pressures increased, moderated or remained broadly unchanged. Core PCE excludes food and energy prices, which can experience substantial monthly volatility. That makes it useful for evaluating underlying inflation trends, although policymakers also consider headline inflation and a broader range of economic indicators. Monthly versus annual inflation Both readings deserve attention. The year-over-year rate compares prices with the same month in 2025. The month-over-month rate captures more recent price changes. A softer annual reading can coexist with stronger monthly inflation because of base effects. For this reason, investors should examine the latest monthly movement rather than assuming that a lower annual rate necessarily indicates an improving near-term trend. Persistent core inflation could reinforce expectations that monetary policy will remain restrictive. A meaningful slowdown would strengthen the case for less tightening, particularly if growth indicators also weaken. How GDP and PCE Could Affect Treasury Yields Treasury yields respond to changes in expected interest rates, inflation and economic growth. Shorter-term yields are particularly sensitive to expectations for Federal Reserve policy. Longer-term yields also reflect inflation expectations, government borrowing requirements and the additional return investors demand for holding longer-maturity bonds. The market reaction will depend on how the two reports compare with expectations. GDP resultPCE inflation resultPossible market interpretationStrongHotter than expectedGreater inflation and rate-tightening concernsStrongCooler than expectedMore favourable growth and inflation balanceWeakCooler than expectedLower rate expectations, but increased growth concernsWeakHotter than expectedStagflation risks become more prominent These scenarios describe potential market reactions rather than guaranteed movements. A strong GDP figure may push yields higher if investors expect tighter monetary policy. However, a simultaneous decline in inflation could reduce that pressure. Similarly, weaker GDP growth could support bonds while creating concerns about corporate profits. The interaction matters more than either headline number alone. What the Data Could Mean for Stocks and the Dollar For equities, stronger growth generally supports expectations for revenue and earnings. But a positive GDP surprise can also push bond yields higher if inflation remains elevated. Higher discount rates can place pressure on equity valuations, particularly among businesses whose market value depends heavily on future earnings. A combination of resilient growth and easing inflation would be more favourable because it could support earnings without necessarily increasing expectations for tighter monetary policy. Currency markets face a different calculation. Stronger US economic data or unexpectedly persistent inflation can support the dollar when they lead investors to expect higher US interest rates relative to other economies. However, foreign central-bank policy, global capital flows and risk sentiment also affect exchange rates. For both stocks and currencies, the immediate reaction will depend on how much of the economic outcome investors have already priced in. Why the October 29 Reports Matter After the Fed Meeting The Federal Reserve announces its October policy decision on October 28, before the GDP and PCE reports become available. That creates an unusual sequence. Policymakers must communicate their immediate assessment of economic conditions without the latest official quarterly growth estimate or September PCE figures. The following day's releases could then strengthen or weaken the market's interpretation of the Fed's outlook. For example, a restrictive policy message followed by cooler inflation might reduce expectations for another increase. An unchanged interest-rate decision followed by unexpectedly strong inflation could have the opposite effect. The Fed's official policy calendar confirms the October 27–28 meeting. The October 29 data will therefore be important for assessing the outlook for the next policy meeting, not just the market's immediate reaction. What Comes Next for the US Economy? The October 29 releases will help answer two separate questions: how quickly the economy is expanding and whether inflation is moving towards the Federal Reserve's target. For investors, the most informative outcome will come from examining real consumer spending, underlying business investment, monthly core PCE inflation and the response in Treasury yields. Strong growth accompanied by moderating inflation would offer a more favourable combination for financial markets. Persistent inflation alongside slowing activity would create a more difficult environment for policymakers and asset valuations. The GDP and PCE reports will not settle the economic outlook on their own, but they will provide an important benchmark for expectations heading into the final two months of 2026. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|MARKET|REGULATION|MACROECONOMICS",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75647150",
+      "guid": "https://coinpedia.org/?p=588024",
+      "published_on": 1793102525,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Nvidia Stock Premarket: NVDA Edges Up To $217 After $3 Billion Meta Investment",
+      "url": "https://coinpedia.org/crypto-live-news/nvidia-stock-premarket-nvda-edges-up-to-217-after-3-billion-meta-investment/",
+      "body": "The post Nvidia Stock Premarket: NVDA Edges Up To $217 After $3 Billion Meta Investment appeared first on Coinpedia Fintech News Nvidia shares rose 2% to $216 in premarket trading on Tuesday after the chipmaker said it will invest $3 billion in Meta Platforms’ equity offering. Under the expanded partnership, Meta will run more of its next-generation Muse AI agents on Nvidia infrastructure, including Vera Rubin systems and Vera CPUs. The two companies are also working …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75646788",
+      "guid": "0bbcdbe0-b86a-464a-8df6-33f78edcc598",
+      "published_on": 1793102439,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75646788.jpeg",
+      "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
+      "body": "Your day-ahead look for Oct. 27, 2026",
+      "tags": "Crypto Daybook Americas|Crypto Daybook Americas|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75647148",
+      "guid": "https://coinpedia.org/?p=588022",
+      "published_on": 1793102436,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Coca-Cola Earnings Beat Q3 Estimates as Company Raises 2026 Guidance",
+      "url": "https://coinpedia.org/crypto-live-news/coca-cola-earnings-beat-q3-estimates-as-company-raises-2026-guidance/",
+      "body": "The post Coca-Cola Earnings Beat Q3 Estimates as Company Raises 2026 Guidance appeared first on Coinpedia Fintech News Coca-Cola reported $13.4 billion in net revenue for Q3 2026, up 7% year over year and above analyst expectations of $12.93 billion. Adjusted earnings per share came in at $0.91, beating estimates of $0.88. Global unit case volume grew 5%, supported by a 16% increase in Coca-Cola Zero Sugar volume internationally. However, volumes in North …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75646776",
+      "guid": "https://timestabloid.com/?p=113701",
+      "published_on": 1793102410,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Finance Strategist Says XRP and XLM Could Benefit from This News",
+      "url": "https://timestabloid.com/finance-strategist-says-xrp-and-xlm-could-benefit-from-this-news/",
+      "body": "The 20 wealthiest countries on earth have handed the global banking system a firm deadline. By 2027, the G20 wants 75% of all international payments settled in under one hour, with fees cut to 1% or less. For most of the world’s banks, that target is a serious problem. Traditional bank wires still take days to process. Middleman banks, currency swaps, and weekend cutoffs all slow the system down. Financial expert Levi laid out exactly why legacy infrastructure struggles to clear even the one-hour bar. “99% of banks today cannot do it”, he tweeted . $XRP & $XLM COULD BENEFIT FROM THIS!! pic.twitter.com/NM379Xclhp — Levi | Crypto Crusaders (@LeviCryptoGuy) October 25, 2026 Why XRP and XLM Fit the G20 Requirements While traditional banks race to find solutions, XRP and XLM already operate well within the G20’s targets. Both assets settle cross-border payments in three to five seconds at a cost of fractions of a penny. That settlement happens 24 hours a day, seven days a week, 365 days a year, with no weekend cutoffs and no middlemen. Levi put it plainly: XRP and XLM are sitting “in the ultimate sweet spot.” A Path to Bank Adoption Levi walked through how major banks could use the XRP ecosystem to meet the G20’s requirements. Banks could settle transactions through XRP infrastructure and charge a fee “well below 1% of the total transaction volume” — satisfying regulators while protecting their margins. The settlement speed alone clears the G20’s one-hour threshold many times over, compressing what currently takes days into a matter of seconds . Levi noted that this model lets banks hit regulatory goals, improve customer service, and generate stronger profits simultaneously. “To me, this is an absolute no brainer,” he said. A Broader Shift May Be Coming Levi expressed confidence that bank adoption of these assets is not a question of if, but when. He said it is “just a matter of time before XRP, XLM, and a few other select cryptocurrencies will be integrated into the banking system.” The G20 deadline gives that timeline a concrete anchor. Banks now have a specific performance target to meet and a specific date by which to meet it. XRP and XLM’s existing infrastructure already clears both bars. Whether major institutions move quickly enough to meet the 2027 deadline remains to be seen. But Levi’s case is straightforward: the technology exists, the regulatory pressure is real, and the assets built for this use case are already live. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Finance Strategist Says XRP and XLM Could Benefit from This News appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XLM|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|XLM|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "75646717",
+      "guid": "https://invezz.com/news/2026/10/27/xrp-remains-under-pressure-as-derivatives-data-shows-mixed-sentiment/",
+      "published_on": 1793102389,
+      "imageurl": "https://resources.cryptocompare.com/news/69/75646717.jpeg",
+      "title": "XRP remains under pressure as derivatives data shows mixed sentiment",
+      "url": "https://invezz.com/news/2026/10/27/xrp-remains-under-pressure-as-derivatives-data-shows-mixed-sentiment/",
+      "body": "XRP remains under pressure on Tuesday after a modest recovery the previous day failed to establish a sustained upward move. XRP traded around $1.300. The asset is trading below Exponential Moving Averages, leaving its near-term technical outlook cautious. Derivatives indicators offer a bullish picture: long-to-short ratios, with positive funding rates, both suggesting demand to maintain long positions. CryptoQuant’s market summaries also point to selling pressure across spot and futures markets. Long-to-short ratios and funding rates show bullish momentum CoinGlass data shows XRP’s long-to-short ratio at 1.02, close to its average level in more than a month. Ratios above one indicate a greater share of longs than shorts in the measured data. The scope of the ratio matters, however, account-based and position-based measures do not necessarily describe the same thing. Funding rates tell a similar story. XRP’s rate stood at 0.0101% on Tuesday. Both were positive, meaning traders holding long positions were paying shorts at the time of the reading. Positive funding can indicate demand for long exposure, but it does not establish that either asset will rise. The combination of high long-to-short ratios and positive funding leaves the derivatives picture bullish. However, CryptoQuant’s summary indicators show sell-side dominance in the spot and futures markets for XRP. For XRP, the platform also flags large whale orders and heating conditions across the two markets. Those signals suggest activity by large traders alongside elevated market conditions, although large orders alone do not establish whether whales are buying or selling. XRP spot exchange-traded funds recorded $3.61 million in net outflows on Monday, according to the supplied ETF data. The withdrawal points to reduced demand through those products at the start of the week. If outflows persist, they could add to pressure on XRP, although a single day of flows does not establish a longer-term trend. In addition to these, Ripple’s CEO Brad Garlinghouse announced on Monday that the Office of the Comptroller of the Currency (OCC) has granted final approval to charter Ripple National Trust Bank (RNTB). https://twitter.com/bgarlinghouse/status/2114860293859778775 This latest development indicates Ripple's progress toward building digital asset infrastructure within a regulated financial system. It will enable RNTB to manage the Ripple USD (RLUSD) reserves, making it a collateral trustee for RLUSD holders and expanding its digital asset custody services. XRP faces resistance at $1.333 XRP’s daily chart remains weak, with the token below three key moving averages. The 100-day EMA at $1.333 is the first resistance level, followed by the 50-day EMA at $1.360 and the 200-day EMA at $1.369. Further horizontal barriers sit at $1.540 and $1.900. Momentum is subdued. The Relative Strength Index is near 40, below the neutral 50 level, while the Moving Average Convergence Divergence remains negative. Recent improvement in the MACD suggests downside momentum may be easing, but it does not yet confirm a bullish reversal. On the downside, $1.300 is the nearby horizontal support level. A decisive break below it would leave XRP vulnerable to further weakness. The post XRP remains under pressure as derivatives data shows mixed sentiment appeared first on Invezz",
+      "tags": "Crypto|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Invezz",
+        "img": "https://resources.cryptocompare.com/news/69/default.png",
+        "lang": "EN"
+      },
+      "source": "invezz"
+    },
+    {
+      "id": "75646786",
+      "guid": "https://coinpaper.com/37941/gold-price-forecast-goldman-sachs-sees-4-900-by-year-end-even-as-gold-slips-toward-4-000",
+      "published_on": 1793102347,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Gold Falls Toward $4,000 as Goldman Sachs Cuts Its Year-End Forecast but Still Sees a 16% Recovery",
+      "url": "https://coinpaper.com/37941/gold-price-forecast-goldman-sachs-sees-4-900-by-year-end-even-as-gold-slips-toward-4-000",
+      "body": "Key takeaways Gold tests $4,000 as US dollar strengthens Goldman Sachs lowers year-end forecast to $4,650 Fed decision threatens gold's near-term recovery prospects Gold slipped toward $4,000 per ounce on Tuesday, October 27, as a strengthening US dollar and elevated Treasury yields pressured the precious metal ahead of the Federal Reserve's interest-rate decision. Spot gold fell 0.4% to approximately $4,000.52, while December futures declined 0.6% to $4,014.40, according to Reuters . Goldman Sachs Still Sees Upside Despite Gold's $4,000 Test Goldman Sachs analyst Lina Thomas lowered the bank's end-2026 fair-value estimate from $4,900 to $4,650 following the Federal Reserve's September interest-rate increase, according to a September 23 report . The revised target still implies approximately 16% upside from $4,000, although achieving that recovery within the remaining months of 2026 would require a substantial reversal in market sentiment. The bank maintained its $5,400 target for the end of 2027, arguing that central-bank purchases and reserve diversification provide longer-term support. That outlook follows Goldman's earlier forecast , which highlighted sustained sovereign demand and growing investor interest in using gold to hedge policy uncertainty Goldman's research also identified unusually strong official-sector demand, with its estimates suggesting central banks purchased 79 tonnes of gold in August. However, as Coinpaper recently reported, central-bank buying has not prevented bullion from falling as investors reassess interest rates. Stronger Dollar and Fed Rate Risks Pressure Gold The US dollar climbed approximately 0.3% to a nearly two-week high on Tuesday, making dollar-denominated bullion more expensive for international buyers. Gold also faces competition from interest-bearing assets as Treasury yields remain elevated. The Fed is widely expected to leave rates unchanged on October 28. However, persistent inflation and oil prices near $116 have increased expectations for further tightening. According to Reuters, traders assigned approximately an 82% probability to a December rate increase. That environment explains why gold has struggled despite geopolitical uncertainty. Coinpaper previously examined how rising oil prices can undermine bullion by strengthening inflation expectations. China's continued gold accumulation provides structural demand, but central-bank purchases cannot guarantee price stability over shorter periods. Gold Price Prediction: Could XAU/USD Recover Above $4,100? The immediate technical question is whether gold can defend $4,000. A sustained move below that threshold could expose $3,950, followed by $3,900 if selling accelerates after the Fed announcement. Conversely, recovering above $4,050 would suggest easing pressure, while a move through $4,100 could reopen the $4,150–$4,200 region. Morgan Stanley previously identified $4,000 support , citing physical demand and the possibility of falling bond yields. Meanwhile, Citi's earlier $4,500 outlook illustrates how institutional forecasts differ over their respective horizons.",
+      "tags": "News|Commodities",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "COMMODITY|FIAT|MARKET|TRADING|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "75646582",
+      "guid": "https://en.coin-turk.com/?p=255159",
+      "published_on": 1793102246,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75646582.jpeg",
+      "title": "Keystone to destroy 18,835 hardware wallets following authentication key theft",
+      "url": "https://en.coin-turk.com/keystone-to-destroy-18835-hardware-wallets-following-authentication-key-theft/?utm_source=rss&utm_medium=rss&utm_campaign=keystone-to-destroy-18835-hardware-wallets-following-authentication-key-theft",
+      "body": "🚨 Keystone will destroy 18,835 wallets after its key used for authentication was stolen. 🔒 Up to 25,964 customer records from 2024–2026 may have been exposed in the breach. 🛡️ The company urges all users to verify the authenticity of their $BTC wallets delivered after October 20. Continue Reading: Keystone to destroy 18,835 hardware wallets following authentication key theft The post Keystone to destroy 18,835 hardware wallets following authentication key theft appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75646707",
+      "guid": "https://cryptodaily.co.uk/2026/10/anthropic-ipo-filing-reveals-163b-revenue-and-807b-loss",
+      "published_on": 1793102103,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75646707.jpeg",
+      "title": "Anthropic IPO Filing Reveals $16.3B Revenue and $80.7B Loss",
+      "url": "https://cryptodaily.co.uk/2026/10/anthropic-ipo-filing-reveals-163b-revenue-and-807b-loss",
+      "body": "Anthropic's long-awaited IPO filing has given Wall Street its clearest look yet at the financial performance of one of the world's largest artificial intelligence developers. The company behind Claude generated $16.29 billion in revenue during the first half of 2026, compared with $1.16 billion a year earlier. Its reported net loss reached $80.75 billion, although the overwhelming majority resulted from accounting adjustments to financing instruments rather than operating losses. Anthropic filed its Form S-1 registration statement with the SEC on October 26 and plans to list on the Nasdaq under the ticker ANT. The proposed offering could become a major test of investor appetite for AI stocks as concerns grow over infrastructure costs, valuations and the financial returns from generative AI. Anthropic IPO 2026: Key Financial Numbers Anthropic's prospectus shows extraordinary revenue growth alongside a rapidly expanding cost base. Financial metricH1 2025H1 2026Revenue$1.16B$16.29BCompute and infrastructure costs$2.33B$8.95BTotal operating expenses$3.30B$16.98BOperating loss$2.14B$693MReported net loss$12.97B$80.75B Source: Anthropic Form S-1, consolidated financial statements. Figures rounded. Revenue increased approximately fourteenfold year over year, while the operating loss narrowed substantially. That improvement is particularly important because Anthropic's reported $80.75 billion net loss does not accurately represent the performance of its underlying operations on its own. Why Did Anthropic Report an $80.7 Billion Loss? The largest component of Anthropic's net loss was a $72.39 billion fair-value adjustment involving convertible notes, derivatives and other financing instruments. These accounting charges reflect changes in the estimated value of financial obligations and should not be confused with cash spent operating Claude. Anthropic also recorded a much smaller operating loss of approximately $693 million during the first six months of 2026. The difference is crucial for investors evaluating the IPO. An operating loss measures the relationship between the company's revenue and operating expenses. Net income additionally incorporates financing costs, valuation adjustments and other non-operating items. The filing therefore reveals two separate developments: Anthropic's operating economics have improved considerably, while its complex financing structure has generated substantial accounting volatility. Investors should assess both rather than interpreting the headline net loss as an $80 billion cash burn. Claude Revenue Growth Shows Strong Enterprise Demand Anthropic's commercial expansion has been driven largely by enterprise customers using Claude for software development, automation and other business applications. The company generated approximately $4.59 billion in revenue during 2025, compared with $386 million in 2024. By the first half of 2026, revenue had already exceeded $16 billion. The IPO prospectus also reveals the scale of enterprise adoption as of September 30: More than 11,900 customers generating at least $100,000 in trailing annual revenue. More than 1,900 customers generating at least $1 million. Approximately 250 customers generating at least $10 million. These figures suggest Anthropic has moved well beyond experimental AI subscriptions towards substantial enterprise spending. However, customer concentration remains a risk. The filing states that its five largest customers represented approximately 25% of revenue during the first nine months of 2026. A spending reduction by major clients could therefore materially affect growth. AI Infrastructure Spending Remains Anthropic's Biggest Challenge Developing and operating frontier AI models requires substantial computing capacity. Anthropic spent approximately $8.95 billion on compute and infrastructure during the first half of 2026, compared with $2.33 billion in the equivalent period a year earlier. Despite that increase, computing costs grew considerably more slowly than revenue. That is an encouraging signal for the company's operating efficiency, but long-term commitments remain substantial. Reuters previously reported that Anthropic expects to spend at least $518 billion on AI infrastructure over a decade through arrangements with six partners. Approximately 80% of those commitments were described as non-cancellable or payable regardless of actual usage. The agreements create a significant financial obligation if demand growth slows. They also provide access to computing capacity that could otherwise limit Anthropic's ability to expand. For prospective shareholders, the essential question is whether future revenue and cash generation can support these commitments without excessive additional financing. Why Amazon, Google and Microsoft Matter to Anthropic Anthropic's relationships with major cloud providers are central to its business model. Amazon, Alphabet's Google and Microsoft supply critical infrastructure while also participating in the broader AI ecosystem as investors, distributors or competitors. According to Reuters' analysis of Anthropic's prospectus , Amazon and Google cloud marketplaces accounted for approximately 47% of Anthropic's 2025 revenue. These relationships help Anthropic reach enterprise customers without building every distribution channel independently. However, they also create concentration and negotiating risks. Cloud providers influence infrastructure availability, distribution costs and access to customers. That means Anthropic's financial performance cannot be evaluated entirely separately from the companies providing much of its computing capacity. Anthropic Stock: What Is the IPO Valuation? Anthropic has not yet disclosed a final IPO share price, offering size or confirmed public-market valuation. Its preliminary prospectus identifies ANT as the intended Nasdaq ticker. Market reports have discussed valuations of approximately $1.5 trillion or higher, but these are proposed or reported expectations rather than an established IPO price. A $1.5 trillion valuation would represent roughly 46 times the annualised revenue implied by the company's first-half 2026 results. That is a simple revenue multiple, not a forecast or a comprehensive valuation model. It also assumes the first-half revenue run rate provides a meaningful annual comparison, which may not hold as growth changes. Investors will need to assess Anthropic's operating margins, future infrastructure obligations, customer concentration and potential dilution alongside revenue growth. Rapid expansion can justify a premium valuation, but the price paid for that growth still matters. How Anthropic's IPO Could Affect AI Stocks Anthropic's planned listing could influence sentiment across the technology sector even before shares begin trading. The company represents a relatively direct investment opportunity in frontier AI model development, unlike diversified businesses such as Microsoft, Alphabet and Amazon. Its valuation could provide a new reference point for assessing other AI companies. However, a successful IPO would not automatically benefit every AI-related stock. Semiconductor manufacturers and data-centre operators may gain from rising computing demand, but they also face their own financing, competition and profitability risks. Meanwhile, a large share offering could compete for institutional capital already allocated to listed technology companies. Reuters reported that Anthropic's IPO plans arrive during a difficult period for technology listings, with higher financing costs and concerns about AI infrastructure spending weighing on investor confidence. When Will Anthropic Stock Become Available? Anthropic's October 26 S-1 filing is a formal step towards an initial public offering, not the completion of the listing. Reports indicate the company is targeting a November 2026 market debut, although the schedule remains subject to change. Before shares begin trading, investors should watch for the updated prospectus, confirmed price range, final offering size and allocation of proceeds. The preliminary filing does not establish a final purchase price. What the Anthropic IPO Means for AI Investors Anthropic's IPO filing provides unusually detailed evidence of both the opportunities and financial risks associated with frontier AI development. Revenue growth has been exceptional, and the company's operating loss has narrowed despite substantial infrastructure investment. At the same time, enormous computing commitments, reliance on cloud partners and accounting complexity require careful analysis. The key distinction is between Anthropic's headline net loss and the improving economics of its operating business. For investors considering ANT stock, the next major question is valuation: how much should the market pay for rapid AI revenue growth when future profitability still depends on expensive infrastructure and sustained enterprise demand? Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|REGULATION|TECHNOLOGY|TRADING",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75646557",
+      "guid": "https://coinpaper.com/37939/solana-price-prediction-sol-risks-20-crash-to-80",
+      "published_on": 1793102038,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Solana Price Prediction: SOL Risks 20% Crash to $80",
+      "url": "https://coinpaper.com/37939/solana-price-prediction-sol-risks-20-crash-to-80",
+      "body": "Key takeaways Solana faces potential 20% decline toward $80 support Bearish chart pattern threatens crucial $100 price level ETF withdrawals continue despite growing blockchain adoption Solana is approaching a potentially decisive breakdown, with SOL trading around $100 on October 27 as a bearish technical pattern raises the possibility of another 20% decline toward $80. The cryptocurrency has lost approximately 14% during October, underperforming Bitcoin, Ethereum and XRP over the same period. SOL briefly dipped below $100 during recent trading, threatening a support level that has repeatedly attracted buyers. Solana's $100 Support Faces a Major Technical Test The potential head-and-shoulders structure began forming in August, when SOL established its left shoulder near $111. A subsequent rally carried Solana toward $125 in late September, creating the pattern's head. The right shoulder was projected around $115, while the neckline emerged near $100. A decisive daily close beneath that neckline, particularly with increased selling volume, would strengthen the technical case for a decline toward $80. The latest market weakness reinforces concerns already visible during Solana's September support tests , when analysts identified $80–$85 as a possible downside zone. However, $100 is not the only level buyers need to defend. Recent technical analysis highlights support near $98, followed by approximately $93-$96. A breakdown through those areas could expose the longer-term moving average around $88 before the market reaches $80. Solana's earlier recovery above $100 shows why traders consider this region important, but previous rebounds do not guarantee another recovery. Solana ETFs Lose Money Despite Growing Network Adoption Institutional demand has weakened alongside SOL's price. US-listed Solana ETFs recorded approximately $17.3 million in net withdrawals during the previous week, extending their outflow streak to three consecutive weeks. A separate October 26 ETF-flow snapshot indicated another $8.2 million in redemptions, although that figure was preliminary because two funds had not yet reported. The reversal contrasts with Solana's earlier ETF expansion , when international listings broadened institutional access even as American products began experiencing withdrawals. Meanwhile, Solana's underlying network continues expanding. The number of addresses holding tokenized equities recently reached 1.5 million , approximately five times the August level. However, wallet addresses do not necessarily represent unique investors, and tokenized-stock adoption does not automatically translate into comparable SOL buying. The network also recently activated its Alpenglow upgrade , targeting transaction finality of approximately 150 milliseconds. These improvements strengthen Solana's infrastructure narrative without eliminating short-term market risks. Solana Price Prediction: $80 Crash or $115 Recovery? The bearish scenario depends on SOL losing $100 and failing to recover above the $97–$98 support region. A sustained breakdown could bring $93-$96 into focus, followed by approximately $88 and the $80 technical target. For buyers, reclaiming $105-$110 would represent an initial improvement, while a move above $115 could weaken the head-and-shoulders scenario. A stronger breakout above $125-$130 would challenge the bearish outlook more substantially. The downside forecast contrasts with Standard Chartered's $250 year-end target , illustrating the difference between short-term technical risk and longer-term institutional expectations.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MARKET|SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "75647008",
+      "guid": "https://en.coinotag.com/jba-eight-onchain-finance-proposals-ldp-blockchain-caucus",
+      "published_on": 1793101861,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75647008.jpeg",
+      "title": "JBA Tables Eight Onchain Finance Proposals at LDP Blockchain Caucus Meeting",
+      "url": "https://en.coinotag.com/jba-eight-onchain-finance-proposals-ldp-blockchain-caucus",
+      "body": "JBA proposed eight on-chain finance reforms, from DeFi legal status to digital asset property rights, at Japan's LDP blockchain caucus meeting on October 27.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BLOCKCHAIN|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75646162",
+      "guid": "https://en.coin-turk.com/?p=255158",
+      "published_on": 1793101706,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75646162.jpeg",
+      "title": "GraniteShares delays leveraged XRP, Bitcoin, Ethereum, Solana ETFs to 2026",
+      "url": "https://en.coin-turk.com/graniteshares-delays-leveraged-xrp-bitcoin-ethereum-solana-etfs-to-2026/?utm_source=rss&utm_medium=rss&utm_campaign=graniteshares-delays-leveraged-xrp-bitcoin-ethereum-solana-etfs-to-2026",
+      "body": "🚨 GraniteShares delays all leveraged crypto ETFs, including $XRP, to November 2026. 📈 Investors must wait two years for potential ETF access amid shifting US politics. 🗳️ The decision comes days before heated US midterm elections with Congress at stake. Continue Reading: GraniteShares delays leveraged XRP, Bitcoin, Ethereum, Solana ETFs to 2026 The post GraniteShares delays leveraged XRP, Bitcoin, Ethereum, Solana ETFs to 2026 appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|SOL|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75645968",
+      "guid": "https://decrypt.co/?p=381906",
+      "published_on": 1793101611,
+      "imageurl": "https://resources.cryptocompare.com/news/44/75645968.jpeg",
+      "title": "Why This Team of Ninjas Is Tripling Down on Mining Bitcoin",
+      "url": "https://decrypt.co/381906/why-this-team-of-ninjas-is-tripling-down-on-mining-bitcoin",
+      "body": "NIP Group says Bitcoin mining has “earned its place” as the esports giant swaps 247 million shares for more machines.",
+      "tags": "|Gaming",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MINING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "75646546",
+      "guid": "https://en.coinotag.com/btc-map-425-bitcoin-merchants-los-angeles",
+      "published_on": 1793101567,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75646546.jpeg",
+      "title": "BTC Map Counts 425 Bitcoin (BTC) Merchants Across Los Angeles County",
+      "url": "https://en.coinotag.com/btc-map-425-bitcoin-merchants-los-angeles",
+      "body": "A community survey lists 425 bitcoin-accepting businesses across Los Angeles County, from 82 coffee shops to 13 bars. Café de Leche logs 15 weekly sales.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75646147",
+      "guid": "https://cryptodaily.co.uk/2026/10/visa-earnings-preview-can-consumer-spending-justify-the-stocks-premium-valuation",
+      "published_on": 1793101543,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75646147.jpeg",
+      "title": "Visa Earnings Preview: Can Consumer Spending Justify the Stock's Premium Valuation?",
+      "url": "https://cryptodaily.co.uk/2026/10/visa-earnings-preview-can-consumer-spending-justify-the-stocks-premium-valuation",
+      "body": "Visa reports its fiscal fourth-quarter and full-year 2026 earnings after the US market closes on October 27. Wall Street expects revenue of $12.08 billion and adjusted earnings of $3.43 per share, putting consumer spending, international travel and payment processing growth in focus. The consensus estimates imply revenue growth of 12.7% and earnings-per-share growth of 15.1% from a year earlier, according to Zacks Investment Research . Visa stock has risen approximately 16.3% in 2026, outperforming the S&P 500. The challenge is whether its financial results can justify a valuation already above the broader payment industry's average. Visa Earnings Q4 2026: Key Numbers to Watch Visa confirmed that it will release its results on October 27, with management's earnings webcast beginning at 5 p.m. Eastern Time. The announcement will cover the quarter ended September 30 and the company's full fiscal year. IndicatorQ4 analyst estimateNet revenue$12.08 billionAdjusted EPS$3.43Revenue growth+12.7% year over yearAdjusted EPS growth+15.1% year over yearPayment volume growth+9.1% year over yearProcessed transaction growth+9.6% year over year Source: Zacks consensus estimates, October 26, 2026. These are forecasts, not reported results. Visa's official earnings announcement confirms that the company will publish its results after market close and make the supporting financial documents available through Investor Relations. Why Visa Payment Volume Matters for Consumer Spending Visa's transaction data provide a useful indicator of consumer and business spending across its network. Unlike card-issuing banks, Visa primarily operates a payment network rather than lending directly to cardholders. Its results therefore reflect transaction activity without the same direct exposure to credit-card loan defaults. Three metrics deserve particular attention. Payments volume measures the value of payments made using Visa-branded credentials. Growth can reflect increased consumer spending, business transactions or higher prices. Processed transactions measure the number of transactions handled by Visa's network. This helps distinguish growth in transaction activity from increases in average transaction value. Cross-border volume captures international transaction activity, including spending associated with travel and international commerce. These indicators offer different perspectives on payment demand. For example, rising payments volume accompanied by weaker transaction growth could partly reflect larger average purchases rather than more frequent spending. Visa's figures also cover multiple countries and business payments, so they should not be treated as a direct measurement of US household consumption. What Visa's Previous Quarter Revealed Visa reported strong results for its fiscal third quarter, ended June 30. According to its SEC-filed earnings release , net revenue increased 14% to $11.63 billion. The company reported: Q3 2026 indicatorReported resultNet revenue$11.63 billionAdjusted EPS$3.32Payments volume growth+10%Processed transactions71.7 billionProcessed transaction growth+10%Cross-border volume growth+13% Volume growth is measured in constant dollars. Cross-border growth includes transactions within Europe. The results demonstrated continued demand for digital payments. However, expenses also increased. Visa's GAAP operating expenses rose 19% year over year, while client incentives reached approximately $4.68 billion. Those costs are important because revenue growth does not automatically produce an equivalent increase in earnings. Cross-Border Payments Could Support Visa Revenue International transactions remain an important earnings driver. Visa earns international transaction revenue from qualifying cross-border payment activity, making international travel and commerce relevant to its financial performance. During the June quarter, cross-border volume excluding transactions within Europe increased 12% in constant dollars. For the September quarter, analysts expect continued growth, although the pace may vary across regions. Investors should compare cross-border volume growth with reported international transaction revenue. A divergence can reflect currency effects, transaction mix or pricing differences. The distinction matters because strong headline payment volumes do not necessarily guarantee equally strong net revenue growth. Client Incentives and Operating Costs Are Key Risks Visa's profitability depends on more than transaction growth. Client incentives are payments and other financial arrangements provided to customers and partners. They are generally recorded as a reduction in revenue. Higher incentives can help Visa retain or expand business relationships, but they also affect reported net revenue. Zacks estimates that client incentives could reach approximately $4.98 billion in fiscal Q4. Investors should also examine personnel expenses, marketing costs, technology investment and network-processing expenditure. A revenue beat accompanied by unexpectedly high operating costs could produce a less favourable earnings reaction. Conversely, stronger-than-expected operating leverage would indicate that Visa is converting additional payment activity into profit efficiently. Is Visa Stock Expensive Before Earnings? Visa enters the report with a relatively demanding valuation. According to Zacks' October 26 analysis, the stock traded at approximately 27 times forward 12-month earnings, compared with an industry average of around 18.8 times. Its five-year median forward multiple was approximately 25.6 times. That valuation premium reflects investor expectations for resilient payment growth, strong profitability and continued expansion of digital commerce. However, premium valuations also increase sensitivity to disappointing results. A company can exceed analysts' earnings estimates and still experience a share-price decline if investors expected stronger guidance. Three developments could influence Visa's valuation after the report: Revenue and adjusted EPS growth relative to consensus. Changes to the outlook for payments volume and operating expenses. Management's expectations for fiscal 2027. The third factor may be particularly important because stock valuations depend heavily on future earnings rather than historical performance alone. Stablecoins and AI Payments Offer Longer-Term Opportunities Visa is expanding beyond traditional card processing into additional payment technologies. On October 21, the company announced new commercial payment capabilities, including supplier analytics, virtual-card security tools and a pilot involving AI agents completing approved business payments. The official announcement described these initiatives as tools to improve automation and controls in business payments. Visa has also been expanding stablecoin-related infrastructure. Its October announcement on stablecoin adoption in business payments reported growing commercial use of stablecoin-linked card programmes. These developments could create additional revenue opportunities through transaction processing, commercial services and money movement. However, product launches and pilot programmes should not be confused with established earnings contributions. Investors will need evidence of adoption, transaction volumes and financial returns before assigning substantial additional value to these initiatives. What Could Move Visa Stock After Earnings? Three outcomes would carry different implications for shareholders. Strong results and higher guidance Revenue and EPS exceed expectations, payment volumes remain resilient and management provides encouraging fiscal 2027 guidance. This could support Visa's premium valuation. Earnings beat but cautious outlook Visa reports strong quarterly numbers but signals slower payment growth, rising incentives or increased operating expenses. The stock could struggle despite exceeding consensus estimates. Disappointing payments growth Payment volumes or international transaction activity fall short of expectations, raising concerns about consumer spending and transaction demand. That could put pressure on growth forecasts and Visa's earnings multiple. These are possible outcomes rather than forecasts of the stock's immediate price movement. Visa Earnings Outlook: Growth Must Support the Valuation Visa's October 27 earnings report will test whether transaction growth and consumer spending remain strong enough to support its valuation premium. Analysts expect double-digit revenue and adjusted earnings growth, following a June quarter marked by resilient payment volumes and cross-border activity. The most important results will be payment volume, processed transactions, international revenue, operating expenses and management's fiscal 2027 outlook. For Visa stock, beating quarterly estimates may be only part of the test. Sustaining earnings growth without excessive cost increases will determine whether investors remain willing to pay a premium for the business. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|REGULATION|TECHNOLOGY|RESEARCH",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75645856",
+      "guid": "https://coinpaper.com/37936/binance-files-for-brazil-crypto-license-but-drops-22-tokens-and-restricts-8-products",
+      "published_on": 1793101454,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Binance Files for Brazil Crypto License but Drops 22 Tokens and Restricts 8 Products",
+      "url": "https://coinpaper.com/37936/binance-files-for-brazil-crypto-license-but-drops-22-tokens-and-restricts-8-products",
+      "body": "Key takeaways Binance seeks Brazilian authorization before October 30 deadline Twenty-two tokens lose trading access for local customers Eight Binance services face restrictions under new rules Binance has applied for a cryptocurrency service provider license in Brazil, but the exchange is simultaneously removing 22 tokens from local trading and restricting eight products as the country's new regulatory framework takes effect. The application was submitted on October 23 through BBrasil Sociedade Prestadora de Serviços de Ativos Virtuais Ltda., according to an October 26 report by Portal do Bitcoin . The filing comes one week before Brazil's October 30 authorization deadline, allowing existing operators that apply on time to continue serving customers under transitional arrangements while regulators review their applications. However, applying does not mean Binance has received approval from the Central Bank of Brazil. Binance Cuts 22 Tokens and Eight Products in Brazil According to Binance's official notice , the restrictions take effect on October 27 and cover crypto lending, margin trading, Binance Pool, Cloud Mining, Launchpool, Megadrop, HODLer Airdrops and Alpha 2.0. Brazilian users will no longer be able to open new positions in the affected products. Existing positions generally enter closure-only or reduction-only arrangements, with individual conditions varying by service. Binance Loans customers can repay outstanding balances without additional penalties linked to the transition, while existing margin positions have no universal mandatory closure deadline. The exchange is also ending local trading eligibility for 22 tokens, including USDe, TerraClassicUSD, MANTRA, Zilliqa, Ravencoin, Verge and Secret. Other affected assets include DCR, DUSK, PIVX, BB, ONE, GMT, TFUEL, ONT, ACX, HIT, PYR, VANRY, VIC, ICX and STORJ. Binance says customers holding the affected assets will retain access to their balances and can withdraw or use available reinvestment options after trading access ends. The restrictions do not constitute a global delisting of these cryptocurrencies. Brazil's Crypto Licensing Deadline Forces Binance Restructuring The new requirements follow Brazil's central bank regulations , which established licensing, governance and operational standards for virtual asset service providers. Binance is reorganizing its Brazilian operations around two local entities. Binance Brasil Corretora will handle transactions involving Brazilian reais, while BBrasil will provide permitted cryptocurrency services. Customer migration is scheduled for completion by October 29. The exchange previously secured a Brazilian brokerage foothold through its acquisition of Sim;paul, but that existing authorization is separate from the crypto service provider license now being sought. The restructuring follows similar challenges in Europe, where Binance previously restricted services ahead of the European Union's MiCA licensing deadline. Brazil's framework is separate, but both cases illustrate how exchange access increasingly depends on local regulatory authorization. What Changes for Binance Users in Brazil? Approved spot trading and supported stablecoin transactions remain available, while customers will continue using the existing Binance application and login credentials. From November 1, international crypto transfers will require additional information about transaction purposes and counterparties. Brazil has also introduced stricter transfer oversight , including separate anti-fraud controls for certain large cryptocurrency movements. The country remains an important market for digital asset payments, including Binance's earlier integration with Pix .",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|TRADING|BNB|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "75646672",
+      "guid": "https://coinpedia.org/?p=588015",
+      "published_on": 1793101281,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Galaxy Digital Earnings Surprise: GLXY Stock Jumps 8% as Profitability Strengthens",
+      "url": "https://coinpedia.org/price-analysis/galaxy-digital-earnings-surprise-glxy-stock-jumps-8-as-profitability-strengthens/",
+      "body": "The post Galaxy Digital Earnings Surprise: GLXY Stock Jumps 8% as Profitability Strengthens appeared first on Coinpedia Fintech News Galaxy Digital (NASDAQ: GLXY) is drawing investor attention after reporting a sharp rebound in third-quarter profitability, with shares indicated up approximately 8% in premarket trading. The company recorded $323 million in net income and $455 million in adjusted EBITDA, supported by stronger investment-related gains and improving data center performance. However, with GLXY stock facing a …",
+      "tags": "Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75645741",
+      "guid": "1df39f63-e14b-42e1-9db6-8eadfa5b8cdb",
+      "published_on": 1793101250,
+      "imageurl": "https://resources.cryptocompare.com/news/5/default.png",
+      "title": "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital",
+      "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
+      "body": "Interest rates and oil are slipping and equities are rising, but crypto remains under pressure.",
+      "tags": "Tech|Live News|live_news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|COMMODITY|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75645492",
+      "guid": "f5d87154-4f42-4468-84d5-c64d0df2c0f7",
+      "published_on": 1793101072,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75645492.jpeg",
+      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
+      "body": "CEO Noritaka Okabe blamed a 1 million yen per-transaction cap for Type II funds transfer providers, which has slowed corporate adoption.",
+      "tags": "Finance|Stablecoins|Japan|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75645704",
+      "guid": "https://cryptonews.com/?p=514531",
+      "published_on": 1793101020,
+      "imageurl": "https://resources.cryptocompare.com/news/52/75645704.jpeg",
+      "title": "Charles Hoskinson’s Midnight to Hit 50,000 Transactions as Crypto Privacy Race Heats Up",
+      "url": "https://cryptonews.com/news/charles-hoskinsons-midnight-to-hit-50000-transactions-as-crypto-privacy-race-heats-up/",
+      "body": "Charles Hoskinson’s Midnight crypto network has recorded its busiest day yet, processing 49,229 transactions on October 25. That was more than double the 20,445 transactions processed by privacy-focused rival Zcash on the same day. The milestone brings Midnight’s cumulative mainnet transactions to 954,434, marking another development for Hoskinson’s push into programmable blockchain privacy. The network aims to protect sensitive information while allowing applications to verify data without exposing everything publicly. However, Midnight’s rising activity still faces a bigger test. Sustained usage, application growth, and demand for its NIGHT token will determine whether the network can turn early momentum into lasting adoption. Discover: The Crypto Presales This Q4 2026 Midnight Transactions Outpace Zcash as Hoskinson Pushes Programmable Privacy for Crypto Midnight’s latest record puts its network activity ahead of Zcash on a daily transaction basis. Zcash has spent years building a privacy-focused crypto, while Midnight targets a wider range of applications through programmable privacy. Midnight is not simply trying to hide payments. Its zero-knowledge technology allows developers to build applications that verify information without revealing the underlying data. Source, TradingView That opens potential use cases across decentralized finance, business records, and identity verification. Users could prove eligibility or financial information without exposing unnecessary personal details. Midnight’s architecture also separates its NIGHT token from the resource used to execute transactions. Holding NIGHT generates DUST, which powers transactions and smart-contract execution. According to Midnight’s official documentation , DUST is non-transferable and replenishes over time. This design separates long-term token ownership from routine network costs. Discover: The Best Token Presales Bitcoin Hyper Brings Another Approach to Blockchain Utility Midnight is not the only project exploring how blockchain infrastructure can support applications beyond basic transfers. Bitcoin Hyper is taking a different route, focusing on expanding Bitcoin’s functionality through a proposed Layer 2 network. The project plans to combine Bitcoin settlement with Solana Virtual Machine technology, targeting faster transactions and support for decentralized applications. Its proposed ecosystem includes decentralized finance tools and other applications built around Bitcoin. Bro started typing about Bitcoin Hyper and the typewriter went into overdrive. https://t.co/VNG0P4FWNQ pic.twitter.com/JvMZXa9duH — Bitcoin Hyper (@BTC_Hyper2) October 27, 2026 Bitcoin Hyper has already raised more than $33.2 million in its presale, with HYPER priced at $0.0137 , less than 2 cents each. The project’s pitch centers on bringing more activity to Bitcoin rather than developing privacy infrastructure. Its proposed architecture uses a bridge and a Layer 2 execution environment to support applications beyond Bitcoin’s traditional payment functionality. Both projects reflect a common theme: blockchain networks need useful applications to sustain activity over time. Midnight is pursuing programmable privacy, while Bitcoin Hyper is targeting Bitcoin scalability and application development . Gain Access to New Bitcoin Layer 2 Early Before the Presale Window Ends in Less Thann a Month The post Charles Hoskinson’s Midnight to Hit 50,000 Transactions as Crypto Privacy Race Heats Up appeared first on Cryptonews .",
+      "tags": "Industry Talk|presales",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BTC|TECHNOLOGY|ZEC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "75645531",
+      "guid": "https://cryptodaily.co.uk/2026/10/sp-500-market-breadth-why-tech-stocks-led-the-october-26-rally",
+      "published_on": 1793101014,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75645531.jpeg",
+      "title": "S&P 500 Market Breadth: Why Tech Stocks Led the October 26 Rally",
+      "url": "https://cryptodaily.co.uk/2026/10/sp-500-market-breadth-why-tech-stocks-led-the-october-26-rally",
+      "body": "The S&P 500 rose 0.70% to close at 7,676.77 on October 26, recovering from two consecutive losing sessions as semiconductor stocks rallied and enthusiasm around artificial intelligence returned. But S&P 500 market breadth tells a more detailed story. Most index constituents advanced, while technology and momentum stocks delivered stronger gains than the broader market. The rally followed Anthropic's public IPO filing, which renewed interest in AI-related companies despite continuing concerns about infrastructure spending and profitability. How the S&P 500, Nasdaq and Dow Performed All four major US stock indexes finished Monday higher, although their gains differed significantly. According to Associated Press market data : IndexOctober 26 closeDaily changeS&P 5007,676.77+0.70%Nasdaq Composite26,169.38+0.82%Dow Jones Industrial Average52,361.58+0.28%Russell 20002,786.42+0.38% The Nasdaq's outperformance reflected renewed demand for technology shares. The Dow's smaller gain showed that buying was not equally strong across the market. Meanwhile, the Russell 2000's advance indicated that smaller companies participated, although they lagged the technology-heavy Nasdaq. The S&P 500 remained below its October 6 closing high of 7,818.93, despite Monday's rebound. S&P 500 Market Breadth: How Many Stocks Actually Rose? Market breadth measures participation in a market movement rather than focusing exclusively on the headline index. During Monday's session, more than 300 S&P 500 stocks were advancing, representing approximately 60% of the index's constituents. Eight of its 11 sectors were also higher, according to MarketWatch's market breadth analysis . These figures show that the rally was not confined to a handful of mega-cap companies. However, the strongest returns remained concentrated in stocks with positive momentum. During the session, MarketWatch reported the following performance comparison: Market measureApproximate gainInvesco S&P 500 Momentum ETF+1.6%S&P 500 Index+0.8%Invesco S&P 500 Equal Weight ETF+0.4% Figures reflect the intraday comparison reported by MarketWatch, not final closing returns. The distinction is important. The equal-weight index gives every constituent the same initial influence, unlike the standard S&P 500, where larger companies carry greater weight. When the cap-weighted index substantially outperforms its equal-weight counterpart, it suggests that larger companies are contributing disproportionately to returns. Monday's market showed reasonably broad participation, but leadership remained concentrated in stronger-performing stocks. Semiconductor Stocks Drove the Technology Rebound AI-related equities were among the clearest beneficiaries of Monday's renewed risk appetite. According to Reuters' October 26 market report , the Philadelphia Semiconductor Index gained approximately 2.8%. Optical technology companies also performed strongly: Lumentum gained approximately 8%. Coherent advanced around 6%. Tesla rose 5.2% following a Barclays upgrade. The gains reflected growing enthusiasm for companies connected to AI infrastructure, computing capacity and advanced networking. However, the rally was not uniform. Meta Platforms fell approximately 1.9% after announcing plans to raise up to $95 billion to support its AI infrastructure expansion. The divergence highlights a central market concern: companies may benefit from growing AI demand while still facing pressure over the cost of financing that growth. Why Anthropic's IPO Filing Moved AI Stocks Anthropic's public IPO filing was a major catalyst for Monday's trading. The AI developer disclosed rapid revenue growth alongside substantial losses, bringing renewed attention to the commercial opportunities and financial risks associated with advanced AI models. Its proposed public listing could provide investors with another way to assess the economics of frontier AI development. However, the filing also highlighted the enormous computing and infrastructure costs associated with building competitive models. The market reaction reflected both sides of that equation. Semiconductor and optical networking companies rallied as investors focused on potential infrastructure demand. At the same time, Meta's decline demonstrated that additional spending announcements do not automatically produce positive share-price reactions. For the wider S&P 500, the distinction matters because investment in AI infrastructure influences a substantial network of companies, from chipmakers to cloud providers and electricity suppliers. What Could Sustain the S&P 500 Rally? The next test will be whether Monday's gains attract broader participation. Three indicators are particularly useful. Equal-weight performance A stronger equal-weight S&P 500 would suggest the rally is expanding beyond its largest constituents. Continued underperformance would indicate that market-cap concentration remains an important driver. Sector participation Technology led Monday's gains, but sustainable advances do not necessarily require technology to lead every session. Stronger performance from industrials, financials, healthcare and other sectors could indicate improving confidence across the economy. Corporate earnings Microsoft and Alphabet are scheduled to report on October 28, followed by Amazon on October 29. Investors will assess cloud revenue, AI-related capital expenditure and profitability. Positive earnings surprises could reinforce Monday's technology rebound. Disappointing forecasts could instead renew pressure on valuations. The Federal Reserve's October 28 interest-rate decision is another potential influence, particularly if its guidance changes expectations for Treasury yields. Why Market Breadth Matters More Than a Single Rally A rising S&P 500 does not necessarily mean the average constituent is performing equally well. The standard index is weighted by float-adjusted market capitalisation, allowing its largest companies to dominate daily returns. Market breadth helps investors distinguish between a broad advance and one driven predominantly by a small group of stocks. October 26 delivered a mixed but informative signal. A majority of S&P 500 constituents advanced, and most sectors participated. Yet momentum stocks substantially outperformed the equal-weight benchmark. That suggests improving market sentiment without proving that leadership has become evenly distributed. For investors evaluating the market's direction, the next few sessions will reveal whether participation continues broadening or whether the index remains dependent on its strongest technology names. S&P 500 Outlook: The Next Test Is Broader Participation The S&P 500's October 26 rebound was supported by semiconductor strength, renewed AI enthusiasm and gains across most sectors. But the difference between momentum and equal-weight performance shows that the strongest returns remained concentrated. The market now faces a demanding earnings calendar and a Federal Reserve decision. If gains extend across more companies and sectors, the rally will have stronger evidence of underlying participation. If technology and momentum stocks continue carrying most of the advance, the S&P 500 may remain particularly sensitive to earnings surprises from its largest constituents. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TECHNOLOGY|TRADING|MACROECONOMICS",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75645425",
+      "guid": "https://finbold.com/?p=277730",
+      "published_on": 1793100974,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "Ripple scores major U.S. banking approval in push into traditional finance",
+      "url": "https://finbold.com/ripple-scores-major-u-s-banking-approval-in-push-into-traditional-finance/",
+      "body": "As the XRP community prepares for the annual invite-only Swell conference, happening between October 27 and 29, 2026, Brad Garlinghouse, CEO of Ripple Labs, has welcomed the decision from the Office of the Comptroller of the Currency (OCC) on the final approval for Ripple National Trust Bank (RNTB) , a federally supervised national trust bank. The U.S. OCC granted final approval for chartering RNTB as a national trust bank. As a result, RNTB is now under the same regulatory authority as JPMorgan Chase & Co. (NYSE: JPM ). Notably, this final approval follows the conditional OCC approval in December 2025. The newly approved crypto -focused bank can manage the segregated reserves for Ripple USD ( RLUSD ) and provide fiduciary digital asset custody services. Garlinghouse said the regulatory clearance for Ripple National Trust Bank is a major leap for the broader unification of cryptocurrency and banks. As such, the blockchain payment company is well positioned to scale the mainstream adoption of XRP and RLUSD. “We’ve spent over a decade building regulated financial infrastructure that institutions can actually use at scale. A national trust charter gives us an even stronger foundation for RLUSD and the institutional products we’re building across payments, custody and capital markets,” Garlinghouse noted. XRP and RLUSD performance amid as Ripple doubles down on regulated banking Over the past 24 hours, XRP had gained 0.55%, trading at approximately $1.29 at the time of reporting, according to data Finbold fetched from CoinMarketCap . At press time, the crypto asset had a market capitalization of about $82.48 billion, with a 24-hour average trading volume of $1.56 billion. XRP price performance on October 27. Source: CoinMarketCap Meanwhile, RLUSD registered a 24-hour average trading volume of 389.5 million and a market cap of $2.6 billion. RLUSD performance on Tuesday. Source: CoinMarketCap Thrilled to see Ripple National Trust Bank receive final approval from the @USOCC . This is much more than a charter on paper. RNTB is designed to manage reserves supporting $RLUSD , serve as collateral trustee for RLUSD holders, and provide regulated digital asset custody —… https://t.co/EzX9gKJuy3 — Jack McDonald (@_JackMcDonald_) October 26, 2026 The two digital assets are well positioned to benefit from the final approval of Ripple National Trust Bank, especially amid bullish cryptocurrency sentiment. Featured image via Shutterstock The post Ripple scores major U.S. banking approval in push into traditional finance appeared first on Finbold .",
+      "tags": "Cryptocurrency news|Stocks news|crypto|cryptocurrency|Ripple|Stocks|XRP",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "75645467",
+      "guid": "https://en.coin-turk.com/?p=255157",
+      "published_on": 1793100926,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75645467.jpeg",
+      "title": "Kraken parent Payward plans Hyperliquid perpetual futures for US traders",
+      "url": "https://en.coin-turk.com/kraken-parent-payward-plans-hyperliquid-perpetual-futures-for-us-traders/?utm_source=rss&utm_medium=rss&utm_campaign=kraken-parent-payward-plans-hyperliquid-perpetual-futures-for-us-traders",
+      "body": "🚨 Payward targets US with onchain perpetual futures powered by $KRKN technology. 🔥 Access depends on approval, blending DeFi infrastructure with US regulation. 📈 Global perpetual futures trading volume could exceed $85 trillion in 2025. Continue Reading: Kraken parent Payward plans Hyperliquid perpetual futures for US traders The post Kraken parent Payward plans Hyperliquid perpetual futures for US traders appeared first on COINTURK NEWS .",
+      "tags": "Hyperliquid (HYPE)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|TECHNOLOGY|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75645296",
+      "guid": "https://coinpaper.com/37934/us-emergency-oil-reserves-hit-lowest-level-since-1982-as-brent-crude-holds-above-115",
+      "published_on": 1793100788,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "US Emergency Oil Reserves Hit Lowest Level Since 1982 as Brent Crude Holds Above $115",
+      "url": "https://coinpaper.com/37934/us-emergency-oil-reserves-hit-lowest-level-since-1982-as-brent-crude-holds-above-115",
+      "body": "Key takeaways US emergency oil reserves fall to 282.6 million barrels Brent crude remains above $115 despite peace efforts Washington authorizes another emergency release for Louisiana refinery America's emergency oil stockpile has fallen to its lowest level in 44 years, leaving the United States with a shrinking supply buffer as Brent crude remains above $115 per barrel and Middle East disruptions continue threatening global energy markets. The Strategic Petroleum Reserve (SPR) declined to 282.6 million barrels during the week ending October 23, its lowest reading since October 1982, according to Department of Energy data . The latest decline comes as Washington authorizes additional emergency oil supplies and traders weigh whether diplomatic efforts can contain the energy crisis. US Oil Reserves Fall to 44-Year Low The SPR is designed to protect the United States against severe oil supply disruptions, but months of withdrawals have substantially reduced its available inventory. The reserve held approximately 415 million barrels before the Iran conflict began in February, meaning inventories have declined by roughly 133 million barrels since then. Washington committed to releasing 172 million barrels under an international emergency response, including an additional 40-million-barrel offer announced in September. Unlike permanent sales, the current exchange arrangements require participating companies to return borrowed crude later, generally with additional barrels as compensation. However, replenishment can take substantially longer than withdrawals, leaving the country exposed to further disruptions before the stockpile recovers. The Department of Energy also authorized an emergency exchange of up to 400,000 barrels to address a supply interruption affecting Phillips 66's Lake Charles refinery in Louisiana. That operation demonstrates how emergency inventories are being used for individual refinery disruptions as well as broader international supply shocks. The latest figures reinforce earlier warnings from Saudi Aramco that global oil inventories could require years to rebuild. Brent Oil Holds Above $115 as Middle East Risks Persist Brent crude settled Monday at $115.81 per barrel, declining 0.8%, while US West Texas Intermediate closed at $101.76. Oil retreated on hopes of diplomatic progress involving Iran, although continued threats to Saudi energy infrastructure and regional shipping prevented a larger decline. Recent attacks and shipping disruptions have kept transportation costs elevated, even as Middle Eastern crude exports recover. The resulting uncertainty has created a substantial premium in oil markets. JPMorgan recently estimated Brent's fundamental value at approximately $94, suggesting a geopolitical premium exceeding $20 per barrel. That estimate reflects the bank's supply-and-demand model rather than a prediction that crude prices will immediately retreat to $94. The International Energy Agency has also coordinated emergency reserve releases to offset disruptions, but restoring physical supply has not eliminated the market's risk premium. What Happens If Oil Prices Keep Rising? Further supply interruptions could place additional pressure on the already depleted SPR, particularly if regional shipping routes face renewed attacks. Higher crude prices are also affecting consumers. Average US gasoline prices recently reached approximately $4.29 per gallon , increasing household transportation costs and complicating the inflation outlook. Meanwhile, Washington has explored alternative fuel supplies, including Russian diesel imports , to ease shortages.",
+      "tags": "News|Commodities",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "COMMODITY|EXCHANGE|FIAT|MARKET|MACROECONOMICS",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "75645270",
+      "guid": "98374754-4fcd-486d-a93d-d7c73f8703b4",
+      "published_on": 1793100765,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75645270.jpeg",
+      "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
+      "url": "https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins",
+      "body": "Bitcoin fell 0.4% to around $79,700 since midnight UTC while Asian tech stocks rallied. The DeFi index dropped 1.8%, and the Fed is set to begin a two-day meeting.",
+      "tags": "Markets|Crypto Markets Today|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793100709,
+    "time_range_start": "2026-10-27 11:31:49",
+    "time_range_end": "2026-10-27 12:31:49"
+  }
+}

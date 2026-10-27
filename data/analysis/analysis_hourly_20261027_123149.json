@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261027_123149",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793100709,
+    "time_range_start": "2026-10-27 11:31:49",
+    "time_range_end": "2026-10-27 12:31:49"
+  },
+  "total_articles": 34,
+  "unique_sources": 13,
+  "unique_categories": 23,
+  "unique_tags": 37,
+  "body_stats": {
+    "avg_length": 2604.91,
+    "min_length": 37,
+    "max_length": 9851
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-27 11:32:45",
+    "newest": "2026-10-27 12:22:22",
+    "time_span_minutes": 49.62
+  },
+  "top_sources": {
+    "Crypto Daily": 6,
+    "coinpedia": 6,
+    "CoinTurk News": 5,
+    "CoinDesk": 4,
+    "Coinpaper": 4,
+    "CoinOtag": 2,
+    "Bitzo": 1,
+    "Cointelegraph": 1,
+    "TimesTabloid": 1,
+    "Invezz": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 21,
+    "TRADING": 15,
+    "MARKET": 14,
+    "BTC": 13,
+    "BUSINESS": 12,
+    "FIAT": 8,
+    "MACROECONOMICS": 6,
+    "XRP": 6,
+    "REGULATION": 6,
+    "TECHNOLOGY": 5,
+    "EXCHANGE": 4,
+    "BLOCKCHAIN": 4,
+    "COMMODITY": 3,
+    "BNB": 2,
+    "RESEARCH": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "More News": 6,
+    "Short News": 5,
+    "Stock Market": 4,
+    "XRP": 3,
+    "Crypto": 3,
+    "Markets": 2,
+    "Ripple (XRP)": 2,
+    "Crypto Daybook Americas": 2,
+    "Commodities": 2,
+    "Crypto News": 2,
+    "Bitcoin": 1,
+    "Binance": 1,
+    "Breaking News": 1,
+    "Bitcoin (BTC)": 1
+  }
+}
