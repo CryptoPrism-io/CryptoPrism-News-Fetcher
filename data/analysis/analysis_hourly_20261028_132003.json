@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261028_132003",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793190003,
+    "time_range_start": "2026-10-28 12:20:03",
+    "time_range_end": "2026-10-28 13:20:03"
+  },
+  "total_articles": 35,
+  "unique_sources": 15,
+  "unique_categories": 27,
+  "unique_tags": 50,
+  "body_stats": {
+    "avg_length": 2541.23,
+    "min_length": 50,
+    "max_length": 22972
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-28 12:21:01",
+    "newest": "2026-10-28 13:18:23",
+    "time_span_minutes": 57.37
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "Coinpaper": 4,
+    "CoinOtag": 4,
+    "Seeking Alpha": 3,
+    "coinpedia": 3,
+    "Crypto Daily": 3,
+    "CoinDesk": 2,
+    "AMB Crypto": 2,
+    "Cryptopolitan": 2,
+    "BitcoinSistemi": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 25,
+    "BUSINESS": 14,
+    "MARKET": 12,
+    "TRADING": 12,
+    "EXCHANGE": 8,
+    "BTC": 7,
+    "FIAT": 7,
+    "MACROECONOMICS": 7,
+    "XRP": 6,
+    "REGULATION": 4,
+    "BLOCKCHAIN": 3,
+    "ETH": 3,
+    "WALLET": 3,
+    "SOL": 2,
+    "ZRX": 2
+  },
+  "top_tags": {
+    "News": 12,
+    "Crypto News": 4,
+    "Finance": 3,
+    "Economy": 3,
+    "XRP": 2,
+    "Tokenization": 2,
+    "Tokenized Equities": 2,
+    "Global News": 2,
+    "Social": 2,
+    "Trading View": 2,
+    "Ripple (XRP)": 2,
+    "More News": 2,
+    "Bitcoin (BTC)": 2,
+    "Real World Asset": 1,
+    "Altcoin": 1
+  }
+}
