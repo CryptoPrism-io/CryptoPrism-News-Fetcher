@@ -1,0 +1,672 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "75799714",
+      "guid": "https://en.coin-turk.com/?p=255519",
+      "published_on": 1793280513,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75799714.jpeg",
+      "title": "Senator Hagerty opposes CBDC, supports US Bitcoin reserve for dollar strength",
+      "url": "https://en.coin-turk.com/senator-hagerty-opposes-cbdc-supports-us-bitcoin-reserve-for-dollar-strength/?utm_source=rss&utm_medium=rss&utm_campaign=senator-hagerty-opposes-cbdc-supports-us-bitcoin-reserve-for-dollar-strength",
+      "body": "🚨 Senator Hagerty rejects CBDC plans, supports expanding US Bitcoin reserve. 💡 Calls for limited government and clearer crypto rules in $BTC policy discussions. 📊 Suggests a Bitcoin reserve strengthens dollar dominance amid global shifts. News impact: Neutral. Continue Reading: Senator Hagerty opposes CBDC, supports US Bitcoin reserve for dollar strength The post Senator Hagerty opposes CBDC, supports US Bitcoin reserve for dollar strength appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75799283",
+      "guid": "https://en.coin-turk.com/?p=255518",
+      "published_on": 1793279973,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75799283.jpeg",
+      "title": "BitArt’s Mosaic project brings generative Bitcoin art to Amsterdam main stage",
+      "url": "https://en.coin-turk.com/bitarts-mosaic-project-brings-generative-bitcoin-art-to-amsterdam-main-stage/?utm_source=rss&utm_medium=rss&utm_campaign=bitarts-mosaic-project-brings-generative-bitcoin-art-to-amsterdam-main-stage",
+      "body": "🖼️ BitArt’s Mosaic project turns Bitcoin transactions into a living digital artwork. 🎶 Mosaic uses satoshis and blockchain data to create evolving visuals and sound. 🌎 BAS brings Bitcoin-native art to international venues, including $BTC events. News impact: Neutral. Continue Reading: BitArt’s Mosaic project brings generative Bitcoin art to Amsterdam main stage The post BitArt’s Mosaic project brings generative Bitcoin art to Amsterdam main stage appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75799015",
+      "guid": "https://en.coin-turk.com/?p=255511",
+      "published_on": 1793279613,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75799015.jpeg",
+      "title": "US sanctions 10 individuals, entity over North Korean crypto fraud and $285M Drift hack",
+      "url": "https://en.coin-turk.com/us-sanctions-10-individuals-entity-over-north-korean-crypto-fraud-and-285m-drift-hack/?utm_source=rss&utm_medium=rss&utm_campaign=us-sanctions-10-individuals-entity-over-north-korean-crypto-fraud-and-285m-drift-hack",
+      "body": "🛑 US sanctioned 10 individuals and one entity for North Korean-led crypto fraud schemes. 💰 Russian intermediaries helped move millions in crypto to fund weapons programs for North Korea. 🕵️‍♂️ North Korean hackers infiltrated $SOL's Drift Protocol over six months before a $285 million exploit. News impact: Negative. Continue Reading: US sanctions 10 individuals, entity over North Korean crypto fraud and $285M Drift hack The post US sanctions 10 individuals, entity over North Korean crypto fraud and $285M Drift hack appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BLOCKCHAIN|MACROECONOMICS|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75799573",
+      "guid": "https://en.coinotag.com/sk-hynix-memory-demand-outpace-supply-2030",
+      "published_on": 1793279439,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75799573.jpeg",
+      "title": "SK Hynix Sees Memory Demand Outpacing Supply Through 2030 After $78.9B Quarter",
+      "url": "https://en.coinotag.com/sk-hynix-memory-demand-outpace-supply-2030",
+      "body": "The SK Hynix quarterly report set the tone for Wednesday's session: record third-quarter revenue of 104.6 trillion won ($78.9 billion), up 328% year over…",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75798852",
+      "guid": "https://www.cryptopolitan.com/?p=322286",
+      "published_on": 1793279139,
+      "imageurl": "https://resources.cryptocompare.com/news/43/75798852.jpeg",
+      "title": "Vitalik Buterin says AI still can't judge what new writing argues",
+      "url": "https://www.cryptopolitan.com/vitalik-buterin-skill-ai-overtake-humans/",
+      "body": "Ethereum co-founder Vitalik Buterin has found an area where humans still have a leg up over AI, pointing out an apparent weakness in working out the core argument of newly published literature that has not yet been extensively covered in its training. Vitalik wrote in July that AI was overtaking humans one capability at a time. That assertion came in the same month that an AI tool identified his writing style and named him as the author of an Ethereum document he wrote anonymously. Commentary has framed Vitalik’s latest post as a word of caution to crypto teams and traders who rely on AI summaries instead of reading entire documents such as whitepapers, audits and governance proposals. Vitalik Buterin: Knowledge is different from wisdom Vitalik’s October 29 X post names a capability he thinks humans are still better at than machines, writing that he finds AI “extremely knowledgeable, and so exceptionally able to detect references to almost anything, but not very wise, and so it only makes the most surface-level judgements about what point some writing is making.” The Ethereum co-founder noted that the contrast is especially noticeable when a model is reading the material for the first time. AI models can draw on auxiliary literature and years of human commentary when they evaluate famous texts. With brand-new essays, on the other hand, these chatbots can not access the same level of supporting material, so the model has little to build on other than the words themselves. Vitalik’s remark was prompted by an argument going on X over a Wall Street Journal piece on the demanding Humanities 10 course for Harvard freshmen. One user, arguing that current AI models are already better than humans as discussion partners on the classics, drew a challenge from another user, who said chatbots produce “slop” when they give feedback on her essays, for now. Vitalik’s history with AI text analysis In a June experiment to see whether AI has cracked online anonymity, Vitalik initiated an open challenge to find an Ethereum document he had published anonymously years earlier. Vitalik confirmed that Franklyn Wang’s team at Co-Invest won the contest on July 6. The tool that picked the winner put the odds of Buterin’s authorship at roughly 20% after sifting through 27 texts. The document that Vitalik based the contest on went through multiple rounds that would have obscured the author’s trail. The anonymous rewrite of EIP-7503 was drafted in Chinese, ran through the Qwen 2.5 model locally, before he manually cleaned up the translation. Wang said the model identified the correct document by evaluating reasoning style, such as how Vitalik explains algorithms and technical ideas, rather than vocabulary. Vitalik argued that machines keep surpassing humans one skill at a time rather than all at once, two weeks later, on July 20. Why this matters for crypto teams leaning on AI The practical edge is in crypto security. Vitalik has recently warned that AI could weaken key parts of crypto defenses within two years, and he has backed tools that keep humans in the loop, including a “paranoid mode” for AI chats and an earlier “compute winter button” governance idea. A surface-level read is exactly the failure mode he flags. Teams handing smart-contract audits, research and token-supply schedules to AI agents may get a fluent summary that misses a subtle flaw, because the model is checking references, not weighing an argument it has never seen before. Not everyone agrees with his skepticism. Some investors argue AI already beats top human minds in fields like math. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|Anthropic|ETH|OpenAI",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|ETH|MARKET|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "75799139",
+      "guid": "https://en.coinotag.com/arbitrum-arb-daily-active-addresses-109-million-july-2024",
+      "published_on": 1793278966,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75799139.jpeg",
+      "title": "Arbitrum (ARB) Logs 1.09 Million Daily Active Addresses, Most Since July 2024",
+      "url": "https://en.coinotag.com/arbitrum-arb-daily-active-addresses-109-million-july-2024",
+      "body": "Arbitrum One logged 1,087,999 daily active addresses on Oct. 28, up 3.5x in a day and the most since July 2024, while ARB trades near $0.168.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ARB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75798556",
+      "guid": "https://en.coin-turk.com/?p=255510",
+      "published_on": 1793278953,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75798556.jpeg",
+      "title": "ICE invests in Trade.xyz, eyes 24/7 Hyperliquid perpetuals for US traders pending CFTC approval",
+      "url": "https://en.coin-turk.com/ice-invests-in-trade-xyz-eyes-24-7-hyperliquid-perpetuals-for-us-traders-pending-cftc-approval/?utm_source=rss&utm_medium=rss&utm_campaign=ice-invests-in-trade-xyz-eyes-24-7-hyperliquid-perpetuals-for-us-traders-pending-cftc-approval",
+      "body": "🚨 ICE invests in Trade.xyz to develop 24/7 Hyperliquid perpetual futures for the US market. 💼 Plans are pending CFTC approval, and no official regulatory filing has yet been submitted. 🌍 Trade.xyz’s platform has handled over $650 billion in global Hyperliquid trading volume. News impact: Neutral. Continue Reading: ICE invests in Trade.xyz, eyes 24/7 Hyperliquid perpetuals for US traders pending CFTC approval The post ICE invests in Trade.xyz, eyes 24/7 Hyperliquid perpetuals for US traders pending CFTC approval appeared first on COINTURK NEWS .",
+      "tags": "Hyperliquid (HYPE)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75798576",
+      "guid": "https://cryptodaily.co.uk/2026/10/nba-kalshi-polymarket-preferred-prediction-market-exchanges",
+      "published_on": 1793278873,
+      "imageurl": "https://resources.cryptocompare.com/news/75/75798576.jpeg",
+      "title": "NBA Names Kalshi and Polymarket Preferred Prediction Market Exchanges",
+      "url": "https://cryptodaily.co.uk/2026/10/nba-kalshi-polymarket-preferred-prediction-market-exchanges",
+      "body": "The NBA on October 26 named Kalshi and Polymarket as its Preferred Prediction Market Exchanges, formalising a commercial category for event-contract platforms around its games. The league also announced a memorandum of understanding with the Commodity Futures Trading Commission covering cooperation and information sharing on NBA prediction markets, according to the NBA . The designations give the exchanges access to official league assets while placing the NBA directly in the approval and integrity process for the markets offered on its events. Kalshi and Polymarket receive NBA rights Kalshi and Polymarket, designated as preferred exchanges, will receive NBA intellectual-property and marketing rights and official Sportradar data to operate and settle authorized NBA-related markets under multi-year arrangements, the Associated Press reported . The deals make the exchanges league-approved commercial partners rather than platforms operating NBA-related contracts without a direct league agreement. The NBA retains approval rights over the types of prediction markets offered on its games and said the agreements set limits on permissible NBA markets. Market approval and integrity rules The NBA retains approval rights over the types of prediction markets offered on its games, according to the AP. The league said its agreements also set limits on permissible NBA markets. League and team personnel are prohibited from trading NBA event contracts under the arrangements. The agreements further require information sharing related to suspicious trading and investigations, creating a mechanism for the exchanges and league to coordinate when activity raises integrity concerns. The safeguards are central to the NBA's framework: commercial access to its brand and official data is tied to restrictions on what contracts can be listed and to oversight of trading activity involving its competitions. CFTC MOU and DraftKings expansion The NBA's MOU with the CFTC covers cooperation and information sharing on NBA prediction markets . Separately, the league expanded its agreement with DraftKings to include prediction markets and nationwide promotion. The NBA said it plans to broaden partnerships with other prediction-market operators. Disclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+      "tags": "More News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "COMMODITY|MARKET|REGULATION|TRADING",
+      "source_info": {
+        "name": "Crypto Daily",
+        "img": "https://resources.cryptocompare.com/news/75/default.png",
+        "lang": "EN"
+      },
+      "source": "cryptodaily"
+    },
+    {
+      "id": "75798503",
+      "guid": "https://decrypt.co/?p=381850",
+      "published_on": 1793278862,
+      "imageurl": "https://resources.cryptocompare.com/news/44/75798503.jpeg",
+      "title": "Polygon Extends Its Stablecoin Payments Infrastructure to Solana",
+      "url": "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana",
+      "body": "The expansion gives Solana businesses one integration to connect bank funding, embedded wallets, cross-chain transfers and global payouts, with cross-border firm Kira among the first adopters.",
+      "tags": "polygon||Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|FIAT|MATIC|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "75798450",
+      "guid": "https://timestabloid.com/?p=113802",
+      "published_on": 1793278822,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Egrag Crypto to XRP Traders: Trade This Range Before the Macro Rage",
+      "url": "https://timestabloid.com/egrag-crypto-to-xrp-traders-trade-this-range-before-the-macro-rage/",
+      "body": "XRP has closed 11 consecutive red candles on the 3-day Heikin Ashi chart. That streak is now drawing attention from crypto analyst Egrag Crypto, who sees a potential reversal forming and has laid out a full trading roadmap in response. Egrag Crypto flagged the development on X , noting that “the 3-Day Heikin Ashi Candle Chart is showing a potential TURNING POINT.” The analyst says a first green candle may be in the process of forming, which would mark the end of the prolonged red sequence. Why the Heikin Ashi Chart Matters Here Heikin Ashi candles are a modified candlestick type that filters out short-term noise by averaging price data. Traders use them to identify trend direction more cleanly than standard candlesticks allow. Eleven consecutive red Heikin Ashi candles indicates sustained selling pressure over a significant period on the 3-day timeframe. Egrag Crypto is using this chart alongside a comparison to the 2017-2018 XRP price fractal, citing structural similarities between that period and current price action. #XRP – 11 RED CANDLES! THE GREEN REVERSAL IS COMING? The 3-DAY Heikin Ashi Candle Chart is showing a potential TURNING POINT! 11 consecutive RED candles! First GREEN candle potentially forming! 2017–2018 fractal showing similarities! MY ROADMAP: PUMP:… pic.twitter.com/C0ipsAHA1c — EGRAG CRYPTO (@egragcrypto) October 28, 2026 The Roadmap: Pump, Dump, Then a Macro Setup Egrag Crypto’s roadmap outlines three stages. The first is a pump targeting $1.48 to $1.50. The second is a potential dump, with a retest of either the $1.13 to $1.16 zone or the $1.05 to $1.07 range. The third stage is what the analyst calls a “PUMPLOSION,” describing a potential second macro double bottom that could create what he calls a “GENERATIONAL BUYING OPPORTUNITY.” The analyst is currently trading the range between these levels and offering subscribers access to copy his trades. One Condition Still Needs to Be Met Egrag Crypto is clear that the green reversal signal is not yet confirmed. He states that “a confirmed green 3-day close is still needed” before the setup becomes valid. The potential green candle is still forming at the time of the post, meaning the pattern could still shift before the current 3-day period closes. The current XRP price shown on the chart sits at $1.3305, with the analyst watching the $1.2600 and $1.0700 levels as key support markers below. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Egrag Crypto to XRP Traders: Trade This Range Before the Macro Rage appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis|XRP Price Prediction",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "75798527",
+      "guid": "https://ambcrypto.com/?p=645212",
+      "published_on": 1793278813,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Traders are moving towards tokenized AI stocks – But crypto remains persistent",
+      "url": "https://ambcrypto.com/traders-are-moving-towards-tokenized-ai-stocks-but-crypto-remains-persistent/",
+      "body": "MEXC data shows traders favouring AI stocks and pre-IPO assets as crypto sectors post strong 3-month gains.",
+      "tags": "News|News 1|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "75798394",
+      "guid": "https://news.bitcoin.com/?p=859563",
+      "published_on": 1793278811,
+      "imageurl": "https://resources.cryptocompare.com/news/14/75798394.jpeg",
+      "title": "Polygon Adds Solana to Open Money Stack in Major Expansion",
+      "url": "https://news.bitcoin.com/blockchain/polygon-adds-solana-open-money-stack-major-expansion/",
+      "body": "Polygon Labs has expanded its Polygon Open Money Stack to support Solana, allowing enterprises to manage bank funding and payouts via a single technical integration and commercial relationship. Streamlining Cross-Border Money Movement Polygon Labs announced on Oct. 29 the expansion of its Polygon Open Money Stack to Solana, giving businesses a single integration to",
+      "tags": "Blockchain|Cross-chain|Polygon (POL)|Solana (SOL)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|FIAT|MATIC|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "75798393",
+      "guid": "https://www.newsbtc.com/news/dtcc-launches-tokenized-securities-service-as-wall-street-tests-new-settlement-rails/",
+      "published_on": 1793278800,
+      "imageurl": "https://images.cryptocompare.com/news/default/newsbtc.png",
+      "title": "DTCC Launches Tokenized Securities Service as Wall Street Tests New Settlement Rails",
+      "url": "https://www.newsbtc.com/news/dtcc-launches-tokenized-securities-service-as-wall-street-tests-new-settlement-rails/",
+      "body": "TL;DR: The Depository Trust Company, part of DTCC, launched its tokenization service on October 28, moving a particularly important part of institutional blockchain discussion from experimentation toward live market infrastructure. For digital-asset markets, the launch is a reminder that tokenization may expand blockchain activity without immediately translating into buying pressure for a particular cryptocurrency. The Depository Trust Company, part of DTCC, launched its tokenization service on October 28, moving a particularly important part of institutional blockchain discussion from experimentation toward live market infrastructure. The company says its system creates tokenized representations of securities already held in DTC custody rather than issuing unbacked substitutes. The launch initially integrates the Canton Network and DTCC’s private Besu environment, while further network connections are planned for 2027. This distinction between an existing security and a digital representation of it matters: legal entitlement and the depository’s established controls remain central to the design. The event and the market response DTCC describes the service as a way for authorized participants to move eligible assets between traditional and tokenized environments, with potential uses in collateral mobility, capital efficiency and access to liquidity. The important innovation is not that a stock can appear in a wallet, but that institutions may be able to reuse the same underlying holding in different approved workflows without relying on disconnected records. The company also names a broad ecosystem of technology and market participants working on connectivity, including custody, trading, wallet and application specialists. Launching the service does not mean every asset can immediately circulate everywhere. Why the development matters to the crypto market For digital-asset markets, the launch is a reminder that tokenization may expand blockchain activity without immediately translating into buying pressure for a particular cryptocurrency. Canton and a private Besu deployment serve regulated workflows; neither should be confused with public token speculation. Still, dependable post-trade plumbing could create demand for adjacent services such as onchain cash, identity checks and compliant collateral management. The most interesting question is whether institutions can complete an entire trade lifecycle across the new rails, rather than only hold a mirrored security position. The distinction between a blockchain record and the economic rights behind it is crucial for anyone evaluating this news. Digital tokens may move quickly, but title, custody, investor eligibility and redemption remain governed by legal agreements and regulated entities. A new integration should therefore be judged by the processes it can complete end to end, not simply by the number of assets it can represent. Traders also need to resist treating institutional enthusiasm as an automatic bullish signal for a native cryptocurrency: commercial adoption and token pricing can diverge for long periods. What the headline does not establish Operational details will determine the size of the change. Eligible instruments, transfer restrictions, corporate actions, investor protections, and the availability of a cash settlement leg all shape whether tokenization becomes a practical alternative to established processes. DTCC has presented a staged, interoperable model, not a promise that market hours or regulatory requirements have disappeared. Investors should also distinguish a network going live from widespread transaction volume: institutional access, integrations and real usage can rise at different speeds. Tracking the conversion process and participating firms will be more informative than counting announcements alone. What to watch next The next evidence to look for is the breadth of assets actually used, the pace of participant onboarding, and examples of completed collateral or settlement transactions. Any expansion into additional chains in 2027 should be assessed against operational reliability and regulatory clarity, not treated as automatic adoption. Primary source: Official statement / source documentation . written by the News Desk and edited by Samuel Rae.",
+      "tags": "Blockchain|Cryptocurrency Market News|Tokenization",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|BUSINESS|MARKET|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "NewsBTC",
+        "img": "https://images.cryptocompare.com/news/default/newsbtc.png",
+        "lang": "EN"
+      },
+      "source": "newsbtc"
+    },
+    {
+      "id": "75798634",
+      "guid": "https://cointelegraph.com/news/polygon-brings-open-money-stack-payments-services-to-solana",
+      "published_on": 1793278800,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75798634.jpeg",
+      "title": "Polygon expands Open Money Stack to Solana, after Tron rollout",
+      "url": "https://cointelegraph.com/news/polygon-brings-open-money-stack-payments-services-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "The move follows the addition of Tron support and Polygon’s acquisition of Coinme.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MATIC|SOL|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "75798851",
+      "guid": "https://coinpaprika.com/news/dtcc-opens-blockchain-door-30-trillion-wall",
+      "published_on": 1793278800,
+      "imageurl": "https://resources.cryptocompare.com/news/80/default.png",
+      "title": "DTCC Opens Blockchain Door to $30 Trillion in Wall Street Securities",
+      "url": "https://coinpaprika.com/news/dtcc-opens-blockchain-door-30-trillion-wall",
+      "body": "DTCC launched its Tokenization Service on 28 October 2026, letting U.S. stocks, ETFs and Treasuries move on blockchain networks. Twenty firms, including Bank of America, Citi and JPMorgan, signed agreements to use the service at launch.",
+      "tags": "",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|FIAT|DIGITAL ASSET TREASURY",
+      "source_info": {
+        "name": "Coinpaprika",
+        "img": "https://resources.cryptocompare.com/news/80/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaprika"
+    },
+    {
+      "id": "75798287",
+      "guid": "https://decrypt.co/?p=382138",
+      "published_on": 1793278708,
+      "imageurl": "https://resources.cryptocompare.com/news/44/75798287.jpeg",
+      "title": "Justin Sun's HTX Agrees to Leave UK in Settlement With Financial Watchdog",
+      "url": "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog",
+      "body": "The FCA says the Justin Sun-linked exchange will no longer target UK consumers, ending its first case against a crypto firm over marketing.",
+      "tags": "||Business",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "75798286",
+      "guid": "dcd09559-564a-4042-995c-9ffd6a4285ac",
+      "published_on": 1793278671,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75798286.jpeg",
+      "title": "A new framework for tokenized asset tracking",
+      "url": "https://www.coindesk.com/opinion/2026/10/28/a-new-framework-for-tokenized-asset-tracking",
+      "body": "None of the numbers most commonly used to assess tokenized assets answer the question a chief investment officer would ask about those assets on her own balance sheet: what is it doing for me?",
+      "tags": "Opinion|Opinion",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "OTHER",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75798148",
+      "guid": "https://en.coin-turk.com/?p=255509",
+      "published_on": 1793278533,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75798148.jpeg",
+      "title": "Robinhood partners with Ripple for RLUSD settlement and Ripple Prime financing",
+      "url": "https://en.coin-turk.com/robinhood-partners-with-ripple-for-rlusd-settlement-and-ripple-prime-financing/?utm_source=rss&utm_medium=rss&utm_campaign=robinhood-partners-with-ripple-for-rlusd-settlement-and-ripple-prime-financing",
+      "body": "🚨 Robinhood teams up with Ripple to use RLUSD for institutional settlement. 🪙 Robinhood will connect RLUSD, Ripple Treasury, and Ripple Prime to its operations. 📈 A leading analyst projects major gains in $XRP following the new partnership. News impact: Positive. Continue Reading: Robinhood partners with Ripple for RLUSD settlement and Ripple Prime financing The post Robinhood partners with Ripple for RLUSD settlement and Ripple Prime financing appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|XRP|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75798180",
+      "guid": "https://cryptopotato.com/?p=1452399",
+      "published_on": 1793278386,
+      "imageurl": "https://resources.cryptocompare.com/news/27/75798180.jpeg",
+      "title": "3 Reasons Why Ethereum (ETH) Could Drop to $2,000",
+      "url": "https://cryptopotato.com/3-reasons-why-ethereum-eth-could-drop-to-2000/",
+      "body": "The largest altcoin by market capitalization has plunged roughly 15% over the past month and currently trades just above $2,300. The recent downturn has sparked pessimism, with some analysts warning that the asset could slide further to the key psychological level of $2,000. At the same time, certain factors suggest a resurgence may be just around the corner. The Bearish Perspective The popular analyst Ali Martinez noted that as ETH approached $2,400 on October 28, on-chain transaction volume surged past $100 billion. At that moment, the price was rejected and retreated toward $2,300. He said whale activity may have affected Ethereum’s performance and cited Santiment data showing that large investors reduced their exposure by roughly 160,000 ETH, worth nearly $350 million, in just five days. “This distribution could be contributing to the downward pressure on the price,” he stated. Martinez pointed to a second bearish factor: more coins stored on exchanges. He said the figure has risen by 100,000 units (worth around $240 million) and that it “puts more ETH within reach of sellers, potentially adding to downward pressure.” Last but not least, the analyst claimed that Ethereum’s technical picture is weakening. He noted that the asset has lost the $2,385 support and appears to have broken out of a right-angled ascending broadening formation on the daily chart. “If selling pressure persists, the pattern points to a move to $2,000,” he concluded. X user Ted also presented a rather pessimistic view. He said ETH failed to reclaim the $2,400 level and, as long as it stays below, “there’s a decent chance” of falling below $2,200. Some Bullish Factors Unlike the aforementioned whales that offloaded ETH, one large investor has made a huge bet that the asset’s price will rise. X user Max Crypto revealed that the mysterious market participant opened a $45 million long position with 25x leverage after the market headed south. What’s particularly interesting is that the whale has made 20 trades so far and has a whopping 100% win rate. Some commenters think this isn’t a random investor but someone with inside information about events or developments that could trigger a price rally for ETH. The asset’s Relative Strength Index (RSI) also flashes signs that a move back into green territory may be coming. The ratio has fallen to just above 30, meaning ETH is near oversold territory and could be gearing up for a short-term rebound. The index runs from 0 to 100, where anything above 70 signals a potential incoming pullback. ETH RSI, Source: RSI Hunter The post 3 Reasons Why Ethereum (ETH) Could Drop to $2,000 appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Ethereum (ETH) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|ETH|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "75798288",
+      "guid": "https://coinpedia.org/?p=588362",
+      "published_on": 1793278353,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "XRP Price Prediction: Can XRPL Growth Push XRP Toward $5?",
+      "url": "https://coinpedia.org/news/xrp-price-prediction-can-xrpl-growth-push-xrp-toward-5/",
+      "body": "The post XRP Price Prediction: Can XRPL Growth Push XRP Toward $5? appeared first on Coinpedia Fintech News XRP has more than one catalyst to watch, and the latest developments are giving bulls plenty to discuss. Tokenized real-world assets (RWAs) on the XRP Ledger (XRPL) reportedly stand near $5 billion, Ripple’s RLUSD stablecoin is expanding to Coinbase, and XRP futures trading volume has reached a seven-month high. Still, none of that guarantees the …",
+      "tags": "News|Altcoins|Crypto news|Price Analysis|Ripple (XRP)|Stablecoin",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|EXCHANGE|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75798073",
+      "guid": "ca78f2d9-fcc9-4599-a74b-c5321c9f37c1",
+      "published_on": 1793278308,
+      "imageurl": "https://resources.cryptocompare.com/news/5/75798073.jpeg",
+      "title": "Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework",
+      "url": "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+      "body": "The venue, called TSV LLC, plans to start trading shares Canton Strategic Holdings shares as early as Monday, using issuer-sponsored tokenization that avoids the 30-day company objection window.",
+      "tags": "Finance|Tokenization|Tokenized Equities|Canton|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|REGULATION|TRADING",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "75797767",
+      "guid": "https://en.coin-turk.com/?p=255504",
+      "published_on": 1793277873,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75797767.jpeg",
+      "title": "Aiden Pleterski claims innocence as Toronto fraud trial nears verdict",
+      "url": "https://en.coin-turk.com/aiden-pleterski-claims-innocence-as-toronto-fraud-trial-nears-verdict/?utm_source=rss&utm_medium=rss&utm_campaign=aiden-pleterski-claims-innocence-as-toronto-fraud-trial-nears-verdict",
+      "body": "📰 Aiden Pleterski declares innocence as Toronto fraud trial nears verdict. ⚖️ Over $36 million from investors was never invested in FXChoice as promised. 💰 Pleterski, the so-called \"Crypto King,\" is accused of funding a lavish lifestyle with investor money. News impact: Negative. Continue Reading: Aiden Pleterski claims innocence as Toronto fraud trial nears verdict The post Aiden Pleterski claims innocence as Toronto fraud trial nears verdict appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75797804",
+      "guid": "https://en.bitcoinsistemi.com/breaking-the-fed-s-preliminary-inflation-data-has-been-released-here-s-bitcoin-s-initial-reaction/",
+      "published_on": 1793277786,
+      "imageurl": "https://resources.cryptocompare.com/news/81/75797804.jpeg",
+      "title": "BREAKING! The Fed’s Preliminary Inflation Data Has Been Released! Here’s Bitcoin’s Initial Reaction!",
+      "url": "https://en.bitcoinsistemi.com/breaking-the-fed-s-preliminary-inflation-data-has-been-released-here-s-bitcoin-s-initial-reaction/",
+      "body": "Bitcoin, the leading cryptocurrency, continues to trade around the critical $80,000 level following yesterday’s Federal Reserve interest rate decision, while data on Personal Consumption Expenditures (PCE), closely monitored by the Fed when making interest rate decisions and considered a leading indicator of inflation, was released. As is known, the Fed kept its policy interest rate stable at 3.75-4 percent in October, while two members expressed their opinion in favor of a 25 basis point interest rate increase. Following the decision, Fed Chairman Kevin Warsh stated that inflation is still running above the 2 percent target level. Accordingly, the personal consumption expenditure data for September were as follows: Core Personal Consumption Expenditures Price Index (Annual) Announced 3.1% – Expected 3.1% – Previous 3.0% Core Personal Consumption Expenditures Price Index (Monthly) Announced 0.3% – Expected 0.3% – Previous 0.3% Personal Consumption Expenditures Price Index (Annual) Announced 3.6% – Expected 3.6% – Previous 3.4% Personal Consumption Expenditures Price Index (Monthly) Announced 0.5% – Expected 0.5% – Previous 0.3% According to The Kobeissi Letter, US September PCE inflation, the Fed’s preferred measure of inflation, rose to 3.6%. Core PCE inflation also increased to 3.1%, a 0.3% increase compared to the previous month. This officially confirms that CPI, PPI, and PCE inflations are all rising again. The report suggests that, based on these data, a rate hike is imminent in December. What was Bitcoin’s (BTC) Initial Reaction? *This is not investment advice. Continue Reading: BREAKING! The Fed’s Preliminary Inflation Data Has Been Released! Here’s Bitcoin’s Initial Reaction!",
+      "tags": "Analysis|Bitcoin|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "75798255",
+      "guid": "https://en.coinotag.com/shiba-inu-shib-92-billion-token-net-inflow-to-exchanges",
+      "published_on": 1793277760,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75798255.jpeg",
+      "title": "Shiba Inu (SHIB) Sees 92.07 Billion Token Net Inflow to Exchanges",
+      "url": "https://en.coinotag.com/shiba-inu-shib-92-billion-token-net-inflow-to-exchanges",
+      "body": "Shiba Inu saw 92.07 billion SHIB in net exchange deposits over 24 hours, with reserves climbing to 86.25 trillion tokens as selling pressure builds.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|SHIB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75797819",
+      "guid": "https://finbold.com/?p=277885",
+      "published_on": 1793277685,
+      "imageurl": "https://images.cryptocompare.com/news/default/finbold.png",
+      "title": "WhiteBIT adds USD SWIFT transfers for corporate clients through BCB Group partnership",
+      "url": "https://finbold.com/whitebit-adds-usd-swift-transfers-for-corporate-clients-through-bcb-group-partnership/",
+      "body": "WhiteBIT , a global cryptocurrency exchange , has expanded its institutional payment offering through a partnership with BCB Group, adding USD deposits and withdrawals via SWIFT . The new capability gives KYB-verified corporate clients access to an international USD settlement channel for moving funds between cryptocurrency and fiat markets. The integration targets businesses that need to manage USD liquidity across borders while retaining access to digital asset trading. Corporate clients can use the service for both incoming and outgoing transfers, with a flat transaction fee and transfer capacity determined on an individual basis through verification. “Reliable access to USD liquidity is a cornerstone of institutional crypto adoption,” said Volodymyr Nosov , Founder and President of W Group, which WhiteBIT is a part of. “By offering SWIFT-based USD transfers, we’re providing businesses with a globally recognised settlement rail to manage liquidity more efficiently and scale across markets.” USD remains central to global settlements The US dollar represented roughly half of all SWIFT payments by value in mid-2026, a share that rises to around three-quarters when intra-Eurozone transfers are excluded. For businesses operating internationally, USD settlement infrastructure underpins payments, treasury transfers and liquidity allocation across markets. Businesses active in cryptocurrency markets face the same requirements, particularly when converting digital asset holdings into fiat or settling with traditional financial counterparties. WhiteBIT’s SWIFT integration provides a two-way payment channel built to support these transactions within an institutional account structure. A dedicated channel for corporate treasury The payment rail allows corporate clients to deposit USD into WhiteBIT and withdraw funds through the SWIFT network. This supports use cases including converting cryptocurrency revenue, managing fiat balances, and handling cross-border settlements that involve digital assets. Transfer limits are not fixed in advance. Instead, the amount a client can move is established through Source of Funds verification and individual account assessment, with capacity reflecting each client’s financial profile and compliance requirements. Pricing structure for USD transfers WhiteBIT has set a flat $54 transaction fee for USD SWIFT deposits and withdrawals. The standard conversion fee between fiat and cryptocurrency is 0.1%. Corporate clients with high transaction volumes may be offered individual commercial terms based on their trading and settlement activity. BCB Group’s infrastructure underpins the service The USD settlement channel runs on BCB Group’s infrastructure, which connects cryptocurrency businesses with traditional financial settlement systems and provides banking and payment services for the digital asset sector. The partnership broadens WhiteBIT’s fiat capabilities for corporate users and adds another option for businesses managing international USD liquidity. WhiteBIT serves 10 million users across more than 150 countries and offers over 1,020 trading pairs across more than 360 digital assets. Featured image via WhiteBIT. The post WhiteBIT adds USD SWIFT transfers for corporate clients through BCB Group partnership appeared first on Finbold .",
+      "tags": "Cryptocurrency news|bcb group|crypto|cryptocurrency|SWIFT|whitebit",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|MARKET|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Finbold",
+        "img": "https://images.cryptocompare.com/news/default/finbold.png",
+        "lang": "EN"
+      },
+      "source": "finbold"
+    },
+    {
+      "id": "75797861",
+      "guid": "https://coinpedia.org/?p=588408",
+      "published_on": 1793277573,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Nvidia Stock Premarket Today: NVDA Falls 1% On Reported DOJ Probe",
+      "url": "https://coinpedia.org/crypto-live-news/nvidia-stock-premarket-today-nvda-falls-1-on-reported-doj-probe/",
+      "body": "The post Nvidia Stock Premarket Today: NVDA Falls 1% On Reported DOJ Probe appeared first on Coinpedia Fintech News Nvidia shares fell about 1% before Thursday’s open, trading near $213.83, after a report said the US Department of Justice is examining its proposed $12.9 billion deal for AI platform Hugging Face. The review reportedly centres on concerns that the deal could give Nvidia an unfair edge in artificial intelligence. Neither Nvidia nor the DOJ …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|TRADING",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "75797779",
+      "guid": "https://cointelegraph.com/news/chainalysis-dprk-crypto-cash-out-network-ofac-sanctions",
+      "published_on": 1793277483,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75797779.jpeg",
+      "title": "Chainalysis traces North Korean crypto cash-outs through Garantex",
+      "url": "https://cointelegraph.com/news/chainalysis-dprk-crypto-cash-out-network-ofac-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "The analysis followed US sanctions against 10 people and one entity accused of helping North Korean IT worker schemes fund weapons programs.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "75797863",
+      "guid": "https://en.coinotag.com/okx-survey-european-crypto-investors-retirement-plans",
+      "published_on": 1793277376,
+      "imageurl": "https://resources.cryptocompare.com/news/77/75797863.jpeg",
+      "title": "OKX Survey Finds 19% of European Crypto Investors Rank Crypto Above Retirement Plans",
+      "url": "https://en.coinotag.com/okx-survey-european-crypto-investors-retirement-plans",
+      "body": "European crypto investors now associate digital assets with long-term wealth more strongly than pension vehicles, according to research published Thursday by crypto exchange OKX.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "75797182",
+      "guid": "https://en.coin-turk.com/?p=255503",
+      "published_on": 1793277273,
+      "imageurl": "https://resources.cryptocompare.com/news/79/75797182.jpeg",
+      "title": "92 billion SHIB flow into exchanges highlights selling pressure",
+      "url": "https://en.coin-turk.com/92-billion-shib-flow-into-exchanges-highlights-selling-pressure/?utm_source=rss&utm_medium=rss&utm_campaign=92-billion-shib-flow-into-exchanges-highlights-selling-pressure",
+      "body": "🐕 92 billion $SHIB tokens moved to exchanges, signaling heavy selling pressure. 📉 The dollar value of SHIB exchange reserves dropped 2.9%, now at $418 million. 🔎 SHIB technicals remain weak as the token struggles to hold key support and resistance levels. News impact: Negative. Continue Reading: 92 billion SHIB flow into exchanges highlights selling pressure The post 92 billion SHIB flow into exchanges highlights selling pressure appeared first on COINTURK NEWS .",
+      "tags": "Shiba (SHIB)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|SHIB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "75797360",
+      "guid": "https://www.cryptopolitan.com/?p=322281",
+      "published_on": 1793277111,
+      "imageurl": "https://resources.cryptocompare.com/news/43/75797360.jpeg",
+      "title": "Arbitrum One daily addresses jump 3.5x to 1.09 million, most since mid-2024",
+      "url": "https://www.cryptopolitan.com/arbitrum-busiest-day-since-july-2024/",
+      "body": "Arbitrum One registered 1,087,999 daily active addresses on Oct. 28, making it the most active day since July 18, 2024. The count leapt about 3.5 times in one day, from 306,510 on Oct. 27. Growthepie data puts the prior 2026 high at 571,767 on Oct. 21. The new reading is ~90% higher. Only five previous days in growthepie’s Arbitrum series outstripped it, all occurring in 2024. There were four between May 16 and May 19, including the all-time high of 1,488,384 on May 18. The fifth was July 18, 2024, which was the last day the network hit a million addresses. The Oct. 28 total was about 263% more than the median from Oct. 21 to Oct. 27 (299,959). Transactions rose only about 1.7 times on Oct. 28 Transactions did not keep up. On Oct. 28, growthepie counted 2,147,159, up from 1,275,943 the day before, which is about 1.7 times as many. That was about 68% more than the seven-day median. Arbitrum One daily active addresses and transaction count over 90 days through Oct. 28, 2026, on growthepie . Fees paid by users went up from ~$14,971 to ~$19,108, which is only 3% more than the median of ~$18,574 over the prior week. Fees were higher on Oct. 26, at about $21,071. Arbitrum was placed third by active addresses among the chains that growthepie tracked on Oct. 28. Polygon PoS had the most active addresses with 1,634,452, Base came in second with 1,457,258, and Ethereum mainnet came in fourth with 662,738. The number of active addresses on the Ethereum mainnet rose from 568,553 on Oct. 27 to its highest since Sept. 25. From 380,758 on Oct. 27, Polygon PoS’s count rose to its highest level since Dec. 27, 2025. Base went up from 590,927 to the most since Sept. 3, 2025. Rolly went live on Arbitrum with a $70,000 race on Oct. 28 The launch of Rolly, a no-KYC crypto casino, on Arbitrum was on Oct. 28. It said it had added $10 million to a public bankroll and started its first season with a “$70,000 race.” The same day, Arbitrum’s account welcomed it. There is no public link between the number of addresses and Rolly. And Arbitrum has gone up and down earlier this month. On Oct. 23, it had 563,669 active addresses, but by Oct. 25, it had dropped to 97,267. It logged just 95,545 on Sept. 26. Growthepie keeps track of unique sending addresses every day, but not of recipients. Also, one person can have more than one wallet. Growthepie said that sybil behavior, in which fake wallets pretend to be active during incentive campaigns or airdrops, can make the count go up. It suggests the number should be read along with chain revenue or total value secured. The ARB token hasn’t kept up with what’s going on. It fell about 24% in 30 days and hit a four-week low of $0.1638 on Oct. 24, according to Cryptopolitan . ARB was trading at ~$0.168 at 11:10 UTC on Oct. 29, according to CoinGecko , down ~19% over 30 days. In mid-September, tokenized assets on Arbitrum topped $800 million in assets under management, with the token soaring above $0.20 for the first time since January. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|ARB|Arbitrum",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|ETH|MATIC|ARB|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "75797086",
+      "guid": "https://ambcrypto.com/?p=645286",
+      "published_on": 1793277051,
+      "imageurl": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+      "title": "Bitcoin Core patches 3 node-crashing bugs, including one that hit Windows, macOS",
+      "url": "https://ambcrypto.com/bitcoin-core-patches-3-node-crashing-bugs-including-one-that-hit-windows-macos/",
+      "body": "AI has forced Bitcoin to change its security workflows.",
+      "tags": "Bitcoin|News|Social|Trading View|ambcrypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "AMB Crypto",
+        "img": "https://images.cryptocompare.com/news/default/ambcrypto.png",
+        "lang": "EN"
+      },
+      "source": "ambcrypto"
+    },
+    {
+      "id": "75797063",
+      "guid": "https://decrypt.co/?p=382135",
+      "published_on": 1793277038,
+      "imageurl": "https://resources.cryptocompare.com/news/44/75797063.jpeg",
+      "title": "Morning Minute: Hedge Funds Left the BTC ETF Trade and Sovereign Wealth Stepped In",
+      "url": "https://decrypt.co/382135/morning-minute-hedge-funds-left-the-btc-etf-trade-and-sovereign-wealth-stepped-in",
+      "body": "Now the BTC ETFs have flipped green for the month after $400M+ inflows this week, setting the stage for a big November.",
+      "tags": "Opinion",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "75797327",
+      "guid": "https://cointelegraph.com/news/unlimit-founder-phase-blockchain-mainnet-launches",
+      "published_on": 1793277000,
+      "imageurl": "https://resources.cryptocompare.com/news/16/75797327.jpeg",
+      "title": "Unlimit founder backs Phase blockchain with $45M as mainnet launches",
+      "url": "https://cointelegraph.com/news/unlimit-founder-phase-blockchain-mainnet-launches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Phase’s new network lets smartphone owners earn tokens for validating transactions and sharing internet connections with AI agents.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793276975,
+    "time_range_start": "2026-10-29 12:29:35",
+    "time_range_end": "2026-10-29 13:29:35"
+  }
+}
