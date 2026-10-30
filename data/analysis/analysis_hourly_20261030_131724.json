@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261030_131724",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793362644,
+    "time_range_start": "2026-10-30 12:17:24",
+    "time_range_end": "2026-10-30 13:17:24"
+  },
+  "total_articles": 24,
+  "unique_sources": 14,
+  "unique_categories": 20,
+  "unique_tags": 43,
+  "body_stats": {
+    "avg_length": 1149.62,
+    "min_length": 52,
+    "max_length": 5539
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-10-30 12:18:23",
+    "newest": "2026-10-30 13:15:33",
+    "time_span_minutes": 57.17
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "Decrypt": 3,
+    "coinpedia": 3,
+    "CoinOtag": 2,
+    "Crypto Potato": 1,
+    "Coinpaper": 1,
+    "BitcoinSistemi": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1,
+    "Coinpaprika": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 20,
+    "EXCHANGE": 14,
+    "BNB": 12,
+    "SECURITY INCIDENTS": 10,
+    "BTC": 6,
+    "BUSINESS": 6,
+    "TRADING": 4,
+    "MARKET": 4,
+    "XRP": 3,
+    "ASIA": 3,
+    "FIAT": 2,
+    "ALTCOIN": 2,
+    "MACROECONOMICS": 2,
+    "TECHNOLOGY": 1,
+    "LINK": 1
+  },
+  "top_tags": {
+    "": 10,
+    "News": 6,
+    "Binance": 5,
+    "Crypto News": 3,
+    "Ripple": 2,
+    "Bitcoin": 2,
+    "Short News": 2,
+    "Stock Market": 2,
+    "AA News": 1,
+    "social": 1,
+    "SocialFB": 1,
+    "Ripple (XRP) Price": 1,
+    "iGaming": 1,
+    "Altcoin": 1,
+    "Ethereum": 1
+  }
+}
