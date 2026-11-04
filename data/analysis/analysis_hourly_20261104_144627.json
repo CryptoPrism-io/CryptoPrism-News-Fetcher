@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261104_144627",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793799987,
+    "time_range_start": "2026-11-04 13:46:27",
+    "time_range_end": "2026-11-04 14:46:27"
+  },
+  "total_articles": 23,
+  "unique_sources": 13,
+  "unique_categories": 21,
+  "unique_tags": 36,
+  "body_stats": {
+    "avg_length": 1867.09,
+    "min_length": 145,
+    "max_length": 5256
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-04 13:47:15",
+    "newest": "2026-11-04 14:42:29",
+    "time_span_minutes": 55.23
+  },
+  "top_sources": {
+    "CoinOtag": 5,
+    "CoinTurk News": 3,
+    "Coinpaper": 3,
+    "NewsBTC": 2,
+    "Cryptopolitan": 2,
+    "Bitcoin.com": 1,
+    "CoinDesk": 1,
+    "Crypto Potato": 1,
+    "Invezz": 1,
+    "CryptoNewsZ": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 21,
+    "MARKET": 8,
+    "REGULATION": 8,
+    "TRADING": 7,
+    "BUSINESS": 6,
+    "EXCHANGE": 4,
+    "XRP": 4,
+    "ETH": 4,
+    "FIAT": 3,
+    "MACROECONOMICS": 3,
+    "BTC": 3,
+    "BLOCKCHAIN": 3,
+    "ADA": 2,
+    "USDC": 2,
+    "ALTCOIN": 2
+  },
+  "top_tags": {
+    "News": 7,
+    "Crypto News": 6,
+    "Cryptocurrency Market News": 2,
+    "Cryptocurrency News": 2,
+    "Opinion": 2,
+    "Crypto": 2,
+    "XRP": 2,
+    "Altcoin": 2,
+    "Cardano (ADA)": 1,
+    "Commodities": 1,
+    "Stablecoins": 1,
+    "Circle": 1,
+    "Stablecoin": 1,
+    "Economy": 1,
+    "Crypto Bits": 1
+  }
+}
