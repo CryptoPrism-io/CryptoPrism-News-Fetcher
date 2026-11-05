@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261105_145117",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793886677,
+    "time_range_start": "2026-11-05 13:51:17",
+    "time_range_end": "2026-11-05 14:51:17"
+  },
+  "total_articles": 22,
+  "unique_sources": 12,
+  "unique_categories": 22,
+  "unique_tags": 56,
+  "body_stats": {
+    "avg_length": 2371.23,
+    "min_length": 116,
+    "max_length": 11652
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-05 14:00:00",
+    "newest": "2026-11-05 14:44:24",
+    "time_span_minutes": 44.4
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "CoinOtag": 4,
+    "Coinpaper": 2,
+    "Cryptopolitan": 2,
+    "CoinDesk": 2,
+    "BitcoinSistemi": 1,
+    "Bitcoin.com": 1,
+    "Bitcoin World": 1,
+    "Crypto Potato": 1,
+    "Bitfinex blog": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 20,
+    "MARKET": 11,
+    "BUSINESS": 8,
+    "TRADING": 8,
+    "BTC": 7,
+    "EXCHANGE": 7,
+    "XRP": 5,
+    "ETH": 3,
+    "FIAT": 3,
+    "BNB": 3,
+    "SECURITY INCIDENTS": 3,
+    "ASIA": 2,
+    "MACROECONOMICS": 1,
+    "COMMODITY": 1,
+    "TRX": 1
+  },
+  "top_tags": {
+    "News": 7,
+    "Crypto News": 5,
+    "Ripple (XRP)": 4,
+    "Finance": 3,
+    "Crypto": 2,
+    "Cryptocurrency": 2,
+    "Analysis": 1,
+    "Bitcoin": 1,
+    "Ethereum": 1,
+    "Binance Hack": 1,
+    "Federal Reserve": 1,
+    "OCC": 1,
+    "Regulation": 1,
+    "Traditional Finance (TradFi)": 1,
+    "GOLD": 1
+  }
+}
