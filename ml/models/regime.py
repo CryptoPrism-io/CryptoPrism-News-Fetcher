@@ -43,13 +43,19 @@ log = logging.getLogger(__name__)
 REGIME_NAMES = ["bull_trend", "bear_trend", "range_bound", "high_vol"]
 
 # Rewrite this many days behind the newest row on each update, so a row stamped
-# before its candle landed gets replaced by the candle-based value.
-UPDATE_LOOKBACK_DAYS = 7
+# before its candle landed gets replaced by the candle-based value. OHLCV only
+# fetches D-1, so a missed day stays missing until someone backfills it, which
+# can take weeks. The upsert is idempotent, so a wide window costs little.
+UPDATE_LOOKBACK_DAYS = 30
 
 # OHLCV candles are stamped D-1 23:59:59 and load around 06:00-07:30 UTC, so a
 # healthy feed can be two days behind early in the day. Older than that is a
 # dead feed.
 MAX_CANDLE_AGE_DAYS = 2
+
+# Same daily cadence as the candles. Past this the contrarian FGI component is
+# describing a market that has moved on.
+MAX_FGI_AGE_DAYS = 2
 
 
 class StaleMarketData(RuntimeError):
@@ -243,6 +249,14 @@ def compute_market_breadth(conn, n_days: int = 730) -> pd.DataFrame:
     """, conn, params={"n_days": n_days})
 
 
+def warn_if_fgi_stale(fgi_df: pd.DataFrame, today: date) -> None:
+    """Log when the regime is about to use an old Fear & Greed reading."""
+    dates = fgi_df["date"].dropna()
+    newest = dates.max() if len(dates) > 0 else None
+    if newest is None or (today - newest).days > MAX_FGI_AGE_DAYS:
+        log.warning(f"Fear & Greed is stale: newest row is {newest}, today is {today}")
+
+
 def get_current_regime(conn=None) -> RegimeDecision:
     """Fetch latest market data and return current regime decision."""
     own_conn = conn is None
@@ -255,6 +269,8 @@ def get_current_regime(conn=None) -> RegimeDecision:
 
     if own_conn:
         conn.close()
+
+    warn_if_fgi_stale(fgi_df, datetime.now(timezone.utc).date())
 
     latest_btc = btc.iloc[-1]
     latest_fgi = float(fgi_df.iloc[-1]["fgi"]) if len(fgi_df) > 0 else 50.0
@@ -359,16 +375,24 @@ def plan_update(
     Candle-based rows from just before last_written onwards, plus a row dated
     today holding the current decision. The newest candle is never today's, so
     without that row ML_REGIME would always read a day old. A later run replaces
-    it with the candle-based value once that candle exists.
+    it with the candle-based value once that candle exists. A day that never
+    gets a candle keeps whatever row it has, and is named in a warning while it
+    is inside the refill window.
     """
     newest_candle = history[-1]["timestamp"].date() if history else None
     if newest_candle is None or (today - newest_candle).days > MAX_CANDLE_AGE_DAYS:
         raise StaleMarketData(f"Newest BTC candle is {newest_candle}, today is {today}")
 
-    rows = history
+    since = history[0]["timestamp"].date()
     if last_written is not None:
-        since = last_written - timedelta(days=UPDATE_LOOKBACK_DAYS)
-        rows = [r for r in history if r["timestamp"].date() >= since]
+        since = max(since, last_written - timedelta(days=UPDATE_LOOKBACK_DAYS))
+    rows = [r for r in history if r["timestamp"].date() >= since]
+
+    candle_dates = {r["timestamp"].date() for r in rows}
+    for offset in range((newest_candle - since).days):
+        day = since + timedelta(days=offset)
+        if day not in candle_dates:
+            log.warning(f"No BTC candle for {day}: ML_REGIME keeps any row it has for that date")
 
     if newest_candle < today:
         rows = rows + [regime_row(pd.Timestamp(today, tz="UTC"), current)]

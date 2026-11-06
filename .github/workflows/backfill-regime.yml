@@ -2,9 +2,14 @@ name: Regime Writer
 
 on:
   schedule:
-    # 00:30 UTC stamps today's row as the day starts; 09:30 UTC refreshes it
-    # after DB-D's OHLCV load, which lands around 06:00-07:30 UTC.
-    - cron: '30 0,9 * * *'
+    # Hourly because GitHub is unreliable here, not because the regime changes
+    # hourly. Crons start hours late (DB-D's 00:30 starts 05:00-07:15 UTC) and
+    # most are dropped (hourly-ensemble gets 3-6 of 24 a day), so expect a few
+    # runs a day at no fixed time. Today's row appears at the first run that
+    # lands, and it may be hours into the UTC day. Runs are idempotent, and the
+    # first one after DB-D's OHLCV load picks up the new candle. Off the hour
+    # because :00 is GitHub's busiest slot.
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -15,6 +20,13 @@ on:
         options:
           - update
           - backfill
+
+permissions:
+  contents: read
+
+concurrency:
+  group: regime-writer
+  cancel-in-progress: false
 
 jobs:
   write-regime:
