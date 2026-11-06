@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261106_142857",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1793971737,
+    "time_range_start": "2026-11-06 13:28:57",
+    "time_range_end": "2026-11-06 14:28:57"
+  },
+  "total_articles": 24,
+  "unique_sources": 12,
+  "unique_categories": 21,
+  "unique_tags": 68,
+  "body_stats": {
+    "avg_length": 2518.21,
+    "min_length": 125,
+    "max_length": 12612
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-06 13:29:20",
+    "newest": "2026-11-06 14:23:05",
+    "time_span_minutes": 53.75
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "Cryptopolitan": 4,
+    "Bitcoinist": 3,
+    "Decrypt": 3,
+    "TimesTabloid": 1,
+    "Cointelegraph": 1,
+    "Crypto Potato": 1,
+    "cryptonews": 1,
+    "Seeking Alpha": 1,
+    "BitcoinSistemi": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 21,
+    "BTC": 11,
+    "TRADING": 11,
+    "MACROECONOMICS": 9,
+    "MARKET": 9,
+    "FIAT": 8,
+    "BUSINESS": 5,
+    "REGULATION": 3,
+    "EXCHANGE": 3,
+    "SOL": 3,
+    "XRP": 2,
+    "ETH": 2,
+    "BLOCKCHAIN": 2,
+    "TECHNOLOGY": 2,
+    "SUI": 1
+  },
+  "top_tags": {
+    "News": 7,
+    "": 6,
+    "Bitcoin (BTC)": 3,
+    "USDT": 2,
+    "Cryptocurrency": 2,
+    "Bitcoin": 2,
+    "customers locked out": 1,
+    "digital bank": 1,
+    "Paraguay": 1,
+    "paraguay president": 1,
+    "ueno digital bank": 1,
+    "Regulation": 1,
+    "cNGN": 1,
+    "NGN": 1,
+    "SUI": 1
+  }
+}
