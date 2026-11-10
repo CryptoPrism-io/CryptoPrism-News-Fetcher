@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261110_150649",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1794319609,
+    "time_range_start": "2026-11-10 14:06:49",
+    "time_range_end": "2026-11-10 15:06:49"
+  },
+  "total_articles": 30,
+  "unique_sources": 18,
+  "unique_categories": 26,
+  "unique_tags": 75,
+  "body_stats": {
+    "avg_length": 2225.4,
+    "min_length": 110,
+    "max_length": 8662
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-10 14:07:55",
+    "newest": "2026-11-10 15:04:15",
+    "time_span_minutes": 56.33
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Cryptopolitan": 4,
+    "Decrypt": 2,
+    "Bitcoin.com": 2,
+    "BitcoinSistemi": 2,
+    "CoinOtag": 2,
+    "coinpedia": 2,
+    "Invezz": 1,
+    "AMB Crypto": 1,
+    "TimesTabloid": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 23,
+    "TRADING": 10,
+    "BUSINESS": 10,
+    "BTC": 9,
+    "MARKET": 9,
+    "EXCHANGE": 8,
+    "TECHNOLOGY": 7,
+    "MACROECONOMICS": 6,
+    "BLOCKCHAIN": 5,
+    "REGULATION": 5,
+    "BNB": 4,
+    "XRP": 3,
+    "FIAT": 3,
+    "SOL": 2,
+    "ALTCOIN": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "Bitcoin": 3,
+    "Crypto News": 3,
+    "": 2,
+    "Business": 2,
+    "Bitcoin (BTC)": 2,
+    "Economy": 2,
+    "More News": 2,
+    "Crypto": 1,
+    "Ethereum": 1,
+    "Social": 1,
+    "Trading View": 1,
+    "Press release": 1,
+    "Cryptocurrency": 1,
+    "Flare Founder": 1
+  }
+}
