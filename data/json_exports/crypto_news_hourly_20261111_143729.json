@@ -1,0 +1,492 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "76943314",
+      "guid": "https://bitcoinist.com/zcash-crashes-below-1000-despite-grayscales-1m-pledge/",
+      "published_on": 1794407720,
+      "imageurl": "https://resources.cryptocompare.com/news/13/76943314.jpeg",
+      "title": "Zcash Crashes Below $1,000 Despite Grayscale’s $1M Pledge",
+      "url": "https://bitcoinist.com/zcash-crashes-below-1000-despite-grayscales-1m-pledge/",
+      "body": "Zcash crashes nearly 15% on Wednesday, slipping below the $1,000 mark for the first time since early September and hitting a two-month low near $963. The sharp decline occurred just one day after Grayscale announced a $1 million commitment to nonprofits and projects supporting the Zcash network, highlighting how broader market pressures can overshadow positive ecosystem developments. As of midday UTC on November 11, 2026, ZEC’s roughly 13.5% daily drop ranked among the steepest losses in the top 100 cryptocurrencies by market capitalization. Over the prior seven days, the privacy-focused token Zcash crashes down to 24.5%. The sell-off formed part of a wider crypto market retreat, with Bitcoin (BTC) lower by around 5.8% and Ether (ETH) down roughly 11.6% over the same weekly period, according to market data trackers. Broader Market Pressures Weigh on Privacy Coins The pullback intensified after U.S. consumer prices rose 0.4% in October, exceeding economists’ 0.3% forecast. Higher-than-expected inflation data raised concerns about tighter monetary policy, prompting risk-off sentiment across digital assets. Privacy coins as a group felt particular pressure, with the category’s combined market value declining about 7% in 24 hours. Zcash remains the largest privacy coin by market capitalization, representing roughly 60% of a sector valued near $28 billion. Zcash enables users to send shielded transactions that conceal sender and recipient addresses as well as transfer amounts from public view. This focus on financial privacy has long differentiated it from more transparent blockchains. Earlier in 2026, ZEC helped lead a strong rally in the privacy sector, gaining 138% in the 30 days leading up to September 7. Momentum cooled in subsequent weeks as the broader market softened. Recent Network Upgrade and ETF Dynamics Just days before the latest drop, Zcash activated its NU7 network upgrade. The update reduced the target block time from 75 seconds to 25 seconds to speed confirmations. It also rendered approximately 12,224 ZEC held in the network’s original Sprout privacy pool unspendable under the new rules. ZEC had traded above $1,370 as recently as the prior Friday around the time of the upgrade. Institutional access has expanded through Grayscale’s Zcash Trust conversion into a spot exchange-traded fund (ticker ZCSH), which began trading on NYSE Arca in late August 2026. The fund has recorded notable outflows: about $15 million net in November through Monday, following roughly $46 million in October. These redemptions have added selling pressure alongside the broader market weakness. Grayscale’s $1 million pledge aims to support nonprofits and initiatives advancing the Zcash ecosystem. The firm has already distributed an initial $400,000 in equal grants to groups including the Zcash Foundation, Pretty Good Policy for Zcash, Shielded Labs, and Project Tachyon. Separately, Grayscale indicated it plans to reinvest 100% of ZCSH sponsor fees into network development, marketing, community efforts, and education for up to the fund’s first year as an ETF. The commitment is voluntary and can be adjusted. Why Positive News Failed to Lift Prices The timing underscores a familiar dynamic in crypto markets: strong fundamental or ecosystem support does not always translate into immediate price strength when macroeconomic headwinds dominate. Privacy coins often exhibit higher volatility than larger assets like Bitcoin, and Zcash’s recent outperformance earlier in the year left room for profit-taking and leverage liquidations once sentiment shifted. The psychological $1,000 level had held as support since September. Breaking below it on elevated volume can attract further technical selling in the short term. At the same time, Grayscale’s continued marketing efforts—including a high-profile advertising campaign—and its direct funding of core ecosystem groups signal sustained institutional interest in Zcash’s privacy technology. What’s In The Plan For Zcash? Zcash’s core value proposition remains its selective privacy features and ongoing technical improvements, such as faster blocks under NU7 and potential future enhancements. Market participants will likely watch whether the $1,000 area stabilizes or if selling extends toward lower technical levels amid the wider crypto correction. Investors tracking privacy assets should monitor U.S. inflation trends, Bitcoin’s price action as a market benchmark, and any further developments around the Grayscale ETF flows or Zcash ecosystem grants. While short-term price action has been driven more by macro factors than project-specific news, the combination of network upgrades and institutional backing provides a foundation that could support recovery once broader risk appetite improves. Zcash’s ability to maintain its position as the leading privacy coin will depend on both technological progress and the market’s eventual response to shifting monetary conditions.",
+      "tags": "News|greyscale pledge|zcash crashes|ZCash Price|zcash price crash|ZEC price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|ZEC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoinist",
+        "img": "https://images.cryptocompare.com/news/default/bitcoinist.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinist"
+    },
+    {
+      "id": "76942950",
+      "guid": "https://en.coin-turk.com/?p=257515",
+      "published_on": 1794407196,
+      "imageurl": "https://resources.cryptocompare.com/news/79/76942950.jpeg",
+      "title": "Gold tests $4,067 support as Fed rate hike signals weigh on rally",
+      "url": "https://en.coin-turk.com/gold-tests-4067-support-as-fed-rate-hike-signals-weigh-on-rally/?utm_source=rss&utm_medium=rss&utm_campaign=gold-tests-4067-support-as-fed-rate-hike-signals-weigh-on-rally",
+      "body": "📉 Gold drops to $4,047 as traders brace for possible Fed rate hike in December. 💡 Key support levels at $4,067 and $4,021 guide gold's near-term direction. 📊 Gold struggled after missing bullish gains above $4,200 since September. Continue Reading: Gold tests $4,067 support as Fed rate hike signals weigh on rally The post Gold tests $4,067 support as Fed rate hike signals weigh on rally appeared first on COINTURK NEWS .",
+      "tags": "GOLD",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "FIAT|TRADING",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "76943139",
+      "guid": "https://www.cryptopolitan.com/?p=325033",
+      "published_on": 1794407178,
+      "imageurl": "https://resources.cryptocompare.com/news/43/76943139.jpeg",
+      "title": "OKXICE plans to debut its tokenized stock trading on November 23",
+      "url": "https://www.cryptopolitan.com/okxice-commits-to-launching-tokenized-stock-trading-on-november-23/",
+      "body": "OKXICE is proceeding to launch its tokenized securities venue despite recent campaigns by major Wall Street firms against the initiative. In a release Wednesday, OKXICE said it will launch its tokenized securities venue on November 23, making it one of the first platforms to trade on-chain versions of US stocks under a new SEC exemption. The SEC exemption allows the venue, shortened to TSV, to trade tokenized shares of US-listed companies without registering as an exchange. However, it’s only a five-year order that expires in September 2031. Real shares, backed 1:1, held in your own wallet and tradeable 24/7. The OKXICE Tokenized Securities Venue is bringing America’s capital markets onchain on November 23. Read the full blog: https://t.co/kD1vfYQo3h pic.twitter.com/VLXXSn9qiw — OKX (@okx) November 11, 2026 “The SEC has created a real opening for American markets to lead the next era of finance,” Governor Andrew M. Cuomo, Co-Chair of OKXICE said, adding that “The future of finance is onchain, and we have an opportunity to build it here in America.” OKXICE proceeds to launch despite Wall Street objections OKXICE is a 50-50 joint initiative co-owned by crypto exchange OKX and the New York Stock Exchange parent Intercontinental Exchange. The launch comes against a wall of objections, especially from Wall Street. The exemption allows any company to stop a third-party venue from tokenizing its shares if it files a written objection within 30 days of being notified. If the company does not respond, that means it agrees. The block only affects the venue that sent the notice. By the November 5 filing, 67 companies had opted out, among them Meta Platforms, Tesla, Netflix, Costco and Home Depot, Cryptopolitan reported . A spokesperson for fiber-optic maker Applied Optoelectronics told the Wall Street Journal that the company opted out because of concerns about how tokenization could affect its share price, liquidity, volatility, and the potential for investor confusion about its role. OKXICE to launch with more than 70 assets Nasdaq, which is developing its own tokenization project with Kraken, has taken things further by criticizing the exemption. Chief Legal and Regulatory Officer John Zecca said the company will “opt its own stock out of Tokenized Securities Venues.” Nonetheless, OKXICE is expected to go live with more than 70 assets already confirmed, according to OKX. These include assets from crypto firms such as BitGo, Circle, Coinbase, Robinhood, Securitize, and Strategy. OKX said eligible consumers will be able to trade supported assets around the clock. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "News|ICE|OKX|OKXICE",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|REGULATION|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "76942417",
+      "guid": "https://news.bitcoin.com/?p=862692",
+      "published_on": 1794406746,
+      "imageurl": "https://resources.cryptocompare.com/news/14/76942417.jpeg",
+      "title": "Deutsche Bank Brings Bitcoin Custody Into Its Institutional Banking Empire",
+      "url": "https://news.bitcoin.com/crypto-news/deutsche-bank-brings-bitcoin-custody-institutional-banking-empire/",
+      "body": "Germany’s largest lender, Deutsche Bank, has officially launched its digital asset custody service for institutional clients across Europe, bringing bitcoin, ether, and regulated stablecoins into its banking infrastructure. The Nov. 11 debut marks another significant step toward integrating cryptocurrency services into traditional finance (TradFi). The TradFi giant’s launch follows years of preparation, regulatory scrutiny, and",
+      "tags": "Crypto News|Bank|Bitcoin (BTC)|Cryptocurrency|custody|Deutsche Bank|Germany",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "76942326",
+      "guid": "https://coinpaper.com/38680/kraken-tokenizes-all-40-dax-stocks-as-deutsche-borse-partnership-brings-german-blue-chips-onchain",
+      "published_on": 1794406620,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Kraken Tokenizes All 40 DAX Stocks as Deutsche Borse Partnership Brings German Blue Chips Onchain",
+      "url": "https://coinpaper.com/38680/kraken-tokenizes-all-40-dax-stocks-as-deutsche-borse-partnership-brings-german-blue-chips-onchain",
+      "body": "Key takeaways Kraken brings all 40 DAX companies onchain Deutsche Börse enables tokenized trading through 360X Share-backed tokens expand access but retain restrictions Kraken parent Payward has launched tokenized representations of all 40 companies in Germany's DAX index, bringing some of Europe's largest publicly traded businesses onto blockchain infrastructure through its partnership with Deutsche Börse Group. According to Deutsche Börse's November 11 announcement , the new assets are available through 360X, the exchange group's affiliated digital asset trading venue. The launch includes tokenized exposure to SAP, Siemens, Allianz and Deutsche Telekom, extending the rapidly growing tokenized stock market beyond American companies. Kraken Brings Germany's Biggest Companies Onchain Payward's xStocks platform now supports tokenized representations of every DAX 40 constituent, expanding access to German equities for eligible investors across more than 110 markets. Among the newly available products are SAPx, representing SAP; SIEx for Siemens; ALV.DEx for Allianz; and DTE.DEx for Deutsche Telekom. Each xStock is backed one-to-one by underlying shares held with a regulated custodian, providing economic exposure through blockchain-based tokens. The launch follows Kraken's earlier European stock trading expansion , which introduced conventional US equities alongside tokenized products. However, the new tokens are not identical to direct share ownership. Holders generally do not receive the same shareholder rights as investors purchasing ordinary DAX shares through traditional brokerages. Deutsche Börse Partnership Enables Around-the-Clock Trading The launch builds on a strategic agreement established between Payward and Deutsche Börse Group in December 2025. Their collaboration combines traditional exchange infrastructure with blockchain-based distribution, allowing tokenized equities to trade through 360X. The venue has operated under the European Union's DLT Pilot Regime since February 2026, providing regulated infrastructure for blockchain-based securities activity. Deutsche Börse also confirmed that Xetra-Gold, a physically backed gold exchange-traded commodity, is available as an xStock. While the companies describe 24/7 trading across selected venues, availability depends on the platform. Kraken's European Economic Area service offers xStocks trading 24 hours a day, five days a week. The initiative builds on earlier global tokenization partnerships designed to connect international equity markets with cryptocurrency infrastructure. xStocks Expands Beyond $1 Billion in Assets The DAX launch forms part of a broader expansion covering more than 200 UK- and EU-listed companies. Payward's wider xStocks ecosystem now includes more than 1,500 tokenized assets, while cumulative transaction volume has exceeded $45 billion. The platform has also surpassed $1 billion in assets under management, demonstrating growing interest in blockchain-based exposure to conventional securities. The trend extends beyond Kraken. Other companies have introduced tokenized US equities , while investment platforms increasingly explore putting funds and portfolios onchain. Recent tokenized portfolio launches also illustrate how blockchain infrastructure is expanding beyond individual cryptocurrency trading.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|TRADING|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "76942241",
+      "guid": "https://en.coin-turk.com/?p=257514",
+      "published_on": 1794406596,
+      "imageurl": "https://resources.cryptocompare.com/news/79/76942241.jpeg",
+      "title": "Ripple ex-CTO David Schwartz cuts XRP holdings by 88%, sells 99% of ETH",
+      "url": "https://en.coin-turk.com/ripple-ex-cto-david-schwartz-cuts-xrp-holdings-by-88yuzde-sells-99yuzde-of-eth/?utm_source=rss&utm_medium=rss&utm_campaign=ripple-ex-cto-david-schwartz-cuts-xrp-holdings-by-88yuzde-sells-99yuzde-of-eth",
+      "body": "🚨 Ripple ex-CTO David Schwartz sold 88% of his $XRP and nearly all of his ETH and BTC. 💰 His XRP fell from 26 million to 3 million, and his ETH dropped from 40,000 to 6. 📉 He follows a risk-reduction strategy but still owns Ripple equity. Continue Reading: Ripple ex-CTO David Schwartz cuts XRP holdings by 88%, sells 99% of ETH The post Ripple ex-CTO David Schwartz cuts XRP holdings by 88%, sells 99% of ETH appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|ETH|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "76942231",
+      "guid": "https://seekingalpha.com/news/4670642-defi-development-appoints-john-han-as-coo?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1794406535,
+      "imageurl": "https://resources.cryptocompare.com/news/50/76942231.jpeg",
+      "title": "DeFi Development appoints John Han as COO",
+      "url": "https://seekingalpha.com/news/4670642-defi-development-appoints-john-han-as-coo?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on DeFi Development DeFi Development Corp. (DFDV) Shareholder/Analyst Call Prepared Remarks Transcript DeFi Development: The Clarity Act Failure Tests The Solana Treasury Thesis DeFi Development: The Solana Treasury Model Failed Its First Test (Rating Downgrade) Quant snapshot: Aveanna Healthcare and Fossil lead top-rated names, as KBC Group and DeFi Development lag CleanSpark sees highest short interest in October among small, mid-cap firms",
+      "tags": "DFDV|DFDVW|CHAD",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|SOL|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "76942240",
+      "guid": "https://cryptopotato.com/?p=1453491",
+      "published_on": 1794406463,
+      "imageurl": "https://resources.cryptocompare.com/news/27/76942240.jpeg",
+      "title": "Pi Network (PI) Defies the Latest Market Pullback: Major Rally Ahead or Bull Trap?",
+      "url": "https://cryptopotato.com/pi-network-pi-defies-the-latest-market-pullback-major-rally-ahead-or-bull-trap/",
+      "body": "The latest US CPI report poured another cold shower on the cryptocurrency market, triggering further declines in countless digital assets, including BTC, ETH, XRP, and more. Recall that inflation in the world’s largest economy for October came in higher than expected, meaning that the Fed is now more likely to increase interest rates at its next meeting: a development that is viewed as bearish for the industry. Despite the renewed downfall, a handful of tokens escaped the red wave, and interestingly, one of them is Pi Network’s PI. The big question is what might have caused its sudden resurgence and what the next potential targets are. Bulls Take Control? PI has been on a massive downtrend over the past several months, and just a few days ago, it tumbled to a new all-time low of around $0.063. Shortly after, though, buyers stepped in and staged a recovery to the current $0.072 (per CoinGecko), a 2% increase over 24 hours. According to X account BSCN, this ascent appears technical as PI emerges from an oversold situation, along with a small increase in open interest for derivatives contracts. The team also outlined the upcoming Ecosystem Summit, which may have sparked enthusiasm across the community. The three-day online event is scheduled for November 17-19 and will feature platform updates, developer-tool demonstrations, app showcases, and discussions between devs and the Core Team. The price rebound has drawn attention from analysts, some of whom anticipate a further increase in the near future. X user Crypto With Gopal claimed that PI is breaking out of a bullish triangle pattern on the 15-minute chart, with buyers reclaiming the consolidation zone and showing improving momentum. He outlined the $0.07-$0.069 zone as important support, envisioning a pump to as high as $0.079 if the price stays above that range. “PI bulls are showing strength! Momentum is shifting in favor of buyers,” he concluded. Bull Trap? The token’s revival ahead of the Ecosystem Summit doesn’t guarantee that a full-blown bull run is about to begin. In fact, traders and investors should be extremely careful about a potential sell-the-news event that may send the price deep into red territory again. This happens when traders buy a token in anticipation of a major catalyst but start taking profits once it occurs, causing heightened selling pressure and a price decline. That was the case in March this year, when PI rallied hard ahead of its much-anticipated Kraken listing but crashed after the exchange officially embraced the coin. The post Pi Network (PI) Defies the Latest Market Pullback: Major Rally Ahead or Bull Trap? appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Pi Network (PI)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "76942688",
+      "guid": "https://en.coinotag.com/matt-op-ccv-bitcoin-covenant-pull-request-32080",
+      "published_on": 1794406268,
+      "imageurl": "https://resources.cryptocompare.com/news/77/76942688.jpeg",
+      "title": "MATT Proposal Targets Bitcoin (BTC) Stateful Contracts via OP_CCV Pull Request 32080",
+      "url": "https://en.coinotag.com/matt-op-ccv-bitcoin-covenant-pull-request-32080",
+      "body": "A Bitcoin pull request for OP_CHECKCONTRACTVERIFY would let scripts commit contract state to Taproot keys, enabling stateful contracts, vaults and fraud proofs.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "76941891",
+      "guid": "https://en.coin-turk.com/?p=257513",
+      "published_on": 1794406236,
+      "imageurl": "https://resources.cryptocompare.com/news/79/76941891.jpeg",
+      "title": "Social Security confirms Bitcoin ownership can affect SSI, not retirement or SSDI",
+      "url": "https://en.coin-turk.com/social-security-confirms-bitcoin-ownership-can-affect-ssi-not-retirement-or-ssdi/?utm_source=rss&utm_medium=rss&utm_campaign=social-security-confirms-bitcoin-ownership-can-affect-ssi-not-retirement-or-ssdi",
+      "body": "🚨 SSI recipients risk payment suspension if crypto plus other assets top $2,000. 💡 $BTC and other cryptocurrencies do not affect Social Security Retirement or SSDI benefits. 📑 Major crypto transfers or gifts must be reported to the SSA to avoid penalties. Continue Reading: Social Security confirms Bitcoin ownership can affect SSI, not retirement or SSDI The post Social Security confirms Bitcoin ownership can affect SSI, not retirement or SSDI appeared first on COINTURK NEWS .",
+      "tags": "Cryptocurrency News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "76941623",
+      "guid": "https://coinpaper.com/38676/solana-treasury-giant-forward-industries-reaches-8-7-million-sol-as-token-falls-toward-80",
+      "published_on": 1794405831,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Solana Treasury Giant Forward Industries Reaches 8.7 Million SOL as Token Falls Toward $80",
+      "url": "https://coinpaper.com/38676/solana-treasury-giant-forward-industries-reaches-8-7-million-sol-as-token-falls-toward-80",
+      "body": "Key takeaways Forward Industries increases treasury to 8.73 million SOL Company secures $50 million in staking-backed financing Solana price weakness raises fresh collateral concerns Forward Industries (NASDAQ: FWDI) has increased its Solana treasury to approximately 8.73 million SOL, expanding its cryptocurrency exposure even as the token approaches the psychologically important $80 level. According to its November 10 SEC disclosure , the company added 226,396 SOL and SOL equivalents between September 30 and November 9, raising its total holdings from 8.50 million to 8.73 million tokens. Forward Industries Controls Nearly 1.5% of Solana Supply Forward Industries now holds approximately 1.5% of Solana's circulating supply, making it one of the largest publicly traded holders of the cryptocurrency. Its treasury increased 2.7% over the latest reporting period, while SOL per fully diluted share climbed from 0.0806 to 0.0824. That represents 2.3% growth in SOL per share over 40 days, although the company’s annualized growth estimate of approximately 21% assumes that pace continues. The additional tokens carried a reported average cost of $75 each, but that figure includes staking rewards assigned no cash acquisition cost. Forward has continued its SOL accumulation strategy despite substantial volatility since its initial large-scale purchases. $50 Million Credit Facility Adds Leverage to SOL Strategy Alongside its treasury update, Forward announced a two-year, $50 million credit facility secured by SOL held in its treasury. The unnamed lender is a federally chartered, FDIC-insured national bank. The facility carries an interest rate of SOFR plus 150 basis points. Importantly, the pledged SOL can remain staked and continue generating network rewards, without rehypothecation by the lender. However, borrowing against cryptocurrency creates additional risks if collateral values decline sharply. Forward previously faced significant unrealized treasury losses after accumulating millions of SOL at substantially higher prices. Its newly disclosed net asset value also declined from approximately $870.4 million on September 30 to $600.3 million on November 9, despite increasing token holdings. Institutional debt outstanding rose from $167.5 million to $187.5 million over the same period. These figures underscore the challenges facing corporate Solana treasury companies when falling token prices offset additional accumulation. Solana Nears $80 as Forward Expands Into Tokenized Housing Forward is also diversifying its treasury strategy through a commitment of up to $50 million to USHP, a tokenized investment product tracking US residential property prices. The company expects to use potential dollar-denominated income from the investment to support additional SOL accumulation. It also added Barclays as a sales agent alongside Cantor Fitzgerald for its existing at-the-market equity offering program. The expansion comes as SOL approaches the $80 downside level previously identified during the October market correction . A further decline could increase pressure on Forward's collateral position and balance sheet, although the company has not disclosed an immediate margin call. Previous large SOL transfers also attracted attention because of concerns about potential treasury selling.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "REGULATION|SOL|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "76941714",
+      "guid": "https://en.coin-turk.com/?p=257511",
+      "published_on": 1794405816,
+      "imageurl": "https://resources.cryptocompare.com/news/79/76941714.jpeg",
+      "title": "Zcash drops 13.5% to two-month low despite Grayscale’s $1 million pledge",
+      "url": "https://en.coin-turk.com/zcash-drops-13-5yuzde-to-two-month-low-despite-grayscales-1-million-pledge/?utm_source=rss&utm_medium=rss&utm_campaign=zcash-drops-13-5yuzde-to-two-month-low-despite-grayscales-1-million-pledge",
+      "body": "🚨 Zcash fell 13.5% in 24 hours, reaching a two-month low near $962.85. 📉 Grayscale pledged $1 million to Zcash projects as $15 million exited its Zcash ETF in November. 📊 A broader crypto market sell-off followed higher than expected US inflation data. Continue Reading: Zcash drops 13.5% to two-month low despite Grayscale’s $1 million pledge The post Zcash drops 13.5% to two-month low despite Grayscale’s $1 million pledge appeared first on COINTURK NEWS .",
+      "tags": "Altcoin News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|ZEC|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "76941535",
+      "guid": "https://decrypt.co/?p=382992",
+      "published_on": 1794405775,
+      "imageurl": "https://resources.cryptocompare.com/news/44/76941535.jpeg",
+      "title": "Decrypt Becomes First News Publisher to Offer Perps Trading, Powered by Solana's Phoenix",
+      "url": "https://decrypt.co/382992/decrypt-becomes-first-news-publisher-to-offer-perps-trading-powered-by-solanas-phoenix",
+      "body": "The integration brings perpetual futures trading into Decrypt, so readers can trade crypto, stocks and commodities without leaving the news.",
+      "tags": "|Our Company",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "76941971",
+      "guid": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu",
+      "published_on": 1794405738,
+      "imageurl": "https://resources.cryptocompare.com/news/16/76941971.jpeg",
+      "title": "Deutsche Bank launches crypto custody for companies and institutions",
+      "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "body": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
+      "tags": "Latest News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cointelegraph",
+        "img": "https://images.cryptocompare.com/news/default/cointelegraph.png",
+        "lang": "EN"
+      },
+      "source": "cointelegraph"
+    },
+    {
+      "id": "76941272",
+      "guid": "https://timestabloid.com/?p=114415",
+      "published_on": 1794405606,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Analyst Says I Told You It Was Over. XRP Is Going to Zero. Here’s why",
+      "url": "https://timestabloid.com/analyst-says-i-told-you-it-was-over-xrp-is-going-to-zero-heres-why/",
+      "body": "Crypto analyst ChartNerd (@ChartNerdTA) posted what looked like a bearish death sentence for XRP. He declared the move was over and that XRP was heading to zero. The chart appeared to confirm it. Green arrows showed rejection after rejection. A white arrow plunged toward total collapse. Most readers saw a broken asset, but a closer look reveals something intriguing. What the Chart Shows ChartNerd labeled the image clearly as an inverted monthly chart . Flipping it reverses the entire picture. The red lines that look like downward-sloping resistance become upward-sloping support on a standard chart. XRP has tested the current support level multiple times over the years. The green arrows, which appear to show failed rallies on the inverted chart, mark successful retests of that support line in reality. Each retest held, and the structure remained intact. Reexamining Previous Breakouts Three major moves stand out on the chart. In 2017, 2021, and late 2024, the inverted chart shows sharp drops. On a normal chart, those same moves represent rapid surges. XRP launched aggressively during each of those periods. The pattern repeated across multiple cycles. 2017 pushed XRP to its previous all-time high. 2021 saw the asset push against the legal pressure and hit a peak of $1.96. The rally in 2024 was historic, as XRP climbed more than 500% in a short period and crossed $3 for the first time since 2018. The current position places XRP near that long-term support line again. The white arrow on the inverted chart projects a continued decline toward the $6.50 to $9 range. On a standard chart, that projection points upward. A move toward $6.50 becomes the target. The Pattern Behind the Post The current price marker sits at $1.04. Moving to $6.50 would send XRP up by 525%. ChartNerd has used inverted charts before , and the presentation creates an initial impression of collapse. The underlying analysis communicates the opposite. The structure on this monthly chart spans from 2014 to a projected 2028 conclusion. That is over a decade of price behavior supporting the bullish outlook. XRP has not broken its support. It has retested it multiple times and recovered on each occasion. The post reads like a warning, and while the asset’s price may be falling , the chart tells a different story. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Analyst Says I Told You It Was Over. XRP Is Going to Zero. Here’s why appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|REGULATION|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "76941097",
+      "guid": "https://en.coin-turk.com/?p=257510",
+      "published_on": 1794405396,
+      "imageurl": "https://resources.cryptocompare.com/news/79/76941097.jpeg",
+      "title": "Zcash falls 14% in 24 hours, NU7 upgrade slashes block time",
+      "url": "https://en.coin-turk.com/zcash-falls-14yuzde-in-24-hours-nu7-upgrade-slashes-block-time/?utm_source=rss&utm_medium=rss&utm_campaign=zcash-falls-14yuzde-in-24-hours-nu7-upgrade-slashes-block-time",
+      "body": "🚨 $ZEC drops 14% in a day after NU7 upgrade slashes block time to 25 seconds. 📉 ZEC trades at $984.85 with market sentiment rated ‘Fear’ by the Crypto Fear & Greed Index. 📊 $ZEC has seen high volatility since NU7 and faces ongoing regulatory and demand risks. Continue Reading: Zcash falls 14% in 24 hours, NU7 upgrade slashes block time The post Zcash falls 14% in 24 hours, NU7 upgrade slashes block time appeared first on COINTURK NEWS .",
+      "tags": "Altcoin News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|ZEC",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "76941093",
+      "guid": "https://coinpaper.com/38674/zcash-loses-1-000-just-one-day-after-grayscale-launches-1-million-ecosystem-initiative",
+      "published_on": 1794405382,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Zcash Loses $1,000 Just One Day After Grayscale Launches $1 Million Ecosystem Initiative",
+      "url": "https://coinpaper.com/38674/zcash-loses-1-000-just-one-day-after-grayscale-launches-1-million-ecosystem-initiative",
+      "body": "Key takeaways Zcash falls below $1,000 after sharp selling Grayscale pledges $1 million to support Zcash ecosystem ETF withdrawals and liquidations pressure ZEC despite upgrades Zcash (ZEC) has fallen below $1,000 , extending a sharp cryptocurrency selloff just one day after Grayscale announced a $1 million commitment to supporting the privacy-focused blockchain. ZEC traded near $990 on November 11, down approximately 13.5% over 24 hours, after briefly touching $960.56. The cryptocurrency has lost more than 23% over seven days, reversing much of the momentum that previously powered the privacy coin rally . Zcash Falls Below $1,000 Despite Grayscale's $1 Million Commitment According to Grayscale's November 10 announcement , the asset manager launched Zcash Invest, a platform designed to educate investors about the cryptocurrency and its exchange-traded fund, ZCSH. Grayscale committed $1 million to nonprofit organizations and initiatives supporting Zcash, including $400,000 already distributed across four groups. The Zcash Foundation, Pretty Good Policy for Zcash, Shielded Labs and Project Tachyon each received $100,000. Grayscale also announced a national advertising campaign and plans to reinvest up to one year's worth of ZCSH sponsor fees into development, marketing and education. The initiative expands the firm's Zcash ecosystem support , but the funding does not represent a $1 million direct purchase of ZEC. Consequently, the announcement does not automatically create buying pressure in the cryptocurrency market. Zcash ETF Withdrawals and Liquidations Add Pressure Institutional investment products have also experienced weakening demand. Grayscale's ZCSH fund reportedly recorded more than $15 million in net withdrawals during November through November 9, following approximately $46.25 million in October outflows. The latest weakness extends the earlier altcoin ETF selloff , when ZCSH recorded nearly $11 million in withdrawals during a single session. Meanwhile, a November 11 derivatives snapshot showed approximately $40.63 million in ZEC futures liquidations over 24 hours, including $35.35 million in long positions. Futures open interest declined nearly 10% to approximately $2.24 billion, suggesting traders were closing positions as prices weakened. Although liquidations can amplify volatility, these figures do not establish what initially triggered the selloff. ZCSH's retreat also contrasts with September, when fund assets approached $1 billion amid stronger investor interest. Can Zcash Recover After Its NU7 Upgrade? Zcash's latest weakness follows the activation of Network Upgrade 7 on November 6, which reduced target block times from 75 seconds to 25 seconds. The upgrade introduced faster transaction confirmations and a mechanism designed to strengthen long-term network sustainability. Despite the technological improvement, ZEC has struggled to maintain its pre-upgrade rally . The $1,000 level now represents an important psychological recovery threshold, with a sustained move above $1,050 potentially improving short-term sentiment. On the downside, continued selling could bring $950 and eventually $900 into focus, although these are conditional scenarios rather than confirmed targets. The privacy cryptocurrency market remains sensitive to changing risk appetite, particularly after hotter-than-expected US inflation revived concerns about additional Federal Reserve tightening.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|ZEC|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "76942952",
+      "guid": "https://coinpedia.org/?p=590377",
+      "published_on": 1794405161,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Payward Just Took 200+ UK and EU Stocks Onchain, Hong Kong Is Next",
+      "url": "https://coinpedia.org/news/payward-just-took-200-uk-and-eu-stocks-onchain-hong-kong-is-next/",
+      "body": "The post Payward Just Took 200+ UK and EU Stocks Onchain, Hong Kong Is Next appeared first on Coinpedia Fintech News Kraken parent firm Payward has confirmed that it is expanding its xStocks platform with more than 200 UK and EU-listed companies, taking its tokenized stock offering beyond U.S. markets. The move comes as the platform crosses $1.1 billion in assets under management. But how much further does Payward plan to expand its reach in global …",
+      "tags": "News|Crypto news",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|EXCHANGE|MARKET|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "76941624",
+      "guid": "https://en.coinotag.com/anthropic-ipo-range-64-4-billion",
+      "published_on": 1794405116,
+      "imageurl": "https://resources.cryptocompare.com/news/77/76941624.jpeg",
+      "title": "Anthropic Sets $70-$78 IPO Range to Raise Up to $64.4 Billion",
+      "url": "https://en.coinotag.com/anthropic-ipo-range-64-4-billion",
+      "body": "Anthropic set its IPO range at $70 to $78 a share to raise up to $64.4 billion, with pricing on Nov 18 and Nasdaq trading under ANT on Nov 19.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "TRADING",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "76942951",
+      "guid": "https://coinpedia.org/?p=590378",
+      "published_on": 1794405112,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "QQQ Stock: Is QQQ Headed For A 50% Drop From Its Peak?",
+      "url": "https://coinpedia.org/crypto-live-news/qqq-stock-is-qqq-headed-for-a-50-drop-from-its-peak/",
+      "body": "The post QQQ Stock: Is QQQ Headed For A 50% Drop From Its Peak? appeared first on Coinpedia Fintech News The Invesco QQQ Trust could drop as much as 40% from current levels if the AI trade keeps unwinding, according to Barchart columnist Rob Isbitts. QQQ traded near $675 on Wednesday morning, already about 12% below its all-time high. Isbitts sees two key downside zones on the weekly chart. A break below current support could …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "76940736",
+      "guid": "https://coinpaper.com/38672/ethereum-price-prediction-can-eth-reclaim-2-200-as-etf-selling-nearly-disappears",
+      "published_on": 1794404953,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Ethereum Price Prediction: Can ETH Reclaim $2,200 as ETF Selling Nearly Disappears?",
+      "url": "https://coinpaper.com/38672/ethereum-price-prediction-can-eth-reclaim-2-200-as-etf-selling-nearly-disappears",
+      "body": "Key takeaways Ethereum approaches $2,000 as selling pressure persists BlackRock ETHA withdrawals pause after $119 million outflow A 20% recovery could bring $2,500 closer Ethereum is trading near $2,055 on November 11 as investors assess whether a sharp slowdown in US spot Ethereum ETF withdrawals could help the cryptocurrency recover from its latest selloff. ETH has declined approximately 15% over the past week, with prices briefly approaching $2,000 during Tuesday's trading session. The weakness extends an earlier Ethereum support breakdown , leaving traders watching for signs that institutional selling is beginning to ease. Ethereum Price Prediction: Could ETH Rally 20% Toward $2,500? Ethereum's immediate challenge is defending the psychological $2,000 support level after Tuesday's decline brought ETH close to that threshold. A sustained recovery above $2,100 could strengthen short-term momentum, potentially opening the way toward $2,200 and $2,300. Beyond those levels, $2,450–$2,500 represents the next important recovery region. From approximately $2,055, reaching $2,500 would require a gain of 21.7%, making it a potential target for a roughly 20% rebound. However, the cryptocurrency previously struggled to maintain its November recovery near $2,400–$2,500, suggesting buyers may face renewed resistance. On the downside, a decisive break below $2,000 could expose $1,950, followed by a deeper scenario around $1,900. These levels represent conditional scenarios rather than guaranteed price targets. BlackRock Ethereum ETF Outflows Suddenly Slow Institutional selling showed a notable change on November 10. According to Farside Investors , US spot Ethereum ETFs recorded approximately $1.3 million in net outflows, compared with $184.6 million the previous session. That represents a reduction of more than 99% in daily net withdrawals. BlackRock's ETHA, which experienced $119.3 million in outflows on November 9, recorded no net flow on November 10. Meanwhile, BlackRock's separate ETHB product attracted approximately $1.1 million, partially offsetting withdrawals from other funds. The improvement contrasts with the previous ETF selloff , when BlackRock's products accounted for most of the industry's withdrawals. Can Institutional Demand Support a Lasting ETH Recovery? The slowdown in ETF withdrawals provides a potential stabilization signal, but it does not establish that institutional demand has returned. October's $1.61 billion ETF exodus demonstrated how quickly investor sentiment can deteriorate, even as Ethereum continues developing its institutional infrastructure. The network also faces uncertainty surrounding its upcoming Glamsterdam upgrade, with developers delaying further testing after identifying potential smart-contract compatibility problems. Those concerns introduce another variable into Ethereum's longer-term recovery outlook , although there is no confirmed evidence that the delays caused the latest price decline. Earlier Glamsterdam forecasts emphasized the upgrade's potential scaling benefits, but its activation schedule remains uncertain.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|ETH|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    },
+    {
+      "id": "76940828",
+      "guid": "https://coinpedia.org/?p=590375",
+      "published_on": 1794404681,
+      "imageurl": "https://images.cryptocompare.com/news/default/coinpedia.png",
+      "title": "Google Stock News: Cloud Revenue Doubles To $30.7 Billion As Alphabet Gains Favour",
+      "url": "https://coinpedia.org/crypto-live-news/google-stock-news-cloud-revenue-doubles-to-30-7-billion-as-alphabet-gains-favour/",
+      "body": "The post Google Stock News: Cloud Revenue Doubles To $30.7 Billion As Alphabet Gains Favour appeared first on Coinpedia Fintech News Alphabet is emerging as a favoured pick for investors seeking AI exposure with less risk, according to a Motley Fool analysis comparing it with cloud computing firm CoreWeave. The case rests on Alphabet’s broad business base. Google Search, YouTube and Google Cloud give the company several sources of income and a huge user base through …",
+      "tags": "Short News|Stock Market",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET",
+      "source_info": {
+        "name": "coinpedia",
+        "img": "https://images.cryptocompare.com/news/default/coinpedia.png",
+        "lang": "EN"
+      },
+      "source": "coinpedia"
+    },
+    {
+      "id": "76940388",
+      "guid": "https://en.coin-turk.com/?p=257509",
+      "published_on": 1794404676,
+      "imageurl": "https://resources.cryptocompare.com/news/79/76940388.jpeg",
+      "title": "Binance urges XRP holders to update iOS after major security flaw detected",
+      "url": "https://en.coin-turk.com/binance-urges-xrp-holders-to-update-ios-after-major-security-flaw-detected/?utm_source=rss&utm_medium=rss&utm_campaign=binance-urges-xrp-holders-to-update-ios-after-major-security-flaw-detected",
+      "body": "🚨 Binance warns $XRP holders to update iOS or risk losing their crypto funds. 🔒 A major flaw in Apple’s iOS exposed private keys to malicious apps. 📱 The alert follows recent multi-billion dollar security breaches at major exchanges. Continue Reading: Binance urges XRP holders to update iOS after major security flaw detected The post Binance urges XRP holders to update iOS after major security flaw detected appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|XRP|BNB|CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "76940384",
+      "guid": "https://coinpaper.com/38670/bitcoin-price-prediction-what-happens-if-btc-breaks-below-73-000",
+      "published_on": 1794404580,
+      "imageurl": "https://resources.cryptocompare.com/news/93/default.png",
+      "title": "Bitcoin Price Prediction: What Happens if BTC Breaks Below $73,000?",
+      "url": "https://coinpaper.com/38670/bitcoin-price-prediction-what-happens-if-btc-breaks-below-73-000",
+      "body": "Key takeaways Bitcoin tests $73,000 after hotter US inflation Spot Bitcoin ETFs record four consecutive outflow sessions Losing recent support could expose the $70,000 level BTC traded around $73,974 on Wednesday, following a volatile session that briefly pushed prices toward $72,700. The latest decline extends November's Bitcoin market correction , which has left traders increasingly focused on whether the $73,000 region can withstand further selling. Bitcoin Price Prediction: Can $73,000 Support Hold? Bitcoin's short-term price structure remains fragile after sellers pushed BTC below several previously important support levels. The $72,700-$73,200 region is now a key area to monitor, combining recent trading lows with the approximate location of Bitcoin's 200-day moving average. A sustained recovery above $74,500 could improve near-term momentum, although buyers would still need to reclaim $75,000–$76,000 before establishing a stronger reversal. Breaking that resistance could bring $78,000 into focus, followed by the psychologically important $80,000 level. However, the downside scenario remains significant. If Bitcoin falls decisively below $72,700, sellers could target $72,000 before testing $70,000. From approximately $74,000, that would represent another decline of 5.4%. The bearish scenario would become more concerning if renewed long liquidations accelerate the downward move. Bitcoin ETFs Lose $1.14 Billion in Four Trading Sessions Institutional demand continues to present another obstacle to Bitcoin's recovery. According to Farside Investors , US spot Bitcoin ETFs recorded $95 million in net outflows on November 10, extending their withdrawal streak to four consecutive trading sessions. BlackRock's IBIT lost $78.2 million, while Fidelity's FBTC recorded $36.8 million in withdrawals. The latest figures followed outflows of $430.2 million on November 5, $411.9 million on November 6 and $201 million on November 9. Combined withdrawals reached approximately $1.14 billion across those four sessions, continuing the institutional selling pressure that has complicated Bitcoin's attempts to stabilize. However, daily net outflows slowed considerably from the previous sessions, leaving open the possibility that selling pressure could moderate. Hot Inflation Raises Questions About the Fed's Next Move Bitcoin's weakness also follows the latest US inflation report. The Bureau of Labor Statistics reported that consumer prices increased 0.4% in October, while core inflation rose 0.3%. The figures strengthened expectations that the Federal Reserve could raise interest rates in December. Higher interest rates typically make lower-risk dollar-denominated assets more attractive while increasing financing costs, potentially pressuring cryptocurrencies and technology stocks. The inflation surprise has therefore complicated Bitcoin's broader recovery outlook , particularly as Treasury yields and the dollar remain elevated. Although BTC has previously recovered from substantial corrections, the latest market conditions suggest investors are not yet prepared to price in a sustained return toward previous highs.",
+      "tags": "News|Crypto",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Coinpaper",
+        "img": "https://resources.cryptocompare.com/news/93/default.png",
+        "lang": "EN"
+      },
+      "source": "coinpaper"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1794404249,
+    "time_range_start": "2026-11-11 13:37:29",
+    "time_range_end": "2026-11-11 14:37:29"
+  }
+}
