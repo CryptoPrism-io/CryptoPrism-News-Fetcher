@@ -1,0 +1,412 @@
+{
+  "Type": 100,
+  "Message": "News from last 1 hour(s)",
+  "Data": [
+    {
+      "id": "77097896",
+      "guid": "https://www.cryptopolitan.com/?p=325527",
+      "published_on": 1794580883,
+      "imageurl": "https://resources.cryptocompare.com/news/43/77097896.jpeg",
+      "title": "Thailand SEC suggests $148,000 cap on stablecoin transfers",
+      "url": "https://www.cryptopolitan.com/thailand-sec-148000-stablecoin-transfer-cap/",
+      "body": "Thailand’s securities regulator plans to limit stablecoin deposits and withdrawals to 5 million baht (about $148,000) per customer each day on each licensed crypto platform. The plan aims to stop money laundering, and people can give their opinions on it until November 26. The proposed 5 million baht limit would apply separately to deposits and withdrawals. The plan would let customers deposit and withdraw up to 5 million baht each per day on the same licensed crypto platform. This means someone with accounts on several Thai crypto platforms would get a new daily limit on each one. The limit would also not apply when customers send stablecoins between their own accounts on two licensed Thai crypto platforms. However, both platforms must follow the Travel Rule, which requires them to share information about who is sending and receiving the funds. According to Stablecoin Insider, the limits would mainly affect people sending stablecoins from licensed Thai platforms to foreign exchanges or crypto wallets they control themselves. Only personal wallets allowed The plan would also limit who customers can send stablecoins to or receive them from . Customers could only deposit or withdraw stablecoins using accounts or wallets confirmed to be their own. Sending money to or receiving using third-parties would not be allowed. Licensed crypto platforms would have to check their customers and watch how money moves through their services. They would also need to find accounts used for illegal payments and use blockchain tools to track transfers linked to suspicious crypto wallets. Thailand’s SEC also wants to make sure customers are not moving more money than their income and financial situation would suggest. However, the rules would not apply when people send crypto directly to each other without using a licensed platform. New limits on market makers and brokers The plan would also bring new rules for crypto exchanges and brokers. Exchanges would have to name the market makers they work with. They would also be required to name which cryptocurrencies they help people trade. Market makers help people buy and sell crypto more easily. However, brokers would no longer be allowed to use outside firms to help with trading between stablecoins and the Thai baht. Trades arranged by brokers and dealers outside exchanges would have to be worth at least 3 million baht (about $88,500). Their prices would also have to be made public. Some transactions would not be affected by the daily limit. These include transfers companies make for their own business and trades by market makers. Payments or refunds for new token sales through SEC-approved ICO platforms are also included. The limit would also not apply to certain transactions approved by the Bank of Thailand. Building on September hearing Thailand’s SEC first asked for public views on the proposed rules on September 11, 2026, according to Stablecoin Insider. The latest plan keeps the main rules but adds one change. People who use stablecoins to buy new tokens through SEC-approved ICO platforms would not face the daily limit. The same applies to refunds from these sales. This means the payments would not count toward their normal daily limit. The Thailand SEC said the rules are meant to stop people from using crypto for money laundering, online crimes or illegal money transfers between countries. Thai authorities have already taken steps to deal with these problems, including using computer tools to look for unusual USDT trades. The new rules are slated to begin 60 days after the final announcement. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|Stablecoins|Thailand",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|MARKET|REGULATION|TOKEN SALE|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "77097571",
+      "guid": "https://blog.kraken.com/?p=37351",
+      "published_on": 1794580722,
+      "imageurl": "https://resources.cryptocompare.com/news/98/default.png",
+      "title": "PEARL is available for trading!",
+      "url": "https://blog.kraken.com/product/asset-listings/pearl-is-available-for-trading",
+      "body": "We’re thrilled to announce that PEARL is available for trading on Kraken! Funding and trading PEARL trading is live as of Nov. 13, 2026. To add an asset to your Kraken account, navigate to Funding, select the asset you’re after, and hit ‘Deposit’. Make sure to deposit your tokens into networks supported by Kraken. Deposits made using other networks will be lost. Trade PEARL on Kraken Here’s some more information about this asset : Pearl (PEARL) Pearl (PEARL) is the native coin of the Pearl network, a Layer 1 blockchain secured by Proof of Useful Work. Instead of hashing, Pearl miners perform matrix multiplication, the core GPU operation behind AI training and inference, so a mining proof can be produced from the same computation a GPU is already running. New PEARL is issued as block rewards, together with transaction fees, to miners who find valid blocks. Please note: Trading via Kraken App and Instant Buy will be available once the liquidity conditions are met (when a sufficient number of buyers and sellers have entered the market for their orders to be efficiently matched). Geographic restrictions may apply Get started with Kraken Will Kraken make more assets available? Yes! But our policy is to never reveal any details until shortly before launch – including which assets we are considering. All of Kraken’s available tokens can be found here , and all future tokens will be announced on our Listings Roadmap and social media profiles . Our client engagement specialists cannot answer any questions about which assets we may be making available in the future. The post PEARL is available for trading! appeared first on Kraken Blog .",
+      "tags": "Asset Listings|Kraken|trading",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BLOCKCHAIN|EXCHANGE|MINING|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Kraken Blog",
+        "img": "https://resources.cryptocompare.com/news/98/default.png",
+        "lang": "EN"
+      },
+      "source": "krakenblog"
+    },
+    {
+      "id": "77097570",
+      "guid": "https://en.coin-turk.com/?p=257903",
+      "published_on": 1794580713,
+      "imageurl": "https://resources.cryptocompare.com/news/79/77097570.jpeg",
+      "title": "US PPI report to test Bitcoin, gold and Nasdaq as December rate hike looms",
+      "url": "https://en.coin-turk.com/us-ppi-report-to-test-bitcoin-gold-and-nasdaq-as-december-rate-hike-looms/?utm_source=rss&utm_medium=rss&utm_campaign=us-ppi-report-to-test-bitcoin-gold-and-nasdaq-as-december-rate-hike-looms",
+      "body": "📉 US PPI data arrives as $BTC and gold face new inflation risks. 📊 Bitcoin trades below $70,000 amid higher rate expectations and leveraged outflows. 📰 US producer inflation outlook drives market sentiment ahead of the December Fed decision. Continue Reading: US PPI report to test Bitcoin, gold and Nasdaq as December rate hike looms The post US PPI report to test Bitcoin, gold and Nasdaq as December rate hike looms appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|FIAT|BTG|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "77097284",
+      "guid": "https://news.bitcoin.com/?p=863132",
+      "published_on": 1794580256,
+      "imageurl": "https://resources.cryptocompare.com/news/14/77097284.jpeg",
+      "title": "Safepal Hardware Wallet Users Receive Fake Security Alerts in the Mail",
+      "url": "https://news.bitcoin.com/security/safepal-hardware-wallet-users-receive-fake-security-alerts-mail/",
+      "body": "Safepal customers in Italy are reportedly being targeted by a sophisticated phishing campaign involving fraudulent letters containing personalized QR codes and false firmware security warnings. Fraudulent Letters Exploit Compromised Data to Spread Phishing Scam Italian customers of cryptocurrency hardware wallet maker Safepal are reportedly receiving fraudulent letters at their home addresses as part of an",
+      "tags": "Security|cybersecurity|Italy|Theft|Wallets",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY|SECURITY INCIDENTS",
+      "source_info": {
+        "name": "Bitcoin.com",
+        "img": "https://images.cryptocompare.com/news/default/bitcoincom.png",
+        "lang": "EN"
+      },
+      "source": "bitcoin.com"
+    },
+    {
+      "id": "77097171",
+      "guid": "https://en.coin-turk.com/?p=257902",
+      "published_on": 1794579993,
+      "imageurl": "https://resources.cryptocompare.com/news/79/77097171.jpeg",
+      "title": "Grayscale says Bitcoin now explains just 30% of sector price swings",
+      "url": "https://en.coin-turk.com/grayscale-says-bitcoin-now-explains-just-30yuzde-of-sector-price-swings/?utm_source=rss&utm_medium=rss&utm_campaign=grayscale-says-bitcoin-now-explains-just-30yuzde-of-sector-price-swings",
+      "body": "📊 Bitcoin now explains just 30% of returns for some crypto sectors, Grayscale reports. 🪙 $BTC volatility has dropped, but all crypto sectors remain more volatile than Bitcoin. 📉 Crypto market leadership is rotating, with altcoins often outperforming Bitcoin. Continue Reading: Grayscale says Bitcoin now explains just 30% of sector price swings The post Grayscale says Bitcoin now explains just 30% of sector price swings appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BTC|MARKET|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "77096678",
+      "guid": "https://en.coin-turk.com/?p=257900",
+      "published_on": 1794579453,
+      "imageurl": "https://resources.cryptocompare.com/news/79/77096678.jpeg",
+      "title": "US core PPI rises 0.3%, Bitcoin price climbs above $69,900",
+      "url": "https://en.coin-turk.com/us-core-ppi-rises-0-3yuzde-bitcoin-price-climbs-above-69900/?utm_source=rss&utm_medium=rss&utm_campaign=us-core-ppi-rises-0-3yuzde-bitcoin-price-climbs-above-69900",
+      "body": "📈 US May core PPI rises 0.3%, sending $BTC above $69,900. 🟢 Bitcoin climbed after inflation data matched expectations. 🔍 Fed rate outlook and slower inflation shape crypto market sentiment. Continue Reading: US core PPI rises 0.3%, Bitcoin price climbs above $69,900 The post US core PPI rises 0.3%, Bitcoin price climbs above $69,900 appeared first on COINTURK NEWS .",
+      "tags": "Economy",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|MARKET|TRADING|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "77096569",
+      "guid": "https://en.bitcoinsistemi.com/the-big-whale-who-causes-ethereum-declines-with-every-sale-sells-again-other-whales-panic-millions-o/",
+      "published_on": 1794579370,
+      "imageurl": "https://resources.cryptocompare.com/news/81/77096569.jpeg",
+      "title": "The Big Whale Who Causes Ethereum Declines with Every Sale Sells Again! Other Whales Panic: “Millions of Dollars Worth of Positions Wiped Out in Bitcoin and Alt...",
+      "url": "https://en.bitcoinsistemi.com/the-big-whale-who-causes-ethereum-declines-with-every-sale-sells-again-other-whales-panic-millions-o/",
+      "body": "Selling pressure on Bitcoin and altcoins continues. BTC has fallen below $70,000 for the first time in months, while altcoins, particularly Ethereum, have also experienced sharp declines. Bitcoin has fallen 8.8% in the last week to $69,000, Ethereum has dropped 12.5% to $1,950, XRP has fallen 14.2% to $1.02, and Solana has fallen 10% to $80. While market activity continued after these declines, transfers made by whale wallets also attracted attention. According to Lookonchain’s report, an Ethereum Foundation-linked wallet initially made a large sell-off when Ethereum fell below $2,000. Specifically, wallet address “0x5CBC” sold 2,000 ETH (worth $3.87 million). It was stated that this account has been selling since October 12th, and each time ETH is sold, the price drops. “On October 12th, they sold, ETH dropped by 9%; on October 26th, ETH dropped by 7.7%; on November 10th, ETH dropped by 10.4%; and finally, today was the 4th sale.” Besides the Ethereum Foundation, an anonymous whale address starting with 0xBE4 also sold 16,700 ETH worth $32.3 million in a single transaction. Lookonchain noted that this address had bought 8,631 ETH ($23.7 million) at $2,749 about a month ago due to FOMO, highlighting that it was a victim of the “buy high, sell low” tactic. Another whale with a 100% win rate, “0xe813,” is currently at a loss of $7.3 million on its long position in ETH. According to Lookonchain, this whale won all of its previous 10 trades, making a profit of $6.32 million. However, this single trade wiped out all its previous profits, putting it in a loss overall. Lookonchain recently noted that even hackers panicked and sold ETH as the market crashed. According to them, one wallet bought 1,500 ETH from Tornado Cash and then sold 1,499 ETH at $1,998. Lookonchain reported that whales were liquidating one after another as the market crashed. Accordingly, four whales were liquidated, each losing more than $10 million, and positions totaling $143.89 million were wiped out. “Wallet 0x6046 – 12,742 ETH ($25.2M) and 536.89 BTC ($38.77M) Wallet 0x01e2 – 511 BTC ($36.4M) Wallet 0x5f91 – 357.09 BTC ($25.15M) Wallet 0x4a20 – 112,176 SOL ($9M), 82.66 BTC ($5.85M) and 1,771.2 ETH ($3.52M)” The market downturn also negatively impacted Tron founder Justin Sun. Accordingly, Sun’s unrealized profit on his PEPE position dropped to $5.048 million. Specifically, the cryptocurrency market crash over the past two days caused Justin Sun’s unrealized profit on PEPE assets to fall from a peak of $18.55 million to $5.048 million. *This is not investment advice. Continue Reading: The Big Whale Who Causes Ethereum Declines with Every Sale Sells Again! Other Whales Panic: “Millions of Dollars Worth of Positions Wiped Out in Bitcoin and Altcoins!”",
+      "tags": "Altcoin|Bitcoin|Ethereum|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ALTCOIN|BTC|ETH|ZRX|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "BitcoinSistemi",
+        "img": "https://resources.cryptocompare.com/news/81/default.png",
+        "lang": "EN"
+      },
+      "source": "bitcoinsistemi"
+    },
+    {
+      "id": "77096145",
+      "guid": "https://en.coin-turk.com/?p=257894",
+      "published_on": 1794578853,
+      "imageurl": "https://resources.cryptocompare.com/news/79/77096145.jpeg",
+      "title": "Anthony Pompliano urges Bitcoin investors to stay calm as BTC retests $67,000 low",
+      "url": "https://en.coin-turk.com/anthony-pompliano-urges-bitcoin-investors-to-stay-calm-as-btc-retests-67000-low/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-pompliano-urges-bitcoin-investors-to-stay-calm-as-btc-retests-67000-low",
+      "body": "🚨 $BTC falls 5% to $67,000, hitting a three-month low. 💬 Anthony Pompliano calls for calm, linking Bitcoin's prospects to trends in AI. 📉 Volatility raises debate on whether this is a correction or a temporary dip. Continue Reading: Anthony Pompliano urges Bitcoin investors to stay calm as BTC retests $67,000 low The post Anthony Pompliano urges Bitcoin investors to stay calm as BTC retests $67,000 low appeared first on COINTURK NEWS .",
+      "tags": "Bitcoin (BTC)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "77095833",
+      "guid": "https://cryptopotato.com/?p=1453684",
+      "published_on": 1794578522,
+      "imageurl": "https://resources.cryptocompare.com/news/27/77095833.jpeg",
+      "title": "Can Ripple (XRP) Lose Another 20%: The Key Level to Watch",
+      "url": "https://cryptopotato.com/can-ripple-xrp-lose-another-20-the-key-level-to-watch/",
+      "body": "Bears have firmly retaken control over the past several days, dragging the cryptocurrency market back into a sea of red. The sell-off appears driven by hotter-than-expected US inflation and shockwaves from Nvidia, where longtime CEO Jensen Huang stepped down amid a swirling love scandal. Ripple’s XRP didn’t escape the downturn, with its price tumbling 15% in a week and temporarily dipping below the $1 psychological level. And while investors hope for a quick resurgence, one popular analyst warned the pullback may intensify in the near future. More Pain Ahead? Earlier this month, Ali Martinez claimed that XRP has been trading inside a certain channel and has broken below the mid-range support at around $1.29. That said, he shifted his attention to the structure’s lower boundary near $0.99 as the next potential support level. Just a few hours ago, the analyst said Ripple’s cross-border token has completed a full reversal toward the channel’s floor. He stressed the importance of holding the $0.99 mark, as losing it could trigger an extended correction toward $0.80. The waning institutional appetite signals that the pullback may indeed intensify in the short term. Spot XRP ETFs, which turned into a ghost town last week, have registered significant outflows in the past few days. This means that pension funds, hedge funds, and other risk-averse institutions have scaled back their exposure to the token, leaving little fuel for a strong recovery. Meanwhile, the XRP Army is still digesting David Schwartz’s revelation. The former Ripple CTO and one of the most influential figures in the entity’s history said he hasn’t bought XRP in a long time and has sold nearly all the digital assets he’s ever held because he is uncomfortable with risk. The admission has sparked fierce backlash from the community, with many calling it a painful contradiction. After all, in theory, Schwartz should be among the people most aware of XRP’s use cases, and his sell-off comes as a surprise. The Bullish Signals However, not all is doom and gloom. XRP’s Relative Strength Index (RSI), for example, recently plunged to around 21, its lowest level since June. This means the asset has entered deep oversold territory and could be gearing up for a price revival. XRP RSI, Source: CryptoWaves The behavior of the big investors is another ray of hope. Unlike BTC and ETH whales who have offloaded massive amounts of crypto lately, those holding XRP have increased their exposure. As CryptoPotato reported , they have scooped up roughly 65.32 million units in just four days, signaling strong conviction and potentially laying the groundwork for a relief rally. The post Can Ripple (XRP) Lose Another 20%: The Key Level to Watch appeared first on CryptoPotato .",
+      "tags": "Crypto Bits|Crypto News|Ripple (XRP) Price",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET|TRADING|XRP|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Crypto Potato",
+        "img": "https://images.cryptocompare.com/news/default/cryptopotato.png",
+        "lang": "EN"
+      },
+      "source": "cryptopotato"
+    },
+    {
+      "id": "77095924",
+      "guid": "dbe8d728-57ca-4b7e-94cb-c57266d8227f",
+      "published_on": 1794578520,
+      "imageurl": "https://resources.cryptocompare.com/news/5/77095924.jpeg",
+      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
+      "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
+      "body": "While earnings and the company’s newly introduced financial performance measure remained below year-earlier levels, there are signs of improvement from the second quarter.",
+      "tags": "Finance|Payward|Kraken|Earnings|News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|EXCHANGE|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinDesk",
+        "img": "https://resources.cryptocompare.com/news/5/default.png",
+        "lang": "EN"
+      },
+      "source": "coindesk"
+    },
+    {
+      "id": "77096027",
+      "guid": "https://www.cryptopolitan.com/?p=325519",
+      "published_on": 1794578499,
+      "imageurl": "https://resources.cryptocompare.com/news/43/77096027.jpeg",
+      "title": "Be the board: Durov jokes about Jensen Huang's Nvidia exit",
+      "url": "https://www.cryptopolitan.com/telegram-durov-jensen-huang-exit-nvidia/",
+      "body": "Pavel Durov shared tongue-in-cheek advice for founders to “be the board” in a Friday post in which the Telegram founder compared the Nvidia board’s acceptance of Jensen Huang’s resignation with his own board-led ousting at VKontakte in 2014. Durov has had an eventful week attempting to find the humor in Jensen Huang’s situation at Nvidia, joking in a November 11 X post why French, Russian and Iranian spy agencies have never sent him a honeypot. Unfair that CEOs who aren’t into Asian girls get fewer dating options from spy agencies. Where are the French/Russian/Iranian honeypots? Not one spy girl sent my way. Are they even trying? France is excused — their decision-makers aren’t into girls. Everyone else: try harder! — Pavel Durov (@durov) November 11, 2026 His latest post about the episode fingers company boards as the problem in a loose comparison of Durov’s 2014 departure from VKontakte and Huang’s 2026 Nvidia exit. The board gets you either way Posting to the over 10 million subscribers on his Telegram channel, Durov wrote on Friday: “In 2014, my board kicked me out for saying no to spies. In 2026, Jensen’s board kicked him out for saying yes to one. So the board gets you either way.” Pavel Durov’s November 13 post joking about Jensen Huang’s board “rookie mistake.” Source: Pavel Durov via Telegram. Durov joked that Huang made the “rookie mistake” of having a board in the first place. The Russian-born founder ended the post with advice for founders to “be the board.” By that logic, there will be no one to force them out or even accept their resignation. What did Durov’s board do to him in 2014? According to The Moscow Times, Durov sold his 12% stake in the VKontakte social network to MegaFon chief executive Ivan Tavrin in January 2014. The sale came after he reportedly said no to the Federal Security Service of the Russian Federation (FSB) when it demanded the personal data of members of a group tied to Ukraine’s Euromaidan protests. The episode ended with Durov leaving Russia, and the company coming under the control of Mail.ru and United Capital Partners, owners with links to the Kremlin. In his case, Durov said “no to spies” when Russia’s security service asked him to hand over protest data. More than a decade later, it became the hook for his joke. Notably, in Jensen Huang’s case, he resigned from his position as president, chief executive and director, according to Nvidia’s Form 8-K . The board only accepted his resignation. Colette Kress, who had served as the company’s CFO since 2013, was promoted to interim CEO . Harvey Jones will now fill the board chair role, moved up from the director seat he has held since 1993. The resignation ended 33 years of Huang leadership at the company he co-founded in 1993 and built into the multi-trillion-dollar firm at the head of the AI buildout, Cryptopolitan reported. The stock dropped 10% before the opening bell after news of his exit broke. The espionage link is still unproven The second half of Durov’s joke, “saying yes to one” spy, has not been completely confirmed as fact. Huang has acknowledged and apologized for his extramarital relationship with Alice Huang, a former executive at Megaspeed, a Singapore-based data center firm. US intelligence agencies suspect the woman Huang of ties to China’s Ministry of State Security, although Beijing continues to deny those claims. Jensen Huang has insisted that he did not share any company secrets or compromise US national security. Durov has his troubled history with French authorities. He was arrested in France in 2024 over Telegram’s content moderation and has clashed repeatedly with Russian authorities even after leaving the country. The smartest crypto minds already read our newsletter. Want in? Join them .",
+      "tags": "News|Megaspeed|NVDA|Telegram",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    },
+    {
+      "id": "77095837",
+      "guid": "https://en.coin-turk.com/?p=257893",
+      "published_on": 1794578493,
+      "imageurl": "https://resources.cryptocompare.com/news/79/77095837.jpeg",
+      "title": "Coinbase to suspend 12 trading pairs including ADA/ETH and XLM/BTC",
+      "url": "https://en.coin-turk.com/coinbase-to-suspend-12-trading-pairs-including-ada-eth-and-xlm-btc/?utm_source=rss&utm_medium=rss&utm_campaign=coinbase-to-suspend-12-trading-pairs-including-ada-eth-and-xlm-btc",
+      "body": "🔥 Coinbase to suspend 12 trading pairs like ADA/ETH and XLM/BTC on November 25. 🔔 Most suspended pairs are non-USD, but withdrawals remain available for users. 🚀 New spot and perpetual futures launches for PEARL, GRAM, QNT, and more this November. Continue Reading: Coinbase to suspend 12 trading pairs including ADA/ETH and XLM/BTC The post Coinbase to suspend 12 trading pairs including ADA/ETH and XLM/BTC appeared first on COINTURK NEWS .",
+      "tags": "Coinbase",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|TRADING|QNT|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "77096551",
+      "guid": "https://en.coinotag.com/kraken-parent-payward-q3-ebitda-down-67-percent",
+      "published_on": 1794578487,
+      "imageurl": "https://resources.cryptocompare.com/news/77/77096551.jpeg",
+      "title": "Kraken Parent Payward Posts $60M Q3 EBITDA, Down 67% Year on Year",
+      "url": "https://en.coinotag.com/kraken-parent-payward-q3-ebitda-down-67-percent",
+      "body": "Payward, the Wyoming-based parent company of crypto exchange Kraken, posted $60 million in adjusted earnings before interest, taxes, depreciation and…",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "EXCHANGE|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "77095829",
+      "guid": "https://timestabloid.com/?p=114497",
+      "published_on": 1794578405,
+      "imageurl": "https://resources.cryptocompare.com/news/67/default.png",
+      "title": "Dark Defender Says It’s Time for XRP Price Reversal. Here’s why",
+      "url": "https://timestabloid.com/dark-defender-says-its-time-for-xrp-price-reversal-heres-why/",
+      "body": "Crypto analyst Dark Defender (@DefendDark) has identified a critical technical setup in XRP. The analysis aligns price structure, Fibonacci levels, and momentum indicators into a single convergence point. The analyst believes XRP has bottomed and has no further downside before a reversal. Wave 2 Completes At Long-Term Support XRP’s most recent chapter began in August, when the asset surged approximately 50% in just 65 hours , peaking at $1.68. That move completed Wave 5 of the prior bullish impulse. What followed was Wave 2, a corrective pullback that has dragged price down to a low of $0.9852. Dark Defender sees that low as the completion of Wave 2, with the asset now sitting on a long-term support curve that has held through multiple cycles. The current price sits at $1.0533. #XRP hit its lowest possible point, as always. Daily RSI is at its lowest point; oversold! Time for a reversal, towards $1.12 first. Enjoy your day. pic.twitter.com/IWQH0nCDOP — Dark Defender (@DefendDark) November 12, 2026 RSI Hits Oversold Territory The daily RSI reading of 33.22 strengthens the case. Dark Defender circled both the price action and the RSI simultaneously, highlighting the confluence between structural support and momentum exhaustion. The RSI is approaching oversold levels that have historically preceded reversals in XRP The Initial Targets Dark Defender’s first target is $1.12, the 23.6% Fibonacci retracement level. He identified this as the opening leg of the reversal. “Time for a reversal, towards $1.12 first,” he wrote. That level serves as the nearest confirmation point before attention shifts to higher Fibonacci extensions. From $1.12, the structure projects toward $1.29 at the 50% level, then $1.44 at 70.2%. Those two levels represent the mid-range of the anticipated Wave 3 move . Wave 3, in Elliott Wave theory, typically produces the strongest price expansion of any sequence. Extended Targets for XRP The upper Fibonacci extensions place significant targets well above current price. The 161.8% extension sits at $1.88, with the 200% extension at $2.90. Dark Defender’s chart projects those levels into early 2027, with the blue impulse trajectory pointing sharply higher once the breakout begins . What Next for XRP? The yellow long-term support curve, the Wave 2 structure, and the oversold RSI reading all arrive at the same point in time. The structure now calls for Wave 3 to begin. If the analysis holds, $1.12 is the first level to watch, with the larger move targeting $2.90 as the cycle extends through 2027. Disclaimer : This content is meant to inform and should not be considered financial advice. The views expressed in this article may include the author’s personal opinions and do not represent Times Tabloid’s opinion. Readers are advised to conduct thorough research before making any investment decisions. Any action taken by the reader is strictly at their own risk. Times Tabloid is not responsible for any financial losses. Follow us on X , Facebook , Telegram , and Google News The post Dark Defender Says It’s Time for XRP Price Reversal. Here’s why appeared first on Times Tabloid .",
+      "tags": "Cryptocurrency|News|XRP|XRP Price|XRP Price Analysis",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "MARKET|TRADING|XRP|RESEARCH|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "TimesTabloid",
+        "img": "https://resources.cryptocompare.com/news/67/default.png",
+        "lang": "EN"
+      },
+      "source": "timestabloid"
+    },
+    {
+      "id": "77095941",
+      "guid": "https://cryptonews.com/?p=517202",
+      "published_on": 1794578378,
+      "imageurl": "https://resources.cryptocompare.com/news/52/77095941.jpeg",
+      "title": "Ethereum Dancing on Two Fronts as Quantum Upgrade Advances and Treasury Leverage Bites",
+      "url": "https://cryptonews.com/news/ethereum-quantum-upgrade-btcs-aave-debt/",
+      "body": "Ethereum developers want to upgrade the network to be quantum-ready by 2027, potentially accelerating one of its biggest security overhauls. Nasdaq-listed BTCS has been selling ETH below its purchase price to manage $64.1 million in outstanding Aave debt. Both stories carry significant implications for Ethereum’s next growth phase. One could reshape its technical roadmap, while the other underscores the financial risks of treating ETH as collateral for aggressive DeFi strategies. Ethereum (ETH) 24h 7d 30d 1y All time Ethereum Quantum Upgrade Targets 2027 as AI Accelerates Security Concerns Ethereum research group Ethlabs wants developers to bring forward the network’s post-quantum security timeline to 2027. Its proposal, called pqai27, argues that advances in artificial intelligence are accelerating the risks surrounding quantum computing and existing cryptographic systems. The Ethereum quantum upgrade would aim to protect accounts, transactions, and network consensus against future quantum attacks. Ethlabs also wants Ethereum to become more resistant to AI-powered attacks that could expose vulnerabilities in its software. The proposal comes two years ahead of the Ethereum Foundation’s existing December 2029 target for full post-quantum readiness. Google has separately targeted 2029 for its own post-quantum transition, while the U.S. government has moved its quantum security deadline from 2035 to 2030. Ethlabs wants two milestones achieved during 2027. The first, called pqai-ready, would establish post-quantum consensus and give users a pathway toward quantum-resistant accounts. The second, pqai-scaled, would bring quantum-resistant transactions and data availability to full network capacity. Ethlabs proposal Getting there requires developers to rethink upcoming network upgrades. Ethlabs has already offered to withdraw its Quick Slots proposal from the planned Hegotá hard fork to redirect resources toward quantum security. Quick Slots would have reduced Ethereum’s block production interval from 12 seconds to 10 seconds. The group now wants to prioritize security and revisit faster block production in 2028. Frame Transactions, meanwhile, remain central to the proposed transition. They would allow accounts to use more flexible authentication methods, including signatures designed to resist quantum attacks. The Ethereum quantum upgrade could also change transaction economics, as Quantum-resistant signatures generally require more data, potentially increasing transaction costs and creating additional demands on wallet providers. Ethlabs is effectively asking Ethereum developers to prioritize long-term security over certain performance improvements. This is a shift in priorities as the network competes for institutional adoption and real-world financial activity. Discover: The Best Token Presales BTCS Sells ETH Below Cost as $64M Aave Debt Exposes Treasury Risks While Ethereum developers focus on future security, corporate ETH holders face a more immediate problem: leverage. BTCS disclosed in its latest quarterly filing that it sold ETH below its original purchase price to manage collateral levels and repay DeFi borrowings. As of today, the Nasdaq-listed company had $64.1 million in outstanding Aave debt, including accrued interest. It backed that borrowing with 46,676 ETH valued at $99.3 million. That left its collateral worth 155% of outstanding debt. Based on those figures, the position carried an estimated liquidation threshold near $1,717 per ETH. BTCS also reported $30.6 million in realized losses on digital asset transactions during the first nine months of 2026. The company attributed the increase primarily to ETH sales used to manage collateral and repay DeFi borrowings, alongside accounting losses from depositing ETH into liquidity pools. BTCS now owes @aave more than before it sold $ETH to cut that loan BTCS is a Nasdaq-listed company that keeps its treasury in $ETH and borrows against it on Aave in february it withdrew 10,000 $ETH of its collateral and sold it at a loss, cutting the loan from $62M to $44M… pic.twitter.com/kEos3XY705 — punkquidity (@punkquidity) November 13, 2026 The company did not disclose how much ETH it sold below cost or how much of its realized losses came directly from those sales. But its borrowing history reveals the scale of the strategy. Between January 2025 and November 11, 2026, BTCS borrowed $152.4 million in stablecoins through Aave, primarily USDT and GHO. It repaid $89.4 million over the same period. The company said no full or partial liquidation had occurred as of November 11. Nevertheless, the position illustrates the pressure that leveraged corporate treasury strategies can face when ETH prices fall. Borrowing against ETH creates additional capital opportunities, but declining collateral values can force companies to sell holdings or repay debt . Discover: The Crypto Presales This Q4 2026 The post Ethereum Dancing on Two Fronts as Quantum Upgrade Advances and Treasury Leverage Bites appeared first on Cryptonews .",
+      "tags": "Altcoin News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|REGULATION|DIGITAL ASSET TREASURY|MACROECONOMICS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "cryptonews",
+        "img": "https://images.cryptocompare.com/news/default/cryptonews.png",
+        "lang": "EN"
+      },
+      "source": "cryptonews"
+    },
+    {
+      "id": "77096318",
+      "guid": "https://en.coinotag.com/nakamoto-bitcoin-btc-options-losses-negative-q3-revenue",
+      "published_on": 1794578273,
+      "imageurl": "https://resources.cryptocompare.com/news/77/77096318.jpeg",
+      "title": "Nakamoto's Bitcoin (BTC) Options Losses Push Q3 Revenue to Negative $1.9M",
+      "url": "https://en.coinotag.com/nakamoto-bitcoin-btc-options-losses-negative-q3-revenue",
+      "body": "Nakamoto's Q3 operating revenue fell to negative $1.9 million on a $5.8 million Bitcoin options loss; net income of $85.5 million rests on a paper gain.",
+      "tags": "Crypto News",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BTC|BUSINESS|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinOtag",
+        "img": "https://resources.cryptocompare.com/news/77/default.png",
+        "lang": "EN"
+      },
+      "source": "coinotag"
+    },
+    {
+      "id": "77095562",
+      "guid": "https://decrypt.co/?p=383227",
+      "published_on": 1794578125,
+      "imageurl": "https://resources.cryptocompare.com/news/44/77095562.jpeg",
+      "title": "Crypto Laundering a 'Material Risk' for UK Ahead of FATF Review: RUSI",
+      "url": "https://decrypt.co/383227/crypto-laundering-a-material-risk-for-uk-ahead-of-fatf-review-rusi",
+      "body": "Assessors visit in June 2027, months before full crypto rules take effect, leaving the UK to prove it can enforce against crypto laundering.",
+      "tags": "||Coins",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Decrypt",
+        "img": "https://images.cryptocompare.com/news/default/decrypt.png",
+        "lang": "EN"
+      },
+      "source": "decrypt"
+    },
+    {
+      "id": "77095452",
+      "guid": "https://en.coin-turk.com/?p=257892",
+      "published_on": 1794577953,
+      "imageurl": "https://resources.cryptocompare.com/news/79/77095452.jpeg",
+      "title": "NVDA-USDC futures hit $2.14 billion daily volume on Hyperliquid, overtaking ETH and SOL",
+      "url": "https://en.coin-turk.com/nvda-usdc-futures-hit-2-14-billion-daily-volume-on-hyperliquid-overtaking-eth-and-sol/?utm_source=rss&utm_medium=rss&utm_campaign=nvda-usdc-futures-hit-2-14-billion-daily-volume-on-hyperliquid-overtaking-eth-and-sol",
+      "body": "🚨 NVDA-USDC futures on Hyperliquid hit $2.14 billion in daily trading volume, surpassing $ETH and $SOL. 📉 The surge followed Nvidia's CEO Jensen Huang stepping down as Colette Kress took over as interim CEO. 💥 Large liquidations and a marketwide downturn left traders facing $1.65 billion in 24h losses. Continue Reading: NVDA-USDC futures hit $2.14 billion daily volume on Hyperliquid, overtaking ETH and SOL The post NVDA-USDC futures hit $2.14 billion daily volume on Hyperliquid, overtaking ETH and SOL appeared first on COINTURK NEWS .",
+      "tags": "Ripple (XRP)",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ETH|SOL|TRADING|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "CoinTurk News",
+        "img": "https://resources.cryptocompare.com/news/79/default.png",
+        "lang": "EN"
+      },
+      "source": "cointurken"
+    },
+    {
+      "id": "77095361",
+      "guid": "https://seekingalpha.com/news/4672370-openworld-q3-gaap-eps-of--093-revenue-of-743m?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "published_on": 1794577938,
+      "imageurl": "https://resources.cryptocompare.com/news/50/77095361.jpeg",
+      "title": "OpenWorld Q3 GAAP EPS of -$0.93, revenue of $7.43M",
+      "url": "https://seekingalpha.com/news/4672370-openworld-q3-gaap-eps-of--093-revenue-of-743m?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+      "body": "More on OpenWorld, Inc. OpenWorld prices $3.5M registered direct offering Financial information for OpenWorld, Inc.",
+      "tags": "OPNW",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "BUSINESS|MARKET",
+      "source_info": {
+        "name": "Seeking Alpha",
+        "img": "https://images.cryptocompare.com/news/default/seekingalpha.png",
+        "lang": "EN"
+      },
+      "source": "seekingalpha"
+    },
+    {
+      "id": "77095472",
+      "guid": "https://www.cryptopolitan.com/?p=325515",
+      "published_on": 1794577715,
+      "imageurl": "https://resources.cryptocompare.com/news/43/77095472.jpeg",
+      "title": "Malaysia furthers probe into Megaspeed chip re-exportation",
+      "url": "https://www.cryptopolitan.com/malaysia-megaspeed-re-exported-nvidia-chips/",
+      "body": "Malaysia’s trade ministry said it has not cleared data center company Megaspeed or its local unit, Speedmatrix, of any wrongdoing. It is working with customs officials to find out whether Nvidia AI chips brought into Malaysia were later sent to other countries against the law. Malaysia’s Ministry of Investment, Trade and Industry (MITI) said on Friday that claims it had cleared Speedmatrix of any wrongdoing were incorrect. Speedmatrix rents space in Malaysian data centers, where it installs its own servers and AI chips, according to Reuters. The ministry said its visits to these facilities were only part of its regular checks and did not mean the company had been exonerated. Three days before MITI’s statement , Trade Minister Johari Abdul Ghani said Speedmatrix was not under investigation because there was no strong evidence against the company and no official request from another country. Import easier than re-export Companies do not need a license to bring AI chips into Malaysia. However, they must follow stricter rules when sending them to other countries. MITI and Malaysian customs officials are checking if companies linked to Megaspeed sent AI chips brought into Malaysia to other countries and whether they broke any rules. The ministry said Malaysia does not enforce export rules made by other countries. However, it expects companies doing business in Malaysia to be aware of those rules. Singapore and the US also investigate Singapore’s Ministry of Home Affairs also said on Thursday that it was still investigating Megaspeed and six people. Officials are checking whether servers sent through Singapore to Malaysia were later shipped to other countries without being properly reported. One of those being investigated is Alice Huang, the suspected Chinese spy in Nvidia CEO Jensen Huang’s infidelity scandal. On Friday, Malaysian Prime Minister Anwar Ibrahim said there was no sign that Megaspeed had sent Nvidia chips out of Malaysia. He also said Malaysia had not received any official request from Singapore or the US but was willing to help. Malaysia data center growth slows YTL Power, whose data center business works with Nvidia, has lost about 12.5% of its value equal to about 5.5 billion ringgit, since Tuesday. Investors are worried about the company’s ties to Megaspeed. Banks are waiting to see what action the US government takes before funding more data center projects. Banking executives told the newspaper that funding for about half of the planned projects is on hold, with some facing delays of up to six months. If you're reading this, you’re already ahead. Stay there with our newsletter .",
+      "tags": "News|Tech|Malaysia|Megaspeed|Nvidia",
+      "lang": "EN",
+      "upvotes": "0",
+      "downvotes": "0",
+      "categories": "ASIA|BUSINESS|REGULATION|CRYPTOCURRENCY",
+      "source_info": {
+        "name": "Cryptopolitan",
+        "img": "https://images.cryptocompare.com/news/default/cryptopolitan.png",
+        "lang": "EN"
+      },
+      "source": "cryptopolitan"
+    }
+  ],
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1794577620,
+    "time_range_start": "2026-11-13 13:47:00",
+    "time_range_end": "2026-11-13 14:47:00"
+  }
+}

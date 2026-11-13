@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261113_144700",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1794577620,
+    "time_range_start": "2026-11-13 13:47:00",
+    "time_range_end": "2026-11-13 14:47:00"
+  },
+  "total_articles": 20,
+  "unique_sources": 12,
+  "unique_categories": 23,
+  "unique_tags": 38,
+  "body_stats": {
+    "avg_length": 1463.9,
+    "min_length": 115,
+    "max_length": 5050
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-13 13:48:35",
+    "newest": "2026-11-13 14:41:23",
+    "time_span_minutes": 52.8
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "Cryptopolitan": 3,
+    "CoinOtag": 2,
+    "Kraken Blog": 1,
+    "Bitcoin.com": 1,
+    "BitcoinSistemi": 1,
+    "Crypto Potato": 1,
+    "CoinDesk": 1,
+    "TimesTabloid": 1,
+    "cryptonews": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 19,
+    "TRADING": 8,
+    "BUSINESS": 7,
+    "MARKET": 6,
+    "BTC": 6,
+    "REGULATION": 5,
+    "EXCHANGE": 4,
+    "MACROECONOMICS": 3,
+    "ETH": 3,
+    "BLOCKCHAIN": 2,
+    "ALTCOIN": 2,
+    "XRP": 2,
+    "ASIA": 2,
+    "TOKEN SALE": 1,
+    "MINING": 1
+  },
+  "top_tags": {
+    "News": 6,
+    "Bitcoin (BTC)": 3,
+    "Crypto News": 3,
+    "Kraken": 2,
+    "Megaspeed": 2,
+    "": 2,
+    "Stablecoins": 1,
+    "Thailand": 1,
+    "Asset Listings": 1,
+    "trading": 1,
+    "Security": 1,
+    "cybersecurity": 1,
+    "Italy": 1,
+    "Theft": 1,
+    "Wallets": 1
+  }
+}
