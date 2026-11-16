@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261116_161428",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1794842068,
+    "time_range_start": "2026-11-16 15:14:28",
+    "time_range_end": "2026-11-16 16:14:28"
+  },
+  "total_articles": 37,
+  "unique_sources": 17,
+  "unique_categories": 25,
+  "unique_tags": 93,
+  "body_stats": {
+    "avg_length": 3428.95,
+    "min_length": 121,
+    "max_length": 19001
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-16 15:14:30",
+    "newest": "2026-11-16 16:12:28",
+    "time_span_minutes": 57.97
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "Coinpaper": 5,
+    "Cryptopolitan": 4,
+    "Bitcoinist": 3,
+    "The Crypto Basic": 2,
+    "Bitcoin.com": 2,
+    "CoinDesk": 2,
+    "CoinOtag": 2,
+    "Seeking Alpha": 2,
+    "Bitcoin World": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 31,
+    "TRADING": 17,
+    "MARKET": 16,
+    "BTC": 11,
+    "BLOCKCHAIN": 10,
+    "BUSINESS": 9,
+    "REGULATION": 8,
+    "SOL": 5,
+    "TECHNOLOGY": 5,
+    "FIAT": 5,
+    "XRP": 4,
+    "ETH": 4,
+    "MACROECONOMICS": 4,
+    "EXCHANGE": 4,
+    "MINING": 3
+  },
+  "top_tags": {
+    "News": 13,
+    "Economy": 4,
+    "Crypto News": 4,
+    "Market": 3,
+    "Crypto Price Predictions": 3,
+    "Bitcoin": 3,
+    "Cryptocurrency": 2,
+    "Ripple (XRP)": 2,
+    "BTC": 2,
+    "MSTR": 2,
+    "STRC": 2,
+    "BTC-USD": 2,
+    "IBIT": 2,
+    "Regulation": 2,
+    "Security": 2
+  }
+}
