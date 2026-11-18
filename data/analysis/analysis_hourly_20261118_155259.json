@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261118_155259",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1795013579,
+    "time_range_start": "2026-11-18 14:52:59",
+    "time_range_end": "2026-11-18 15:52:59"
+  },
+  "total_articles": 36,
+  "unique_sources": 18,
+  "unique_categories": 26,
+  "unique_tags": 67,
+  "body_stats": {
+    "avg_length": 2249.11,
+    "min_length": 125,
+    "max_length": 6355
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-18 14:54:04",
+    "newest": "2026-11-18 15:48:46",
+    "time_span_minutes": 54.7
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "coinpedia": 4,
+    "CoinOtag": 4,
+    "Bitcoin World": 3,
+    "Coinpaper": 2,
+    "CoinDesk": 2,
+    "Cryptopolitan": 2,
+    "Invezz": 2,
+    "The Crypto Basic": 2,
+    "Finbold": 2
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 30,
+    "MARKET": 17,
+    "TRADING": 14,
+    "BTC": 12,
+    "XRP": 8,
+    "BUSINESS": 7,
+    "FIAT": 6,
+    "ETH": 5,
+    "WALLET": 5,
+    "ASIA": 5,
+    "EXCHANGE": 5,
+    "BLOCKCHAIN": 4,
+    "BNB": 4,
+    "MACROECONOMICS": 3,
+    "SECURITY INCIDENTS": 3
+  },
+  "top_tags": {
+    "News": 10,
+    "Crypto News": 5,
+    "Stock Market": 4,
+    "Bitcoin": 4,
+    "Crypto": 3,
+    "Short News": 3,
+    "Ripple (XRP)": 3,
+    "XRP": 3,
+    "Cryptocurrency News": 2,
+    "Finance": 2,
+    "Market": 2,
+    "Cryptocurrency news": 2,
+    "crypto": 2,
+    "cryptocurrency": 2,
+    "Cryptocurrency Market News": 1
+  }
+}
