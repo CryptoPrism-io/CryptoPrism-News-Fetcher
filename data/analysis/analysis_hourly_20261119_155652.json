@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261119_155652",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1795100212,
+    "time_range_start": "2026-11-19 14:56:52",
+    "time_range_end": "2026-11-19 15:56:52"
+  },
+  "total_articles": 30,
+  "unique_sources": 13,
+  "unique_categories": 27,
+  "unique_tags": 43,
+  "body_stats": {
+    "avg_length": 1548.5,
+    "min_length": 110,
+    "max_length": 4971
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-19 14:57:24",
+    "newest": "2026-11-19 15:55:57",
+    "time_span_minutes": 58.55
+  },
+  "top_sources": {
+    "CoinTurk News": 7,
+    "CoinOtag": 5,
+    "Coinpaper": 4,
+    "Bitcoin.com": 2,
+    "Forbes Digital Assets": 2,
+    "Cryptopolitan": 2,
+    "The Crypto Basic": 2,
+    "Decrypt": 1,
+    "coinpedia": 1,
+    "CoinDesk": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 21,
+    "BUSINESS": 12,
+    "BTC": 10,
+    "MARKET": 10,
+    "TRADING": 6,
+    "FIAT": 6,
+    "XRP": 4,
+    "DIGITAL ASSET TREASURY": 4,
+    "REGULATION": 4,
+    "MACROECONOMICS": 4,
+    "BLOCKCHAIN": 3,
+    "TECHNOLOGY": 3,
+    "MINING": 3,
+    "ASIA": 2,
+    "EXCHANGE": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "Crypto News": 6,
+    "Bitcoin (BTC)": 4,
+    "Forbes Digital Assets": 4,
+    "/digital-assets": 4,
+    "standard": 2,
+    "Ripple (XRP)": 2,
+    "Economy": 2,
+    "Market": 2,
+    "Finance": 2,
+    "Bitcoin ETF": 1,
+    "Anthropic": 1,
+    "ETF": 1,
+    "Business": 1,
+    "Stablecoin": 1
+  }
+}
