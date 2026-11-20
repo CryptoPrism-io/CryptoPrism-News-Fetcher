@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261120_154009",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1795185609,
+    "time_range_start": "2026-11-20 14:40:09",
+    "time_range_end": "2026-11-20 15:40:09"
+  },
+  "total_articles": 32,
+  "unique_sources": 15,
+  "unique_categories": 24,
+  "unique_tags": 71,
+  "body_stats": {
+    "avg_length": 2769.25,
+    "min_length": 75,
+    "max_length": 9292
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-20 14:40:17",
+    "newest": "2026-11-20 15:32:30",
+    "time_span_minutes": 52.22
+  },
+  "top_sources": {
+    "CoinTurk News": 6,
+    "CoinOtag": 4,
+    "The Crypto Basic": 3,
+    "Coinpaper": 3,
+    "Bitcoinist": 3,
+    "TimesTabloid": 2,
+    "Crypto Potato": 2,
+    "Bitcoin World": 2,
+    "Cointelegraph": 1,
+    "Forbes Digital Assets": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 24,
+    "MARKET": 18,
+    "TRADING": 15,
+    "BTC": 9,
+    "BUSINESS": 7,
+    "FIAT": 6,
+    "REGULATION": 6,
+    "XRP": 6,
+    "EXCHANGE": 6,
+    "MACROECONOMICS": 6,
+    "ASIA": 5,
+    "ETH": 5,
+    "BLOCKCHAIN": 4,
+    "BNB": 4,
+    "OTHER": 2
+  },
+  "top_tags": {
+    "News": 8,
+    "Crypto News": 6,
+    "Bitcoin": 3,
+    "Forbes Digital Assets": 2,
+    "/digital-assets": 2,
+    "Market": 2,
+    "XRP Price Prediction": 2,
+    "Latest News": 1,
+    "Money": 1,
+    "/money": 1,
+    "Fintech": 1,
+    "/fintech": 1,
+    "standard": 1,
+    "Bitcoin (BTC)": 1,
+    "Latest XRP (Ripple) News Today": 1
+  }
+}
