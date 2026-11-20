@@ -10,7 +10,8 @@ Backtested April 2026: +$142.39 (composite) vs -$39.81 (no regime)
 — a +$182.20 improvement (+457.7%).
 
 Usage:
-    python -m ml.models.regime --backfill       # backfill ML_REGIME table
+    python -m ml.models.regime --update         # scheduled: fill gaps, write today's row
+    python -m ml.models.regime --backfill       # rewrite all of ML_REGIME
     python -m ml.models.regime --check           # show current regime state
 """
 
@@ -19,6 +20,7 @@ import logging
 import os
 import sys
 from dataclasses import dataclass
+from datetime import date, datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
@@ -39,6 +41,25 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 REGIME_NAMES = ["bull_trend", "bear_trend", "range_bound", "high_vol"]
+
+# Rewrite this many days behind the newest row on each update, so a row stamped
+# before its candle landed gets replaced by the candle-based value. OHLCV only
+# fetches D-1, so a missed day stays missing until someone backfills it, which
+# can take weeks. The upsert is idempotent, so a wide window costs little.
+UPDATE_LOOKBACK_DAYS = 30
+
+# OHLCV candles are stamped D-1 23:59:59 and load around 06:00-07:30 UTC, so a
+# healthy feed can be two days behind early in the day. Older than that is a
+# dead feed.
+MAX_CANDLE_AGE_DAYS = 2
+
+# Same daily cadence as the candles. Past this the contrarian FGI component is
+# describing a market that has moved on.
+MAX_FGI_AGE_DAYS = 2
+
+
+class StaleMarketData(RuntimeError):
+    """The newest candle is too old to publish a regime for today."""
 
 
 @dataclass
@@ -228,6 +249,14 @@ def compute_market_breadth(conn, n_days: int = 730) -> pd.DataFrame:
     """, conn, params={"n_days": n_days})
 
 
+def warn_if_fgi_stale(fgi_df: pd.DataFrame, today: date) -> None:
+    """Log when the regime is about to use an old Fear & Greed reading."""
+    dates = fgi_df["date"].dropna()
+    newest = dates.max() if len(dates) > 0 else None
+    if newest is None or (today - newest).days > MAX_FGI_AGE_DAYS:
+        log.warning(f"Fear & Greed is stale: newest row is {newest}, today is {today}")
+
+
 def get_current_regime(conn=None) -> RegimeDecision:
     """Fetch latest market data and return current regime decision."""
     own_conn = conn is None
@@ -240,6 +269,8 @@ def get_current_regime(conn=None) -> RegimeDecision:
 
     if own_conn:
         conn.close()
+
+    warn_if_fgi_stale(fgi_df, datetime.now(timezone.utc).date())
 
     latest_btc = btc.iloc[-1]
     latest_fgi = float(fgi_df.iloc[-1]["fgi"]) if len(fgi_df) > 0 else 50.0
@@ -282,21 +313,29 @@ def upsert_regime(conn, rows: list[dict]):
     conn.commit()
 
 
-def backfill():
-    """Backfill ML_REGIME using composite regime detector."""
-    conn = get_db_conn()
+def regime_row(timestamp: pd.Timestamp, decision: RegimeDecision) -> dict:
+    """Map a decision onto ML_REGIME's columns.
 
-    btc = load_btc_features(conn)
-    fgi_df = load_fgi(conn)
-    breadth_df = compute_market_breadth(conn, n_days=730)
+    The trans_prob_* columns are left over from the HMM. They now hold the
+    composite score and the long/short size multipliers.
+    """
+    return {
+        "timestamp": timestamp,
+        "regime_state": decision.regime_state,
+        "confidence": decision.confidence,
+        "trans_prob_risk_on": decision.composite_score,
+        "trans_prob_risk_off": decision.long_size_mult,
+        "trans_prob_choppy": decision.short_size_mult,
+        "trans_prob_breakout": 0.0,
+    }
 
+
+def build_regime_rows(btc: pd.DataFrame, fgi_df: pd.DataFrame, breadth_df: pd.DataFrame) -> list[dict]:
+    """One regime row per BTC candle date, oldest first."""
     fgi_map = dict(zip(fgi_df["date"], fgi_df["fgi"]))
     breadth_map = dict(zip(breadth_df["date"], breadth_df["breadth"]))
 
     rows = []
-    from collections import Counter
-    dist = Counter()
-
     for _, r in btc.iterrows():
         d = r["date"]
         mom3 = float(r.get("mom_3d", 0) or 0)
@@ -311,25 +350,100 @@ def backfill():
         b = float(breadth_map.get(d, 0.5))
 
         decision = get_regime_decision(mom3, mom7, v7, v30, fg, b)
-        dist[decision.regime_state] += 1
+        rows.append(regime_row(pd.Timestamp(d, tz="UTC"), decision))
 
-        rows.append({
-            "timestamp": pd.Timestamp(d, tz="UTC"),
-            "regime_state": decision.regime_state,
-            "confidence": decision.confidence,
-            "trans_prob_risk_on": decision.composite_score,
-            "trans_prob_risk_off": decision.long_size_mult,
-            "trans_prob_choppy": decision.short_size_mult,
-            "trans_prob_breakout": 0.0,
-        })
+    return rows
 
+
+def load_regime_rows(conn) -> list[dict]:
+    """Build regime rows from the warehouse."""
+    return build_regime_rows(
+        load_btc_features(conn),
+        load_fgi(conn),
+        compute_market_breadth(conn, n_days=730),
+    )
+
+
+def plan_update(
+    history: list[dict],
+    current: RegimeDecision,
+    last_written: date | None,
+    today: date,
+) -> list[dict]:
+    """Pick the rows a scheduled run should write.
+
+    Candle-based rows from just before last_written onwards, plus a row dated
+    today holding the current decision. The newest candle is never today's, so
+    without that row ML_REGIME would always read a day old. A later run replaces
+    it with the candle-based value once that candle exists. A day that never
+    gets a candle keeps whatever row it has, and is named in a warning while it
+    is inside the refill window.
+    """
+    newest_candle = history[-1]["timestamp"].date() if history else None
+    if newest_candle is None or (today - newest_candle).days > MAX_CANDLE_AGE_DAYS:
+        raise StaleMarketData(f"Newest BTC candle is {newest_candle}, today is {today}")
+
+    since = history[0]["timestamp"].date()
+    if last_written is not None:
+        since = max(since, last_written - timedelta(days=UPDATE_LOOKBACK_DAYS))
+    rows = [r for r in history if r["timestamp"].date() >= since]
+
+    candle_dates = {r["timestamp"].date() for r in rows}
+    for offset in range((newest_candle - since).days):
+        day = since + timedelta(days=offset)
+        if day not in candle_dates:
+            log.warning(f"No BTC candle for {day}: ML_REGIME keeps any row it has for that date")
+
+    if newest_candle < today:
+        rows = rows + [regime_row(pd.Timestamp(today, tz="UTC"), current)]
+    return rows
+
+
+def last_written_date(conn) -> date | None:
+    """UTC date of the newest ML_REGIME row, or None if the table is empty."""
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT (MAX(timestamp) AT TIME ZONE 'UTC')::date
+            FROM "ML_REGIME"
+        """)
+        return cur.fetchone()[0]
+
+
+def update(conn=None):
+    """Scheduled writer: fill any gap in ML_REGIME and write today's row."""
+    own_conn = conn is None
+    if own_conn:
+        conn = get_db_conn()
+
+    rows = plan_update(
+        load_regime_rows(conn),
+        get_current_regime(conn),
+        last_written_date(conn),
+        datetime.now(timezone.utc).date(),
+    )
+    upsert_regime(conn, rows)
+
+    if own_conn:
+        conn.close()
+
+    latest = rows[-1]
+    log.info(
+        f"Wrote {len(rows)} ML_REGIME rows from {rows[0]['timestamp'].date()} "
+        f"to {latest['timestamp'].date()} (latest: {latest['regime_state']})"
+    )
+
+
+def backfill():
+    """Rewrite ML_REGIME from all available candles."""
+    conn = get_db_conn()
+    rows = load_regime_rows(conn)
     upsert_regime(conn, rows)
     conn.close()
 
     total = len(rows)
     log.info(f"Backfilled {total} composite regime rows to ML_REGIME")
     for state in REGIME_NAMES:
-        count = dist.get(state, 0)
+        count = sum(1 for r in rows if r["regime_state"] == state)
         pct = count / total * 100 if total > 0 else 0
         log.info(f"  {state}: {count:,} ({pct:.1f}%)")
 
@@ -353,13 +467,21 @@ def check_current():
     print()
 
 
-if __name__ == "__main__":
+def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="TRISHULA Composite Regime Detector")
+    parser.add_argument("--update", action="store_true", help="Fill gaps in ML_REGIME and write today's row")
     parser.add_argument("--backfill", action="store_true", help="Backfill ML_REGIME with composite regime")
     parser.add_argument("--check", action="store_true", help="Show current regime state")
+    return parser
+
+
+if __name__ == "__main__":
+    parser = build_parser()
     args = parser.parse_args()
 
-    if args.backfill:
+    if args.update:
+        update()
+    elif args.backfill:
         backfill()
     elif args.check:
         check_current()
