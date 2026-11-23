@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261123_183513",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1795455313,
+    "time_range_start": "2026-11-23 17:35:13",
+    "time_range_end": "2026-11-23 18:35:13"
+  },
+  "total_articles": 28,
+  "unique_sources": 15,
+  "unique_categories": 22,
+  "unique_tags": 43,
+  "body_stats": {
+    "avg_length": 1541.0,
+    "min_length": 135,
+    "max_length": 4989
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-23 17:35:28",
+    "newest": "2026-11-23 18:30:33",
+    "time_span_minutes": 55.08
+  },
+  "top_sources": {
+    "CoinTurk News": 9,
+    "Coinpaper": 3,
+    "Bitcoin.com": 2,
+    "CoinDesk": 2,
+    "Decrypt": 2,
+    "Crypto Potato": 1,
+    "Crypto Daily": 1,
+    "Cryptopolitan": 1,
+    "TimesTabloid": 1,
+    "cryptonews": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 19,
+    "BTC": 10,
+    "TRADING": 10,
+    "BUSINESS": 8,
+    "MARKET": 8,
+    "FIAT": 7,
+    "XRP": 5,
+    "ASIA": 5,
+    "REGULATION": 4,
+    "MACROECONOMICS": 4,
+    "EXCHANGE": 3,
+    "MINING": 2,
+    "OTHER": 2,
+    "TECHNOLOGY": 2,
+    "ZEC": 1
+  },
+  "top_tags": {
+    "News": 8,
+    "Finance": 3,
+    "Bitcoin (BTC)": 3,
+    "Cryptocurrency News": 3,
+    "Crypto News": 2,
+    "": 2,
+    "Economy": 2,
+    "Price Analysis": 2,
+    "Altcoin News": 1,
+    "American Bitcoin (ABTC)": 1,
+    "Solana (SOL)": 1,
+    "AA News": 1,
+    "Locals": 1,
+    "social": 1,
+    "Bitcoin (BTC) Price": 1
+  }
+}
