@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261125_172923",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1795624163,
+    "time_range_start": "2026-11-25 16:29:23",
+    "time_range_end": "2026-11-25 17:29:23"
+  },
+  "total_articles": 22,
+  "unique_sources": 14,
+  "unique_categories": 22,
+  "unique_tags": 36,
+  "body_stats": {
+    "avg_length": 1317.36,
+    "min_length": 129,
+    "max_length": 6022
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-25 16:29:55",
+    "newest": "2026-11-25 17:22:24",
+    "time_span_minutes": 52.48
+  },
+  "top_sources": {
+    "CoinTurk News": 5,
+    "Crypto Potato": 2,
+    "Cointelegraph": 2,
+    "Decrypt": 2,
+    "CoinOtag": 2,
+    "Bitcoin.com": 1,
+    "BitcoinSistemi": 1,
+    "CryptoCoin.News": 1,
+    "TimesTabloid": 1,
+    "AMB Crypto": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 20,
+    "BTC": 11,
+    "MARKET": 8,
+    "BUSINESS": 6,
+    "MACROECONOMICS": 5,
+    "REGULATION": 3,
+    "FIAT": 3,
+    "XRP": 3,
+    "TRADING": 3,
+    "MINING": 2,
+    "EXCHANGE": 2,
+    "TECHNOLOGY": 2,
+    "ETH": 1,
+    "SPONSORED": 1,
+    "OTHER": 1
+  },
+  "top_tags": {
+    "Crypto News": 4,
+    "News": 4,
+    "Latest News": 2,
+    "Bitcoin (BTC)": 2,
+    "": 2,
+    "Ethereum (ETH)": 1,
+    "AA News": 1,
+    "Stablecoins": 1,
+    "Ukraine": 1,
+    "Law and Order": 1,
+    "Featured": 1,
+    "Ripple XRP": 1,
+    "Turkey": 1,
+    "Altcoin": 1,
+    "Regulation News": 1
+  }
+}
