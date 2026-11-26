@@ -1,0 +1,70 @@
+{
+  "timestamp": "20261126_171103",
+  "fetch_params": {
+    "hours_back": 1,
+    "timestamp_threshold": 1795709463,
+    "time_range_start": "2026-11-26 16:11:03",
+    "time_range_end": "2026-11-26 17:11:03"
+  },
+  "total_articles": 26,
+  "unique_sources": 14,
+  "unique_categories": 25,
+  "unique_tags": 45,
+  "body_stats": {
+    "avg_length": 2237.65,
+    "min_length": 99,
+    "max_length": 11241
+  },
+  "image_percentage": 100.0,
+  "date_range": {
+    "oldest": "2026-11-26 16:11:31",
+    "newest": "2026-11-26 17:09:17",
+    "time_span_minutes": 57.77
+  },
+  "top_sources": {
+    "Coinpaper": 6,
+    "CoinOtag": 3,
+    "CoinTurk News": 3,
+    "Crypto Daily": 2,
+    "Bitcoin.com": 2,
+    "Crypto Potato": 2,
+    "CryptoCoin.News": 1,
+    "TimesTabloid": 1,
+    "AMB Crypto": 1,
+    "CoinDesk": 1
+  },
+  "top_categories": {
+    "CRYPTOCURRENCY": 20,
+    "TRADING": 15,
+    "BUSINESS": 10,
+    "MARKET": 10,
+    "BTC": 8,
+    "MACROECONOMICS": 6,
+    "TECHNOLOGY": 4,
+    "REGULATION": 3,
+    "XRP": 3,
+    "FIAT": 3,
+    "MINING": 2,
+    "SOL": 2,
+    "ETH": 2,
+    "DIGITAL ASSET TREASURY": 1,
+    "EXCHANGE": 1
+  },
+  "top_tags": {
+    "News": 10,
+    "Crypto News": 5,
+    "Technology": 3,
+    "Cryptocurrency": 2,
+    "Economy": 2,
+    "": 2,
+    "Cryptocurrency News": 2,
+    "Breaking News": 1,
+    "Scams": 1,
+    "lawsuit": 1,
+    "New York": 1,
+    "NovaTech": 1,
+    "ponzi scheme": 1,
+    "Regulation & Legal": 1,
+    "DOJ": 1
+  }
+}
